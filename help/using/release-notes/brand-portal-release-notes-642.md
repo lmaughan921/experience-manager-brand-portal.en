@@ -52,7 +52,7 @@ This release includes the following enhancements:
 * Added six new configurations to give greater control to organizations and enable them to cater to individual business needs.
 * The UI for configuring oAuth integrations is now hosted in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/).
 
-Get insights into enhancements at the [What's New](../using/whats-new.md) page.
+Get insights into enhancements at the [What's New](/whats-new.md) page.
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 

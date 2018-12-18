@@ -4,20 +4,10 @@ seo-title: Browse assets on Brand Portal
 description: null
 seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 91a60353-f612-437b-8ad0-24beaa522d77
-acrolinxdate: 2018-06-05T02 54 55.755-0400
-acrolinxlastcheckedby: mgulati
-acrolinxpagestatus: yellow
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/browse_assets_brand_portal_krs_workflow_a6ce1fdff5e6a85b_6_report.xml
-acrolinxsentences: 72
-acrolinxwords: 1007
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: 48c9936f-03c8-407a-b663-1a5c4d2bbf14
-isreadyforlocalization: false
-index: y
-internal: n
-snippet: y
 ---
 
 # Browsing assets on Brand Portal{#browsing-assets-on-brand-portal}
@@ -26,7 +16,11 @@ AEM Assets Brand Portal provides various capabilities and user interface element
 
 AEM logo in the AEM toolbar at the top facilitates admin users to access administrative tools panel.
 
-![](assets/aemlogo.png) ![](assets/Admin-tools-panel-2.png) ![](assets/BP_subheader.PNG)
+![](assets/aemlogo.png) 
+
+![](assets/Admin-tools-panel-2.png) 
+
+![](assets/BP_subheader.PNG)
 
 Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 
@@ -51,11 +45,11 @@ You can view, navigate through, and select (for further action) your resources w
 Card view displays information cards for each item at the current level. These cards provide following details:
 
 * A visual representation of the asset/folder.
-* Type 
+* Type
 * Title
 * Name
 * Date and time when asset was published to Brand Portal from AEM
-* Size 
+* Size
 * Dimensions
 
 You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21).

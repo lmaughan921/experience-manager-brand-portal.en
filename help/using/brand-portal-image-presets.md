@@ -28,7 +28,7 @@ An image preset is used to generate dynamic renditions of images that can be pre
 
 >[!NOTE]
 >
->When downloading images and their renditions, there is no option to choose from the existing presets. Instead, you can specify the properties of a custom image preset. For more information, see [Apply image presets when downloading images](../using/brand-portal-image-presets.md#main-pars_text_1403412644).
+>When downloading images and their renditions, there is no option to choose from the existing presets. Instead, you can specify the properties of a custom image preset. For more information, see [Apply image presets when downloading images](/brand-portal-image-presets.md#main-pars_text_1403412644).
 
 For more information about the parameters required while creating image presets, see [Managing Image Presets](https://docs.adobe.com/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets.html).
 

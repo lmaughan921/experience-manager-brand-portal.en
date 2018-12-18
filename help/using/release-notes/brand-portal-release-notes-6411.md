@@ -35,7 +35,7 @@ Know about critical issues fixed and known issues in the Adobe Experience Manage
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-Read on for release notes on critical issues fixed and known issues in Brand Portal 6.4.1.1. For insights into what changed in Brand Portal over recent releases, see [What's New in Brand Portal](../using/whats-new.md).
+Read on for release notes on critical issues fixed and known issues in Brand Portal 6.4.1.1. For insights into what changed in Brand Portal over recent releases, see [What's New in Brand Portal](/whats-new.md).
 
 ## What's New in 6.4.1.1 {#what-s-new-in}
 

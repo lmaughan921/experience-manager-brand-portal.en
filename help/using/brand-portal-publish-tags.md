@@ -4,27 +4,17 @@ seo-title: Publish tags to Brand Portal
 description: Learn how to publish tags from AEM Assets to Brand Portal.
 seo-description: Learn how to publish tags from AEM Assets to Brand Portal.
 uuid: 88b32648-54b6-44c6-8fb7-bb24af827566
-acrolinxdate: 2018-08-27T05 34 46.230-0400
-acrolinxlastcheckedby: mgulati
-acrolinxpagestatus: green
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/brand_portal_publish_tags_krs_workflow_a9d8be2d910fe9fc_378_report.xml
-acrolinxsentences: 48
-acrolinxwords: 592
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: e8421d25-18e3-41b4-bf98-a152db81470c
-isreadyforlocalization: false
-index: y
-internal: n
-snippet: y
 ---
 
 # Publish tags to Brand Portal{#publish-tags-to-brand-portal}
 
 Learn how to publish tags from AEM Assets to Brand Portal.
 
-Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in AEM Assets, refer [use tags to organize assets](/content/help/en/experience-manager/6-4/assets/using/organize-assets#Usetagstoorganizeassets).
+Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/organize-assets#Usetagstoorganizeassets.html).
 
 Tags (associated with assets and collections in AEM) are auto-published to Brand Portal when the assets (and collections) with associated tags are published to Brand Portal. The published tags are helpful in enabling the searches to find the associated assets.
 
@@ -44,25 +34,20 @@ To create tags on AEM, publish the tags on Brand Portal, and associate the tags 
 
 1. Select **Tools**
 
-   2. Select **General**
-
-   3. Select **Tagging**
+   1. Select **General**
+   1. Select **Tagging**
 
 1. Select **Create** and then select **Create Tag **option.
-1. 
-   Specify:
+1. Specify:
 
-    * **Title** 
-      *(required) *A display title for the tag.
-    
-    * **Name** 
-      *(required) *A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](/content/help/en/experience-manager/6-4/sites/developing/using/framework#TagID).
-    
-    * **Description** 
-      *(optional) *A description of the tag.  
-    
-    * **Tag Path** 
-      JCR path of the tag.
+   * **Title**
+     *(required) *A display title for the tag.
+   * **Name**
+     *(required) *A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/framework.html#TagID).
+   * **Description**
+     *(optional) *A description of the tag.  
+   * **Tag Path**
+     JCR path of the tag.
 
 1. Select **Submit** to create the tag.
 
@@ -74,7 +59,7 @@ To create tags on AEM, publish the tags on Brand Portal, and associate the tags 
 
 1. **Attach the tag to an asset (or collection)**.
 
-   Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](/content/help/en/experience-manager/6-4/assets/using/organize-assets#Usetagstoorganizeassets).
+   Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 1. **Publish assets (or collections) to Brand Portal**.  
    When you publish an asset (or collection) to Brand Portal, the attached tag is also available on Brand Portal.
@@ -96,4 +81,3 @@ To elevate an asset for a search keyword, follow these steps:
 1. Save the changes.
 1. Publish the asset to Brand Portal.
 1. Log in to Brand Portal. View **Advanced** tab in **Properties **section of the asset. Note that the Search Promote keyword is also visible in the Properties of that asset.
-

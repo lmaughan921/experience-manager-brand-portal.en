@@ -10,13 +10,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: visits
 discoiquuid: eb439b60-7dfd-42e3-8040-e52ac83cfc34
-preview: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Browse asset properties and pages{#browse-asset-properties-and-pages}
 
 Learn how to browse asset properties and pages.
-

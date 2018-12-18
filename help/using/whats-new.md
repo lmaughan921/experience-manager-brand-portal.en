@@ -34,7 +34,7 @@ Brand Portal 6.4.3 release includes enhancements to enrich the customer experien
 ### Folder hierarchy navigation for non-admins {#folder-hierarchy-navigation-for-non-admins}
 
 Administrators can now configure how the folders are shown to non-admin users (Editors, Viewers, and Guest Users) on login.   
-[Enable Folder Hierarchy](../using/brand-portal-general-configuration.md) configuration is added in **General Settings**, in the admin tools panel. If the configuration is:
+[Enable Folder Hierarchy](/brand-portal-general-configuration.md) configuration is added in **General Settings**, in the admin tools panel. If the configuration is:
 
 * **enabled**, the folder tree starting from the root folder is visible to non-admin users. Thus, granting them a navigation experience similar to administrators.
 * **disabled**, only the shared folders are displayed on the landing page.
@@ -43,7 +43,7 @@ Administrators can now configure how the folders are shown to non-admin users (E
 
 **The use case**
 
-The [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md) functionality (when enabled) helps you differentiate the folders with the same names shared from different hierarchies. On logging in, non-admin users now see the virtual parent (and ancestor) folders of the shared folders.
+The [Enable Folder Hierarchy](/brand-portal-general-configuration.md) functionality (when enabled) helps you differentiate the folders with the same names shared from different hierarchies. On logging in, non-admin users now see the virtual parent (and ancestor) folders of the shared folders.
 
 ![](assets/Disabled-Folder-Hierarchy1.png)  ![](assets/Enabled-Hierarchy1.png)
 
@@ -138,7 +138,7 @@ Brand Portal users can leverage IBM Aspera Connect based fast downloads to get s
 
 ![](assets/Donload-Assets-Dialog.png)
 
-To enable IBM Aspera based accelerated download for the organization, administrators **Enable Download Acceleration **option (which is disabled by default) from ** [General Settings](../using/whats-new.md#main-pars_multi_column_1138310319)** in the administrative tools panel. To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md#main-pars_header).
+To enable IBM Aspera based accelerated download for the organization, administrators **Enable Download Acceleration **option (which is disabled by default) from ** [General Settings](/whats-new.md#main-pars_multi_column_1138310319)** in the administrative tools panel. To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer [Guide to accelerate downloads from Brand Portal](/accelerated-download.md#main-pars_header).
 
 ### User Logins Report {#user-logins-report}
 
@@ -313,7 +313,7 @@ Users can now request access to Brand Portal using the new** **need access capab
 
 Depending on whether users have an Adobe ID or need to create an Adobe ID, users can follow the appropriate workflow to submit a request. Brand Portal product administrators receive such requests in their notification area and grant access through Adobe Admin Console.
 
-For more information, see [Request access to Brand Portal](../using/brand-portal.md#RequestaccesstoBrandPortal).
+For more information, see [Request access to Brand Portal](/brand-portal.md#RequestaccesstoBrandPortal).
 
 ### Enhancement in the assets downloaded report {#enhancement-in-the-assets-downloaded-report}
 
@@ -321,7 +321,7 @@ The assets downloaded report now includes the asset download count per user with
 
 ![](assets/reports_download_downloaded_by.png)
 
-For more information, see Steps 3 and 6 in [Create and manage additional reports](../using/brand-portal-reports.md#Createandmanageadditionalreports).
+For more information, see Steps 3 and 6 in [Create and manage additional reports](/brand-portal-reports.md#Createandmanageadditionalreports).
 
 ### Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -337,7 +337,7 @@ While downloading licensed assets using the link share feature, you are now prom
 
 ![](assets/copyright_management.png)
 
-For more information, see Step 12 in [Share assets as a link](../using/brand-portal-link-share.md#Shareassetsasalink).
+For more information, see Step 12 in [Share assets as a link](/brand-portal-link-share.md#Shareassetsasalink).
 
 ### User picker enhancement {#user-picker-enhancement}
 

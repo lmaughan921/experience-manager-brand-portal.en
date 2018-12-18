@@ -49,7 +49,7 @@ Additionally, **Path Browser** allows searching of assets in a specific director
 
 ![](assets/File-type-Search.png)
 
-To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
+To apply filters to your search, using the available [search facets](/brand-portal-search-facets.md):
 
 1. To apply filters to your recent search, click the overlay icon and select **Filter**.
 

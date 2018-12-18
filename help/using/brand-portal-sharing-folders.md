@@ -4,20 +4,10 @@ seo-title: Share folders
 description: null
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured AEM Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with AEM instance, and need to be shared with them.
 uuid: 3f336194-f49f-4638-9e13-102cc1a1a1e4
-acrolinxdate: 2017-11-28T04 13 26.462-0500
-acrolinxlastcheckedby: bdhar
-acrolinxpagestatus: green
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/brand_portal_sharing_folders_krs_workflow_07d7daef51a52015_854_report.xml
-acrolinxsentences: 55
-acrolinxwords: 603
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f978a6c8-5627-4726-a722-c12a2c3fad95
-isreadyforlocalization: false
-index: y
-internal: n
-snippet: y
 ---
 
 # Share folders{#share-folders}
@@ -28,7 +18,7 @@ Assets need to be published to Brand Portal from a pre-configured AEM Author ins
 
 The following describes the folder share workflow and user access:
 
-* By default, all the folders published from AEM Assets to Brand Portal are visible only to the Brand Portal Administrator, unless marked as public while configuring replication. 
+* By default, all the folders published from AEM Assets to Brand Portal are visible only to the Brand Portal Administrator, unless marked as public while configuring replication.
 * The Administrator uses the **Folder Properties** console to share a folder with selective users or groups. Only those users or groups with whom the folder is shared can see the folder after they log in to Brand Portal. The folder is not visible to other users.
 * The Administrator can also choose to make a folder public through the **Public Folder** check box in the **Folder Properties** console. A public folder is visible to all the users.
 
@@ -56,42 +46,14 @@ If the **Public Folder Publish** option is disabled, administrators need to spec
 
 The following matrix discusses the access rights and rights to share/unshare assets for various user roles:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td> </td> 
-   <td>Access to all folders published from AEM Assets to Brand Portal</td> 
-   <td>Access to shared folders</td> 
-   <td>Share/unshare folder rights</td> 
-  </tr>
-  <tr>
-   <td>Administrator</td> 
-   <td>Yes</td> 
-   <td>Yes<br /> </td> 
-   <td>Yes<br /> </td> 
-  </tr>
-  <tr>
-   <td>Editor</td> 
-   <td>No*</td> 
-   <td>Yes, only if shared with them or with the group to which they belong</td> 
-   <td>Yes, only for the folders shared with them or with the group to which they belong<br /> </td> 
-  </tr>
-  <tr>
-   <td>Viewer</td> 
-   <td>No*</td> 
-   <td>Yes, only if shared with them or with the group to which they belong<br /> </td> 
-   <td>No<br /> <br /> </td> 
-  </tr>
-  <tr>
-   <td>Guest User</td> 
-   <td>No*</td> 
-   <td>Yes, only if shared with them or with the group to which they belong</td> 
-   <td>No</td> 
-  </tr>
- </tbody>
-</table>
+||Access to all folders published from AEM Assets to Brand Portal|Access to shared folders|Share or unshare folder rights|
+|--- |--- |--- |--- |
+|Administrator|Yes|Yes|Yes|
+|Editor|No*|Yes, only if shared with them or with the group to which they belong|Yes, only for the folders shared with them or with the group to which they belong|
+|Viewer|No*|Yes, only if shared with them or with the group to which they belong|No|
+|Guest User|No*|Yes, only if shared with them or with the group to which they belong|No|
 
-*&#42;By default, the **Public Folder Publish** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
+*By default, the **Public Folder Publish** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
 
 ### Non-admin user access to shared folders {#non-admin-user-access-to-shared-folders}
 
@@ -125,7 +87,7 @@ To share a folder with users on Brand Portal, follow these steps:
 
    ![](assets/SelectorRail-1.png)
 
-1. From the siderail on the left, select **Files**.
+1. From the side rail on the left, select **Files**.
 
    ![](assets/access_files.PNG)
 
@@ -174,4 +136,3 @@ To unshare a previously shared folder, follow these steps:
    Click **Save**.
 
 1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The folder is no longer available in the Brand Portal interface for the user.
-

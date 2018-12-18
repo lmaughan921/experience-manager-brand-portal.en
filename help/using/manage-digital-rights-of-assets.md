@@ -76,7 +76,7 @@ For more information about link sharing, refer to [Share assets as a link](/usin
 
 ## Licensed Assets {#licensed-assets}
 
-Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#main-pars_text_1982245382).
+Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](/manage-digital-rights-of-assets.md#main-pars_text_1982245382).
 
 License-protected assets have [license agreement attached](/content/help/en/experience-manager/6-4/assets/using/drm#main-pars_text) to them, which is done by setting asset's [metadata property](/content/help/en/experience-manager/6-4/assets/using/drm#main-pars_text) in AEM Assets.
 
@@ -96,4 +96,4 @@ Administrators can generate and download a report listing all the assets expired
 
 ![](assets/Assets-expired.png)
 
-For more information about the reports feature, refer [Work with reports](../using/brand-portal-reports.md#Createandmanageadditionalreports).
+For more information about the reports feature, refer [Work with reports](/brand-portal-reports.md#Createandmanageadditionalreports).

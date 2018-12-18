@@ -51,7 +51,7 @@ This release includes the following enhancements:
 * Zip download limit for link share has increased.
 * Optimized admin tools for enhanced administrator experience.
 
-Get insights into enhancements at the [What's New](../using/whats-new.md) page.
+Get insights into enhancements at the [What's New](/whats-new.md) page.
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 

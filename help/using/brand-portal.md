@@ -14,12 +14,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: d8f10ad5-5a4e-4d57-8093-46ca2b3f3ea2
-isoveriview: true
-isreadyforlocalization: false
-issectionnavparent: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of AEM Assets Brand Portal{#overview-of-aem-assets-brand-portal}
@@ -52,77 +46,14 @@ Brand Portal supports various user personas that include the following roles:
 
 The following table lists the tasks that users in these roles can perform:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td valign="top" width="104"><p> </p> </td> 
-   <td valign="top" width="104"><p><strong>Browse</strong></p> </td> 
-   <td valign="top" width="104"><p><strong>Search </strong></p> </td> 
-   <td valign="top" width="104"><p><strong>Download</strong></p> </td> 
-   <td valign="top" width="104"><p><strong>Share folders</strong></p> </td> 
-   <td><strong>Share a collection</strong></td> 
-   <td><strong>Share assets as a 
-     <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Grammar multiReplace" data-gr-id="5" id="5">
-      link
-     </g></strong></td> 
-   <td valign="top" width="104"><p><strong>Access to Admin Tools</strong></p> </td> 
-  </tr>
-  <tr>
-   <td><strong>Guest user</strong></td> 
-   <td style="text-align: left;">✓<sup>*</sup></td> 
-   <td style="text-align: left;">✓<sup><sub>*</sub></sup></td> 
-   <td style="text-align: left;">✓<sup>*</sup></td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_139 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="139" id="139">
-     x
-    </g></td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_139 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del" data-gr-id="139" id="139">
-     x
-    </g></td> 
-  </tr>
-  <tr>
-   <td valign="top" width="104"><p style="text-align: left;"><strong>Viewer</strong></p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">x</p> </td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="8" id="8">
-     x
-    </g></td> 
-   <td valign="top" width="104"><p style="text-align: left;">
-     <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del" data-gr-id="8" id="8">
-      x
-     </g><br /> </p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="104"><p style="text-align: left;"><strong>Editor</strong></p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td style="text-align: left;">✓</td> 
-   <td style="text-align: left;">✓</td> 
-   <td valign="top" width="104"><p style="text-align: left;">x</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="104"><p style="text-align: left;"><strong>Administrator</strong></p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td style="text-align: left;">✓</td> 
-   <td style="text-align: left;">✓</td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-  </tr>
- </tbody>
-</table>
+||Browse|Search|Download|Share folders|Share a collection|Share assets as a link|Access to Admin Tools|
+|--- |--- |--- |--- |--- |--- |--- |--- |
+|Guest user|✓*i*|✓*i*|✓*i*|x|x|x|x|
+|Viewer|✓|✓|✓|x|x|x|x|
+|Editor|✓|✓|✓|✓|✓|✓|x|
+|Administrator|✓|✓|✓|✓|✓|✓|✓|
 
-&#42; Guest users can browse, access, and search assets in public folders and collections only.
+***i*** *Guest users can browse, access, and search assets in public folders and collections only*.
 
 ## Guest user {#guest-user}
 
@@ -130,23 +61,18 @@ Any user having limited access to assets on Brand Portal without undergoing auth
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
-[Browse and access public assets](../using/browse-folders-and-collections.md)
-
-[Search public assets](../using/brand-portal-searching.md)
-
-[Download public assets](../using/brand-portal-download-users.md)
-
-[Add assets to lightbox](../using/brand-portal-light-box.md#main-pars_title)
+* [Browse and access public assets](/browse-folders-and-collections.md)
+* [Search public assets](/brand-portal-searching.md)
+* [Download public assets](/brand-portal-download-users.md)
+* [Add assets to lightbox](/brand-portal-light-box.md#main-pars_title)
 
 ## Viewer {#viewer}
 
 A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-[Browse assets](../using/browse-folders-and-collections.md)
-
-[Search for assets](../using/brand-portal-searching.md)
-
-[Download assets](../using/brand-portal-download-users.md)
+* [Browse assets](/browse-folders-and-collections.md)
+* [Search for assets](/brand-portal-searching.md)
+* [Download assets](/brand-portal-download-users.md)
 
 ## Editor {#editor}
 
@@ -154,11 +80,9 @@ A user with the role of Editor can perform all tasks that a Viewer can perform. 
 
 Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
-[Share folders](../using/brand-portal-sharing-folders.md)
-
-[Share a collection](../using/brand-portal-share-collection.md)
-
-[Share assets as a link](../using/brand-portal-link-share.md)
+* [Share folders](/brand-portal-sharing-folders.md)
+* [Share a collection](/brand-portal-share-collection.md)
+* [Share assets as a link](/brand-portal-link-share.md)
 
 ## Administrator {#administrator}
 
@@ -166,32 +90,27 @@ An administrator includes a user marked as system administrator or Brand Portal 
 
 An administrator can perform all tasks that an Editor can perform and the following additional tasks:
 
-[Manage users, groups, and user roles](../using/brand-portal-adding-users.md)
-
-[Customize wallpaper, page headers, and emails](../using/brand-portal-branding.md)
-
-[Use custom search facets](../using/brand-portal-search-facets.md)
-
-[Use the metadata schema form](../using/brand-portal-metadata-schemas.md)
-
-[Apply image presets or dynamic renditions](../using/brand-portal-image-presets.md)
-
-[Work with reports](../using/brand-portal-reports.md)
+* [Manage users, groups, and user roles](/brand-portal-adding-users.md)
+* [Customize wallpaper, page headers, and emails](/brand-portal-branding.md)
+* [Use custom search facets](/brand-portal-search-facets.md)
+* [Use the metadata schema form](/brand-portal-metadata-schemas.md)
+* [Apply image presets or dynamic renditions](/brand-portal-image-presets.md)
+* [Work with reports](/brand-portal-reports.md)
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
-[Configure AEM Assets integration with Brand Portal](/content/help/en/experience-manager/6-2/assets/using/configuring-assets-brandportal-integration)
+[Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-2/assets/using/configuring-assets-brandportal-integration.html)
 
-[Publish folders to Brand Portal](/content/help/en/experience-manager/6-2/assets/using/brand-portal-publish-folder)
+[Publish folders to Brand Portal](https://helps.adobe.com/experience-manager/6-2/assets/using/brand-portal-publish-folder.html)
 
-[Publish collections to Brand Portal](/content/help/en/experience-manager/6-2/assets/using/brand-portal-publish-collection)
+[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-2/assets/using/brand-portal-publish-collection.html)
 
 ## Tenant alias for portal url {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
 
-However, AEM Author instance can be [configured](/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 >[!NOTE]
 >
@@ -215,17 +134,17 @@ To request access, do the following:
 
    In the **Request Access** page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
 
-    * Scenario 1: If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
+   * Scenario 1: If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
 
    ![](assets/BPlogin_request_access_2.png)
 
-   The **Sign in** page opens. Provide your Adobe ID credentials and click **Sign in**. 
+   The **Sign in** page opens. Provide your Adobe ID credentials and click **Sign in**.
 
    ![](assets/BPlogin_request_access_3.png)
 
    You are redirected to the **Request Access** page.
 
-    * Scenario 2: If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the** Request Access** page.
+   * Scenario 2: If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the** Request Access** page.
 
    ![](assets/bplogin_request_access21.png)
 
@@ -255,7 +174,7 @@ To request access, do the following:
 
    ![](assets/BPlogin_request_access_8.png)
 
-   You are redirected to the [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](../using/brand-portal-adding-users.md#Addauser) (follow Steps 4-7 in the procedure to add a user).
+   You are redirected to the [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](/brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -267,10 +186,11 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-[What's new](../using/whats-new.md) [Release Notes](../release-notes/brand-portal-release-notes-642.md) [Supported file formats](../using/brand-portal-supported-formats.md)
+* [What's new](/whats-new.md)
+* [Release Notes](/release-notes/brand-portal-release-notes-642.md) 
+* [Supported file formats](/brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 
-[Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-
-[AEM Forums](http://www.adobe.com/go/aod_forums_en)
+* [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [AEM Forums](http://www.adobe.com/go/aod_forums_en)

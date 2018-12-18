@@ -62,16 +62,16 @@ To enable/disable each of these configurations:
 
 ## Allow public collections creation by non-admins {#allow-public-collections-creation-by-non-admins}
 
-[Allow public collections creation](../using/brand-portal-share-collection.md#main-pars_text_1915052376) configuration controls whether non-administrators can create public collections on Brand Portal. The configuration is enabled by default. By disabling the configuration organizations can prevent having numerous public collections on their portal so that system space can be saved.
+[Allow public collections creation](/brand-portal-share-collection.md#main-pars_text_1915052376) configuration controls whether non-administrators can create public collections on Brand Portal. The configuration is enabled by default. By disabling the configuration organizations can prevent having numerous public collections on their portal so that system space can be saved.
 
 ## Allow public smart collections creation by non-admins {#allow-public-smart-collections-creation-by-non-admins}
 
-[Allow public smart collections creation](../using/brand-portal-searching.md#main-pars_header_500620467) configuration controls whether non-administrators can save their searches as smart collections and make them public for that tenant. The configuration is enabled by default. By disabling the configuration organizations can prevent having a huge number of public smart collections created by non-admin users on organization's Brand Portal.
+[Allow public smart collections creation](/brand-portal-searching.md#main-pars_header_500620467) configuration controls whether non-administrators can save their searches as smart collections and make them public for that tenant. The configuration is enabled by default. By disabling the configuration organizations can prevent having a huge number of public smart collections created by non-admin users on organization's Brand Portal.
 
 ## Allow download acceleration {#allow-download-acceleration}
 
-[Allow download acceleration](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+[Allow download acceleration](/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
 
 ## Enable Folder Hierarchy {#enable-folder-hierarchy}
 
-[Enable Folder Hierarchy](../using/brand-portal-sharing-folders.md#main-pars_header_376109647) configuration allows the administrators to control how the non-admin users (Editors, Viewers, and Guest Users) see the shared folders after logging in.
+[Enable Folder Hierarchy](/brand-portal-sharing-folders.md#main-pars_header_376109647) configuration allows the administrators to control how the non-admin users (Editors, Viewers, and Guest Users) see the shared folders after logging in.

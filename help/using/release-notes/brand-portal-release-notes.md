@@ -53,9 +53,9 @@ This release includes the following enhancements:
 * Non-admin users (Editors, Viewers, Guest users) can view the shared folders organized in the respective parent directory.
 * Path Browser predicate introduced in Search Form to allow searching of assets in a specific directory using the search filter on Brand Portal.
 * A configuration has been provided to set up Dynamic Media image server settings.
-* [Download link](../using/brand-portal-download-users.md#main-pars_procedure) on email notification expires after 45 days.
+* [Download link](/brand-portal-download-users.md#main-pars_procedure) on email notification expires after 45 days.
 
-Get insights into enhancements at the [What's New](../using/whats-new.md) page.
+Get insights into enhancements at the [What's New](/whats-new.md) page.
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 

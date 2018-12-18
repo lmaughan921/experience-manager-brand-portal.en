@@ -23,7 +23,7 @@ snippet: y
 
 # Dynamic video support on Brand Portal{#dynamic-video-support-on-brand-portal}
 
-Brand Portal allows previewing, playing, and downloading videos from the portal and shared links. Also, you can play Dynamic Media encodes of the video assets on asset details page, and download the encodes from the portal, and shared links. To enable preview, play, and download of video assets (published from AEM Author instance) adaptively from the cloud on Brand Portal, you need to set up the appropriate [Dynamic Media configurations](../using/dynamic-video-brand-portal.md#main-pars_header) in Video configurations page.
+Brand Portal allows previewing, playing, and downloading videos from the portal and shared links. Also, you can play Dynamic Media encodes of the video assets on asset details page, and download the encodes from the portal, and shared links. To enable preview, play, and download of video assets (published from AEM Author instance) adaptively from the cloud on Brand Portal, you need to set up the appropriate [Dynamic Media configurations](/dynamic-video-brand-portal.md#main-pars_header) in Video configurations page.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Brand Portal allows previewing, playing, and downloading videos from the portal 
 
 * AEM Author instance is set up on [Dynamic Media Hybrid mode](/content/help/en/experience-manager/6-4/assets/using/config-dynamic).
 * Video assets are published from AEM Author instance to Brand Portal.
-* [Dynamic Media configurations](../using/dynamic-video-brand-portal.md#main-pars_header) are set up on Brand Portal.
+* [Dynamic Media configurations](/dynamic-video-brand-portal.md#main-pars_header) are set up on Brand Portal.
 
 ## How are dynamic videos played? {#how-are-dynamic-videos-played}
 

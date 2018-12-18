@@ -46,7 +46,7 @@ Product profiles in Admin Console are used to create groups in Brand Portal so t
 >
 >To create groups in Brand Portal, from Adobe Admin Console, use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**.
 
-1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](../using/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
+1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
 1. From the toolbar at the top, click **Products**. 
 1. In the **Products** page, **Product Profiles** is selected by default. Click **New Profile**. 
 
@@ -64,7 +64,7 @@ Product profiles in Admin Console are used to create groups in Brand Portal so t
 
 Brand Portal administrators can delete existing groups in the AEM Brand Portal product.
 
-1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](../using/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
+1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
 1. In the **Product Details** page, select the check boxes to the left of the product profile name and click **Delete Profile**.
 1. In the confirmation dialog box, click **Delete Profile**.
 
@@ -72,7 +72,7 @@ Brand Portal administrators can delete existing groups in the AEM Brand Portal p
 
 To add users to a Brand Portal group, add them to the corresponding product profile in Admin Console. You can add users individually or in bulk.
 
-1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](../using/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
+1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
 1. From the toolbar at the top, click **Products**. 
 1. In the **Products** page, **Product Profiles** is selected by default. Open the product profile to which you want to add a user, for example, **Sales group**.
 
@@ -102,7 +102,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
     * Click **Upload**.
 
-   If you added users to the default product profile, that is, Assets Brand Portal, a welcome email is sent to the email ID of the users you added. The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+   If you added users to the default product profile, that is, Assets Brand Portal, a welcome email is sent to the email ID of the users you added. The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](/brand-portal-onboarding.md).
 
    Users added to a custom or a new product profile do not receive email notifications.
 

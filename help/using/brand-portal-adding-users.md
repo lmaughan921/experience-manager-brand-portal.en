@@ -45,7 +45,7 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
 
 >[!NOTE]
 >
->New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#RequestaccesstoBrandPortal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
+>New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](/brand-portal.md#RequestaccesstoBrandPortal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
 
 >[!NOTE]
 >
@@ -78,13 +78,13 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
    ![](assets/add_user_to_aem_bp.png)
 
 1. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **Please select a profile for this product** field.
-1. Click **Save**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+1. Click **Save**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
    >If a user is unable to log on to Brand Portal, the Administrator of the organization should visit Adobe Admin Console and check whether the user is present and has been added to at least one product profile.
 
-   For information about granting administrative privileges to the user, see [Provide administrator privileges to users](../using/brand-portal-adding-users.md#Provideadministratorprivilegestousers).
+   For information about granting administrative privileges to the user, see [Provide administrator privileges to users](/brand-portal-adding-users.md#Provideadministratorprivilegestousers).
 
 ## Add a product profile {#add-a-product-profile}
 
@@ -168,7 +168,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
     * Click **Upload**.
 
-   If you added users to the default product profile, that is, Assets Brand Portal, a welcome email is sent to the email ID of the users you added. The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+   If you added users to the default product profile, that is, Assets Brand Portal, a welcome email is sent to the email ID of the users you added. The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](/brand-portal-onboarding.md).
 
    Users added to a custom or a new product profile do not receive email notifications.
 
@@ -264,7 +264,7 @@ In addition to the Administrator role, Brand Portal supports the following roles
 
 ## Manage group roles and privileges {#manage-group-roles-and-privileges}
 
-An Administrator can associate specific privileges with a [group](../using/brand-portal-adding-users.md#main-pars_title_278567577) of users on Brand Portal. The **Groups** tab on the **User Roles** page allows administrators to:
+An Administrator can associate specific privileges with a [group](/brand-portal-adding-users.md#main-pars_title_278567577) of users on Brand Portal. The **Groups** tab on the **User Roles** page allows administrators to:
 
 * Assign roles to user groups
 * Restrict user groups to download original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) from Brand Portal.

@@ -27,7 +27,7 @@ AEM Assets Brand Portal Administrators can share links of multiple assets with a
 
 Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
 
-Link sharing access is restricted to editors and administrators. For more information, see [Managing users, groups, and user roles](../using/brand-portal-adding-users.md).
+Link sharing access is restricted to editors and administrators. For more information, see [Managing users, groups, and user roles](/brand-portal-adding-users.md).
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ To share assets as a link, follow these steps:
 1. In the **Message** box, type a message if necessary.
 1. In the **Expiration** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
 
-   The assets shared through the link expire after crossing the date and time specified in the **Expiration** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
+   The assets shared through the link expire after crossing the date and time specified in the **Expiration** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](/manage-digital-rights-of-assets.md).
 
 1. Click **Share**. A message confirms that the link is shared with the users. Users receive an email containing the link.
 
@@ -77,7 +77,7 @@ To share assets as a link, follow these steps:
 
    >[!NOTE]
    >
-   >Administrators can customize the email messaging, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md#Customizetheemailmessaging) feature.
+   >Administrators can customize the email messaging, that is, logo, description, and footer, using the [Branding](/brand-portal-branding.md#Customizetheemailmessaging) feature.
 
 ## Download assets from shared links {#download-assets-from-shared-links}
 
@@ -104,7 +104,7 @@ To download the shared assets:
 
    ![](assets/Download-LinkShare.png)
 
-    * To speed up the download of asset files shared as the link, select **Enable download acceleration **option and [follow the wizard](../using/accelerated-download.md#main-pars_header_405749062). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+    * To speed up the download of asset files shared as the link, select **Enable download acceleration **option and [follow the wizard](/accelerated-download.md#main-pars_header_405749062). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](/accelerated-download.md).
 
 1. To download the renditions of assets in addition to the assets from the shared link, select **Rendition(s) **option. When you do so,** Exclude System Renditions **option appears that is selected by default. This prevents the download of out-of-the-box renditions along with approved assets or their custom renditions.
 
@@ -112,7 +112,7 @@ To download the shared assets:
 
    >[!NOTE]
    >
-   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars_procedure_202029708).
+   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](/brand-portal-adding-users.md#main-pars_procedure_202029708).
 
    ![](assets/Download-LinkShare-AutoRen.png)
 

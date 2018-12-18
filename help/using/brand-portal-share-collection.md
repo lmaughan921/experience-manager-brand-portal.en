@@ -4,26 +4,16 @@ seo-title: Share a collection
 description: null
 seo-description: AEM Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: f70f811d-39a5-45dd-be81-4d10e95ec2c7
-acrolinxdate: 2017-11-08T07 16 36.424-0500
-acrolinxlastcheckedby: bdhar
-acrolinxpagestatus: yellow
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/brand_portal_share_collection_krs_workflow_07d7daef51a52015_636_report.xml
-acrolinxsentences: 33
-acrolinxwords: 374
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 3da35f86-a5c2-44bf-86f7-3235bf853758
-isreadyforlocalization: false
-index: y
-internal: n
-snippet: y
 ---
 
 # Share a collection{#share-a-collection}
 
-AEM Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections. However, editors cannot change a public collection to a non-public collection.
+AEM Assets Brand Portal Administrators can share and un-share a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections. However, editors cannot change a public collection to a non-public collection.
 
 >[!NOTE]
 >
@@ -37,7 +27,7 @@ To share a collection, follow these steps:
 
    ![](assets/ContentTree.PNG)
 
-1. From the siderail on the left, click **Collections**. 
+1. From the siderail on the left, click **Collections**.
 
    ![](assets/access_collections.PNG)
 
@@ -57,7 +47,7 @@ To share a collection, follow these steps:
 
    >[!NOTE]
    >
-   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **Allow public collections creation **configuration from **General** settings available in admin tools panel.
+   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **Allow public collections creation** configuration from **General** settings available in admin tools panel.
 
    ![](assets/collection_sharingadduser.PNG)
 
@@ -90,4 +80,3 @@ To unshare a previously shared collection, do the following:
    Click **Save**.
 
 1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **Collections** console.
-

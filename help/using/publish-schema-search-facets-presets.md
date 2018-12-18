@@ -89,7 +89,7 @@ To unpublish a metadata schema from Brand Portal:
 
 ## Publish search facets to Brand Portal {#publish-search-facets-to-brand-portal}
 
-Search forms provide the capability of [faceted search](../using/brand-portal-search-facets.md) to users on Brand Portal. Search facets impart greater granularity to searches on Brand Portal. All the [predicates added](/content/help/en/experience-manager/6-4/assets/using/search-facets#AddingaPredicate) in the search form are available to users as search facets in search filters.
+Search forms provide the capability of [faceted search](/brand-portal-search-facets.md) to users on Brand Portal. Search facets impart greater granularity to searches on Brand Portal. All the [predicates added](/content/help/en/experience-manager/6-4/assets/using/search-facets#AddingaPredicate) in the search form are available to users as search facets in search filters.
 
 ![](assets/Property-Predicate-removed-1.png)  ![](assets/Search-Form.png)
 
@@ -119,7 +119,7 @@ To unpublish search forms from Brand Portal:
 
 ### Limitations {#limitations}
 
-1. Few search predicates are not applicable to search filters on the Brand Portal. When these search predicates are published as part of the search form from AEM Author instance to Brand Portal, they are filtered out. Users, therefore, see less number of predicates in the published form at the Brand Portal. See [search predicates applicable to filters on Brand Portal](../using/brand-portal-search-facets.md#Listofsearchpredicates).
+1. Few search predicates are not applicable to search filters on the Brand Portal. When these search predicates are published as part of the search form from AEM Author instance to Brand Portal, they are filtered out. Users, therefore, see less number of predicates in the published form at the Brand Portal. See [search predicates applicable to filters on Brand Portal](/brand-portal-search-facets.md#Listofsearchpredicates).
 1. For **Options **predicate, if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. These additional paths and options are not published to Brand Portal with the search form. In this case, users can select the **Manual **option in **Add Options** within **Options Predicate** to add these options manually at Brand Portal.
 
 ![](assets/Options-Predicate-Manual.png)

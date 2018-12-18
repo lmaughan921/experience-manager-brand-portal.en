@@ -87,7 +87,7 @@ To view a report, follow these steps:
 
 ## Generate reports {#generate-reports}
 
-Administrators can generate and manage the following standard reports, once generated, they are saved to be [accessed](../using/brand-portal-reports.md#main-pars_header) later:
+Administrators can generate and manage the following standard reports, once generated, they are saved to be [accessed](/brand-portal-reports.md#main-pars_header) later:
 
 * User Logins
 * Download

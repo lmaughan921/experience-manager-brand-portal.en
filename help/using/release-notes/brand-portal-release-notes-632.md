@@ -40,7 +40,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ### New Features {#new-features}
 
-Get an insight into the new features at the [What's New](../using/whats-new.md) page.
+Get an insight into the new features at the [What's New](/whats-new.md) page.
 
 ### Enhancements {#enhancements}
 

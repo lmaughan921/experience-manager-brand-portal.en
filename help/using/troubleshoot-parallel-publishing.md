@@ -48,7 +48,7 @@ View log, if errors are found in replication log:
 
 1. Contact Adobe Support
 
-2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#main-pars_header_1664955658) and create publish configuration again
+2. Retry [clean-up](/troubleshoot-parallel-publishing.md#main-pars_header_1664955658) and create publish configuration again
 
 <!-- 
 
