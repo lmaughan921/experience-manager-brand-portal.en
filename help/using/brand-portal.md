@@ -4,12 +4,6 @@ seo-title: Overview of AEM Assets Brand Portal
 description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 seo-description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: 4579359b-497c-45ab-aa02-147bf8b69eb7
-acrolinxdate: 2018-02-07T04 33 56.131-0500
-acrolinxlastcheckedby: bdhar
-acrolinxpagestatus: yellow
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/brand_portal_krs_workflow_6a263b87941bc018_61_report.xml
-acrolinxsentences: 100
-acrolinxwords: 1043
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
@@ -61,18 +55,18 @@ Any user having limited access to assets on Brand Portal without undergoing auth
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
-* [Browse and access public assets](/browse-folders-and-collections.md)
-* [Search public assets](/brand-portal-searching.md)
-* [Download public assets](/brand-portal-download-users.md)
-* [Add assets to lightbox](/brand-portal-light-box.md#main-pars_title)
+* [Browse and access public assets](browse-folders-and-collections.md)
+* [Search public assets](brand-portal-searching.md)
+* [Download public assets](brand-portal-download-users.md)
+* [Add assets to lightbox](brand-portal-light-box.md#main-pars_title)
 
 ## Viewer {#viewer}
 
 A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-* [Browse assets](/browse-folders-and-collections.md)
-* [Search for assets](/brand-portal-searching.md)
-* [Download assets](/brand-portal-download-users.md)
+* [Browse assets](browse-folders-and-collections.md)
+* [Search for assets](brand-portal-searching.md)
+* [Download assets](brand-portal-download-users.md)
 
 ## Editor {#editor}
 
@@ -80,9 +74,9 @@ A user with the role of Editor can perform all tasks that a Viewer can perform. 
 
 Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
-* [Share folders](/brand-portal-sharing-folders.md)
-* [Share a collection](/brand-portal-share-collection.md)
-* [Share assets as a link](/brand-portal-link-share.md)
+* [Share folders](brand-portal-sharing-folders.md)
+* [Share a collection](brand-portal-share-collection.md)
+* [Share assets as a link](brand-portal-link-share.md)
 
 ## Administrator {#administrator}
 
@@ -90,12 +84,12 @@ An administrator includes a user marked as system administrator or Brand Portal 
 
 An administrator can perform all tasks that an Editor can perform and the following additional tasks:
 
-* [Manage users, groups, and user roles](/brand-portal-adding-users.md)
-* [Customize wallpaper, page headers, and emails](/brand-portal-branding.md)
-* [Use custom search facets](/brand-portal-search-facets.md)
-* [Use the metadata schema form](/brand-portal-metadata-schemas.md)
-* [Apply image presets or dynamic renditions](/brand-portal-image-presets.md)
-* [Work with reports](/brand-portal-reports.md)
+* [Manage users, groups, and user roles](brand-portal-adding-users.md)
+* [Customize wallpaper, page headers, and emails](brand-portal-branding.md)
+* [Use custom search facets](brand-portal-search-facets.md)
+* [Use the metadata schema form](brand-portal-metadata-schemas.md)
+* [Apply image presets or dynamic renditions](brand-portal-image-presets.md)
+* [Work with reports](brand-portal-reports.md)
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
@@ -108,7 +102,7 @@ In addition to the above tasks, an Author in AEM Assets can perform the followin
 ## Tenant alias for portal url {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
-Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
+Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain `geomettrix.brand-portal.adobe.com` can get `geomettrixinc.brand-portal.adobe.com` created on request.
 
 However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
@@ -186,9 +180,9 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-* [What's new](/whats-new.md)
-* [Release Notes](/release-notes/brand-portal-release-notes-642.md) 
-* [Supported file formats](/brand-portal-supported-formats.md)
+* [What's new](whats-new.md)
+* [Release Notes](release-notes/brand-portal-release-notes-642.md) 
+* [Supported file formats](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 

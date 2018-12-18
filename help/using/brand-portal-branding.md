@@ -4,20 +4,10 @@ seo-title: Customize wallpaper, header, and email message
 description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: 4e2563b3-3d26-4428-996e-431efb3d99cf
-acrolinxdate: 2017-11-02T07 00 48.713-0400
-acrolinxlastcheckedby: bdhar
-acrolinxpagestatus: green
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/brand_portal_branding_krs_workflow_07d7daef51a52015_604_report.xml
-acrolinxsentences: 57
-acrolinxwords: 763
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 28136a37-8857-42e2-9f93-d4e4cab62627
-isreadyforlocalization: false
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize wallpaper, header, and email message{#customize-wallpaper-header-and-email-message}
@@ -54,7 +44,9 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 1. Specify a header text and description for the background image. To save the changes, click **Save** from the toolbar at the top. 
 1. From the toolbar at the top, click the **Preview** icon to generate a preview of the Brand Portal interface with the image.
 
-   ![](assets/chlImage_1.png) ![](assets/custom-wallpaper-preview.png)
+   ![](assets/chlImage_1.png) 
+
+   ![](assets/custom-wallpaper-preview.png)
 
 1. To activate or deactivate the default wallpaper, do the following in the **Configure Branding** &gt; **Wallpaper** page:
 
@@ -102,7 +94,9 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 1. From the toolbar at the top, click the **Preview** icon to generate a preview of the Brand Portal interface with the header image.
 
-   ![](assets/chlImage_1-3.png) ![](assets/custom_header_preview.png)
+   ![](assets/chlImage_1-3.png)
+
+   ![](assets/custom_header_preview.png)
 
 1. To activate or deactivate the header image, do the following in the **Configure Branding** &gt; **Header Image** page:
 
