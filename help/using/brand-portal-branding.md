@@ -24,7 +24,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
 1. From the administrative tools panel, click **Branding**. 
 
-   ![](assets/Admin-Tools-Panel.png)
+   ![](assets/Admin-tools-panel.png)
 
 1. On the left rail of the **Configure Branding** page, **Wallpaper** is selected by default. The default background image that appears on the login page is displayed.
 
