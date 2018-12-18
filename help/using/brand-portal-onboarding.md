@@ -10,7 +10,7 @@ topic-tags: administration
 discoiquuid: c8d1946a-271c-4e07-afea-15e5b2e93667
 ---
 
-# First-time login experience{#first-time-login-experience}
+# First-time login experience {#first-time-login-experience}
 
 The first-time login experience is same for all new AEM Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 
@@ -34,8 +34,8 @@ To log in to Brand Portal for the first time, do the following:
    >
    >If your organization uses enterprise IDs, instead of viewing this sign-up page, you are redirected to the enterprise login page. For more information, see [Enterprise ID, sign in, and account help](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html).
 
-1. Click **Continue** to proceed to your organization's Brand Portal page.
-1. From the Brand Portal sign-in page, click **Sign In** to log in to Brand Portal.
+1. Click [!UICONTROL Continue] to proceed to your organization's Brand Portal page.
+1. From the Brand Portal sign-in page, click [U!UICONTROL Sign In] to log in to Brand Portal.
 
    ![](assets/Signin-onboarding.png)
 

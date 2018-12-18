@@ -28,40 +28,40 @@ You can use the pre-existing tags to attach to an asset or create new tags from 
 
 To create tags on AEM, publish the tags on Brand Portal, and associate the tags with appropriate assets (or collections), follow these steps:
 
-1. **Create Tags**
+1. [!UICONTROL Create Tags]
 
-   Sign in to AEM Author instance with administrative privileges, and access **AEM Tags** console from global navigation:
+   Sign in to AEM Author instance with administrative privileges, and access [!UICONTROL AEM Tags] console from global navigation:
 
-1. Select **Tools**
+1. Select [!UICONTROL Tools]
 
-   1. Select **General**
-   1. Select **Tagging**
+   1. Select [!UICONTROL General]
+   1. Select [!UICONTROL Tagging]
 
-1. Select **Create** and then select **Create Tag **option.
+1. Select [!UICONTROL Create] and then select **Create Tag **option.
 1. Specify:
 
-   * **Title**
-     *(required) *A display title for the tag.
-   * **Name**
-     *(required) *A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/framework.html#TagID).
-   * **Description**
-     *(optional) *A description of the tag.  
-   * **Tag Path**
+   * [!UICONTROL Title]
+     *(required)* A display title for the tag.
+   * [!UICONTROL Name]
+     *(required)* A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/framework.html#TagID).
+   * [!UICONTROL Description]
+     *(optional)* A description of the tag.  
+   * [!UICONTROL Tag Path]
      JCR path of the tag.
 
-1. Select **Submit** to create the tag.
+1. Select [!UICONTROL Submit] to create the tag.
 
    Once you have created a tag on AEM instance, the tag will be available to be attached to an asset (using Properties section or Manage Tags section of that asset).
 
-1. **Publish the tag to Brand Portal**.
+1. Publish the tag to Brand Portal**.
 
-   Go to **AEM Tags** console (Tools | Tagging | AEM Tags), select the desired tag and Publish to **Brand Portal**.
+   Go to [!UICONTROL AEM Tags] console **[!UICONTROL Tools > Tagging > AEM Tags]**, select the desired tag and [!UICONTROL Publish to Brand Portal].
 
-1. **Attach the tag to an asset (or collection)**.
+1. Attach the tag to an asset (or collection).
 
    Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-1. **Publish assets (or collections) to Brand Portal**.  
+1. Publish assets (or collections) to Brand Portal.  
    When you publish an asset (or collection) to Brand Portal, the attached tag is also available on Brand Portal.
 
    To see the attached tag on the respective asset (or collection) in Brand Portal, log in to Brand Portal and select the asset, under Properties section you will see the attached Tag.
@@ -72,12 +72,12 @@ AEM Assets Brand Portal allows you to make specific assets come as the top resul
 
 To elevate an asset for a search keyword, follow these steps:
 
-1. Open the **Properties** page of an asset on AEM author instance.
-1. Go to **Advanced** tab.
-1. In **Search Promote** within **Elevate for search keywords** section, select **Add **to add the search keywords or tags.
+1. Open the [!UICONTROL Properties] page of an asset on AEM author instance.
+1. Go to [!UICONTROL Advanced] tab.
+1. In [!UICONTROL Search Promote] within [!UICONTROL Elevate for search keywords] section, select **[!UICONTROL Add}** to add the search keywords or tags.
 
    ![](assets/Search-Promote.png)
 
 1. Save the changes.
 1. Publish the asset to Brand Portal.
-1. Log in to Brand Portal. View **Advanced** tab in **Properties **section of the asset. Note that the Search Promote keyword is also visible in the Properties of that asset.
+1. Log in to Brand Portal. View [!UICONTROL Advanced] tab in [!UICONTROL Properties] section of the asset. Note that the Search Promote keyword is also visible in the Properties of that asset.

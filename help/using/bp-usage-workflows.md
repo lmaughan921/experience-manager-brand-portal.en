@@ -7,10 +7,6 @@ page-status-flag: never-activated
 uuid: 95fc685d-8dee-4bf6-8eb2-4f41bad083a5
 contentOwner: mgulati
 discoiquuid: 53a7bbb6-be0b-402a-8054-517db44f0d07
-preview: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Brand Portal usage workflows{#brand-portal-usage-workflows}
@@ -19,19 +15,19 @@ This document discusses various workflows in Brand Portal with examples.
 
 ## How to restrict access of a user group to a folder? {#how-to-restrict-access-of-a-user-group-to-a-folder}
 
-**Prerequisites:**
+### Prerequisites:
 
 1. Folders
 1. Hierarchy as in folder structure
 1. User groups
 
-**How?**
+### How
 
 Through ACLs. We can add restrictions to parent folders and not the child folders.
 
 ......most open is mostly shared....
 
-**Example**
+### Example
 
 Example and graphic
 
@@ -42,7 +38,7 @@ It is not clear from the current documentation as to how the effective ACLs are 
 
 we should write a  story line  and explain how can an admin structure their content in the best possible way to take maximum benefit of folder sharing in  Brand  portal.
 
-**How to do?**
+### How to do
 
 Create a folder structure such that the assets you want to share with non-admin users.
 
@@ -70,7 +66,9 @@ On Brand Portal, go to an asset and view its Renditions. The image preset create
 
 How does it work?
 
-## How to share assets/ collections to a group of users? OR why do I see a discrepancy between users in admin console v/s users in AEM Brand Portal? {#how-to-share-assets-collections-to-a-group-of-users-or-why-do-i-see-a-discrepancy-between-users-in-admin-console-v-s-users-in-aem-brand-portal}
+## How to share assets/ collections to a group of users? 
+
+OR why do I see a discrepancy between users in admin console v/s users in AEM Brand Portal? 
 
 How do I share assets or collections to a group of users?
 
@@ -90,7 +88,7 @@ If we have that right, then we will just proceed with adding users to the base p
 
 We first create product configurations and then assign users to them.
 
-Admin publishes assets/folders/collections from AEM Author to BP (the concept of public folder publish). On BP, Admin can share the assets/folders/collections further to other users (Non-admin users like Editors and Viewers). Editors can publish the assets/folders/collections further to other users like viewers and editors. But the viewer can only view and not share.
+Admin publishes `assets/folders/collections` from AEM Author to BP (the concept of public folder publish). On BP, Admin can share the `assets/folders/collections` further to other users (Non-admin users like Editors and Viewers). Editors can publish the `assets/folders/collections` further to other users like viewers and editors. But the viewer can only view and not share.
 
 ## Why do search suggestions don't come ? {#why-do-search-suggestions-don-t-come}
 
