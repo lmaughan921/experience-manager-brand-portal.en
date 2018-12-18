@@ -16,4 +16,4 @@ discoiquuid: 5a3b8c4c-773a-42a8-b078-20e7f3e5f250
 
 Know how to navigate in Brand Portal to perform specific tasks.
 
-Brand Portal is aligned with AEM Assets, so the layout, look and feel of the interface is the same as AEM Assets.
+Brand Portal is aligned with AEM Assets so the layout, look and feel of the interface is the same as AEM Assets.
