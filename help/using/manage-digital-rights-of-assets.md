@@ -58,7 +58,7 @@ The following table displays the usage permissions of expired assets:
 
 You can view the expiration status of assets in their Card View. A red flag on the card indicates that the asset has expired.
 
-![](assets/expired_assets_cardview.PNG)
+![](assets/expired_assets_cardview.png)
 
 >[!NOTE]
 >

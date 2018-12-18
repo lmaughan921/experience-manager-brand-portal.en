@@ -24,17 +24,17 @@ To add assets to lightbox, do the following:
 
 1. Navigate to the location of the assets that you want to add to lightbox, and select the assets.
 
-   ![](assets/link_sharing_assetselection.PNG)
+   ![](assets/link_sharing_assetselection.png)
 
 1. From the toolbar at the top, click the add to collection icon.
 
-   ![](assets/add_to_collection.PNG)
+   ![](assets/add_to_collection.png)
 
 1. On the **Add To Collection** page, the Lightbox collection is selected by default.
 
    Click **Add**. The selected assets are added to lightbox. 
 
-   ![](assets/add_to_collectionlightbox.PNG)
+   ![](assets/add_to_collectionlightbox.png)
 
 1. To review the assets added to lightbox, click **Collections** on the left rail, and then click the Lightbox collection.
 
@@ -42,7 +42,7 @@ To add assets to lightbox, do the following:
 
    The assets added to lightbox appear in the lightbox page.
 
-   ![](assets/added_to_collectionlightbox.PNG)
+   ![](assets/added_to_collectionlightbox.png)
 
 ## Remove assets from lightbox {#remove-assets-from-lightbox}
 

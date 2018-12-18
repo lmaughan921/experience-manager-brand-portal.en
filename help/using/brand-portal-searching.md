@@ -25,7 +25,7 @@ To search for assets on Brand Portal:
 
 1. From the toolbar, click the **Search** icon, or press the** "/"** key to launch O  mnisearch .
 
-   ![](assets/omnisearchicon-1.PNG)
+   ![](assets/omnisearchicon-1.png)
 
 1. In the search box, type a keyword for the assets you want to search. 
 
@@ -33,7 +33,7 @@ To search for assets on Brand Portal:
 
 1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 
-   ![](assets/assets-search-result.PNG)
+   ![](assets/assets-search-result.png)
 
 ## Faceted search by applying filters to search {#faceted-search-by-applying-filters-to-search}
 
@@ -81,13 +81,13 @@ To save the search settings as a smart collection:
    >
    >Non-admin users can be restricted from making smart collections public, to avoid having a huge number of public smart collections created by non-admin users on organization's Brand Portal. Organizations can disable the **Allow public smart collections creation **configuration from **General** settings available in admin tools panel.
 
-   ![](assets/save_smartcollectionui.PNG)
+   ![](assets/save_smartcollectionui.png)
 
 1. To save the smart collection in a different name, and select or clear the **Public** checkbox, click **Edit Smart Collection**.
 
-   ![](assets/edit_smartcollection.PNG)
+   ![](assets/edit_smartcollection.png)
 
 1. On the **Edit Smart Collection** dialog box, select **Save As** and enter a name for the smart collection. Click **Save**.
 
-   ![](assets/saveas_smartsearch.PNG)
+   ![](assets/saveas_smartsearch.png)
 

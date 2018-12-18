@@ -38,7 +38,7 @@ To add a search predicate to the **Filters** panel:
 
 1. To access administrative tools, click the AEM logo from the toolbar at the top.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Search Forms**. 
 
@@ -287,7 +287,7 @@ To delete a search predicate, follow these steps:
 
 1. Click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Search Forms**. 
 

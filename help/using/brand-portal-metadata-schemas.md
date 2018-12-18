@@ -22,7 +22,7 @@ To create a new metadata schema form, do the following:
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Metadata Schemas**.
 
@@ -46,7 +46,7 @@ To edit a metadata schema form, do the following:
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Metadata Schemas**.
 1. From the **Metadata Schema Forms** page, select a schema form to edit its properties, for example, **collection**.
@@ -137,7 +137,7 @@ To apply a metadata schema form to a folder, do the following:
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Metadata Schemas**.
 1. From the **Metadata Schema Forms** page, select the schema form that you want to apply to an asset, for example, **clothing**.

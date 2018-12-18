@@ -18,7 +18,7 @@ snippet: y
 
 Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 
-In [Admin Console](http://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
+In [Admin Console](https://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
 
 <!-- 
 
@@ -41,19 +41,19 @@ After you add users and create product profiles, and add users to those product 
 
 ## Add a user {#add-a-user}
 
-If you are a product administrator, use [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
+If you are a product administrator, use [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
 
 >[!NOTE]
 >
->New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](/brand-portal.md#RequestaccesstoBrandPortal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
+>New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](/brand-portal.md#RequestaccesstoBrandPortal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
 
 >[!NOTE]
 >
->You can login to [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
+>You can login to [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Users**.
 
@@ -92,11 +92,11 @@ Product profiles (formerly known as product configurations) in Admin Console are
 
 >[!NOTE]
 >
->You can login to [Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add a product profile.
+>You can login to [Admin Console](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Users**.
 
@@ -125,11 +125,11 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
 >[!NOTE]
 >
->You can login to [Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
+>You can login to [Admin Console](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Users**.
 
@@ -178,11 +178,11 @@ You can provide the system administrator or the product administrator privilege 
 
 >[!NOTE]
 >
->You can login to [Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
+>You can login to [Admin Console](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Users**.
 
@@ -236,7 +236,7 @@ In addition to the Administrator role, Brand Portal supports the following roles
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Users**.
 

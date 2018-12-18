@@ -46,7 +46,7 @@ Administrators can create image presets that appear as dynamic renditions on the
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Image Presets**. 
 

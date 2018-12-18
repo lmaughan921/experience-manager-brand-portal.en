@@ -10,10 +10,6 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: visits
 discoiquuid: a5b5448a-46c8-4080-9bdb-46a20253c8b3
-preview: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Browse folders and collections{#browse-folders-and-collections}
@@ -22,17 +18,14 @@ The elements in the AEM Assets Brand Portal header facilitate browsing through a
 
 The Brand Portal header:
 
-![](assets/BP_subheader.PNG)
+![](assets/BP_subheader.png)
 
-Callouts: Rail selector, Breadcrumbs, View selector
+* Callouts: Rail selector, Breadcrumbs, View selector
+* You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector.
+* In List view, the Select icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in the list.
+* Similar to List view, the Select icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in Column view.
 
-You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector.
-
-In List view, the Select icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in the list.
-
-Similar to List view, the Select icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in Column view.
-
-For more information, see [Viewing and Selecting your Resources](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_14).
+For more information, see [Viewing and Selecting your Resources](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/basic-handling.html#main-pars_title_14).
 
 ## Viewing and Selecting Resources {#viewing-and-selecting-resources}
 
@@ -40,10 +33,9 @@ Viewing, navigating, and selecting are each conceptually the same across all vie
 
 You can view, navigate through, and select (for further action) your resources with any of the available views, each of which can be selected by the icon at the top right:
 
-* [Column View](#ColumnView)
-* [Card View](#CardView)  
-
-* [List View](#ListView)
+* [Column View](#column-view)
+* [Card View](#card-view)
+* [List View](#list-view)
 
 >[!NOTE]
 >
@@ -53,56 +45,13 @@ You can view, navigate through, and select (for further action) your resources w
 
 Selecting a specific resource is dependent on a combination of the view and the device:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td> </td> 
-   <td>Select</td> 
-   <td>Unselect</td> 
-  </tr>
-  <tr>
-   <td>Column View<br /> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <td>Card View<br /> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Mouseover, then use the checkmark quick action</li> 
-     <li>Mobile device:<br /> Tap-and-hold the card</li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the card</li> 
-     <li>Mobile device:<br /> Tap the card</li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <td>List View</td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-  </tr>
- </tbody>
-</table>
+||Select|Unselect|
+|--- |--- |--- |
+|Column View|<ul><li>Desktop: Click the thumbnail </li><li>Mobile device: Tap the thumbnail</li></ul>|<ul><li>Desktop: Click the thumbnail </li><li>Mobile device: Tap the thumbnail</li></ul>|
+|Card View|<ul><li>Desktop: Mouseover, then use the checkmark quick action </li><li>Mobile device: Tap-and-hold the card</li></ul>|<ul><li>Desktop: Click the card</li><li>Mobile device: Tap the card|
+|List View|<ul><li>Desktop: Click the thumbnail </li><li>Mobile device: Tap the thumbnail</li></ul>|<ul><li>Desktop: Click the thumbnail</li><li>Mobile device: Tap the thumbnail</li></ul>|
 
-#### Deselecting All {#deselecting-all}
+### Deselecting All {#deselecting-all}
 
 In all cases as you select items, the count of the items selected is displayed at the top-right of the toolbar.
 
@@ -148,28 +97,26 @@ Card view displays information cards for each item at the current level. These p
 * If the page is locked, hidden or part of a livecopy.  
 * If appropriate, when you are required to take action as part of a workflow.
 
-    * Markers that indicate required actions may be related to entries in your [Inbox](/content/help/en/experience-manager/6-3/sites/authoring/using/inbox).
+  * Markers that indicate required actions may be related to entries in your [Inbox](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/inbox.html).
 
 [Quick actions](#QuickActions) are also available in this view such as selection and common actions such as edit.
 
-You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21).
+You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https//helpx.adobe.com/experience-manager/6-3/sites/authoring/using/basic-handling.html#main-pars_title_21).
 
 ### List View {#list-view}
 
 The list view lists information for each resource at the current level.
 
-You can navigate down through the tree by tapping/clicking on the resource name and back up by using the [breadcrumbs in the header](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21).
+You can navigate down through the tree by tapping/clicking on the resource name and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21).
 
 To easily select all items in the list, use the checkbox at the top-left of the list.
 
 * When all items in the list are selected, this checkbox appears checked.
-
-    * Click or tap the checkbox to deselect all.
+  * Click or tap the checkbox to deselect all.
 
 * When only some items are selected, it appears with a minus sign.
-
-    * Click or tap the checkbox to select all.
-    * Click or tap the checkbox again to deselect all.
+  * Click or tap the checkbox to select all.
+  * Click or tap the checkbox again to deselect all.
 
 Select the columns to be shown using **View Settings **option located under the Views button. The following columns are available for display:
 

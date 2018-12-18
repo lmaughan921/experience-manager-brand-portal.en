@@ -4,23 +4,11 @@ seo-title: What's new in AEM Assets Brand Portal
 description: null
 seo-description: Take a look at the new features and enhancements for 6.4.3.
 uuid: 56446060-aab7-46ef-aa43-b19c8093cab5
-acrolinxdate: 2018-11-16T07 55 56.700-0500
-acrolinxlastcheckedby: mgulati
-acrolinxpagestatus: green
-acrolinxreporturl: http //acrolinx.corp.adobe.com 8031/output/en/whats_new_krs_workflow_28a7cd1f928ceb53_59_report.xml
-acrolinxsentences: 254
-acrolinxwords: 3678
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: 3db5f185-188e-4ab3-954e-57b0c91b54f5
-isreadyforlocalization: true
-locpublishdate: 06/23/17
-locpublishoption: later
-index: y
-internal: n
-snippet: y
 ---
 
 # What's new in AEM Assets Brand Portal{#what-s-new-in-aem-assets-brand-portal}
@@ -33,7 +21,7 @@ Brand Portal 6.4.3 release includes enhancements to enrich the customer experien
 
 ### Folder hierarchy navigation for non-admins {#folder-hierarchy-navigation-for-non-admins}
 
-Administrators can now configure how the folders are shown to non-admin users (Editors, Viewers, and Guest Users) on login.   
+Administrators can now configure how the folders are shown to non-admin users (Editors, Viewers, and Guest Users) on login.
 [Enable Folder Hierarchy](/brand-portal-general-configuration.md) configuration is added in **General Settings**, in the admin tools panel. If the configuration is:
 
 * **enabled**, the folder tree starting from the root folder is visible to non-admin users. Thus, granting them a navigation experience similar to administrators.
@@ -41,11 +29,13 @@ Administrators can now configure how the folders are shown to non-admin users (E
 
 ![](assets/Enable-Folder-Hierarchy.png)
 
-**The use case**
+## Use case
 
 The [Enable Folder Hierarchy](/brand-portal-general-configuration.md) functionality (when enabled) helps you differentiate the folders with the same names shared from different hierarchies. On logging in, non-admin users now see the virtual parent (and ancestor) folders of the shared folders.
 
-![](assets/Disabled-Folder-Hierarchy1.png)  ![](assets/Enabled-Hierarchy1.png)
+![](assets/Disabled-Folder-Hierarchy1.png)
+
+![](assets/Enabled-Hierarchy1.png)
 
 The shared folders are organized within the respective directories in virtual folders. You can recognize these virtual folders with a lock icon.
 
@@ -53,17 +43,17 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 
 ![](assets/Hierarchy1-Nonadmin.png) 
 
-### Search in specific folder hierarchy or path {#search-in-specific-folder-hierarchy-or-path}
+## Search in specific folder hierarchy or path {#search-in-specific-folder-hierarchy-or-path}
 
-**Path Browser** predicate is introduced in Search Form to allow searching of assets in a specific directory. The default search path of search predicate for Path Browser is */content/dam/mac/&lt;tenant-id&gt;/, *which can be configured by editing the default search form.
+**Path Browser** predicate is introduced in Search Form to allow searching of assets in a specific directory. The default search path of search predicate for Path Browser is `*/content/dam/mac/&lt;tenant-id&gt;/,` *which can be configured by editing the default search form.
 
 * Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
 * Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.  
-  For example, */content/dam/mac/&lt;tenant-id&gt;/folderA/  folderB /  folderC  *is shared with a non-admin user. The user can search for assets within * folderC  *using Path Browser. This user can also navigate to * folderB  and  folderA * (since they are ancestors of the * folderC * that is shared with the user).
+  * For example, `*/content/dam/mac/<tenant-id>/folderA` / `folderB` / `folderC`  is shared with a non-admin user. The user can search for assets within ` folderC` using Path Browser. This user can also navigate to `folderB`  and  `folderA` (since they are ancestors of the `folderC` that is shared with the user).
 
 ![](assets/edit-search-form.png)  ![](assets/Filter-Panel.png)
 
-**The use case**
+## Use case
 
 You can now restrict asset search within a specific folder you have browsed to, instead of beginning at the root folder.
 
@@ -73,9 +63,9 @@ Note that searching under these folders returns results only from the assets tha
 
 Users whose AEM Author instance is on Dynamic Media hybrid mode can preview and download the dynamic media renditions, in addition to the original video files.
 
-To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify **Dynamic Media Configuration **(video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in** Video** configuration from admin tools panel.
+To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify **Dynamic Media Configuration** (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in **Video** configuration from admin tools panel.
 
-**The use case**
+## Use case
 
 Dynamic Media videos can be previewed on:
 
@@ -92,22 +82,27 @@ Dynamic Media Video encodes can be downloaded from:
 
 ### Scheduled publish to Brand Portal {#scheduled-publish-to-brand-portal}
 
-Assets (and folders) publish workflow from [AEM (6.4.2.0)](/content/help/en/experience-manager/6-4/release-notes/sp-release-notes#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
+Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
 
 Similarly, published assets can be removed from the portal at a later date (time), by scheduling the Unpublish from Brand Portal workflow.
 
-![](assets/Schedule-Publish.png)  ![](assets/PublishLater-Workflow.png) 
+![](assets/Schedule-Publish.png)
+
+![](assets/PublishLater-Workflow.png) 
 
 ### Configurable tenant alias in URL {#configurable-tenant-alias-in-url}
 
 Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations need to contact Adobe support.
 
-Note that only the prefix of the Brand Portal URL can be customized and not the entire URL.  
-For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
+Note that only the prefix of the Brand Portal URL can be customized and not the entire URL.
 
-However, AEM Author instance can be [configured](/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration) only with the tenant id URL and not with tenant alias (alternate) URL.
+For example, an organization with existing domain:
+*`geomettrix.brand-portal.adobe.com`* can get
+*`geomettrixinc.brand-portal.adobe.com`* created on request.
 
-**The use case**
+However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+
+## Use case
 
 Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
@@ -138,19 +133,19 @@ Brand Portal users can leverage IBM Aspera Connect based fast downloads to get s
 
 ![](assets/Donload-Assets-Dialog.png)
 
-To enable IBM Aspera based accelerated download for the organization, administrators **Enable Download Acceleration **option (which is disabled by default) from ** [General Settings](/whats-new.md#main-pars_multi_column_1138310319)** in the administrative tools panel. To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer [Guide to accelerate downloads from Brand Portal](/accelerated-download.md#main-pars_header).
+To enable IBM Aspera based accelerated download for the organization, administrators **Enable Download Acceleration** option (which is disabled by default) from **[General Settings](/whats-new.md#main-pars-multi-column-1138310319)** in the administrative tools panel. To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer [Guide to accelerate downloads from Brand Portal](/accelerated-download.md#main-pars-header).
 
 ### User Logins Report {#user-logins-report}
 
 A new report, to track user logins, has been introduced. The** User Logins** report can be instrumental in enabling organizations to audit and keep a check on the delegated administrators and other users of Brand Portal.
 
-The report logs display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation. Administrators can export the report as .csv. Along with other reports, User Logins report enables organizations to more closely monitor user interactions with the approved brand resources, thereby ensuring conformance to corporate compliance offices.
+The report logs display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation. Administrators can export the report as `.csv`. Along with other reports, User Logins report enables organizations to more closely monitor user interactions with the approved brand resources, thereby ensuring conformance to corporate compliance offices.
 
 ![](assets/User-Logins-1.png) 
 
 ### Access to original renditions {#access-to-original-renditions}
 
-Administrators can restrict user access to original image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) and give access to low-resolution renditions which they download from Brand Portal or shared link. This access can be controlled at user group level from Groups tab of User Roles page in admin tools panel.
+Administrators can restrict user access to original image files - `.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop` - and give access to low-resolution renditions which they download from Brand Portal or shared link. This access can be controlled at user group level from Groups tab of User Roles page in admin tools panel.
 
 ![](assets/Access-Original-Rend.png)
 
@@ -183,7 +178,9 @@ Brand Portal provides **Overview **option to non-admin users (Editors, Viewers, 
 
 On selecting the Overview option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
 
-![](assets/Overview-Option-1.png)  ![](assets/Overview-Rail-Selector-1.png) 
+![](assets/Overview-Option-1.png)
+
+![](assets/Overview-Rail-Selector-1.png) 
 
 ### New configurations {#new-configurations}
 
@@ -198,11 +195,15 @@ Six new configurations are added for administrators to enable/disable following 
 
 The above configurations are available under **Access** and **General** settings in administrative tools panel.
 
-![](assets/Access-Configs.png)  ![](assets/General-Configs.png)  ![](assets/Admin-tools-panel-4.png) 
+![](assets/Access-Configs.png)  
+
+![](assets/General-Configs.png)
+
+![](assets/Admin-tools-panel-4.png) 
 
 ### Adobe.io hosts UI to configure oAuth integrations {#adobe-io-hosts-ui-to-configure-oauth-integrations}
 
-Brand Portal 6.4.2 onwards uses Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration).
+Brand Portal 6.4.2 onwards uses Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ### Search Enhancements {#search-enhancements}
 
@@ -219,7 +220,7 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 
 ![](assets/ContentTree-1.png)
 
-* Introduced new keyboard shortcuts, for example *(p) *for navigation to properties page, *(e) *for Edit, and *(ctrl+c)* for copy operations.
+* Introduced new keyboard shortcuts, for example `(p)` for navigation to properties page, `(e) for Edit, and (ctrl+c)` for copy operations.
 
 * Improved scrolling, lazy loading experience in card and list view for browsing large number of assets.
 * Enhanced Card View with support for different-sized cards based on view setting.
@@ -246,20 +247,19 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 
 * Capability introduced to come back to the same position in search results, after navigating to a search item, without running the search query again.
 * New Search results count to display the number of search results has been provided.
-* Improved File Type Search Filter with the ability to filter search results based on fine-grained MIME types such as .jpg, .png, and .psd compared to earlier Images, Documents, Multimedia options.
+* Improved File Type Search Filter with the ability to filter search results based on fine-grained MIME types such as `.jpg, .png, and .psd` compared to earlier Images, Documents, Multimedia options.
 * Enhanced search filters for collections, with accurate time stamps instead of previous time slider functionality.
 * New Access type filters have been introduced to search for the collections that are Public or non-Public.
 
-![](assets/AccessTypeFilter.PNG) 
+![](assets/AccessTypeFilter.png) 
 
 ### Download optimizations {#download-optimizations}
 
 * A single large file is directly downloaded, without the creation of zip file, thereby improving the speed and throughput.
 * Zip download limit for link share feature has increased to 5GB, from 1GB.
-
 * Users can now choose to download only the custom and original  files,  and prevent out-of-the-box  renditions,  while downloading assets from Brand Portal or through the shared links feature.
 
-![](assets/ExcludeAutoRendition.PNG) 
+![](assets/ExcludeAutoRendition.png) 
 
 ### Performance enhancements {#performance-enhancements}
 
@@ -267,7 +267,8 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 * Up to 40% improvement in search response for assets.
 * Up to 40% improvement in browsing performance.
 
-**Note**: Cited improvements are as per the tests conducted in the lab.
+>[!NOTE]
+>Cited improvements are as per the tests conducted in the lab.
 
 ### Enhanced reporting capabilities {#enhanced-reporting-capabilities}
 
@@ -275,13 +276,13 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 
 A new report, to provide information about shared links, has been introduced. The Link Share report lists all the URLs, to the assets, shared with internal and external users across organization in the specified time frame. It also informs when the link was shared, by whom, and when does it expire.
 
-![](assets/NavigateReport.PNG)
+![](assets/NavigateReport.png)
 
 **Modified the entry point to access Usage report**
 
 Usage report are now consolidated with other reports and can now be viewed from Asset Reports console. To reach Asset Reports console, navigate to **Create/Manage Reports** from administrative tools panel.
 
-![](assets/AccessAssetReport.PNG)
+![](assets/AccessAssetReport.png)
 
 **Improved user experience with reporting**
 
@@ -313,15 +314,15 @@ Users can now request access to Brand Portal using the new** **need access capab
 
 Depending on whether users have an Adobe ID or need to create an Adobe ID, users can follow the appropriate workflow to submit a request. Brand Portal product administrators receive such requests in their notification area and grant access through Adobe Admin Console.
 
-For more information, see [Request access to Brand Portal](/brand-portal.md#RequestaccesstoBrandPortal).
+For more information, see [Request access to Brand Portal](/brand-portal.md#request-access-to-brand-portal).
 
 ### Enhancement in the assets downloaded report {#enhancement-in-the-assets-downloaded-report}
 
-The assets downloaded report now includes the asset download count per user within the specified date and time range. Users can download this report in .csv format and compile data such as the total download count for a licensed asset.
+The assets downloaded report now includes the asset download count per user within the specified date and time range. Users can download this report in `.csv` format and compile data such as the total download count for a licensed asset.
 
 ![](assets/reports_download_downloaded_by.png)
 
-For more information, see Steps 3 and 6 in [Create and manage additional reports](/brand-portal-reports.md#Createandmanageadditionalreports).
+For more information, see Steps 3 and 6 in [Create and manage additional reports](/brand-portal-reports.md#create-and-manage-additional-reports).
 
 ### Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -337,7 +338,7 @@ While downloading licensed assets using the link share feature, you are now prom
 
 ![](assets/copyright_management.png)
 
-For more information, see Step 12 in [Share assets as a link](/brand-portal-link-share.md#Shareassetsasalink).
+For more information, see Step 12 in [Share assets as a link](/brand-portal-link-share.md#share-assets-as-a-link).
 
 ### User picker enhancement {#user-picker-enhancement}
 
@@ -347,7 +348,7 @@ User picker performance is now enhanced to cater to the needs of customers with 
 
 Brand Portal now conforms to the new Adobe Experience Cloud branding.
 
-![](assets/BP_solution_switcher.png) 
+![](assets/B_solution_switcher.png) 
 
 ## What changed in 6.3.1 {#what-changed-in-3}
 
@@ -361,25 +362,25 @@ To align Brand Portal user experience with AEM, Adobe is transitioning to Coral 
 
 * Quick access to administrative tools through the new Adobe logo:
 
-![](assets/aemlogo.PNG)
+  ![](assets/aemlogo.png)
 
 * Product navigation through an overlay:
 
-![](assets/overlay_navigation.PNG)
+  ![](assets/overlay_navigation.png)
 
 * Quick navigation to parent folders:
 
-![](assets/navigationparentfolders.png)
+  ![](assets/navigationparentfolders.png)
 
 * Quick search and navigation to the required content and tools:
 
-![](assets/omnisearchicon.PNG) 
+  ![](assets/omnisearchicon.png) 
 
 ### Enhanced browsing experience {#enhanced-browsing-experience}
 
 * New column view to browse through nested folders:
 
-![](assets/millercolumnnavigation.PNG)  ![](assets/multi-columnview.PNG)
+  ![](assets/millercolumnnavigation.png)  ![](assets/multi-columnview.png)
 
 * In the list of assets in a folder, the latest asset uploaded appears at the top.
 
@@ -387,11 +388,11 @@ To align Brand Portal user experience with AEM, Adobe is transitioning to Coral 
 
 * The new Omni search feature facilitates quick access to relevant content, capability, or tags through automatic suggestions as you type search keywords. Omni search is available across all search features.
 
-![](assets/omnisearch_whatsnew.PNG)
+  ![](assets/omnisearch_whatsnew.png)
 
 * You can also add search filters to Omni search to further narrow down and quicken your search.
 
-![](assets/omnisearch_withfilters.png)
+  ![](assets/omnisearch_withfilters.png)
 
 * The new asset rating-based search lets you search for assets with ratings, if published from AEM Assets.
 * The new multi-value search feature accepts multiple keywords with the AND operator to discover assets faster.
@@ -422,19 +423,19 @@ Asset sorting in a folder in list view is no longer restricted to the number of 
 
 Administrators can create and manage three types of reports—assets downloaded, expired, and published. The ability to configure the columns in a report, and export the reports to CSV format is also available.
 
-![](assets/newreport.PNG) 
+![](assets/newreport.png) 
 
 ### Additional metadata {#additional-metadata}
 
 Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Assets 6.3. You can use the Schema Editor form to control the metadata that should be visible on the Assets Properties page. Asset metadata is not visible to external link share users, who can only preview and download assets using the link share URL. 
 
-![](assets/additionsinmetadata.PNG) 
+![](assets/additionsinmetadata.png) 
 
 ### Additional capabilities for administrators {#additional-capabilities-for-administrators}
 
 * Before finalizing customizations to the login screen wallpaper, administrators can preview the changes.
 
-![](assets/wallpaperpreview.PNG)
+![](assets/wallpaperpreview.png)
 
 * After an administrator adds new users, they need not accept invitations to get added to Brand Portal, they are added automatically.
 

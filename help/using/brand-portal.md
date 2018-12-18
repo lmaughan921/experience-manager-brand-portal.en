@@ -174,7 +174,7 @@ To request access, do the following:
 
    ![](assets/BPlogin_request_access_8.png)
 
-   You are redirected to the [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](/brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+   You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](/brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -193,4 +193,4 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 ## Related resources {#related-resources}
 
 * [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [AEM Forums](http://www.adobe.com/go/aod_forums_en)
+* [AEM Forums](https://www.adobe.com/go/aod_forums_en)

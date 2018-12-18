@@ -110,14 +110,14 @@ To ascertain what platforms are certified to run with this release of Brand Port
 
 ## Links {#links}
 
-* [Adobe Experience Manager Product Page on adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Adobe Experience Manager Product Page on adobe.com](https://www.adobe.com/in/marketing-cloud/experience-manager.html)
 * [Assets Brand Portal Documentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
 These sites are only available to customers. If you are a customer and require access, contact your Adobe account manager.
 
-* [](http://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
 * [Adobe Customer Care](https://helpx.adobe.com/contact.html)
 

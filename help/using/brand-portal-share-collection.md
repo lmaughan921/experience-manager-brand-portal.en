@@ -25,11 +25,11 @@ To share a collection, follow these steps:
 
 1. Click the overlay icon on the left, and choose **Navigation**.
 
-   ![](assets/ContentTree.PNG)
+   ![](assets/ContentTree.png)
 
 1. From the siderail on the left, click **Collections**.
 
-   ![](assets/access_collections.PNG)
+   ![](assets/access_collections.png)
 
 1. From the **Collections** console, do one of the following:
 
@@ -39,7 +39,7 @@ To share a collection, follow these steps:
 
     * Select the collection you want to share. From the toolbar at the top, click **Settings**.
 
-   ![](assets/collection-sharing.PNG)
+   ![](assets/collection-sharing.png)
 
 1. In the **Collection Settings** dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
 
@@ -49,7 +49,7 @@ To share a collection, follow these steps:
    >
    >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **Allow public collections creation** configuration from **General** settings available in admin tools panel.
 
-   ![](assets/collection_sharingadduser.PNG)
+   ![](assets/collection_sharingadduser.png)
 
    Editors cannot change a public collection to a non-public collection and, therefore, do not have **Public Collection** check box available in **Collection Settings** dialog.
 
@@ -69,11 +69,11 @@ To unshare a previously shared collection, do the following:
 
    In the toolbar, click **Settings**.
 
-   ![](assets/collection_settings.PNG)
+   ![](assets/collection_settings.png)
 
 1. On the **Collection Settings** dialog box, under **Members**, click the **x** symbol next to users or groups to remove them from the list of users you shared the collection with.
 
-   ![](assets/unshare_collection.PNG)
+   ![](assets/unshare_collection.png)
 
 1. In the warning message box, click **Confirm** to confirm unshare.
 

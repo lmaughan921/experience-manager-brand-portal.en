@@ -22,11 +22,11 @@ Administrators can then use Admin Console to add users to the product profile. T
 
 ## Log in to Adobe Admin Console {#log-in-to-adobe-admin-console}
 
-You can login to Admin Console directly, through the URL http://adminconsole.adobe.com/enterprise/overview, or from Brand Portal. Follow the procedure below to login to Admin Console from Brand Portal.
+You can login to Admin Console directly, through the URL https://adminconsole.adobe.com/enterprise/overview, or from Brand Portal. Follow the procedure below to login to Admin Console from Brand Portal.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Users**.
 
@@ -38,7 +38,7 @@ You can login to Admin Console directly, through the URL http://adminconsole.ado
 
 ## Create a group {#create-a-group}
 
-In [Admin Console](http://adminconsole.adobe.com/enterprise/overview), you can view all Adobe products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. Brand Portal administrators must choose the AEM Brand Portal product and create groups.
+In [Admin Console](https://adminconsole.adobe.com/enterprise/overview), you can view all Adobe products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. Brand Portal administrators must choose the AEM Brand Portal product and create groups.
 
 Product profiles in Admin Console are used to create groups in Brand Portal so that you can perform bulk operations such as role management and asset sharing in Brand Portal. **Assets Brand Portal** is the default product profile available; you can create more product profiles and add users to the new product profiles.
 
@@ -46,7 +46,7 @@ Product profiles in Admin Console are used to create groups in Brand Portal so t
 >
 >To create groups in Brand Portal, from Adobe Admin Console, use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**.
 
-1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
+1. Log in to Admin Console directly, through the URL [https://adminconsole.adobe.com/enterprise/overview](https://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
 1. From the toolbar at the top, click **Products**. 
 1. In the **Products** page, **Product Profiles** is selected by default. Click **New Profile**. 
 
@@ -64,7 +64,7 @@ Product profiles in Admin Console are used to create groups in Brand Portal so t
 
 Brand Portal administrators can delete existing groups in the AEM Brand Portal product.
 
-1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
+1. Log in to Admin Console directly, through the URL [https://adminconsole.adobe.com/enterprise/overview](https://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
 1. In the **Product Details** page, select the check boxes to the left of the product profile name and click **Delete Profile**.
 1. In the confirmation dialog box, click **Delete Profile**.
 
@@ -72,7 +72,7 @@ Brand Portal administrators can delete existing groups in the AEM Brand Portal p
 
 To add users to a Brand Portal group, add them to the corresponding product profile in Admin Console. You can add users individually or in bulk.
 
-1. Log in to Admin Console directly, through the URL [http://adminconsole.adobe.com/enterprise/overview](http://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
+1. Log in to Admin Console directly, through the URL [https://adminconsole.adobe.com/enterprise/overview](https://adminconsole.adobe.com/enterprise/overview), or from Brand Portal. For the steps to log in from Brand Portal, see [Log  in to  Adobe Admin Console](/brand-portal-manage-groups.md#LogintoAdobeAdminConsole).
 1. From the toolbar at the top, click **Products**. 
 1. In the **Products** page, **Product Profiles** is selected by default. Open the product profile to which you want to add a user, for example, **Sales group**.
 

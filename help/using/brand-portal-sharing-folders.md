@@ -89,7 +89,7 @@ To share a folder with users on Brand Portal, follow these steps:
 
 1. From the side rail on the left, select **Files**.
 
-   ![](assets/access_files.PNG)
+   ![](assets/access_files.png)
 
 1. From the Brand Portal interface, select the folder you want to share.
 
@@ -97,11 +97,11 @@ To share a folder with users on Brand Portal, follow these steps:
 
 1. From the toolbar at the top, select **Share**.
 
-   ![](assets/share_icon.PNG)
+   ![](assets/share_icon.png)
 
    The **Folder Properties** console appears.
 
-   ![](assets/folder_properties.PNG)
+   ![](assets/folder_properties.png)
 
 1. In the **Folder Properties** console, specify the folder title in the **Folder Title** field if you do not want the default name to be displayed to users.
 1. From the **Add User** list, select the users or groups with which you want to share the folder, and click **Add**.
@@ -129,7 +129,7 @@ To unshare a previously shared folder, follow these steps:
 1. From the toolbar at the top, click **Share**.
 1. In the **Folder Properties** console, under **Members**, click the **x** symbol next to a user to remove them from the list of users you shared the folder with.
 
-   ![](assets/folder_propertiesunshare.PNG)
+   ![](assets/folder_propertiesunshare.png)
 
 1. In the warning message box, click **Confirm** to confirm unshare.
 

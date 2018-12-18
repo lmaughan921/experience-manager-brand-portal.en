@@ -20,7 +20,7 @@ AEM logo in the AEM toolbar at the top facilitates admin users to access adminis
 
 ![](assets/Admin-tools-panel-2.png) 
 
-![](assets/BP_subheader.PNG)
+![](assets/BP_subheader.png)
 
 Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 

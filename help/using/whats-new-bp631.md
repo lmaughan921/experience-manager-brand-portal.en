@@ -42,11 +42,11 @@ To align Brand Portal user experience with AEM, Adobe is transitioning to Coral 
 
 * Quick access to administrative tools through the new Adobe logo:
 
-![](assets/aemlogo-2.PNG)
+![](assets/aemlogo-2.png)
 
 * Product navigation through an overlay:
 
-![](assets/overlay_navigation.PNG)
+![](assets/overlay_navigation.png)
 
 * Quick navigation to parent folders:
 
@@ -54,13 +54,13 @@ To align Brand Portal user experience with AEM, Adobe is transitioning to Coral 
 
 * Quick search and navigation to the required content and tools:
 
-![](assets/omnisearchicon.PNG)
+![](assets/omnisearchicon.png)
 
 ### Enhanced browsing experience {#enhanced-browsing-experience}
 
 * New column view to browse through nested folders:
 
-![](assets/millercolumnnavigation.PNG) ![](assets/multi-columnview.PNG)
+![](assets/millercolumnnavigation.png) ![](assets/multi-columnview.png)
 
 * In the list of assets in a folder, the latest asset uploaded appears at the top.
 
@@ -68,7 +68,7 @@ To align Brand Portal user experience with AEM, Adobe is transitioning to Coral 
 
 * The new Omni search feature facilitates quick access to relevant content, capability, or tags through automatic suggestions as you type search keywords. Omni search is available across all search features.
 
-![](assets/omnisearch_whatsnew.PNG)
+![](assets/omnisearch_whatsnew.png)
 
 * You can also add search filters to Omni search to further narrow down and quicken your search.
 
@@ -103,19 +103,19 @@ Asset sorting in a folder in list view is no longer restricted to the number of 
 
 Administrators can create and manage three types of reports—assets downloaded, expired, and published. The ability to configure the columns in a report, and export the reports to CSV format is also available.
 
-![](assets/newreport.PNG)
+![](assets/newreport.png)
 
 ### Additional metadata {#additional-metadata}
 
 Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Assets 6.3. You can use the Schema Editor form to control the metadata that should be visible on the Assets Properties page. Asset metadata is not visible to external link share users, who can only preview and download assets using the link share URL. 
 
-![](assets/additionsinmetadata.PNG)
+![](assets/additionsinmetadata.png)
 
 ### Additional capabilities for administrators {#additional-capabilities-for-administrators}
 
 * Before finalizing customizations to the login screen wallpaper, administrators can preview the changes.
 
-![](assets/wallpaperpreview.PNG)
+![](assets/wallpaperpreview.png)
 
 * After an administrator adds new users, they need not accept invitations to get added to Brand Portal, they are added automatically.
 

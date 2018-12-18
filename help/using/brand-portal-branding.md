@@ -30,7 +30,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Branding**. 
 
@@ -42,7 +42,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
 1. To add a new background image, click the **Choose Image** icon from the toolbar at the top.
 
-   ![](assets/choose_wallpaperimage.PNG)
+   ![](assets/choose_wallpaperimage.png)
 
    Do one of the following:
 
@@ -74,7 +74,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Branding**. 
 
@@ -88,7 +88,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    To use an existing Brand Portal image, choose **Select from existing**.
 
-   ![](assets/choose_wallpaperimage-1.PNG)
+   ![](assets/choose_wallpaperimage-1.png)
 
    Choose an image using the asset picker.
 
@@ -98,11 +98,11 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    To save the changes, click **Save** from the toolbar at the top. 
 
-   ![](assets/configure_brandingheaderimageurl.PNG)
+   ![](assets/configure_brandingheaderimageurl.png)
 
 1. From the toolbar at the top, click the **Preview** icon to generate a preview of the Brand Portal interface with the header image.
 
-   ![](assets/chlImage_1-3.png) ![](assets/custom_header_preview.PNG)
+   ![](assets/chlImage_1-3.png) ![](assets/custom_header_preview.png)
 
 1. To activate or deactivate the header image, do the following in the **Configure Branding** &gt; **Header Image** page:
 
@@ -122,7 +122,7 @@ When assets are shared as a link, users receive an email containing the link. Ad
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Branding**. 
 

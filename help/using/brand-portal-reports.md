@@ -32,11 +32,11 @@ To view a report, follow these steps:
 
 1. From the toolbar at the top, tap/click the AEM logo to access administrative tools.
 
-   ![](assets/aemlogo.PNG)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **Create/Manage Reports **to open **Asset Reports **page.
 
-   ![](assets/Access-Asset-Reports.PNG)
+   ![](assets/Access-Asset-Reports.png)
 
 1. Access **Usage **report and other generated reports from Asset Reports page.
 
@@ -99,7 +99,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
 1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
 
-   ![](assets/aemlogo-1.PNG)
+   ![](assets/aemlogo-1.png)
 
 1. From the administrative tools panel, tap/click **Create/Manage Reports **to open **Asset Reports **page.
 
@@ -154,7 +154,7 @@ To save and download a report as .csv file, do one of the following:
 
 * Select a report on Asset Reports page, and tap/click **Download** from the toolbar at the top.
 
-![](assets/Download-asset-report.PNG)
+![](assets/Download-asset-report.png)
 
 * From Asset Reports page, open a report. Select **Download** option from the top of the report page.
 
