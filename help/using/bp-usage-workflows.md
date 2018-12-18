@@ -1,9 +1,8 @@
 ---
 title: Brand Portal usage workflows
 seo-title: Brand Portal usage workflows
-description: null
-seo-description: null
-page-status-flag: never-activated
+description: Brand Portal usage workflows
+seo-description: AEM Brand Portal usage workflows
 uuid: 95fc685d-8dee-4bf6-8eb2-4f41bad083a5
 contentOwner: mgulati
 discoiquuid: 53a7bbb6-be0b-402a-8054-517db44f0d07
@@ -15,7 +14,7 @@ This document discusses various workflows in Brand Portal with examples.
 
 ## How to restrict access of a user group to a folder? {#how-to-restrict-access-of-a-user-group-to-a-folder}
 
-### Prerequisites:
+## Prerequisites
 
 1. Folders
 1. Hierarchy as in folder structure
@@ -27,7 +26,7 @@ Through ACLs. We can add restrictions to parent folders and not the child folder
 
 ......most open is mostly shared....
 
-### Example
+## Example
 
 Example and graphic
 
@@ -38,7 +37,7 @@ It is not clear from the current documentation as to how the effective ACLs are 
 
 we should write a  story line  and explain how can an admin structure their content in the best possible way to take maximum benefit of folder sharing in  Brand  portal.
 
-### How to do
+## How to do
 
 Create a folder structure such that the assets you want to share with non-admin users.
 
@@ -46,35 +45,35 @@ Create a folder structure such that the assets you want to share with non-admin 
 
 Why dynamic renditions are not listed on  Asset  Details page.
 
-**Prerequisites:**
+### Prerequisites
 
 PTIFF on AEM
 
 (Dynamic media settings) Image presets are usable only if Dynamic Media is enabled/on on AEM Author instance. Image presets work on Pyramid Tiff. Pyramid tiff is created when users have dynamic media on/enabled on their AEM Author instance.
 
-**How?**
+### How
 
 How to switch to that mode.
 
-**Example**
+### Example
 
 In the context of image presets.
 
 On Brand Portal, go to an asset and view its Renditions. The image preset created and published from AEM Author is visible under Dynamic within Renditions. While downloading, on download dialog, we have the option to download Dynamic Renditions. Here, we can use the presets already created or specify new presets at run-time.
 
-**How to do?**
+### How to do
 
 How does it work?
 
-## How to share assets/ collections to a group of users? 
+## Sharing assets collections to a group of users
 
 OR why do I see a discrepancy between users in admin console v/s users in AEM Brand Portal? 
 
 How do I share assets or collections to a group of users?
 
-**Prerequisites:**
+### Prerequisites
 
-**How?**
+### How
 
 What we are trying to do is to add external users (from an agency partner) to ABP and grant them access to a collection. Counterintuitively, it appears that the way to do this is to create a Product Profile and add users to that Product Profile, and then the Profile shows up like a Group to which a collection can be shared.
 
@@ -82,9 +81,9 @@ I think we’ve just found that “Groups” themselves don’t really do much f
 
 If we have that right, then we will just proceed with adding users to the base profile (to ensure they get the email notifying them of their access - which apparently is only triggered from the default profile) and then to a separate  profile  we’ll use to control access to specific collections of assets.
 
-**Example**
+### Example
 
-**How to do?**
+### How to do
 
 We first create product configurations and then assign users to them.
 

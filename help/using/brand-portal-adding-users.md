@@ -275,9 +275,9 @@ An Administrator can associate specific privileges with a [group](brand-portal-a
 
 To modify the role and right to access original renditions for specific group members, follow these steps:
 
-1. On the **User Roles** page, navigate to the **Groups** tab.
+1. On the [!UICONTROL User Roles] page, navigate to the [!UICONTROL Groups] tab.
 1. Select the groups for which you want to change roles.
-1. Select the appropriate role from the **Role** drop-down list.
+1. Select the appropriate role from the [!UICONTROL Role] drop-down list.
 
    To allow the members of a group to have access to original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) which they download from the portal or shared link, keep the **Access to  Original ** option selected for that group. By default, **Access to Original** option is selected for all the users. To prevent a user group from accessing original renditions, deselect the option corresponding to that group.
 
