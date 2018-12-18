@@ -32,7 +32,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
 1. To add a new background image, click the **Choose Image** icon from the toolbar at the top.
 
-   ![](assets/choose_wallpaperimage.png)
+   ![](assets/choose_wallpaperimage.PNG)
 
    Do one of the following:
 
