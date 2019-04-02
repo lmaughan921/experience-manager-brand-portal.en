@@ -89,5 +89,5 @@ Search suggestions work for the asset:
 
 Search suggestions work if users input a minimum 3 characters of title, description, or tags.
 
-##  why do I see 401 unauthorized error while connecting from AEM to BP? {#why-do-i-see-unauthorized-error-while-connecting-from-aem-to-bp}
+## why do I see 401 unauthorized error while connecting from AEM to BP? {#why-do-i-see-unauthorized-error-while-connecting-from-aem-to-bp}
 
