@@ -31,9 +31,10 @@ You can use the pre-existing tags to attach to an asset or create new tags from 
 
 To create tags on AEM, publish the tags on Brand Portal, and associate the tags with appropriate assets (or collections), follow these steps:
 
-1. Sign in to AEM Author instance with administrative privileges, and access **AEM Tags** console from global navigation:
+1. **Create Tags**
+Sign in to AEM Author instance with administrative privileges, and access **AEM Tags** console from global navigation:
 
-1. Select **Tools**
+   1. Select **Tools**
 
    2. Select **General**
 
