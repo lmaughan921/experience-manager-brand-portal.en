@@ -232,7 +232,7 @@ To request access, do the following:
 
    You are redirected to the **Request Access** page.
 
-1. The next page displays the current user’s name and email ID being used to request access. Leave a comment for the administrator, and click **Submit**.
+3. The next page displays the current user’s name and email ID being used to request access. Leave a comment for the administrator, and click **Submit**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -244,7 +244,7 @@ To request access, do the following:
    >
    >Step 4 onwards, the workflow is applicable only to Brand Portal product administrators.
 
-1. To grant access, click the relevant notification in Brand Portal notification area and then click **Grant Access**. Alternatively, follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
+4. To grant access, click the relevant notification in Brand Portal notification area and then click **Grant Access**. Alternatively, follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
 
    ![](assets/bplogin_request_access_8.png)
 
