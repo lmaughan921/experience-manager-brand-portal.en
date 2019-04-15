@@ -16,9 +16,9 @@ user-guide: null
   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
   + [Browsing assets on Brand Portal](using/browse-assets-brand-portal.md)
 + Publish from AEM Assets to Brand Portal {#publishfromassetstobrandportal}
-  + [Configure AEM Assets integration with Brand Portal](AdobeDocs/experience-manager-64.en/blob/master/help/assets/using/brand-portal-configuring-integration.md)
-  + [Publish collections to Brand Portal](AdobeDocs/experience-manager-64.en/blob/master/help/assets/using/brand-portal-publish-collection.md)
-  + [Publish folders to Brand Portal](AdobeDocs/experience-manager-64.en/blob/master/help/assets/using/brand-portal-publish-folder.md)
+  + [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+  + [Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+  + [Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
   + [Troubleshoot issues in parallel publishing to Brand Portal](using/troubleshoot-parallel-publishing.md)
   + [Publish tags to Brand Portal](using/brand-portal-publish-tags.md)
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)

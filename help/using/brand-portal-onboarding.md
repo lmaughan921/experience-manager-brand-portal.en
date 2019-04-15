@@ -23,11 +23,11 @@ To log in to Brand Portal for the first time, do the following:
 
 1. Open the welcome email, and click **Get Started**.
 
-   ![](assets/onboarding_welcomeemail.png)
+   ![Brand Portal welcome email](assets/onboarding_welcomeemail.png)
 
 1. In the sign-up page, specify your details (including first name, last name, password, and country/region). 
 
-   ![](assets/onboarding_sign_uppage.png)
+   ![Sign-up page](assets/onboarding_sign_uppage.png)
 
    >[!NOTE]
    >
@@ -35,12 +35,12 @@ To log in to Brand Portal for the first time, do the following:
 
    >[!NOTE]
    >
-   >If your organization uses enterprise IDs, instead of viewing this sign-up page, you are redirected to the enterprise login page. For more information, see [Enterprise ID, sign in, and account help](/content/help/en/enterprise/kb/enterprise-id-faq).
+   >If your organization uses enterprise IDs, instead of viewing this sign-up page, you are redirected to the enterprise login page. For more information, see [Enterprise ID, sign in, and account help](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
 1. Click **Continue** to proceed to your organization's Brand Portal page.
 1. From the Brand Portal sign-in page, click **Sign In** to log in to Brand Portal.
 
-   ![](assets/signin-onboarding.png)
+   ![Brand Portal Sign in page](assets/signin-onboarding.png)
 
    >[!NOTE]
    >

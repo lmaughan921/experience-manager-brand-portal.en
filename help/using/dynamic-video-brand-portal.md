@@ -24,7 +24,7 @@ Brand Portal allows previewing, playing, and downloading videos from the portal 
 
 ## Prerequisites {#prerequisites}
 
-* AEM Author instance is set up on [Dynamic Media Hybrid mode](/content/help/en/experience-manager/6-4/assets/using/config-dynamic).
+* AEM Author instance is set up on [Dynamic Media Hybrid mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html).
 * Video assets are published from AEM Author instance to Brand Portal.
 * [Dynamic Media configurations](../using/dynamic-video-brand-portal.md#main-pars-header) are set up on Brand Portal.
 

@@ -15,7 +15,7 @@ snippet: y
 
 # Troubleshoot issues in parallel publishing to Brand Portal{#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal supports integration with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [integrated](/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
+Brand Portal supports integration with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
 
 >[!NOTE]
 >
