@@ -54,12 +54,8 @@ The following table lists the tasks that users in these roles can perform:
    <td valign="top" width="104"><p><strong>Download</strong></p> </td> 
    <td valign="top" width="104"><p><strong>Share folders</strong></p> </td> 
    <td><strong>Share a collection</strong></td> 
-   <td><strong>Share assets as a 
-     <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Grammar multiReplace" data-gr-id="5" id="5">
-      link
-     </g></strong></td> 
-   <td valign="top" width="104"><p><strong>Access to Admin Tools</strong></p> </td> 
-  </tr>
+   <td><strong>Share assets as a link</strong></td> 
+   <td valign="top" width="104"><p><strong>Access to Admin Tools</strong></p> </td></tr>
   <tr>
    <td><strong>Guest user</strong></td> 
    <td style="text-align: left;">✓<sup>*</sup></td> 
@@ -67,15 +63,8 @@ The following table lists the tasks that users in these roles can perform:
    <td style="text-align: left;">✓<sup>*</sup></td> 
    <td style="text-align: left;">x</td> 
    <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_139 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="139" id="139">
-     x
-    </g></td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_139 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del" data-gr-id="139" id="139">
-     x
-    </g></td> 
-  </tr>
+   <td style="text-align: left;">x</td> 
+   <td style="text-align: left;">x</td></tr>
   <tr>
    <td valign="top" width="104"><p style="text-align: left;"><strong>Viewer</strong></p> </td> 
    <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
@@ -83,15 +72,8 @@ The following table lists the tasks that users in these roles can perform:
    <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
    <td valign="top" width="104"><p style="text-align: left;">x</p> </td> 
    <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="8" id="8">
-     x
-    </g></td> 
-   <td valign="top" width="104"><p style="text-align: left;">
-     <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del" data-gr-id="8" id="8">
-      x
-     </g><br /> </p> </td> 
-  </tr>
+   <td style="text-align: left;">x</td> 
+   <td valign="top" width="104"><p style="text-align: left;">x<br /></p></td></tr>
   <tr>
    <td valign="top" width="104"><p style="text-align: left;"><strong>Editor</strong></p> </td> 
    <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
