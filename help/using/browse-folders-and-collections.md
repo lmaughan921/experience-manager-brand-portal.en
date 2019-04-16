@@ -31,7 +31,7 @@ In List view, the Select icon appears when you hover the mouse icon over the thu
 
 Similar to List view, the Select icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in Column view.
 
-For more information, see [Viewing and Selecting your Resources](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_14).
+For more information, see [Viewing and Selecting your Resources](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#ViewingandSelectingResources).
 
 ## Viewing and Selecting Resources {#viewing-and-selecting-resources}
 
@@ -147,17 +147,17 @@ Card view displays information cards for each item at the current level. These p
 * If the page is locked, hidden or part of a livecopy.  
 * If appropriate, when you are required to take action as part of a workflow.
 
-    * Markers that indicate required actions may be related to entries in your [Inbox](/content/help/en/experience-manager/6-3/sites/authoring/using/inbox).
+    * Markers that indicate required actions may be related to entries in your [Inbox](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/inbox.html).
 
 [Quick actions](#quickactions) are also available in this view such as selection and common actions such as edit.
 
-You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21).
+You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ### List View {#list-view}
 
 The list view lists information for each resource at the current level.
 
-You can navigate down through the tree by tapping/clicking on the resource name and back up by using the [breadcrumbs in the header](/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21).
+You can navigate down through the tree by tapping/clicking on the resource name and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 To easily select all items in the list, use the checkbox at the top-left of the list.
 

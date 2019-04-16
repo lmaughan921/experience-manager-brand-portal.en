@@ -50,7 +50,7 @@ For example, if you are looking for an image, you can choose whether you want a 
 
 Filters panel in Brand Portal
 
-The Filters panel includes a few standard facets, such as- Path Browser, File Type, File Size, Status, and Orientation. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the **Filters** panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](/using/brand-portal-search-facets.html?cq_ck=1507546531810#Listofsearchpredicates).
+The Filters panel includes a few standard facets, such as- Path Browser, File Type, File Size, Status, and Orientation. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the **Filters** panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
 

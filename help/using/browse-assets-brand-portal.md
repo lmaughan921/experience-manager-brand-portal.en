@@ -58,7 +58,7 @@ You can view, navigate through, and select (for further action) your resources w
   <li>Size </li> 
   <li>Dimensions</li> 
  </ul> 
- <p>You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the <a href="/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21" target="_blank">breadcrumbs in the header</a>.</p> 
+ <p>You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the <a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader" target="_blank">breadcrumbs in the header</a>.</p> 
  <img imageRotate="0" src="assets/cardquickactions.png" />
  <h3>Card view for non-admin users</h3>
  <p>Cards of folders, in Card View, display folder hierarchy information to non-admin users (Editor, Viewer, and Guest User). This functionality lets the users know the location of the folders, they are accessing, with respect to the parent hierarchy.</p> 

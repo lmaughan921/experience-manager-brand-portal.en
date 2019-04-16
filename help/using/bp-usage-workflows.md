@@ -54,7 +54,7 @@ For example, "N" users are listed in Admin Console, and "m" out of the "N" users
 
 ## How to on-board users with federated login? {#how-to-on-board-users-with-federated-login}
 
-Administrators can configure federated ID which uses an organization's SSO and identity management for authentication. In such a case, Admin Console authenticates users using organization's [identity management system](/content/help/en/enterprise/using/set-up-identity) and doesn't require to register/enroll every user for AdobeID. To enable single sign-on Brand Portal, see [Enabling Single Sign-On with SAML](/content/help/en/sign/how-to/SAML_Configuration).
+Administrators can configure federated ID which uses an organization's SSO and identity management for authentication. In such a case, Admin Console authenticates users using organization's [identity management system](https://helpx.adobe.com/enterprise/using/set-up-identity.html) and doesn't require to register/enroll every user for AdobeID. To enable single sign-on Brand Portal, see [Enabling Single Sign-On with SAML](https://helpx.adobe.com/sign/help/SAML_Configuration.html#3).
 
 ## When is Adobe ID used to access Brand Portal? {#when-is-adobe-id-used-to-access-brand-portal}
 
@@ -127,10 +127,9 @@ Assets published to Brand Portal are accessible to administrators by default. Th
 >
 >Users (or user groups) having access rights to a parent folder get the same access rights to all the child folders within that nested folder hierarchy.
 
-There is no way to restrict users' access on a child folder, whose parent folder is exposed to the same user. In AEM, the [ACLs](/content/help/en/experience-manager/6-4/sites/administering/using/security#main-pars_text_43) allow adding restrictions on parent folders and not the child folders.
+There is no way to restrict users' access on a child folder, whose parent folder is exposed to the same user. In AEM, the [ACLs](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) allow adding restrictions on parent folders and not the child folders.
 
-For example, we have a folder hierarchy **We-Retail &gt; Asia &gt; Skiing &gt; Gears**. The administrator if shares the folder **Asia **with a user group, but doesn't share the child folders **Skiing **or **Gears**. Then the user group has the same access rights on the folders **Skiing **and **Gears **as on the folder** Asia**. It is so, because Skiing is the child folder of the shared parent folder **Asia **and Gears is the child folder of **Skiing**. [](/content/help/en/experience-manager/6-2/sites/administering/using/security#main-pars_title_10)
-
+For example, we have a folder hierarchy **We-Retail &gt; Asia &gt; Skiing &gt; Gears**. The administrator if shares the folder **Asia **with a user group, but doesn't share the child folders **Skiing **or **Gears**. Then the user group has the same access rights on the folders **Skiing **and **Gears **as on the folder** Asia**. It is so, because Skiing is the child folder of the shared parent folder **Asia **and Gears is the child folder of **Skiing**.
 ![](assets/folderhierarchy.png)
 
 **To add restrictions**

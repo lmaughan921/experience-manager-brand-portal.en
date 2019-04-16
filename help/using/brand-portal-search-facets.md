@@ -17,13 +17,13 @@ snippet: y
 
 Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 
-Brand Portal supports [  faceted  search](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch) for granular searches of approved brand assets, which is possible due to [**Filters** panel](../using/brand-portal-searching.md#main-pars-text-55969420). Search facets are made available on Filters panel through **Search Form** in the admin tools. A default search form named Asset Admin Search Rail exists in Search Forms page in admin tools. However, Administrators can customize the default Filters panel by editing the default Search Form (Asset Admin Search Rail) by adding, modifying, or removing search predicates, thereby making the search functionality versatile.
+Brand Portal supports [faceted search](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch) for granular searches of approved brand assets, which is possible due to [**Filters** panel](../using/brand-portal-searching.md#main-pars-text-55969420). Search facets are made available on Filters panel through **Search Form** in the admin tools. A default search form named Asset Admin Search Rail exists in Search Forms page in admin tools. However, Administrators can customize the default Filters panel by editing the default Search Form (Asset Admin Search Rail) by adding, modifying, or removing search predicates, thereby making the search functionality versatile.
 
 You can use various search predicates to customize the **Filters** panel. For example, add the property predicate to search for assets that match a single property that you specify in this predicate. Add the options predicate to search for assets that match one or more values that you specify for a particular property. Add the date range predicate to search for assets created within a specified date range.
 
 >[!NOTE]
 >
->AEM allows organizations to [publish the customized search forms from AEM Author](/cf#publish-schema-search-facets-presets.html) to Brand Portal, instead of re-creating the same form on Brand Portal.
+>AEM allows organizations to [publish the customized search forms from AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) to Brand Portal, instead of re-creating the same form on Brand Portal.
 
 ## Add a search predicate {#add-a-search-predicate}
 
