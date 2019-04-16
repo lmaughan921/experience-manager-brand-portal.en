@@ -1,4 +1,4 @@
----
+share ass---
 title: Share assets as a link
 seo-title: Share assets as a link
 description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
@@ -34,8 +34,7 @@ To share assets as a link, follow these steps:
 
    ![](assets/siderail.png)
 
-1. From the siderail on the left, click **Files** to share folders or images. To share collections, click **Collections**. 
-
+1. From the siderail on the left, click **Files** to share folders or images. To share collections, click **Collections**.
    ![](assets/navigationrail.png)
 
 1. Select the folders or collections you want to share as a link.
@@ -70,7 +69,7 @@ To share assets as a link, follow these steps:
 
    >[!NOTE]
    >
-   >Administrators can customize the email messaging, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md#customizetheemailmessaging) feature.
+   >Administrators can customize the email messaging, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
 
 ## Download assets from shared links {#download-assets-from-shared-links}
 
@@ -89,7 +88,7 @@ To download the shared assets:
    >[!NOTE]
    >
    >If the assets you are downloading also include licensed assets, you are redirected to the **Copyright Management** page. In this page, select the licensed assets, click **Agree**, and then click **Download**. If you choose to disagree, only the unlicensed assets are downloaded.  
-   >License-protected assets have [license agreement attached](/content/help/en/experience-manager/6-4/assets/using/drm#main-pars_text) to them, which is done by setting asset's [metadata property](/content/help/en/experience-manager/6-4/assets/using/drm#main-pars_text) in AEM Assets.
+   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
    ![](assets/licensed-asset-download.png)
 
@@ -97,7 +96,7 @@ To download the shared assets:
 
    ![](assets/download-linkshare.png)
 
-    * To speed up the download of asset files shared as the link, select **Enable download acceleration **option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+    * To speed up the download of asset files shared as the link, select **Enable download acceleration **option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
 1. To download the renditions of assets in addition to the assets from the shared link, select **Rendition(s) **option. When you do so,** Exclude System Renditions **option appears that is selected by default. This prevents the download of out-of-the-box renditions along with approved assets or their custom renditions.
 
@@ -105,7 +104,7 @@ To download the shared assets:
 
    >[!NOTE]
    >
-   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
+   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
    ![](assets/download-linkshare-autoren.png)
 
@@ -405,9 +404,7 @@ The following matrix lists the asset formats for which Brand Portal supports thu
    <td>ZIP</td> 
    <td>✓</td> 
    <td>✕</td> 
-  </tr> 
- </tbody> 
-</table>
+  </tr></tbody></table>
 
 The following legend explains the symbols used in the matrix:
 
@@ -440,4 +437,3 @@ To unshare previously shared assets as a link, do the following:
    >The display of shared links is user-specific. This feature does not display all the links shared by all users of a tenant.
 
 1. In the warning message box, click **Continue** to confirm unshare. The entry for the link is removed from the list of shared links.
-
