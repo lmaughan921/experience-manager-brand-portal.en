@@ -174,7 +174,7 @@ You can provide the system administrator or the product administrator privilege 
 
 >[!NOTE]
 >
->You can login to [Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
+>You can login to [Admin Console](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -206,7 +206,7 @@ You can provide the system administrator or the product administrator privilege 
    >
    >
    >Adobe recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure AEM Assets so that assets can be published from AEM Assets to Brand Portal. For more information, see [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
-   >
+      >
    >
    >In contrast, the Product Administrator role grants administrator privileges for a specific product only. If you want to enforce a more granular access control within Brand Portal, use the Product Administrator role and select the product as **AEM Brand Portal**.
    >[!NOTE]
