@@ -1,3 +1,4 @@
+---
 title: Share assets as a link
 seo-title: Share assets as a link
 description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
@@ -13,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Share assets as a link{#share-assets-as-a-link}
+# Share assets as a link {#share-assets-as-a-link} 
 
 AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 
@@ -24,8 +25,6 @@ Link sharing access is restricted to editors and administrators. For more inform
 >[!NOTE]
 >
 >Upto 5GB of zip download is allowed using link share feature on brand portal.
-
-## Share assets as a link {#share-assets-as-a-link}
 
 To share assets as a link, follow these steps:
 
