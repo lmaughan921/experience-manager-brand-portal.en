@@ -58,7 +58,7 @@ You can view, navigate through, and select (for further action) your resources w
   <li>Size </li> 
   <li>Dimensions</li> 
  </ul> 
- <p>You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the <a href="/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21" target="_blank">breadcrumbs in the header</a>.</p> 
+ <p>You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the <a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader" target="_blank">breadcrumbs in the header</a>.</p> 
  <img imageRotate="0" src="assets/cardquickactions.png" />
  <h3>Card view for non-admin users</h3>
  <p>Cards of folders, in Card View, display folder hierarchy information to non-admin users (Editor, Viewer, and Guest User). This functionality lets the users know the location of the folders, they are accessing, with respect to the parent hierarchy.</p> 
@@ -97,7 +97,7 @@ You can view, navigate through, and select (for further action) your resources w
   <li>Folder path showing asset hierarchy<sup>*</sup> </li> 
   <li>Date of publishing the asset on Brand Portal</li> 
  </ul> 
- <p>* Path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the <a href="/content/help/en/experience-manager/6-3/sites/authoring/using/basic-handling#main-pars_title_21">breadcrumbs in the header</a>.</p> 
+ <p>* Path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the <a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader">breadcrumbs in the header</a>.</p> 
  <draft-comment lastModifiedBy="mgulati" lastModifiedDate="2018-08-17T03:12:05.096-0400" type="annotation">
   Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  </draft-comment>

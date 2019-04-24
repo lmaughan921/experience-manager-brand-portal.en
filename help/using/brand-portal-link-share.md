@@ -1,4 +1,4 @@
-share ass---
+---
 title: Share assets as a link
 seo-title: Share assets as a link
 description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Share assets as a link{#share-assets-as-a-link}
+# Share assets as a link {#share-assets-as-a-link} 
 
 AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 
@@ -25,8 +25,6 @@ Link sharing access is restricted to editors and administrators. For more inform
 >[!NOTE]
 >
 >Upto 5GB of zip download is allowed using link share feature on brand portal.
-
-## Share assets as a link {#share-assets-as-a-link}
 
 To share assets as a link, follow these steps:
 
@@ -92,8 +90,7 @@ To download the shared assets:
 
    ![](assets/licensed-asset-download.png)
 
-   The **Download **dialog box appears. 
-
+   The **Download **dialog box appears.
    ![](assets/download-linkshare.png)
 
     * To speed up the download of asset files shared as the link, select **Enable download acceleration **option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).

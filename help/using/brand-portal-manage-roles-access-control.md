@@ -18,7 +18,7 @@ snippet: y
 
 Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 
-In [Admin Console](http://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Assets Brand Portal. You must choose the AEM Assets Brand Portal product, and create product profiles (formerly known as product configurations&#42;).
+In [Admin Console](https://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Assets Brand Portal. You must choose the AEM Assets Brand Portal product, and create product profiles (formerly known as product configurations&#42;).
 
 >[!NOTE]
 >

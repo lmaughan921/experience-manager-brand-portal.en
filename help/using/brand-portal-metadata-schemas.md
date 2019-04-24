@@ -70,7 +70,7 @@ To edit a metadata schema form, do the following:
 
 1. To configure a component, select it and modify its properties in the** Settings **tab.
 
-#### Components in the Build Form tab {#components-in-the-build-form-tab}
+### Components in the Build Form tab {#components-in-the-build-form-tab}
 
 The **Build Form **tab lists items that you can use in your schema form. The **Settings **tab provides the attributes of each item that you select in the **Build Form **tab. The following table lists the form items available in the **Build Form **tab: 
 
@@ -228,7 +228,7 @@ To delete a form, select a form and click the **Delete** icon.
 
 ## Schema forms for MIME TYPES {#schema-forms-for-mime-types}
 
-#### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
+### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
 
 In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png."
 

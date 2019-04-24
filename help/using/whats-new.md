@@ -132,15 +132,15 @@ Similarly, specifying:
  <img imageRotate="0" src="assets/edit-dynamic-media-config-1.png" /> 
  <a href="../using/dynamic-video-brand-portal.md" target="_blank"><img src="https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png" /></a> 
  <h3>Scheduled publish to Brand Portal</h3> 
- <p>Assets (and folders) publish workflow from <a href="/content/help/en/experience-manager/6-4/release-notes/sp-release-notes#main-pars_header_9658011" target="_blank">AEM (6.4.2.0)</a> Author instance to Brand Portal can be scheduled for a later date, time.</p> 
+ <p>Assets (and folders) publish workflow from <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011" target="_blank">AEM (6.4.2.0)</a> Author instance to Brand Portal can be scheduled for a later date, time.</p> 
  <p>Similarly, published assets can be removed from the portal at a later date (time), by scheduling the Unpublish from Brand Portal workflow.</p> 
  <img imageRotate="0" src="assets/schedule-publish.png" /> 
  <img imageRotate="0" src="assets/publishlater-workflow.png" /> 
- <a href="/content/help/en/experience-manager/6-4/assets/using/brand-portal-publish-folder.html?cq_ck=1542365601177" target="_blank"><img src="https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png" /></a> 
+ <a href="https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html" target="_blank"><img src="https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png" /></a> 
  <h3>Configurable tenant alias in URL</h3> 
  <p>Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations need to contact Adobe support.</p> 
  <p>Note that only the prefix of the Brand Portal URL can be customized and not the entire URL.<br /> For example, an organization with existing domain <strong>geomettrix.brand-portal.adobe.com</strong> can get <strong>geomettrixinc.brand-portal.adobe.com</strong> created on request.</p> 
- <p>However, AEM Author instance can be <a href="/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration" target="_blank">configured</a> only with the tenant id URL and not with tenant alias (alternate) URL.</p> 
+ <p>However, AEM Author instance can be <a href="https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html" target="_blank">configured</a> only with the tenant id URL and not with tenant alias (alternate) URL.</p> 
  <p><strong>The use case</strong></p> 
  <p>Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.</p> 
  <a href="../using/brand-portal.md#tenantaliasforportalurl" target="_blank"><img src="https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png" /></a> 

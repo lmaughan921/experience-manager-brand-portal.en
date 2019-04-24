@@ -54,12 +54,8 @@ The following table lists the tasks that users in these roles can perform:
    <td valign="top" width="104"><p><strong>Download</strong></p> </td> 
    <td valign="top" width="104"><p><strong>Share folders</strong></p> </td> 
    <td><strong>Share a collection</strong></td> 
-   <td><strong>Share assets as a 
-     <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Grammar multiReplace" data-gr-id="5" id="5">
-      link
-     </g></strong></td> 
-   <td valign="top" width="104"><p><strong>Access to Admin Tools</strong></p> </td> 
-  </tr>
+   <td><strong>Share assets as a link</strong></td> 
+   <td valign="top" width="104"><p><strong>Access to Admin Tools</strong></p> </td></tr>
   <tr>
    <td><strong>Guest user</strong></td> 
    <td style="text-align: left;">✓<sup>*</sup></td> 
@@ -67,15 +63,8 @@ The following table lists the tasks that users in these roles can perform:
    <td style="text-align: left;">✓<sup>*</sup></td> 
    <td style="text-align: left;">x</td> 
    <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_139 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="139" id="139">
-     x
-    </g></td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_139 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del" data-gr-id="139" id="139">
-     x
-    </g></td> 
-  </tr>
+   <td style="text-align: left;">x</td> 
+   <td style="text-align: left;">x</td></tr>
   <tr>
    <td valign="top" width="104"><p style="text-align: left;"><strong>Viewer</strong></p> </td> 
    <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
@@ -83,15 +72,8 @@ The following table lists the tasks that users in these roles can perform:
    <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
    <td valign="top" width="104"><p style="text-align: left;">x</p> </td> 
    <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">
-    <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="8" id="8">
-     x
-    </g></td> 
-   <td valign="top" width="104"><p style="text-align: left;">
-     <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del" data-gr-id="8" id="8">
-      x
-     </g><br /> </p> </td> 
-  </tr>
+   <td style="text-align: left;">x</td> 
+   <td valign="top" width="104"><p style="text-align: left;">x<br /></p></td></tr>
   <tr>
    <td valign="top" width="104"><p style="text-align: left;"><strong>Editor</strong></p> </td> 
    <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
@@ -173,18 +155,18 @@ An administrator can perform all tasks that an Editor can perform and the follow
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
-[Configure AEM Assets integration with Brand Portal](/content/help/en/experience-manager/6-2/assets/using/configuring-assets-brandportal-integration)
+[Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[Publish folders to Brand Portal](/content/help/en/experience-manager/6-2/assets/using/brand-portal-publish-folder)
+[Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Publish collections to Brand Portal](/content/help/en/experience-manager/6-2/assets/using/brand-portal-publish-collection)
+[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Tenant alias for portal url {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
 
-However, AEM Author instance can be [configured](/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 >[!NOTE]
 >
@@ -200,21 +182,21 @@ To request access, do the following:
 
 1. From the Brand Portal login page, select the **Click here** corresponding to **Need Access?**. However, to enter the guest session, select the **Click here** corresponding to **Guest Access?**.
 
-   ![](assets/bp-login-requestaccess.png)
+   ![Brand Portal login screen](assets/bp-login-requestaccess.png)
 
    The **Request Access** page opens.
 
-1. To be able to request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
+2. To be able to request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
 
    In the **Request Access** page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
 
     * Scenario 1: If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
 
-   ![](assets/bplogin_request_access_2.png)
+   ![Request access](assets/bplogin_request_access_2.png)
 
    The **Sign in** page opens. Provide your Adobe ID credentials and click **Sign in**. 
 
-   ![](assets/bplogin_request_access_3.png)
+   ![Adobe sign in](assets/bplogin_request_access_3.png)
 
    You are redirected to the **Request Access** page.
 
@@ -232,19 +214,19 @@ To request access, do the following:
 
    You are redirected to the **Request Access** page.
 
-1. The next page displays the current user’s name and email ID being used to request access. Leave a comment for the administrator, and click **Submit**.
+3. The next page displays the current user’s name and email ID being used to request access. Leave a comment for the administrator, and click **Submit**.
 
    ![](assets/bplogin-request-access.png)
 
    Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
 
-   ![](assets/bplogin_request_access_7.png)
+   ![Access requested notification](assets/bplogin_request_access_7.png)
 
    >[!NOTE]
    >
    >Step 4 onwards, the workflow is applicable only to Brand Portal product administrators.
 
-1. To grant access, click the relevant notification in Brand Portal notification area and then click **Grant Access**. Alternatively, follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
+4. To grant access, click the relevant notification in Brand Portal notification area and then click **Grant Access**. Alternatively, follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
 
    ![](assets/bplogin_request_access_8.png)
 

@@ -105,7 +105,7 @@ The Brand Portal user interface is available in following languages:
 
 ## Certified Platforms {#certified-platforms}
 
-To ascertain what platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column of the table in the section **SUPPORTED BROWSERS FOR AUTHORING USER INTERFACE** of [Technical Requirements](https://docs.adobe.com/content/docs/en/aem/6-3/deploy/technical-requirements.html).
+To ascertain what platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column of the table in the section **SUPPORTED BROWSERS FOR AUTHORING USER INTERFACE** of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
@@ -116,7 +116,7 @@ To ascertain what platforms are certified to run with this release of Brand Port
 
 These sites are only available to customers. If you are a customer and require access, contact your Adobe account manager.
 
-* [](http://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
 * [Adobe Customer Care](https://helpx.adobe.com/contact.html)
 
