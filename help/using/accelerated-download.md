@@ -278,7 +278,7 @@ If download acceleration is not working for you, follow these steps to troublesh
 
    If ports are not OK, then reach out to your network team and ensure that Ports 33001 (both TCP & UDP) are not blocked in the firewall.
 
-1. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [http://www.speedtest.net/](http://www.speedtest.net/).
+1. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
 
    If the bandwidth is a few (1-10 Mbps) or in Kbps, then use Aspera Preferences and try to limit the bandwidth equal to the available bandwidth.
 

@@ -22,7 +22,7 @@ user-guide: null
   + [Troubleshoot issues in parallel publishing to Brand Portal](using/troubleshoot-parallel-publishing.md)
   + [Publish tags to Brand Portal](using/brand-portal-publish-tags.md)
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Share assets with users {#shareassetswith users}
++ Share assets with users {#shareassetswithusers}
   + [Share a collection](using/brand-portal-share-collection.md)
   + [Share folders](using/brand-portal-sharing-folders.md)
   + [Share assets as a link](using/brand-portal-link-share.md)
