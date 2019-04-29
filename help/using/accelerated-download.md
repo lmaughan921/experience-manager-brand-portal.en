@@ -234,7 +234,7 @@ To download assets faster from Brand Portal:
    Download begins. A dialog box shows the progress of the download. Use the dialog box to **pause**, **resume**, or **cancel** the download.
 
    Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-
+   
    ![](assets/aspera-activity-window.png)
 
    On successful completion of the download, a dialog box shows the location where assets are downloaded to user's system. If there is a failure, it shows error.
@@ -285,4 +285,3 @@ If download acceleration is not working for you, follow these steps to troublesh
 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
    (login:  asperaweb , password:  demoaspera )
 1. If none of the above troubleshooting steps work, deselect the option Enable Download Acceleration and use the normal download.
-
