@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Overview of AEM Assets Brand Portal{#overview-of-aem-assets-brand-portal}
+# Overview of AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
 AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 
