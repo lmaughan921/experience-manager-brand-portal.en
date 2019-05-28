@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Publish tags to Brand Portal{#publish-tags-to-brand-portal}
+# Publish tags to Brand Portal {#publish-tags-to-brand-portal}
 
 Learn how to publish tags from AEM Assets to Brand Portal.
 

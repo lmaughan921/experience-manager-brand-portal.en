@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-## Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}
+# Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}
 
 Preview and play videos adaptively on Brand Portal with Dynamic Media support. Also, download the dynamic renditions from the portal and shared links.
 Brand Portal users can:

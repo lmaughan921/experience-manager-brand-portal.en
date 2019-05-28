@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# User permissions on Brand Portal: troubleshooting and best practices{#user-permissions-on-brand-portal-troubleshooting-and-best-practices}
+# User permissions on Brand Portal: troubleshooting and best practices {#user-permissions-on-brand-portal-troubleshooting-and-best-practices}
 
 Read on to understand user permissions and best practices in Brand Portal.
 
