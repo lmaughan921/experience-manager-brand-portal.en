@@ -219,6 +219,7 @@ Similarly, specifying:
   </g> Case. This option is available for property predicate and multi-value property predicate.<br /> However, the non-case sensitive search is comparatively slower than default search for property predicate. If there are too many non-case sensitive predicates in the search filter, the search can slow down. It is, therefore, advised to use the non-case sensitive search judiciously.</p>
 
 ## What changed in 6.4.1 {#what-changed-in-2}
+
  <p>Brand Portal 6.4.1 is a platform upgrade release which brings in several new features and vital enhancements such as browsing, searching, and performance enhancements to deliver fulfilling customer experiences.</p> 
  <h3>Browse Enhancements</h3> 
  <ul> 
