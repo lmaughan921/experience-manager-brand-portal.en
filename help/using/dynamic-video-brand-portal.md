@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}
+## Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}
 
 Preview and play videos adaptively on Brand Portal with Dynamic Media support. Also, download the dynamic renditions from the portal and shared links.
 Brand Portal users can:
@@ -77,7 +77,9 @@ The Egress IPs are as follows:
 To whitelist either of these Egress IPs, see prepare your account for secure testing service.
 
 ## Best Practices
+
 To ensure that your dynamic video assets are successfully previewed, played, and downloaded from Brand Portal (and shared links), follow these practices:
+
 * **Separate tenants for Dynamic Media Hybrid and Dynamic Media Scene 7 modes**
 If you are using both Dynamic Media Scene 7 and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media Scene 7 modes.
 ![Author and BP one to one mapping](assets/BPDynamicMedia.png)
@@ -97,7 +99,11 @@ The Egress IPs are as follows:
 | APAC | 63.140.44.54 |
 
 ## Configure Dynamic Media (Hybrid) settings {#configure-dm-hybrid-settings}
+
 If AEM Author instance is running on dynamic media hybrid mode, then use Video tile from administrative tools panel to configure Dynamic Media gateway settings.
+>[!NOTE]
+>
+>The [video encoding profiles](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) are not published to Brand Portal, instead are fetched from the Scene 7 server. Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [Scene7 cloud configuration](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in your AEM Author instance.
 To set up Dynamic Media configurations on Brand Portal tenants:
 
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
@@ -111,9 +117,11 @@ To set up Dynamic Media configurations on Brand Portal tenants:
 4. Select **Save** to save the configuration.
 
 ## Configure Dynamic Media Scene7 settings {#configure-dm-scene7-settings}
+
 If AEM Author instance is running on Dynamic Media- Scene 7 mode, then use **Dynamic Media Configuration** tile from administrative tools panel to configure the Scene 7 server settings.
 
 To set up Dynamic Media Scene 7 configurations on Brand Portal tenants:
+
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
 
 2. From the administrative tools panel, select the **Dynamic Media Configuration** tile.
@@ -121,15 +129,11 @@ To set up Dynamic Media Scene 7 configurations on Brand Portal tenants:
 Edit Dynamic Media Configuration page opens.
 ![Scene 7 Configuration on Brand Portal](assets/S7Config.png)
 
-3. Provide:
-
-* Title
-* Credentials (Email ID and Password) to access Scene 7 server
-* Region
+3. Provide:  
+    * Title
+    * Credentials (Email ID and Password) to access Scene 7 server
+    * Region
 Make sure these values are the same as those in your AEM Author instance.
->[!NOTE]
->
->The [video encoding profiles](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) are not published to Brand Portal, instead are fetched from the Scene 7 server. Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [Scene7 cloud configuration](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in your AEM Author instance.
 
 4. Select **Connect to Dynamic Media**.
 
