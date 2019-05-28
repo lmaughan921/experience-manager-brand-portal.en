@@ -66,8 +66,6 @@ Similarly, specifying:
 
 ## What changed in 6.4.3 {#what-changed-in}
 
- 
- <summary>Brand Portal 6.4.3 features and enhancements</summary> 
  <p>Brand Portal 6.4.3 release focuses on — providing organizations with an alternate alias in addition to their tenant ID in Brand Portal access URL, new folder hierarchy configuration, video support enhancements, scheduled publishing from AEM Author instance to Brand Portal, operational enhancements — and cateres to customer requests.<br /> </p> 
  <h3>Folder hierarchy navigation for non-admins</h3> 
  <p>Administrators can now configure how the folders are shown to non-admin users (Editors, Viewers, and Guest Users) on login. <br /> <a href="../using/brand-portal-general-configuration.md" target="_blank">Enable Folder Hierarchy</a> configuration is added in <strong>General Settings</strong>, in the admin tools panel. If the configuration is:</p> 
@@ -153,7 +151,6 @@ Similarly, specifying:
 
 ## What changed in 6.4.2 {#what-changed-in-1}
 
- <summary>Brand Portal 6.4.2 features and enhancements</summary> 
  <p>Brand Portal 6.4.2 release brings in a range of capabilities to address asset distribution needs of organizations and help them reach out to a large number of users distributed globally through Guest access and optimum experience with accelerated downloads. Brand Portal also provides greater control to organizations through new configurations for administrators, newly added report, and caters to customer requests.</p> 
  <h3>Guest Access</h3> 
  <img imageRotate="0" src="assets/bp-login-screen-1.png" /> 
@@ -222,8 +219,6 @@ Similarly, specifying:
   </g> Case. This option is available for property predicate and multi-value property predicate.<br /> However, the non-case sensitive search is comparatively slower than default search for property predicate. If there are too many non-case sensitive predicates in the search filter, the search can slow down. It is, therefore, advised to use the non-case sensitive search judiciously.</p>
 
 ## What changed in 6.4.1 {#what-changed-in-2}
-
- <summary>Brand Portal 6.4.1 features and enhancements</summary> 
  <p>Brand Portal 6.4.1 is a platform upgrade release which brings in several new features and vital enhancements such as browsing, searching, and performance enhancements to deliver fulfilling customer experiences.</p> 
  <h3>Browse Enhancements</h3> 
  <ul> 
