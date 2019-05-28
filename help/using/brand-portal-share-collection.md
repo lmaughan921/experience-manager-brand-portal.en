@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Share a collection{#share-a-collection}
+# Share collections on Brand Portal {#share-collections-bp}
 
 AEM Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections. However, editors cannot change a public collection to a non-public collection.
 
@@ -22,7 +22,7 @@ AEM Assets Brand Portal Administrators can share and unshare a collection or a s
 >
 >Editors cannot change a public collection to a non-public collection and, therefore, do not have **Public Collection **check box available in** Collection Settings** dialog.
 
-## Share a collection {#share-a-collection}
+## Share a collection {#share-collection}
 
 To share a collection, follow these steps:
 

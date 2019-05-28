@@ -45,57 +45,12 @@ Brand Portal supports various user personas that include the following roles:
 
 The following table lists the tasks that users in these roles can perform:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td valign="top" width="104"><p> </p> </td> 
-   <td valign="top" width="104"><p><strong>Browse</strong></p> </td> 
-   <td valign="top" width="104"><p><strong>Search </strong></p> </td> 
-   <td valign="top" width="104"><p><strong>Download</strong></p> </td> 
-   <td valign="top" width="104"><p><strong>Share folders</strong></p> </td> 
-   <td><strong>Share a collection</strong></td> 
-   <td><strong>Share assets as a link</strong></td> 
-   <td valign="top" width="104"><p><strong>Access to Admin Tools</strong></p> </td></tr>
-  <tr>
-   <td><strong>Guest user</strong></td> 
-   <td style="text-align: left;">✓<sup>*</sup></td> 
-   <td style="text-align: left;">✓<sup><sub>*</sub></sup></td> 
-   <td style="text-align: left;">✓<sup>*</sup></td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">x</td></tr>
-  <tr>
-   <td valign="top" width="104"><p style="text-align: left;"><strong>Viewer</strong></p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">x</p> </td> 
-   <td style="text-align: left;">x</td> 
-   <td style="text-align: left;">x</td> 
-   <td valign="top" width="104"><p style="text-align: left;">x<br /></p></td></tr>
-  <tr>
-   <td valign="top" width="104"><p style="text-align: left;"><strong>Editor</strong></p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td style="text-align: left;">✓</td> 
-   <td style="text-align: left;">✓</td> 
-   <td valign="top" width="104"><p style="text-align: left;">x</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="104"><p style="text-align: left;"><strong>Administrator</strong></p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-   <td style="text-align: left;">✓</td> 
-   <td style="text-align: left;">✓</td> 
-   <td valign="top" width="104"><p style="text-align: left;">✓</p> </td> 
-  </tr>
- </tbody>
-</table>
+|  | **Browse** | **Search** | **Download** | **Share folders** | **Share a collection** | **Share assets as a link** | **Access to Admin Tools** |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| **Guest user** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Viewer** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
+| **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 &#42; Guest users can browse, access, and search assets in public folders and collections only.
 
@@ -230,7 +185,7 @@ To request access, do the following:
 
    ![](assets/bplogin_request_access_8.png)
 
-   You are redirected to the [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](../using/brand-portal-adding-users.md#addauser) (follow Steps 4-7 in the procedure to add a user).
+   You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](../using/brand-portal-adding-users.md#addauser) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -248,4 +203,4 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 
-[AEM Forums](http://www.adobe.com/go/aod_forums_en)
+[AEM Forums](https://www.adobe.com/go/aod_forums_en)

@@ -115,293 +115,66 @@ To download the shared assets:
 
 The following matrix lists the asset formats for which Brand Portal supports thumbnail and preview:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Asset format</td> 
-   <td>Thumbnail support</td> 
-   <td>Preview support</td> 
-  </tr> 
-  <tr> 
-   <td>PNG</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td>GIF</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
-  <tr> 
-   <td>TIFF</td> 
-   <td>✓ </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>JPEG</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
-  <tr> 
-   <td>BMP </td> 
-   <td>✓ </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PNM*</td> 
-   <td>NA</td> 
-   <td>NA<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>PGM*</td> 
-   <td>NA<br /> </td> 
-   <td>NA<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>PBM*</td> 
-   <td>NA<br /> </td> 
-   <td>NA<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>PPM*</td> 
-   <td>NA<br /> </td> 
-   <td>NA<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>PSD <br /> </td> 
-   <td>✓ </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>EPS</td> 
-   <td>NA<br /> </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>DNG </td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PICT</td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PSB*</td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>JPG </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td>AI </td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>DOC</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>DOCX</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>ODT*</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PDF </td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>HTML</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>RTF</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>TXT </td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>XLS</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>XLSX</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>ODS</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PPT </td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PPTX</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>ODP</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>INDD </td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>PS</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>QXP</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>EPUB</td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>AAC</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>MIDI</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>3GP</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>MP3</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>MP4 </td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>OGA</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>OGG</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>RA</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>WAV</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>WMA</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>DVI</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>FLV</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>M4V</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>MPG</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>OGV</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>MOV</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>WMV</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>SWF</td> 
-   <td>✕</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>TGZ</td> 
-   <td>NA<br /> </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>JAR</td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>RAR</td> 
-   <td>NA<br /> </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>TAR</td> 
-   <td>NA<br /> </td> 
-   <td>✕</td> 
-  </tr> 
-  <tr> 
-   <td>ZIP</td> 
-   <td>✓</td> 
-   <td>✕</td> 
-  </tr></tbody></table>
+Put tabs between columnsCompact mode
+Result (click "Generate" to refresh) Copy to clipboard
+| ﻿Asset format | Thumbnail support | Preview support |
+|--------------|-------------------|-----------------|
+| PNG          | ✓                 | ✓               |
+| GIF          | ✓                 | ✓               |
+| TIFF         | ✓                 | ✕               |
+| JPEG         | ✓                 | ✓               |
+| BMP          | ✓                 | ✕               |
+| PNM*         | NA                | NA              |
+| PGM*         | NA                | NA              |
+| PBM*         | NA                | NA              |
+| PPM*         | NA                | NA              |
+| PSD          | ✓                 | ✕               |
+| EPS          | NA                | ✕               |
+| DNG          | ✓                 | ✕               |
+| PICT         | ✓                 | ✕               |
+| PSB*         | ✓                 | ✕               |
+| JPG          | ✓                 | ✓               |
+| AI           | ✓                 | ✕               |
+| DOC          | ✕                 | ✕               |
+| DOCX         | ✕                 | ✕               |
+| ODT*         | ✕                 | ✕               |
+| PDF          | ✓                 | ✕               |
+| HTML         | ✕                 | ✕               |
+| RTF          | ✕                 | ✕               |
+| TXT          | ✓                 | ✕               |
+| XLS          | ✕                 | ✕               |
+| XLSX         | ✕                 | ✕               |
+| ODS          | ✕                 | ✕               |
+| PPT          | ✓                 | ✕               |
+| PPTX         | ✕                 | ✕               |
+| ODP          | ✕                 | ✕               |
+| INDD         | ✓                 | ✕               |
+| PS           | ✕                 | ✕               |
+| QXP          | ✕                 | ✕               |
+| EPUB         | ✓                 | ✕               |
+| AAC          | ✕                 | ✕               |
+| MIDI         | ✕                 | ✕               |
+| 3GP          | ✕                 | ✕               |
+| MP3          | ✕                 | ✕               |
+| MP4          | ✕                 | ✕               |
+| OGA          | ✕                 | ✕               |
+| OGG          | ✕                 | ✕               |
+| RA           | ✕                 | ✕               |
+| WAV          | ✕                 | ✕               |
+| WMA          | ✕                 | ✕               |
+| DVI          | ✕                 | ✕               |
+| FLV          | ✕                 | ✕               |
+| M4V          | ✕                 | ✕               |
+| MPG          | ✕                 | ✕               |
+| OGV          | ✕                 | ✕               |
+| MOV          | ✕                 | ✕               |
+| WMV          | ✕                 | ✕               |
+| SWF          | ✕                 | ✕               |
+| TGZ          | NA                | ✕               |
+| JAR          | ✓                 | ✕               |
+| RAR          | NA                | ✕               |
+| TAR          | NA                | ✕               |
+| ZIP          | ✓                 | ✕               |
 
 The following legend explains the symbols used in the matrix:
 

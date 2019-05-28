@@ -49,40 +49,16 @@ If the **Public Folder Publish** option is disabled, administrators need to spec
 
 The following matrix discusses the access rights and rights to share/unshare assets for various user roles:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td> </td> 
-   <td>Access to all folders published from AEM Assets to Brand Portal</td> 
-   <td>Access to shared folders</td> 
-   <td>Share/unshare folder rights</td> 
-  </tr>
-  <tr>
-   <td>Administrator</td> 
-   <td>Yes</td> 
-   <td>Yes<br /> </td> 
-   <td>Yes<br /> </td> 
-  </tr>
-  <tr>
-   <td>Editor</td> 
-   <td>No*</td> 
-   <td>Yes, only if shared with them or with the group to which they belong</td> 
-   <td>Yes, only for the folders shared with them or with the group to which they belong<br /> </td> 
-  </tr>
-  <tr>
-   <td>Viewer</td> 
-   <td>No*</td> 
-   <td>Yes, only if shared with them or with the group to which they belong<br /> </td> 
-   <td>No<br /> <br /> </td> 
-  </tr>
-  <tr>
-   <td>Guest User</td> 
-   <td>No*</td> 
-   <td>Yes, only if shared with them or with the group to which they belong</td> 
-   <td>No</td> 
-  </tr>
- </tbody>
-</table>
+
+  
+ GeneratePut tabs between columnsCompact mode
+Result (click "Generate" to refresh) Copy to clipboard
+|               | Access to all folders published from AEM Assets to Brand Portal | Access to shared folders                                             | Share/unshare folder rights                                                       |
+|---------------|-----------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Administrator | Yes                                                             | Yes                                                                  | Yes                                                                               |
+| Editor        | No*                                                             | Yes, only if shared with them or with the group to which they belong | Yes, only for the folders shared with them or with the group to which they belong |
+| Viewer        | No*                                                             | Yes, only if shared with them or with the group to which they belong | No                                                                                |
+| Guest User    | No*                                                             | Yes, only if shared with them or with the group to which they belong | No                                                                                |
 
 *&#42;By default, the **Public Folder Publish** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
 

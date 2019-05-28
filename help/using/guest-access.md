@@ -115,7 +115,7 @@ To download assets and collections, use the download icon from:
 
 ![](assets/download-on-guest.png)
 
-Selecting **Enable download acceleration **on Download dialog lets you [enhance the download performance](../using/accelerated-download.md#main-pars-header-405749062).
+Selecting **Enable download acceleration **on Download dialog lets you [enhance the download performance](../using/accelerated-download.md).
 
 ## Exit guest session {#exit-guest-session}
 

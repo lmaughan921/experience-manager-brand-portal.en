@@ -42,7 +42,7 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
 
 >[!NOTE]
 >
->New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#requestaccesstobrandportal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
+>New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
 >[!NOTE]
 >
 >You can login to [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.

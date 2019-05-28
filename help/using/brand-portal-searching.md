@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Search assets on Brand Portal{#search-assets-on-brand-portal}
+# Search assets on Brand Portal {#search-assets-on-brand-portal}
 
 Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. You can also save your searches as smart collections for the future.
 
