@@ -37,7 +37,7 @@ This release includes the following search enhancements:
 * Property predicate in Search filter now supports searching for partial phrases.
 * Property predicate in Search Filter now supports wild card (&#42;) searches.
 
-Get insights into enhancements at the [What's New](../using/whats-new.md) page.
+Get insights into enhancements at the [What's New](whats-new.md) page.
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 

@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Share folders{#share-folders}
+# Share folders on Brand Portal {#share-folders}
 
 Assets need to be published to Brand Portal from a pre-configured AEM Author instance, as Brand Portal does not support asset ingestion.
 
@@ -27,7 +27,7 @@ The following describes the folder share workflow and user access:
 
 * Irrespective of user roles and privileges, when users log in to Brand Portal, they see all the public folders, and the folders directly shared with them or with a group to which they belong. Private folders, or folders shared with other users, are not visible to all users.
 
-### Sharing folders with user groups on Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
+### Share folders with user groups on Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
 Access rights on assets of a folder are dependant on the access rights on its parent folder, irrespective of the settings of children folders. This behavior is governed by [ACLs](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, as children folders inherit ACLs from their parent folders. For example, if a folder A contains folder B which contains folder C, then a user group (or users) having access rights on folder A also have the same access rights on folder B and folder C. Folder B being the child folder of A inherits its ACLs, and folder C being the child folder of B inherits its ACLs.
 
@@ -86,7 +86,7 @@ No action tasks are visible on hovering or selecting them in Card View, unlike t
 
 ![](assets/enabled-hierarchy1-1.png) ![](assets/hierarchy1-nonadmin-1.png) ![](assets/hierarchy-nonadmin-1.png) ![](assets/hierarchy2-nonadmin-1.png)
 
-## Share folders {#share-folders}
+## Share folders {#how-to-share-folders}
 
 To share a folder with users on Brand Portal, follow these steps:
 
@@ -125,7 +125,7 @@ To share a folder with users on Brand Portal, follow these steps:
 1. Click **Save**.
 1. To access the shared folder, log in to Brand Portal with the credentials of the user you shared the folder with. Review the shared folder in the interface.
 
-## Unshare folders {#unshare-folders}
+## Unshare folders {#unshare-the-folders}
 
 To unshare a previously shared folder, follow these steps:
 
@@ -143,4 +143,3 @@ To unshare a previously shared folder, follow these steps:
    Click **Save**.
 
 1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The folder is no longer available in the Brand Portal interface for the user.
-

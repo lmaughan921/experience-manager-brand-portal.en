@@ -60,23 +60,23 @@ Any user having limited access to assets on Brand Portal without undergoing auth
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
-[Browse and access public assets](../using/browse-folders-and-collections.md)
+[Browse and access public assets](browse-folders-and-collections.md)
 
-[Search public assets](../using/brand-portal-searching.md)
+[Search public assets](brand-portal-searching.md)
 
-[Download public assets](../using/brand-portal-download-users.md)
+[Download public assets](brand-portal-download-users.md)
 
-[Add assets to lightbox](../using/brand-portal-light-box.md#main-pars-title)
+[Add assets to lightbox](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ## Viewer {#viewer}
 
 A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-[Browse assets](../using/browse-folders-and-collections.md)
+[Browse assets](browse-folders-and-collections.md)
 
-[Search for assets](../using/brand-portal-searching.md)
+[Search for assets](brand-portal-searching.md)
 
-[Download assets](../using/brand-portal-download-users.md)
+[Download assets](brand-portal-download-users.md)
 
 ## Editor {#editor}
 
@@ -84,11 +84,11 @@ A user with the role of Editor can perform all tasks that a Viewer can perform. 
 
 Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
-[Share folders](../using/brand-portal-sharing-folders.md)
+[Share folders](brand-portal-sharing-folders.md)
 
-[Share a collection](../using/brand-portal-share-collection.md)
+[Share a collection](brand-portal-share-collection.md)
 
-[Share assets as a link](../using/brand-portal-link-share.md)
+[Share assets as a link](brand-portal-link-share.md)
 
 ## Administrator {#administrator}
 
@@ -96,17 +96,17 @@ An administrator includes a user marked as system administrator or Brand Portal 
 
 An administrator can perform all tasks that an Editor can perform and the following additional tasks:
 
-[Manage users, groups, and user roles](../using/brand-portal-adding-users.md)
+[Manage users, groups, and user roles](brand-portal-adding-users.md)
 
-[Customize wallpaper, page headers, and emails](../using/brand-portal-branding.md)
+[Customize wallpaper, page headers, and emails](brand-portal-branding.md)
 
-[Use custom search facets](../using/brand-portal-search-facets.md)
+[Use custom search facets](brand-portal-search-facets.md)
 
-[Use the metadata schema form](../using/brand-portal-metadata-schemas.md)
+[Use the metadata schema form](brand-portal-metadata-schemas.md)
 
-[Apply image presets or dynamic renditions](../using/brand-portal-image-presets.md)
+[Apply image presets or dynamic renditions](brand-portal-image-presets.md)
 
-[Work with reports](../using/brand-portal-reports.md)
+[Work with reports](brand-portal-reports.md)
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
@@ -185,7 +185,7 @@ To request access, do the following:
 
    ![](assets/bplogin_request_access_8.png)
 
-   You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](../using/brand-portal-adding-users.md#addauser) (follow Steps 4-7 in the procedure to add a user).
+   You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -197,7 +197,7 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-[What's new](../using/whats-new.md) [Release Notes](../release-notes/brand-portal-release-notes-642.md) [Supported file formats](../using/brand-portal-supported-formats.md)
+[What's new](whats-new.md) [Release Notes](brand-portal-release-notes.md) [Supported file formats](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 
