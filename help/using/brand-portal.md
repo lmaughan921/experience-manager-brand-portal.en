@@ -149,22 +149,18 @@ To request access, do the following:
 
    ![Request access](assets/bplogin_request_access_2.png)
 
-   The **Sign in** page opens. Provide your Adobe ID credentials and click **Sign in**. 
-
+   The **Sign in** page opens. Provide your Adobe ID credentials and click **Sign in**.
    ![Adobe sign in](assets/bplogin_request_access_3.png)
 
    You are redirected to the **Request Access** page.
 
     * Scenario 2: If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the** Request Access** page.
+    ![](assets/bplogin_request_access21.png)
 
-   ![](assets/bplogin_request_access21.png)
-
-   The **Sign in** page opens. Click **Get an Adobe ID**. 
-
+   The **Sign in** page opens. Click **Get an Adobe ID**.
    ![](assets/bplogin_request_access_4.png)
 
-   The **Sign up** page opens. Enter your first and last name, email ID, and password. Click **Sign up**. 
-
+   The **Sign up** page opens. Enter your first and last name, email ID, and password. Click **Sign up**.
    ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the **Request Access** page.
@@ -182,10 +178,9 @@ To request access, do the following:
    >Step 4 onwards, the workflow is applicable only to Brand Portal product administrators.
 
 4. To grant access, click the relevant notification in Brand Portal notification area and then click **Grant Access**. Alternatively, follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
+![](assets/bplogin_request_access_8.png)
 
-   ![](assets/bplogin_request_access_8.png)
-
-   You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -197,7 +192,7 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-* [What's new](../using/whats-new.md)
+<!--* [What's new](../using/whats-new.md)-->
 * [Release Notes](brand-portal-release-notes.md)
 * [Supported file formats](brand-portal-supported-formats.md)
 

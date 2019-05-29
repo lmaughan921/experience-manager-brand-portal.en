@@ -93,7 +93,7 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 
 * Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
 * Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.
-For example, */content/dam/mac/<tenant-id>/folderA/folderB/folderC is shared with a non-admin user. The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
+For example, */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* is shared with a non-admin user. The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
 
 ![](assets/edit-search-form.png)
 
