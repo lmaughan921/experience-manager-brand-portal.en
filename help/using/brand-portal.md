@@ -197,10 +197,11 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-[What's new](whats-new.md#what-s-new-in-aem-assets-brand-portal) [Release Notes](brand-portal-release-notes.md) [Supported file formats](brand-portal-supported-formats.md)
+* [What's new](../using/whats-new.md)
+* [Release Notes](brand-portal-release-notes.md)
+* [Supported file formats](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 
-[Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-
-[AEM Forums](https://www.adobe.com/go/aod_forums_en)
+* [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [AEM Forums](https://www.adobe.com/go/aod_forums_en)
