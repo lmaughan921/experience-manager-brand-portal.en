@@ -197,7 +197,7 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-[What's new](whats-new.md) [Release Notes](brand-portal-release-notes.md) [Supported file formats](brand-portal-supported-formats.md)
+[What's new](whats-new.md#what-s-new-in-aem-assets-brand-portal) [Release Notes](brand-portal-release-notes.md) [Supported file formats](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 
