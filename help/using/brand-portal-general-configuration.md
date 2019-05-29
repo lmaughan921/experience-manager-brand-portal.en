@@ -67,4 +67,4 @@ To enable/disable each of these configurations:
 
 ## Enable Folder Hierarchy {#enable-folder-hierarchy}
 
-[Enable Folder Hierarchy](../using/brand-portal-sharing-folders.md#main-pars-header-376109647) configuration allows the administrators to control how the non-admin users (Editors, Viewers, and Guest Users) see the shared folders after logging in.
+[Enable Folder Hierarchy](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) configuration allows the administrators to control how the non-admin users (Editors, Viewers, and Guest Users) see the shared folders after logging in.

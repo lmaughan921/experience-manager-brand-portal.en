@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Publish tags to Brand Portal{#publish-tags-to-brand-portal}
+# Publish tags to Brand Portal {#publish-tags-to-brand-portal}
 
 Learn how to publish tags from AEM Assets to Brand Portal.
 
@@ -25,7 +25,7 @@ Tags (associated with assets and collections in AEM) are auto-published to Brand
 >
 >It is, however, recommended to exclusively publish tags to Brand Portal before publishing the assets (and collections) with which the tags are associated. This ensures faster publishing of the assets (and collections) to Brand Portal.
 
-## Publish Tags to Brand Portal {#publish-tags-to-brand-portal}
+## Manage tags {#manage-tags}
 
 You can use the pre-existing tags to attach to an asset or create new tags from AEM Tags console (**Tools | Tagging | AEM Tags**). In both the scenarios you must first publish the tags to Brand Portal and then associate them with appropriate assets.
 
@@ -40,20 +40,17 @@ Sign in to AEM Author instance with administrative privileges, and access **AEM 
 
    3. Select **Tagging**
 
-1. Select **Create** and then select **Create Tag **option.
+1. Select **Create** and then select **Create Tag** option.
 1. 
    Specify:
 
     * **Title**
-      *(required) *A display title for the tag.
-    
+      *(required)* A display title for the tag.
     * **Name**
-      *(required) *A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
-    
-    * **Description** 
-      *(optional) *A description of the tag.  
-    
-    * **Tag Path** 
+      *(required)* A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+    * **Description**
+      *(optional)* A description of the tag.
+    * **Tag Path**
       JCR path of the tag.
 
 1. Select **Submit** to create the tag.
@@ -88,4 +85,3 @@ To elevate an asset for a search keyword, follow these steps:
 1. Save the changes.
 1. Publish the asset to Brand Portal.
 1. Log in to Brand Portal. View **Advanced** tab in **Properties **section of the asset. Note that the Search Promote keyword is also visible in the Properties of that asset.
-

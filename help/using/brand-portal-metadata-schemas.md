@@ -72,74 +72,23 @@ To edit a metadata schema form, do the following:
 
 ### Components in the Build Form tab {#components-in-the-build-form-tab}
 
-The **Build Form **tab lists items that you can use in your schema form. The **Settings **tab provides the attributes of each item that you select in the **Build Form **tab. The following table lists the form items available in the **Build Form **tab: 
+The **Build Form **tab lists items that you can use in your schema form. The **Settings **tab provides the attributes of each item that you select in the **Build Form **tab. The following table lists the form items available in the **Build Form **tab:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>Component Name</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Section Header</td> 
-   <td> Add a section heading for a list of common components.</td> 
-  </tr> 
-  <tr> 
-   <td>Single Line Text</td> 
-   <td> Add a single line text property. It is stored as a string.</td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <g class="gr_ gr_31 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="31" id="31">
-      Multi Value 
-    </g> Text</td> 
-   <td> Add a multi-value text property. It is stored as a string array.</td> 
-  </tr> 
-  <tr> 
-   <td>Number</td> 
-   <td> Add a number component.</td> 
-  </tr> 
-  <tr> 
-   <td>Date</td> 
-   <td> Add a date component.</td> 
-  </tr> 
-  <tr> 
-   <td>Dropdown</td> 
-   <td> Add a dropdown list.</td> 
-  </tr> 
-  <tr> 
-   <td>Standard Tags</td> 
-   <td><p> Add a tag. </p> <p><strong>Note:</strong> Administrators might need to change the path value, for example, <span class="code">/etc/tags/mac/&lt;tenant_id&gt;/&lt;custom_tag_namespace&gt;</span>, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, <span class="code">/etc/tags/&lt;custom_tag_namespace&gt;</span>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Smart Tags</td> 
-   <td> Auto-detected tags if you have purchased and configured the AEM smart tags add-on.</td> 
-  </tr> 
-  <tr> 
-   <td>Hidden Field</td> 
-   <td> Add a hidden field. It is sent as a POST parameter when the asset is saved.</td> 
-  </tr> 
-  <tr> 
-   <td>Asset Referenced By</td> 
-   <td> Add this component to view 
-    <g class="gr_ gr_37 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="37" id="37">
-      list 
-    </g> of assets referenced by the asset.</td> 
-  </tr> 
-  <tr> 
-   <td>Asset Referencing</td> 
-   <td> Add to display a list of assets that reference the asset.</td> 
-  </tr> 
-  <tr> 
-   <td>Asset Rating</td> 
-   <td> Average rating of an asset added from AEM Assets before it is published to Brand Portal.</td> 
-  </tr> 
-  <tr> 
-   <td>Contextual Metadata</td> 
-   <td> Add to control the display of other metadata tabs in the <strong>Properties</strong> page of assets.</td> 
-  </tr> 
- </tbody> 
-</table>
+| Component Name      | Description                                                                                                                                                                                                                                                                                |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Section Header      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
+| Single Line Text    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
+| Multi ValueText     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
+| Number              |  Add a number component.                                                                                                                                                                                                                                                                   |
+| Date                |  Add a date component.                                                                                                                                                                                                                                                                     |
+| Dropdown            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
+| Standard Tags       |  Add a tag. Note: Administrators might need to change the path value, for example, /etc/tags/mac/<tenant_id>/<custom_tag_namespace>, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, /etc/tags/<custom_tag_namespace>. |
+| Smart Tags          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
+| Hidden Field        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
+| Asset Referenced By |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
+| Asset Referencing   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
+| Asset Rating        |  Average rating of an asset added from AEM Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
+| Contextual Metadata |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
 
 >[!NOTE]
 >
@@ -285,4 +234,3 @@ The following is a list of default metadata properties:
 * jcr:content/metadata/dam:size
 * jcr:content/metadata/tiff:ImageWidth
 * jcr:content/metadata/tiff:ImageLength
-

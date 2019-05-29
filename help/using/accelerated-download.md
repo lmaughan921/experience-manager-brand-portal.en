@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Guide to Accelerate Downloads from Brand Portal{#guide-to-accelerate-downloads-from-brand-portal}
+# Guide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
 
 Brand Portal supports the Accelerated download of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed for files, thus ensuring enhanced download experience. Users distributed across geographies, experiencing high latency, can also benefit from this capability.
 
@@ -49,73 +49,24 @@ To be able to use the faster file download functionality, make sure:
 
 System and browser requirements for Aspera Connect 3.8.0 are as follows:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>OS</td> 
-   <td>OS Version</td> 
-   <td colspan="2">Browser</td> 
-   <td>Required Libraries</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="5">Windows</td> 
-   <td rowspan="5"><p>Windows 7, 8, 10</p> <p style="text-align: left;">Windows Server 2008, R2, 2012 R2, 2016</p> <p> </p> <p> </p> </td> 
-   <td>Chrome</td> 
-   <td>64-66</td> 
-   <td rowspan="5"> </td> 
-  </tr> 
-  <tr> 
-   <td>Firefox</td> 
-   <td>57-60</td> 
-  </tr> 
-  <tr> 
-   <td>Firefox ESR</td> 
-   <td>52</td> 
-  </tr> 
-  <tr> 
-   <td>Internet Explorer</td> 
-   <td>11</td> 
-  </tr> 
-  <tr> 
-   <td>Microsoft Edge</td> 
-   <td>39-42 </td> 
-  </tr> 
-  <tr> 
-   <td rowspan="4" style="text-align: left;">MacOS</td> 
-   <td rowspan="4"><p style="text-align: left;">10.11 - 10.13</p> <p> </p> <p> </p> </td> 
-   <td>Chrome</td> 
-   <td>64-66</td> 
-   <td rowspan="4"> </td> 
-  </tr> 
-  <tr> 
-   <td>Firefox</td> 
-   <td>57-60</td> 
-  </tr> 
-  <tr> 
-   <td>Firefox ESR</td> 
-   <td>52</td> 
-  </tr> 
-  <tr> 
-   <td>Safari</td> 
-   <td>11</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="3">Linux (64-bit)</td> 
-   <td rowspan="3"><p>RHEL 6 - 7</p> <p>CentOS 6 - 7</p> <p>Debian 7 - 9</p> <p>SLES 11 - 12</p> <p>Fedora 26 - 27</p> <p>OpenSUSE 42.3</p> <p>Ubuntu 14 - 17</p> </td> 
-   <td>Chrome</td> 
-   <td>64-66</td> 
-   <td rowspan="3"><p>OpenSSL 1.0.2g or higher</p> <p>Mesa EGL</p> <p>glib2 2.28 or higher</p> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>Firefox</td> 
-   <td>57-60</td> 
-  </tr> 
-  <tr> 
-   <td>Firefox ESR</td> 
-   <td>52</td> 
-  </tr> 
- </tbody> 
-</table>
+| ﻿OS             | OS Version                             | Browser           |       | Required Libraries       |
+|----------------|----------------------------------------|-------------------|-------|--------------------------|
+| Windows        | Windows 7, 8, 10                       | Chrome            | 64-66 |                          |
+|                | Windows Server 2008, R2, 2012 R2, 2016 | Firefox           | 57-60 |                          |
+|                |                                        | Firefox ESR       | 52    |                          |
+|                |                                        | Internet Explorer | 11    |                          |
+|                |                                        | Microsoft Edge    | 39-42 |                          |
+| MacOS          | 10.11 - 10.13                          | Chrome            | 64-66 |                          |
+|                |                                        | Firefox           | 57-60 |                          |
+|                |                                        | Firefox ESR       | 52    |                          |
+|                |                                        | Safari            | 11    |                          |
+| Linux (64-bit) | RHEL 6 – 7                             | Chrome            | 64-66 | OpenSSL 1.0.2g or higher |
+|                | CentOS 6 – 7                           |                   |       | Mesa EGL                 |
+|                | Debian 7 – 9                           |                   |       | glib2 2.28 or higher     |
+|                | SLES 11 – 12                           |                   |       |                          |
+|                | Fedora 26 – 27                         |                   |       |                          |
+|                | OpenSUSE 42.3                          | Firefox           | 57-60 |                          |
+|                | Ubuntu 14 – 17                         | Firefox ESR       | 52    |                          |
 
 For platform support matrixes of different versions of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
@@ -123,70 +74,16 @@ For platform support matrixes of different versions of Aspera transfer client, s
 
 The expected download performance for 2 GB file using Aspera Connect file download accelerator at different client locations is as follows, considering Brand Portal server at Oregon in the United States:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td valign="top" width="156"><p><strong>Client Location</strong></p> </td> 
-   <td valign="top" width="103"><strong>Latency between Client and Server</strong></td> 
-   <td valign="top" width="149"><p><strong> 
-      <g class="gr_ gr_36 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" data-gr-id="36" id="36">
-        Speed 
-      </g> with Aspera File Transfer Accelerator</strong></p> </td> 
-   <td><strong>Time 
-     <g class="gr_ gr_89 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="89" id="89">
-       taken 
-     </g> to download 2 GB file with Aspera File Transfer Accelerator</strong></td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>U.S. West (N. California)</p> </td> 
-   <td valign="top" width="103">18 milliseconds </td> 
-   <td valign="top" width="149"><p>36 MB/s</p> </td> 
-   <td>57 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>U.S. West (Oregon)</p> </td> 
-   <td valign="top" width="103">42 milliseconds</td> 
-   <td valign="top" width="149"><p>36 MB/s</p> </td> 
-   <td>57 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>U.S. East (N. Virginia)</p> </td> 
-   <td valign="top" width="103">85 milliseconds</td> 
-   <td valign="top" width="149"><p>35 MB/s</p> </td> 
-   <td>58 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>APAC (Tokyo)</p> </td> 
-   <td valign="top" width="103">124 milliseconds</td> 
-   <td valign="top" width="149"><p>36 MB/s</p> </td> 
-   <td>57 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>Noida</p> </td> 
-   <td valign="top" width="103">275 milliseconds</td> 
-   <td valign="top" width="149"><p>13.36 MB/s</p> </td> 
-   <td>153 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>Sydney</p> </td> 
-   <td valign="top" width="103">175 milliseconds </td> 
-   <td valign="top" width="149"><p>29 MB/s</p> </td> 
-   <td>70 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>London</p> </td> 
-   <td valign="top" width="103">179 milliseconds</td> 
-   <td valign="top" width="149"><p>35 MB/s</p> </td> 
-   <td>58 seconds</td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="156"><p>Singapore</p> </td> 
-   <td valign="top" width="103">196 milliseconds</td> 
-   <td valign="top" width="149"><p>34 MB/s</p> </td> 
-   <td>60 seconds</td> 
-  </tr> 
- </tbody> 
-</table>
+| Client Location           | Latency between Client and Server | Speed with Aspera File Transfer Accelerator | Time taken to download 2 GB file with  Aspera File Transfer Accelerator |
+|---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
+| U.S. West (N. California) | 18 milliseconds                   | 36 MB/s                                     | 57 seconds                                                              |
+| U.S. West (Oregon)        | 42 milliseconds                   | 36 MB/s                                     | 57 seconds                                                              |
+| U.S. East (N. Virginia)   | 85 milliseconds                   | 35 MB/s                                     | 58 seconds                                                              |
+| APAC (Tokyo)              | 124 milliseconds                  | 36 MB/s                                     | 57 seconds                                                              |
+| Noida                     | 275 milliseconds                  | 13.36 MB/s                                  | 153 seconds                                                             |
+| Sydney                    | 175 milliseconds                  | 29 MB/s                                     | 70 seconds                                                              |
+| London                    | 179 milliseconds                  | 35 MB/s                                     | 58 seconds                                                              |
+| Singapore                 | 196 milliseconds                  | 34 MB/s                                     | 60 seconds                                                              |
 
 >[!NOTE]
 >
@@ -234,7 +131,7 @@ To download assets faster from Brand Portal:
    Download begins. A dialog box shows the progress of the download. Use the dialog box to **pause**, **resume**, or **cancel** the download.
 
    Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-
+   
    ![](assets/aspera-activity-window.png)
 
    On successful completion of the download, a dialog box shows the location where assets are downloaded to user's system. If there is a failure, it shows error.
@@ -278,11 +175,10 @@ If download acceleration is not working for you, follow these steps to troublesh
 
    If ports are not OK, then reach out to your network team and ensure that Ports 33001 (both TCP & UDP) are not blocked in the firewall.
 
-1. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [http://www.speedtest.net/](http://www.speedtest.net/).
+1. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
 
    If the bandwidth is a few (1-10 Mbps) or in Kbps, then use Aspera Preferences and try to limit the bandwidth equal to the available bandwidth.
 
 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
    (login:  asperaweb , password:  demoaspera )
 1. If none of the above troubleshooting steps work, deselect the option Enable Download Acceleration and use the normal download.
-

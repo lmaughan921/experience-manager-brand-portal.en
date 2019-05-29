@@ -52,54 +52,11 @@ You can view, navigate through, and select (for further action) your resources w
 
 Selecting a specific resource is dependent on a combination of the view and the device:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td> </td> 
-   <td>Select</td> 
-   <td>Unselect</td> 
-  </tr>
-  <tr>
-   <td>Column View<br /> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <td>Card View<br /> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Mouseover, then use the checkmark quick action</li> 
-     <li>Mobile device:<br /> Tap-and-hold the card</li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the card</li> 
-     <li>Mobile device:<br /> Tap the card</li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <td>List View</td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Desktop:<br /> Click the thumbnail</li> 
-     <li>Mobile device:<br /> Tap the thumbnail</li> 
-    </ul> </td> 
-  </tr>
- </tbody>
-</table>
+|             | Select                                                                                       | Unselect                                                      |
+|-------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Column View | Desktop: Click the thumbnail Mobile device: Tap the thumbnail                                | Desktop: Click the thumbnail Mobile device: Tap the thumbnail |
+| Card View   | Desktop: Mouseover, then use the checkmark quick action Mobile device: Tap-and-hold the card | Desktop: Click the card Mobile device: Tap the card           |
+| List View   | Desktop: Click the thumbnail Mobile device: Tap the thumbnail                                | Desktop: Click the thumbnail Mobile device: Tap the thumbnail |
 
 #### Deselecting All {#deselecting-all}
 

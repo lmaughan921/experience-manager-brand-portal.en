@@ -65,7 +65,7 @@ While sharing assets through links, Administrators and Editors can set a date an
 
 It ensures that assets shared as links expire at the date and time set by Brand Portal Administrators and Editors, and can no longer be viewed and downloaded beyond the expiration date. As the assets shared through links can also be viewed by external users who are not part of the organization, by specifying expiration you can make sure that your approved assets are protected and not exposed to unknown entities beyond a specified time.
 
-For more information about link sharing, refer to [Share assets as a link](../using/brand-portal-link-share.md#share-assets-as-a-link).
+For more information about link sharing, refer to [Share assets as a link](../using/brand-portal-link-share.md).
 
 ## Licensed Assets {#licensed-assets}
 

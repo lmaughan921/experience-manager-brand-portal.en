@@ -79,200 +79,26 @@ To add a search predicate to the **Filters** panel:
 
 Similar to the way you add a **Property** predicate, you can add the following predicates to the **Filters** panel:
 
-<table border="1" cellpadding="0" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td width="19%"><p><strong>Predicate Name</strong></p> </td> 
-   <td width="48%"><p><strong>Description</strong></p> </td> 
-   <td width="31%"><p><strong>Properties</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Path Browser</td> 
-   <td><p>Search predicate to search assets at a particular location.</p> <p><strong>Note: </strong>For a logged-in user, path browser on Filter shows only the content structure of the folders (and their ancestors) shared with the user.</p> <p>Admin users can search assets in any folder by navigating to that folder using Path Browser.<br /> Whereas, non-admin users can search assets in a folder (accessible to them) by navigating to that folder in Path Browser.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td width="19%"><p>Property</p> </td> 
-   <td width="48%">Search assets based on a particular metadata property.<br /> <br /> Note: On selecting <strong>Partial Search</strong>, <strong>Ignore Case</strong> is selected by default.</td> 
-   <td width="31%"> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Placeholder</li> 
-     <li>Property Name</li> 
-     <li>Partial Search</li> 
-     <li>Ignore Case</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Multi-Value Property</td> 
-   <td>Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Placeholder</li> 
-     <li>Property name</li> 
-     <li>Delimiter Support</li> 
-     <li>Ignore Case</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td width="19%"><p>Tags<br /> </p> </td> 
-   <td width="48%"><p>Search predicate to search assets based on tags. You can configure the Path property to populate various tags in the Tags list.</p> <p><strong>Note:</strong> Administrators might need to change the path value, for example, <span class="code">/etc/tags/mac/&lt;tenant_id&gt;/&lt;custom_tag_namespace&gt;</span>, if they publish the search form from AEM, where the path does not include tenant information, for example, <span class="code">/etc/tags/&lt;custom_tag_namespace&gt;</span>.</p> </td> 
-   <td width="31%"> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Path</td> 
-   <td>Search predicate to search assets at a particular location.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Relative Date</td> 
-   <td>Search predicate to search assets based on the relative date of their creation.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Relative date</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Range</td> 
-   <td>Search predicate to search assets that lie within a specified range of property values. In the Filters panel, you can specify minimum and maximum property values for the range.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Date Range<br /> </p> </td> 
-   <td width="48%">Search predicate to search assets created within a specified range for a date property. In the Filters panel, you can specify Start and End dates.<br /> </td> 
-   <td width="31%"> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Placeholder</li> 
-     <li>Property name</li> 
-     <li>Range text (From)</li> 
-     <li>Range text (To)</li> 
-     <li>Description<br /> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Date<br /> </p> </td> 
-   <td width="48%">Search predicate for a slider-based search of assets based on a date property.<br /> </td> 
-   <td width="31%"> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description<br /> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>File Size<br /> </p> </td> 
-   <td width="48%">Search predicate to search assets based on their size.<br /> </td> 
-   <td width="31%"> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Path</li> 
-     <li>Description<br /> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Asset Last Modified</p> </td> 
-   <td width="48%">Search predicate to search assets based on the last modified date.</td> 
-   <td width="31%"> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Approval Status</td> 
-   <td>Search predicate to search assets based on approval metadata property. The default property name is <span class="code">dam 
-     <g class="gr_ gr_120 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="120" id="120">
-       :status 
-     </g></span>.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Checkout Status</td> 
-   <td>Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Checked Out By</td> 
-   <td>Search predicate to search assets based on the user who has checked out the asset.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Expiry Status</td> 
-   <td>Search predicate to search assets based on the expiration status.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Member of collection</td> 
-   <td>Search predicate to search assets based on whether an asset is a part of a collection. </td> 
-   <td> 
-    <ul> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Hidden</td> 
-   <td>This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to <span class="code">dam 
-     <g class="gr_ gr_116 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="116" id="116">
-       :Asset 
-     </g></span>.</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+| **Predicate Name**       | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                    | **Properties**                                                                     |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Path Browser         | Search predicate to search assets at a particular location.Note: For a logged-in user, path browser on Filter shows only the content structure of the folders (and their ancestors) shared with the user.Admin users can search assets in any folder by navigating to that folder using Path Browser.Whereas, non-admin users can search assets in a folder (accessible to them) by navigating to that folder in Path Browser. | Field LabelPathDescription                                                     |
+| Property             | Search assets based on a particular metadata property.Note: On selecting Partial Search, Ignore Case is selected by default.                                                                                                                                                                                                                                                                                                   | Field LabelPlaceholderProperty NamePartial SearchIgnore CaseDescription        |
+| Multi-Value Property | Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results.                                                                                                                                                                                                                                                | Field LabelPlaceholderProperty nameDelimiter SupportIgnore CaseDescription     |
+| Tags                 | Search predicate to search assets based on tags. You can configure the Path property to populate various tags in the Tags list.Note: Administrators might need to change the path value, for example, /etc/tags/mac/<tenant_id>/<custom_tag_namespace>, if they publish the search form from AEM, where the path does not include tenant information, for example, /etc/tags/<custom_tag_namespace>.                           | Field LabelProperty namePathDescription                                        |
+| Path                 | Search predicate to search assets at a particular location.                                                                                                                                                                                                                                                                                                                                                                    | Field LabelPathDescription                                                     |
+| Relative Date        | Search predicate to search assets based on the relative date of their creation.                                                                                                                                                                                                                                                                                                                                                | Field LabelProperty nameRelative date                                          |
+| Range                | Search predicate to search assets that lie within a specified range of property values. In the Filters panel, you can specify minimum and maximum property values for the range.                                                                                                                                                                                                                                               | Field LabelProperty nameDescription                                            |
+| Date Range           | Search predicate to search assets created within a specified range for a date property. In the Filters panel, you can specify Start and End dates.                                                                                                                                                                                                                                                                             | Field LabelPlaceholderProperty nameRange text (From)Range text (To)Description |
+| Date                 | Search predicate for a slider-based search of assets based on a date property.                                                                                                                                                                                                                                                                                                                                                 | Field LabelProperty nameDescription                                            |
+| File Size            | Search predicate to search assets based on their size.                                                                                                                                                                                                                                                                                                                                                                         | Field LabelProperty namePathDescription                                        |
+| Asset Last Modified  | Search predicate to search assets based on the last modified date.                                                                                                                                                                                                                                                                                                                                                             | Field LabelProperty nameDescription                                            |
+| Approval Status      | Search predicate to search assets based on approval metadata property. The default property name is dam:status.                                                                                                                                                                                                                                                                                                                | Field LabelProperty nameDescription                                            |
+| Checkout Status      | Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets.                                                                                                                                                                                                                                                                                                             | Field LabelProperty nameDescription                                            |
+| Checked Out By       | Search predicate to search assets based on the user who has checked out the asset.                                                                                                                                                                                                                                                                                                                                             | Field LabelProperty nameDescription                                            |
+| Expiry Status        | Search predicate to search assets based on the expiration status.                                                                                                                                                                                                                                                                                                                                                              | Field LabelProperty nameDescription                                            |
+| Member of collection | Search predicate to search assets based on whether an asset is a part of a collection.                                                                                                                                                                                                                                                                                                                                         | Description                                                                    |
+| Hidden               | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to dam:Asset.                                                                                                                                                                                                                                                                   | Field LabelProperty nameDescription                                            |
 
 >[!NOTE]
 >

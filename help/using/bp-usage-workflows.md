@@ -12,13 +12,13 @@ internal: n
 snippet: y
 ---
 
-# User permissions on Brand Portal: troubleshooting and best practices{#user-permissions-on-brand-portal-troubleshooting-and-best-practices}
+# User permissions on Brand Portal: troubleshooting and best practices {#user-permissions-on-brand-portal-troubleshooting-and-best-practices}
 
 Read on to understand user permissions and best practices in Brand Portal.
 
 ## What are product profiles and when are they created on Brand Portal? {#productprofiles}
 
-After your organization is provisioned in Brand Portal, the administrator can manage users and user groups (Product Profiles) through [Admin Console](http://adminconsole.adobe.com/enterprise/overview). The Brand Portal reads product profiles, created in Admin Console, as groups. These are used to segregate users in Brand Portal.
+After your organization is provisioned in Brand Portal, the administrator can manage users and user groups (Product Profiles) through [Admin Console](https://adminconsole.adobe.com/enterprise/overview). The Brand Portal reads product profiles, created in Admin Console, as groups. These are used to segregate users in Brand Portal.
 
 Product profile configurations created in Admin Console get synced to Brand Portal system every 8 hours, and are visible in Tools &gt; Users &gt; Groups.
 

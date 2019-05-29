@@ -18,7 +18,7 @@ snippet: y
 
 AEM Brand portal allows guest access to the portal. A guest user doesn't need credentials to enter the portal and has access to the public assets (and collections) of the portal. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [End Session](../using/guest-access.md#main-pars-header).
 
-Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#sharefolders) with the intended audience at scale without having to onboard them. Brand Portal 6.4.2 onwards is equipped to serve multiple concurrent guest users, which is 10% of the total user quota per organization. Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on Brand Portal.  
+Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. Brand Portal 6.4.2 onwards is equipped to serve multiple concurrent guest users, which is 10% of the total user quota per organization. Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on Brand Portal.  
 Organizations can enable (or disable) guest access on Brand Portal account of the organization using **Allow Guest Access** option from **Access Settings** in the administrative tools panel.
 
 <!--
@@ -115,7 +115,7 @@ To download assets and collections, use the download icon from:
 
 ![](assets/download-on-guest.png)
 
-Selecting **Enable download acceleration **on Download dialog lets you [enhance the download performance](../using/accelerated-download.md#main-pars-header-405749062).
+Selecting **Enable download acceleration **on Download dialog lets you [enhance the download performance](../using/accelerated-download.md).
 
 ## Exit guest session {#exit-guest-session}
 

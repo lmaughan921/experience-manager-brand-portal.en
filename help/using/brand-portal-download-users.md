@@ -101,66 +101,15 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
 File download experience may vary for users at different client locations, depending on factors such as local Internet connectivity and server latency. The expected download performance for 2 GB file observed at different client locations is as follows, with Brand Portal server at Oregon in United States:
 
-<table border="1" cellpadding="0" cellspacing="0" width="661"> 
- <tbody>
-  <tr>
-   <td valign="top" width="156"><p><strong>Client location</strong></p> </td> 
-   <td valign="top" width="103"><p><strong>Latency between client and server</strong></p> </td> 
-   <td valign="top" width="129"><p><strong>Expected download speed</strong></p> </td> 
-   <td valign="top" width="156"><p><strong>Time 
-      <g class="gr_ gr_71 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Grammar multiReplace" data-gr-id="71" id="71">
-       taken
-      </g> to download a 2 GB file</strong></p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>US West (N. California)</p> </td> 
-   <td valign="top" width="103"><p>18 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>7.68 MB/s</p> </td> 
-   <td valign="top" width="156"><p>4 minutes</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>US West (Oregon)</p> </td> 
-   <td valign="top" width="103"><p>42 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>3.84 MB/s</p> </td> 
-   <td valign="top" width="156"><p>9 minutes</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>US East (N. Virginia)</p> </td> 
-   <td valign="top" width="103"><p>85 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>1.61 MB/s</p> </td> 
-   <td valign="top" width="156"><p>21 minutes</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>APAC (Tokyo)</p> </td> 
-   <td valign="top" width="103"><p>124 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>1.13 MB/s</p> </td> 
-   <td valign="top" width="156"><p>30 minutes</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>Noida</p> </td> 
-   <td valign="top" width="103"><p>275 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>0.5 MB/s</p> </td> 
-   <td valign="top" width="156">68 minutes</td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>Sydney</p> </td> 
-   <td valign="top" width="103"><p>175 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>0.49 MB/s</p> </td> 
-   <td valign="top" width="156"><p>69 minutes</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>London</p> </td> 
-   <td valign="top" width="103"><p>179 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>0.32 MB/s</p> </td> 
-   <td valign="top" width="156"><p>106 minutes</p> </td> 
-  </tr>
-  <tr>
-   <td valign="top" width="156"><p>Singapore</p> </td> 
-   <td valign="top" width="103"><p>196 milliseconds</p> </td> 
-   <td valign="top" width="129"><p>0.5 MB/s<br /> </p> </td> 
-   <td valign="top" width="156">68 minutes</td> 
-  </tr>
- </tbody>
-</table>
+| Client location         | Latency between client and server | Expected download speed | Time taken to download a 2 GB file |
+|-------------------------|-----------------------------------|-------------------------|------------------------------------|
+| US West (N. California) | 18 milliseconds                   | 7.68 MB/s               | 4 minutes                          |
+| US West (Oregon)        | 42 milliseconds                   | 3.84 MB/s               | 9 minutes                          |
+| US East (N. Virginia)   | 85 milliseconds                   | 1.61 MB/s               | 21 minutes                         |
+| APAC (Tokyo)            | 124 milliseconds                  | 1.13 MB/s               | 30 minutes                         |
+| Noida                   | 275 milliseconds                  | 0.5 MB/s                | 68 minutes                         |
+| Sydney                  | 175 milliseconds                  | 0.49 MB/s               | 69 minutes                         |
+| London                  | 179 milliseconds                  | 0.32 MB/s               | 106 minutes                        |
+| Singapore               | 196 milliseconds                  | 0.5 MB/s                | 68 minutes                         |
 
 **Note**: Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
