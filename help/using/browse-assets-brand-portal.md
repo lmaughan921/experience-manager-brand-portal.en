@@ -116,7 +116,7 @@ List view shows asset **Name** as the first column by default. Additional inform
 
 ![](assets/list-view-setting.png)
 
-###Column View
+### Column View
 
  ![](assets/column-view.png)
 
