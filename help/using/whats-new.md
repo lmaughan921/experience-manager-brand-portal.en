@@ -461,7 +461,7 @@ Administrators can set the expiry date and time for assets before sharing them. 
 
 Asset sorting in a folder in list view is no longer restricted to the number of assets being displayed on the first page. All assets in a folder are sorted, irrespective of whether all are listed on the first page.
 
-### Enhanced reporting {#enhanced-reporting-capabilities}
+### Enhanced reporting {#reporting-capabilities}
 
 Administrators can create and manage three types of reports—assets downloaded, expired, and published. The ability to configure the columns in a report, and export the reports to CSV format is also available.
 
