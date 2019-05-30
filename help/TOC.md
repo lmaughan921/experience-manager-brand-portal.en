@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: AEM Brand Portal
+audience: end-user
+user-guide-title: AEM Brand Portal
 ---
 
-# Table of Contents {#table-of-contents}
+# Table of Contents {#using}
 
 + Introduction {#introduction}
   + [Overview of AEM Assets Brand Portal](using/brand-portal.md)
@@ -15,28 +15,27 @@ user-guide: null
   + [Guest Access to Brand Portal](using/guest-access.md)
   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
   + [Browsing assets on Brand Portal](using/browse-assets-brand-portal.md)
-+ Publish from AEM Assets to Brand Portal {#publishfromassetstobrandportal}
++ Publish from AEM Assets to Brand Portal {#publish}
   + [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
   + [Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
   + [Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
   + [Troubleshoot issues in parallel publishing to Brand Portal](using/troubleshoot-parallel-publishing.md)
   + [Publish tags to Brand Portal](using/brand-portal-publish-tags.md)
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Share assets with users {#shareassetswithusers}
++ Share assets with users {#share}
   + [Share a collection](using/brand-portal-share-collection.md)
   + [Share folders](using/brand-portal-sharing-folders.md)
   + [Share assets as a link](using/brand-portal-link-share.md)
-+ Use search capabilities {#searchcapabilities}
++ Use search capabilities {#search-capabilities}
   + [Search assets on Brand Portal](using/brand-portal-searching.md)
   + [Use custom search facets](using/brand-portal-search-facets.md)
-+ Use download capabilities {#downloadcapabilities}
++ Use download capabilities {#download}
   + [Download assets](using/brand-portal-download-users.md)
   + [Dynamic video support on Brand Portal](using/dynamic-video-brand-portal.md)
   + [Manage the lightbox collection](using/brand-portal-light-box.md)
   + [Manage digital rights of assets](using/manage-digital-rights-of-assets.md)
   + [Guide to Accelerate Downloads from Brand Portal](using/accelerated-download.md)
-
-+ Use administrative tools {#admintools}
++ Use administrative tools {#admin-tools}
   + [Administer user access on Brand Portal](using/access-configurations-brand-portal.md)
   + [Administer general tenant configurations](using/brand-portal-general-configuration.md)
   + [First-time login experience](using/brand-portal-onboarding.md)
