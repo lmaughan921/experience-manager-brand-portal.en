@@ -5,7 +5,9 @@ description: AEM Brand Portal user guide
 seo-description: Describes how to use Brand Portal
 ---
 
-Adobe Experience Manager Assets Brand Portal aids marketers to meet their marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
+# Introduction to AEM Assets Brand Portal
+
+Brand Portal aids organizations to meet their marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 
 The lack of a secure asset sharing solution can result in:
 
@@ -21,16 +23,18 @@ Brand Portal is a cloud-based SAAS offering. It is available as an add-on to Ado
 
 ## Adobe Experience Manager Brand Portal User Guide
 
-This user guide documents insights in to Brand Portal offerings and key workflows. Use the left rail to navigate through various functionalities and drill down to know how different personas interact with the Brand Portal.
+This user guide documents insights in to Brand Portal offerings and key workflows. Use the left rail to navigate through various functionalities and drill down to know how different personas interact with the portal.
 
-* To know what changed and latest offerings in Brand Portal through previous releases, see [What's new](using/whats-new.md).
-* For enhancements, critical issues fixed, and known issues in the current release, see [Release Notes](using/brand-portal-release-notes.md).
-* To know what all file formats are supported for preview and download on Brand Portal, see [Supported file formats](using/brand-portal-supported-formats.md).
-
-## Also see
+### See also
 
 | User Guide | Description |
 |--- |---|
-| [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html) | Know how Brand Portal interacts with AEM Assets. |
-| [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Know how to replicate Brand Portal with AEM Assets to publish assets. |
-| [Troubleshoot issues in parallel publishing](using/troubleshoot-parallel-publishing.md) | Troubleshoot replication between Brand Portal and AEM Assets. |
+| [What's new](using/whats-new.md) | What changed and latest offerings in Brand Portal through previous releases. |
+| [Release Notes](using/brand-portal-release-notes.md) | Enhancements, critical issues fixed, and known issues in the current release. |
+| [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | How to replicate Brand Portal with AEM Assets to publish assets. |
+| [Troubleshoot issues in parallel publishing](using/troubleshoot-parallel-publishing.md) | Troubleshoot replication between Brand Portal and AEM Assets.
+| [Supported file formats](using/brand-portal-supported-formats.md) | File formats supported in Brand Portal for preview and download. |
+| [Publish Assets to Brand Portal](../TOC.md#publish) | How tp publish folders, collections, links, presets, schema, facets, and tags to Brand Portal. |
+
+### Helpful resources
+* [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
