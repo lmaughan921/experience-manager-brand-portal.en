@@ -22,7 +22,7 @@ Brand Portal supports the Accelerated download of large asset files by integrati
 >
 >IBM Aspera Connect enables speedy download of large asset files from Brand Portal and shared links, but download speed may vary depending on factors such as network bandwidth, server latency, and geographical location of clients.
 
-To configure specific tenants for accelerated file download, administrators **Enable Download Acceleration **(which is disabled by default)** **from **General Settings **in the administrative tools panel.
+To configure specific tenants for accelerated file download, administrators **Enable Download Acceleration** (which is disabled by default)from **General Settings** in the administrative tools panel.
 
 If enabled, Brand Portal users can significantly reduce the time taken to download the desired asset files from Brand Portal or through Shared link by installing the Aspera Connect client.
 
@@ -30,7 +30,7 @@ If enabled, Brand Portal users can significantly reduce the time taken to downlo
 
 ## Prerequisites to accelerate file download {#prerequisites-to-accelerate-file-download}
 
-To be able to use the faster file download functionality, make sure:
+To use the faster file download functionality, make sure:
 
 * Ports 33001 (both TCP & UDP) are opened in the firewall by administrators. For more information on the prerequisites to using IBM Aspera Connect, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
 
@@ -94,47 +94,38 @@ The expected download performance for 2 GB file using Aspera Connect file downlo
 To download assets faster from Brand Portal:
 
 1. Log in to Brand Portal through a preferred browser.
-1. Browse and select the desired asset file, folder, or collection to download. Tap/ click download option.
-
-   Download dialog appears with **Enable download acceleration **option selected.
-
+2. Browse and select the desired asset file, folder, or collection to download. Tap/ click download option.
+Download dialog appears with **Enable download acceleration** option selected.
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
    >
-   >The functionality to send **e**mail notification with the link to download assets is presently not supported while faster downloads are enabled.
+   >The functionality to send email notification with the link to download assets is presently not supported while faster downloads are enabled.
 
    ![](assets/fast-download-emailchk.png)
 
-1. Tap/ click **Download**.
+3. Tap/ click **Download**.
+To speed up the download experience on your Brand Portal tenant account, you need to have Aspera Connect client application installed on your system.
 
-   To speed up the download experience on your Brand Portal tenant account, you need to have Aspera Connect client application installed on your system.
-
-1. If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **Download Latest Version**.
-
+4. **Download Aspera Connect Client**
+If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **Download Latest Version**.
    ![](assets/aspera-not-launched.png)
-
-   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **Download Now **and follow the instructions.
-
-1. To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
-1. Once the client is successfully installed, either refresh the browser page and initiate the download steps again or select **Restart **in asset **Download **dialog box (Step #2).
-
-   When using Aspera Connect for the first time, the browser prompts to open the link using **IBM Aspera Connect**. To skip this dialog in future, enable **Remember my choice for FASP links**.
+   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **Download Now** and follow the instructions.
+5. **Install Aspera Connect Client**
+To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
+6. Once the client is successfully installed, either refresh the browser page and initiate the download steps again or select **Restart** in asset **Download** dialog box (Step #2).
+When using Aspera Connect for the first time, the browser prompts to open the link using **IBM Aspera Connect**. To skip this dialog in future, enable **Remember my choice for FASP links**.
 
    >[!NOTE]
    >
    >This message is different on the different browsers.
 
-1. A dialog box confirms whether to proceed the transfer or not. Select **Allow **to begin.  
-   To skip this dialog in future, enable **Use my choice for all connections with this host**.
-
-   Download begins. A dialog box shows the progress of the download. Use the dialog box to **pause**, **resume**, or **cancel** the download.
-
-   Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-   
-   ![](assets/aspera-activity-window.png)
-
-   On successful completion of the download, a dialog box shows the location where assets are downloaded to user's system. If there is a failure, it shows error.
+7. A dialog box confirms whether to proceed the transfer or not. Select **Allow** to begin.
+To skip this dialog in future, enable **Use my choice for all connections with this host**.
+Download begins. A dialog box shows the progress of the download. Use the dialog box to **pause**, **resume**, or **cancel** the download.
+Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+![](assets/aspera-activity-window.png)
+On successful completion of the download, a dialog box shows the location where assets are downloaded to user's system. If there is a failure, it shows error.
 
    >[!NOTE]
    >
@@ -149,7 +140,7 @@ Microsoft Edge runs in Enhanced Protected Mode (EPM) preventing communication wi
 To use accelerated download functionality on Microsoft Edge, remove the Brand Portal site from the trusted site list.
 
 1. Open the Control Panel (press **Window key + X**, then select **Control Panel**).
-1. Go to **Network and Internet &gt; Internet Options**. Click the **Security **tab.
+2. Go to **Network and Internet &gt; Internet Options**. Click the **Security **tab.
 1. Click the **Trusted sites zone**, then click **Sites**.
 1. Remove Brand Portal site from the list.
 
@@ -175,10 +166,11 @@ If download acceleration is not working for you, follow these steps to troublesh
 
    If ports are not OK, then reach out to your network team and ensure that Ports 33001 (both TCP & UDP) are not blocked in the firewall.
 
-1. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
+2. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
 
    If the bandwidth is a few (1-10 Mbps) or in Kbps, then use Aspera Preferences and try to limit the bandwidth equal to the available bandwidth.
 
-1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+3. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
    (login:  asperaweb , password:  demoaspera )
-1. If none of the above troubleshooting steps work, deselect the option Enable Download Acceleration and use the normal download.
+
+4. If none of the above troubleshooting steps work, deselect the option Enable Download Acceleration and use the normal download.
