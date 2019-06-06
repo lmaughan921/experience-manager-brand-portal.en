@@ -29,11 +29,11 @@ This user guide documents insights in to Brand Portal offerings and key workflow
 
 | User Guide | Description |
 |--- |---|
-| [What's new](using/whats-new.md) | What changed and latest offerings in Brand Portal through previous releases. |
-| [Release Notes](using/brand-portal-release-notes.md) | Enhancements, critical issues fixed, and known issues in the current release. |
+| [What's new](whats-new.md) | What changed and latest offerings in Brand Portal through previous releases. |
+| [Release Notes](brand-portal-release-notes.md) | Enhancements, critical issues fixed, and known issues in the current release. |
 | [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | How to replicate Brand Portal with AEM Assets to publish assets. |
-| [Troubleshoot issues in parallel publishing](using/troubleshoot-parallel-publishing.md) | Troubleshoot replication between Brand Portal and AEM Assets. |
-| [Supported file formats](using/brand-portal-supported-formats.md) | File formats supported in Brand Portal for preview and download. |
+| [Troubleshoot issues in parallel publishing](troubleshoot-parallel-publishing.md) | Troubleshoot replication between Brand Portal and AEM Assets. |
+| [Supported file formats](brand-portal-supported-formats.md) | File formats supported in Brand Portal for preview and download. |
 | [Publish Assets to Brand Portal](../TOC.md#publish) | How tp publish folders, collections, links, presets, schema, facets, and tags to Brand Portal. |
 
 ### Helpful resources

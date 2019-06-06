@@ -17,7 +17,7 @@ snippet: y
 
 Each AEM Assets Brand Portal supports specific file formats, as indicated in the matrix.
 
-| ﻿File format | Assets published to Brand Portal | Renditions published to Brand Portal | Metadata published to Brand Portal | Thumbnails published to Brand Portal | Asset details pages published to Brand Portal | Link shares | Link share thumbnails | Link share previews |
+| File format | Assets published to Brand Portal | Renditions published to Brand Portal | Metadata published to Brand Portal | Thumbnails published to Brand Portal | Asset details pages published to Brand Portal | Link shares | Link share thumbnails | Link share previews |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG         | ✓                                | ✓                                    | ✓                                  | ✓                                    | ✓                                             | ✓           | ✓                     | ✓                   |
 | GIF         | ✓                                | ✓                                    | ✓                                  | ✓                                    | ✓                                             | ✓           | ✓                     | ✓                   |
