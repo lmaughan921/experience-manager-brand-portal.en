@@ -17,24 +17,15 @@ snippet: y
 
 # Overview of AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-
 As a marketer, you sometimes require collaborating with channel partners and internal business users to quickly create, manage, and deliver relevant digital content to customers. Timely delivery of relevant content across the entire customer journey is critical to driving greater demand, conversion, engagement, and customer loyalty.
 
 However, it is a challenge to develop solutions that support efficient and secure sharing of approved brand logos, guidelines, campaign assets, or product shots with extended internal teams, partners, and resellers.
 
-The lack of a secure asset sharing solution can result in:
-
-* Manual asset sharing through email, cloud, and so on
-* Brand compliance issues
-* Lack of control over asset usage
-* Delays in campaigns and product launches
-* Duplication of content across geographic locations and organizations
-* Unsecured storage of assets before release
-
-Adobe Experience Manager (AEM) Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
+**Adobe Experience Manager (AEM) Assets Brand Portal** can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
 
 Brand Portal's browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
+
+## User personas in Brand Portal {#Personas}
 
 Brand Portal supports various user personas that include the following roles:
 
@@ -54,7 +45,7 @@ The following table lists the tasks that users in these roles can perform:
 
 &#42; Guest users can browse, access, and search assets in public folders and collections only.
 
-## Guest user {#guest-user}
+### Guest user {#guest-user}
 
 Any user having limited access to assets on Brand Portal without undergoing authentication is a guest user. The guest session allows users access to public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collection. You can search, download, and add public assets to lightbox collection.
 
@@ -68,7 +59,7 @@ However, guest session restricts you from creating collections and saved searche
 
 [Add assets to lightbox](brand-portal-light-box.md#add-assets-to-lightbox)
 
-## Viewer {#viewer}
+### Viewer {#viewer}
 
 A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
@@ -78,7 +69,7 @@ A standard user in Brand Portal is typically a user with the role of Viewer. A u
 
 [Download assets](brand-portal-download-users.md)
 
-## Editor {#editor}
+### Editor {#editor}
 
 A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
 
@@ -90,7 +81,7 @@ Apart from the tasks that a Viewer can perform, an Editor can perform the follow
 
 [Share assets as a link](brand-portal-link-share.md)
 
-## Administrator {#administrator}
+### Administrator {#administrator}
 
 An administrator includes a user marked as system administrator or Brand Portal product administrator in Admin Console. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
 

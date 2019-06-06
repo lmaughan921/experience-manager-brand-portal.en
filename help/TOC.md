@@ -45,3 +45,4 @@ user-guide-title: AEM Brand Portal
   + [Use the metadata schema form](using/brand-portal-metadata-schemas.md)
   + [Apply image presets or dynamic renditions](using/brand-portal-image-presets.md)
   + [Work with reports](using/brand-portal-reports.md)
+  
