@@ -27,7 +27,7 @@ Brand Portal's browser-based portal environment enables you to easily upload, br
 
 ## User personas in Brand Portal {#Personas}
 
-Brand Portal supports various user personas that include the following roles:
+Brand Portal supports the following user roles:
 
 * Guest user
 * Viewer
@@ -107,7 +107,7 @@ In addition to the above tasks, an Author in AEM Assets can perform the followin
 
 [Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## Tenant alias for portal url {#tenant-alias-for-portal-url}
+## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
