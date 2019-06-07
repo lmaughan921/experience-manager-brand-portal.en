@@ -27,12 +27,15 @@ Comment Type: draft
 <p>* The nomenclature has changed from product configurations to product profiles in the new Adobe Admin Console.</p>
 </note>
 -->
+![](assets/create-user-group.png)
 
 These product profiles are synced with the Brand Portal user interface and visible as groups in Brand Portal.
 
 >[!NOTE]
 >
 >To create groups in Brand Portal, from Adobe Admin Console, use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**. Product profiles in Adobe Admin Console are used to create groups in Brand Portal.
+
+
 
 After you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
@@ -51,15 +54,15 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
 
    ![AEM logo](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Users**.
+2. From the administrative tools panel, click **Users**.
 
    ![Admin tools panel](assets/admin-tools-panel-5.png)
 
-1. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
+3. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
 
    ![User Roles to launch Admin Console](assets/launch_admin_console.png)
 
-1. In Admin Console, do one of the following to create a new user:
+4. In Admin Console, do one of the following to create a new user:
 
     * From the toolbar at the top, click **Overview**. In the **Overview** page, click **Assign Users** from the **AEM Brand Portal** product card.
 
@@ -69,12 +72,12 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
 
    ![Admin Console Add users](assets/admin_console_adduseruserpage.png)
 
-1. In the add user dialog box, type the email ID of the user you want to add or select the user from the list of suggestions that appear as you type.
+5. In the add user dialog box, type the email ID of the user you want to add or select the user from the list of suggestions that appear as you type.
 
    ![Add user to Brand Portal](assets/add_user_to_aem_bp.png)
 
-1. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **Please select a profile for this product** field.
-1. Click **Save**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+6. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **Please select a profile for this product** field.
+7. Click **Save**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
@@ -94,24 +97,24 @@ Product profiles (formerly known as product configurations) in Admin Console are
 
    ![AEM Logo](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Users**.
+2. From the administrative tools panel, click **Users**.
 
    ![Admin tools panel](assets/admin-tools-panel-6.png)
 
-1. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
+3. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-1. From the toolbar at the top, click **Products**. 
-1. In the **Products** page, **Product Profiles** is selected by default. Click **New Profile**.
+4. From the toolbar at the top, click **Products**. 
+5. In the **Products** page, **Product Profiles** is selected by default. Click **New Profile**.
 
    ![Add new Product Profile](assets/admin_console_addproductprofile.png)
 
-1. In the **Create a New Profile** page, provide the profile name, display name, profile description, and choose if you want to notify users by email when they are added to or removed from the profile.
+6. In the **Create a New Profile** page, provide the profile name, display name, profile description, and choose if you want to notify users by email when they are added to or removed from the profile.
 
    ![Create Product Profile](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-1. Click **Done**. The product configuration group, for example **Sales group**, is added to Brand Portal.
+7. Click **Done**. The product configuration group, for example **Sales group**, is added to Brand Portal.
 
    ![Product profiles](assets/admin_console_productprofileadded.png)
 
@@ -127,20 +130,20 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
    ![AEM Logo](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Users**.
+2. From the administrative tools panel, click **Users**.
 
    ![Admin tools panel](assets/admin-tools-panel-7.png)
 
-1. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
+3. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-1. From the toolbar at the top, click **Products**. 
-1. In the **Products** page, **Product Profiles** is selected by default. Open the product profile to which you want to add a user, for example, **Sales group**.
+4. From the toolbar at the top, click **Products**. 
+5. In the **Products** page, **Product Profiles** is selected by default. Open the product profile to which you want to add a user, for example, **Sales group**.
 
    ![Product profiles](assets/admin_console_productprofileadded.png)
 
-1. To add individual users to the product profile, do the following:
+6. To add individual users to the product profile, do the following:
 
     * Click **Add User**.
 
@@ -152,7 +155,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
     * Click **Save**.
 
-1. To add bulk users to the product profile, do the following:
+7. To add bulk users to the product profile, do the following:
 
     * Choose ellipsis (**...**) &gt; **Add users by CSV**.
 
@@ -180,23 +183,23 @@ You can provide the system administrator or the product administrator privilege 
 
    ![AEMLogo](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Users**.
+2. From the administrative tools panel, click **Users**.
 
    ![Admin tools panel](assets/admin-tools-panel-8.png)
 
-1. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
+3. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-1. From the toolbar at the top, click **Users**. 
-1. In the **Users** page, **Users** in the left rail is selected by default. Click the user name of the user to whom you want to provide administrator privileges.
+4. From the toolbar at the top, click **Users**. 
+5. In the **Users** page, **Users** in the left rail is selected by default. Click the user name of the user to whom you want to provide administrator privileges.
 
    ![Add Users in Admin Console](assets/admin_console_adduseruserpage.png)
 
-1. In the user profile page, locate the **Administrative Rights** section at the bottom, and choose ellipsis (**...**) &gt; **Edit admin rights**.
+6. In the user profile page, locate the **Administrative Rights** section at the bottom, and choose ellipsis (**...**) &gt; **Edit admin rights**.
    ![Admin rights in Admin Console](assets/admin_console_editadminrights.png)
 
-1. In the **Edit Admin** page, select System Administrator or Product Administrator. 
+7. In the **Edit Admin** page, select System Administrator or Product Administrator. 
 
    ![Edit admin rights in Admin Console](assets/admin_console_editadminrightsselection.png)
 
@@ -213,7 +216,7 @@ You can provide the system administrator or the product administrator privilege 
    >
    >Brand Portal does not support product profile administrator (formerly known as configuration administrator) privileges. Avoid assigning product profile administrator rights to a user.
 
-1. Review the admin type selection and click **Save**.
+8. Review the admin type selection and click **Save**.
 
    >[!NOTE]
    >
@@ -232,11 +235,11 @@ In addition to the Administrator role, Brand Portal supports the following roles
 
    ![AEMLogo](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Users**.
+2. From the administrative tools panel, click **Users**.
 
    ![Admin tools panel](assets/admin-tools-panel-9.png)
 
-1. In the **User Roles** page, the **Users** tab is selected by default. For the user whose role you want to change, select **Editor** or **Viewer** from the **Role** drop-down.
+3. In the **User Roles** page, the **Users** tab is selected by default. For the user whose role you want to change, select **Editor** or **Viewer** from the **Role** drop-down.
 
    ![Modify users roles](assets/modify_user_role.png)
 
@@ -249,7 +252,7 @@ In addition to the Administrator role, Brand Portal supports the following roles
    >
    >The user role is also disabled if the user is a member of the Editor group. To revoke editing privileges from the user, either remove the user from the Editor group or change the role of the entire group to Viewer.
 
-1. Click **Save**. The role is modified for the corresponding user. If you selected multiple users, the roles for all the users are modified simultaneously.
+4. Click **Save**. The role is modified for the corresponding user. If you selected multiple users, the roles for all the users are modified simultaneously.
 
    >[!NOTE]
    >
@@ -269,8 +272,8 @@ An Administrator can associate specific privileges with a [group](../using/brand
 To modify the role and right to access original renditions for specific group members, follow these steps:
 
 1. On the **User Roles** page, navigate to the **Groups** tab.
-1. Select the groups for which you want to change roles.
-1. Select the appropriate role from the **Role** drop-down list.
+2. Select the groups for which you want to change roles.
+3. Select the appropriate role from the **Role** drop-down list.
 
    To allow the members of a group to have access to original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) which they download from the portal or shared link, keep the **Access to  Original** option selected for that group. By default, **Access to Original** option is selected for all the users. To prevent a user group from accessing original renditions, deselect the option corresponding to that group.
 
@@ -283,7 +286,7 @@ To modify the role and right to access original renditions for specific group me
    >
    >Also, restrictions to access original renditions of image files do not apply to administrators even though they are members of restricted groups.
 
-1. Click **Save**. The role is modified for the corresponding groups.
+4. Click **Save**. The role is modified for the corresponding groups.
 
    >[!NOTE]
    >
