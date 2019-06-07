@@ -92,7 +92,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
 1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
 
-   ![](assets/aemlogo-1.png)
+   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, tap/click **Create/Manage Reports **to open **Asset Reports **page.
 
