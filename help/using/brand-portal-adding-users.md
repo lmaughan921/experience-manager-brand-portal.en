@@ -29,15 +29,11 @@ Comment Type: draft
 -->
 ![](assets/create-user-group.png)
 
-These product profiles are synced with the Brand Portal user interface and visible as groups in Brand Portal.
+These product profiles are synced with the Brand Portal user interface every 8 hours and visible as groups in Brand Portal. Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
 >[!NOTE]
 >
 >To create groups in Brand Portal, from Adobe Admin Console, use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**. Product profiles in Adobe Admin Console are used to create groups in Brand Portal.
-
-
-
-After you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
 ## Add a user {#add-a-user}
 
@@ -191,7 +187,7 @@ You can provide the system administrator or the product administrator privilege 
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **Users**. 
+4. From the toolbar at the top, click **Users**.
 5. In the **Users** page, **Users** in the left rail is selected by default. Click the user name of the user to whom you want to provide administrator privileges.
 
    ![Add Users in Admin Console](assets/admin_console_adduseruserpage.png)
@@ -199,19 +195,20 @@ You can provide the system administrator or the product administrator privilege 
 6. In the user profile page, locate the **Administrative Rights** section at the bottom, and choose ellipsis (**...**) &gt; **Edit admin rights**.
    ![Admin rights in Admin Console](assets/admin_console_editadminrights.png)
 
-7. In the **Edit Admin** page, select System Administrator or Product Administrator. 
+7. In the **Edit Admin** page, select System Administrator or Product Administrator.
 
    ![Edit admin rights in Admin Console](assets/admin_console_editadminrightsselection.png)
 
    >[!NOTE]
    >
-   >Brand Portal supports only System Administrator and Product Administrator roles. 
+   >Brand Portal supports only System Administrator and Product Administrator roles.
    >
    >
    >Adobe recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure AEM Assets so that assets can be published from AEM Assets to Brand Portal. For more information, see [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
       >
    >
    >In contrast, the Product Administrator role grants administrator privileges for a specific product only. If you want to enforce a more granular access control within Brand Portal, use the Product Administrator role and select the product as **AEM Brand Portal**.
+
    >[!NOTE]
    >
    >Brand Portal does not support product profile administrator (formerly known as configuration administrator) privileges. Avoid assigning product profile administrator rights to a user.
@@ -248,6 +245,7 @@ In addition to the Administrator role, Brand Portal supports the following roles
    >[!NOTE]
    >
    >The **Role** list for Administrator users is disabled. You cannot select these users to modify their roles.
+
    >[!NOTE]
    >
    >The user role is also disabled if the user is a member of the Editor group. To revoke editing privileges from the user, either remove the user from the Editor group or change the role of the entire group to Viewer.

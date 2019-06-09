@@ -42,7 +42,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
    ![](assets/licensed-asset-download-1.png)
 
-   The **Download** dialog box appears with the **Asset(s) **option selected by default.
+   The **Download** dialog box appears with the **Asset(s)** option selected by default.
 
    ![](assets/donload-assets-dialog-1.png)
 
@@ -52,11 +52,11 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
    ![](assets/restrictaccess-note.png)
 
-1. To download the renditions of assets in addition to the assets, select **Rendition(s)**. However, to allow auto-generated renditions to download along with custom renditions, deselect **Exclude Auto Generated Renditions**, which is selected by default.
+2. To download the renditions of assets in addition to the assets, select **Rendition(s)**. However, to allow auto-generated renditions to download along with custom renditions, deselect **Exclude Auto Generated Renditions**, which is selected by default.
 
    ![](assets/exclude-auto-renditions.png)
 
-   To download only the renditions, deselect **Asset(s)**.
+    To download only the renditions, deselect **Asset(s)**.
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
    >[!NOTE]
    >
-   >To be able to preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's PTIFF rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its PTIFF rendition is also published. There is no way of generating the PTIFF rendition from Brand Portal.
+   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's PTIFF rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its PTIFF rendition is also published. There is no way of generating the PTIFF rendition from Brand Portal.
 
     * To preserve the Brand Portal folder hierarchy while downloading assets, select **Create separate folder for each asset**. By default, Brand Portal folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
 
@@ -82,10 +82,9 @@ To download assets or folders containing assets for Brand Portal, follow these s
    >
    >Download link on email notification expires after 45 days.
    >
-   >
    >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
 
-1. Click **Download**.
+3. Click **Download**.
 
    The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 

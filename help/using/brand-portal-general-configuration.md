@@ -24,17 +24,17 @@ AEM Assets Brand Portal allows organizations to configure the following capabili
 * Download acceleration
 * Parent hierarchy of shared folders visible to non-admin users
 
-These configurations have been provided as **General Settings **configurations on the administrative tools panel.
+These configurations have been provided as **General Settings** configurations on the administrative tools panel.
 
 ![](assets/general-configs.png)
 
-**A** Configuration to allow administrators to delete assets from Brand Portal. (Default is enabled)
+**A**   Configuration to allow administrators to delete assets from Brand Portal. (Default is enabled)
 
-**B** Configuration to allow the non-admin users to create public collections. (Default is enabled)
+**B**   Configuration to allow the non-admin users to create public collections. (Default is enabled)
 
-**C **Configuration to allow the non-admin users to create public smart collections. (Default is enabled)
+**C**   Configuration to allow the non-admin users to create public smart collections. (Default is enabled)
 
-**D** Configuration to allow download acceleration of assets downloaded from the portal and from the shared links. (Default is disabled)
+**D**   Configuration to allow download acceleration of assets downloaded from the portal and from the shared links. (Default is disabled)
 
 **E** Configuration to display folder hierarchy (from the root) of shared folders to non-admin users (Editors, Viewers, Guest Users). (Default is disabled)
 
@@ -43,11 +43,11 @@ These configurations have been provided as **General Settings **configurations o
 To enable/disable each of these configurations:
 
 1. Log in with administrator privileges.
-1. Select the AEM logo to access administrative tools, from the toolbar at the top.
-1. From the administrative tools panel, select **General **to open the **General Settings **page.
-1. Use the respective toggle switch to enable/ disable any of the General configurations.
-1. **Save** the changes.
-1. Logout to let the changes take effect.
+2. Select the AEM logo to access administrative tools, from the toolbar at the top.
+3. From the administrative tools panel, select **General** to open the **General Settings** page.
+4. Use the respective toggle switch to enable/ disable any of the General configurations.
+5. **Save** the changes.
+6. Logout to let the changes take effect.
 
 ## Allow admin users to delete assets from Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 

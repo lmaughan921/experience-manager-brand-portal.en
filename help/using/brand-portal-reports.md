@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Work with reports{#work-with-reports}
+# Work with reports {#work-with-reports}
 
 The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. Administrators can view Brand Portal Usage report, which is always available on Asset Reports page. However, reports for user logins and assets downloaded, expired, published, and assets shared through links can be generated and viewed from Asset Reports page. These reports are helpful in analyzing asset deployment, which let you derive key success metrics to measure the adoption of approved assets within and outside your organization.
 
@@ -27,11 +27,11 @@ To view a report, follow these steps:
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Create/Manage Reports **to open **Asset Reports **page.
+2. From the administrative tools panel, click **Create/Manage Reports **to open **Asset Reports **page.
 
    ![](assets/access-asset-reports.png)
 
-1. Access **Usage **report and other generated reports from Asset Reports page.
+3. Access **Usage **report and other generated reports from Asset Reports page.
 
    >[!NOTE]
    >
@@ -94,16 +94,16 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, tap/click **Create/Manage Reports **to open **Asset Reports **page.
+2. From the administrative tools panel, tap/click **Create/Manage Reports **to open **Asset Reports **page.
 
    ![](assets/asset-reports.png)
 
-1. In the Asset Reports page, tap/click **Create**.
-1. From the **Create Report** page, select a report to create, and tap/click **Next**.
+3. In the Asset Reports page, tap/click **Create**.
+4. From the **Create Report** page, select a report to create, and tap/click **Next**.
 
    ![](assets/crete-report.png)
 
-1. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for **Download**, **Expiration**, and **Publish** reports.
+5. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for **Download**, **Expiration**, and **Publish** reports.
 
    ![](assets/create-report-page.png)
 
@@ -115,8 +115,8 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    >
    >Special characters # and % in report title are replaced by a hyphen (-) on the report generation.
 
-1. Tap/click **Next**, to configure the columns of Download, Expiration, and Publish reports.
-1. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in **Download **report, select **Downloaded By**. The following image illustrates selecting default columns in Download report.
+6. Tap/click **Next**, to configure the columns of Download, Expiration, and Publish reports.
+7. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in **Download **report, select **Downloaded By**. The following image illustrates selecting default columns in Download report.
 
    ![](assets/createdownloadreport.png)
 
@@ -125,19 +125,17 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    To add custom columns to Download, Publish or Expiration report, follow these steps:
 
     1. To display a custom column, tap/click **Add** within **Custom Columns**.
-    1. 
-    1. Specify name of the column in **Column Name** field.
-    1. Select the property to which the column needs to map to, using property picker. 
+    2. Specify name of the column in **Column Name** field.
+    3. Select the property to which the column needs to map to, using property picker.
     
-       ![](assets/property-picker.png)    
+       ![](assets/property-picker.png)
+Alternatively, type the path in the property path field.
     
-       Alternatively, type the path in the property path field.
-    
-       ![](assets/property-path.png)    
+       ![](assets/property-path.png)
     
        To add more custom columns, tap/click **Add** and repeat steps 2 and 3.
 
-1. Tap/click **Create**. A message notifies that report generation has been initiated.
+8. Tap/click **Create**. A message notifies that report generation has been initiated.
 
 ## Download reports {#download-reports}
 
