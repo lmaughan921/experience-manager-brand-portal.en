@@ -29,13 +29,11 @@ Comment Type: draft
 -->
 ![](assets/create-user-group.png)
 
-These product profiles are synced with the Brand Portal user interface every 8 hours and visible as groups in Brand Portal.
+These product profiles are synced with the Brand Portal user interface every 8 hours and visible as groups in Brand Portal. Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
 >[!NOTE]
 >
 >To create groups in Brand Portal, from Adobe Admin Console, use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**. Product profiles in Adobe Admin Console are used to create groups in Brand Portal.
-
-After you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
 ## Add a user {#add-a-user}
 
