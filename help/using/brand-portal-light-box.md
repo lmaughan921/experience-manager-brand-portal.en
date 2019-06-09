@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Manage the lightbox collection{#manage-the-lightbox-collection}
+# Manage the lightbox collection {#manage-the-lightbox-collection}
 
 Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
 
@@ -24,18 +24,18 @@ To add assets to lightbox, do the following:
 1. Navigate to the location of the assets that you want to add to lightbox, and select the assets.
 
    ![](assets/link_sharing_assetselection.png)
-
-1. From the toolbar at the top, click the add to collection icon.
+   
+2. From the toolbar at the top, click the add to collection icon.
 
    ![](assets/add_to_collection.png)
 
-1. On the **Add To Collection** page, the Lightbox collection is selected by default.
+3. On the **Add To Collection** page, the Lightbox collection is selected by default.
 
    Click **Add**. The selected assets are added to lightbox. 
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. To review the assets added to lightbox, click **Collections** on the left rail, and then click the Lightbox collection.
+4. To review the assets added to lightbox, click **Collections** on the left rail, and then click the Lightbox collection.
 
    ![](assets/collections_lightbox.png)
 
@@ -49,10 +49,10 @@ To add assets to lightbox, do the following:
 
    ![](assets/collections_lightbox-1.png)
 
-1. Select the folder you want to remove from the collection, then click **Remove **from the toolbar at the top.
+2. Select the folder you want to remove from the collection, then click **Remove** from the toolbar at the top.
 
    ![](assets/collections_lightboxdelete.png)
 
-1. From the warning message box, click **Remove** to confirm removal.
-1. The folder is deleted from the lightbox collection.****
+3. From the warning message box, click **Remove** to confirm removal.
 
+The folder is deleted from the lightbox collection.

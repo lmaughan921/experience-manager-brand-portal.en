@@ -17,7 +17,7 @@ snippet: y
 
 A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 
-Normally, the **Properties** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. AEM Assets Brand Portal provides default forms for assets of various MIME types; however, you can also add custom forms for such assets.
+The **Properties** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. AEM Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
 
 ## Add a metadata schema form {#add-a-metadata-schema-form}
 
@@ -27,15 +27,15 @@ To create a new metadata schema form, do the following:
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Metadata Schemas**.
+2. From the administrative tools panel, click **Metadata Schemas**.
 
    ![](assets/navigation-panel.png)
 
-1. On the **Metadata Schema Forms** page, click **Create**.
+3. On the **Metadata Schema Forms** page, click **Create**.
 
    ![](assets/create-metadata-schema-form.png)
 
-1. In the **Create Schema Form** dialog box, specify the title of the Schema form, and then click **Create** to complete the form creation process.
+4. In the **Create Schema Form** dialog box, specify the title of the Schema form, and then click **Create** to complete the form creation process.
 
    ![](assets/create-schema-form.png)
 
@@ -51,8 +51,8 @@ To edit a metadata schema form, do the following:
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Metadata Schemas**.
-1. From the **Metadata Schema Forms** page, select a schema form to edit its properties, for example, **collection**.
+2. From the administrative tools panel, click **Metadata Schemas**.
+3. From the **Metadata Schema Forms** page, select a schema form to edit its properties, for example, **collection**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -60,19 +60,19 @@ To edit a metadata schema form, do the following:
    >
    >Unedited templates display a **Lock** symbol before them. If you customize any of the templates, the **Lock** symbol before the template disappears.
 
-1. From the toolbar at the top, click **Edit**.
+4. From the toolbar at the top, click **Edit**.
 
    The **Metadata Schema Editor** page opens with the **Basic** tab open on the left and the **Build Form** tab open on the right.
 
-1. In the **Metadata Schema Editor** page, customize the **Properties** page of the asset by dragging one or more components from a list of component types in the **Build Form** tab to the **Basic** tab.
+5. In the **Metadata Schema Editor** page, customize the **Properties** page of the asset by dragging one or more components from a list of component types in the **Build Form** tab to the **Basic** tab.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-1. To configure a component, select it and modify its properties in the** Settings **tab.
+6. To configure a component, select it and modify its properties in the **Settings** tab.
 
 ### Components in the Build Form tab {#components-in-the-build-form-tab}
 
-The **Build Form **tab lists items that you can use in your schema form. The **Settings **tab provides the attributes of each item that you select in the **Build Form **tab. The following table lists the form items available in the **Build Form **tab:
+The **Build Form** tab lists items that you can use in your schema form. The **Settings** tab provides the attributes of each item that you select in the **Build Form** tab. The following table lists the form items available in the **Build Form** tab:
 
 | Component Name      | Description                                                                                                                                                                                                                                                                                |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ The **Build Form **tab lists items that you can use in your schema form. The **S
 | Number              |  Add a number component.                                                                                                                                                                                                                                                                   |
 | Date                |  Add a date component.                                                                                                                                                                                                                                                                     |
 | Dropdown            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| Standard Tags       |  Add a tag. Note: Administrators might need to change the path value, for example, /etc/tags/mac/<tenant_id>/<custom_tag_namespace>, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, /etc/tags/<custom_tag_namespace>. |
+| Standard Tags       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
 | Smart Tags          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
 | Hidden Field        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
 | Asset Referenced By |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
@@ -98,15 +98,15 @@ The **Build Form **tab lists items that you can use in your schema form. The **S
 
 To edit the properties of a metadata component on the form, click the component and edit its properties in the **Settings** tab.
 
-* **Field Label**:** **The name of the metadata property that is displayed on the asset's Properties page.
+* **Field Label**: The name of the metadata property that is displayed on the asset's Properties page.
 
 * **Map to Property**: The value of this property provides the relative path/name to the asset node where it is saved in the CRX repository. It starts with "**./**" because indicating that the path is under the asset's node.
 
 The following are the valid values for this property:
 
--- . `/jcr:content/metadata/dc:title`: Stores the value at the asset's metadata node as the property `dc:title`.
+-- `./jcr:content/metadata/dc:title`: Stores the value at the asset's metadata node as the property `dc:title`.
 
--- . `/jcr:created`: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
+-- `./jcr:created`: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
 
 * **Placeholder**: Use this property to provide the user any relevant information regarding the metadata property.
 * **Required**: Use this property to mark a metadata property as mandatory on the Properties page.
@@ -123,15 +123,15 @@ The following are the valid values for this property:
 
 #### Add or delete a tab in the schema form {#add-or-delete-a-tab-in-the-schema-form}
 
-The default schema form includes the **Basic** and **Advanced** tabs. The schema editor lets you add or delete a tab. 
+The default schema form includes the **Basic** and **Advanced** tabs. The schema editor lets you add or delete a tab.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-Click **+** to add a new tab on a schema form. By default, the new tab has the name "Unnamed-1." You can modify the name from the **Settings **tab.
+* To add a new tab on a schema form, click **+**. By default, the new tab has the name "Unnamed-1". You can modify the name from the **Settings** tab.
 
 ![](assets/add-tab-metadata-form.png)
 
-Click **x** to delete a tab. Click **Save** to save the changes.
+* To delete a tab, click **x**. Click **Save** to save the changes.
 
 ## Apply a metadata schema to a folder {#apply-a-metadata-schema-to-a-folder}
 
@@ -143,17 +143,19 @@ To apply a metadata schema form to a folder, do the following:
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Metadata Schemas**.
-1. From the **Metadata Schema Forms** page, select the schema form that you want to apply to an asset, for example, **clothing**.
+2. From the administrative tools panel, click **Metadata Schemas**.
+
+3. From the **Metadata Schema Forms** page, select the schema form that you want to apply to an asset, for example, **clothing**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. From the toolbar at the top, click **Apply to Folder(s)**. 
-1. From the **Select Folder(s)** page, navigate to the folder to which you want to apply the **clothing** metadata schema, for example, **Gloves**.
+4. From the toolbar at the top, click **Apply to Folder(s)**.
+
+5. From the **Select Folder(s)** page, navigate to the folder to which you want to apply the **clothing** metadata schema, for example, **Gloves**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. Click **Apply** to apply the metadata schema form to the folder.
+6. Click **Apply** to apply the metadata schema form to the folder.
 
    The metadata available in the **clothing** metadata schema form is applied to the **Gloves** folder and visible in the **Properties** page of the folder.
 
@@ -179,7 +181,7 @@ To delete a form, select a form and click the **Delete** icon.
 
 ### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
 
-In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png."
+In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png".
 
 #### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
 
@@ -193,7 +195,7 @@ In this case, create a new node at `/etc/dam/metadataeditor/mimetypemappings` in
 | mimetypes |String[] |image/png |
 
 * **exposedmimetype**: Name of the existing form to be mapped 
-* **mimetypes**: List of MIME types that use the form defined in the **exposedmimetype **attribute
+* **mimetypes**: List of MIME types that use the form defined in the **exposedmimetype** attribute
 
 Brand Portal maps the following MIME types and schema forms:
 

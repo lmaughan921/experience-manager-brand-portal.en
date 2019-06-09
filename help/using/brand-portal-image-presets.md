@@ -15,7 +15,7 @@ snippet: y
 
 # Apply image presets or dynamic renditions{#apply-image-presets-or-dynamic-renditions}
 
-Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
+Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 
 An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. When previewing images and their renditions, you can choose a preset to reformat images to the specifications set by your Administrator.
 
@@ -41,15 +41,15 @@ Administrators can create image presets that appear as dynamic renditions on the
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **Image Presets**. 
+2. From the administrative tools panel, click **Image Presets**.
 
    ![](assets/admin-tools-panel-4.png)
 
-1. In the image presets page, click **Create**.
+3. In the image presets page, click **Create**.
 
    ![](assets/image_preset_homepage.png)
 
-1. In the **Edit Image Preset** page, enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
+4. In the **Edit Image Preset** page, enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
 
    ![](assets/image_preset_create.png)
 
@@ -57,19 +57,19 @@ Administrators can create image presets that appear as dynamic renditions on the
    >
    >You can also use the **Edit Image Preset** page to edit the properties of an existing image preset. To edit an image preset, select it from the image presets page, and click **Edit**.
 
-1. Click **Save**. The image preset is created and displayed on the image presets page.
-1. To delete an image preset, select it from the image presets page and click **Delete**. In the confirmation page, click **Delete** to confirm the deletion. The image preset is removed from the image presets page.
+5. Click **Save**. The image preset is created and displayed on the image presets page.
+6. To delete an image preset, select it from the image presets page and click **Delete**. In the confirmation page, click **Delete** to confirm the deletion. The image preset is removed from the image presets page.
 
 ## Apply image presets when previewing images  {#apply-image-presets-when-previewing-images}
 
 When previewing images and their renditions, choose from the existing presets to reformat images to the specifications set by your Administrator.
 
 1. From the Brand Portal interface, click an image to open it.
-1. Click the overlay icon on the left, and choose **Renditions**.
+2. Click the overlay icon on the left, and choose **Renditions**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-1. From the **Renditions** list, select the appropriate dynamic rendition, for example, **Thumbnail**. The preview image is rendered based on your choice of the rendition.
+3. From the **Renditions** list, select the appropriate dynamic rendition, for example, **Thumbnail**. The preview image is rendered based on your choice of the rendition.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -87,14 +87,13 @@ When downloading images and their renditions from Brand Portal, you cannot choos
 
    ![](assets/downloadassets.png)
 
-1. From the **Download** dialog box, select the required options depending upon whether you want to download the asset with or without its renditions.
+2. From the **Download** dialog box, select the required options depending upon whether you want to download the asset with or without its renditions.
 
    ![](assets/donload-assets-dialog.png)
 
-1. To download dynamic renditions of the asset, select the **Dynamic Rendition(s)** option.
-1. Customize image preset properties based on which you want to dynamically reformat the image and its renditions during download. Specify the size, format, color space, resolution, and image modifier. 
+3. To download dynamic renditions of the asset, select the **Dynamic Rendition(s)** option.
+4. Customize image preset properties based on which you want to dynamically reformat the image and its renditions during download. Specify the size, format, color space, resolution, and image modifier.
 
    ![](assets/dynamicrenditions.png)
 
-1. Click **Download**. The custom dynamic renditions are downloaded in a ZIP file along with the image and renditions that you chose to download. However, no zip file is created if a single asset is downloaded, which ensures speedy download.
-
+5. Click **Download**. The custom dynamic renditions are downloaded in a ZIP file along with the image and renditions that you chose to download. However, no zip file is created if a single asset is downloaded, which ensures speedy download.

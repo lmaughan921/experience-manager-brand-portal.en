@@ -5,7 +5,7 @@ description: AEM Brand Portal user guide
 seo-description: Describes how to use Brand Portal
 ---
 
-# Introduction to AEM Assets Brand Portal
+# Introduction
 
 Brand Portal aids organizations to meet their marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 

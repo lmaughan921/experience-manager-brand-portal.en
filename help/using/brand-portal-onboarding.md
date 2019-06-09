@@ -25,7 +25,7 @@ To log in to Brand Portal for the first time, do the following:
 
    ![Brand Portal welcome email](assets/onboarding_welcomeemail.png)
 
-1. In the sign-up page, specify your details (including first name, last name, password, and country/region). 
+2. In the sign-up page, specify your details (including first name, last name, password, and country/region).
 
    ![Sign-up page](assets/onboarding_sign_uppage.png)
 
@@ -37,15 +37,14 @@ To log in to Brand Portal for the first time, do the following:
    >
    >If your organization uses enterprise IDs, instead of viewing this sign-up page, you are redirected to the enterprise login page. For more information, see [Enterprise ID, sign in, and account help](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Click **Continue** to proceed to your organization's Brand Portal page.
-1. From the Brand Portal sign-in page, click **Sign In** to log in to Brand Portal.
+3. Click **Continue** to proceed to your organization's Brand Portal page.
+4. From the Brand Portal sign-in page, click **Sign In** to log in to Brand Portal.
 
    ![Brand Portal Sign in page](assets/signin-onboarding.png)
 
    >[!NOTE]
    >
-   >You cannot access Brand Portal if you are not associated with any product profile (formerly known as product configuration&#42;). To be able to log in to Brand Portal, you must be associated with at least one AEM product profile.
+   >You cannot access Brand Portal if you are not associated with any product profile<!--(formerly known as product configuration&#42;)-->. To be able to log in to Brand Portal, you must be associated with at least one AEM product profile.
    >
    >
-   >&#42; The nomenclature has changed from product configurations to product profiles in the new Admin Console.
-
+   ><!-- &#42; The nomenclature has changed from product configurations to product profiles in the new Admin Console.

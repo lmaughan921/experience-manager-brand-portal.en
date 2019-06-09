@@ -40,9 +40,8 @@ Sign in to AEM Author instance with administrative privileges, and access **AEM 
 
    3. Select **Tagging**
 
-1. Select **Create** and then select **Create Tag** option.
-1. 
-   Specify:
+2. Select **Create** and then select **Create Tag** option.
+3. Specify:
 
     * **Title**
       *(required)* A display title for the tag.
@@ -53,19 +52,19 @@ Sign in to AEM Author instance with administrative privileges, and access **AEM 
     * **Tag Path**
       JCR path of the tag.
 
-1. Select **Submit** to create the tag.
+4. Select **Submit** to create the tag.
 
    Once you have created a tag on AEM instance, the tag will be available to be attached to an asset (using Properties section or Manage Tags section of that asset).
 
-1. **Publish the tag to Brand Portal**.
+5. **Publish the tag to Brand Portal**.
 
    Go to **AEM Tags** console (Tools | Tagging | AEM Tags), select the desired tag and Publish to **Brand Portal**.
 
-1. **Attach the tag to an asset (or collection)**.
+6. **Attach the tag to an asset (or collection)**.
 
    Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-1. **Publish assets (or collections) to Brand Portal**.  
+7. **Publish assets (or collections) to Brand Portal**.  
    When you publish an asset (or collection) to Brand Portal, the attached tag is also available on Brand Portal.
 
    To see the attached tag on the respective asset (or collection) in Brand Portal, log in to Brand Portal and select the asset, under Properties section you will see the attached Tag.
@@ -77,11 +76,12 @@ AEM Assets Brand Portal allows you to make specific assets come as the top resul
 To elevate an asset for a search keyword, follow these steps:
 
 1. Open the **Properties** page of an asset on AEM author instance.
-1. Go to **Advanced** tab.
-1. In **Search Promote** within **Elevate for search keywords** section, select **Add **to add the search keywords or tags.
+2. Go to **Advanced** tab.
+3. In **Search Promote** within **Elevate for search keywords** section, select **Add** to add the search keywords or tags.
 
    ![](assets/search-promote.png)
 
-1. Save the changes.
-1. Publish the asset to Brand Portal.
-1. Log in to Brand Portal. View **Advanced** tab in **Properties **section of the asset. Note that the Search Promote keyword is also visible in the Properties of that asset.
+4. Save the changes.
+5. Publish the asset to Brand Portal.
+6. Log in to Brand Portal. View **Advanced** tab in **Properties** section of the asset.
+Note that the **Search Promote** keyword is also visible in the Properties of that asset.

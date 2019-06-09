@@ -9,7 +9,7 @@ user-guide-title: AEM Brand Portal
 
 + [Brand Portal User Guide](using/home.md)
 + Introduction {#introduction}
-  + [Overview of AEM Assets Brand Portal](using/brand-portal.md)
+  + [Overview](using/brand-portal.md)
   + [What's new in AEM Assets Brand Portal](using/whats-new.md)
   + [Release Notes](using/brand-portal-release-notes.md)
   + [Supported file formats](using/brand-portal-supported-formats.md)
