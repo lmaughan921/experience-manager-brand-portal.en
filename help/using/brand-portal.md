@@ -51,7 +51,7 @@ Any user having limited access to assets on Brand Portal without undergoing auth
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
-[Browse and access public assets](browse-folders-and-collections.md)
+[Browse and access public assets](browse-assets-brand-portal.md)
 
 [Search public assets](brand-portal-searching.md)
 
@@ -63,7 +63,7 @@ However, guest session restricts you from creating collections and saved searche
 
 A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-[Browse assets](browse-folders-and-collections.md)
+[Browse assets](browse-assets-brand-portal.md)
 
 [Search for assets](brand-portal-searching.md)
 
