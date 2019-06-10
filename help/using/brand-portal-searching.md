@@ -46,9 +46,7 @@ Search facets in the Filters panel add granularity to your search experience and
 
 For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.
 
-![](assets/file-type-search.png)
-
-Filters panel in Brand Portal
+![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
 The Filters panel includes a few standard facets, such as- Path Browser, File Type, File Size, Status, and Orientation. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the **Filters** panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
