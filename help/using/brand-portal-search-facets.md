@@ -81,23 +81,23 @@ Similar to the way you add a **Property** predicate, you can add the following p
 
 | **Predicate Name** | **Description** | **Properties** |
 |-------|-------|----------|
-| Path Browser | Search predicate to search assets at a particular location. *Note: For a logged-in user, path browser on Filter shows only the content structure of the folders (and their ancestors) shared with the user.* Admin users can search assets in any folder by navigating to that folder using Path Browser. Whereas, non-admin users can search assets in a folder (accessible to them) by navigating to that folder in Path Browser. | * Field Label <br>* Path <br>* Description |
-| Property | Search assets based on a particular metadata property. *Note: On selecting Partial Search, Ignore Case is selected by default*. | * Field Label <br>* Placeholder <br>* Property Name <br>* Partial Search <br>* Ignore Case <br>* Description |
-| Multi-Value Property | Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results. | * Field Label <br>* Placeholder <br>* Property name <br>* Delimiter Support <br>* Ignore Case <br>* Description |
-| Tags | Search predicate to search assets based on tags. You can configure the Path property to populate various tags in the Tags list. *Note: Administrators might need to change the path value, for example,* `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`*, if they publish the search form from AEM, where the path does not include tenant information, for example,* `/etc/tags/<custom_tag_namespace>`. | * Field Label <br>* Property name <br>* Path <br>* Description |
-| Path | Search predicate to search assets at a particular location. | * Field Label <br>* Path <br>* Description |                                                     |
-| Relative Date | Search predicate to search assets based on the relative date of their creation. | * Field Label <br>* Property name <br>* Relative date |
-| Range | Search predicate to search assets that lie within a specified range of property values. In the Filters panel, you can specify minimum and maximum property values for the range. | * Field Label <br>* Property name <br>* Description |
-| Date Range | Search predicate to search assets created within a specified range for a date property. In the Filters panel, you can specify Start and End dates. | * Field Label <br>* Placeholder <br>* Property name <br>* Range text (From) <br>* Range text (To) <br>* Description |
-| Date | Search predicate for a slider-based search of assets based on a date property. | * Field Label <br>* Property name <br>* Description |
-| File Size | Search predicate to search assets based on their size. | * Field Label <br>* Property name <br>* Path <br>* Description |
-| Asset Last Modified  | Search predicate to search assets based on the last modified date. | * Field Label <br>* Property name <br>* Description |
-| Approval Status | Search predicate to search assets based on approval metadata property. The default property name is **dam:status**. | * Field Label <br>* Property name <br>* Description |
-| Checkout Status | Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets. | * Field Label <br>* Property name <br>* Description |
-| Checked Out By | Search predicate to search assets based on the user who has checked out the asset. | * Field Label <br>* Property name <br>* Description |
-| Expiry Status | Search predicate to search assets based on the expiration status. | * Field Label <br>* Property name <br>* Description |
-| Member of collection | Search predicate to search assets based on whether an asset is a part of a collection. | * Description |
-| Hidden | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | * Field Label <br>* Property name <br>* Description |
+| Path Browser | Search predicate to search assets at a particular location. **Note:** *For a logged-in user, path browser on Filter shows only the content structure of the folders (and their ancestors) shared with the user.* <br> Admin users can search assets in any folder by navigating to that folder using Path Browser. <br> Whereas, non-admin users can search assets in a folder (accessible to them) by navigating to that folder in Path Browser. | <ul><li>Field Label</li><li>Path</li><li>Description</li></ul> |
+| Property | Search assets based on a particular metadata property. **Note:** *On selecting Partial Search, Ignore Case is selected by default*. | <ul><li>Field Label</li><li>Placeholder</li><li>Property Name</li><li>Partial Search</li><li>Ignore Case</li><li> Description</li></ul> |
+| Multi-Value Property | Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results. | <ul><li>Field Label</li><li>Placeholder</li><li>Property name</li><li>Delimiter Support</li><li>Ignore Case</li><li>Description</li></ul> |
+| Tags | Search predicate to search assets based on tags. You can configure the Path property to populate various tags in the Tags list. *Note: Administrators might need to change the path value, for example,* `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`*, if they publish the search form from AEM, where the path does not include tenant information, for example,* `/etc/tags/<custom_tag_namespace>`. | <ul><li>Field Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
+| Path | Search predicate to search assets at a particular location. | <ul><li>Field Label</li><li>Path</li><li>Description</li></ul> |                                                     |
+| Relative Date | Search predicate to search assets based on the relative date of their creation. | <ul><li>Field Label</li><li>Property name</li><li>Relative date</li></ul> |
+| Range | Search predicate to search assets that lie within a specified range of property values. In the Filters panel, you can specify minimum and maximum property values for the range. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| Date Range | Search predicate to search assets created within a specified range for a date property. In the Filters panel, you can specify Start and End dates. | <ul><li>Field Label</li><li>Placeholder</li><li>Property name</li><li>Range text (From)</li><li>Range text (To)</li><li>Description</li></ul> |
+| Date | Search predicate for a slider-based search of assets based on a date property. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| File Size | Search predicate to search assets based on their size. | <ul><li>Field Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
+| Asset Last Modified  | Search predicate to search assets based on the last modified date. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| Approval Status | Search predicate to search assets based on approval metadata property. The default property name is **dam:status**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| Checkout Status | Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| Checked Out By | Search predicate to search assets based on the user who has checked out the asset. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| Expiry Status | Search predicate to search assets based on the expiration status. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| Member of collection | Search predicate to search assets based on whether an asset is a part of a collection. | Description |
+| Hidden | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 
 >[!NOTE]
 >
@@ -136,4 +136,4 @@ To delete a search predicate, follow these steps:
 7. To save the changes, click **Done** in the toolbar.
 8. From the **Assets** user interface, click the overlay icon and choose **Filter** to navigate to the **Filters** panel. The **Property** predicate is removed from the panel.
 
-   ![](assets/property-predicate-removed-1.png
+   ![](assets/property-predicate-removed.png)

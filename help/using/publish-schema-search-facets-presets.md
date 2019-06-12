@@ -32,8 +32,8 @@ Once the preset is created, it is listed as dynamic rendition on asset detail re
 
 To publish image presets to Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
-1. Select the image preset or multiple image presets from the list of image presets and click/ tap **Publish to Brand Portal**.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **Assets** &gt; **Image Presets**.
+2. Select the image preset or multiple image presets from the list of image presets and click/ tap **Publish to Brand Portal**.
 
 ![](assets/publishpreset.png)
 
@@ -43,8 +43,8 @@ To publish image presets to Brand Portal:
 
 To unpublish an image presets from Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
-1. Select an image preset, and select **Remove from Brand Portal** from the options available at the top.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **Assets** &gt; **Image Presets**.
+2. Select an image preset, and select **Remove from Brand Portal** from the options available at the top.
 
 ## Publish metadata schema to Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
@@ -77,34 +77,35 @@ To publish a metadata schema from AEM Author instance to Brand Portal:
 
 To unpublish a metadata schema from Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **Assets **&gt; **Metadata Schemas**.
-1. Select a metadata schema, and select **Remove from Brand Portal** from the options available at the top.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **Assets** &gt; **Metadata Schemas**.
+2. Select a metadata schema, and select **Remove from Brand Portal** from the options available at the top.
 
 ## Publish search facets to Brand Portal {#publish-search-facets-to-brand-portal}
 
 Search forms provide the capability of [faceted search](../using/brand-portal-search-facets.md) to users on Brand Portal. Search facets impart greater granularity to searches on Brand Portal. All the [predicates added](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) in the search form are available to users as search facets in search filters.
 
-![](assets/property-predicate-removed.png) ![](assets/search-form.png)
+![](assets/property-predicate-removed.png)
+![](assets/search-form.png)
 
 If you are willing to use custom search form **Assets Admin Search Rail **from AEM Author, then instead of re-creating the same form on Brand Portal you can publish the customized search form from AEM Author instance to Brand Portal.
 
 >[!NOTE]
 >
->Locked search form **Assets Admin Search Rail **on AEM Assets cannot be published to Brand Portal unless it is edited. Once edited and published to Brand Portal, this search form overrides the search form on Brand Portal.
+>Locked search form **Assets Admin Search Rail** on AEM Assets cannot be published to Brand Portal unless it is edited. Once edited and published to Brand Portal, this search form overrides the search form on Brand Portal.
 
 To publish the edited search facet from AEM Author instance to Brand Portal:
 
-1. Tap/click the AEM logo, and then go to **Tools** &gt; **General **&gt; **Search Forms**.
-1. Select the edited search form, and select **Publish to Brand Portal**.
+1. Tap/click the AEM logo, and then go to **Tools** &gt; **General** &gt; **Search Forms**.
+2. Select the edited search form, and select **Publish to Brand Portal**.
 
    >[!NOTE]
    >
-   >When users click **Publish to Brand Portal,** the search facets are queued for publishing. Users are advised to monitor the log of the replication agents to confirm if the publish was successful.
+   >When users click **Publish to Brand Portal**, the search facets are queued for publishing. Users are advised to monitor the log of the replication agents to confirm if the publish was successful.
 
 To unpublish search forms from Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **General **&gt; **Search Forms**.
-1. Select the search form, and select **Remove from Brand Portal** from the options available at the top.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **General** &gt; **Search Forms**.
+2. Select the search form, and select **Remove from Brand Portal** from the options available at the top.
 
 >[!NOTE]
 >
@@ -113,7 +114,7 @@ To unpublish search forms from Brand Portal:
 ### Limitations {#limitations}
 
 1. Few search predicates are not applicable to search filters on the Brand Portal. When these search predicates are published as part of the search form from AEM Author instance to Brand Portal, they are filtered out. Users, therefore, see less number of predicates in the published form at the Brand Portal. See [search predicates applicable to filters on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
-1. For **Options **predicate, if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. These additional paths and options are not published to Brand Portal with the search form. In this case, users can select the **Manual **option in **Add Options** within **Options Predicate** to add these options manually at Brand Portal.
+
+2. For **Options** predicate, if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. These additional paths and options are not published to Brand Portal with the search form. In this case, users can select the **Manual**option in **Add Options** within **Options Predicate** to add these options manually at Brand Portal.
 
 ![](assets/options-predicate-manual.png)
-

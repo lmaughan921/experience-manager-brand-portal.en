@@ -21,7 +21,7 @@ Brand Portal supports integration with AEM Assets to have approved brand assets 
 >
 >Adobe recommends upgrading to AEM 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully integrated with AEM Assets. A limitation in AEM 6.4 gives an error while configuring integration with Brand Portal and replication fails.
 
-On configuring cloud service for brand portal under **/etc/  cloudservice **, all necessary users and token are auto-generated and saved in the repository- cloud service configuration is created, service users required for replication, and replication agents to replicate content. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
+On configuring cloud service for brand portal under **/etc/  cloudservice**, all necessary users and token are auto-generated and saved in the repository- cloud service configuration is created, service users required for replication, and replication agents to replicate content. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
 
 However, publishing can fail intermittently due to- large sling jobs, increased Network and Disk I/O on AEM Author, or slowed AEM Author performance. It is, therefore, advised to test the connection with the replication agent(s) prior to beginning publishing.
 
@@ -47,7 +47,7 @@ View log, if errors are found in replication log:
 
 1. Contact Adobe Support
 
-2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#main-pars-header-1664955658) and create publish configuration again
+2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again
 
 <!--
 Comment Type: remark
@@ -57,7 +57,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Cleaning up existing Brand Portal publish configurations {#cleaning-up-existing-brand-portal-publish-configurations}
+### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
 
 Most of the times when publish is not working, the reason is that the user who is publishing (mac-&lt;tenantid&gt;-replication) doesn't have the latest private key, and hence publish fails with "401 unauthorized" and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new config instead. For the new config to work properly, you should clean up the following from AEM author setup:
 

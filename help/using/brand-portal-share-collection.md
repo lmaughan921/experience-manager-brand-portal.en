@@ -20,7 +20,7 @@ AEM Assets Brand Portal Administrators can share and unshare a collection or a s
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and, therefore, do not have **Public Collection **check box available in** Collection Settings** dialog.
+>Editors cannot change a public collection to a non-public collection and, therefore, do not have **Public Collection** check box available in **Collection Settings** dialog.
 
 ## Share a collection {#share-collection}
 
@@ -50,7 +50,7 @@ To share a collection, follow these steps:
 
    >[!NOTE]
    >
-   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **Allow public collections creation **configuration from **General** settings available in admin tools panel.
+   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **Allow public collections creation** configuration from **General** settings available in admin tools panel.
 
    ![](assets/collection_sharingadduser.png)
 
@@ -83,4 +83,3 @@ To unshare a previously shared collection, do the following:
    Click **Save**.
 
 1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **Collections** console.
-
