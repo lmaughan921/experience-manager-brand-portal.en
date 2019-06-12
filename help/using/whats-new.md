@@ -20,7 +20,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.4 {#what-is-changing-in}
 
-Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests.
+Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. For a snapshot of the release, see [Brand Portal 6.4.4 release notes](brand-portal-release-notes.md).
 
 ### Search enhancements {#search-enhancements}
 
@@ -35,9 +35,9 @@ You can now search for assets by specifying only a partâ€”that is a word or twoâ
 **Use case**
 Partial phrase search is helpful when you are unsure of the exact combination of words occurring in the searched phrase.
 
-For example, if your search form in Brand Portal uses Property Predicate for partial search on assets title, then specifying the term **camp **returns all the assets with the word camp in their title phrase.
+For example, if your search form in Brand Portal uses Property Predicate for partial search on assets title, then specifying the term **camp** returns all the assets with the word camp in their title phrase.
 
-![](assets/partialphrasesearch.png) 
+![](assets/partialphrasesearch.png)
 
 #### Wildcard search {#wildcard-search}
 
@@ -46,15 +46,15 @@ The Brand Portal allows using the asterisk (&#42;) in search query along with a 
 **Use case**
 If you are not sure of the exact words occurring in the searched phrase, you can use a wildcard search to fill the gaps in your search query.
 
-For example, specifying **climb&#42; **returns all the assets having words beginning with the characters **climb** in their title phrase if search form in Brand Portal uses Property Predicate for partial search on assets title.
+For example, specifying **climb&#42;** returns all the assets having words beginning with the characters **climb** in their title phrase if search form in Brand Portal uses Property Predicate for partial search on assets title.
 
 ![](assets/wildcard-prop.png)
 
 Similarly, specifying:
 
-* **&#42;climb **returns all the assets having words ending with characters **climb** in their title phrase.
+* **&#42;climb** returns all the assets having words ending with characters **climb** in their title phrase.
 
-* **&#42;climb&#42;** returns all the assets having words comprising the characters **climb **in their title phrase.
+* **&#42;climb&#42;** returns all the assets having words comprising the characters **climb** in their title phrase.
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ Brand Portal users can leverage IBM Aspera Connect based fast downloads to get s
 
 ![](assets/donload-assets-dialog-2.png)
 
-To enable IBM Aspera based accelerated download for the organization, administrators **Enable Download Acceleration** option (which is disabled by default) from **[General Settings](../using/whats-new.md#main-pars-multi-column-1138310319)** in the administrative tools panel. To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md#main-pars-header).
+To enable IBM Aspera based accelerated download for the organization, administrators **Enable Download Acceleration** option (which is disabled by default) from [General Settings](brand-portal-general-configuration.md#allow-download-acceleration) in the administrative tools panel. To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md#main-pars-header).
 
 ### User Logins Report
 
@@ -495,16 +495,21 @@ Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Asse
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-All of your existing features and configurations remain intact. Your end users are not impacted, and your content remains intact.
+**Qus. Will I lose access to any existing assets, features, or configurations I have created?**
+**Ans.** All of your existing features and configurations remain intact. Your end users are not impacted, and your content remains intact.
 
-Brand Portal 6.4.3 was released to production in November 2018. Next Brand Portal version is expected to be released in Q1 2019.
+**Ques. When am I moving to the new version of Brand Portal?**
+**Ans.** Brand Portal 6.4.4 was released to production in February 2019. Next Brand Portal version is expected to be released in Q3 2019.
 
 >[!NOTE]
 >
 >Release schedule is tentative and subject to change. Contact your Adobe Account Manager or Customer Support to get the updated release schedule.
 
-This change is exclusively within Brand Portal, so there is no impact to your end users.
+**Ques. Will my users be impacted?**
+**Ans.** This change is exclusively within Brand Portal, so there is no impact to your end users.
 
-There is no action required by the administrator. Once you get access to the new Brand Portal, refer to the documentation to see all the bells and whistles.
+**Ques. Is there any action required on my part?**
+**Ans.** There is no action required by the administrator. Once you get access to the new Brand Portal, refer to the documentation to see all the bells and whistles.
 
-Contact your Adobe Account Manager or Customer Support.
+**Ques. Who do I contact with questions?**
+**Ans.** Contact your Adobe Account Manager or Customer Support.

@@ -24,7 +24,7 @@ Read on to know how the assets are secured on Brand Portal and understand the as
 
 Asset expiration is an effective way of controlling the usage of approved assets on Brand Portal across an organization. All the assets published from AEM Assets to Brand Portal can have an expiration date, which restricts the usage of these assets by different user roles.
 
-**Usage permissions related to expired assets**
+### Usage permissions related to expired assets{#usage-permissions-expired-assets}
 
 In Brand Portal, Administrators can view, download, and add expired assets to collections. Whereas, Editors and Viewers can only view and add expired assets to collections.
 
@@ -69,7 +69,7 @@ For more information about link sharing, refer to [Share assets as a link](../us
 
 ## Licensed Assets {#licensed-assets}
 
-Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
+Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
 License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
