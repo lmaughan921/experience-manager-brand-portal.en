@@ -94,10 +94,10 @@ Similar to the way you add a **Property** predicate, you can add the following p
 | Asset Last Modified  | Search predicate to search assets based on the last modified date. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 | Approval Status | Search predicate to search assets based on approval metadata property. The default property name is **dam:status**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 | Checkout Status | Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| Checked Out By | Search predicate to search assets based on the user who has checked out the asset. | <ul><li>Field Label</li><li>Property name</li><li>Description</li><ul> |
+| Checked Out By | Search predicate to search assets based on the user who has checked out the asset. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 | Expiry Status | Search predicate to search assets based on the expiration status. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 | Member of collection | Search predicate to search assets based on whether an asset is a part of a collection. | Description |
-| Hidden | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li><ul> |
+| Hidden | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 
 >[!NOTE]
 >
