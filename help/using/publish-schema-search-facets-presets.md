@@ -68,8 +68,8 @@ If users have created a custom schema on AEM Author instance, they can publish t
 
 To publish a metadata schema from AEM Author instance to Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **Assets **&gt; **Metadata Schemas**.
-1. Select a metadata schema, and select **Publish to Brand Portal** from the options available at the top.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **Assets** &gt; **Metadata Schemas**.
+2. Select a metadata schema, and select **Publish to Brand Portal** from the options available at the top.
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Search forms provide the capability of [faceted search](../using/brand-portal-se
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-If you are willing to use custom search form **Assets Admin Search Rail **from AEM Author, then instead of re-creating the same form on Brand Portal you can publish the customized search form from AEM Author instance to Brand Portal.
+If you are willing to use custom search form **Assets Admin Search Rail** from AEM Author, then instead of re-creating the same form on Brand Portal you can publish the customized search form from AEM Author instance to Brand Portal.
 
 >[!NOTE]
 >

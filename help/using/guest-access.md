@@ -73,7 +73,7 @@ The **Content tree** lets you move through assets hierarchy.
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal provides** Overview** option to Guest users to view Asset Properties of selected assets/folders. The Overview option is visible:
+Brand Portal provides **Overview** option to Guest users to view Asset Properties of selected assets/folders. The Overview option is visible:
 
 1. In the toolbar at the top on selecting an asset/folder.
 2. In the drop-down on selecting the Rail Selector.
@@ -84,7 +84,7 @@ On selecting the Overview option while an asset/folder is selected, users can se
 
 **Navigation** option in the left rail allows navigating from files to collections and back in the guest session so that users can browse through assets in files or collections.
 
-**Filter **option allows guest users to filter asset files and folders using search predicates set by the administrator.
+**Filter** option allows guest users to filter asset files and folders using search predicates set by the administrator.
 
 ### Guest user capabilities
 
