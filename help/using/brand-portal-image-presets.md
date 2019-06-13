@@ -19,6 +19,8 @@ Like a macro, an image preset is a predefined collection of sizing and formattin
 
 An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. When previewing images and their renditions, you can choose a preset to reformat images to the specifications set by your Administrator.
 
+To view dynamic renditions of an asset in Brand Portal, ensure that its PTIFF rendition exists at the AEM author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal. There is no way of generating the PTIFF rendition from Brand Portal.
+
 >[!NOTE]
 >
 >When downloading images and their renditions, there is no option to choose from the existing presets. Instead, you can specify the properties of a custom image preset. For more information, see [Apply image presets when downloading images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
@@ -28,14 +30,12 @@ For more information about the parameters required while creating image presets,
 ## Create an image preset {#create-an-image-preset}
 
 Administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
+Note that only Administrators can create image presets in Brand Portal.
 
 >[!NOTE]
 >
->Only Administrators can create image presets in Brand Portal.
-
->[!NOTE]
->
->To view dynamic renditions of an asset in Brand Portal, ensure that its PTIFF rendition exists at the AEM author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal. There is no way of generating the PTIFF rendition from Brand Portal.
+>Dynamic renditions are created for the assets for which PTIFF is available. So If an asset does not have Pyramid TIFF rendition created on AEM and published to Brand Portal, then only its system renditions can be exported, but dynamic renditions are presented as an option.
+Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyramid tiff (ptiff) of an asset. When such an asset is published to brand portal, image presets are applied and dynamic renditions are displayed.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
