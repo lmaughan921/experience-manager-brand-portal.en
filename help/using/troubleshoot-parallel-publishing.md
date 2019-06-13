@@ -32,8 +32,8 @@ However, publishing can fail intermittently due to- large sling jobs, increased 
 To validate your publish configurations:
 
 1. Check the error logs
-1. Check whether the replication agent is created
-1. Test connection
+2. Check whether the replication agent is created
+3. Test connection
 
 **While creating Cloud Service**
 
@@ -65,7 +65,7 @@ Most of the times when publish is not working, the reason is that the user who i
    i delete /etc/replication/agents.author/mp_replication&#42;  
    ii delete /etc/  cloudservices /mediaportal/&lt;config_name&gt;
 
-1. go to localhost:4502/useradmin:  
+2. go to localhost:4502/useradmin:  
    i search for user mac-&lt;tenantid&gt;-replication  
    ii delete this user
 
