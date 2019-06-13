@@ -32,6 +32,8 @@ For more information about the parameters required while creating image presets,
 Administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
 Note that only Administrators can create image presets in Brand Portal.
 
+Note that only Administrators can create image presets in Brand Portal.
+
 >[!NOTE]
 >
 >Dynamic renditions are created for the assets for which PTIFF is available. So If an asset does not have Pyramid TIFF rendition created on AEM and published to Brand Portal, then only its system renditions can be exported, but dynamic renditions are presented as an option.
