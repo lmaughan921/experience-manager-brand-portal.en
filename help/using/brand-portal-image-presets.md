@@ -30,6 +30,7 @@ For more information about the parameters required while creating image presets,
 ## Create an image preset {#create-an-image-preset}
 
 Administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
+Note that only Administrators can create image presets in Brand Portal.
 
 Note that only Administrators can create image presets in Brand Portal.
 
