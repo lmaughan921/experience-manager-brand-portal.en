@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Search assets on Brand Portal {#search-assets-on-brand-portal}

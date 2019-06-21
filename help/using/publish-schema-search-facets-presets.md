@@ -8,9 +8,6 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-index: y
-internal: n
-snippet: y
 ---
 
 # Publish presets, schema, and facets to Brand Portal{#publish-presets-schema-and-facets-to-brand-portal}

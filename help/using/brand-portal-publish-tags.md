@@ -8,9 +8,6 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Publish tags to Brand Portal {#publish-tags-to-brand-portal}

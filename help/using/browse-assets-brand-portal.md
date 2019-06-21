@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-index: y
-internal: n
-snippet: y
 ---
 
 # Browsing assets on Brand Portal {#browsing-assets-on-brand-portal}

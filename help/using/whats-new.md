@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-index: y
-internal: n
-snippet: y
 ---
 
 # What's new in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}

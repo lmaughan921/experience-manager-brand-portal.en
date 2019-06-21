@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-index: y
-internal: n
-snippet: y
 ---
 
 # Supported file formats{#supported-file-formats}
