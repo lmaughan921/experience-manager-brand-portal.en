@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-index: y
-internal: n
-snippet: y
 ---
 
 # Download assets{#download-assets}

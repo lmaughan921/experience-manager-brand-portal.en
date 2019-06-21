@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-index: y
-internal: n
-snippet: y
 ---
 
 # Use the metadata schema form{#use-the-metadata-schema-form}

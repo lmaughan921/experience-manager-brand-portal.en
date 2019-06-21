@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-index: y
-internal: n
-snippet: y
 ---
 
 # Share folders on Brand Portal {#share-folders}

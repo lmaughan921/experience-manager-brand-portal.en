@@ -8,11 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-isoveriview: true
-issectionnavparent: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}

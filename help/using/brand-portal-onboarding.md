@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-index: y
-internal: n
-snippet: y
 ---
 
 # First-time login experience{#first-time-login-experience}

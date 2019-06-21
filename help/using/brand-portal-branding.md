@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize wallpaper, header, and email message{#customize-wallpaper-header-and-email-message}

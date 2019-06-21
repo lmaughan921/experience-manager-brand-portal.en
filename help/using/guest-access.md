@@ -9,9 +9,6 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Guest Access to Brand Portal{#guest-access-to-brand-portal}

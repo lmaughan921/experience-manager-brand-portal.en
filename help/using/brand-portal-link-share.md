@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Share assets as a link {#share-assets-as-a-link} 

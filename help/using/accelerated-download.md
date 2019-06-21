@@ -9,9 +9,6 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Guide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
