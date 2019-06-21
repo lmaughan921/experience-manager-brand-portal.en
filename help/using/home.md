@@ -21,6 +21,10 @@ The lack of a secure asset sharing solution can result in:
 With Brand Portal, organizations can ensure brand compliance by enabling marketers to collaborate with channel partners and internal business users to quickly create, manage, and deliver the latest design guidelines, logos, campaign and product assets to the stakeholders.
 Brand Portal is a cloud-based SAAS offering. It is available as an add-on to Adobe Experience Manager Assets product (on premise or managed service).
 
+Brand Portal solution workflow is illustrated in the following image.
+
+![](assets/BPWorkflow1.png)
+
 ## Adobe Experience Manager Brand Portal User Guide
 
 This user guide documents insights in to Brand Portal offerings and key workflows. Use the left rail to navigate through various functionalities and drill down to know how different personas interact with the portal.
