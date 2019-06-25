@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}

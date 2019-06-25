@@ -7,12 +7,8 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
 tutorials-title: Tutorials
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-<<<<<<< Updated upstream
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.en
-=======
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-dispatcher.en
->>>>>>> Stashed changes
-index: n
+index: y
 ---
 
 # Metadata for internal use

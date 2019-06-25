@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage users, groups, and user roles{#manage-users-groups-and-user-roles}

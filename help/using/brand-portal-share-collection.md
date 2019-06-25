@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-index: y
-internal: n
-snippet: y
 ---
 
 # Share collections on Brand Portal {#share-collections-bp}

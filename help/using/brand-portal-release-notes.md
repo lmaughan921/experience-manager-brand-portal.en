@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-index: y
-internal: n
-snippet: y
 ---
 
 # Release Notes{#release-notes}
