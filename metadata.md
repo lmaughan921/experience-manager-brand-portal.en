@@ -7,7 +7,7 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
 tutorials-title: Tutorials
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
 ---
 
