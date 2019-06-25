@@ -1,12 +1,12 @@
 ---
 cloud: experience-cloud
-solution-title: Experience Cloud Brand Portal
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
+solution-title: Adobe Experience Manager
+solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: 
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/support/experience-manager/6-4.html
+getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
 tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
 ---
