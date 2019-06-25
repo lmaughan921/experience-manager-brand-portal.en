@@ -19,7 +19,7 @@ Brand Portal supports the Accelerated download of large asset files by integrati
 >
 >IBM Aspera Connect enables speedy download of large asset files from Brand Portal and shared links, but download speed may vary depending on factors such as network bandwidth, server latency, and geographical location of clients.
 
-To configure specific tenants for accelerated file download, administrators **Enable Download Acceleration** (which is disabled by default)from **General Settings** in the administrative tools panel.
+To configure specific tenants for accelerated file download, administrators **[Enable Download Acceleration]** (which is disabled by default)from **General Settings** in the administrative tools panel.
 
 If enabled, Brand Portal users can significantly reduce the time taken to download the desired asset files from Brand Portal or through Shared link by installing the Aspera Connect client.
 
