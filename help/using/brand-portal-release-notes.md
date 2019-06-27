@@ -32,7 +32,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 This release includes the following enhancements:
 
 * Oak version 1.8.13 is supported on Brand Portal.
-* Dynamic Media Scene 7 videos are supported on Brand Portal.
 
 Get insights into enhancements at the [What's New](whats-new.md) page.
 
@@ -42,12 +41,6 @@ This release includes fixes to the following critical issues:
 
 * Folder thumbnail rendition generation causes high memory usage.
 * Folder navigation inside child folders is time consuming.
-
-### Known Issues {#known-issues}
-
-Contact Adobe Support for more information about the following known issues:
-
-* 
 
 ## Languages {#languages}
 
