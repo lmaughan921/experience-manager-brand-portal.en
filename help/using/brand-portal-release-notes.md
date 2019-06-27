@@ -18,8 +18,8 @@ Get an insight into the enhancements, critical issues fixed, and known issues in
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version |6.4.4.4 |
-| Date |February 2019 |
+| Version | 6.4.4.4 |
+| Date | June 2019 |
 
 ## Overview {#overview}
 
