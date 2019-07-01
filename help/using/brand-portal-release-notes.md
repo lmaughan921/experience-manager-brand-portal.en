@@ -33,7 +33,7 @@ This release includes the following enhancements:
 
 * Oak version 1.8.13 is supported on Brand Portal.
 
-Get insights into enhancements at the [What's New](whats-new.md) page.
+<!-- Get insights into enhancements at the [What's New](whats-new.md) page. -->
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
