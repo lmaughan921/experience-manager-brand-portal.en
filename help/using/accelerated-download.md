@@ -1,6 +1,6 @@
 ---
-title: Guide to Accelerate Downloads from Brand Portal
-seo-title: Guide to Accelerate Downloads from Brand Portal
+title: 1Guide to Accelerate Downloads from Brand Portal
+seo-title: Gu1ide to Accelerate Downloads from Brand Portal
 description: Enhance download performance from Brand Portal and the shared links.
 seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 ---
 
-# Guide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
+# G1uide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
 
 Brand Portal supports the Accelerated download of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed for files, thus ensuring enhanced download experience. Users distributed across geographies, experiencing high latency, can also benefit from this capability.
 
