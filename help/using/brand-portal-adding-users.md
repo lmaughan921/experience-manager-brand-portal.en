@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 ---
 
-# Manage users, groups, and user roles{#manage-users-groups-and-user-roles}
+# Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
 
 Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 
@@ -34,7 +34,7 @@ These product profiles are synced with the Brand Portal user interface every 8 h
 
 ## Add a user {#add-a-user}
 
-If you are a product administrator, use [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
+If you are a product administrator, use [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (*formerly known as product configurations*), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
 
 >[!NOTE]
 >
