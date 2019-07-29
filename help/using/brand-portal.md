@@ -143,7 +143,6 @@ To request access, do the following:
     **i.** If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the **Request Access** page.
     The **Sign in** page opens.
     **ii.** Click **Get an Adobe ID**.
-    ![](assets/bplogin_request_access_4.png)
     The **Sign up** page opens.
     **iii.** Enter your first and last name, email ID, and password. Click **Sign up**.
    ![](assets/bplogin_request_access_5.png)
