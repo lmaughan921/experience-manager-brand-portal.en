@@ -20,12 +20,7 @@ To log in to Brand Portal for the first time, do the following:
 
 1. Open the welcome email, and click **Get Started**.
 
-   ![Brand Portal welcome email](assets/onboarding_welcomeemail.png)
-
 2. In the sign-up page, specify your details (including first name, last name, password, and country/region).
-
-   ![Sign-up page](assets/onboarding_sign_uppage.png)
-
    >[!NOTE]
    >
    >If you are an existing Adobe Marketing Cloud user, a sign-in page is displayed instead of the sign-up page. To log in to Adobe Marketing Cloud, enter your Adobe ID and password.
@@ -41,7 +36,4 @@ To log in to Brand Portal for the first time, do the following:
 
    >[!NOTE]
    >
-   >You cannot access Brand Portal if you are not associated with any product profile<!--(formerly known as product configuration&#42;)-->. To be able to log in to Brand Portal, you must be associated with at least one AEM product profile.
-   >
-   >
-   ><!-- &#42; The nomenclature has changed from product configurations to product profiles in the new Admin Console.
+   >You cannot access Brand Portal if you are not associated with any product profile. To be able to log in to Brand Portal, you must be associated with at least one AEM product profile.
