@@ -130,40 +130,38 @@ To request access, do the following:
 2. To be able to request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
 
    In the **Request Access** page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
-
-    * Scenario 1: If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
-
    ![Request access](assets/bplogin_request_access_2.png)
 
-   The **Sign in** page opens. Provide your Adobe ID credentials and click **Sign in**.
-   ![Adobe sign in](assets/bplogin_request_access_3.png)
+    **Scenario 1**
+    **i.** If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
+    The **Sign in** page opens.
+    **ii.** Provide your Adobe ID credentials and click **Sign in**.
+    ![Adobe sign in](assets/bplogin_request_access_3.png)
 
    You are redirected to the **Request Access** page.
-
-    * Scenario 2: If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the** Request Access** page.
-    ![](assets/bplogin_request_access21.png)
-
-   The **Sign in** page opens. Click **Get an Adobe ID**.
-   ![](assets/bplogin_request_access_4.png)
-
-   The **Sign up** page opens. Enter your first and last name, email ID, and password. Click **Sign up**.
+    **Scenario 2**
+    **i.** If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the **Request Access** page.
+    The **Sign in** page opens.
+    **ii.** Click **Get an Adobe ID**.
+    ![](assets/bplogin_request_access_4.png)
+    The **Sign up** page opens.
+    **iii.** Enter your first and last name, email ID, and password. Click **Sign up**.
    ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the **Request Access** page.
 
-3. The next page displays the current user’s name and email ID being used to request access. Leave a comment for the administrator, and click **Submit**.
+3. The next page displays the your name and email ID used to request access. Leave a comment for the administrator, and click **Submit**.
 
    ![](assets/bplogin-request-access.png)
 
-   Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
+## Product administrators grant access {#grant-access-to-brand-portal}
 
-   ![Access requested notification](assets/bplogin_request_access_7.png)
+Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
 
-   >[!NOTE]
-   >
-   >Step 4 onwards, the workflow is applicable only to Brand Portal product administrators.
+![Access requested notification](assets/bplogin_request_access_7.png)
 
-4. To grant access, click the relevant notification in Brand Portal notification area and then click **Grant Access**. Alternatively, follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
+To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **Grant Access**.
+Alternatively, product administrators can follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
 ![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
