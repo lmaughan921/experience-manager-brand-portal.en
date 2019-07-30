@@ -45,7 +45,9 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
 6. From the toolbar at the top, click the **Preview** icon to generate a preview of the Brand Portal interface with the image.
 
-   ![](assets/chlimage_1.png) ![](assets/custom-wallpaper-preview.png)
+   ![](assets/chlimage_1.png)
+   
+   ![](assets/custom-wallpaper-preview.png)
 
 7. To activate or deactivate the default wallpaper, do the following in the **Configure Branding** &gt; **Wallpaper** page:
 
@@ -94,7 +96,8 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 6. From the toolbar at the top, click the **Preview** icon to generate a preview of the Brand Portal interface with the header image.
 
-   ![](assets/chlimage_1-3.png) ![](assets/custom_header_preview.png)
+   ![](assets/chlimage_1-3.png)
+   ![](assets/custom_header_preview.png)
 
 7. To activate or deactivate the header image, do the following in the **Configure Branding** &gt; **Header Image** page:
 

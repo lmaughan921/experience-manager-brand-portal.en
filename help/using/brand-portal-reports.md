@@ -24,11 +24,11 @@ To view a report, follow these steps:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **Create/Manage Reports **to open **Asset Reports **page.
+2. From the administrative tools panel, click **Create/Manage Reports** to open **Asset Reports **page.
 
    ![](assets/access-asset-reports.png)
 
-3. Access **Usage **report and other generated reports from Asset Reports page.
+3. Access **Usage** report and other generated reports from Asset Reports page.
 
    >[!NOTE]
    >
@@ -64,16 +64,16 @@ To view a report, follow these steps:
    >
    >Publish Report does not display information about content fragments, as the content fragments cannot be published to the Brand Portal.
 
-   **Link Share **report** **lists all the assets shared through links from Brand Portal interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
+   **Link Share report** lists all the assets shared through links from Brand Portal interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
 
    ![](assets/link-share-report.png)
 
    >[!NOTE]
    >
-   >The Link Share Report does not display users who have access to the asset shared via the link or have downloaded the asset through the link. 
+   >The Link Share Report does not display users who have access to the asset shared via the link or have downloaded the asset through the link.
    >
    >
-   >For tracking downloads through the shared link, you need to generate download report after selecting **Only Link Share Downloads **option on **Create Report** page. However, user (Downloaded by) is anonymous in this case.
+   >For tracking downloads through the shared link, you need to generate download report after selecting **Only Link Share Downloads** option on **Create Report** page. However, user (Downloaded by) is anonymous in this case.
 
 ## Generate reports {#generate-reports}
 
@@ -91,7 +91,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, tap/click **Create/Manage Reports **to open **Asset Reports **page.
+2. From the administrative tools panel, tap/click **Create/Manage Reports** to open **Asset Reports **page.
 
    ![](assets/asset-reports.png)
 
@@ -104,7 +104,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    ![](assets/create-report-page.png)
 
-   Whereas, **Link Share** **Report **only needs the title, description, and date range parameters.
+   Whereas, **Link Share Report** only needs the title, description, and date range parameters.
 
    ![](assets/create-link-share-report.png)
 
@@ -113,7 +113,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    >Special characters # and % in report title are replaced by a hyphen (-) on the report generation.
 
 6. Tap/click **Next**, to configure the columns of Download, Expiration, and Publish reports.
-7. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in **Download **report, select **Downloaded By**. The following image illustrates selecting default columns in Download report.
+7. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in **Download** report, select **Downloaded By**. The following image illustrates selecting default columns in Download report.
 
    ![](assets/createdownloadreport.png)
 
@@ -124,10 +124,10 @@ The columns in the Download, Expiration, and Publish report can be customized fo
     1. To display a custom column, tap/click **Add** within **Custom Columns**.
     2. Specify name of the column in **Column Name** field.
     3. Select the property to which the column needs to map to, using property picker.
-    
+
        ![](assets/property-picker.png)
 Alternatively, type the path in the property path field.
-    
+
        ![](assets/property-path.png)
     
        To add more custom columns, tap/click **Add** and repeat steps 2 and 3.
@@ -153,4 +153,3 @@ To delete an existing report, select the report from **Asset Reports** page and 
 >[!NOTE]
 >
 >**Usage** report cannot be deleted.
-

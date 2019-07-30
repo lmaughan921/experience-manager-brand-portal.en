@@ -106,10 +106,14 @@ To speed up the download experience on your Brand Portal tenant account, you nee
 
 4. **Download Aspera Connect Client**
 If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **Download Latest Version**.
+
    ![](assets/aspera-not-launched.png)
+
    To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **Download Now** and follow the instructions.
+
 5. **Install Aspera Connect Client**
 To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
+
 6. Once the client is successfully installed, either refresh the browser page and initiate the download steps again or select **Restart** in asset **Download** dialog box (Step #2).
 When using Aspera Connect for the first time, the browser prompts to open the link using **IBM Aspera Connect**. To skip this dialog in future, enable **Remember my choice for FASP links**.
 
@@ -121,7 +125,9 @@ When using Aspera Connect for the first time, the browser prompts to open the li
 To skip this dialog in future, enable **Use my choice for all connections with this host**.
 Download begins. A dialog box shows the progress of the download. Use the dialog box to **pause**, **resume**, or **cancel** the download.
 Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+
 ![](assets/aspera-activity-window.png)
+
 On successful completion of the download, a dialog box shows the location where assets are downloaded to user's system. If there is a failure, it shows error.
 
    >[!NOTE]
