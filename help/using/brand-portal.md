@@ -133,18 +133,18 @@ To request access, do the following:
    ![Request access](assets/bplogin_request_access_2.png)
 
     **Scenario 1**
-    **i.** If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
+    1. If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
     The **Sign in** page opens.
-    **ii.** Provide your Adobe ID credentials and click **Sign in**.
+    2. Provide your Adobe ID credentials and click **Sign in**.
     ![Adobe sign in](assets/bplogin_request_access_3.png)
 
    You are redirected to the **Request Access** page.
     **Scenario 2**
-    **i.** If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the **Request Access** page.
+    1. If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the **Request Access** page.
     The **Sign in** page opens.
-    **ii.** Click **Get an Adobe ID**.
+    2. Click **Get an Adobe ID**.
     The **Sign up** page opens.
-    **iii.** Enter your first and last name, email ID, and password. Click **Sign up**.
+    3. Enter your first and last name, email ID, and password. Click **Sign up**.
    ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the **Request Access** page.
