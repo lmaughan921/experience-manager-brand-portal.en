@@ -111,9 +111,7 @@ To set up Dynamic Media configurations on Brand Portal tenants:
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
 
 2. From the administrative tools panel, select the **Video** tile.
-
 ![Dynamic Media Hybrid Config on Brand Portal](assets/DMHybrid-Video.png)
-
 **Edit Dynamic Media Configuration** page opens.
 ![Dynamic Media Hybrid Configuration on Brand Portal](assets/edit-dynamic-media-config.png)
 
