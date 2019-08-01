@@ -12,35 +12,50 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 
 # Release Notes {#release-notes}
 
-Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.4 release.
+Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.4.4 |
-| Date | June 2019 |
+| Version | 6.4.4.6 and 6.4.4.7 |
+| Date | August 2019 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 6.4.4.4 {#what-s-new-in}
+## What's New in 6.4.4.6 {#what-s-new-in}
 
-### Enhancements {#enhancements}
+<!-- ### Enhancements {#enhancements}
 
 This release includes the following enhancements:
 
-* Brand Portal now supports Oak version 1.8.13.
+* Brand Portal now supports Oak version 1.8.13.-->
 
 <!-- Get insights into enhancements at the [What's New](whats-new.md) page. -->
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-This release includes fixes to the following critical issues:
+This release includes fix to the following critical issue:
 
-* Non-admin users experience long wait time while navigating within child folders, in which they are allowed access.
-* High memory consumption leading to system slowness observed, while generating thumbnails of the folders having multiple sub-folders.
+* Asset Report generation is taking too long to process the request and throws an exception `Report Generation failed: Bad Request`.
+
+## What's New in 6.4.4.7 {#what-s-new-in}
+
+<!-- ### Enhancements {#enhancements}
+
+This release includes the following enhancements:
+
+* Brand Portal now supports Oak version 1.8.13.-->
+
+<!-- Get insights into enhancements at the [What's New](whats-new.md) page. -->
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fix to the following critical issue:
+
+* The user permissions are not working properly due to which the users are not able to view the folders they are permitted to. Although, the user is able to view the folder content despite not seeing the root folder when navigating to the folder URL directly.
 
 ## Languages {#languages}
 
