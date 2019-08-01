@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.4 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.4 release.
+description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 and Brand Portal 6.4.4.7 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 and Brand Portal 6.4.4.7 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 topic-tags: brand-portal
@@ -12,7 +12,7 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 
 # Release Notes {#release-notes}
 
-Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 release.
+Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 and Brand Portal 6.4.4.7 release.
 
 ## Release Information {#release-information}
 
