@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes fix to the following critical issue:
 
-* Asset Report generation is taking too long to process the request and throws an exception `Report Generation failed: Bad Request`.
+* Asset Report generation is taking too long to process the request and throws an exception - *Report Generation failed: Bad Request*.
 
 ## What's New in 6.4.4.7 {#what-s-new-in-6447}
 
