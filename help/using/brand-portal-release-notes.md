@@ -25,14 +25,6 @@ Get an insight into the enhancements, critical issues fixed, and known issues in
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 6.4.4.6 {#what-s-new-in-6446}
-
-### Critical Issues Fixed {#critical-issues-fixed-6446}
-
-This release includes fix to the following critical issue:
-
-* Asset Report generation is taking too long to process the request and throws an exception - *Report Generation failed: Bad Request*.
-
 ## What's New in 6.4.4.7 {#what-s-new-in-6447}
 
 ### Critical Issues Fixed {#critical-issues-fixed-6447}
@@ -40,6 +32,14 @@ This release includes fix to the following critical issue:
 This release includes fix to the following critical issue:
 
 * The user permissions are not working properly due to which the users are not able to view the folders (they are permitted to) when navigating through the portal. Although, the folder content are visible when opening the Folder URL directly.
+
+## What's New in 6.4.4.6 {#what-s-new-in-6446}
+
+### Critical Issues Fixed {#critical-issues-fixed-6446}
+
+This release includes fix to the following critical issue:
+
+* Asset Report generation is taking too long to process the request and throws an exception - *Report Generation failed: Bad Request*.
 
 ## Languages {#languages}
 
