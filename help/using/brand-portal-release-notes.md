@@ -39,7 +39,7 @@ This release includes fix to the following critical issue:
 
 This release includes fix to the following critical issue:
 
-* The user permissions are not working properly due to which the users are not able to view the folders they are permitted to. Although, the user is able to view the folder content despite not seeing the root folder when navigating to the folder URL directly.
+* The user permissions are not working properly due to which the users are not able to view the folders (they are permitted to) when navigating through the portal. Although, the folder content are visible when opening the Folder URL directly.
 
 ## Languages {#languages}
 
