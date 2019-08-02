@@ -27,7 +27,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What's New in 6.4.4.6 {#what-s-new-in-6446}
 
-### Critical Issues Fixed {#critical-issues-fixed}
+### Critical Issues Fixed {#critical-issues-fixed-6446}
 
 This release includes fix to the following critical issue:
 
@@ -35,7 +35,7 @@ This release includes fix to the following critical issue:
 
 ## What's New in 6.4.4.7 {#what-s-new-in-6447}
 
-### Critical Issues Fixed {#critical-issues-fixed}
+### Critical Issues Fixed {#critical-issues-fixed-6447}
 
 This release includes fix to the following critical issue:
 
