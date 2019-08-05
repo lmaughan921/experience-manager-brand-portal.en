@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes fix to the following critical issue:
 
-* The user permissions are not working properly due to which the users are not able to view the folders (they are permitted to) when navigating through the portal. Although, the folder content are visible when opening the Folder URL directly.
+* Optimize User Sync process to prevent concurrent execution.
 
 ## What's New in 6.4.4.6 {#what-s-new-in-6446}
 
@@ -39,7 +39,7 @@ This release includes fix to the following critical issue:
 
 This release includes fix to the following critical issue:
 
-* Asset Report generation is taking too long to process the request and throws an exception - *Report Generation failed: Bad Request*.
+* Performance optimizations for download report generation.
 
 ## Languages {#languages}
 
