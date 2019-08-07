@@ -1,8 +1,10 @@
 ---
 cloud: experience-cloud
-product: AEM Brand Portal
+product: adobe experience manager
+sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
+
 ---
 
 # Table of Contents {#using}
