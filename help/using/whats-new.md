@@ -17,7 +17,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.4 {#what-is-changing-in}
 
-Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. For a snapshot of the release, see [Brand Portal 6.4.4 release notes](brand-portal-release-notes.md).
+Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ### Search enhancements {#search-enhancements}
 
