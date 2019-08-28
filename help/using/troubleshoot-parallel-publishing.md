@@ -10,17 +10,17 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 ---
 
-# Troubleshoot issues in parallel publishing to Brand Portal{#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Troubleshoot issues in parallel publishing to Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal supports integration with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
+[!DNL Brand Portal] supports integration with [!DNL AEM Assets] to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), [!DNL AEM] Author uses a replication agent to replicate the selected asset(s) to [!DNL Brand Portal] cloud service for approved usage by [!DNL Brand Portal] users. Multiple replication agents are used [!DNL AEM 6.2 SP1-CFP5], [!DNL AEM CFP 6.3.0.2], and onwards to allow high-speed parallel publishing.
 
 >[!NOTE]
 >
->Adobe recommends upgrading to AEM 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully integrated with AEM Assets. A limitation in AEM 6.4 gives an error while configuring integration with Brand Portal and replication fails.
+>Adobe recommends upgrading to [!DNL AEM 6.4.1.0] to ensure that [!DNL AEM Assets Brand Portal] is successfully integrated with AEM Assets. A limitation in [!DNL AEM 6.4] gives an error while configuring integration with Brand Portal and replication fails.
 
-On configuring cloud service for brand portal under **/etc/  cloudservice**, all necessary users and token are auto-generated and saved in the repository- cloud service configuration is created, service users required for replication, and replication agents to replicate content. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
+On configuring cloud service for brand portal under [!UICONTROL /etc/cloudservice], all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. This creates four replication agents. So when you publish numerous assets from [!DNL AEM] to [!DNL Brand Portal], these are queued and distributed among these replication agents through Round Robin.
 
-However, publishing can fail intermittently due to- large sling jobs, increased Network and Disk I/O on AEM Author, or slowed AEM Author performance. It is, therefore, advised to test the connection with the replication agent(s) prior to beginning publishing.
+However, publishing can fail intermittently due to- large sling jobs, increased Network and Disk [!UICONTROL I/O] on [!DNL AEM] Author instance, or slowed performance of [!DNL AEM] Author instance. It is, therefore, advised to test the connection with the replication agent(s) prior to begin publishing.
 
 ![](assets/test-connection.png) 
 
@@ -34,17 +34,17 @@ To validate your publish configurations:
 
 **While creating Cloud Service**
 
-Check tail logs. Check whether the replication agent is created or not. If the replication agent creation fails, **edit the cloud service **by making minor changes in cloud service. Validate and check again whether the replication agent is created or not. If not, re-edit the service.
+Check tail logs. Check whether the replication agent is created or not. If the replication agent creation fails, edit the cloud service by making minor changes in cloud service. Validate and check again whether the replication agent is created or not. If not, re-edit the service.
 
-Even if, on repeatedly editing the cloud service it is not configured properly, report a daycare ticket.
+If on repeatedly editing the cloud service it is not configured properly, report a daycare ticket.
 
 **Test connection with replication agents**
 
 View log, if errors are found in replication log:
 
-1. Contact Adobe Support
+1. Contact Adobe Support.
 
-2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again
+2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
 
 <!--
 Comment Type: remark
@@ -56,25 +56,25 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
 
-Most of the times when publish is not working, the reason is that the user who is publishing (mac-&lt;tenantid&gt;-replication) doesn't have the latest private key, and hence publish fails with "401 unauthorized" and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new config instead. For the new config to work properly, you should clean up the following from AEM author setup:
+Most of the times when publishing is not working, the reason can be that the user who is publishing (mac-&lt;tenantid&gt;-replication) doesn't have the latest private key, and hence publish fails with "401 unauthorized" and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new configuration instead. For the new configuration to work properly, you should clean up the following from AEM author setup:
 
-1. go to localhost:4502/crx/de (assumes you are running author on localhost:4502):  
-   i delete /etc/replication/agents.author/mp_replication&#42;  
-   ii delete /etc/  cloudservices /mediaportal/&lt;config_name&gt;
+1. go to [!UICONTROL localhost:4502/crx/de] (assumes you are running author instance on [!UICONTROL localhost:4502]):  
+   i delete [!UICONTROL /etc/replication/agents.author/mp_replication&#42];  
+   ii delete [!UICONTROL /etc/cloudservices/mediaportal/&lt;config_name&gt];
 
-2. go to localhost:4502/useradmin:  
-   i search for user mac-&lt;tenantid&gt;-replication  
+2. go to [!UICONTROL localhost:4502/useradmin]:  
+   i search for user [!UICONTROL mac-&lt;tenantid&gt;-replication]  
    ii delete this user
 
-Now the system is all cleaned up. Now you can attempt creating a new  cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). There is no need to create a new application, rather just the public key needs to be updated from the newly created cloud config.
+Now the system is all cleaned up. Now you can attempt creating a new  cloudservice  config and still use the already existing [!DNL JWT] application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). There is no need to create a new application, rather just the public key needs to be updated from the newly created cloud config.
 
 ## Developer connection JWT application tenant visibility issue {#developer-connection-jwt-application-tenant-visibility-issue}
 
-If on [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. If you don't find the org name here or you can't create an application for a required tenant here, please check if you have sufficient (system administrator) rights to do this.
+If on [!UICONTROL https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. If you don't find the org name here or you can't create an application for a required tenant here, please check if you have sufficient (system administrator) rights to do this.
 
-There is one known issue on this UI that for any tenant only top 10 applications are visible. When you create the application, stay on that page and bookmark the URL. You don't need to go to applications listing page and find out the application you created. you can hit this bookmarked URL directly and update/delete the application whenever needed.
+There is one known issue on this user interface that for any tenant only top 10 applications are visible. When you create the application, stay on that page and bookmark the URL. You don't need to go to the listing page of the application and find the application that you created. You can hit this bookmarked URL directly and update/delete the application whenever needed.
 
-The JWT application might not be listed appropriately. It is, therefore, advised to note/ bookmark the URL while creating JWT application.
+The [!DNL JWT] application might not be listed appropriately. It is, therefore, advised to note/bookmark the URL while creating JWT application.
 
 ## Running Configuration stops working {#running-configuration-stops-working}
 
@@ -103,8 +103,8 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-If a replication agent (which was publishing to brand portal just fine) stops processing publish jobs, check replication logs. AEM has auto-retry built-in, so if a particular asset publish fails, it is retried automatically. If there is some intermittent issue like network error, it might succeed during re-try.
+If a replication agent (which was publishing to brand portal just fine) stops processing publish jobs, check replication logs. [!DNL AEM] has auto-retry built-in, so if a particular asset publish fails, it is retried automatically. If there is some intermittent issue like network error, it might succeed during re-try.
 
 But if there are continuous publish failures and queue is blocked. then you should check "test connection" and try to solve the errors that are being reported.
 
-Based on the errors, you are advised to log a support ticket, so that Brand Portal engineering team can help you resolve issues.
+Based on the errors, you are advised to log a support ticket, so that [!DNL Brand Portal] engineering team can help you resolve issues.

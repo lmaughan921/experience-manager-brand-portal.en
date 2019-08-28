@@ -81,8 +81,8 @@ To apply filters to your search, using the available [search facets](../using/br
       To allow the asset search using partial phrases in property predicate, enable the **Partial Search** checkbox in Search Form.  
       This allows you to search for the desired assets even if you do not specify the exact words/ phrases used in the asset metadata.  
       You can:
-          1. Specify a word occurring in your searched phrase in the facet in Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to `dc:title` property), then all the assets with the word **camp** in their title phrase are returned.
-          2. Specify a part of the word, occurring in your searched phrase, along with wildcard character (&#42;) to fill the gaps.
+          * Specify a word occurring in your searched phrase in the facet in Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to `dc:title` property), then all the assets with the word **climb** in their title phrase are returned.
+          * Specify a part of the word, occurring in your searched phrase, along with wildcard character (&#42;) to fill the gaps.
           For example, searching for:
           **climb&#42;** returns all the assets having words beginning with the characters "climb" in their title phrase.
           **&#42;climb** returns all the assets having words ending with characters "climb" in their title phrase.

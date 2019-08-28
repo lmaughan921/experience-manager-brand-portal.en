@@ -12,19 +12,21 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 
 # Browsing assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
+[!DNL AEM] Assets [!DNL Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
 
-AEM logo in the AEM toolbar at the top facilitates admin users to access administrative tools panel.
+[!DNL AEM] logo in the [!DNL AEM] toolbar at the top facilitates admin users to access administrative tools panel.
 
-![](assets/aemlogo.png) 
-![](assets/admin-tools-panel-2.png) 
+![](assets/aemlogo.png)
+
+![](assets/admin-tools-panel-2.png)
+
 ![](assets/bp_subheader.png)
 
-Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
+Rail selector at the upper left in [!DNL Brand Portal] drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 
 ![](assets/siderail-1.png)
 
-You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in Brand Portal.
+You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in [!DNL Brand Portal].
 
 ![](assets/viewselector.png)
 
@@ -48,7 +50,7 @@ Card view displays information cards for each item at the current level. These c
 * Type
 * Title
 * Name
-* Date and time when asset was published to Brand Portal from AEM
+* Date and time when asset was published to [!DNL Brand Portal] from [!DNL AEM]
 * Size
 * Dimensions
 
@@ -133,7 +135,7 @@ When an asset is selected in column view, visual representation of the asset is 
 * Title
 * Name
 * Dimensions
-* Date and time when asset was published to Brand Portal from AEM
+* Date and time when asset was published to [!DNL Brand Portal] from [!DNL AEM]
 * Size
 * Type
 * More Details option, to go on the details page of the asset
@@ -252,4 +254,4 @@ To open the asset properties page, use *Properties (p)* option on the top bar.
 
 ![](assets/asset-properties.png)
 
-You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from AEM to Brand Portal.
+You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from [!DNL AEM] to [!DNL Brand Portal].
