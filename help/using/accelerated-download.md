@@ -1,6 +1,6 @@
 ---
-title: 1Guide to Accelerate Downloads from Brand Portal
-seo-title: Gu1ide to Accelerate Downloads from Brand Portal
+title: Guide to Accelerate Downloads from Brand Portal
+seo-title: Guide to Accelerate Downloads from Brand Portal
 description: Enhance download performance from Brand Portal and the shared links.
 seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 ---
 
-# G1uide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
+# Guide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
 
 Brand Portal supports the Accelerated download of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed for files, thus ensuring enhanced download experience. Users distributed across geographies, experiencing high latency, can also benefit from this capability.
 
@@ -19,7 +19,7 @@ Brand Portal supports the Accelerated download of large asset files by integrati
 >
 >IBM Aspera Connect enables speedy download of large asset files from Brand Portal and shared links, but download speed may vary depending on factors such as network bandwidth, server latency, and geographical location of clients.
 
-To configure specific tenants for accelerated file download, administrators **[Enable Download Acceleration]** (which is disabled by default)from **General Settings** in the administrative tools panel.
+To configure specific tenants for accelerated file download, administrators **[!UICONTROL Enable Download Acceleration]** (which is disabled by default)from **General Settings** in the administrative tools panel.
 
 If enabled, Brand Portal users can significantly reduce the time taken to download the desired asset files from Brand Portal or through Shared link by installing the Aspera Connect client.
 
@@ -92,7 +92,7 @@ To download assets faster from Brand Portal:
 
 1. Log in to Brand Portal through a preferred browser.
 2. Browse and select the desired asset file, folder, or collection to download. Tap/ click download option.
-Download dialog appears with **Enable download acceleration** option selected.
+Download dialog appears with [Enable download acceleration] option selected.
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]

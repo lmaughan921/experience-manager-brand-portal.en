@@ -16,13 +16,13 @@ As a marketer, you sometimes need to collaborate with channel partners and inter
 
 However, it is a challenge to develop solutions that support efficient and secure sharing of approved brand logos, guidelines, campaign assets, or product shots with extended internal teams, partners, and resellers.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
+**[!DNL Adobe Experience Manager (AEM) Assets Brand Portal]** can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
 
-Brand Portal's browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
+The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
 
 ## User personas in Brand Portal {#Personas}
 
-Brand Portal supports the following user roles:
+[!DNL Brand Portal] supports the following user roles:
 
 * Guest user
 * Viewer
@@ -42,7 +42,7 @@ The following table lists the tasks that users in these roles can perform:
 
 ### Guest user {#guest-user}
 
-Any user having limited access to assets on Brand Portal without undergoing authentication is a guest user. The guest session allows users access to public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collection. You can search, download, and add public assets to lightbox collection.
+Any user having limited access to assets on [!DNL Brand Portal] without undergoing authentication is a guest user. The guest session allows users access to public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collections. You can search, download, and add public assets to [!UICONTROL lightbox collection].
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
@@ -52,11 +52,11 @@ However, guest session restricts you from creating collections and saved searche
 
 [Download public assets](brand-portal-download-users.md)
 
-[Add assets to lightbox](brand-portal-light-box.md#add-assets-to-lightbox)
+[Add assets to [!UICONTROL lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Viewer {#viewer}
 
-A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
+A standard user in [!DNL Brand Portal] is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
 [Browse assets](browse-assets-brand-portal.md)
 
@@ -78,7 +78,7 @@ Apart from the tasks that a Viewer can perform, an Editor can perform the follow
 
 ### Administrator {#administrator}
 
-An administrator includes a user marked as system administrator or Brand Portal product administrator in Admin Console. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
+An administrator includes a user marked as system administrator or [!DNL Brand Portal] product administrator in [!UICONTROL Admin Console]. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
 
 An administrator can perform all tasks that an Editor can perform and the following additional tasks:
 
@@ -94,53 +94,53 @@ An administrator can perform all tasks that an Editor can perform and the follow
 
 [Work with reports](brand-portal-reports.md)
 
-In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
+In addition to the above tasks, an Author in [!DNL AEM Assets] can perform the following tasks:
 
-[Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Configure [!DNL AEM Assets] integration with [!DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publish folders to [!DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publish collections to [!DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
-Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
+[!DNL Brand Portal] 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their [!DNL Brand Portal] tenant. The alias URL can be created by having an alternate prefix in the URL.  
+Note that only the prefix of the [!DNL Brand Portal] URL can be customized and not the entire URL. For example, an organization with existing domain **[!UICONTROL geomettrix.brand-portal.adobe.com]** can get **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** created on request.
 
-However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, **[!DNL AEM] Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 >[!NOTE]
 >
->To get an alias for tenant name in existing portal URL, organizations need to contact Adobe support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
+>To get an alias for tenant name in existing portal URL, organizations need to contact **[!DNL Adobe support] with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
 >
 >To replace the old or delete the old alias, the same process needs to be followed.
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
-Users can request access to Brand Portal from the login screen. These requests are sent to Brand Portal administrators, who grant access to users through the Adobe Admin Console. After access is granted, users receive a notification email.
+Users can request access to [!DNL Brand Portal] from the login screen. These requests are sent to [!DNL Brand Portal] administrators, who grant access to users through the Adobe Admin Console. After access is granted, users receive a notification email.
 
 To request access, do the following:
 
-1. From the Brand Portal login page, select the **Click here** corresponding to **Need Access?**. However, to enter the guest session, select the **Click here** corresponding to **Guest Access?**.
+1. From the [!DNL Brand Portal] login page, select the **Click here** corresponding to **Need Access?**. However, to enter the guest session, select the **Click here** corresponding to **Guest Access?**.
 
    ![Brand Portal login screen](assets/bp-login-requestaccess.png)
 
    The **Request Access** page opens.
 
-2. To be able to request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
+2. To be able to request access to an organization’s [!DNL Brand Portal], you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   In the **Request Access** page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
+   In the **Request Access** page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
    ![Request access](assets/bplogin_request_access_2.png)
 
     **Scenario 1**
-    1. If you have an Adobe ID, Enterprise ID, or Federated ID, click **Sign In**.
+    1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **Sign In**.
     The **Sign in** page opens.
-    2. Provide your Adobe ID credentials and click **Sign in**.
+    2. Provide your [!UICONTROL Adobe ID] credentials and click **Sign in**.
     ![Adobe sign in](assets/bplogin_request_access_3.png)
 
    You are redirected to the **Request Access** page.
     **Scenario 2**
-    1. If you do not have an Adobe ID, to create one, click **Get an Adobe ID** from the **Request Access** page.
+    1. If you do not have an [!UICONTROL Adobe ID], to create one, click **Get an Adobe ID** from the **Request Access** page.
     The **Sign in** page opens.
     2. Click **Get an Adobe ID**.
     The **Sign up** page opens.
@@ -149,29 +149,29 @@ To request access, do the following:
 
    You are redirected to the **Request Access** page.
 
-3. The next page displays the your name and email ID used to request access. Leave a comment for the administrator, and click **Submit**.
+3. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **Submit**.
 
    ![](assets/bplogin-request-access.png)
 
 ## Product administrators grant access {#grant-access-to-brand-portal}
 
-Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
+[!DNL Brand Portal] product administrators receive access requests in their [!DNL Brand Portal] notification area and through emails in their inbox.
 
 ![Access requested notification](assets/bplogin_request_access_7.png)
 
-To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **Grant Access**.
-Alternatively, product administrators can follow the link provided in the access request email to visit Adobe Admin Console and add the user to the relevant product configuration.
+To grant access, product administrators need to click the relevant notification in [!DNL Brand Portal] notification area and then click **Grant Access**.
+Alternatively, product administrators can follow the link provided in the access request email to visit [!DNL Adobe Admin Console] and add the user to the relevant product configuration.
 ![](assets/bplogin_request_access_8.png)
 
-You are redirected to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe Admin Console to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in Admin Console, see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+You are redirected to the [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use [!DNL Adobe Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in [!DNL Brand Portal]. For more information about adding users in [!DNL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
-Before Brand Portal is scheduled to go down for maintenance, a notification is displayed as a banner after you log in to Brand Portal. A sample notification:
+Before [!DNL Brand Portal] is scheduled to go down for maintenance, a notification is displayed as a banner after you log in to [!DNL Brand Portal]. A sample notification:
 
 ![](assets/bp_maintenance_notification.png)
 
-You can dismiss this notification and continue using Brand Portal. This notification appears in every new session.
+You can dismiss this notification and continue using [!DNL Brand Portal]. This notification appears in every new session.
 
 ## Release and system information {#release-and-system-information}
 
