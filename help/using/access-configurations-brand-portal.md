@@ -13,19 +13,19 @@ discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 
 # Administer user access on Brand Portal {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2 onwards authorizes administrators to configure guest access and enable users to request access on Brand Portal of their organization. These configurations have been provided as **Access Settings** configurations on the administrative panel. Both the settings are disabled by default.
+[!DNL AEM Assets Brand Portal 6.4.2] onwards authorizes administrators to configure guest access and enable users to request access on [!DNL Brand Portal] of their organization. These configurations have been provided as **Access Settings** configurations on the administrative panel. Both the settings are disabled by default.
 
 ![](assets/access-configs.png)
 
-**A**   Configuration to allow guest access on Brand Portal using **Guest Access?** link on the Brand Portal welcome screen. (Default is disabled)
+**A**   Configuration to allow guest access on [!DNL Brand Portal] using **Guest Access?** link on the [!DNL Brand Portal] welcome screen. (Default is disabled)
 
-**B**   Configuration to allow users to request access to Brand Portal using **Need access?** link on the Brand Portal welcome screen. (Default is disabled)
+**B**   Configuration to allow users to request access to [!DNL Brand Portal] using **Need access?** link on the [!DNL Brand Portal] welcome screen. (Default is disabled)
 
 ## Allow Guest Access {#allow-guest-access}
 
-To allow guest access on Brand Portal, so that users need not log in to access public assets, administrators need to:
+To allow guest access on [!DNL Brand Portal], so that users need not log in to access public assets, administrators need to:
 
-1. Select the AEM logo to access administrative tools, from the toolbar at the top.
+1. Select the [!DNL AEM] logo to access administrative tools, from the toolbar at the top.
 2. From the administrative tools panel, select **Access** to open **Access Settings** page.
 3. Enable the **Allow Guest Access** configuration.
 4. **Save** the changes.
@@ -35,12 +35,12 @@ To allow guest access on Brand Portal, so that users need not log in to access p
 
 ## Allow Users to Request Access {#allow-users-to-request-access}
 
-Administrators can allow the organization users to request access to Brand Portal from the welcome screen. However, administrators need to enable the **Allow Users to Request Access** configuration so that request access link appears on the welcome screen.
+Administrators can allow the organization users to request access to [!DNL Brand Portal] from the welcome screen. However, administrators need to enable the **Allow Users to Request Access** configuration so that request access link appears on the welcome screen.
 
-To allow organization users to request access on Brand Portal, administrators need to:
+To allow organization users to request access on [!DNL Brand Portal], administrators need to:
 
-1. Select the AEM logo to access administrative tools, from the toolbar at the top.
-2. From the administrative tools panel, select **Access **to open **Access Settings **page.
+1. Select the [!DNL AEM] logo to access administrative tools, from the toolbar at the top.
+2. From the administrative tools panel, select **Access** to open **Access Settings** page.
 3. Enable the **Allow Users to Request Access** configuration.
 4. **Save** the changes.
 5. Logout to let the changes take effect.

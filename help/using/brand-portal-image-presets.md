@@ -10,35 +10,35 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 ---
 
-# Apply image presets or dynamic renditions{#apply-image-presets-or-dynamic-renditions}
+# Apply image presets or dynamic renditions {#apply-image-presets-or-dynamic-renditions}
 
-Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+Like a macro, an image preset is a predefined [!UICONTROL collection] of sizing and formatting commands saved under a name. Image presets enable [!DNL AEM] Assets [!DNL Brand Portal] to dynamically deliver images of different sizes, formats, and properties.
 
 An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. When previewing images and their renditions, you can choose a preset to reformat images to the specifications set by your Administrator.
 
-To view dynamic renditions of an asset in Brand Portal, ensure that its PTIFF rendition exists at the AEM author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal. There is no way of generating the PTIFF rendition from Brand Portal.
+To view dynamic renditions of an asset in [!DNL Brand Portal], ensure that its PTIFF rendition exists at the [!DNL AEM] author instance from where you publish to [!DNL Brand Portal]. When you publish the asset, its PTIFF rendition is also published to [!DNL Brand Portal]. There is no way of generating the PTIFF rendition from [!DNL Brand Portal].
 
 >[!NOTE]
 >
 >When downloading images and their renditions, there is no option to choose from the existing presets. Instead, you can specify the properties of a custom image preset. For more information, see [Apply image presets when downloading images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
-For more information about the parameters required while creating image presets, see [Managing Image Presets](https://docs.adobe.com/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets.html).
+For more information about the parameters required while creating image presets, see [Managing Image Presets](https://docs.adobe.com/docs/en/[!DNL AEM]/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Create an image preset {#create-an-image-preset}
 
 Administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
-Note that only Administrators can create image presets in Brand Portal.
+Note that only Administrators can create image presets in [!DNL Brand Portal].
 
-Note that only Administrators can create image presets in Brand Portal.
+Note that only Administrators can create image presets in [!DNL Brand Portal].
 
 >[!NOTE]
 >
->Dynamic renditions are created for the assets for which PTIFF is available. So If an asset does not have Pyramid TIFF rendition created on AEM and published to Brand Portal, then only its system renditions can be exported, but dynamic renditions are presented as an option.
-Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyramid tiff (ptiff) of an asset. When such an asset is published to brand portal, image presets are applied and dynamic renditions are displayed.
+>Dynamic renditions are created for the assets for which PTIFF is available. So If an asset does not have Pyramid TIFF rendition created on [!DNL AEM] and published to [!DNL Brand Portal], then only its system renditions can be exported, but dynamic renditions are presented as an option.
+Dynamic Media Hybrid mode must be enabled on [!DNL AEM] (author) in order to create pyramid tiff (ptiff) of an asset. When such an asset is published to [!DNL Brand Portal], image presets are applied and dynamic renditions are displayed.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/aemlogo.png)
+   ![](assets/[!DNL AEM]logo.png)
 
 2. From the administrative tools panel, click **Image Presets**.
 
@@ -48,7 +48,7 @@ Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyr
 
    ![](assets/image_preset_homepage.png)
 
-4. In the **Edit Image Preset** page, enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
+4. In the **Edit Image Preset** page, enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/[!DNL AEM]/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
 
    ![](assets/image_preset_create.png)
 
@@ -63,7 +63,7 @@ Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyr
 
 When previewing images and their renditions, choose from the existing presets to reformat images to the specifications set by your Administrator.
 
-1. From the Brand Portal interface, click an image to open it.
+1. From the [!DNL Brand Portal] interface, click an image to open it.
 2. Click the overlay icon on the left, and choose **Renditions**.
 
    ![](assets/image-preset-previewrenditions.png)
@@ -74,9 +74,9 @@ When previewing images and their renditions, choose from the existing presets to
 
 ## Apply image presets when downloading images {#apply-image-presets-when-downloading-images}
 
-When downloading images and their renditions from Brand Portal, you cannot choose from the existing image presets. However, you can customize image preset properties based on which you want to reformat images.
+When downloading images and their renditions from [!DNL Brand Portal], you cannot choose from the existing image presets. However, you can customize image preset properties based on which you want to reformat images.
 
-1. From the Brand Portal interface, do one of the following:
+1. From the [!DNL Brand Portal] interface, do one of the following:
 
     * Hover the pointer over the image you want to download. From the quick action thumbnails available, click the **Download** icon.
 

@@ -10,15 +10,15 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 ---
 
-# Customize wallpaper, header, and email message{#customize-wallpaper-header-and-email-message}
+# Customize wallpaper, header, and email message {#customize-wallpaper-header-and-email-message}
 
-Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
+ [!DNL Brand Portal] administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the [!DNL Brand Portal] login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 
 ## Customize the login screen wallpaper {#customize-the-login-screen-wallpaper}
 
 In the absence of a custom branded wallpaper image, a default wallpaper is displayed on the login page.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -69,7 +69,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **Branding**. 
+2. From the administrative tools panel, click **Branding**.
 
    ![](assets/admin-tools-panel-11.png)
 
@@ -79,7 +79,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 4. To upload a header image, click the **Choose Image** icon and choose **Upload**.
 
-   To use an existing Brand Portal image, choose **Select from existing**.
+   To use an existing  [!DNL Brand Portal] image, choose **Select from existing**.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -94,18 +94,18 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-6. From the toolbar at the top, click the **Preview** icon to generate a preview of the Brand Portal interface with the header image.
+6. From the toolbar at the top, click the **Preview** icon to generate a preview of the  [!DNL Brand Portal] interface with the header image.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 7. To activate or deactivate the header image, do the following in the **Configure Branding** &gt; **Header Image** page:
 
-    * To prevent a header image from appearing on Brand Portal pages, click **Deactivate Header** from the toolbar at the top. A message confirms that the image is deactivated.
+    * To prevent a header image from appearing on  [!DNL Brand Portal] pages, click **Deactivate Header** from the toolbar at the top. A message confirms that the image is deactivated.
 
    ![](assets/chlimage_1-4.png)
 
-    * To make the header image reappear on Brand Portal pages, click **Activate Header** from the toolbar at the top. A message confirms that the image is activated.
+    * To make the header image reappear on  [!DNL Brand Portal] pages, click **Activate Header** from the toolbar at the top. A message confirms that the image is activated.
 
    ![](assets/chlimage_1-5.png)
 
@@ -115,7 +115,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 When assets are shared as a link, users receive an email containing the link. Administrators can customize the messaging, that is, logo, description, and footer, of these emails.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the  [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -123,7 +123,7 @@ When assets are shared as a link, users receive an email containing the link. Ad
 
    ![](assets/admin-tools-panel-12.png)
 
-3. When assets are shared as links or downloaded through emails, and when collections are shared, email notifications are sent to users. To customize the email message, on the **Configure Branding** page, select **Email Message** from the left rail.
+3. When assets are shared as links or downloaded through emails, and when  [!UICONTROL collections] are shared, email notifications are sent to users. To customize the email message, on the **Configure Branding** page, select **Email Message** from the left rail.
 
    ![](assets/configure-branding-page-email.png)
 
