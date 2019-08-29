@@ -50,13 +50,13 @@ To enable/disable each of these configurations:
 
 **Allow users to delete** configuration enables organizations to allow (or restrict) users with administrator privileges to delete assets and folders from [!DNL Brand Portal].
 
-## Allow public [!UICONTROL collection]s creation by non-admins {#allow-public-[!UICONTROL collection]s-creation-by-non-admins}
+## Allow public collections creation by non-admins {#allow-public-collections-creation-by-non-admins}
 
 [Allow public [!UICONTROL collection]s creation](../using/brand-portal-share-[!UICONTROL collection].md#main-pars-text-1915052376) configuration controls whether non-administrators can create public [!UICONTROL collection]s on [!DNL Brand Portal]. The configuration is enabled by default. By disabling the configuration organizations can prevent having numerous public [!UICONTROL collection]s on their portal so that system space can be saved.
 
-## Allow public smart [!UICONTROL collections] creation by non-admins {#allow-public-smart-[!UICONTROL collection]s-creation-by-non-admins}
+## Allow public smart collections creation by non-admins {#allow-public-smart-collections-creation-by-non-admins}
 
-[Allow public smart [!UICONTROL collection]s creation](../using/brand-portal-searching.md#main-pars-header-500620467) configuration controls whether non-administrators can save their searches as smart [!UICONTROL collection]s and make them public for that tenant. The configuration is enabled by default. By disabling the configuration organizations can prevent having a huge number of public smart [!UICONTROL collection]s created by non-admin users on organization's [!DNL Brand Portal].
+[Allow public smart collections creation](../using/brand-portal-searching.md#main-pars-header-500620467) configuration controls whether non-administrators can save their searches as smart [!UICONTROL collections] and make them public for that tenant. The configuration is enabled by default. By disabling the configuration organizations can prevent having a huge number of public smart [!UICONTROL collections] created by non-admin users on organization's [!DNL Brand Portal].
 
 ## Allow download acceleration {#allow-download-acceleration}
 
