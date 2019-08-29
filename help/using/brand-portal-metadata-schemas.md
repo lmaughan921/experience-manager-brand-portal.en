@@ -10,17 +10,17 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 ---
 
-# Use the metadata schema form{#use-the-metadata-schema-form}
+# Use the metadata schema form {#use-the-metadata-schema-form}
 
 A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 
-The **Properties** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. AEM Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
+The **Properties** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. [!DNL AEM] Assets [!DNL Brand Portal] provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
 
 ## Add a metadata schema form {#add-a-metadata-schema-form}
 
 To create a new metadata schema form, do the following:
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -44,7 +44,7 @@ You can add new tabs or form items to the metadata schema form. The derived tabs
 
 To edit a metadata schema form, do the following:
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -79,12 +79,12 @@ The **Build Form** tab lists items that you can use in your schema form. The **S
 | Number              |  Add a number component.                                                                                                                                                                                                                                                                   |
 | Date                |  Add a date component.                                                                                                                                                                                                                                                                     |
 | Dropdown            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| Standard Tags       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
-| Smart Tags          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
+| Standard Tags       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from [!DNL AEM], where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| Smart Tags          |  Auto-detected tags if you have purchased and configured the [!DNL AEM] smart tags add-on.                                                                                                                                                                                                        |
 | Hidden Field        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
 | Asset Referenced By |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
 | Asset Referencing   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
-| Asset Rating        |  Average rating of an asset added from AEM Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
+| Asset Rating        |  Average rating of an asset added from [!DNL AEM] Assets before it is published to [!DNL Brand Portal].                                                                                                                                                                                                  |
 | Contextual Metadata |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
 
 >[!NOTE]
@@ -116,7 +116,7 @@ The following are the valid values for this property:
 
 >[!NOTE]
 >
->All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in AEM Assets before an asset is published to Brand Portal.
+>All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in [!DNL AEM] Assets before an asset is published to [!DNL Brand Portal].
 
 #### Add or delete a tab in the schema form {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -132,11 +132,11 @@ The default schema form includes the **Basic** and **Advanced** tabs. The schema
 
 ## Apply a metadata schema to a folder {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal allows you to customize and control the metadata schema so that the **Properties** page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the **Properties** page, remove the required metadata from the metadata schema form and apply it to the specific folder.
+[!DNL Brand Portal] allows you to customize and control the metadata schema so that the **Properties** page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the **Properties** page, remove the required metadata from the metadata schema form and apply it to the specific folder.
 
 To apply a metadata schema form to a folder, do the following:
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -164,7 +164,7 @@ To apply a metadata schema form to a folder, do the following:
 
 ## Delete a metadata schema form {#delete-a-metadata-schema-form}
 
-Brand Portal lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
+[!DNL Brand Portal] lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
 
 To delete a form, select a form and click the **Delete** icon.
 
@@ -194,7 +194,7 @@ In this case, create a new node at `/etc/dam/metadataeditor/mimetypemappings` in
 * **exposedmimetype**: Name of the existing form to be mapped 
 * **mimetypes**: List of MIME types that use the form defined in the **exposedmimetype** attribute
 
-Brand Portal maps the following MIME types and schema forms:
+[!DNL Brand Portal] maps the following MIME types and schema forms:
 
 | **Schema Form** |**MIME types** |
 |---|---|

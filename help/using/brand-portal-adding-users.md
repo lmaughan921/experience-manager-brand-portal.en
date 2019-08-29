@@ -12,9 +12,9 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 
 # Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
 
-Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+Administrators can use [!DNL Adobe Admin Console] to create [!DNL AEM Assets Brand Portal] users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 
-In [Admin Console](http://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
+In [Admin Console](http://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any [!DNL Experience Cloud] solution, such as [!DNL Adobe Analytics], [!DNL Adobe Target], or [!DNL AEM Brand Portal]. You must choose the AEM Brand Portal product, and create Product Profiles.
 
 <!--
 Comment Type: draft
@@ -26,24 +26,25 @@ Comment Type: draft
 -->
 ![](assets/create-user-group.png)
 
-These product profiles are synced with the Brand Portal user interface every 8 hours and visible as groups in Brand Portal. Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
+These product profiles are synced with the [!DNL Brand Portal] user interface every 8 hours and visible as groups in [!DNL Brand Portal]. Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in [!DNL Brand Portal].
 
 >[!NOTE]
 >
->To create groups in Brand Portal, from Adobe Admin Console, use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**. Product profiles in Adobe Admin Console are used to create groups in Brand Portal.
+>To create groups in [!DNL Brand Portal], from [!DNL Adobe Admin Console], use **Products** page &gt; **Product Profiles**, instead of **User** page &gt; **User Groups**. Product profiles in [!DNL Adobe Admin Console] are used to create groups in [!DNL Brand Portal].
 
 ## Add a user {#add-a-user}
 
-If you are a product administrator, use [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (*formerly known as product configurations*), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
+If you are a product administrator, use [[!DNL Adobe Admin Console]](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (*formerly known as product configurations*), which show as groups in [!DNL Brand Portal]. You can use groups to perform bulk operations such as role management and asset sharing.
 
 >[!NOTE]
 >
->New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
+>New users who do not have access to [!DNL Brand Portal] can request access from the login screen of [!DNL Brand Portal]. For more information, refer to [Request access to [!DNL Brand Portal]](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **Grant Access**. Alternatively, follow the link in the access request email received. Next, to add a user through [[!DNL Adobe Admin Console]](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
+
 >[!NOTE]
 >
->You can login to [Adobe Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
+>You can login to [[!DNL Adobe Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from [!DNL Brand Portal]. If you login directly, follow Steps 4-7 in the procedure below to add a user.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![AEM logo](assets/aemlogo.png)
 
@@ -57,7 +58,7 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
 
 4. In Admin Console, do one of the following to create a new user:
 
-    * From the toolbar at the top, click **Overview**. In the **Overview** page, click **Assign Users** from the **AEM Brand Portal** product card.
+    * From the toolbar at the top, click **Overview**. In the **Overview** page, click **Assign Users** from the **[!DNL AEM Brand Portal]** product card.
 
    ![Admin Console Overview](assets/admin_console_overviewadduser.png)
 
@@ -70,25 +71,25 @@ If you are a product administrator, use [Adobe Admin Console](http://adminconsol
    ![Add user to Brand Portal](assets/add_user_to_aem_bp.png)
 
 6. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **Please select a profile for this product** field.
-7. Click **Save**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+7. Click **Save**. A welcome email is sent to the user you added. The invited user can access [!DNL Brand Portal] by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
-   >If a user is unable to log on to Brand Portal, the Administrator of the organization should visit Adobe Admin Console and check whether the user is present and has been added to at least one product profile.
+   >If a user is unable to log on to [!DNL Brand Portal], the Administrator of the organization should visit Adobe [!UICONTROL Admin Console] and check whether the user is present and has been added to at least one product profile.
 
    For information about granting administrative privileges to the user, see [Provide administrator privileges to users](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
 ## Add a product profile {#add-a-product-profile}
 
-Product profiles (formerly known as product configurations) in Admin Console are used to create groups in Brand Portal so that you can perform bulk operations such as role management and asset sharing in Brand Portal. **Assets Brand Portal** is the default product profile available; you can create more product profiles and add users to the new product profiles.
+Product profiles (formerly known as product configurations) in [!UICONTROL Admin Console] are used to create groups in [!DNL Brand Portal] so that you can perform bulk operations such as role management and asset sharing in [!DNL Brand Portal]. **[!DNL Brand Portal]** is the default product profile available; you can create more product profiles and add users to the new product profiles.
 
 >[!NOTE]
 >
->You can login to [Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add a product profile.
+>You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from [!DNL Brand Portal]. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-7 in the procedure below to add a product profile.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![AEM Logo](assets/aemlogo.png)
+   ![[!DNL AEM] Logo](assets/aemlogo.png)
 
 2. From the administrative tools panel, click **Users**.
 
@@ -98,7 +99,7 @@ Product profiles (formerly known as product configurations) in Admin Console are
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **Products**. 
+4. From the toolbar at the top, click **Products**.
 5. In the **Products** page, **Product Profiles** is selected by default. Click **New Profile**.
 
    ![Add new Product Profile](assets/admin_console_addproductprofile.png)
@@ -113,15 +114,15 @@ Product profiles (formerly known as product configurations) in Admin Console are
 
 ## Add users to a product profile {#add-users-to-a-product-profile}
 
-To add users to a Brand Portal group, add them to the corresponding product profile (formerly known as product configurations) in Admin Console. You can add users individually or in bulk.
+To add users to a [!DNL Brand Portal] group, add them to the corresponding product profile (formerly known as product configurations) in [!UICONTROL Admin Console]. You can add users individually or in bulk.
 
 >[!NOTE]
 >
->You can login to [Admin Console](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
+>You can login to [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from [!DNL Brand Portal]. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![AEM Logo](assets/aemlogo.png)
+   ![[!DNL AEM] Logo](assets/aemlogo.png)
 
 2. From the administrative tools panel, click **Users**.
 
@@ -129,9 +130,9 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
 3. In the **User Roles** page, click the **Management** tab, then click **Launch Admin Console**.
 
-   ![Launch Admin Console](assets/launch_admin_console.png)
+   ![Launch [!DNL Admin Console]](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **Products**. 
+4. From the toolbar at the top, click **Products**.
 5. In the **Products** page, **Product Profiles** is selected by default. Open the product profile to which you want to add a user, for example, **Sales group**.
 
    ![Product profiles](assets/admin_console_productprofileadded.png)
@@ -140,7 +141,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
     * Click **Add User**.
 
-   ![Group to map Product Profile in BP](assets/admin_console_productprofilesalesgroup.png)
+   ![Group to map Product Profile in [!DNL Brand Portal]](assets/admin_console_productprofilesalesgroup.png)
 
     * In the **Add User to Sales group** page, type the email ID of the user you want to add or select the user from the list of suggestions that appear as you type.
 
@@ -160,19 +161,19 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
     * Click **Upload**.
 
-   If you added users to the default product profile, that is, Assets Brand Portal, a welcome email is sent to the email ID of the users you added. The invited users can access Brand Portal by clicking the link in the welcome email and signing in using an Adobe ID. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+   If you added users to the default product profile, that is, [!DNL Brand Portal], a welcome email is sent to the email ID of the users you added. The invited users can access [!DNL Brand Portal] by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
 
    Users added to a custom or a new product profile do not receive email notifications.
 
 ## Provide administrator privileges to users {#provide-administrator-privileges-to-users}
 
-You can provide the system administrator or the product administrator privilege to a Brand Portal user. Do not provide other administrative rights available in Admin Console, such as product profile administrator, user group administrator, and support administrator. To know more about these roles, see [Administrative roles](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+You can provide the system administrator or the product administrator privilege to a [!DNL Brand Portal] user. Do not provide other administrative rights available in [!UICONTROL Admin Console], such as product profile administrator, user group administrator, and support administrator. To know more about these roles, see [Administrative roles](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >
->You can login to [Admin Console](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
+>You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from [!DNL Brand Portal]. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![AEMLogo](assets/aemlogo.png)
 
@@ -198,17 +199,17 @@ You can provide the system administrator or the product administrator privilege 
 
    >[!NOTE]
    >
-   >Brand Portal supports only System Administrator and Product Administrator roles.
+   >[!DNL Brand Portal] supports only System Administrator and Product Administrator roles.
    >
    >
-   >Adobe recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure AEM Assets so that assets can be published from AEM Assets to Brand Portal. For more information, see [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+   >[!DNL Adobe] recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure [!DNL AEM] Assets so that assets can be published from [!DNL AEM] Assets to [!DNL Brand Portal]. For more information, see [Configure AEM Assets integration with [!DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
       >
    >
-   >In contrast, the Product Administrator role grants administrator privileges for a specific product only. If you want to enforce a more granular access control within Brand Portal, use the Product Administrator role and select the product as **AEM Brand Portal**.
+   >In contrast, the Product Administrator role grants administrator privileges for a specific product only. If you want to enforce a more granular access control within [!DNL Brand Portal], use the Product Administrator role and select the product as **[!DNL AEM Brand Portal]**.
 
    >[!NOTE]
    >
-   >Brand Portal does not support product profile administrator (formerly known as configuration administrator) privileges. Avoid assigning product profile administrator rights to a user.
+   >[!DNL Brand Portal] does not support product profile administrator (formerly known as configuration administrator) privileges. Avoid assigning product profile administrator rights to a user.
 
 8. Review the admin type selection and click **Save**.
 
@@ -218,14 +219,14 @@ You can provide the system administrator or the product administrator privilege 
 
 ## Manage user roles {#manage-user-roles}
 
-An Administrator can modify roles for users in Brand Portal.
+An Administrator can modify roles for users in [!DNL Brand Portal].
 
-In addition to the Administrator role, Brand Portal supports the following roles:
+In addition to the Administrator role, [!DNL Brand Portal] supports the following roles:
 
-* **Viewer**: Users with this role can view the files and folders that an Administrator shares with them. Viewers can also search and download assets. However, Viewers cannot share content (files, folders, collections) with other users.
-* **Editor**: Users with this role has all the privileges of a Viewer. In addition, Editors can share content (folders, collections, links) with other users.
+* **Viewer**: Users with this role can view the files and folders that an Administrator shares with them. Viewers can also search and download assets. However, Viewers cannot share content (files, folders, [!UICONTROL collections]) with other users.
+* **Editor**: Users with this role has all the privileges of a Viewer. In addition, Editors can share content (folders, [!UICONTROL collections], links) with other users.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![AEMLogo](assets/aemlogo.png)
 
@@ -285,4 +286,4 @@ To modify the role and right to access original renditions for specific group me
 
    >[!NOTE]
    >
-   >The user-to-group association, or the group membership of a user, is synced to Brand Portal every 8 hours. Changes to user or group roles are effective after the next sync job runs.
+   >The user-to-group association, or the group membership of a user, is synced to  [!DNL Brand Portal] every 8 hours. Changes to user or group roles are effective after the next sync job runs.

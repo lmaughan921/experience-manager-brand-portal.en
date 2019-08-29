@@ -13,15 +13,15 @@ discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 
 # Share assets as a link {#share-assets-as-a-link} 
 
-AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
+[!DNL AEM Assets Brand Portal] Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 
-Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
+Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to [!DNL Brand Portal] to access the assets.
 
 Link sharing access is restricted to editors and administrators. For more information, see [Managing users, groups, and user roles](../using/brand-portal-adding-users.md#manage-user-roles).
 
 >[!NOTE]
 >
->Upto 5GB of zip download is allowed using link share feature on brand portal.
+>Upto 5GB of zip download is allowed using link share feature on [!DNL brand portal].
 
 To share assets as a link, follow these steps:
 
@@ -29,7 +29,7 @@ To share assets as a link, follow these steps:
 
    ![](assets/siderail.png)
 
-2. From the siderail on the left, click **Files** to share folders or images. To share collections, click **Collections**.
+2. From the siderail on the left, click **Files** to share folders or images. To share collections, click **[!UICONTROL Collections]**.
 
    ![](assets/navigationrail.png)
 
@@ -57,7 +57,7 @@ To share assets as a link, follow these steps:
 7. In the **Message** box, type a message if necessary.
 8. In the **Expiration** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
 
-   The assets shared through the link expire after crossing the date and time specified in the **Expiration** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   The assets shared through the link expire after crossing the date and time specified in the **Expiration** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in [!DNL Brand Portal], see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
 9. Click **Share**. A message confirms that the link is shared with the users. Users receive an email containing the link.
 
@@ -69,7 +69,7 @@ To share assets as a link, follow these steps:
 
 ## Download assets from shared links {#download-assets-from-shared-links}
 
-Click the link in the email, to view the shared asset. The AEM Link Share page opens.
+Click the link in the email, to view the shared asset. The [!DNL AEM] Link Share page opens.
 
 To download the shared assets:
 
@@ -84,14 +84,14 @@ To download the shared assets:
    >[!NOTE]
    >
    >If the assets you are downloading also include licensed assets, you are redirected to the **Copyright Management** page. In this page, select the licensed assets, click **Agree**, and then click **Download**. If you choose to disagree, only the unlicensed assets are downloaded.  
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
 
    The **Download** dialog box appears.
    ![](assets/download-linkshare.png)
 
-    * To speed up the download of asset files shared as the link, select **Enable download acceleration** option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+    * To speed up the download of asset files shared as the link, select **Enable download acceleration** option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on [!DNL Brand Portal] refer [Guide to accelerate downloads from [!DNL Brand Portal]](../using/accelerated-download.md).
 
 2. To download the renditions of assets in addition to the assets from the shared link, select **Rendition(s)** option. When you do so, **Exclude System Renditions** option appears that is selected by default. This prevents the download of out-of-the-box renditions along with approved assets or their custom renditions.
 
@@ -107,11 +107,11 @@ To download the shared assets:
 
 >[!NOTE]
 >
->Brand Portal restricts downloading assets larger than 5 GB per file size.
+>[!DNL Brand Portal] restricts downloading assets larger than 5 GB per file size.
 
 ## Preview and thumbnail support for asset formats {#preview-thumbnail-support}
 
-The following matrix lists the asset formats for which Brand Portal supports thumbnail and preview:
+The following matrix lists the asset formats for which [!DNL Brand Portal] supports thumbnail and preview:
 
 | Asset format | Thumbnail support | Preview support |
 |--------------|-------------------|-----------------|
@@ -179,7 +179,7 @@ The following legend explains the symbols used in the matrix:
 | ✓ |This file format supports this feature  |
 | ✕ |This file format does not support this feature  |
 | NA |This feature is not applicable to this file format |
-| &#42; |This feature requires add-on support for this file format on AEM author instance but not on Brand Portal after assets are published to Brand Portal |
+| &#42; |This feature requires add-on support for this file format on [!DNL AEM] author instance but not on [!DNL Brand Portal] after assets are published to [!DNL Brand Portal] |
 
 ## Unshare assets shared as a link {#unshare-assets-shared-as-a-link}
 

@@ -13,11 +13,11 @@ discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 
 # Search assets on Brand Portal {#search-assets-on-brand-portal}
 
-Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. You can also save your searches as smart collections for the future.
+[!DNL Brand Portal] search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. You can also save your searches as smart [!UICONTROL collections] for the future.
 
 ## Search assets using Omnisearch {#search-assets-using-omnisearch}
 
-To search for assets on Brand Portal:
+To search for assets on [!DNL Brand Portal]:
 
 1. From the toolbar, click the **Search** icon, or press the "**/**" key to launch Omnisearch.
 
@@ -43,7 +43,7 @@ Search facets in the Filters panel add granularity to your search experience and
 
 For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.
 
-![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
+![Filters panel in [!DNL Brand Portal]](assets/file-type-search.png "Filters panel in [!DNL Brand Portal]")
 
 The Filters panel includes a few standard facets, such as- Path Browser, File Type, File Size, Status, and Orientation. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the **Filters** panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
@@ -61,7 +61,7 @@ To apply filters to your search, using the available [search facets](../using/br
    >[!NOTE]
    >
    >To non-admin users, Path Browser in Filter panel shows only the content structure of the folders (and their ancestor folders) shared with them.  
-   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
+   >To admin users, Path Browser allows navigating to any folder in [!DNL Brand Portal].
 
     * **File Type** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
     * **File Size** to search for assets based on their size. You can specify the lower and upper limits for the size range to narrow down your search and specify the unit of measure to search.
@@ -116,7 +116,7 @@ To save the search settings as a smart collection:
 
    >[!NOTE]
    >
-   >Non-admin users can be restricted from making smart collections public, to avoid having a huge number of public smart collections created by non-admin users on organization's Brand Portal. Organizations can disable the **Allow public smart collections creation** configuration from **General** settings available in admin tools panel.
+   >Non-admin users can be restricted from making smart [!UICONTROL collections] public, to avoid having a huge number of public smart [!UICONTROL collections] created by non-admin users on organization's [!DNL Brand Portal]. Organizations can disable the **Allow public smart [!UICONTROL collections] creation** configuration from **General** settings available in admin tools panel.
 
    ![](assets/save_smartcollectionui.png)
 

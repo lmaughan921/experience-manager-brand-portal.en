@@ -12,7 +12,7 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 
 # Work with reports {#work-with-reports}
 
-The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. Administrators can view Brand Portal Usage report, which is always available on Asset Reports page. However, reports for user logins and assets downloaded, expired, published, and assets shared through links can be generated and viewed from Asset Reports page. These reports are helpful in analyzing asset deployment, which let you derive key success metrics to measure the adoption of approved assets within and outside your organization.
+The reporting capability is instrumental in assessing [!DNL Brand Portal] usage, and knowing how internal and external users interact with approved assets. Administrators can view [!DNL Brand Portal] Usage report, which is always available on Asset Reports page. However, reports for user logins and assets downloaded, expired, published, and assets shared through links can be generated and viewed from Asset Reports page. These reports are helpful in analyzing asset deployment, which let you derive key success metrics to measure the adoption of approved assets within and outside your organization.
 
 The report management interface is intuitive and includes fine-grained options and controls to access saved reports. You can view, download, or delete reports from the Asset Reports page, where all previously generated reports are listed.
 
@@ -20,7 +20,7 @@ The report management interface is intuitive and includes fine-grained options a
 
 To view a report, follow these steps:
 
-1. From the toolbar at the top, tap/click the AEM logo to access administrative tools.
+1. From the toolbar at the top, tap/click the [!DNL AEM] logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -32,15 +32,15 @@ To view a report, follow these steps:
 
    >[!NOTE]
    >
-   >Usage report is present by default in Brand Portal. It can not be created or deleted. However, you can create, download and delete the Download, Expiration, Publish, Link Share, and User Logins reports.
+   >Usage report is present by default in [!DNL Brand Portal]. It can not be created or deleted. However, you can create, download and delete the Download, Expiration, Publish, Link Share, and User Logins reports.
 
    To view a report, tap/click the report link. Alternatively, select the report, and tap/click the View icon from the toolbar.
 
-   **Usage Report** displays information about the number of current Brand Portal users, the storage space occupied by all the assets, and the total assets count in Brand Portal. The report also displays the permitted capacity for each of these information metrics.
+   **Usage Report** displays information about the number of current [!DNL Brand Portal] users, the storage space occupied by all the assets, and the total assets count in [!DNL Brand Portal]. The report also displays the permitted capacity for each of these information metrics.
 
    ![](assets/usage-report.png)
 
-   **User Logins** report gives information about the users who logged in to Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
+   **User Logins** report gives information about the users who logged in to [!DNL Brand Portal]. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from [!DNL Brand Portal] 6.4.2 deployment until the time of report generation.
 
    ![](assets/user-logins.png)
 
@@ -50,21 +50,21 @@ To view a report, follow these steps:
 
    >[!NOTE]
    >
-   >The assets** Download** report displays only the assets that were individually selected and downloaded from Brand Portal. If a user has downloaded a folder containing assets, the report does not display the folder or the assets inside the folder.
+   >The assets** Download** report displays only the assets that were individually selected and downloaded from [!DNL Brand Portal]. If a user has downloaded a folder containing assets, the report does not display the folder or the assets inside the folder.
 
    **Expiration** report lists and details all the assets that expired in a specific time frame.
 
    ![](assets/expiration-report.png)
 
-   **Publish** report lists and gives information about all the assets that are published from AEM to Brand Portal in a specified time frame.
+   **Publish** report lists and gives information about all the assets that are published from [!DNL AEM] to [!DNL Brand Portal] in a specified time frame.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Publish Report does not display information about content fragments, as the content fragments cannot be published to the Brand Portal.
+   >Publish Report does not display information about content fragments, as the content fragments cannot be published to the [!DNL Brand Portal].
 
-   **Link Share report** lists all the assets shared through links from Brand Portal interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
+   **Link Share report** lists all the assets shared through links from [!DNL Brand Portal] interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
 
    ![](assets/link-share-report.png)
 
@@ -87,7 +87,7 @@ Administrators can generate and manage the following standard reports, once gene
 
 The columns in the Download, Expiration, and Publish report can be customized for viewing. To generate a report, follow these steps:
 
-1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
+1. From toolbar at the top, tap/click the [!DNL AEM] logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 

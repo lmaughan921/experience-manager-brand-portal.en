@@ -10,9 +10,9 @@ topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 ---
 
-# Download assets{#download-assets}
+# Download assets {#download-assets}
 
-All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
+All users can simultaneously download multiple assets and folders accessible to them from [!DNL Brand Portal]. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from [!DNL Brand Portal], and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
 
 >[!NOTE]
 >
@@ -20,9 +20,9 @@ All users can simultaneously download multiple assets and folders accessible to 
 
 ## Steps to download assets {#steps-to-download-assets}
 
-To download assets or folders containing assets for Brand Portal, follow these steps:
+To download assets or folders containing assets for [!DNL Brand Portal], follow these steps:
 
-1. From the Brand Portal interface, do one of the following:
+1. From the [!DNL Brand Portal] interface, do one of the following:
 
     * Select the folders or assets you want to download. From the toolbar at the top, click the **Download** icon.
 
@@ -35,7 +35,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
    >[!NOTE]
    >
    >If the assets you are downloading also include licensed assets, you are redirected to the **Copyright Management** page. In this page, select the assets, click **Agree**, and then click **Download**. If you choose to disagree, licensed assets are not downloaded.  
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM] Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
@@ -59,7 +59,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
    >
    >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
-    * To speed up the download of asset files from Brand Portal, select **Enable download acceleration **option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+    * To speed up the download of asset files from [!DNL Brand Portal], select **Enable download acceleration** option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [Guide to accelerate downloads from [!DNL Brand Portal]](../using/accelerated-download.md).
 
     * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **Dynamic Rendition(s)**. Specify custom image preset properties (size, format, color space, resolution, and image modifier) to apply the custom image preset while downloading the asset and its renditions. To download only the dynamic renditions, delesect **Asset(s)**.
 
@@ -67,9 +67,9 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
    >[!NOTE]
    >
-   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's PTIFF rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its PTIFF rendition is also published. There is no way of generating the PTIFF rendition from Brand Portal.
+   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's [!UICONTROL Pyramid tiff] rendition exists at the [!DNL AEM] author instance, from where the assets have been published. When an asset is published to [!DNL Brand Portal], its [!UICONTROL Pyramid tiff] rendition is also published. There is no way of generating the [!UICONTROL Pyramid tiff] rendition from [!DNL Brand Portal].
 
-    * To preserve the Brand Portal folder hierarchy while downloading assets, select **Create separate folder for each asset**. By default, Brand Portal folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
+    * To preserve the [!DNL Brand Portal] folder hierarchy while downloading assets, select **Create separate folder for each asset**. By default, [!DNL Brand Portal] folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
 
     * To send an email notification to users with a link for downloading the assets, select **Email**.
 
@@ -95,7 +95,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
 ## Expected download performance {#expected-download-performance}
 
-File download experience may vary for users at different client locations, depending on factors such as local Internet connectivity and server latency. The expected download performance for 2 GB file observed at different client locations is as follows, with Brand Portal server at Oregon in United States:
+File download experience may vary for users at different client locations, depending on factors such as local Internet connectivity and server latency. The expected download performance for 2 GB file observed at different client locations is as follows, with [!DNL Brand Portal] server at Oregon in United States:
 
 | Client location         | Latency between client and server | Expected download speed | Time taken to download a 2 GB file |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
