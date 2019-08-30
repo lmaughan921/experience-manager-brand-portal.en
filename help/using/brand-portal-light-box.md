@@ -12,13 +12,13 @@ discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 
 # Manage the lightbox collection {#manage-the-lightbox-collection}
 
-[!DNL lightbox] is a special type of collection that provides easy access to assets. Each user has an exclusive [!DNL lightbox] that is automatically created when they log in to [!DNL Brand Portal] for the first time. The [!DNL lightbox] collection cannot be deleted.
+[!UICONTROL Lightbox] is a special type of collection that provides easy access to assets. Each user has an exclusive [!UICONTROL Lightbox] that is automatically created when they log in to Brand Portal for the first time. The [!UICONTROL Lightbox] collection cannot be deleted.
 
 ## Add assets to lightbox {#add-assets-to-lightbox}
 
-To add assets to [!DNL lightbox], do the following:
+To add assets to [!UICONTROL Lightbox], do the following:
 
-1. Navigate to the location of the assets that you want to add to [!DNL lightbox], and select the assets.
+1. Navigate to the location of the assets that you want to add to [!UICONTROL Lightbox], and select the assets.
 
    ![](assets/link_sharing_assetselection.png)
    
@@ -26,30 +26,30 @@ To add assets to [!DNL lightbox], do the following:
 
    ![](assets/add_to_collection.png)
 
-3. On the **Add To Collection** page, the [!DNL lightbox] collection is selected by default.
+3. On the **[!UICONTROL Add To Collection]** page, the [!UICONTROL Lightbox] collection is selected by default.
 
-   Click **Add**. The selected assets are added to [!DNL lightbox]. 
+   Click **[!UICONTROL Add]**. The selected assets are added to the [!UICONTROL Lightbox]. 
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. To review the assets added to [!DNL lightbox], click **Collections** on the left rail, and then click the [!DNL lightbox] collection.
+4. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
 
    ![](assets/collections_lightbox.png)
 
-   The assets added to [!DNL lightbox] appear in the [!DNL lightbox] page.
+   The assets added to [!UICONTROL Lightbox] appear in the [!UICONTROL Lightbox] page.
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Remove assets from lightbox {#remove-assets-from-lightbox}
 
-1. To review the assets in [!DNL lightbox], click **Collections** on the left rail, then click the [!DNL lightbox] collection.
+1. To review the assets in [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, then click the [!UICONTROL Lightbox] collection.
 
    ![](assets/collections_lightbox-1.png)
 
-2. Select the folder you want to remove from the collection, then click **Remove** from the toolbar at the top.
+2. Select the folder you want to remove from the collection, then click **[!UICONTROL Remove]** from the toolbar at the top.
 
    ![](assets/collections_lightboxdelete.png)
 
-3. From the warning message box, click **Remove** to confirm removal.
+3. From the warning message box, click **[!UICONTROL Remove]** to confirm removal.
 
-The folder is deleted from the [!DNL lightbox] collection.
+The folder is deleted from the [!UICONTROL Lightbox] collection.

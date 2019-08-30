@@ -12,7 +12,7 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 
 # Work with reports {#work-with-reports}
 
-The reporting capability is instrumental in assessing [!DNL Brand Portal] usage, and knowing how internal and external users interact with approved assets. Administrators can view [!DNL Brand Portal] Usage report, which is always available on Asset Reports page. However, reports for user logins and assets downloaded, expired, published, and assets shared through links can be generated and viewed from Asset Reports page. These reports are helpful in analyzing asset deployment, which let you derive key success metrics to measure the adoption of approved assets within and outside your organization.
+The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. Administrators can view Brand Portal Usage report, which is always available on Asset Reports page. However, reports for user logins and assets downloaded, expired, published, and assets shared through links can be generated and viewed from Asset Reports page. These reports are helpful in analyzing asset deployment, which let you derive key success metrics to measure the adoption of approved assets within and outside your organization.
 
 The report management interface is intuitive and includes fine-grained options and controls to access saved reports. You can view, download, or delete reports from the Asset Reports page, where all previously generated reports are listed.
 
@@ -20,51 +20,51 @@ The report management interface is intuitive and includes fine-grained options a
 
 To view a report, follow these steps:
 
-1. From the toolbar at the top, tap/click the [!DNL AEM] logo to access administrative tools.
+1. From the toolbar at the top, tap/click the AEM logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **Create/Manage Reports** to open **Asset Reports **page.
+2. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/access-asset-reports.png)
 
-3. Access **Usage** report and other generated reports from Asset Reports page.
+3. Access **[!UICONTROL Usage]** report and other generated reports from Asset Reports page.
 
    >[!NOTE]
    >
-   >Usage report is present by default in [!DNL Brand Portal]. It can not be created or deleted. However, you can create, download and delete the Download, Expiration, Publish, Link Share, and User Logins reports.
+   >Usage report is present by default in Brand Portal. It can not be created or deleted. However, you can create, download and delete the Download, Expiration, Publish, Link Share, and User Logins reports.
 
    To view a report, tap/click the report link. Alternatively, select the report, and tap/click the View icon from the toolbar.
 
-   **Usage Report** displays information about the number of current [!DNL Brand Portal] users, the storage space occupied by all the assets, and the total assets count in [!DNL Brand Portal]. The report also displays the permitted capacity for each of these information metrics.
+   [!UICONTROL Usage Report] displays information about the number of current Brand Portal users, the storage space occupied by all the assets, and the total assets count in Brand Portal. The report also displays the permitted capacity for each of these information metrics.
 
    ![](assets/usage-report.png)
 
-   **User Logins** report gives information about the users who logged in to [!DNL Brand Portal]. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from [!DNL Brand Portal] 6.4.2 deployment until the time of report generation.
+   [!UICONTROL User Logins] report gives information about the users who logged in to Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
 
    ![](assets/user-logins.png)
 
-   **Download** report lists and details about all the assets downloaded in a specific date and time range.
+   [!UICONTROL Download] report lists and details about all the assets downloaded in a specific date and time range.
 
    ![](assets/download-report.png)
 
    >[!NOTE]
    >
-   >The assets** Download** report displays only the assets that were individually selected and downloaded from [!DNL Brand Portal]. If a user has downloaded a folder containing assets, the report does not display the folder or the assets inside the folder.
+   >The assets [!UICONTROL Download] report displays only the assets that were individually selected and downloaded from Brand Portal. If a user has downloaded a folder containing assets, the report does not display the folder or the assets inside the folder.
 
-   **Expiration** report lists and details all the assets that expired in a specific time frame.
+   [!UICONTROL Expiration] report lists and details all the assets that expired in a specific time frame.
 
    ![](assets/expiration-report.png)
 
-   **Publish** report lists and gives information about all the assets that are published from [!DNL AEM] to [!DNL Brand Portal] in a specified time frame.
+   [!UICONTROL Publish] report lists and gives information about all the assets that are published from AEM to Brand Portal in a specified time frame.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Publish Report does not display information about content fragments, as the content fragments cannot be published to the [!DNL Brand Portal].
+   >Publish Report does not display information about content fragments, as the content fragments cannot be published to the Brand Portal.
 
-   **Link Share report** lists all the assets shared through links from [!DNL Brand Portal] interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
+   [!UICONTROL Link Share report] lists all the assets shared through links from Brand Portal interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
 
    ![](assets/link-share-report.png)
 
@@ -73,7 +73,7 @@ To view a report, follow these steps:
    >The Link Share Report does not display users who have access to the asset shared via the link or have downloaded the asset through the link.
    >
    >
-   >For tracking downloads through the shared link, you need to generate download report after selecting **Only Link Share Downloads** option on **Create Report** page. However, user (Downloaded by) is anonymous in this case.
+   >For tracking downloads through the shared link, you need to generate download report after selecting **[!UICONTROL Only Link Share Downloads]** option on **[!UICONTROL Create Report]** page. However, user (Downloaded by) is anonymous in this case.
 
 ## Generate reports {#generate-reports}
 
@@ -87,24 +87,24 @@ Administrators can generate and manage the following standard reports, once gene
 
 The columns in the Download, Expiration, and Publish report can be customized for viewing. To generate a report, follow these steps:
 
-1. From toolbar at the top, tap/click the [!DNL AEM] logo to access administrative tools.
+1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, tap/click **Create/Manage Reports** to open **Asset Reports **page.
+2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **Asset Reports **page.
 
    ![](assets/asset-reports.png)
 
-3. In the Asset Reports page, tap/click **Create**.
-4. From the **Create Report** page, select a report to create, and tap/click **Next**.
+3. In the Asset Reports page, tap/click **[!UICONTROL Create]**.
+4. From the **[!UICONTROL Create Report]** page, select a report to create, and tap/click **[!UICONTROL Next]**.
 
    ![](assets/crete-report.png)
 
-5. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for **Download**, **Expiration**, and **Publish** reports.
+5. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for [!UICONTROL Download], [!UICONTROL Expiration], and [!UICONTROL Publish] reports.
 
    ![](assets/create-report-page.png)
 
-   Whereas, **Link Share Report** only needs the title, description, and date range parameters.
+   Whereas, [!UICONTROL Link Share Report] only needs the title, description, and date range parameters.
 
    ![](assets/create-link-share-report.png)
 
@@ -112,8 +112,8 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    >
    >Special characters # and % in report title are replaced by a hyphen (-) on the report generation.
 
-6. Tap/click **Next**, to configure the columns of Download, Expiration, and Publish reports.
-7. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in **Download** report, select **Downloaded By**. The following image illustrates selecting default columns in Download report.
+6. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
+7. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. The following image illustrates selecting default columns in Download report.
 
    ![](assets/createdownloadreport.png)
 
@@ -121,8 +121,8 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    To add custom columns to Download, Publish or Expiration report, follow these steps:
 
-    1. To display a custom column, tap/click **Add** within **Custom Columns**.
-    2. Specify name of the column in **Column Name** field.
+    1. To display a custom column, tap/click **[!UICONTROL Add]** within [!UICONTROL Custom Columns].
+    2. Specify name of the column in **[!UICONTROL Column Name]** field.
     3. Select the property to which the column needs to map to, using property picker.
 
        ![](assets/property-picker.png)
@@ -132,24 +132,24 @@ Alternatively, type the path in the property path field.
     
        To add more custom columns, tap/click **Add** and repeat steps 2 and 3.
 
-8. Tap/click **Create**. A message notifies that report generation has been initiated.
+8. Tap/click **[!UICONTROL Create]**. A message notifies that report generation has been initiated.
 
 ## Download reports {#download-reports}
 
 To save and download a report as .csv file, do one of the following:
 
-* Select a report on Asset Reports page, and tap/click **Download** from the toolbar at the top.
+* Select a report on Asset Reports page, and tap/click **[!UICONTROL Download]** from the toolbar at the top.
 
 ![](assets/download-asset-report.png)
 
-* From Asset Reports page, open a report. Select **Download** option from the top of the report page.
+* From Asset Reports page, open a report. Select **[!UICONTROL Download]** option from the top of the report page.
 
 ![](assets/download-report-fromwithin.png)
 
 ## Delete reports {#delete-reports}
 
-To delete an existing report, select the report from **Asset Reports** page and tap/click **Delete** from the toolbar at the top.
+To delete an existing report, select the report from **[!UICONTROL Asset Reports]** page and tap/click **[!UICONTROL Delete]** from the toolbar at the top.
 
 >[!NOTE]
 >
->**Usage** report cannot be deleted.
+>[!UICONTROL Usage] report cannot be deleted.

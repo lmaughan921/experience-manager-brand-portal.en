@@ -12,9 +12,9 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 
 # Browsing assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] Assets [!DNL Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
+AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
 
-[!DNL AEM] logo in the [!DNL AEM] toolbar at the top facilitates admin users to access administrative tools panel.
+AEM logo in the AEM toolbar at the top facilitates admin users to access administrative tools panel.
 
 ![](assets/aemlogo.png)
 
@@ -22,22 +22,22 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 
 ![](assets/bp_subheader.png)
 
-Rail selector at the upper left in [!DNL Brand Portal] drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
+Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 
 ![](assets/siderail-1.png)
 
-You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in [!DNL Brand Portal].
+You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in Brand Portal.
 
 ![](assets/viewselector.png)
 
 ## Viewing and Selecting Resources {#viewing-and-selecting-resources}
 
-Viewing, navigating, and selecting are each conceptually the same across all views, but have small variations in handling, depending on the view you are using.
+Viewing, navigating, and selecting each are conceptually the same across all views, but have small variations in handling, depending on the view you are using.
 
 You can view, navigate through, and select (for further action) your resources with any of the available views:
 
 * Column View
-* Card View  
+* Card View
 * List View
 
 ### Card View
@@ -50,7 +50,7 @@ Card view displays information cards for each item at the current level. These c
 * Type
 * Title
 * Name
-* Date and time when asset was published to [!DNL Brand Portal] from [!DNL AEM]
+* Date and time when asset was published to Brand Portal from AEM
 * Size
 * Dimensions
 
@@ -63,7 +63,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 Cards of folders, in Card View, display folder hierarchy information to non-admin users (Editor, Viewer, and Guest User). This functionality lets the users know the location of the folders, they are accessing, with respect to the parent hierarchy.
 Folder hierarchy information is particularly helpful in differentiating the folders having names similar to other folders shared from a different folder hierarchy. If the non-admin users are not aware of the folder structure of the assets shared with them, assets /folders with similar names seem confusing.
 
-* The paths shown on the respective cards are truncated to fit the card sizes. However, users can see the full path as a tool tipon hovering over the truncated path.
+* The paths shown on the respective cards are truncated to fit the card sizes. However, users can see the full path as a tool-tip on hovering over the truncated path.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -71,10 +71,10 @@ Folder hierarchy information is particularly helpful in differentiating the fold
 
 Overview option is available to non-admin users (Editors, Viewers, Guest users) to view Asset Properties of selected assets/folders. The Overview option is visible:
 
-1. In the toolbar at the top on selecting an asset/folder.
-2. In the drop-down on selecting the Rail Selector.
+* in the toolbar at the top on selecting an asset/folder.
+* in the drop-down on selecting the rail Selector.
 
-On selecting the Overview option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
+On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
 
 ![](assets/overview-option.png)
 
@@ -82,7 +82,7 @@ On selecting the Overview option while an asset/folder is selected, users can se
 
 #### View settings in card view
 
-View Settings dialog opens on selecting View Settings from the view selector. It enables you to resize the asset thumbnails in the Card view. This way, you can personalize your view and control the number of thumbnails that is displayed.
+[!UICONTROL View Settings] dialog opens on selecting **[!UICONTROL View Settings]** from the view selector. It enables you to resize the asset thumbnails in the Card view. This way, you can personalize your view and control the number of thumbnails that is displayed.
 
 ![](assets/cardviewsettings.png)
 
@@ -111,7 +111,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### View settings in list view
 
-List view shows asset **Name** as the first column by default. Additional information, such as asset Title, Locale, Type, Dimensions, Size, Rating, Publish status are also shown. However, you can select the columns to be shown using View Settings.
+List view shows asset [!UICONTROL Name] as the first column by default. Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -135,7 +135,7 @@ When an asset is selected in column view, visual representation of the asset is 
 * Title
 * Name
 * Dimensions
-* Date and time when asset was published to [!DNL Brand Portal] from [!DNL AEM]
+* Date and time when asset was published to Brand Portal from AEM
 * Size
 * Type
 * More Details option, to go on the details page of the asset
@@ -228,7 +228,7 @@ Comment Type: draft
 
 In addition to these views, use the tree view to drill down the asset hierarchy while you view and select desired assets or folders.
 
-To open the tree view, tap/click the rail selector at upper left and select the **Content tree** from the menu.
+To open the tree view, tap/click the rail selector at upper left and select the **[!UICONTROL Content tree]** from the menu.
 
 ![](assets/contenttree.png)
 
@@ -242,7 +242,7 @@ Asset detail page lets you view an asset, download, share asset's link, move it 
 
 ![](assets/asset-detail.png)
 
-To overview the asset's metadata, or view its various renditions, use the rail selector on asset detail page.
+To view the asset's metadata, or view its various renditions, use the rail selector on asset detail page.
 
 ![](assets/asset-overview.png)
 
@@ -250,8 +250,8 @@ You can view all the available renditions of the asset on asset details page, an
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use *Properties (p)* option on the top bar.
+To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
 
 ![](assets/asset-properties.png)
 
-You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from [!DNL AEM] to [!DNL Brand Portal].
+You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from AEM to Brand Portal.

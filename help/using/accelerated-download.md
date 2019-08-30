@@ -1,6 +1,6 @@
 ---
-title: Guide to Accelerate Downloads from Brand Portal
-seo-title: Guide to Accelerate Downloads from Brand Portal
+title: Speed up the Brand Portal downloads
+seo-title: Speed up the Brand Portal downloads
 description: Enhance download performance from Brand Portal and the shared links.
 seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
@@ -11,15 +11,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 ---
 
-# Guide to Accelerate Downloads from Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
+# Speed up the Brand Portal downloads {#guide-to-accelerate-downloads-from-brand-portal}
 
-Brand Portal supports the Accelerated download of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed for files, thus ensuring enhanced download experience. Users distributed across geographies, experiencing high latency, can also benefit from this capability.
+Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
 
 >[!NOTE]
 >
->IBM Aspera Connect enables speedy download of large asset files from Brand Portal and shared links, but download speed may vary depending on factors such as network bandwidth, server latency, and geographical location of clients.
-
-To configure specific tenants for accelerated file download, administrators **[!UICONTROL Enable Download Acceleration]** (which is disabled by default)from **General Settings** in the administrative tools panel.
+>Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
 
 If enabled, Brand Portal users can significantly reduce the time taken to download the desired asset files from Brand Portal or through Shared link by installing the Aspera Connect client.
 
@@ -27,70 +25,46 @@ If enabled, Brand Portal users can significantly reduce the time taken to downlo
 
 ## Prerequisites to accelerate file download {#prerequisites-to-accelerate-file-download}
 
-To use the faster file download functionality, make sure:
+To download the files faster, ensure the following:
 
-* Ports 33001 (both TCP & UDP) are opened in the firewall by administrators. For more information on the prerequisites to using IBM Aspera Connect, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* **[!UICONTROL Enable Download Acceleration]** (disabled by default) from [!UICONTROL General Settings] in the administrative tools panel.
+* Port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* Install Aspera Connect using Administrator privileges.
+* For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+
+## Download domains {#download-domains}
 
   Following are the download domains for different geographies:
 
-  | Region |Domain |
+  | Region Code |Domain |
   |---|---|
   | NA OR1 |downloads-na1.brand-portal.adobe.com |
   | NA VA5 |downloads-na2.brand-portal.adobe.com |
   | EMEA LON5 |downloads-emea1.brand-portal.adobe.com |
   | APAC SIN2 |downloads-apac1.brand-portal.adobe.com |
 
-* Administrator privileges are used to download IBM Aspera Connect installer package, as you cannot install Aspera Connect under the Guest account.
+## Sample download performance using file accelerator {#expected-download-performance-using-file-accelerator}
 
-### System and browser requirements {#system-and-browser-requirements}
+The following table shows download performance for 2 GB file using Aspera Connect file download accelerator:
 
-System and browser requirements for Aspera Connect 3.8.0 are as follows:
+**The observed results do vary due to factors such as network bandwidth, server latency, and client location, considering Brand Portal server is at Oregon (United States).*
 
-| ﻿OS             | OS Version                             | Browser           |       | Required Libraries       |
-|----------------|----------------------------------------|-------------------|-------|--------------------------|
-| Windows        | Windows 7, 8, 10                       | Chrome            | 64-66 |                          |
-|                | Windows Server 2008, R2, 2012 R2, 2016 | Firefox           | 57-60 |                          |
-|                |                                        | Firefox ESR       | 52    |                          |
-|                |                                        | Internet Explorer | 11    |                          |
-|                |                                        | Microsoft Edge    | 39-42 |                          |
-| MacOS          | 10.11 - 10.13                          | Chrome            | 64-66 |                          |
-|                |                                        | Firefox           | 57-60 |                          |
-|                |                                        | Firefox ESR       | 52    |                          |
-|                |                                        | Safari            | 11    |                          |
-| Linux (64-bit) | RHEL 6 – 7                             | Chrome            | 64-66 | OpenSSL 1.0.2g or higher |
-|                | CentOS 6 – 7                           |                   |       | Mesa EGL                 |
-|                | Debian 7 – 9                           |                   |       | glib2 2.28 or higher     |
-|                | SLES 11 – 12                           |                   |       |                          |
-|                | Fedora 26 – 27                         |                   |       |                          |
-|                | OpenSUSE 42.3                          | Firefox           | 57-60 |                          |
-|                | Ubuntu 14 – 17                         | Firefox ESR       | 52    |                          |
-
-For platform support matrixes of different versions of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
-
-## Expected download performance using file accelerator {#expected-download-performance-using-file-accelerator}
-
-The expected download performance for 2 GB file using Aspera Connect file download accelerator at different client locations is as follows, considering Brand Portal server at Oregon in the United States:
-
-| Client Location           | Latency between Client and Server | Speed with Aspera File Transfer Accelerator | Time taken to download 2 GB file with  Aspera File Transfer Accelerator |
+| Client location           | Latency between client and server (milliseconds) | Speed with Aspera Connect File Transfer Accelerator (MBps) | Time taken to download 2 GB file with  Aspera File Transfer Accelerator (seconds) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
-| U.S. West (N. California) | 18 milliseconds                   | 36 MB/s                                     | 57 seconds                                                              |
-| U.S. West (Oregon)        | 42 milliseconds                   | 36 MB/s                                     | 57 seconds                                                              |
-| U.S. East (N. Virginia)   | 85 milliseconds                   | 35 MB/s                                     | 58 seconds                                                              |
-| APAC (Tokyo)              | 124 milliseconds                  | 36 MB/s                                     | 57 seconds                                                              |
-| Noida                     | 275 milliseconds                  | 13.36 MB/s                                  | 153 seconds                                                             |
-| Sydney                    | 175 milliseconds                  | 29 MB/s                                     | 70 seconds                                                              |
-| London                    | 179 milliseconds                  | 35 MB/s                                     | 58 seconds                                                              |
-| Singapore                 | 196 milliseconds                  | 34 MB/s                                     | 60 seconds                                                              |
-
->[!NOTE]
->
->Cited data are as per the tests conducted in  lab  and are only indicative. Observed results vary due to factors such as network bandwidth, server latency, and client location.
+| U.S. West (N. California) | 18                   | 36                                      | 57                                                              |
+| U.S. West (Oregon)        | 42                    | 36                                     | 57                                                               |
+| U.S. East (N. Virginia)   | 85                    | 35                                      | 58                                                              |
+| APAC (Tokyo)              | 124                   | 36                                      | 57                                                               |
+| Noida (India)                    | 275                   | 13.36                                   | 153                                                              |
+| Sydney                    | 175                   | 29                                      | 70                                                               |
+| London                    | 179                   | 35                                      | 58                                                               |
+| Singapore                 | 196                  | 34                                      | 60                                                               |
 
 ## Download workflow using file accelerator {#download-workflow-using-file-accelerator}
 
 To download assets faster from Brand Portal:
 
-1. Log in to Brand Portal through a preferred browser.
+1. Log in to Brand Portal using a supported browser.
 2. Browse and select the desired asset file, folder, or collection to download. Tap/ click download option.
 Download dialog appears with [Enable download acceleration] option selected.
    ![](assets/download-assetsbp.png)
@@ -101,29 +75,29 @@ Download dialog appears with [Enable download acceleration] option selected.
 
    ![](assets/fast-download-emailchk.png)
 
-3. Tap/ click **Download**.
+3. Tap/click the **[!UICONTROL Download]** option.
 To speed up the download experience on your Brand Portal tenant account, you need to have Aspera Connect client application installed on your system.
 
 4. **Download Aspera Connect Client**
-If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **Download Latest Version**.
+If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
 
    ![](assets/aspera-not-launched.png)
 
-   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **Download Now** and follow the instructions.
+   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
 
 5. **Install Aspera Connect Client**
 To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
 
-6. Once the client is successfully installed, either refresh the browser page and initiate the download steps again or select **Restart** in asset **Download** dialog box (Step #2).
-When using Aspera Connect for the first time, the browser prompts to open the link using **IBM Aspera Connect**. To skip this dialog in future, enable **Remember my choice for FASP links**.
+6. Once the client is successfully installed, either refresh the browser page and initiate the download steps again or select **[!UICONTROL Restart]** in asset **[!UICONTROL Download]** dialog box (Step #2).
+When using Aspera Connect for the first time, the browser prompts to open the link using **[!UICONTROL IBM Aspera Connect]**. To skip this dialog in future, enable **[!UICONTROL Remember my choice for FASP links]**.
 
    >[!NOTE]
    >
    >This message is different on the different browsers.
 
-7. A dialog box confirms whether to proceed the transfer or not. Select **Allow** to begin.
-To skip this dialog in future, enable **Use my choice for all connections with this host**.
-Download begins. A dialog box shows the progress of the download. Use the dialog box to **pause**, **resume**, or **cancel** the download.
+7. A dialog box confirms whether to proceed the transfer or not. Select **[!UICONTROL Allow]** to begin.
+To skip this dialog in future, enable **[!UICONTROL Use my choice for all connections with this host]**.
+Download begins. A dialog box shows the progress of the download. Use the dialog box to **[!UICONTROL pause]**, **[!UICONTROL resume]**, or **[!UICONTROL cancel]** the download.
 Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
 
 ![](assets/aspera-activity-window.png)
@@ -132,7 +106,7 @@ On successful completion of the download, a dialog box shows the location where 
 
    >[!NOTE]
    >
-   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **Always ask me where to save downloaded files** is enabled under the tab **Transfers **within **Preferences**. Before any download begins, provide the location in the text box **Save downloaded files to**.
+   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab [!UICONTROL Transfers] within [!UICONTROL Preferences]. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 
 ## Using file accelerator on Microsoft Edge browser {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -142,14 +116,14 @@ Microsoft Edge runs in Enhanced Protected Mode (EPM) preventing communication wi
 
 To use accelerated download functionality on Microsoft Edge, remove the Brand Portal site from the trusted site list.
 
-1. Open the Control Panel (press **Window key + X**, then select **Control Panel**).
-2. Go to **Network and Internet &gt; Internet Options**. Click the **Security** tab.
-3. Click the **Trusted sites zone**, then click **Sites**.
+1. Open the Control Panel (press **[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
+2. Go to **[!UICONTROL Network and Internet &gt; Internet Options]**. Click the **[!UICONTROL Security]** tab.
+3. Click the **[!UICONTROL Trusted sites zone]**, then click **[!UICONTROL Sites]**.
 4. Remove Brand Portal site from the list.
 
 ## Aspera Connect client Preferences {#aspera-connect-client-preferences}
 
-There are a few useful preferences which can be set in IBM Aspera Connect Client preference by right clicking the icon and selecting **Preferences**.
+There are a few useful preferences which can be set in IBM Aspera Connect Client preference by right clicking the icon and selecting **[!UICONTROL Preferences]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
