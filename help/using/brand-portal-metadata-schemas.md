@@ -14,25 +14,25 @@ discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 
 A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 
-The **Properties** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. [!DNL AEM] Assets [!DNL Brand Portal] provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
+The **[!UICONTROL Properties]** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. AEM Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
 
 ## Add a metadata schema form {#add-a-metadata-schema-form}
 
 To create a new metadata schema form, do the following:
 
-1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **Metadata Schemas**.
+2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
    ![](assets/navigation-panel.png)
 
-3. On the **Metadata Schema Forms** page, click **Create**.
+3. On the **[!UICONTROL Metadata Schema Forms]** page, click **[!UICONTROL Create]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. In the **Create Schema Form** dialog box, specify the title of the Schema form, and then click **Create** to complete the form creation process.
+4. In the **[!UICONTROL Create Schema Form]** dialog box, specify the title of the Schema form, and then click **[!UICONTROL Create]** to complete the form creation process.
 
    ![](assets/create-schema-form.png)
 
@@ -44,117 +44,117 @@ You can add new tabs or form items to the metadata schema form. The derived tabs
 
 To edit a metadata schema form, do the following:
 
-1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **Metadata Schemas**.
-3. From the **Metadata Schema Forms** page, select a schema form to edit its properties, for example, **collection**.
+2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+3. From the **[!UICONTROL Metadata Schema Forms]** page, select a schema form to edit its properties, for example, **[!UICONTROL collection]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >Unedited templates display a **Lock** symbol before them. If you customize any of the templates, the **Lock** symbol before the template disappears.
+   >Unedited templates display a lock symbol before them. If you customize any of the templates, the Lock symbol before the template disappears.
 
-4. From the toolbar at the top, click **Edit**.
+4. From the toolbar at the top, click **[!UICONTROL Edit]**.
 
-   The **Metadata Schema Editor** page opens with the **Basic** tab open on the left and the **Build Form** tab open on the right.
+   The **[!UICONTROL Metadata Schema Editor]** page opens with the **[!UICONTROL Basic]** tab open on the left and the **[!UICONTROL Build Form]** tab open on the right.
 
-5. In the **Metadata Schema Editor** page, customize the **Properties** page of the asset by dragging one or more components from a list of component types in the **Build Form** tab to the **Basic** tab.
+5. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. To configure a component, select it and modify its properties in the **Settings** tab.
+6. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
 
 ### Components in the Build Form tab {#components-in-the-build-form-tab}
 
-The **Build Form** tab lists items that you can use in your schema form. The **Settings** tab provides the attributes of each item that you select in the **Build Form** tab. The following table lists the form items available in the **Build Form** tab:
+The **[!UICONTROL Build Form]** tab lists items that you can use in your schema form. The **[!UICONTROL Settings]** tab provides the attributes of each item that you select in the **[!UICONTROL Build Form]** tab. The following table lists the form items available in the **[!UICONTROL Build Form]** tab:
 
 | Component Name      | Description                                                                                                                                                                                                                                                                                |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Section Header      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
-| Single Line Text    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
-| Multi ValueText     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
-| Number              |  Add a number component.                                                                                                                                                                                                                                                                   |
-| Date                |  Add a date component.                                                                                                                                                                                                                                                                     |
-| Dropdown            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| Standard Tags       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from [!DNL AEM], where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
-| Smart Tags          |  Auto-detected tags if you have purchased and configured the [!DNL AEM] smart tags add-on.                                                                                                                                                                                                        |
-| Hidden Field        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
-| Asset Referenced By |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
-| Asset Referencing   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
-| Asset Rating        |  Average rating of an asset added from [!DNL AEM] Assets before it is published to [!DNL Brand Portal].                                                                                                                                                                                                  |
-| Contextual Metadata |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
+| [!UICONTROL Section Header]      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
+| [!UICONTROL Single Line Text]    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
+| [!UICONTROL Multi ValueText]     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
+| [!UICONTROL Number]              |  Add a number component.                                                                                                                                                                                                                                                                   |
+| [!UICONTROL Date]                |  Add a date component.                                                                                                                                                                                                                                                                     |
+| [!UICONTROL Dropdown]            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
+| [!UICONTROL Standard Tags]       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| [!UICONTROL Smart Tags]          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
+| [!UICONTROL Hidden Field]        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
+| [!UICONTROL Asset Referenced By] |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
+| [!UICONTROL Asset Referencing]   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
+| [!UICONTROL Asset Rating]        |  Average rating of an asset added from AEM Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
+| [!UICONTROL Contextual Metadata] |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
 
 >[!NOTE]
 >
->Do not use **Product References** as it is not functional.
+>Do not use **[!UICONTROL Product References]**, as it is not functional.
 
 #### Edit the metadata component {#edit-the-metadata-component}
 
-To edit the properties of a metadata component on the form, click the component and edit its properties in the **Settings** tab.
+To edit the properties of a metadata component on the form, click the component and edit its properties in the **[!UICONTROL Settings]** tab.
 
-* **Field Label**: The name of the metadata property that is displayed on the asset's Properties page.
+* **[!UICONTROL Field Label]**: The name of the metadata property that is displayed on the asset's Properties page.
 
-* **Map to Property**: The value of this property provides the relative path/name to the asset node where it is saved in the CRX repository. It starts with "**./**" because indicating that the path is under the asset's node.
+* **[!UICONTROL Map to Property]**: The value of this property provides the relative path/name to the asset node where it is saved in the CRX repository. It starts with "**./**" because indicating that the path is under the asset's node.
 
 The following are the valid values for this property:
 
--- `./jcr:content/metadata/dc:title`: Stores the value at the asset's metadata node as the property `dc:title`.
+-- [!UICONTROL `./jcr:content/metadata/dc:title`]: Stores the value at the asset's metadata node as the property [!UICONTROL `dc:title`].
 
--- `./jcr:created`: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
+-- [!UICONTROL `./jcr:created`]: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
 
-* **Placeholder**: Use this property to provide the user any relevant information regarding the metadata property.
-* **Required**: Use this property to mark a metadata property as mandatory on the Properties page.
-* **Disable Edit**: Use this property to make a metadata property uneditable on the Properties page.
-* **Show Empty Field In Read Only**: Mark this property to display a metadata property on the Properties page even if it has no value. By default, when a metadata property has no value, it is not be listed on the Properties page.
-* **Description**: Use this property to add a short description for the metadata component.
-* **Delete icon**: Click this icon to delete a component from the schema form.
+* **[!UICONTROL Placeholder]**: Use this property to provide the user any relevant information regarding the metadata property.
+* **[!UICONTROL Required]**: Use this property to mark a metadata property as mandatory on the Properties page.
+* **[!UICONTROL Disable Edit]**: Use this property to make a metadata property uneditable on the Properties page.
+* **[!UICONTROL Show Empty Field In Read Only]**: Mark this property to display a metadata property on the Properties page even if it has no value. By default, when a metadata property has no value, it is not be listed on the Properties page.
+* **[!UICONTROL Description]**: Use this property to add a short description for the metadata component.
+* **[!UICONTROL Delete icon]**: Click this icon to delete a component from the schema form.
 
 ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
->All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in [!DNL AEM] Assets before an asset is published to [!DNL Brand Portal].
+>All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in AEM Assets before an asset is published to Brand Portal.
 
 #### Add or delete a tab in the schema form {#add-or-delete-a-tab-in-the-schema-form}
 
-The default schema form includes the **Basic** and **Advanced** tabs. The schema editor lets you add or delete a tab.
+The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs. The schema editor lets you add or delete a tab.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* To add a new tab on a schema form, click **+**. By default, the new tab has the name "Unnamed-1". You can modify the name from the **Settings** tab.
+* To add a new tab on a schema form, click **[!UICONTROL +]**. By default, the new tab has the name "Unnamed-1". You can modify the name from the **[!UICONTROL Settings]** tab.
 
 ![](assets/add-tab-metadata-form.png)
 
-* To delete a tab, click **x**. Click **Save** to save the changes.
+* To delete a tab, click **[!UICONTROL x]**. Click **[!UICONTROL Save]** to save the changes.
 
 ## Apply a metadata schema to a folder {#apply-a-metadata-schema-to-a-folder}
 
-[!DNL Brand Portal] allows you to customize and control the metadata schema so that the **Properties** page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the **Properties** page, remove the required metadata from the metadata schema form and apply it to the specific folder.
+Brand Portal allows you to customize and control the metadata schema so that the [!UICONTROL Properties] page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the [!UICONTROL Properties] page, remove the required metadata from the metadata schema form and apply it to the specific folder.
 
 To apply a metadata schema form to a folder, do the following:
 
-1. From the [!DNL AEM] toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **Metadata Schemas**.
+2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
-3. From the **Metadata Schema Forms** page, select the schema form that you want to apply to an asset, for example, **clothing**.
+3. From the **[!UICONTROL Metadata Schema Forms]** page, select the schema form that you want to apply to an asset, for example, [!UICONTROL clothing].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. From the toolbar at the top, click **Apply to Folder(s)**.
+4. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
 
-5. From the **Select Folder(s)** page, navigate to the folder to which you want to apply the **clothing** metadata schema, for example, **Gloves**.
+5. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Click **Apply** to apply the metadata schema form to the folder.
+6. Click **[!UICONTROL Apply]** to apply the metadata schema form to the folder.
 
-   The metadata available in the **clothing** metadata schema form is applied to the **Gloves** folder and visible in the **Properties** page of the folder.
+   The metadata available in the **[!UICONTROL clothing]** metadata schema form is applied to the **[!UICONTROL Gloves]** folder and visible in the **[!UICONTROL Properties]** page of the folder.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -164,27 +164,27 @@ To apply a metadata schema form to a folder, do the following:
 
 ## Delete a metadata schema form {#delete-a-metadata-schema-form}
 
-[!DNL Brand Portal] lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
+Brand Portal lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
 
-To delete a form, select a form and click the **Delete** icon.
+To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
 ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >
->After you delete the custom changes made to a default form, the **Lock** symbol reappears before the form name on the Metadata Schema interface to indicate that the form is reverted to its default state.
+>After you delete the custom changes made to a default form, the **[!UICONTROL Lock]** symbol reappears before the form name on the Metadata Schema interface to indicate that the form is reverted to its default state.
 
 ## Schema forms for MIME TYPES {#schema-forms-for-mime-types}
 
 ### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
 
-In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png".
+In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **[!UICONTROL image/png]** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png".
 
 #### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
 
-You can use an existing template for a different MIME type. For example, use the **image/jpeg **form for assets of MIME type** image/png**.
+You can use an existing template for a different MIME type. For example, use the **image/jpeg** form for assets of MIME type **image/png**.
 
-In this case, create a new node at `/etc/dam/metadataeditor/mimetypemappings` in the CRX repository. Specify a name for the node and define the following properties:
+In this case, create a new node at [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] in the CRX repository. Specify a name for the node and define the following properties:
 
 | **Name** |**Type** |**Value** |
 |---|---|---|
@@ -194,7 +194,7 @@ In this case, create a new node at `/etc/dam/metadataeditor/mimetypemappings` in
 * **exposedmimetype**: Name of the existing form to be mapped 
 * **mimetypes**: List of MIME types that use the form defined in the **exposedmimetype** attribute
 
-[!DNL Brand Portal] maps the following MIME types and schema forms:
+Brand Portal maps the following MIME types and schema forms:
 
 | **Schema Form** |**MIME types** |
 |---|---|

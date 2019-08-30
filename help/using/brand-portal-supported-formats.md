@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 ---
 
-# Supported file formats{#supported-file-formats}
+# Supported file formats {#supported-file-formats}
 
 Each AEM Assets Brand Portal supports specific file formats, as indicated in the matrix.
 
@@ -78,7 +78,7 @@ The following legend explains the symbols used in the matrix:
 
 | Symbol | Meaning                                                                                                                                             |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓      | This file format supports this feature                                                                                                              |
-| ✕      | This file format does not support this feature                                                                                                      |
-| NA     | This feature is not applicable to this file format                                                                                                  |
-| *      | This feature requires add-on support for this file format on AEM author instance but not on Brand Portal after assets are published to Brand Portal |
+| ✓      | This file format supports this feature.                                                                                                              |
+| ✕      | This file format does not support this feature.                                                                                                      |
+| NA     | This feature is not applicable to this file format.                                                                                                  |
+| *      | This feature requires add-on support for this file format on AEM author instance but not on Brand Portal after assets are published to Brand Portal. |

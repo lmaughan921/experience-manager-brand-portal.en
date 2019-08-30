@@ -13,19 +13,19 @@ discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 
 # Manage digital rights of assets {#manage-digital-rights-of-assets}
 
-Ensuring secure distribution and usage of creative assets and the brand material is vital to protect your brand. This can be enforced across the organization and outside by associating an expiration date (and time) with approved assets published from [!DNL AEM] to [!DNL Brand Portal], or by licensing these assets for conditional use. Also, [!DNL Brand Portal] allows you to specify an expiration date for links to the assets shared from [!DNL Brand Portal].
+Ensuring secure distribution and usage of creative assets and the brand material is vital to protect your brand. This can be enforced across the organization and outside by associating an expiration date (and time) with approved assets published from AEM to Brand Portal, or by licensing these assets for conditional use. Also, Brand Portal allows you to specify an expiration date for links to the assets shared from Brand Portal.
 
-Read on to know how the assets are secured on [!DNL Brand Portal] and understand the associated usage permissions.
+Read on to know how the assets are secured on Brand Portal and understand the associated usage permissions.
 
 ## Asset expiration {#asset-expiration}
 
-Asset expiration is an effective way of controlling the usage of approved assets on Brand Portal across an organization. All the assets published from [!DNL AEM] Assets to Brand Portal can have an expiration date, which restricts the usage of these assets by different user roles.
+Asset expiration is an effective way of controlling the usage of approved assets on Brand Portal across an organization. All the assets published from AEM Assets to Brand Portal can have an expiration date, which restricts the usage of these assets by different user roles.
 
 ### Usage permissions related to expired assets {#usage-permissions-expired-assets}
 
-In [!DNL Brand Portal], Administrators can view, download, and add expired assets to collections. Whereas, Editors and Viewers can only view and add expired assets to collections.
+In Brand Portal, Administrators can view, download, and add expired assets to collections. Whereas, Editors and Viewers can only view and add expired assets to collections.
 
-Administrators can publish expired assets from [!DNL AEM] Assets to [!DNL Brand Portal]. However, expired assets cannot be shared via ink from [!DNL Brand Portal]. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
+Administrators can publish expired assets from AEM Assets to Brand Portal. However, expired assets cannot be shared via ink from Brand Portal. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
 
 >[!NOTE]
 >
@@ -33,12 +33,12 @@ Administrators can publish expired assets from [!DNL AEM] Assets to [!DNL Brand 
 
 The following table displays the usage permissions of expired assets:
 
-|   |**Link share** |**Download** |**Properties** |**Add to collection** |**Delete** |
+|   |**[!UICONTROL Link share]** |**[!UICONTROL Download]** |**[!UICONTROL Properties]** |**[!UICONTROL Add to collection]** |**[!UICONTROL Delete]** |
 |---|---|---|---|---|---|
-| **Administrator** |Unavailable |Available |Available |Available |Available |
-| **Editor** |Unavailable |Unavailable |Available |Available |Unavailable |
-| **Viewer** |Unavailable |Unavailable |Available |Available |Unavailable |
-| **Guest user** |Unavailable |Unavailable |Available |Available |Unavailable |
+| **[!UICONTROL Administrator]** |Unavailable |Available |Available |Available |Available |
+| **[!UICONTROL Editor]** |Unavailable |Unavailable |Available |Available |Unavailable |
+| **[!UICONTROL Viewer]** |Unavailable |Unavailable |Available |Available |Unavailable |
+| **[!UICONTROL Guest user]** |Unavailable |Unavailable |Available |Available |Unavailable |
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ The following table displays the usage permissions of expired assets:
 
 ### Expiration status of assets {#expiration-status-of-assets}
 
-You can view the expiration status of assets in their Card View. A red flag on the card indicates that the asset has expired.
+You can view the expiration status of assets in their [!UICONTROL Card View]. A red flag on the card indicates that the asset has expired.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,21 +60,21 @@ While sharing assets through links, Administrators and Editors can set a date an
 
 ![](assets/asset-link-sharing.png)
 
-It ensures that assets shared as links expire at the date and time set by [!DNL Brand Portal] Administrators and Editors, and can no longer be viewed and downloaded beyond the expiration date. As the assets shared through links can also be viewed by external users who are not part of the organization, by specifying expiration you can make sure that your approved assets are protected and not exposed to unknown entities beyond a specified time.
+It ensures that assets shared as links expire at the date and time set by Brand Portal Administrators and Editors, and can no longer be viewed and downloaded beyond the expiration date. As the assets shared through links can also be viewed by external users who are not part of the organization, by specifying expiration you can make sure that your approved assets are protected and not exposed to unknown entities beyond a specified time.
 
 For more information about link sharing, refer to [Share assets as a link](../using/brand-portal-link-share.md).
 
 ## Licensed Assets {#licensed-assets}
 
-Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from [!DNL Brand Portal] or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM] Assets.
+License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
 If you choose to download license-protected asset(s), you are redirected to [!UICONTROL Copyright Management] page.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Here you need to select the asset to download and accept the associated license agreement. If you do not accept the license agreement, the **[!UICONTROL Download]** button is not enabled.
+Here you need to select the asset to download and accept the associated license agreement. If you do not accept the license agreement, the [!UICONTROL Download] button is not enabled.
 
 ![](assets/licensed-asset-download-2.png)
 

@@ -19,8 +19,8 @@ Assets need to be published to Brand Portal from a pre-configured AEM Author ins
 The following describes the folder share workflow and user access:
 
 * By default, all the folders published from AEM Assets to Brand Portal are visible only to the Brand Portal Administrator, unless marked as public while configuring replication.
-* The Administrator uses the **Folder Properties** console to share a folder with selective users or groups. Only those users or groups with whom the folder is shared can see the folder after they log in to Brand Portal. The folder is not visible to other users.
-* The Administrator can also choose to make a folder public through the **Public Folder** check box in the **Folder Properties** console. A public folder is visible to all the users.
+* The Administrator uses the [!UICONTROL Folder Properties] console to share a folder with selective users or groups. Only those users or groups with whom the folder is shared can see the folder after they log in to Brand Portal. The folder is not visible to other users.
+* The Administrator can also choose to make a folder public through the [!UICONTROL Public Folder] check box in the [!UICONTROL Folder Properties] console. A public folder is visible to all the users.
 
 * Irrespective of user roles and privileges, when users log in to Brand Portal, they see all the public folders, and the folders directly shared with them or with a group to which they belong. Private folders, or folders shared with other users, are not visible to all users.
 
@@ -32,19 +32,19 @@ Similarly, user groups (or users) having permissions to access only folder B hav
 
 ### Public folder publish {#public-folder-publish}
 
-Unless the **Public Folder Publish** option is selected while configuring Brand Portal replication, non-admin users (such as Editors and Viewers) do not have access to assets published from AEM Assets to Brand Portal.
+Unless the [!UICONTROL Public Folder Publish] option is selected while configuring Brand Portal replication, non-admin users (such as Editors and Viewers) do not have access to assets published from AEM Assets to Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-If the **Public Folder Publish** option is disabled, administrators need to specifically share these assets with non-admin users using share capability.
+If the [!UICONTROL Public Folder Publish] option is disabled, administrators need to specifically share these assets with non-admin users using share capability.
 
 >[!NOTE]
 >
->The option to enable **Public Folder Publish** is available in AEM 6.3.2.1 onwards.
+>The option to enable [!UICONTROL Public Folder Publish] is available in AEM 6.3.2.1 onwards.
 
 ## Access to shared folders {#access-to-shared-folders}
 
-The following matrix discusses the access rights and rights to share/unshare assets for various user roles:  
+The following matrix discusses the access rights and rights to share/ unshare assets for various user roles:  
 
 |               | Access to all folders published from AEM Assets to Brand Portal | Access to shared folders | Share/unshare folder rights |
 |---------------|-----------|-----------|------------|
@@ -53,11 +53,11 @@ The following matrix discusses the access rights and rights to share/unshare ass
 | Viewer | No* | Yes, only if shared with them or with the group to which they belong | No |
 | Guest User | No* | Yes, only if shared with them or with the group to which they belong | No |
 
-*&#42;By default, the **Public Folder Publish** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
+*&#42;By default, the [!UICONTROL Public Folder Publish] option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
 
 ### Non-admin user access to shared folders {#non-admin-user-access-to-shared-folders}
 
-Non-admin users can access only the folders shared with them on Brand Portal. However, how these folders are displayed on the portal when they log in depends on the settings of Enable Folder Hierarchy configuration.
+Non-admin users can access only the folders shared with them on Brand Portal. However, how these folders are displayed on the portal when they log in depends on the settings of [!UICONTROL Enable Folder Hierarchy] configuration.
 
 **If the configuration is disabled**
 
@@ -71,7 +71,7 @@ Non-admin users see the folder tree (starting from the root folder) and the shar
 
 These parent folders are the virtual folders and no actions can be performed on them. You can recognize these virtual folders with a lock icon.
 
-No action tasks are visible on hovering or selecting them in Card View, unlike the shared folders. Overview button is shown on selecting a virtual folder in Column View and List View.
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Overview] button is shown on selecting a virtual folder in [!UICONTROL Column View] and [!UICONTROL List View].
 
 >[!NOTE]
 >
@@ -83,11 +83,11 @@ No action tasks are visible on hovering or selecting them in Card View, unlike t
 
 To share a folder with users on Brand Portal, follow these steps:
 
-1. Click the overlay icon on the left, and choose **Navigation**.
+1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
 
    ![](assets/selectorrail.png)
 
-2. From the siderail on the left, select **Files**.
+2. From the siderail on the left, select **[!UICONTROL Files]**.
 
    ![](assets/access_files.png)
 
@@ -95,26 +95,26 @@ To share a folder with users on Brand Portal, follow these steps:
 
    ![](assets/share-folders.png)
 
-4. From the toolbar at the top, select **Share**.
+4. From the toolbar at the top, select **[!UICONTROL Share]**.
 
    ![](assets/share_icon.png)
 
-   The **Folder Properties** console appears.
+   The [!UICONTROL Folder Properties] console appears.
 
    ![](assets/folder_properties.png)
 
-5. In the **Folder Properties** console, specify the folder title in the **Folder Title** field if you do not want the default name to be displayed to users.
-6. From the **Add User** list, select the users or groups with which you want to share the folder, and click **Add**.
-To share the folder with guest users only, and no other users, select **Anonymous Users** from the **Members** dropdown.
+5. In the [!UICONTROL Folder Properties] console, specify the folder title in the [!UICONTROL Folder Title] field if you do not want the default name to be displayed to users.
+6. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
+To share the folder with guest users only, and no other users, select **[!UICONTROL Anonymous Users]** from the [!UICONTROL Members] dropdown.
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >To make the folder available to all users irrespective of their group membership and role, make it public by selecting the **Public Folder** check box.
+   >To make the folder available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Folder]** check box.
 
-7. If necessary, click **Change Thumbnail** to modify the thumbnail image for the folder.
-8. Click **Save**.
+7. If necessary, click **[!UICONTROL Change Thumbnail]** to modify the thumbnail image for the folder.
+8. Click **[!UICONTROL Save]**.
 9. To access the shared folder, log in to Brand Portal with the credentials of the user you shared the folder with. Review the shared folder in the interface.
 
 ## Unshare folders {#unshare-the-folders}
@@ -125,12 +125,12 @@ To unshare a previously shared folder, follow these steps:
 
    ![](assets/share-folders-1.png)
 
-2. From the toolbar at the top, click **Share**.
-3. In the **Folder Properties** console, under **Members**, click the **x** symbol next to a user to remove them from the list of users you shared the folder with.
+2. From the toolbar at the top, click **[!UICONTROL Share]**.
+3. In the [!UICONTROL Folder Properties] console, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to a user to remove them from the list of users you shared the folder with.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. In the warning message box, click **Confirm** to confirm unshare.
-Click **Save**.
+4. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
+Click **[!UICONTROL Save]**.
 
 5. Log in to Brand Portal with the credentials of the user you removed from the shared list. The folder is no longer available in the Brand Portal interface for the user.

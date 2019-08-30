@@ -12,73 +12,73 @@ discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 
 # Publish tags to Brand Portal {#publish-tags-to-brand-portal}
 
-Learn how to publish tags from [!DNL AEM] Assets to [!DNL Brand Portal].
+Learn how to publish tags from AEM Assets to Brand Portal.
 
-Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in [!DNL AEM] Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-Tags (associated with assets and collections in [!DNL AEM]) are auto-published to [!DNL Brand Portal] when the assets (and collections) with associated tags are published to [!DNL Brand Portal]. The published tags are helpful in enabling the searches to find the associated assets.
+Tags (associated with assets and collections in AEM) are auto-published to Brand Portal when the assets (and collections) with associated tags are published to Brand Portal. The published tags are helpful in enabling the searches to find the associated assets.
 
 >[!NOTE]
 >
->It is, however, recommended to exclusively publish tags to [!DNL Brand Portal] before publishing the assets (and collections) with which the tags are associated. This ensures faster publishing of the assets (and collections) to [!DNL Brand Portal].
+>It is, however, recommended to exclusively publish tags to Brand Portal before publishing the assets (and collections) with which the tags are associated. This ensures faster publishing of the assets (and collections) to Brand Portal.
 
 ## Manage tags {#manage-tags}
 
-You can use the pre-existing tags to attach to an asset or create new tags from [!DNL AEM] Tags console (**Tools | Tagging | [!DNL AEM] Tags**). In both the scenarios you must first publish the tags to [!DNL Brand Portal] and then associate them with appropriate assets.
+You can use the pre-existing tags to attach to an asset or create new tags from AEM Tags console (**[!UICONTROL Tools | Tagging | AEM Tags]**). In both the scenarios you must first publish the tags to Brand Portal and then associate them with appropriate assets.
 
-To create tags on [!DNL AEM], publish the tags on [!DNL Brand Portal], and associate the tags with appropriate assets (or collections), follow these steps:
+To create tags on AEM, publish the tags on Brand Portal, and associate the tags with appropriate assets (or collections), follow these steps:
 
 1. **Create Tags**
-Sign in to [!DNL AEM] Author instance with administrative privileges, and access **[!DNL AEM] Tags** console from global navigation:
+Sign in to AEM Author instance with administrative privileges, and access **[!UICONTROL AEM Tags]** console from global navigation:
 
-   1. Select **Tools**
+   1. Select **[!UICONTROL Tools]**
 
-   2. Select **General**
+   2. Select **[!UICONTROL General]**
 
-   3. Select **Tagging**
+   3. Select **[!UICONTROL Tagging]**
 
-2. Select **Create** and then select **Create Tag** option.
+2. Select **[!UICONTROL Create]** and then select **[!UICONTROL Create Tag]** option.
 3. Specify:
 
-    * **Title**
+    * **[!UICONTROL Title]**
       *(required)* A display title for the tag.
-    * **Name**
+    * **[!UICONTROL Name]**
       *(required)* A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
     * **Description**
       *(optional)* A description of the tag.
     * **Tag Path**
       JCR path of the tag.
 
-4. Select **Submit** to create the tag.
+4. Select **[!UICONTROL Submit]** to create the tag.
 
-   Once you have created a tag on [!DNL AEM] instance, the tag will be available to be attached to an asset (using Properties section or Manage Tags section of that asset).
+   Once you have created a tag on AEM instance, the tag will be available to be attached to an asset (using Properties section or Manage Tags section of that asset).
 
-5. **Publish the tag to [!DNL Brand Portal]**.
+5. **Publish the tag to Brand Portal**.
 
-   Go to **[!DNL AEM] Tags** console (Tools | Tagging | [!DNL AEM] Tags), select the desired tag and Publish to **[!DNL Brand Portal]**.
+   Go to **[!UICONTROL AEM Tags]** console ([!UICONTROL Tools | Tagging | AEM Tags]), select the desired tag and Publish to Brand Portal.
 
 6. **Attach the tag to an asset (or collection)**.
 
-   Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in [!DNL AEM] Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-7. **Publish assets (or collections) to [!DNL Brand Portal]**.  
-   When you publish an asset (or collection) to [!DNL Brand Portal], the attached tag is also available on [!DNL Brand Portal].
+7. **Publish assets (or collections) to Brand Portal**.  
+   When you publish an asset (or collection) to Brand Portal, the attached tag is also available on Brand Portal.
 
-   To see the attached tag on the respective asset (or collection) in [!DNL Brand Portal], log in to [!DNL Brand Portal] and select the asset, under Properties section you will see the attached Tag.
+   To see the attached tag on the respective asset (or collection) in Brand Portal, log in to Brand Portal and select the asset, under Properties section you will see the attached Tag.
 
 ## Search Promote {#search-promote}
 
-[!DNL AEM] Assets [!DNL Brand Portal] allows you to make specific assets come as the top results for searches based on a keyword tag.
+AEM Assets Brand Portal allows you to make specific assets come as the top results for searches based on a keyword tag.
 
 To elevate an asset for a search keyword, follow these steps:
 
-1. Open the **Properties** page of an asset on [!DNL AEM] author instance.
-2. Go to **Advanced** tab.
-3. In **Search Promote** within **Elevate for search keywords** section, select **Add** to add the search keywords or tags.
+1. Open the **[!UICONTROL Properties]** page of an asset on AEM author instance.
+2. Go to **[!UICONTROL Advanced]** tab.
+3. In **[!UICONTROL Search Promote]** within **[!UICONTROL Elevate for search keywords]** section, select **[!UICONTROL Add]** to add the search keywords or tags.
 
    ![](assets/search-promote.png)
 
 4. Save the changes.
-5. Publish the asset to [!DNL Brand Portal].
-6. Log in to [!DNL Brand Portal]. View **Advanced** tab in **Properties** section of the asset.
-Note that the **Search Promote** keyword is also visible in the Properties of that asset.
+5. Publish the asset to Brand Portal.
+6. Log in to Brand Portal. View **[!UICONTROL Advanced]** tab in **[!UICONTROL Properties]** section of the asset.
+Note that the **[!UICONTROL Search Promote]** keyword is also visible in the Properties of that asset.

@@ -17,45 +17,46 @@ AEM Assets Brand Portal Administrators can share and unshare a collection or a s
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and, therefore, do not have **Public Collection** check box available in **Collection Settings** dialog.
+>Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] checkbox available in [!UICONTROL Collection Settings] dialog.
 
 ## Share a collection {#share-collection}
 
 To share a collection, follow these steps:
 
-1. Click the overlay icon on the left, and choose **Navigation**.
+1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
 
    ![](assets/contenttree-1.png)
 
-1. From the siderail on the left, click **Collections**. 
+2. From the siderail on the left, click **[!UICONTROL Collections]**.
 
    ![](assets/access_collections.png)
 
-1. From the **Collections** console, do one of the following:
+3. From the **[!UICONTROL Collections]** console, do one of the following:
 
-    * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **Settings** icon.
+    * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
 
    ![](assets/settings_thumbnail.png)
 
-    * Select the collection you want to share. From the toolbar at the top, click **Settings**.
+    * Select the collection you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
+
 
    ![](assets/collection-sharing.png)
 
-1. In the **Collection Settings** dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
+4. In the [!UICONTROL Collection Settings] dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
 
-   Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **Public Collection** check box.
+   Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
 
    >[!NOTE]
    >
-   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **Allow public collections creation** configuration from **General** settings available in admin tools panel.
+   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **[!UICONTROL Allow public collections creation]** configuration from [!UICONTROL General] settings available in admin tools panel.
 
    ![](assets/collection_sharingadduser.png)
 
-   Editors cannot change a public collection to a non-public collection and, therefore, do not have **Public Collection** check box available in **Collection Settings** dialog.
+   Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] check-box available in [!UICONTROL Collection Settings] dialog.
 
    ![](assets/collection-setting-editor.png)
 
-1. Click **Add**, and then **Save**. The collection is shared with the chosen users.
+5. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. The collection is shared with the chosen users.
 
    >[!NOTE]
    >
@@ -65,18 +66,18 @@ To share a collection, follow these steps:
 
 To unshare a previously shared collection, do the following:
 
-1. From the **Collections** console, select the collection you want to unshare.
+1. From the [!UICONTROL Collections] console, select the collection you want to unshare.
 
-   In the toolbar, click **Settings**.
+   In the toolbar, click **[!UICONTROL Settings]**.
 
    ![](assets/collection_settings.png)
 
-1. On the **Collection Settings** dialog box, under **Members**, click the **x** symbol next to users or groups to remove them from the list of users you shared the collection with.
+2. On the [!UICONTROL Collection Settings] dialog box, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
 
    ![](assets/unshare_collection.png)
 
-1. In the warning message box, click **Confirm** to confirm unshare.
+3. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
 
-   Click **Save**.
+   Click **[!UICONTROL Save]**.
 
-1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **Collections** console.
+4. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **[!UICONTROL Collections]** console.
