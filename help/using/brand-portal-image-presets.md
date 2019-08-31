@@ -38,8 +38,6 @@ Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyr
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-   ![](assets/AEMlogo.png)
-
 2. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 
    ![](assets/admin-tools-panel-4.png)
