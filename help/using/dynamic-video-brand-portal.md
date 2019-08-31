@@ -110,12 +110,9 @@ To set up Dynamic Media configurations on Brand Portal tenants:
 
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
 
-2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.
-
+2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.<br />
 ![Dynamic Media Hybrid Config on Brand Portal](assets/DMHybrid-Video.png)
-
-**[!UICONTROL Edit Dynamic Media Configuration]** page opens.
-
+**[!UICONTROL Edit Dynamic Media Configuration]** page opens.<br />
 ![Dynamic Media Hybrid Configuration on Brand Portal](assets/edit-dynamic-media-config.png)
 
 3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Make sure these details are the same as those in **[!UICONTROL Tools &gt; Cloud Services]** in your AEM Author instance.
@@ -130,11 +127,9 @@ To set up Dynamic Media [!UICONTROL Scene 7] configurations on Brand Portal tena
 
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
 
-2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.
+2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.<br />
 ![DM [!UICONTROL Scene 7] configuration on Brand Portal](assets/DMS7-Tile.png)
-
-[!UICONTROL Edit Dynamic Media Configuration] page opens.
-
+[!UICONTROL Edit Dynamic Media Configuration] page opens.<br />
 ![Scene 7 Configuration on Brand Portal](assets/S7Config.png)
 
 3. Provide:  
