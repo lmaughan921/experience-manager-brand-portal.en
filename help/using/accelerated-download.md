@@ -27,7 +27,7 @@ If enabled, Brand Portal users can significantly reduce the time taken to downlo
 
 To download the files faster, ensure the following:
 
-* **[!UICONTROL Enable Download Acceleration]** (disabled by default) from [!UICONTROL General Settings] in the administrative tools panel.
+* **[!UICONTROL Enable Download Acceleration]** (which is disabled by default) from [!UICONTROL General Settings] in the administrative tools panel.
 * Port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
 * Install Aspera Connect using Administrator privileges.
 * For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
