@@ -45,7 +45,7 @@ This release of Brand Portal includes the following new features:
 
 * **Asset sourcing in Brand Portal**: The Brand Portal users having permission to access the asset contribution folder can upload assets in the NEW folder from the Brand Portal instance without having to access the AEM environment.
 
-* **Publish assets from Brand Portal to AEM (DAM)**: The Brand Portal users can publish the uploaded assets (root folder) from Brand Portal to AEM. The ingestion takes place in real-time and reflect assets in the AEM environment.
+* **Publish assets from Brand Portal to AEM Assets**: The Brand Portal users can publish the uploaded assets (root folder) from Brand Portal to AEM. The ingestion takes place in real-time and reflect assets in the AEM environment.
 
 * **View, search, and download assets**: The Brand Portal users having permission to access the asset contribution folder can view, search, and download the assets shared by other users.
 
