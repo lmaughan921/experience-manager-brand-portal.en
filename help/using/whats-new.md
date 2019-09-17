@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 6.4.4.
-seo-description: Take a look at the new features and enhancements for 6.4.4.
+description: Take a look at the new features and enhancements for 6.4.5.
+seo-description: Take a look at the new features and enhancements for 6.4.5.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -15,7 +15,48 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
-## What changed in 6.4.4 {#what-is-changing-in}
+## What changed in 6.4.5 {#what-changed-in-645}
+
+Brand Portal 6.4.5 release focuses on providing asset sourcing as a cloud service. It provides a collaborative platform for the external agencies/teams (Brand Portal users) to upload and publish assets from Brand Portal to AEM Assets (DAM) without having to access the AEM authoring environment. The feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally. Assets can now be published from AEM as well as from Brand Portal. Along with this, the external users can view the assets shared by others, search, and download the assets in the asset repository.
+
+When an asset contribution folder is created in AEM, an internal workflow triggers which creates two sub folders namely – NEW and SHARED in the root folder. The Brand Portal users can upload assets only to the NEW folder and publish to AEM. Whereas the administrators/editors can upload assets to both NEW and SHARED folder from AEM or Brand Portal and publish the root folder. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+![](assets/asset-sourcing.png)
+
+### Upload assets to Brand Portal {#upload-assets-to-bp}
+The Brand Portal users can access the asset contribution root folder via the URL provided in the email and view all the assets in both NEW and SHARED folder. The Brand Portal users can upload assets only to the NEW folder and publish to AEM.
+
+![](assets/upload-asset6.png)
+
+The user can upload multiple assets or folder containing multiple assets in the NEW folder.
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Once the assets are uploaded in the NEW folder, the Brand Portal user cannot delete any asset.
+
+### Publish assets to AEM (DAM) {#publish-assets-to-aem}
+After uploading the assets in the NEW folder, the Brand Portal user publishes the asset sourcing root folder to AEM. By doing so, these assets get reflected in the AEM environment. And all the Brand Portal users having access to the asset sourcing root folder can perform various operations such as, search, view, and download the assets. The administrators/editors can further share these assets, modify the asset properties, and add them to collections.
+
+![](assets/upload-asset5.png)
+
+### Configurations in AEM {#configurations-in-aem}
+New configurations are introduced for the AEM administrators/editors to support the Asset Sourcing feature at tenant level.
+* **Enable/Disable Asset Sourcing feature**
+Administrator can enable or disable the feature on Brand Portal instance.
+
+* **Add/Upload/Modify Brand Portal user list**
+Administrator can upload a user configuration file to make available list of Brand Portal users/groups. 
+
+* **Configure asset contribution folder**
+Administrators/editors can create folder for asset contribution and assign permission by adding users/groups from the Brand Portal users list.
+
+>[!NOTE]
+>
+>Maximum upload limit for any Brand Portal account/tenant is 10 GB.
+
+## What changed in 6.4.4 {#what-changed-in-644}
 
 Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 

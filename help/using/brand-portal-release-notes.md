@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 and Brand Portal 6.4.4.7 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 and Brand Portal 6.4.4.7 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 topic-tags: brand-portal
@@ -12,34 +12,51 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 
 # Release Notes {#release-notes}
 
-Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.4.6 and Brand Portal 6.4.4.7 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.4.6 and 6.4.4.7 |
-| Date | August 2019 |
+| Version | 6.4.5|
+| Date | September 2019 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 6.4.4.7 {#what-s-new-in-6447}
+## What's New in 6.4.5 {#what-s-new-in-645}
 
-### Critical Issues Fixed {#critical-issues-fixed-6447}
+### New Features {#new-features-645}
 
-This release includes fix to the following critical issue:
+This release of Brand Portal includes the following new features:
 
-* Optimize User Sync process to prevent concurrent execution.
+**New features in AEM**
 
-## What's New in 6.4.4.6 {#what-s-new-in-6446}
+* **Enable/Disable Asset Sourcing feature** 
+Administrators can enable or disable the asset sourcing flag for a Brand Portal instance from AEM.
 
-### Critical Issues Fixed {#critical-issues-fixed-6446}
+* **Configure asset contribution folder** 
+Administrators/editors can create folder for asset contribution and assign permission by adding users/groups from the Brand Portal users list.
 
-This release includes fix to the following critical issue:
+* **User management in asset sourcing** 
+Administrators/editors can add or modify the list of users who can access the asset contribution folder and upload assets.
 
-* Performance optimizations for download report generation.
+* **Manage assets** 
+Administrators/editors can edit the asset properties, share the assets with other Brand Portal users, and create collections as and when required.
+
+**New features in Brand Portal**
+
+* **Asset sourcing in Brand Portal** 
+The Brand Portal users having permission to access the asset contribution folder can upload assets in the NEW folder from the Brand Portal instance without having to access the AEM environment.
+
+* **Publish assets from Brand Portal to AEM (DAM)** 
+The Brand Portal users can publish the uploaded assets (root folder) from Brand Portal to AEM. The ingestion takes place in real-time and reflect assets in the AEM environment.
+
+* **View, search, and download assets** 
+The Brand Portal users having permission to access the asset contribution folder can view, search, and download the assets shared by other users.
+
+For more information, see [What’s New in Brand Portal 6.4.5](whats-new.md).
 
 ## Languages {#languages}
 
