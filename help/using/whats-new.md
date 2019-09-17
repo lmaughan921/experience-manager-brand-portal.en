@@ -17,36 +17,39 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.5 {#what-changed-in-645}
 
-Brand Portal 6.4.5 release focuses on providing asset sourcing as a cloud service. It provides a collaborative platform for the external agencies/teams (Brand Portal users) to upload and publish assets from Brand Portal to AEM Assets (DAM) without having to access the AEM authoring environment. The feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally. Assets can now be published from AEM as well as from Brand Portal. Along with this, the external users can view the assets shared by others, search, and download the assets in the asset repository.
+Brand Portal 6.4.5 release focuses on providing asset sourcing as a cloud service. It provides a collaborative platform for the external agencies/teams (Brand Portal users) to upload and publish assets from Brand Portal to AEM Assets without having to access the AEM authoring environment. The feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally. Assets can now be published from AEM as well as from Brand Portal. Along with this, the external users can view the assets shared by others, search, and download the assets from the asset repository.
 
-When an asset contribution folder is created in AEM, an internal workflow triggers which creates two sub folders namely – NEW and SHARED in the root folder. The Brand Portal users can upload assets only to the NEW folder and publish to AEM. Whereas the administrators/editors can upload assets to both NEW and SHARED folder from AEM or Brand Portal and publish the root folder. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+AEM administrators can create asset contribution folders and assign permissions to the Brand Portal users to access and upload/publish assets. When an asset contribution folder is created in AEM, an internal workflow triggers which creates two sub folders namely – NEW and SHARED in the root folder. The Brand Portal users can upload assets only to the NEW folder and publish to AEM. Whereas, the administrators/editors can upload assets to both NEW and SHARED folder from AEM or Brand Portal and publish the root folder. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ![](assets/asset-sourcing.png)
 
-### Upload assets to Brand Portal {#upload-assets-to-bp}
-The Brand Portal users can access the asset contribution root folder via the URL provided in the email and view all the assets in both NEW and SHARED folder. The Brand Portal users can upload assets only to the NEW folder and publish to AEM.
+### Upload assets to Brand Portal {#upload-assets-to-bp} 
+
+Brand Portal users who have permission to access the asset contribution root folder can view all the assets in both NEW and SHARED folder. However, they can upload assets only to the NEW folder and publish to AEM.
 
 ![](assets/upload-asset6.png)
 
-The user can upload multiple assets or folder containing multiple assets in the NEW folder.
+A user can upload multiple assets or folder containing multiple assets in the NEW folder.
 
 ![](assets/upload-asset4.png)
 
 >[!NOTE]
 >
->Once the assets are uploaded in the NEW folder, the Brand Portal user cannot delete any asset.
+>Brand Portal users do not have permission to delete an uploaded asset.
 
-### Publish assets to AEM (DAM) {#publish-assets-to-aem}
+### Publish assets to AEM Assets {#publish-assets-to-aem}
+
 After uploading the assets in the NEW folder, the Brand Portal user publishes the asset sourcing root folder to AEM. By doing so, these assets get reflected in the AEM environment. And all the Brand Portal users having access to the asset sourcing root folder can perform various operations such as, search, view, and download the assets. The administrators/editors can further share these assets, modify the asset properties, and add them to collections.
 
 ![](assets/upload-asset5.png)
 
 ### Configurations in AEM {#configurations-in-aem}
-New configurations are introduced for the AEM administrators/editors to support the Asset Sourcing feature at tenant level.
-* **Enable/Disable Asset Sourcing feature**
-Administrator can enable or disable the feature on Brand Portal instance.
 
-* **Add/Upload/Modify Brand Portal user list**
+New configurations are introduced for the AEM administrators/editors to support the Asset Sourcing feature at tenant level.
+* **Enable/disable Asset Sourcing feature**
+Administrator can enable or disable the feature on a Brand Portal instance.
+
+* **Add/upload/modify Brand Portal user list**
 Administrator can upload a user configuration file to make available list of Brand Portal users/groups. 
 
 * **Configure asset contribution folder**
