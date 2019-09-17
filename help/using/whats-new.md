@@ -46,14 +46,11 @@ After uploading the assets in the NEW folder, the Brand Portal user publishes th
 ### Configurations in AEM {#configurations-in-aem}
 
 New configurations are introduced for the AEM administrators/editors to support the Asset Sourcing feature at tenant level.
-* **Enable/disable Asset Sourcing feature**
-Administrator can enable or disable the feature on a Brand Portal instance.
+* **Enable/disable Asset Sourcing feature**: Administrator can enable or disable the feature on a Brand Portal instance.
 
-* **Add/upload/modify Brand Portal user list**
-Administrator can upload a user configuration file to make available list of Brand Portal users/groups. 
+* **Add/upload/modify Brand Portal user list**: Administrator can upload a user configuration file to make available list of Brand Portal users/groups. 
 
-* **Configure asset contribution folder**
-Administrators/editors can create folder for asset contribution and assign permission by adding users/groups from the Brand Portal users list.
+* **Configure asset contribution folder**: Administrators/editors can create folder for asset contribution and assign permission by adding users/groups from the Brand Portal users list.
 
 >[!NOTE]
 >
