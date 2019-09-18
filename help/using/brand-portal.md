@@ -135,7 +135,8 @@ To request access, do the following:
     **Scenario 1**
     1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
     The [!UICONTROL Sign in] page opens.
-    2. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.
+    2. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.<br />
+
     ![Adobe sign in](assets/bplogin_request_access_3.png)
 
    You are redirected to the [!UICONTROL Request Access] page.
@@ -145,7 +146,8 @@ To request access, do the following:
     2. Click **[!UICONTROL Get an Adobe ID]**.
     The [!UICONTROL Sign up] page opens.
     3. Enter your first and last name, email ID, and password. 
-    4. Select **[!UICONTROL Sign up]**.
+    4. Select **[!UICONTROL Sign up]**.<br />
+    
    ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the [!UICONTROL Request Access] page.

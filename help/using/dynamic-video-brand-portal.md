@@ -81,6 +81,7 @@ To ensure that your dynamic video assets are successfully previewed, played, and
 ### Separate tenants for Dynamic Media Hybrid and Dynamic Media Scene 7 modes {#separate-tenants}
 
 If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.
+
 ![Author and BP one to one mapping](assets/BPDynamicMedia.png)
 
 ### Same configuration details at AEM Author instance and Brand Portal
