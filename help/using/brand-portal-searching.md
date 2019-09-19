@@ -23,7 +23,7 @@ To search for assets on Brand Portal:
 
    ![](assets/omnisearchicon-1.png)
 
-2. In the search box, type a keyword for the assets you want to search.
+1. In the search box, type a keyword for the assets you want to search.
 
    ![](assets/omnisearch.png)
 
@@ -31,7 +31,7 @@ To search for assets on Brand Portal:
    >
    >At least 3 characters are required in omnisearch for search suggestions to appear.
 
-3. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
+1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 
    ![](assets/assets-search-result.png)
 
