@@ -19,7 +19,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 Brand Portal 6.4.5 is a feature release that focuses on providing a collaborative platform for the active Brand Portal users (external agencies/teams) to upload assets in Brand Portal and publish them to AEM Assets without having to access the AEM authoring environment. The feature is named as **Asset Sourcing in Brand Portal**. This feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally.
 
-**Asset Sourcing in Brand Portal**
+### Asset Sourcing in Brand Portal {#asset-sourcing-in-bp}
 
 The Asset Sourcing feature allows AEM administrators to create new folders with an additional property named–**Asset Contribution**. The new folder created is called as an *Asset Contribution* a.k.a. *Contribution* folder. When a contribution folder is created in AEM, an internal workflow triggers which further creates two sub folders under the contribution folder namely–NEW and SHARED.
 
@@ -33,7 +33,7 @@ The existing functionality remains in-place, the Brand Portal users can view, se
 
 >[!NOTE]
 >
->Maximum upload limit for any Brand Portal account/tenant is 10 GB.
+>Maximum upload limit for any Brand Portal account/tenant is **10** GB.
 
 
 
