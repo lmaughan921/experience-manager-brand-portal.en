@@ -39,25 +39,25 @@ In order to use the Asset Sourcing feature, following capabilities are available
 
 **Capabilities in AEM**
 
-* **Enable/Disable Asset Sourcing feature flag**: Administrators can enable or disable the asset sourcing flag on a Brand Portal instance as and when required.
+* **Enable Asset Sourcing feature flag**: Administrators can enable the Asset Sourcing flag in AEM Configuration Manager to enable the feature.
 
 * **Create and share contribution folder**: Administrators/editors can create new folders with property—Asset Contribution and share it with the active Brand Portal users for contribution.
 
 * **Pulse/email notifications**: Administrators receive notifications whenever a contribution folder is published from Brand Portal and on completion of the import job.
 
-* **View job status**: Administrators/editors can view the status (queued/complete/fail) of the import job.
+* **View job status**: Administrators/editors can view the status (Queued/In-progress/Success) of the import job.
 
 **Capabilities in Brand Portal**
 
 * **Pulse/email notifications**: Brand Portal users receive notifications whenever a contribution folder is shared with them, on publishing the contribution folder to AEM, and completion of the publish job.
 
-* **Download requirements**: Brand Portal users can download the baseline assets from the **SHARED** folder and brief document attached to the contribution folder to understand the project requirement.
+* **Download project requirement**: Brand Portal users can download the baseline assets from the **SHARED** folder and brief document attached to the contribution folder to understand the project requirement.
 
 * **Upload assets in Brand Portal**: Brand Portal users can access the contribution folder and upload assets (files/folders) in the **NEW** folder.
 
 * **Publish contribution folder to AEM Assets**: Brand Portal users manually publishes the contribution folder to AEM. The ingestion takes place in real-time and reflects the imported assets in AEM Assets.
 
-* **View job status**: Brand Portal administrators can view the status (queued/complete/fail) of the publish job.
+* **View job status**: Brand Portal administrators can view the status (Queued/In-progress/Success) of the publish job.
 
 For more information, see [What’s New in Brand Portal 6.4.5](whats-new.md).
 

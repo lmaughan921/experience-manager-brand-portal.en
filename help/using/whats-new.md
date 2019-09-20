@@ -23,7 +23,7 @@ Brand Portal 6.4.5 is a feature release that focuses on providing a collaborativ
 
 The Asset Sourcing feature allows AEM administrators to create new folders with an additional property named–**Asset Contribution**. The new folder created is called as an *Asset Contribution* a.k.a. *Contribution* folder. When a contribution folder is created in AEM, an internal workflow triggers which further creates two sub folders under the contribution folder namely–NEW and SHARED.
 
-AEM administrator defines the requirement by uploading a brief about the contribution folder, upload baseline asset in the **SHARED** folder for reference, assign active Brand Portal users to access the contribution folder, and publishes the contribution folder to Brand Portal. Once the contribution folder is published, the Brand Portal users having access can login to their Brand Portal instance and begin contributing by uploading content/assets (files or folders) under the **NEW** folder.After uploading all the content, the Brand Portal users manually publishes the contribution folder to AEM. It may take few mins to import and reflect the published content/assets in AEM Assets.
+AEM administrator defines the requirement by uploading a brief about the contribution folder, upload baseline asset in the **SHARED** folder for reference, assign active Brand Portal users to access the contribution folder, and publishes the contribution folder to Brand Portal. Once the contribution folder is published, the Brand Portal users having access to the contribution folder can login to their Brand Portal instance and begin contributing by uploading content/assets (files or folders) under the **NEW** folder. After uploading all the content, the Brand Portal users manually publishes the contribution folder to AEM. It may take few mins to import and reflect the published content/assets in AEM Assets.
 
 The existing functionality remains in-place, the Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
@@ -55,7 +55,7 @@ The Brand Portal users having permission to access the contribution folder can u
 
 ### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
 
-After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (queued/complete/fail). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
 
 ![](assets/upload-asset5.png)
 
