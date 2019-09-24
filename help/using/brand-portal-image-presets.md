@@ -33,8 +33,9 @@ Note that only Administrators can create image presets in Brand Portal.
 
 >[!NOTE]
 >
->Dynamic renditions are created for the assets for which PTIFF is available. So If an asset does not have Pyramid TIFF rendition created on AEM and published to Brand Portal, then only its system renditions can be exported, but dynamic renditions are presented as an option.
-Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyramid tiff (ptiff) of an asset. When such an asset is published to Brand Portal, image presets are applied and dynamic renditions are displayed.
+>Dynamic renditions of an image are created using its ptiff (pyramid tiff), so if the ptiff is not available for any asset, dynamic renditions for this asset can't be fetched in Brand portal.
+If AEM (Author) instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. Whereas, if AEM (Author) instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
+When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
