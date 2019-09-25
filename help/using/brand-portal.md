@@ -168,6 +168,19 @@ Alternatively, product administrators can follow the link provided in the access
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
+## Brand Portal languages {#brand-portal-language}
+
+You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Settings].
+
+![Access requested notification](assets/BPLang.png)
+
+To change the language:
+
+1. Select [!UICONTROL User] > [!UICONTROL Edit Profile] from the top menu.
+![Edit Profile](assets/EditBPProfile.png)
+
+2. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
+
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
 Before Brand Portal is scheduled to go down for maintenance, a notification is displayed as a banner after you log in to Brand Portal. A sample notification:
