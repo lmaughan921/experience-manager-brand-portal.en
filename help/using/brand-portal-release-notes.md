@@ -33,7 +33,7 @@ Brand Portal 6.4.5 is a feature release that focuses on providing a collaborativ
 
 **Asset Sourcing in Brand Portal**
 
-The Asset Sourcing feature allows AEM administrators to create new folders with an additional property named–**Asset Contribution**. The new folder created is called as an *Asset Contribution* a.k.a. *Contribution* folder. When a contribution folder is creates, it further contains two sub folders namely–NEW and SHARED. The Brand Portal users who have access to the contribution folder can refer to the baseline assets in the **SHARED** folder and upload assets in the **NEW** folder. After uploading the content, Brand Portal user manually publishes the contribution folder to AEM Assets.
+The Asset Sourcing feature allows AEM administrators to create new folders with an additional property named–**Asset Contribution**. The new folder created is called as an *Asset Contribution* a.k.a. *Contribution* folder. When a contribution folder is created, it further contains two sub folders namely–NEW and SHARED. The Brand Portal users who have access to the contribution folder can refer to the baseline assets in the **SHARED** folder and upload assets in the **NEW** folder. After uploading the content, Brand Portal user manually publishes the contribution folder to AEM Assets.
 
 In order to use the Asset Sourcing feature, following capabilities are available in AEM and Brand Portal:
 
