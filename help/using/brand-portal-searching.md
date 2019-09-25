@@ -37,6 +37,8 @@ To search for assets on Brand Portal:
 
    *Asset search using omnisearch*
 
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+
 ## Search using facets in Filters panel {#search-using-facets-in-filters-panel}
 
 Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. You can easily drill down to the desired level of detail for a more focused search.
