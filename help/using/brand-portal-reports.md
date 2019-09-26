@@ -91,7 +91,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **Asset Reports **page.
+2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
