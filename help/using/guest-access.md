@@ -79,7 +79,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 **[!UICONTROL Navigation]** option in the left rail allows navigating from files to collections and back in the guest session so that users can browse through assets in files or collections.
 

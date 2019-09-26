@@ -88,7 +88,7 @@ To download the shared assets:
 
    ![](assets/licensed-asset-download.png)
 
-   The [!UICONTROL Download] dialog box appears.
+   The [!UICONTROL Download] dialog box appears.<br />
    ![](assets/download-linkshare.png)
 
     * To speed up the download of asset files shared as the link, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).

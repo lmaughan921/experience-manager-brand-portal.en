@@ -57,7 +57,7 @@ Similarly, specifying:
 >
 >On selecting **Partial Search** checkbox, **Ignore Case** is selected by default.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## What changed in 6.4.3 {#what-changed-in}
 
@@ -82,7 +82,7 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Search in specific folder hierarchy or path
 
@@ -102,7 +102,7 @@ Note that searching under these folders returns results only from the assets tha
 
 ![](assets/filter-panel.png) 
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media video renditions support
 
@@ -124,7 +124,7 @@ Dynamic Media Video encodes can be downloaded from:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Scheduled publish to Brand Portal
 
@@ -135,7 +135,7 @@ Similarly, published assets can be removed from the portal at a later date (time
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
- [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Configurable tenant alias in URL
 
@@ -149,7 +149,7 @@ However, AEM Author instance can be [configured](https://helpx.adobe.com/experie
 **The use case**
 Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Download experience enhancements
 
