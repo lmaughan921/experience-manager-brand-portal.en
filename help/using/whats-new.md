@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 6.4.4.
-seo-description: Take a look at the new features and enhancements for 6.4.4.
+description: Take a look at the new features and enhancements for 6.4.5.
+seo-description: Take a look at the new features and enhancements for 6.4.5.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -15,7 +15,51 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
-## What changed in 6.4.4 {#what-is-changing-in}
+## What changed in 6.4.5 {#what-changed-in-645}
+
+Brand Portal 6.4.5 is a feature release that focuses on providing a collaborative platform for the active Brand Portal users (external agencies/teams) to upload assets in Brand Portal and publish them to AEM Assets without having to access the AEM authoring environment. The feature is named as **Asset Sourcing in Brand Portal**. This feature improves customer experiences by providing a two-way mechanism of contributing and sharing the assets with other Brand Portal users distributed globally.
+
+### Asset Sourcing in Brand Portal {#asset-sourcing-in-bp}
+
+The Asset Sourcing feature allows AEM administrators to create new folders with an additional property named–**Asset Contribution**. The new folder created is called as an *Asset Contribution* a.k.a. *Contribution* folder. When a contribution folder is created in AEM, an internal workflow triggers which further creates two sub folders under the contribution folder namely–NEW and SHARED.
+
+AEM administrator defines the requirement by uploading a brief about the contribution folder, upload baseline asset in the **SHARED** folder for reference, assign active Brand Portal users to access the contribution folder, and publishes the contribution folder to Brand Portal. Once the contribution folder is published, the Brand Portal users having access to the contribution folder can login to their Brand Portal instance and begin contributing by uploading content/assets (files or folders) under the **NEW** folder. After uploading all the content, the Brand Portal users manually publishes the contribution folder to AEM. It may take few mins to import and reflect the published content/assets in AEM Assets.
+
+The existing functionality remains in-place, the Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+>[!NOTE]
+>
+>Brand Portal users can upload content/assets only to the **NEW** folder.
+
+>[!NOTE]
+>
+>Maximum upload limit for any Brand Portal account/tenant is **10** GB.
+
+
+
+![](assets/asset-sourcing.png)
+
+### Upload assets in Brand Portal {#upload-assets-in-bp} 
+
+The active Brand Portal users receive pulse and email notification whenever a contribution folder is shared with them. They can download the brief document attached to the contribution folder and download the baseline content/assets from the **SHARED** folder to understand the requirement.
+
+The Brand Portal users having permission to access the contribution folder can upload assets only to the **NEW** folder. However, they can upload multiple assets or folders containing multiple assets.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Brand Portal users do not have permission to delete an uploaded asset.
+
+### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
+
+After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+
+![](assets/upload-asset5.png)
+
+## What changed in 6.4.4 {#what-changed-in-644}
 
 Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
@@ -57,7 +101,7 @@ Similarly, specifying:
 >
 >On selecting **Partial Search** checkbox, **Ignore Case** is selected by default.
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## What changed in 6.4.3 {#what-changed-in}
 
@@ -82,7 +126,7 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Search in specific folder hierarchy or path
 
@@ -102,7 +146,7 @@ Note that searching under these folders returns results only from the assets tha
 
 ![](assets/filter-panel.png) 
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media video renditions support
 
@@ -124,7 +168,7 @@ Dynamic Media Video encodes can be downloaded from:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Scheduled publish to Brand Portal
 
@@ -135,7 +179,7 @@ Similarly, published assets can be removed from the portal at a later date (time
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+ [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Configurable tenant alias in URL
 
@@ -149,7 +193,7 @@ However, AEM Author instance can be [configured](https://helpx.adobe.com/experie
 **The use case**
 Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Download experience enhancements
 
@@ -492,7 +536,7 @@ Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Asse
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Qus. Will I lose access to any existing assets, features, or configurations I have created?**
+**Ques. Will I lose access to any existing assets, features, or configurations I have created?**
 **Ans.** All of your existing features and configurations remain intact. Your end users are not impacted, and your content remains intact.
 
 **Ques. When am I moving to the new version of Brand Portal?**
