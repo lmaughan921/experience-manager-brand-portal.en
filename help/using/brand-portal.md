@@ -28,7 +28,6 @@ Brand Portal supports the following user roles:
 * Viewer
 * Editor
 * Administrator
-
 The following table lists the tasks that users in these roles can perform:
 
 |  | **Browse** | **Search** | **Download** | **Share folders** | **Share a collection** | **Share assets as a link** | **Access to Admin Tools** |
@@ -127,7 +126,7 @@ To request access, do the following:
 
    The [!UICONTROL Request Access] page opens.
 
-2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
    In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):<br />
    ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
@@ -135,7 +134,7 @@ To request access, do the following:
     **Scenario 1**
     1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
     The [!UICONTROL Sign in] page opens.
-    2. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.<br />
+    1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.<br />
 
     ![Adobe sign in](assets/bplogin_request_access_3.png)
 
@@ -143,16 +142,16 @@ To request access, do the following:
     **Scenario 2**
     1. If you do not have an [!UICONTROL Adobe ID], to create one, click **[!UICONTROL Get an Adobe ID]** from the [!UICONTROL Request Access] page.
     The [!UICONTROL Sign in] page opens.
-    2. Click **[!UICONTROL Get an Adobe ID]**.
+    1. Click **[!UICONTROL Get an Adobe ID]**.
     The [!UICONTROL Sign up] page opens.
-    3. Enter your first and last name, email ID, and password. 
-    4. Select **[!UICONTROL Sign up]**.<br />
+    1. Enter your first and last name, email ID, and password. 
+    1. Select **[!UICONTROL Sign up]**.<br />
     
    ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the [!UICONTROL Request Access] page.
 
-3. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
+1. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -178,7 +177,7 @@ To change the language:
 1. Select [!UICONTROL User] > [!UICONTROL Edit Profile] from the top menu.<br />
 ![Edit Profile](assets/EditBPProfile.png)
 
-2. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
+1. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 

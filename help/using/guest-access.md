@@ -74,7 +74,6 @@ Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICO
 
 * In the toolbar at the top on selecting an asset/folder.
 * In the drop-down on selecting the Rail Selector.
-
 On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)

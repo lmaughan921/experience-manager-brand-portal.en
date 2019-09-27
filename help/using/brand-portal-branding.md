@@ -22,16 +22,16 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Branding]**.
+1. From the administrative tools panel, click **[!UICONTROL Branding]**.
 
 
    ![](assets/admin-tools-panel-10.png)
 
-3. On the left rail of the [!UICONTROL Configure Branding] page, [!UICONTROL Wallpaper] is selected by default. The default background image that appears on the login page is displayed.
+1. On the left rail of the [!UICONTROL Configure Branding] page, [!UICONTROL Wallpaper] is selected by default. The default background image that appears on the login page is displayed.
 
    ![](assets/default_wallpaper.png)
 
-4. To add a new background image, click the **[!UICONTROL Choose Image]** icon from the toolbar at the top.
+1. To add a new background image, click the **[!UICONTROL Choose Image]** icon from the toolbar at the top.
 
    ![](assets/choose_wallpaperimage.png)
 
@@ -42,15 +42,15 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
    ![](assets/asset-picker.png)
 
-5. Specify a header text and description for the background image. To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
+1. Specify a header text and description for the background image. To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
 
-6. From the toolbar at the top, click the **[!UICONTROL Preview]** icon to generate a preview of the Brand Portal interface with the image.
+1. From the toolbar at the top, click the **[!UICONTROL Preview]** icon to generate a preview of the Brand Portal interface with the image.
 
    ![](assets/chlimage_1.png)
    
    ![](assets/custom-wallpaper-preview.png)
 
-7. To activate or deactivate the default wallpaper, do the following in the **[!UICONTROL Configure Branding &gt; Wallpaper]** page:
+1. To activate or deactivate the default wallpaper, do the following in the **[!UICONTROL Configure Branding &gt; Wallpaper]** page:
 
     * To display the default wallpaper image on the Brand Portal login page, click **[!UICONTROL Deactivate Wallpaper]** from the toolbar at the top. A message confirms that the custom image is deactivated.
 
@@ -70,15 +70,15 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Branding]**.
+1. From the administrative tools panel, click **[!UICONTROL Branding]**.
 
    ![](assets/admin-tools-panel-11.png)
 
-3. To customize the page header for the Brand Portal interface, on the [!UICONTROL Configure Branding] page, select **[!UICONTROL Header Image]** from the left rail. The default header image is displayed.
+1. To customize the page header for the Brand Portal interface, on the [!UICONTROL Configure Branding] page, select **[!UICONTROL Header Image]** from the left rail. The default header image is displayed.
 
    ![](assets/default-header.png)
 
-4. To upload a header image, click the **[!UICONTROL Choose Image]** icon and choose **[!UICONTROL Upload]**.
+1. To upload a header image, click the **[!UICONTROL Choose Image]** icon and choose **[!UICONTROL Upload]**.
 
    To use an existing  Brand Portal image, choose **[!UICONTROL Select from existing]**.
 
@@ -88,19 +88,19 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/asset-picker-header.png)
 
-5. To include a URL in the header image, specify it in the [!UICONTROL Image URL] box. You can specify external or internal URLs. Internal links can also be relative links, for example,
+1. To include a URL in the header image, specify it in the [!UICONTROL Image URL] box. You can specify external or internal URLs. Internal links can also be relative links, for example,
  [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
  This link directs users to the tags folder.
  To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-6. From the toolbar at the top, click the **[!UICONTROL Preview]** icon to generate a preview of the  Brand Portal interface with the header image.
+1. From the toolbar at the top, click the **[!UICONTROL Preview]** icon to generate a preview of the  Brand Portal interface with the header image.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-7. To activate or deactivate the header image, do the following in the **[!UICONTROL Configure Branding &gt; Header Image]** page:
+1. To activate or deactivate the header image, do the following in the **[!UICONTROL Configure Branding &gt; Header Image]** page:
 
     * To prevent a header image from appearing on  Brand Portal pages, click **[!UICONTROL Deactivate Header]** from the toolbar at the top. A message confirms that the image is deactivated.
 
@@ -120,17 +120,17 @@ When assets are shared as a link, users receive an email containing the link. Ad
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Branding]**.
+1. From the administrative tools panel, click **[!UICONTROL Branding]**.
 
    ![](assets/admin-tools-panel-12.png)
 
-3. When assets are shared as links or downloaded through emails, and when  [!UICONTROL collections] are shared, email notifications are sent to users. To customize the email message, on the [!UICONTROL Configure Branding] page, select **[!UICONTROL Email Message]** from the left rail.
+1. When assets are shared as links or downloaded through emails, and when  [!UICONTROL collections] are shared, email notifications are sent to users. To customize the email message, on the [!UICONTROL Configure Branding] page, select **[!UICONTROL Email Message]** from the left rail.
 
    ![](assets/configure-branding-page-email.png)
 
-4. To add a logo to outgoing emails, click **[!UICONTROL Upload]** from the toolbar at the top.
+1. To add a logo to outgoing emails, click **[!UICONTROL Upload]** from the toolbar at the top.
 
-5. In the [!UICONTROL Description] section, specify the email header and footer text. To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
+1. In the [!UICONTROL Description] section, specify the email header and footer text. To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
 
    >[!NOTE]
    >
