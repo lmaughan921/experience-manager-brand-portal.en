@@ -29,8 +29,8 @@ However, publishing can fail intermittently due to- large sling jobs, increased 
 To validate your publish configurations:
 
 1. Check the error logs
-2. Check whether the replication agent is created
-3. Test connection
+1. Check whether the replication agent is created
+1. Test connection
 
 **Tail logs while creating Cloud Service**
 
@@ -44,7 +44,7 @@ View log, if errors are found in replication log:
 
 1. Contact Adobe Support.
 
-2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
+1. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
 
 <!--
 Comment Type: remark
@@ -62,7 +62,7 @@ Most of the times when publishing is not working, the reason can be that the use
    i. delete /etc/replication/agents.author/mp_replication&#42;  
    ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. go to [!UICONTROL localhost:4502/useradmin]:  
+1. go to [!UICONTROL localhost:4502/useradmin]:  
    i search for user [!UICONTROL mac-&lt;tenantid&gt;-replication
    ii delete this user
 

@@ -22,17 +22,17 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/link_sharing_assetselection.png)
    
-2. From the toolbar at the top, click the add to collection icon.
+1. From the toolbar at the top, click the add to collection icon.
 
    ![](assets/add_to_collection.png)
 
-3. On the **[!UICONTROL Add To Collection]** page, the [!UICONTROL Lightbox] collection is selected by default.
+1. On the **[!UICONTROL Add To Collection]** page, the [!UICONTROL Lightbox] collection is selected by default.
 
    Click **[!UICONTROL Add]**. The selected assets are added to the [!UICONTROL Lightbox]. 
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
+1. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
 
    ![](assets/collections_lightbox.png)
 
@@ -46,10 +46,10 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/collections_lightbox-1.png)
 
-2. Select the folder you want to remove from the collection, then click **[!UICONTROL Remove]** from the toolbar at the top.
+1. Select the folder you want to remove from the collection, then click **[!UICONTROL Remove]** from the toolbar at the top.
 
    ![](assets/collections_lightboxdelete.png)
 
-3. From the warning message box, click **[!UICONTROL Remove]** to confirm removal.
+1. From the warning message box, click **[!UICONTROL Remove]** to confirm removal.
 
 The folder is deleted from the [!UICONTROL Lightbox] collection.

@@ -24,15 +24,15 @@ To create a new metadata schema form, do the following:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
    ![](assets/navigation-panel.png)
 
-3. On the **[!UICONTROL Metadata Schema Forms]** page, click **[!UICONTROL Create]**.
+1. On the **[!UICONTROL Metadata Schema Forms]** page, click **[!UICONTROL Create]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. In the **[!UICONTROL Create Schema Form]** dialog box, specify the title of the Schema form, and then click **[!UICONTROL Create]** to complete the form creation process.
+1. In the **[!UICONTROL Create Schema Form]** dialog box, specify the title of the Schema form, and then click **[!UICONTROL Create]** to complete the form creation process.
 
    ![](assets/create-schema-form.png)
 
@@ -48,8 +48,8 @@ To edit a metadata schema form, do the following:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
-3. From the **[!UICONTROL Metadata Schema Forms]** page, select a schema form to edit its properties, for example, **[!UICONTROL collection]**.
+1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+1. From the **[!UICONTROL Metadata Schema Forms]** page, select a schema form to edit its properties, for example, **[!UICONTROL collection]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -57,15 +57,15 @@ To edit a metadata schema form, do the following:
    >
    >Unedited templates display a lock symbol before them. If you customize any of the templates, the Lock symbol before the template disappears.
 
-4. From the toolbar at the top, click **[!UICONTROL Edit]**.
+1. From the toolbar at the top, click **[!UICONTROL Edit]**.
 
    The **[!UICONTROL Metadata Schema Editor]** page opens with the **[!UICONTROL Basic]** tab open on the left and the **[!UICONTROL Build Form]** tab open on the right.
 
-5. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
+1. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
+1. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
 
 ### Components in the Build Form tab {#components-in-the-build-form-tab}
 
@@ -140,19 +140,19 @@ To apply a metadata schema form to a folder, do the following:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
+1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
-3. From the **[!UICONTROL Metadata Schema Forms]** page, select the schema form that you want to apply to an asset, for example, [!UICONTROL clothing].
+1. From the **[!UICONTROL Metadata Schema Forms]** page, select the schema form that you want to apply to an asset, for example, [!UICONTROL clothing].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
+1. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
 
-5. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
+1. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Click **[!UICONTROL Apply]** to apply the metadata schema form to the folder.
+1. Click **[!UICONTROL Apply]** to apply the metadata schema form to the folder.
 
    The metadata available in the **[!UICONTROL clothing]** metadata schema form is applied to the **[!UICONTROL Gloves]** folder and visible in the **[!UICONTROL Properties]** page of the folder.
 

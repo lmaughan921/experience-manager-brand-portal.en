@@ -55,7 +55,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
    ![](assets/selectorrail.png)
 
-2. From the **[!UICONTROL Filters]** panel on the left, select the appropriate options to apply the relevant filters.
+1. From the **[!UICONTROL Filters]** panel on the left, select the appropriate options to apply the relevant filters.
    For example, use the following standard filters:
 
     * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
@@ -104,7 +104,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
    Asset search result with search result count
 
-3. You can easily navigate to an item from the search result, and return to the same search result using the back button in your browser without having to re-run the search query.
+1. You can easily navigate to an item from the search result, and return to the same search result using the back button in your browser without having to re-run the search query.
 
 ## Save your searches as smart collection {#save-your-searches-as-smart-collection}
 
@@ -122,10 +122,10 @@ To save the search settings as a smart collection:
 
    ![](assets/save_smartcollectionui.png)
 
-2. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
+1. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
 
    ![](assets/edit_smartcollection.png)
 
-3. On the **[!UICONTROL Edit Smart Collection]** dialog box, select **[!UICONTROL Save As]** and enter a name for the smart collection. Click **[!UICONTROL Save]**.
+1. On the **[!UICONTROL Edit Smart Collection]** dialog box, select **[!UICONTROL Save As]** and enter a name for the smart collection. Click **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)

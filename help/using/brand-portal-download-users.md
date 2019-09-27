@@ -49,7 +49,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
    ![](assets/restrictaccess-note.png)
 
-2. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
+1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -81,7 +81,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
    >
    >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
 
-3. Click **[!UICONTROL Download]**.
+1. Click **[!UICONTROL Download]**.
 
    The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 

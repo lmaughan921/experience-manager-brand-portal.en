@@ -20,7 +20,7 @@ To log in to Brand Portal for the first time, do the following:
 
 1. Open the welcome email, and click **[!UICONTROL Get Started]**.
 
-2. In the sign-up page, specify your details (including first name, last name, password, and country/region).
+1. In the sign-up page, specify your details (including first name, last name, password, and country/region).
    >[!NOTE]
    >
    >If you are an existing Adobe Marketing Cloud user, a sign-in page is displayed instead of the sign-up page. To log in to Adobe Marketing Cloud, enter your Adobe ID and password.
@@ -29,8 +29,8 @@ To log in to Brand Portal for the first time, do the following:
    >
    >If your organization uses enterprise IDs, instead of viewing this sign-up page, you are redirected to the enterprise login page. For more information, see [Enterprise ID, sign in, and account help](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-3. Click **[!UICONTROL Continue]** to proceed to your organization's Brand Portal page.
-4. From the Brand Portal sign-in page, click **[!UICONTROL Sign In]** to log in to Brand Portal.
+1. Click **[!UICONTROL Continue]** to proceed to your organization's Brand Portal page.
+1. From the Brand Portal sign-in page, click **[!UICONTROL Sign In]** to log in to Brand Portal.
 
    ![Brand Portal Sign in page](assets/signin-onboarding.png)
 

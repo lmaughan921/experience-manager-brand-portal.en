@@ -27,22 +27,21 @@ To share a collection, follow these steps:
 
    ![](assets/contenttree-1.png)
 
-2. From the siderail on the left, click **[!UICONTROL Collections]**.
+1. From the siderail on the left, click **[!UICONTROL Collections]**.
 
    ![](assets/access_collections.png)
 
-3. From the **[!UICONTROL Collections]** console, do one of the following:
+1. From the **[!UICONTROL Collections]** console, do one of the following:
 
     * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
 
    ![](assets/settings_thumbnail.png)
 
     * Select the collection you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
-
-
+    
    ![](assets/collection-sharing.png)
 
-4. In the [!UICONTROL Collection Settings] dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
+1. In the [!UICONTROL Collection Settings] dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
 
    Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
 
@@ -56,7 +55,7 @@ To share a collection, follow these steps:
 
    ![](assets/collection-setting-editor.png)
 
-5. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. The collection is shared with the chosen users.
+1. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. The collection is shared with the chosen users.
 
    >[!NOTE]
    >
@@ -72,12 +71,12 @@ To unshare a previously shared collection, do the following:
 
    ![](assets/collection_settings.png)
 
-2. On the [!UICONTROL Collection Settings] dialog box, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
+1. On the [!UICONTROL Collection Settings] dialog box, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
 
    ![](assets/unshare_collection.png)
 
-3. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
+1. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
 
    Click **[!UICONTROL Save]**.
 
-4. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **[!UICONTROL Collections]** console.
+1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **[!UICONTROL Collections]** console.
