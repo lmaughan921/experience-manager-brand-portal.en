@@ -31,13 +31,8 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 >[!NOTE]
 >
->Brand Portal users can upload content/assets only to the **NEW** folder.
-
->[!NOTE]
->
->Maximum upload limit for any Brand Portal account/tenant is **10** GB.
-
-
+>Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
+>The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
 
 ![](assets/asset-sourcing.png)
 
@@ -53,7 +48,9 @@ Brand Portal users with appropriate permissions can upload multiple assets or fo
 
 >[!NOTE]
 >
->Brand Portal users do not have permission to delete an uploaded asset.
+>Brand Portal users can upload content/assets only to the **NEW** folder. They do not have persmission to delete an uploaded asset.
+>
+>Maximum upload limit for any Brand Portal account/tenant is **10** GB.
 
 ### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
 
