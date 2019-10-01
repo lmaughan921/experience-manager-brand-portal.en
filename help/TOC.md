@@ -27,7 +27,7 @@ user-guide-title: AEM Brand Portal
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourcing in Brand Portal {#sourcing}
   + [Overview](using/brand-portal-asset-sourcing.md)
-  + [Configure Asset Sourcing feature in AEM](using/brand-portal-configure-asset-sourcing.md)
+  + [Configure Asset Sourcing in AEM](using/brand-portal-configure-asset-sourcing.md)
   + [Create contribution folder](using/brand-portal-create-contribution-folder.md)
   + [Access contribution folder](using/brand-portal-access-contribution-folder.md)
   + [Upload assets in Brand Portal](using/brand-portal-upload-assets.md)
