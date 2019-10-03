@@ -25,13 +25,6 @@ user-guide-title: AEM Brand Portal
   + [Troubleshoot issues in parallel publishing to Brand Portal](using/troubleshoot-parallel-publishing.md)
   + [Publish tags to Brand Portal](using/brand-portal-publish-tags.md)
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Asset Sourcing in Brand Portal {#sourcing}
-  + [Overview](using/brand-portal-asset-sourcing.md)
-  + [Configure Asset Sourcing in AEM](using/brand-portal-configure-asset-sourcing.md)
-  + [Configure contribution folder](using/brand-portal-create-contribution-folder.md)
-  + [Using Asset Sourcing in Brand Portal](using/brand-portal-upload-assets.md)
-  + [!Upload assets in Brand Portal](using/brand-portal-upload-assets.md)
-  + [!Publish contribution folder to AEM Assets](using/brand-portal-publish-contribution-folder.md)
 + Share assets with users {#share}
   + [Share a collection](using/brand-portal-share-collection.md)
   + [Share folders](using/brand-portal-sharing-folders.md)
