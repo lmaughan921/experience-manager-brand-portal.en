@@ -26,18 +26,18 @@ user-guide-title: AEM Brand Portal
   + [Publish tags to Brand Portal](using/brand-portal-publish-tags.md)
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
-  + [Overview](using/brand-portal-asset-sourcing.md)
+  + [Asset Sourcing](using/brand-portal-asset-sourcing.md)
   + Configure Asset Sourcing in AEM {#configure-asset-sourcing-in-aem}
     + [Enable Asset Sourcing](using/brand-portal-enable-asset-sourcing.md)
     + [Upload Brand Portal users list](using/brand-portal-upload-user-list.md)
   + Configure Contribution folder in AEM Assets {#configure-contribution-folder}
-    + [Overview](using/brand-portal-contribution-folder.md)
+    + [Configure Contribution folder](using/brand-portal-contribution-folder.md)
     + [Create Contribution folder](using/brand-portal-create-contribution-folder.md)
     + [Configure Contribution folder properties](using/brand-portal-configure-contribution-folder-properties.md)
     + [Upload Baseline Assets](using/brand-portal-upload-baseline-assets.md)
     + [Publish Contribution folder to Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
   + Using Asset Sourcing in Brand Portal {#using-asset-sourcing}
-    + [Overview](using/brand-portal-overiew-using-asset-sourcing.md)
+    + [Using Asset Sourcing](using/brand-portal-overiew-using-asset-sourcing.md)
     + [Download Asset requirements](using/brand-portal-download-asset-requirements.md)
     + [Upload Assets in Brand Portal](using/brand-portal-upload-assets-to-contribution-folder.md)
     + [Publish Contribution folder to AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
