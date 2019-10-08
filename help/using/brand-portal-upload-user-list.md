@@ -27,4 +27,4 @@ Browse from your local machine and upload **configuration (.csv) file** containi
 
 Administrators can provide access to specific users/groups from this user list while configuring the contribution folder.
 
-For more information, see [Configure contribution folder](brand-portal-configure-contribution-folder.md).
+For more information, see [Configure contribution folder](brand-portal-contribution-folder.md).
