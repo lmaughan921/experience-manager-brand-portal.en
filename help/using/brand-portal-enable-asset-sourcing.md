@@ -21,4 +21,5 @@ Default URL: http:// localhost:4502/system/console/configMgr
 1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window
 1. Enable checkbox **[!UICONTROL feature.flag.active.status]**
 1. Click **[!UICONTROL Save]**.
+
 ![](assets/enable-asset-sourcing.png)

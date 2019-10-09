@@ -19,10 +19,3 @@ Brand Portal user having permission to access the contribution folder can perfor
 * [Download asset requirements](brand-portal-download-asset-requirements.md)
 * [Upload new assets to the contribution folder](brand-portal-upload-assets-to-contribution-folder.md)
 * [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
-
-
-**To publish contribution folder:**
-
-1. Login to your Brand Portal instance.
-1. Select contribution folder from the Brand Portal dashboard.
-1. Click **[!UICONTROL Publish to AEM]**.

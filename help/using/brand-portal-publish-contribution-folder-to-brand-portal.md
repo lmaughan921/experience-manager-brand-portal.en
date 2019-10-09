@@ -12,7 +12,7 @@ discoiquuid:
 
 # Publish contribution folder to Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-After adding baseline assets (reference content) to the SHARED folder, administrator publishes the contribution folder to Brand Portal. All the Brand Portal users/groups will receive an email/pulse notification once the contribution folder is successfully published from AEM Assets to Brand portal.
+Once the [contribution folder is configured](brand-portal-configure-contribution-folder-properties.md), administrator can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users/groups having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
 
 **To publish contribution folder:**
 
