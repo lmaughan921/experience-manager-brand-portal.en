@@ -19,7 +19,7 @@ Administrator can add new users in AEM Admin Console, see [Manage Users](brand-p
 **To upload Brand Portal users list:**
 1. Login to your AEM author instance
 Default URL: http:// localhost:4502/aem/start.html
-1. From **Tools** panel ![](assets/tools.png), navigate to **[!UICONTROL Assets > Brand Portal Users]**
+1. From **Tools** ![](assets/tools.png) panel, navigate to **[!UICONTROL Assets > Brand Portal Users]**
 ![](assets/upload-user-list1.png)
 1. Brand Portal Upload Contributors window opens.
 Browse from your local machine and upload **configuration (.csv) file** containing the active Brand Portal users list.
