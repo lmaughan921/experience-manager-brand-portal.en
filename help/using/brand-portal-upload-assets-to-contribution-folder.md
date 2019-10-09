@@ -15,6 +15,13 @@ discoiquuid:
 Brand Portal users [download the asset requirements](brand-portal-download-asset-requirements.md) – brief document attached to the contribution folder and download baseline assets from the **SHARED** folder to understand the need of contribution. 
 Brand Portal users can then create new assets for contribution and upload them to the **NEW** folder within the contribution folder.
 
+>[!NOTE]
+>
+>Brand Portal users can upload content/assets only to the **NEW** folder. They do not have permission to delete an uploaded asset.
+>
+>Maximum upload limit for any Brand Portal account/tenant is **10** GB.
+
+
 **To upload new assets:**
 
 1. Login to your Brand Portal instance.
