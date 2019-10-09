@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Configure Contribution folder properties {#configure-contribution-folder-properties}
+# Configure contribution folder properties {#configure-contribution-folder-properties}
 
 AEM administrator performs the following activities while configuring the properties of a contribution folder.
 
@@ -26,13 +26,15 @@ Administrator can then grant Brand Portal users/groups access to the contributio
 1. Login to your AEM author instance
 Default URL: http:// localhost:4502/aem/start.html
 1. Navigate to **[!UICONTROL Assets > Files]** and locate the contribution folder.
-1. Select contribution folder and click **[!UICONTROL Properties]**. Folder properties window opens.
+1. Select contribution folder and click **[!UICONTROL Properties]** ![](assets/properties.png). Folder properties window opens.
+![](assets/contribution-folder-property1.png)
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Enter high-level **[!UICONTROL Description]** of the contribution folder.
-1. Click **[!UICONTROL Upload Brief]** to browse from your local machine and upload an **Asset Requirement Document**.
-1. In **[!UICONTROL Add User or Group]**, search and add Brand Portal users or groups with whom you want to share the contribution folder.
+1. Click **[!UICONTROL Upload Brief]** ![](assets/upload.png) to browse from your local machine and upload an **Asset Requirement Document**.
+1. In **[!UICONTROL Add User or Group]**, search and **[!UICONTROL Add]** Brand Portal users or groups with whom you want to share the contribution folder.
 These Brand Portal users/groups will have permission to access the contribution folder and upload content from their Brand Portal interface without needing access to the AEM author instance.
 1. Click **[!UICONTROL Save]**.
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE] 
 >

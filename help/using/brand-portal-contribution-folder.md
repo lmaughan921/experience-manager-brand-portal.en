@@ -1,8 +1,8 @@
 ---
 title: Configure Contribution folder
 seo-title: Configure Contribution folder
-description: Get an insight into configuring a contribution folder in Brand Portal 6.4.5.
-seo-description: Get an insight into configuring a contribution folder in Brand Portal 6.4.5.
+description: Get an insight into configuring a contribution folder in Brand Portal.
+seo-description: Get an insight into configuring a contribution folder in Brand Portal.
 uuid: 
 content-type: reference
 topic-tags: brand-portal
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Configure Contribution folder {#configure-contribution-folder}
+# Configure contribution folder {#configure-contribution-folder}
 
 For collaborative asset sourcing, AEM administrators/editors can create new folders in AEM Assets with an additional **Asset Contribution** property, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
 

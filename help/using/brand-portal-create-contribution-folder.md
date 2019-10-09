@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Create Contribution folder {#create-contribution-folder}
+# Create contribution folder {#create-contribution-folder}
 
 AEM administrators/editors can create a contribution folder in AEM Assets.
 
@@ -23,8 +23,9 @@ It lists all the existing folders in the AEM Assets repository.
 1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and mark the checkbox **[!UICONTROL Asset Contribution]**.
 It is recommended to use small alphabets without space to name the folder.
 1. Click **[!UICONTROL Create]**.
+![](assets/create-contribution-folder.png)
 1. You can see the newly created contribution folder listed in the AEM Assets repository.
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** are automatically created within the contribution folder.  
-
+![](assets/contribution-folder.png)
 
 Now, you can configure the properties of the newly created Contribution folder. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 

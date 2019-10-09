@@ -43,7 +43,7 @@ In order to use the Asset Sourcing feature, following capabilities are available
 
 **Capabilities in AEM**
 
-* **Enable Asset Sourcing feature flag**: Administrators can enable the Asset Sourcing flag from the AEM Configuration Manager.
+* **Enable Asset Sourcing configuration flag**: Administrators can enable the Asset Sourcing flag from the AEM Configuration Manager.
 
 * **Create and share contribution folder**: Administrators/editors can create new folders with an additional **Asset Contribution** property and share it with the active Brand Portal users for contribution.
 
@@ -55,9 +55,9 @@ In order to use the Asset Sourcing feature, following capabilities are available
 
 * **Pulse/email notifications**: Brand Portal users receive notifications when a contribution folder is shared with them, on publishing the contribution folder to AEM, and at the completion of the publish action.
 
-* **Download project requirement**: Brand Portal users can download the brief document, as well as download the baseline content, from the **SHARED** folder to ensure they understand the requirements of the project.
+* **Download asset requirements**: Brand Portal users can download the brief document, as well as download the baseline content, from the **SHARED** folder to ensure they understand the asset requirements.
 
-* **Upload assets in Brand Portal**: Brand Portal users can upload content (assets/folders containing multiple assets) in the **NEW** folder.
+* **Upload new assets to contribution folder**: Brand Portal users can upload content (assets/folders containing multiple assets) in the **NEW** folder.
 
 * **Publish contribution folder to AEM Assets**: Brand Portal users manually publishes the contribution folder to AEM Assets.
 

@@ -36,11 +36,11 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 ![](assets/asset-sourcing.png)
 
-### Upload assets in Brand Portal {#upload-assets-in-bp} 
+### Upload assets to contribution folder {#upload-assets-in-bp} 
 
-Brand Portal users automatically receive pulse/email notifications whenever a contribution folder is shared, allowing them to download the brief document, as well as download the baseline content, from the **SHARED** folder to ensure they understand the requirements of the project.
+Brand Portal users automatically receive pulse/email notifications whenever a contribution folder is shared, allowing them to download the brief document, as well as download the baseline content, from the **SHARED** folder to ensure they understand the asset requirements.
 
-Brand Portal users with appropriate permissions can upload multiple assets or folders containing multiple assets to the contribution folder. However, please note that Brand Portal users are only able to upload assets to the **NEW** subfolder. The **SHARED** folder is meant for the distribution of project details and baseline assets.
+Brand Portal users with appropriate permissions can upload multiple assets or folders containing multiple assets to the contribution folder. However, please note that Brand Portal users are only able to upload assets to the **NEW** subfolder. The **SHARED** folder is meant for the distribution of requirements and baseline assets.
 
 ![](assets/upload-asset6.png)
 

@@ -1,97 +1,39 @@
 ---
-title: Release Notes
-seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
+title: Download asset requirement
+seo-title: Download asset requirement
+description: Get an insight into how to download asset requirements and baseline assets in Brand Portal.
+seo-description: Get an insight into how to download asset requirements and baseline assets in Brand Portal.
+uuid: 
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
+discoiquuid: 
 ---
 
-# Release Notes {#release-notes}
+# Download asset requirements {#using-asset-souring-in-bp}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5 release.
+Brand Portal users automatically receive pulse/email notifications whenever a contribution folder is shared by the administrators, allowing them to download the brief (asset requirement) document, as well as download the baseline assets (reference content), from the **SHARED** folder to ensure they understand the asset requirements.
 
-## Release Information {#release-information}
+Brand Portal user performs the following activities to download asset requirements:
 
-| Product |Adobe Experience Manager Assets Brand Portal |
-|---|---|
-| Version | 6.4.5|
-| Date | September 2019 |
+* **Download brief**: Download the brief (asset requirement document) attached to the contribution folder which contains asset related information like type of assets, purpose, supported formats, maximum asset size, etc.
+* **Download baseline assets**: Download the baseline assets which can be used to understand the types of assets required. Brand Portal users can use these assets as reference to create new assets for contribution.
 
-## Overview {#overview}
+Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder. In this example, the Brand Portal user only has access to the newly created contribution folder, no other existing folder is shared with the user.
 
-Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
+**To download asset requirements:**
 
-## What's New in 6.4.5 {#what-s-new-in-645}
+1. Login to your Brand Portal instance.
+1. Select contribution folder from the Brand Portal dashboard.
+1. Click **[!UICONTROL Properties]** ![](assets/properties.png). Property window opens, displaying the Asset Contribution folder details.
+![](assets/download-asset-requirement1.png)
+1. Click **[!UICONTROL Download Brief]** ![](assets/download.png) to download the asset requirement document on your local machine.
+![](assets/download-asset-requirement2.png)
+1. Go back to the Brand Portal dashboard.
+1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder. The SHARED folder contains all the baseline assets (reference content) shared by the administrators. 
+1. You can download the **[!UICONTROL SHARED]** folder containing all the baseline assets on your local machine. 
+Or, you can to open the **[!UICONTROL SHARED]** folder and click **Download** icon ![](assets/download.png) to download individual files/folders.
+![](assets/download-asset-requirement3.png)
 
-### New Features {#new-features-645}
+Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder. See, [Upload assets to contribution folder](brand-portal-upload-assets-to-contribution-folder.md).
 
-Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called **Asset Sourcing in Brand Portal**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
-
-**Asset Sourcing in Brand Portal**
-
-Asset Sourcing allows AEM administrators to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by Brand Portal users. This automatically triggers a workflow which creates two additional sub folders, called NEW and SHARED, within the newly created **Contribution** folder.
-
-The AEM Administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure BP users have the reference information they need. The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created **Contribution** folder to Brand Portal.
-
-Once the user is finished adding content in the **NEW** folder, they can publish the contribution folder back to the AEM author environment.
-
-In order to use the Asset Sourcing feature, following capabilities are available in AEM and Brand Portal:
-
-**Capabilities in AEM**
-
-* **Enable Asset Sourcing feature flag**: Administrators can enable the Asset Sourcing flag from the AEM Configuration Manager.
-
-* **Create and share contribution folder**: Administrators/editors can create new folders with an additional **Asset Contribution** property and share it with the active Brand Portal users for contribution.
-
-* **Pulse/email notifications**: AEM Administrator receive pulse/email notifications both at the beginning and at the completion of the publish action.
-
-* **View job status**: Administrators/editors can view the status (Queued/In-progress/Success) of the import job.
-
-**Capabilities in Brand Portal**
-
-* **Pulse/email notifications**: Brand Portal users receive notifications when a contribution folder is shared with them, on publishing the contribution folder to AEM, and at the completion of the publish action.
-
-* **Download project requirement**: Brand Portal users can download the brief document, as well as download the baseline content, from the **SHARED** folder to ensure they understand the requirements of the project.
-
-* **Upload assets in Brand Portal**: Brand Portal users can upload content (assets/folders containing multiple assets) in the **NEW** folder.
-
-* **Publish contribution folder to AEM Assets**: Brand Portal users manually publishes the contribution folder to AEM Assets.
-
-* **View job status**: Brand Portal administrators can view the status (Queued/In-progress/Success) of the publish action.
-
-For more information, see [What’s New in Brand Portal 6.4.5](whats-new.md).
-
-## Languages {#languages}
-
-The Brand Portal user interface is available in following languages:
-
-* English
-* German
-* French
-* Spanish
-* Italian
-* Brazilian Portuguese
-* Japanese
-* Simplified Chinese
-* Korean
-
-## Certified Platforms {#certified-platforms}
-
-To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
-
-## Links {#links}
-
-* [Adobe Experience Manager Product Page on adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal Documentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
-
-## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
-
-These sites are only available to customers. If you are a customer and require access, contact your Adobe account manager.
-
-* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
-
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)

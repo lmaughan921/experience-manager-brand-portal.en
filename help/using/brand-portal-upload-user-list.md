@@ -16,13 +16,15 @@ AEM administrators can upload the Brand Portal user configuration (.csv) file co
 
 Administrator can add new users in AEM Admin Console, see [Manage Users](brand-portal-adding-users.md) for detailed information. After adding users in Admin Console, these users can be added to the Brand Portal user configuration file and then assigned permission to access the contribution folder.
 
-**To upload Brand Portal user list:**
+**To upload Brand Portal users list:**
 1. Login to your AEM author instance
 Default URL: http:// localhost:4502/aem/start.html
-1. Navigate to **[!UICONTROL Tools > Assets > Brand Portal Users]**
+1. From **Tools** panel ![](assets/tools.png), navigate to **[!UICONTROL Assets > Brand Portal Users]**
+![](assets/upload-user-list1.png)
 1. Brand Portal Upload Contributors window opens.
 Browse from your local machine and upload **configuration (.csv) file** containing the active Brand Portal users list.
 1. Click **[!UICONTROL Save]**.
+![](assets/upload-user-list2.png)
 
 
 Administrators can provide access to specific users/groups from this user list while configuring the contribution folder.
