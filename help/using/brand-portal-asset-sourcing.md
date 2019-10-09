@@ -24,7 +24,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 ![](assets/asset-sourcing.png)
 
-### See also {#reference-articles}
+## See also {#reference-articles}
 
 **For administrators**
 * [Configure Asset Sourcing in AEM](brand-portal-enable-asset-sourcing.md)
