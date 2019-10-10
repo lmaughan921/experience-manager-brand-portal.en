@@ -12,7 +12,7 @@ discoiquuid:
 
 # Publish contribution folder to Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Once the [contribution folder is configured](brand-portal-configure-contribution-folder-properties.md), administrator can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users/groups having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
+Once the [contribution folder is configured](brand-portal-configure-contribution-folder-properties.md), AEM user (administrator/non-admin user) can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users/groups having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
 
 **To publish contribution folder:**
 
@@ -23,4 +23,4 @@ Default URL: http:// localhost:4502/aem/start.html
 ![](assets/publish-contribution-folder-to-bp.png)
 You will receive a success message once the contribution folder is published to Brand Portal.
 
-An email/pulse notification is sent to the Brand Portal users/groups that are assigned to the contribution folder. The Brand Portal users can access the contribution folder and begin contribution. See, [Upload assets to Contribution folder](brand-portal-upload-assets-to-contribution-folder.md).
+An email/pulse notification is sent to the Brand Portal users/groups assigned to the contribution folder. The Brand Portal users can access the contribution folder and begin contribution. See, [Upload assets to Contribution folder](brand-portal-upload-assets-to-contribution-folder.md).

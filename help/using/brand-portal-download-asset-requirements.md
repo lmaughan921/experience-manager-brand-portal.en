@@ -12,7 +12,7 @@ discoiquuid:
 
 # Download asset requirements {#using-asset-souring-in-bp}
 
-Brand Portal users automatically receive pulse/email notifications whenever a contribution folder is shared by the administrators, allowing them to download the brief (asset requirement) document, as well as download the baseline assets (reference content), from the **SHARED** folder to ensure they understand the asset requirements.
+Brand Portal users automatically receive email/pulse notifications whenever a contribution folder is shared by the AEM user, allowing them to download the brief (asset requirement) document, as well as download the baseline assets (reference content), from the **SHARED** folder to ensure they understand the asset requirements.
 
 Brand Portal user performs the following activities to download asset requirements:
 

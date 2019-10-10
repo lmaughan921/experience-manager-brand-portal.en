@@ -23,5 +23,9 @@ Ensure that you have gone through the [asset requirements](brand-portal-download
 1. Click **[!UICONTROL Publish to AEM]** ![](assets/export.png).
 ![](assets/publish-contribution-folder-to-aem.png)
 
-The Brand Portal user and AEM Administrator will receive email/pulse notifications both at the beginning and at the completion of the publish action, along with the job progress status (Queued/In-Progress/Success).
-AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+An email/pulse notification is sent to the Brand Portal and AEM, administrator and user at various stages of the publishing workflow:
+1. **Queued** - When publishing workflow triggers in Brand Portal, contribution folder is published from Brand Portal to AEM.
+1. **In-Progress** - When AEM Assets begin importing the contribution folder.
+1. **Complete** - When publish action is complete, contribution folder is successfully imported to AEM Assets.
+
+
