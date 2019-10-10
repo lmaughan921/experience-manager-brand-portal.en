@@ -32,15 +32,15 @@ user-guide-title: AEM Brand Portal
     + [Upload Brand Portal users list](using/brand-portal-upload-user-list.md)
   + Configure Contribution folder in AEM Assets {#configure-contribution-folder}
     + [Overview](using/brand-portal-contribution-folder.md)
-    + [Create Contribution folder](using/brand-portal-create-contribution-folder.md)
-    + [Configure Contribution folder properties](using/brand-portal-configure-contribution-folder-properties.md)
-    + [Upload Baseline Assets](using/brand-portal-upload-baseline-assets.md)
-    + [Publish Contribution folder to Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+    + [Create contribution folder](using/brand-portal-create-contribution-folder.md)
+    + [Configure contribution folder properties](using/brand-portal-configure-contribution-folder-properties.md)
+    + [Upload baseline assets](using/brand-portal-upload-baseline-assets.md)
+    + [Publish contribution folder to Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
   + Using Asset Sourcing in Brand Portal {#using-asset-sourcing}
     + [Overview](using/brand-portal-overiew-using-asset-sourcing.md)
-    + [Download Asset requirements](using/brand-portal-download-asset-requirements.md)
-    + [Upload Assets in Brand Portal](using/brand-portal-upload-assets-to-contribution-folder.md)
-    + [Publish Contribution folder to AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+    + [Download asset requirements](using/brand-portal-download-asset-requirements.md)
+    + [Upload assets to contribution folder](using/brand-portal-upload-assets-to-contribution-folder.md)
+    + [Publish contribution folder to AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Share assets with users {#share}
   + [Share a collection](using/brand-portal-share-collection.md)
   + [Share folders](using/brand-portal-sharing-folders.md)

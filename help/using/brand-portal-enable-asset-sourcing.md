@@ -12,7 +12,7 @@ discoiquuid:
 
 # Enable Asset Sourcing {#enable-asset-sourcing}
 
-AEM administrators can enable Asset Sourcing from within the AEM Web Console Configuration (a.k.a Configuration Manager). In case of multiple tenants, administrator must enable the Asset Sourcing feature separately on each tenant.
+AEM administrators can enable Asset Sourcing from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 **Prerequisite:**
 Ensure that your AEM Assets instance is integrated with Brand Portal. See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
