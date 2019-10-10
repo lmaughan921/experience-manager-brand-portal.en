@@ -23,7 +23,7 @@ To search for assets on Brand Portal:
 
    ![](assets/omnisearchicon-1.png)
 
-2. In the search box, type a keyword for the assets you want to search.
+1. In the search box, type a keyword for the assets you want to search.
 
    ![](assets/omnisearch.png)
 
@@ -31,17 +31,19 @@ To search for assets on Brand Portal:
    >
    >At least 3 characters are required in omnisearch for search suggestions to appear.
 
-3. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
+1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 
    ![](assets/assets-search-result.png)
 
    *Asset search using omnisearch*
 
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+
 ## Search using facets in Filters panel {#search-using-facets-in-filters-panel}
 
 Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. You can easily drill down to the desired level of detail for a more focused search.
 
-For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.
+For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.<br />
 
 ![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
@@ -53,7 +55,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
    ![](assets/selectorrail.png)
 
-2. From the **[!UICONTROL Filters]** panel on the left, select the appropriate options to apply the relevant filters.
+1. From the **[!UICONTROL Filters]** panel on the left, select the appropriate options to apply the relevant filters.
    For example, use the following standard filters:
 
     * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
@@ -102,7 +104,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
    Asset search result with search result count
 
-3. You can easily navigate to an item from the search result, and return to the same search result using the back button in your browser without having to re-run the search query.
+1. You can easily navigate to an item from the search result, and return to the same search result using the back button in your browser without having to re-run the search query.
 
 ## Save your searches as smart collection {#save-your-searches-as-smart-collection}
 
@@ -120,10 +122,10 @@ To save the search settings as a smart collection:
 
    ![](assets/save_smartcollectionui.png)
 
-2. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
+1. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
 
    ![](assets/edit_smartcollection.png)
 
-3. On the **[!UICONTROL Edit Smart Collection]** dialog box, select **[!UICONTROL Save As]** and enter a name for the smart collection. Click **[!UICONTROL Save]**.
+1. On the **[!UICONTROL Edit Smart Collection]** dialog box, select **[!UICONTROL Save As]** and enter a name for the smart collection. Click **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)

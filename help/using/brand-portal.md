@@ -31,7 +31,6 @@ Brand Portal supports the following user roles:
 * Viewer
 * Editor
 * Administrator
-
 The following table lists the tasks that users in these roles can perform:
 
 |  | **Browse** | **Search** | **Download** | **Share folders** | **Share a collection** | **Share assets as a link** | **Access to Admin Tools** |
@@ -130,30 +129,32 @@ To request access, do the following:
 
    The [!UICONTROL Request Access] page opens.
 
-2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
+   In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):<br />
    ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
 
     **Scenario 1**
     1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
     The [!UICONTROL Sign in] page opens.
-    2. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.
+    1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.<br />
+
     ![Adobe sign in](assets/bplogin_request_access_3.png)
 
-   You are redirected to the [!UICONTROL Request Access] page.
+   You are redirected to the [!UICONTROL Request Access] page.<br />
     **Scenario 2**
     1. If you do not have an [!UICONTROL Adobe ID], to create one, click **[!UICONTROL Get an Adobe ID]** from the [!UICONTROL Request Access] page.
     The [!UICONTROL Sign in] page opens.
-    2. Click **[!UICONTROL Get an Adobe ID]**.
+    1. Click **[!UICONTROL Get an Adobe ID]**.
     The [!UICONTROL Sign up] page opens.
-    3. Enter your first and last name, email ID, and password. 
-    4. Select **[!UICONTROL Sign up]**.
+    1. Enter your first and last name, email ID, and password. 
+    1. Select **[!UICONTROL Sign up]**.<br />
+    
    ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the [!UICONTROL Request Access] page.
 
-3. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.
+1. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -165,9 +166,21 @@ Brand Portal product administrators receive access requests in their Brand Porta
 
 To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
 Alternatively, product administrators can follow the link provided in the access request email to visit Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
-![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+
+## Brand Portal languages {#brand-portal-language}
+
+You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Settings].
+
+![Access requested notification](assets/BPLang.png)
+
+To change the language:
+
+1. Select [!UICONTROL User] > [!UICONTROL Edit Profile] from the top menu.<br />
+![Edit Profile](assets/EditBPProfile.png)
+
+1. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 
@@ -179,7 +192,7 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Release and system information {#release-and-system-information}
 
-<!--* [What's new](../using/whats-new.md)-->
+* [What's new](whats-new.md)
 * [Release Notes](brand-portal-release-notes.md)
 * [Supported file formats](brand-portal-supported-formats.md)
 

@@ -24,11 +24,11 @@ To view a report, follow these steps:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/access-asset-reports.png)
 
-3. Access **[!UICONTROL Usage]** report and other generated reports from Asset Reports page.
+1. Access **[!UICONTROL Usage]** report and other generated reports from Asset Reports page.
 
    >[!NOTE]
    >
@@ -91,16 +91,16 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **Asset Reports **page.
+1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
-3. In the Asset Reports page, tap/click **[!UICONTROL Create]**.
-4. From the **[!UICONTROL Create Report]** page, select a report to create, and tap/click **[!UICONTROL Next]**.
+1. In the Asset Reports page, tap/click **[!UICONTROL Create]**.
+1. From the **[!UICONTROL Create Report]** page, select a report to create, and tap/click **[!UICONTROL Next]**.
 
    ![](assets/crete-report.png)
 
-5. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for [!UICONTROL Download], [!UICONTROL Expiration], and [!UICONTROL Publish] reports.
+1. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for [!UICONTROL Download], [!UICONTROL Expiration], and [!UICONTROL Publish] reports.
 
    ![](assets/create-report-page.png)
 
@@ -112,8 +112,8 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    >
    >Special characters # and % in report title are replaced by a hyphen (-) on the report generation.
 
-6. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-7. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. The following image illustrates selecting default columns in Download report.
+1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
+1. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. The following image illustrates selecting default columns in Download report.
 
    ![](assets/createdownloadreport.png)
 
@@ -122,8 +122,8 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    To add custom columns to Download, Publish or Expiration report, follow these steps:
 
     1. To display a custom column, tap/click **[!UICONTROL Add]** within [!UICONTROL Custom Columns].
-    2. Specify name of the column in **[!UICONTROL Column Name]** field.
-    3. Select the property to which the column needs to map to, using property picker.
+    1. Specify name of the column in **[!UICONTROL Column Name]** field.
+    1. Select the property to which the column needs to map to, using property picker.
 
        ![](assets/property-picker.png)
 Alternatively, type the path in the property path field.
@@ -132,7 +132,7 @@ Alternatively, type the path in the property path field.
     
        To add more custom columns, tap/click **Add** and repeat steps 2 and 3.
 
-8. Tap/click **[!UICONTROL Create]**. A message notifies that report generation has been initiated.
+1. Tap/click **[!UICONTROL Create]**. A message notifies that report generation has been initiated.
 
 ## Download reports {#download-reports}
 

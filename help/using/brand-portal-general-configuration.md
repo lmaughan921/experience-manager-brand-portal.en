@@ -40,11 +40,11 @@ These configurations have been provided as **[!UICONTROL General Settings]** con
 To enable/disable each of these configurations:
 
 1. Log in with administrator privileges.
-2. Select the AEM logo to access administrative tools, from the toolbar at the top.
-3. From the administrative tools panel, select **[!UICONTROL General]** to open the **[!UICONTROL General Settings]** page.
-4. Use the respective toggle switch to enable/ disable any of the General configurations.
-5. **[!UICONTROL Save]** the changes.
-6. Logout to let the changes take effect.
+1. Select the AEM logo to access administrative tools, from the toolbar at the top.
+1. From the administrative tools panel, select **[!UICONTROL General]** to open the **[!UICONTROL General Settings]** page.
+1. Use the respective toggle switch to enable/ disable any of the General configurations.
+1. **[!UICONTROL Save]** the changes.
+1. Logout to let the changes take effect.
 
 ## Allow admin users to delete assets from Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 

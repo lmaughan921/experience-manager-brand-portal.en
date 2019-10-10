@@ -17,6 +17,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.5 {#what-changed-in-645}
 
+
 Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called **[Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md)**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
 
 ### Asset Sourcing in Brand Portal {#asset-sourcing-in-bp}
@@ -25,12 +26,14 @@ Asset Sourcing allows AEM users (administrators/non-admin users) to create new f
 
 The AEM user then defines the requirement by [uploading a brief](brand-portal-configure-contribution-folder-properties.md) about the types of assets that should be added to the contribution folder, as well as [uploading baseline assets](brand-portal-upload-baseline-assets.md), to the **SHARED** folder to ensure BP users have the reference information they need. The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created **Contribution** folder to Brand Portal.
 
+
 Once the user is finished adding content in the **NEW** folder, they can publish the contribution folder back to the AEM author environment. Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.
 
 Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 >[!NOTE]
 >
+
 >Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
 >
 >The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
@@ -43,9 +46,11 @@ Brand Portal users with appropriate permissions can [download the asset requirem
 
 ![](assets/upload-asset4.png)
 
+
 ### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
 
 Once upload is complete to the **NEW** folder, Brand Portal users can then publish the contribution folder back to AEM. It may take few minutes to import and reflect the published content/assets in AEM Assets. See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+
 
 ![](assets/upload-asset5.png)
 
@@ -526,7 +531,7 @@ Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Asse
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Qus. Will I lose access to any existing assets, features, or configurations I have created?**
+**Ques. Will I lose access to any existing assets, features, or configurations I have created?**
 **Ans.** All of your existing features and configurations remain intact. Your end users are not impacted, and your content remains intact.
 
 **Ques. When am I moving to the new version of Brand Portal?**

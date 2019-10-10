@@ -1,5 +1,5 @@
 ---
-title: Browsing assets on Brand Portal
+title: Browse assets on Brand Portal
 seo-title: Browse assets on Brand Portal
 description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 ---
 
-# Browsing assets on Brand Portal {#browsing-assets-on-brand-portal}
+# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
 AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
 
@@ -20,7 +20,7 @@ AEM logo in the AEM toolbar at the top facilitates admin users to access adminis
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 

@@ -48,15 +48,15 @@ If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http:
 
    ![AEM logo](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![Admin tools panel](assets/admin-tools-panel-5.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![User Roles to launch Admin Console](assets/launch_admin_console.png)
 
-4. In Admin Console, do one of the following to create a new user:
+1. In Admin Console, do one of the following to create a new user:
 
     * From the toolbar at the top, click **[!UICONTROL Overview]**. In the [!UICONTROL Overview] page, click **[!UICONTROL Assign Users]** from the Brand Portal product card.
 
@@ -66,12 +66,12 @@ If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http:
 
    ![Admin Console Add users](assets/admin_console_adduseruserpage.png)
 
-5. In the add user dialog box, type the email ID of the user you want to add or select the user from the list of suggestions that appear as you type.
+1. In the add user dialog box, type the email ID of the user you want to add or select the user from the list of suggestions that appear as you type.
 
    ![Add user to Brand Portal](assets/add_user_to_aem_bp.png)
 
-6. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **[!UICONTROL Please select a profile for this product]** field.
-7. Click **[!UICONTROL Save]**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+1. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **[!UICONTROL Please select a profile for this product]** field.
+1. Click **[!UICONTROL Save]**. A welcome email is sent to the user you added. The invited user can access Brand Portal by clicking the link in the welcome email and signing in using an [!UICONTROL Adobe ID]. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
@@ -91,24 +91,24 @@ Product profiles (formerly known as product configurations) in [!UICONTROL Admin
 
    ![AEM Logo](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![Admin tools panel](assets/admin-tools-panel-6.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Products]**.
-5. In the [!UICONTROL Products] page, [!UICONTROL Product Profiles] is selected by default. Click **[!UICONTROL New Profile]**.
+1. From the toolbar at the top, click **[!UICONTROL Products]**.
+1. In the [!UICONTROL Products] page, [!UICONTROL Product Profiles] is selected by default. Click **[!UICONTROL New Profile]**.
 
    ![Add new Product Profile](assets/admin_console_addproductprofile.png)
 
-6. In the [!UICONTROL Create a New Profile] page, provide the profile name, display name, profile description, and choose if you want to notify users by email when they are added to or removed from the profile.
+1. In the [!UICONTROL Create a New Profile] page, provide the profile name, display name, profile description, and choose if you want to notify users by email when they are added to or removed from the profile.
 
    ![Create Product Profile](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-7. Click **[!UICONTROL Done]**. The product configuration group, for example **[!UICONTROL Sales group]**, is added to Brand Portal.
+1. Click **[!UICONTROL Done]**. The product configuration group, for example **[!UICONTROL Sales group]**, is added to Brand Portal.
 
    ![Product profiles](assets/admin_console_productprofileadded.png)
 
@@ -124,20 +124,20 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
    ![AEM Logo](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![Admin tools panel](assets/admin-tools-panel-7.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![Launch [!DNL Admin Console]](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Products]**.
-5. In the [!UICONTROL Products] page, [!UICONTROL Product Profiles] is selected by default. Open the product profile to which you want to add a user, for example, [!UICONTROL Sales group].
+1. From the toolbar at the top, click **[!UICONTROL Products]**.
+1. In the [!UICONTROL Products] page, [!UICONTROL Product Profiles] is selected by default. Open the product profile to which you want to add a user, for example, [!UICONTROL Sales group].
 
    ![Product profiles](assets/admin_console_productprofileadded.png)
 
-6. To add individual users to the product profile, do the following:
+1. To add individual users to the product profile, do the following:
 
     * Click **[!UICONTROL Add User]**.
 
@@ -149,7 +149,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
     * Click **[!UICONTROL Save]**.
 
-7. To add bulk users to the product profile, do the following:
+1. To add bulk users to the product profile, do the following:
 
     * Choose ellipsis (**[!UICONTROL ...) &gt; Add users by CSV]**.
 
@@ -177,23 +177,23 @@ You can provide the system administrator or the product administrator privilege 
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![Admin tools panel](assets/admin-tools-panel-8.png)
 
-3. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
+1. In the [!UICONTROL User Roles] page, click the **[!UICONTROL Management]** tab, then click **[!UICONTROL Launch Admin Console]**.
 
    ![Launch Admin Console](assets/launch_admin_console.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Users]**.
-5. In the [!UICONTROL Users] page, [!UICONTROL Users] in the left rail is selected by default. Click the user name of the user to whom you want to provide administrator privileges.
+1. From the toolbar at the top, click **[!UICONTROL Users]**.
+1. In the [!UICONTROL Users] page, [!UICONTROL Users] in the left rail is selected by default. Click the user name of the user to whom you want to provide administrator privileges.
 
    ![Add Users in Admin Console](assets/admin_console_adduseruserpage.png)
 
-6. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose ellipsis (**[!UICONTROL ... &gt; Edit admin rights]**.
+1. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose ellipsis (**[!UICONTROL ... &gt; Edit admin rights]**.
    ![Admin rights in Admin Console](assets/admin_console_editadminrights.png)
 
-7. In the [!UICONTROL Edit Admin] page, select System Administrator or Product Administrator.
+1. In the [!UICONTROL Edit Admin] page, select System Administrator or Product Administrator.
 
    ![Edit admin rights in Admin Console](assets/admin_console_editadminrightsselection.png)
 
@@ -211,7 +211,7 @@ You can provide the system administrator or the product administrator privilege 
    >
    >Brand Portal does not support product profile administrator (formerly known as configuration administrator) privileges. Avoid assigning product profile administrator rights to a user.
 
-8. Review the admin type selection and click **[!UICONTROL Save]**.
+1. Review the admin type selection and click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -230,11 +230,11 @@ In addition to the Administrator role, Brand Portal supports the following roles
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Users]**.
+1. From the administrative tools panel, click **[!UICONTROL Users]**.
 
    ![Admin tools panel](assets/admin-tools-panel-9.png)
 
-3. In the [!UICONTROL User Roles] page, the [!UICONTROL Users] tab is selected by default. For the user whose role you want to change, select **[!UICONTROL Editor]** or **[!UICONTROL Viewer]** from the **[!UICONTROL Role]** drop-down.
+1. In the [!UICONTROL User Roles] page, the [!UICONTROL Users] tab is selected by default. For the user whose role you want to change, select **[!UICONTROL Editor]** or **[!UICONTROL Viewer]** from the **[!UICONTROL Role]** drop-down.
 
    ![Modify users roles](assets/modify_user_role.png)
 
@@ -248,7 +248,7 @@ In addition to the Administrator role, Brand Portal supports the following roles
    >
    >The user role is also disabled if the user is a member of the Editor group. To revoke editing privileges from the user, either remove the user from the Editor group or change the role of the entire group to Viewer.
 
-4. Click **[!UICONTROL Save]**. The role is modified for the corresponding user. If you selected multiple users, the roles for all the users are modified simultaneously.
+1. Click **[!UICONTROL Save]**. The role is modified for the corresponding user. If you selected multiple users, the roles for all the users are modified simultaneously.
 
    >[!NOTE]
    >
@@ -268,8 +268,8 @@ An Administrator can associate specific privileges with a [group](../using/brand
 To modify the role and right to access original renditions for specific group members, follow these steps:
 
 1. On the [!UICONTROL User Roles] page, navigate to the **[!UICONTROL Groups]** tab.
-2. Select the groups for which you want to change roles.
-3. Select the appropriate role from the [!UICONTROL Role] drop-down list.
+1. Select the groups for which you want to change roles.
+1. Select the appropriate role from the [!UICONTROL Role] drop-down list.
 
    To allow the members of a group to have access to original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) which they download from the portal or shared link, keep the [!UICONTROL Access to  Original] option selected for that group. By default, [!UICONTROL Access to Original] option is selected for all the users. To prevent a user group from accessing original renditions, deselect the option corresponding to that group.
 
@@ -282,7 +282,7 @@ To modify the role and right to access original renditions for specific group me
    >
    >Also, restrictions to access original renditions of image files do not apply to administrators even though they are members of restricted groups.
 
-4. Click **[!UICONTROL Save]**. The role is modified for the corresponding groups.
+1. Click **[!UICONTROL Save]**. The role is modified for the corresponding groups.
 
    >[!NOTE]
    >

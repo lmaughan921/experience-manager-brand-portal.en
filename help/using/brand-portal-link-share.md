@@ -29,15 +29,15 @@ To share assets as a link, follow these steps:
 
    ![](assets/siderail.png)
 
-2. From the siderail on the left, click **[!UICONTROL Files]** to share folders or images. To share collections, click **[!UICONTROL Collections]**.
+1. From the siderail on the left, click **[!UICONTROL Files]** to share folders or images. To share collections, click **[!UICONTROL Collections]**.
 
    ![](assets/navigationrail.png)
 
-3. Select the folders or collections you want to share as a link.
+1. Select the folders or collections you want to share as a link.
 
    ![](assets/asset-link-share.png)
 
-4. From the toolbar at the top, click the **[!UICONTROL Share Link]** icon.
+1. From the toolbar at the top, click the **[!UICONTROL Share Link]** icon.
 
    The **[!UICONTROL Link Sharing]** dialog box appears.
 
@@ -47,19 +47,19 @@ To share assets as a link, follow these steps:
    >
    >The **[!UICONTROL Share Link]** field displays an automatically created asset link. The default expiry time for this link is 7 days. You can copy the link and share it separately with users or share it from the **[!UICONTROL Link Sharing]** dialog box.
 
-5. In the email address box, type the email ID of the user with whom you want to share the link. You can share the link with multiple users.
+1. In the email address box, type the email ID of the user with whom you want to share the link. You can share the link with multiple users.
 
    If the user is a member of your organization, select their email ID from the suggestions that appear in the drop-down list. If the user is external, type the complete email ID and press **[!UICONTROL Enter]**; the email ID is added to the list of users.
 
    ![](assets/link-sharing-text.png)
 
-6. In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
-7. In the **[!UICONTROL Message]** box, type a message if necessary.
-8. In the **[!UICONTROL Expiration]** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
+1. In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
+1. In the **[!UICONTROL Message]** box, type a message if necessary.
+1. In the **[!UICONTROL Expiration]** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
 
    The assets shared through the link expire after crossing the date and time specified in the **[!UICONTROL Expiration]** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
-9. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the users. Users receive an email containing the link.
+1. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the users. Users receive an email containing the link.
 
    ![](assets/link-sharing-email.png)
 
@@ -88,12 +88,12 @@ To download the shared assets:
 
    ![](assets/licensed-asset-download.png)
 
-   The [!UICONTROL Download] dialog box appears.
+   The [!UICONTROL Download] dialog box appears.<br />
    ![](assets/download-linkshare.png)
 
     * To speed up the download of asset files shared as the link, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 [!UICONTROL 
-2. To download the renditions of assets in addition to the assets from the shared link, select **[!UICONTROL Rendition(s)]** option. When you do so, **Exclude System Renditions]** option appears that is selected by default. This prevents the download of out-of-the-box renditions along with approved assets or their custom renditions.
+1. To download the renditions of assets in addition to the assets from the shared link, select **[!UICONTROL Rendition(s)]** option. When you do so, **Exclude System Renditions]** option appears that is selected by default. This prevents the download of out-of-the-box renditions along with approved assets or their custom renditions.
 
    However, to allow auto-generated renditions to download along with custom renditions, deselect the **[!UICONTROL Exclude System Renditions]** option.
 
@@ -103,7 +103,7 @@ To download the shared assets:
 
    ![](assets/download-linkshare-autoren.png)
 
-3. Tap/ click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
+1. Tap/ click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
 >[!NOTE]
 >
@@ -189,12 +189,12 @@ To unshare previously shared assets as a link, do the following:
 
    ![](assets/siderail.png)
 
-2. From the siderail, click **[!UICONTROL Shared Links]**.
+1. From the siderail, click **[!UICONTROL Shared Links]**.
 
    ![](assets/navigationrail.png)
 
-3. Review the links you shared from the list displayed.
-4. To unshare a link from the list, select it and click the bin icon next to the link entry, or the **[!UICONTROL Unshare]** icon from the toolbar at the top.
+1. Review the links you shared from the list displayed.
+1. To unshare a link from the list, select it and click the bin icon next to the link entry, or the **[!UICONTROL Unshare]** icon from the toolbar at the top.
 
    ![](assets/unshare-links.jpg)
 
@@ -202,4 +202,4 @@ To unshare previously shared assets as a link, do the following:
    >
    >The display of shared links is user-specific. This feature does not display all the links shared by all users of a tenant.
 
-5. In the warning message box, click **[!UICONTROL Continue]** to confirm unshare. The entry for the link is removed from the list of shared links.
+1. In the warning message box, click **[!UICONTROL Continue]** to confirm unshare. The entry for the link is removed from the list of shared links.

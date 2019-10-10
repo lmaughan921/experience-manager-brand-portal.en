@@ -26,10 +26,10 @@ AEM Assets Brand Portal 6.4.2 onwards authorizes administrators to configure gue
 To allow guest access on Brand Portal, so that users need not log in to access public assets, administrators need to:
 
 1. Select the AEM logo to access administrative tools, from the toolbar at the top.
-2. From the administrative tools panel, select **[!UICONTROL Access]** to open **[!UICONTROL Access Settings]** page.
-3. Enable the **[!UICONTROL Allow Guest Access]** configuration.
-4. **[!UICONTROL Save]** the changes.
-5. Logout to let the changes take effect.
+1. From the administrative tools panel, select **[!UICONTROL Access]** to open **[!UICONTROL Access Settings]** page.
+1. Enable the **[!UICONTROL Allow Guest Access]** configuration.
+1. **[!UICONTROL Save]** the changes.
+1. Logout to let the changes take effect.
 
 ![](assets/bp-welcome-screen.png)
 
@@ -40,7 +40,7 @@ Administrators can allow the organization users to request access to Brand Porta
 To allow organization users to request access on Brand Portal, administrators need to:
 
 1. Select the AEM logo to access administrative tools, from the toolbar at the top.
-2. From the administrative tools panel, select **[!UICONTROL Access]** to open **[!UICONTROL Access Settings]** page.
-3. Enable the **[!UICONTROL Allow Users to Request Access]** configuration.
-4. **[!UICONTROL Save]** the changes.
-5. Logout to let the changes take effect.
+1. From the administrative tools panel, select **[!UICONTROL Access]** to open **[!UICONTROL Access Settings]** page.
+1. Enable the **[!UICONTROL Allow Users to Request Access]** configuration.
+1. **[!UICONTROL Save]** the changes.
+1. Logout to let the changes take effect.
