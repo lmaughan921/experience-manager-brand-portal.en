@@ -48,7 +48,7 @@ To enable/disable each of these configurations:
 
 ## Allow admin users to delete assets from Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL Allow users to delet]** configuration enables organizations to allow (or restrict) users with administrator privileges to delete assets and folders from Brand Portal.
+**[!UICONTROL Allow users to delete]** configuration enables organizations to allow (or restrict) users with administrator privileges to delete assets and folders from Brand Portal.
 
 ## Allow public collections creation by non-admins {#allow-public-collections-creation-by-non-admins}
 

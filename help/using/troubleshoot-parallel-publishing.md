@@ -18,9 +18,9 @@ Brand Portal supports integration with AEM Assets to have approved brand assets 
 >
 >Adobe recommends upgrading to AEM 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully integrated with AEM Assets. A limitation in AEM 6.4 gives an error while configuring integration with Brand Portal and replication fails.
 
-On configuring cloud service for brand portal under [!UICONTROL /etc/cloudservice], all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
+On configuring cloud service for brand portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
 
-However, publishing can fail intermittently due to- large sling jobs, increased Network and [!UICONTROL Disk I/O] on AEM Author instance, or slowed performance of AEM Author instance. It is, therefore, advised to test the connection with the replication agent(s) prior to begin publishing.
+However, publishing can fail intermittently due to- large sling jobs, increased Network and **[!UICONTROL Disk I/O]** on AEM Author instance, or slowed performance of AEM Author instance. It is, therefore, advised to test the connection with the replication agent(s) prior to begin publishing.
 
 ![](assets/test-connection.png) 
 
@@ -56,15 +56,15 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new configuration instead. For the new configuration to work properly, clean up the following from AEM author setup:
+Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: **[!UICONTROL mac-&lt;tenantid&gt;-replication]** doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new configuration instead. For the new configuration to work properly, clean up the following from AEM author setup:
 
-1. go to [!UICONTROL localhost:4502/crx/de] (considering you are running author instance on [!UICONTROL localhost:4502]):  
+1. Go to **[!UICONTROL localhost:4502/crx/de]** (considering you are running author instance on [!UICONTROL localhost:4502]):  
    i. delete /etc/replication/agents.author/mp_replication&#42;  
    ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. go to [!UICONTROL localhost:4502/useradmin]:  
-   i search for user [!UICONTROL mac-&lt;tenantid&gt;-replication
-   ii delete this user
+2. Go to **[!UICONTROL localhost:4502/useradmin]**:  
+   i. search for user **[!UICONTROL mac-&lt;tenantid&gt;-replication]**
+   ii. delete this user
 
 Now the system is all cleaned up. Now you can attempt creating a new  cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). There is no need to create a new application, rather just the public key needs to be updated from the newly created cloud config.
 
