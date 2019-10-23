@@ -87,15 +87,15 @@ To share a folder with users on Brand Portal, follow these steps:
 
    ![](assets/selectorrail.png)
 
-2. From the siderail on the left, select **[!UICONTROL Files]**.
+1. From the siderail on the left, select **[!UICONTROL Files]**.
 
    ![](assets/access_files.png)
 
-3. From the Brand Portal interface, select the folder you want to share.
+1. From the Brand Portal interface, select the folder you want to share.
 
    ![](assets/share-folders.png)
 
-4. From the toolbar at the top, select **[!UICONTROL Share]**.
+1. From the toolbar at the top, select **[!UICONTROL Share]**.
 
    ![](assets/share_icon.png)
 
@@ -103,8 +103,8 @@ To share a folder with users on Brand Portal, follow these steps:
 
    ![](assets/folder_properties.png)
 
-5. In the [!UICONTROL Folder Properties] console, specify the folder title in the [!UICONTROL Folder Title] field if you do not want the default name to be displayed to users.
-6. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
+1. In the [!UICONTROL Folder Properties] console, specify the folder title in the [!UICONTROL Folder Title] field if you do not want the default name to be displayed to users.
+1. From the [!UICONTROL Add User] list, select the users or groups with which you want to share the folder, and click **[!UICONTROL Add]**.
 To share the folder with guest users only, and no other users, select **[!UICONTROL Anonymous Users]** from the [!UICONTROL Members] dropdown.
 
    ![](assets/only-anonymous.png)
@@ -113,9 +113,9 @@ To share the folder with guest users only, and no other users, select **[!UICONT
    >
    >To make the folder available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Folder]** check box.
 
-7. If necessary, click **[!UICONTROL Change Thumbnail]** to modify the thumbnail image for the folder.
-8. Click **[!UICONTROL Save]**.
-9. To access the shared folder, log in to Brand Portal with the credentials of the user you shared the folder with. Review the shared folder in the interface.
+1. If necessary, click **[!UICONTROL Change Thumbnail]** to modify the thumbnail image for the folder.
+1. Click **[!UICONTROL Save]**.
+1. To access the shared folder, log in to Brand Portal with the credentials of the user you shared the folder with. Review the shared folder in the interface.
 
 ## Unshare folders {#unshare-the-folders}
 
@@ -125,12 +125,12 @@ To unshare a previously shared folder, follow these steps:
 
    ![](assets/share-folders-1.png)
 
-2. From the toolbar at the top, click **[!UICONTROL Share]**.
-3. In the [!UICONTROL Folder Properties] console, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to a user to remove them from the list of users you shared the folder with.
+1. From the toolbar at the top, click **[!UICONTROL Share]**.
+1. In the [!UICONTROL Folder Properties] console, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to a user to remove them from the list of users you shared the folder with.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
+1. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
 Click **[!UICONTROL Save]**.
 
-5. Log in to Brand Portal with the credentials of the user you removed from the shared list. The folder is no longer available in the Brand Portal interface for the user.
+1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The folder is no longer available in the Brand Portal interface for the user.

@@ -33,20 +33,21 @@ Note that only Administrators can create image presets in Brand Portal.
 
 >[!NOTE]
 >
->Dynamic renditions are created for the assets for which PTIFF is available. So If an asset does not have Pyramid TIFF rendition created on AEM and published to Brand Portal, then only its system renditions can be exported, but dynamic renditions are presented as an option.
-Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyramid tiff (ptiff) of an asset. When such an asset is published to Brand Portal, image presets are applied and dynamic renditions are displayed.
+>Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand portal.
+If AEM (Author) instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. Whereas, if AEM (Author) instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
+When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
-2. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
+1. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 
    ![](assets/admin-tools-panel-4.png)
 
-3. In the image presets page, click **[!UICONTROL Create]**.
+1. In the image presets page, click **[!UICONTROL Create]**.
 
    ![](assets/image_preset_homepage.png)
 
-4. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
+1. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
 
    ![](assets/image_preset_create.png)
 
@@ -54,19 +55,19 @@ Dynamic Media Hybrid mode must be enabled on AEM (author) in order to create pyr
    >
    >You can also use the **[!UICONTROL Edit Image Preset]** page to edit the properties of an existing image preset. To edit an image preset, select it from the image presets page, and click **[!UICONTROL Edit]**.
 
-5. Click **[!UICONTROL Save]**. The image preset is created and displayed on the image presets page.
-6. To delete an image preset, select it from the image presets page and click **[!UICONTROL Delete]**. In the confirmation page, click **[!UICONTROL Delete]** to confirm the deletion. The image preset is removed from the image presets page.
+1. Click **[!UICONTROL Save]**. The image preset is created and displayed on the image presets page.
+1. To delete an image preset, select it from the image presets page and click **[!UICONTROL Delete]**. In the confirmation page, click **[!UICONTROL Delete]** to confirm the deletion. The image preset is removed from the image presets page.
 
 ## Apply image presets when previewing images  {#apply-image-presets-when-previewing-images}
 
 When previewing images and their renditions, choose from the existing presets to reformat images to the specifications set by your Administrator.
 
 1. From the Brand Portal interface, click an image to open it.
-2. Click the overlay icon on the left, and choose **[!UICONTROL Renditions]**.
+1. Click the overlay icon on the left, and choose **[!UICONTROL Renditions]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-3. From the **[!UICONTROL Renditions]** list, select the appropriate dynamic rendition, for example, **[!UICONTROL Thumbnail]**. The preview image is rendered based on your choice of the rendition.
+1. From the **[!UICONTROL Renditions]** list, select the appropriate dynamic rendition, for example, **[!UICONTROL Thumbnail]**. The preview image is rendered based on your choice of the rendition.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -84,13 +85,13 @@ When downloading images and their renditions from Brand Portal, you cannot choos
 
    ![](assets/downloadassets.png)
 
-2. From the **[!UICONTROL Download]** dialog box, select the required options depending upon whether you want to download the asset with or without its renditions.
+1. From the **[!UICONTROL Download]** dialog box, select the required options depending upon whether you want to download the asset with or without its renditions.
 
    ![](assets/donload-assets-dialog.png)
 
-3. To download dynamic renditions of the asset, select the **[!UICONTROL Dynamic Rendition(s)]** option.
-4. Customize image preset properties based on which you want to dynamically reformat the image and its renditions during download. Specify the size, format, color space, resolution, and image modifier.
+1. To download dynamic renditions of the asset, select the **[!UICONTROL Dynamic Rendition(s)]** option.
+1. Customize image preset properties based on which you want to dynamically reformat the image and its renditions during download. Specify the size, format, color space, resolution, and image modifier.
 
    ![](assets/dynamicrenditions.png)
 
-5. Click **[!UICONTROL Download]**. The custom dynamic renditions are downloaded in a ZIP file along with the image and renditions that you chose to download. However, no zip file is created if a single asset is downloaded, which ensures speedy download.
+1. Click **[!UICONTROL Download]**. The custom dynamic renditions are downloaded in a ZIP file along with the image and renditions that you chose to download. However, no zip file is created if a single asset is downloaded, which ensures speedy download.

@@ -30,19 +30,19 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
+1. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
 
    ![](assets/navigation-panel-1.png)
 
-3. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
+1. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
 
    ![](assets/search-forms-page.png)
 
-4. On toolbar that appears at the top, click **[!UICONTROL Edit]** to open the edit search form.
+1. On toolbar that appears at the top, click **[!UICONTROL Edit]** to open the edit search form.
 
    ![](assets/edit-search-form-1.png)
 
-5. In the [!UICONTROL Edit Search Form] page, drag a predicate from the [!UICONTROL Select Predicate] tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
+1. In the [!UICONTROL Edit Search Form] page, drag a predicate from the [!UICONTROL Select Predicate] tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
 
    The **[!UICONTROL Property]** field appears in the main pane and the **[!UICONTROL Settings]** tab on the right displays property predicates.
 
@@ -52,7 +52,7 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
    >
    >The header label in the **[!UICONTROL Settings]** tab identifies the type of predicate you select.
 
-6. In the **[!UICONTROL Settings]** tab, enter a label, placeholder text, and description for the property predicate.
+1. In the **[!UICONTROL Settings]** tab, enter a label, placeholder text, and description for the property predicate.
 
     * Select **[!UICONTROL Partial Search]**, if you want to allow partial phrase search (and wildcard search) of assets-based on the specified property value. By default, the predicate supports the full-text search.
     * Select **[!UICONTROL Ignore Case]**, if you want the asset search based on property value to be non-case sensitive. By default, the search for property values in search Filter is case-sensitive.
@@ -61,16 +61,16 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
    >
    >On selecting **[!UICONTROL Partial Search]** checkbox, [!UICONTROL Ignore Case] is selected by default.
 
-7. In the [!UICONTROL Property Name] field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
+1. In the [!UICONTROL Property Name] field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
 
    ![](assets/title-prop.png)
 
-8. Click **[!UICONTROL Done]** to save the settings.
-9. From the [!UICONTROL Assets] user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is added to the panel.
+1. Click **[!UICONTROL Done]** to save the settings.
+1. From the [!UICONTROL Assets] user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is added to the panel.
 
    ![](assets/property-filter-panel.png)
 
-10. Enter a title for the asset to be searched in the **[!UICONTROL Property]** text box. For example, "Adobe". When you perform a search, assets with the title matching "Adobe" are displayed in the search results.
+1. Enter a title for the asset to be searched in the **[!UICONTROL Property]** text box. For example, "Adobe". When you perform a search, assets with the title matching "Adobe" are displayed in the search results.
 
 ## List of search predicates {#list-of-search-predicates}
 
@@ -108,29 +108,29 @@ To delete a search predicate, follow these steps:
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
+1. From the administrative tools panel, click **[!UICONTROL Search Forms]**.
 
    ![](assets/navigation-panel-2.png)
 
-3. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
+1. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
 
    ![](assets/search-forms-page.png)
 
-4. On toolbar that appears at the top, click **[!UICONTROL Edit]** to open the edit search form.
+1. On toolbar that appears at the top, click **[!UICONTROL Edit]** to open the edit search form.
 
    ![](assets/edit-search-form-2.png)
 
-5. In the [!UICONTROL Edit Search Form] page, from the main pane, select the predicate you want to delete. For example, select **[!UICONTROL Property Predicate]**.
+1. In the [!UICONTROL Edit Search Form] page, from the main pane, select the predicate you want to delete. For example, select **[!UICONTROL Property Predicate]**.
 
    The **[!UICONTROL Settings]** tab on the right displays property predicate fields.
 
-6. To delete the property predicate, click the bin icon. On the **[!UICONTROL Delete Field]** dialog box, click **[!UICONTROL Delete]** to confirm the delete action.
+1. To delete the property predicate, click the bin icon. On the **[!UICONTROL Delete Field]** dialog box, click **[!UICONTROL Delete]** to confirm the delete action.
 
    The **[!UICONTROL Property Predicate]** field is removed from the main pane, and the **[!UICONTROL Settings]** tab becomes empty.
 
    ![](assets/search-form-delete-predicate.png)
 
-7. To save the changes, click **[!UICONTROL Done]** in the toolbar.
-8. From the **[!UICONTROL Assets]** user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is removed from the panel.
+1. To save the changes, click **[!UICONTROL Done]** in the toolbar.
+1. From the **[!UICONTROL Assets]** user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is removed from the panel.
 
    ![](assets/property-predicate-removed.png)
