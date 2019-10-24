@@ -58,7 +58,7 @@ To apply filters to your search, using the available [search facets](../using/br
 1. From the **[!UICONTROL Filters]** panel on the left, select the appropriate options to apply the relevant filters.
    For example, use the following standard filters:
 
-    * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
+    * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
 
    >[!NOTE]
    >

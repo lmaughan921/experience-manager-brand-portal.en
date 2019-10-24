@@ -117,7 +117,7 @@ Microsoft Edge runs in Enhanced Protected Mode (EPM) preventing communication wi
 To use accelerated download functionality on Microsoft Edge, remove the Brand Portal site from the trusted site list.
 
 1. Open the Control Panel (press **[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
-1. Go to **[!UICONTROL Network and Internet &gt; Internet Options]**. Click the **[!UICONTROL Security]** tab.
+1. Go to **[!UICONTROL Network and Internet > Internet Options]**. Click the **[!UICONTROL Security]** tab.
 1. Click the **[!UICONTROL Trusted sites zone]**, then click **[!UICONTROL Sites]**.
 1. Remove Brand Portal site from the list.
 
