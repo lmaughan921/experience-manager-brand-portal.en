@@ -116,7 +116,7 @@ To set up Dynamic Media configurations on Brand Portal tenants:
 **[!UICONTROL Edit Dynamic Media Configuration]** page opens.<br />
 ![Dynamic Media Hybrid Configuration on Brand Portal](assets/edit-dynamic-media-config.png)
 
-3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Make sure these details are the same as those in **[!UICONTROL Tools &gt; Cloud Services]** in your AEM Author instance.
+3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Make sure these details are the same as those in **[!UICONTROL Tools > Cloud Services]** in your AEM Author instance.
 
 4. Select **Save** to save the configuration.
 

@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Upload new assets to contribution folder {#uplad-new-assets-to-contribution-folder}
+# Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
 Brand Portal users [download the asset requirements](brand-portal-download-asset-requirements.md) – brief document attached to the contribution folder and download baseline assets from the **SHARED** folder to understand the need of contribution. 
 Brand Portal users can then create new assets for contribution and upload them to the **NEW** folder within the contribution folder.

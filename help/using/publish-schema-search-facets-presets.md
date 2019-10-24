@@ -29,7 +29,7 @@ Once the preset is created, it is listed as dynamic rendition on asset detail re
 
 To publish image presets to Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **[!UICONTROL Assets]** &gt; **[!UICONTROL Image Presets]**.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **[!UICONTROL Assets > Image Presets]**.
 1. Select the image preset or multiple image presets from the list of image presets and click/ tap **[!UICONTROL Publish to Brand Portal]**.
 
 ![](assets/publishpreset.png)
@@ -40,7 +40,7 @@ To publish image presets to Brand Portal:
 
 To unpublish an image preset from Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Assets > Image Presets]**.
 1. Select an image preset, and select **[!UICONTROL Remove from Brand Portal]** from the options available at the top.
 
 ## Publish metadata schema to Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -65,7 +65,7 @@ If users have created a custom schema on AEM Author instance, they can publish t
 
 To publish a metadata schema from AEM Author instance to Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets > Metadata Schemas]**.
 1. Select a metadata schema, and select **[!UICONTROL Publish to Brand Portal]** from the options available at the top.
 
 >[!NOTE]
@@ -74,7 +74,7 @@ To publish a metadata schema from AEM Author instance to Brand Portal:
 
 To unpublish a metadata schema from Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets > Metadata Schemas]**.
 1. Select a metadata schema, and select **[!UICONTROL Remove from Brand Portal]** from the options available at the top.
 
 ## Publish search facets to Brand Portal {#publish-search-facets-to-brand-portal}
@@ -92,7 +92,7 @@ If you are willing to use custom search form **[!UICONTROL Assets Admin Search R
 
 To publish the edited search facet from AEM Author instance to Brand Portal:
 
-1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Search Forms]**.
+1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools > General > Search Forms]**.
 1. Select the edited search form, and select **[!UICONTROL Publish to Brand Portal]**.
 
    >[!NOTE]
@@ -101,7 +101,7 @@ To publish the edited search facet from AEM Author instance to Brand Portal:
 
 To unpublish search forms from Brand Portal:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL General &gt; Search Forms]**.
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL General > Search Forms]**.
 1. Select the search form, and select **[!UICONTROL Remove from Brand Portal]** from the options available at the top.
 
 >[!NOTE]

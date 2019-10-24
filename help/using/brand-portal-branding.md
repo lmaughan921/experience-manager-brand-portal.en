@@ -50,7 +50,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
    
    ![](assets/custom-wallpaper-preview.png)
 
-1. To activate or deactivate the default wallpaper, do the following in the **[!UICONTROL Configure Branding &gt; Wallpaper]** page:
+1. To activate or deactivate the default wallpaper, do the following in the **[!UICONTROL Configure Branding > Wallpaper]** page:
 
     * To display the default wallpaper image on the Brand Portal login page, click **[!UICONTROL Deactivate Wallpaper]** from the toolbar at the top. A message confirms that the custom image is deactivated.
 
@@ -100,7 +100,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. To activate or deactivate the header image, do the following in the **[!UICONTROL Configure Branding &gt; Header Image]** page:
+1. To activate or deactivate the header image, do the following in the **[!UICONTROL Configure Branding > Header Image]** page:
 
     * To prevent a header image from appearing on  Brand Portal pages, click **[!UICONTROL Deactivate Header]** from the toolbar at the top. A message confirms that the image is deactivated.
 

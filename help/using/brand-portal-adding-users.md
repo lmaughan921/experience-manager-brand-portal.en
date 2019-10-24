@@ -30,7 +30,7 @@ These product profiles are synced with the Brand Portal user interface every 8 h
 
 >[!NOTE]
 >
->To create groups in Brand Portal, from Adobe [!UICONTROL Admin Console], use **[!UICONTROL Products &gt; Product Profiles]**, instead of **[!UICONTROL User page &gt; User Groups]**. Product profiles in Adobe [!UICONTROL Admin Console] are used to create groups in Brand Portal.
+>To create groups in Brand Portal, from Adobe [!UICONTROL Admin Console], use **[!UICONTROL Products > Product Profiles]**, instead of **[!UICONTROL User page > User Groups]**. Product profiles in Adobe [!UICONTROL Admin Console] are used to create groups in Brand Portal.
 
 ## Add a user {#add-a-user}
 
@@ -151,7 +151,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
 1. To add bulk users to the product profile, do the following:
 
-    * Choose ellipsis (**[!UICONTROL ...) &gt; Add users by CSV]**.
+    * Choose **[!UICONTROL ellipsis (...) > Add users by CSV]**.
 
    ![Add users in bulk](assets/admin_console_addbulkusers.png)
 
@@ -190,7 +190,7 @@ You can provide the system administrator or the product administrator privilege 
 
    ![Add Users in Admin Console](assets/admin_console_adduseruserpage.png)
 
-1. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose ellipsis (**[!UICONTROL ... &gt; Edit admin rights]**.
+1. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose **[!UICONTROL ellipsis (...) > Edit admin rights]**.
    ![Admin rights in Admin Console](assets/admin_console_editadminrights.png)
 
 1. In the [!UICONTROL Edit Admin] page, select System Administrator or Product Administrator.
@@ -215,7 +215,7 @@ You can provide the system administrator or the product administrator privilege 
 
    >[!NOTE]
    >
-   >To revoke administrator privileges for a user, make the appropriate changes in the [!UICONTROL Edit Admin] page, and then click **[!UICONTROL Save]**.
+   >To revoke administrator privileges for a user, make the appropriate changes in the **[!UICONTROL Edit Admin]** page, and then click **[!UICONTROL Save]**.
 
 ## Manage user roles {#manage-user-roles}
 
