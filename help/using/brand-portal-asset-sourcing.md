@@ -26,6 +26,11 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 ![](assets/asset-sourcing.png)
 
+## Prerequisites {#prerequisites}
+
+* AEM 6.5.0.2 or above.
+* Ensure that your AEM Assets instance is integrated with Brand Portal. See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+
 ## See also {#reference-articles}
 
 **For administrators**

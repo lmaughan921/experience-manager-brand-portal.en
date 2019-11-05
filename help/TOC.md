@@ -14,6 +14,7 @@ user-guide-title: AEM Brand Portal
   + [Overview](using/brand-portal.md)
   + [What's new in AEM Assets Brand Portal](using/whats-new.md)
   + [Release Notes](using/brand-portal-release-notes.md)
+  + [Frequently Asked Questions](using/brand-portal-faqs.md)
   + [Supported file formats](using/brand-portal-supported-formats.md)
   + [Guest Access to Brand Portal](using/guest-access.md)
   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)

@@ -29,14 +29,18 @@ The AEM user then defines the requirement by [uploading a brief](brand-portal-co
 
 Once the user is finished adding content in the **NEW** folder, they can publish the contribution folder back to the AEM author environment. Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.
 
-Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. 
+
+See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+See [Brand Portal FAQs](brand-portal-faqs.md)
 
 >[!NOTE]
 >
-
 >Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
 >
 >The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
+
 
 ### Upload assets to contribution folder {#upload-assets-in-bp} 
 
