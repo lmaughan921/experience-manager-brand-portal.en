@@ -532,24 +532,3 @@ Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Asse
 ![](assets/publish_tags_aemassets.png)
 
 * From AEM Assets, you can publish assets and collections that have tags, including smart tags. You can then search for these assets or collections using these tags as search keywords in Brand Portal.
-
-## Frequently asked questions {#frequently-asked-questions}
-
-**Ques. Will I lose access to any existing assets, features, or configurations I have created?**
-**Ans.** All of your existing features and configurations remain intact. Your end users are not impacted, and your content remains intact.
-
-**Ques. When am I moving to the new version of Brand Portal?**
-**Ans.** Brand Portal 6.4.4 was released to production in February 2019. Next Brand Portal version is expected to be released in Q3 2019.
-
->[!NOTE]
->
->Release schedule is tentative and subject to change. Contact your Adobe Account Manager or Customer Support to get the updated release schedule.
-
-**Ques. Will my users be impacted?**
-**Ans.** This change is exclusively within Brand Portal, so there is no impact to your end users.
-
-**Ques. Is there any action required on my part?**
-**Ans.** There is no action required by the administrator. Once you get access to the new Brand Portal, refer to the documentation to see all the bells and whistles.
-
-**Ques. Who do I contact with questions?**
-**Ans.** Contact your Adobe Account Manager or Customer Support.
