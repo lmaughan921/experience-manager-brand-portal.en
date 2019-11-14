@@ -23,3 +23,6 @@ AEM user performs the following activities while configuring a contribution fold
 * [Assign contributors](brand-portal-configure-contribution-folder-properties.md)
 * [Upload baseline assets](brand-portal-upload-baseline-assets.md)
 * [Publish contribution folder to Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
+
+The following video demostrates on how to configure a contribution folder:
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)

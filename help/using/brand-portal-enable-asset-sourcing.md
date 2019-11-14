@@ -29,3 +29,5 @@ Default URL: http:// localhost:4502/system/console/configMgr
 1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+
+The next step is to [Upload Brand Portal users list](brand-portal-upload-user-list.md).
