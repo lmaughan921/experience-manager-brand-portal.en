@@ -46,8 +46,8 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 **For administrators**
 
-* [Configure Asset Sourcing in AEM](brand-portal-enable-asset-sourcing.md)
-* [Upload Brand Portal users list](brand-portal-upload-user-list.md)
+* [Configure Asset Sourcing in AEM](brand-portal-configure-asset-sourcing.md)
+* [Upload Brand Portal users list](brand-portal-configure-asset-sourcing.md)
 * [Configure contribution folder](brand-portal-contribution-folder.md)
 * [Upload baseline assets to contribution folder](brand-portal-upload-baseline-assets.md)
 * [Publish contribution folder to Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
