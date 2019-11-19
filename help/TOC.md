@@ -14,6 +14,7 @@ user-guide-title: AEM Brand Portal
   + [Overview](using/brand-portal.md)
   + [What's new in AEM Assets Brand Portal](using/whats-new.md)
   + [Release Notes](using/brand-portal-release-notes.md)
+  + [Frequently Asked Questions](using/brand-portal-faqs.md)
   + [Supported file formats](using/brand-portal-supported-formats.md)
   + [Guest Access to Brand Portal](using/guest-access.md)
   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
@@ -27,9 +28,7 @@ user-guide-title: AEM Brand Portal
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
   + [Overview](using/brand-portal-asset-sourcing.md)
-  + Configure Asset Sourcing in AEM {#configure-asset-sourcing-in-aem}
-    + [Enable Asset Sourcing](using/brand-portal-enable-asset-sourcing.md)
-    + [Upload Brand Portal users list](using/brand-portal-upload-user-list.md)
+  + [Configure Asset Sourcing in AEM](using/brand-portal-configure-asset-sourcing.md)
   + Configure Contribution folder in AEM Assets {#configure-contribution-folder}
     + [Overview](using/brand-portal-contribution-folder.md)
     + [Create contribution folder](using/brand-portal-create-contribution-folder.md)
