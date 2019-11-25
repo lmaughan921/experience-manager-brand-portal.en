@@ -7,6 +7,7 @@ uuid:
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
+version: 6.5
 discoiquuid: 
 ---
 
