@@ -14,9 +14,7 @@ discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 
 The first-time login experience is same for all new AEM Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 
-After an Administrator adds new users, they need not accept invitations to get added to the Brand Portal account, they are added automatically.
-
-To log in to Brand Portal for the first time, do the following:
+Following are the steps to be performed for the users logging in to Brand Portal for the first time:
 
 1. Open the welcome email, and click **[!UICONTROL Get Started]**.
 

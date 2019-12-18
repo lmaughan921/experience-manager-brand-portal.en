@@ -47,7 +47,7 @@ To download the files faster, ensure the following:
 
 The following table shows download performance for 2 GB file using Aspera Connect file download accelerator:
 
-**The observed results do vary due to factors such as network bandwidth, server latency, and client location, considering Brand Portal server is at Oregon (United States).*
+*The observed results do vary due to factors such as network bandwidth, server latency, and client location, considering Brand Portal server is at Oregon (United States).*
 
 | Client location           | Latency between client and server (milliseconds) | Speed with Aspera Connect File Transfer Accelerator (MBps) | Time taken to download 2 GB file with  Aspera File Transfer Accelerator (seconds) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Aspera Connect application provides an Activity Window on the system where user 
 
 ![](assets/aspera-activity-window.png)
 
-On successful completion of the download, a dialog box shows the location where assets are downloaded to user's system. If there is a failure, it shows error.
+On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
 
    >[!NOTE]
    >

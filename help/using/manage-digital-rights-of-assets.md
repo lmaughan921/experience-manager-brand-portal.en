@@ -46,7 +46,7 @@ The following table displays the usage permissions of expired assets:
 
 ### Expiration status of assets {#expiration-status-of-assets}
 
-You can view the expiration status of assets in their [!UICONTROL Card View]. A red flag on the card indicates that the asset has expired.
+You can view the expiration status of assets in their **[!UICONTROL Card View]**. A red flag on the card indicates that the asset has expired.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -70,11 +70,11 @@ Licensed assets are subject to the acceptance of a license agreement prior to do
 
 License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
-If you choose to download license-protected asset(s), you are redirected to [!UICONTROL Copyright Management] page.
+If you choose to download license-protected asset(s), you are redirected to **[!UICONTROL Copyright Management]** page.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Here you need to select the asset to download and accept the associated license agreement. If you do not accept the license agreement, the [!UICONTROL Download] button is not enabled.
+Here you need to select the asset to download and accept the associated license agreement. If you do not accept the license agreement, the **[!UICONTROL Download]** button is not enabled.
 
 ![](assets/licensed-asset-download-2.png)
 

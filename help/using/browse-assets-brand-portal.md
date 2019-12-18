@@ -74,7 +74,7 @@ Overview option is available to non-admin users (Editors, Viewers, Guest users) 
 * in the toolbar at the top on selecting an asset/folder.
 * in the drop-down on selecting the rail Selector.
 
-On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
+On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
 
 ![](assets/overview-option.png)
 
@@ -82,7 +82,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 #### View settings in card view
 
-[!UICONTROL View Settings] dialog opens on selecting **[!UICONTROL View Settings]** from the view selector. It enables you to resize the asset thumbnails in the Card view. This way, you can personalize your view and control the number of thumbnails that is displayed.
+**[!UICONTROL View Settings]** dialog opens on selecting **[!UICONTROL View Settings]** from the view selector. It enables you to resize the asset thumbnails in the Card view. This way, you can personalize your view and control the number of thumbnails that is displayed.
 
 ![](assets/cardviewsettings.png)
 
@@ -103,7 +103,7 @@ The list view displays information for each resource at the current level. List 
 * Folder path showing asset hierarchy<sup>*</sup>
 * Date of publishing the asset on Brand Portal
 
-&#42; Path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -111,7 +111,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### View settings in list view
 
-List view shows asset [!UICONTROL Name] as the first column by default. Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
+List view shows asset **[!UICONTROL Name]** as the first column by default. Additional information, such as asset **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, publish status are also shown. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 

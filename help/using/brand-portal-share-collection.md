@@ -17,7 +17,7 @@ AEM Assets Brand Portal Administrators can share and unshare a collection or a s
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] checkbox available in [!UICONTROL Collection Settings] dialog.
+>Editors cannot change a public collection to a non-public collection and, therefore, do not have **[!UICONTROL Public Collection]** checkbox available in **[!UICONTROL Collection Settings]** dialog.
 
 ## Share a collection {#share-collection}
 
@@ -51,7 +51,7 @@ To share a collection, follow these steps:
 
    ![](assets/collection_sharingadduser.png)
 
-   Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] check-box available in [!UICONTROL Collection Settings] dialog.
+   Editors cannot change a public collection to a non-public collection and, therefore, do not have **[!UICONTROL Public Collection]** check-box available in **[!UICONTROL Collection Settings]** dialog.
 
    ![](assets/collection-setting-editor.png)
 
@@ -65,13 +65,13 @@ To share a collection, follow these steps:
 
 To unshare a previously shared collection, do the following:
 
-1. From the [!UICONTROL Collections] console, select the collection you want to unshare.
+1. From the **[!UICONTROL Collections]** console, select the collection you want to unshare.
 
    In the toolbar, click **[!UICONTROL Settings]**.
 
    ![](assets/collection_settings.png)
 
-1. On the [!UICONTROL Collection Settings] dialog box, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
+1. On the **[!UICONTROL Collection Settings]** dialog box, under **[!UICONTROL Members]**, click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
 
    ![](assets/unshare_collection.png)
 

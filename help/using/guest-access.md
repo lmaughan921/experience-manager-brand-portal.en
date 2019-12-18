@@ -35,8 +35,8 @@ To enter Brand Portal anonymously, select **[!UICONTROL Click here]** correspond
 
 ## Guest session duration {#guest-session-duration}
 
-A guest user session remains active for 2 hours. This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
+For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
 
 ## Concurrent guest sessions allowed {#concurrent-guest-sessions-allowed}
 
@@ -54,7 +54,7 @@ However, the guest users see the folder tree (starting from the root folder) and
 
 These parent folders are the virtual folders and no actions can be performed on them. You can recognize these virtual folders with a lock icon.
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Overview] button is shown on selecting a virtual folder in [!UICONTROL Column View] and [!UICONTROL List View].
+No action tasks are visible on hovering or selecting them in **[!UICONTROL Card View]**, unlike the shared folders. **[!UICONTROL Overview]** button is shown on selecting a virtual folder in **[!UICONTROL Column View]** and **[!UICONTROL List View]**.
 
 >[!NOTE]
 >
@@ -62,19 +62,19 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-[!UICONTROL View Settings] option allows the guest users to adjust card sizes in [!UICONTROL Card View] or columns to display in [!UICONTROL List View].
+**[!UICONTROL View Settings]** option allows the guest users to adjust card sizes in **[!UICONTROL Card View]** or columns to display in **[!UICONTROL List View]**.
 
 ![](assets/nav-guest-user.png)
 
-The [!UICONTROL Content tree] lets you move through assets hierarchy.
+The **[!UICONTROL Content tree]** lets you move through assets hierarchy.
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICONTROL Asset Properties] of selected assets/folders. The [!UICONTROL Overview] option is visible:
+Brand Portal provides **[!UICONTROL Overview]** option to guest users to view **[!UICONTROL Asset Properties]** of selected assets/folders. The **[!UICONTROL Overview]** option is visible:
 
 * In the toolbar at the top on selecting an asset/folder.
 * In the drop-down on selecting the Rail Selector.
-On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
+On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting **[!UICONTROL Overview]** option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
 
@@ -88,28 +88,28 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 Guest users can access public assets on Brand Portal, and also have few restrictions as discussed further.
 
-Guest users can:
+**Guest users can**:
 
-* access all the public folders and collections meant for all the Brand Portal users.
-* browse members, detail page, and have full asset view of the members of all the public folders and collections.
-* search assets across public folders and collections.
-* add assets to lightbox collection. These changes to the collection persist during the session.
-* download assets directly or through lightbox collection.
+* Access all the public folders and collections meant for all the Brand Portal users.
+* Browse members, detail page, and have full asset view of the members of all the public folders and collections.
+* Search assets across public folders and collections.
+* Add assets to lightbox collection. These changes to the collection persist during the session.
+* Download assets directly or through lightbox collection.
 
-Guest users cannot:
+**Guest users cannot**:
 
-* create collections and saved searches, or share them further.
-* access folder and collections settings.
-* share assets as links.
+* Create collections and saved searches, or share them further.
+* Access folder and collections settings.
+* Share assets as links.
 
 ### Download assets in guest session
 
-Guest users can directly download assets shared publically or exclusively with guest users on Brand Portal. Guest users can also add assets to [!UICONTROL Lightbox] (public collection), and download the [!UICONTROL Lightbox] collection before their session expires.
+Guest users can directly download assets shared publically or exclusively with guest users on Brand Portal. Guest users can also add assets to **[!UICONTROL Lightbox]** (public collection), and download the **[!UICONTROL Lightbox]** collection before their session expires.
 
 To download assets and collections, use the download icon from:
 
-* quick action thumbnails, which appear on hovering over the asset or collection
-* the toolbar at the top, which appears on selecting the asset or collection
+* Quick action thumbnails, which appear on hovering over the asset or collection
+* The toolbar at the top, which appears on selecting the asset or collection
 
 ![](assets/download-on-guest.png)
 

@@ -59,9 +59,9 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
 
    >[!NOTE]
    >
-   >On selecting **[!UICONTROL Partial Search]** checkbox, [!UICONTROL Ignore Case] is selected by default.
+   >On selecting **[!UICONTROL Partial Search]** checkbox, **[!UICONTROL Ignore Case]** is selected by default.
 
-1. In the [!UICONTROL Property Name] field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
+1. In the **[!UICONTROL Property Name]** field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter `  jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
 
    ![](assets/title-prop.png)
 
@@ -78,23 +78,23 @@ Similar to the way you add a **[!UICONTROL Property]** predicate, you can add th
 
 | **Predicate Name** | **Description** | **Properties** |
 |-------|-------|----------|
-| [!UICONTROL Path Browser] | Search predicate to search assets at a particular location. **Note:** *For a logged-in user, path browser on Filter shows only the content structure of the folders (and their ancestors) shared with the user.* <br> Admin users can search assets in any folder by navigating to that folder using Path Browser. <br> Whereas, non-admin users can search assets in a folder (accessible to them) by navigating to that folder in Path Browser. | <ul><li>Field Label</li><li>Path</li><li>Description</li></ul> |
-| [!UICONTROL Property] | Search assets based on a particular metadata property. **Note:** *On selecting Partial Search, Ignore Case is selected by default*. | <ul><li>Field Label</li><li>Placeholder</li><li>Property Name</li><li>Partial Search</li><li>Ignore Case</li><li> Description</li></ul> |
-| [!UICONTROL Multi-Value Property] | Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results. | <ul><li>Field Label</li><li>Placeholder</li><li>Property name</li><li>Delimiter Support</li><li>Ignore Case</li><li>Description</li></ul> |
-| [!UICONTROL Tags] | Search predicate to search assets based on tags. You can configure the Path property to populate various tags in the Tags list. *Note: Administrators might need to change the path value, for example, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], if they publish the search form from AEM, where the path does not include tenant information, for example, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Field Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
-| [!UICONTROL Path] | Search predicate to search assets at a particular location. | <ul><li>Field Label</li><li>Path</li><li>Description</li></ul> |                                                     |
-| [!UICONTROL Relative Date] | Search predicate to search assets based on the relative date of their creation. | <ul><li>Field Label</li><li>Property name</li><li>Relative date</li></ul> |
-| [!UICONTROL Range] | Search predicate to search assets that lie within a specified range of property values. In the Filters panel, you can specify minimum and maximum property values for the range. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL Date Range] | Search predicate to search assets created within a specified range for a date property. In the Filters panel, you can specify Start and End dates. | <ul><li>Field Label</li><li>Placeholder</li><li>Property name</li><li>Range text (From)</li><li>Range text (To)</li><li>Description</li></ul> |
-| [!UICONTROL Date] | Search predicate for a slider-based search of assets based on a date property. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL File Size] | Search predicate to search assets based on their size. | <ul><li>Field Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
-| [!UICONTROL Asset Last Modified]  | Search predicate to search assets based on the last modified date. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL Approval Status] | Search predicate to search assets based on approval metadata property. The default property name is **dam:status**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL Checkout Status] | Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL Checked Out By] | Search predicate to search assets based on the user who has checked out the asset. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL Expiry Status] | Search predicate to search assets based on the expiration status. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
-| [!UICONTROL Member of collection] | Search predicate to search assets based on whether an asset is a part of a collection. | Description |
-| [!UICONTROL Hidden] | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Path Browser]** | Search predicate to search assets at a particular location. **Note:** *For a logged-in user, path browser on Filter shows only the content structure of the folders (and their ancestors) shared with the user.* <br> Admin users can search assets in any folder by navigating to that folder using Path Browser. <br> Whereas, non-admin users can search assets in a folder (accessible to them) by navigating to that folder in Path Browser. | <ul><li>Field Label</li><li>Path</li><li>Description</li></ul> |
+| **[!UICONTROL Property]** | Search assets based on a particular metadata property. **Note:** *On selecting Partial Search, Ignore Case is selected by default*. | <ul><li>Field Label</li><li>Placeholder</li><li>Property Name</li><li>Partial Search</li><li>Ignore Case</li><li> Description</li></ul> |
+| **[!UICONTROL Multi-Value Property]** | Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results. | <ul><li>Field Label</li><li>Placeholder</li><li>Property name</li><li>Delimiter Support</li><li>Ignore Case</li><li>Description</li></ul> |
+| **[!UICONTROL Tags]** | Search predicate to search assets based on tags. You can configure the Path property to populate various tags in the Tags list. *Note: Administrators might need to change the path value, for example, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], if they publish the search form from AEM, where the path does not include tenant information, for example, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Field Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
+| **[!UICONTROL Path]** | Search predicate to search assets at a particular location. | <ul><li>Field Label</li><li>Path</li><li>Description</li></ul> |                                                     |
+| **[!UICONTROL Relative Date]** | Search predicate to search assets based on the relative date of their creation. | <ul><li>Field Label</li><li>Property name</li><li>Relative date</li></ul> |
+| **[!UICONTROL Range]** | Search predicate to search assets that lie within a specified range of property values. In the Filters panel, you can specify minimum and maximum property values for the range. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Date Range]** | Search predicate to search assets created within a specified range for a date property. In the Filters panel, you can specify Start and End dates. | <ul><li>Field Label</li><li>Placeholder</li><li>Property name</li><li>Range text (From)</li><li>Range text (To)</li><li>Description</li></ul> |
+| **[!UICONTROL Date]** | Search predicate for a slider-based search of assets based on a date property. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL File Size]** | Search predicate to search assets based on their size. | <ul><li>Field Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
+| **[!UICONTROL Asset Last Modified]**  | Search predicate to search assets based on the last modified date. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Approval Status]** | Search predicate to search assets based on approval metadata property. The default property name is **dam:status**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Checkout Status]** | Search predicate to search assets based on the check-out status of an asset when it was published from AEM Assets. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Checked Out By]** | Search predicate to search assets based on the user who has checked out the asset. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Expiry Status]** | Search predicate to search assets based on the expiration status. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
+| **[!UICONTROL Member of collection]** | Search predicate to search assets based on whether an asset is a part of a collection. | Description |
+| **[!UICONTROL Hidden]** | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | <ul><li>Field Label</li><li>Property name</li><li>Description</li></ul> |
 
 >[!NOTE]
 >
