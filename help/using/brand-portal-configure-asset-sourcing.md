@@ -19,7 +19,7 @@ AEM administrators can configure **Asset Sourcing** from within the AEM author i
 >Before you begin with the configuration, ensure that your AEM Assets instance is integrated with Brand Portal. See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html). 
 
 
-The following video demostrates, how to Configure Asset Sourcing on your AEM author instance:
+The following video demonstrates, how to Configure Asset Sourcing on your AEM author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
 
