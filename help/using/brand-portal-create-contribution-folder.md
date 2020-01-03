@@ -29,8 +29,8 @@ It is recommended to use small alphabets without space to name the folder.
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** are automatically created within the contribution folder.  
 ![](assets/contribution-folder.png)
 
-Now, you can configure the properties of the newly created Contribution folder. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
+You can now configure the Contribution folder properties. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
 
 >[!NOTE]
 >
->Ensure that you provide an appropirate name to the Contribution folder as you cannot modify the folder name after creation. 
+>Ensure that you provide an appropriate name to the Contribution folder as you cannot modify the folder name after creation. 
