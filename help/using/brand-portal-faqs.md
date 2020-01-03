@@ -50,7 +50,7 @@ For updates and version change, it is recommended to track the [Release Notes](b
 
 **Ques. Who can create a Contribution folder?**
 
-**Ans.** Any AEM users having permissions to create a new folder in AEM Assets, can create a **Contribution** folder. To create a **Contribution** folder, create a new folder of type **Asset Contribution**. 
+**Ans.** Any AEM user having permissions to create a new folder in AEM Assets, can create a **Contribution** folder. To create a **Contribution** folder, create a new folder of type **Asset Contribution**. 
 This folder is shared with the active Brand Portal users for contribution.  
 
 
