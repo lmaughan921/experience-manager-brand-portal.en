@@ -50,8 +50,8 @@ For updates and version change, it is recommended to track the [Release Notes](b
 
 **Ques. Who can create a Contribution folder?**
 
-**Ans.** Any AEM users can create a new folder in AEM Assets and assign the property **Asset Contribution**. The newly created folder is called as a **Contribution** folder. 
-This folder is then shared with the active Brand Portal users for contribution.  
+**Ans.** Any AEM users having permissions to create a new folder in AEM Assets, can create a **Contribution** folder. To create a **Contribution** folder, create a new folder of type **Asset Contribution**. 
+This folder is shared with the active Brand Portal users for contribution.  
 
 
 
@@ -59,6 +59,12 @@ This folder is then shared with the active Brand Portal users for contribution.
 
 **Ans.** **Contribution** folder contains two sub-folders **NEW** and **SHARED**. Initially, the NEW folder is blank and the SHARED folder contains the reference content (reusable assets) for the Brand Portal users. 
 The Brand Portal users access the **Contribution** folder and upload content in the **NEW** folder.  
+
+
+
+**Ques.  Can I modify the name of an existing Contribution folder?**
+
+**Ans.** **No**, you cannot modify the name of an existing **Contribution** folder.  
 
 
 
