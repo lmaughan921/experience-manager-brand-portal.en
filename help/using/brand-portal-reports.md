@@ -36,27 +36,27 @@ To view a report, follow these steps:
 
    To view a report, tap/click the report link. Alternatively, select the report, and tap/click the View icon from the toolbar.
 
-   [!UICONTROL Usage Report] displays information about the number of current Brand Portal users, the storage space occupied by all the assets, and the total assets count in Brand Portal. The report also displays the permitted capacity for each of these information metrics.
+   **[!UICONTROL Usage Report]** displays information about the number of current Brand Portal users, the storage space occupied by all the assets, and the total assets count in Brand Portal. The report also displays the permitted capacity for each of these information metrics.
 
    ![](assets/usage-report.png)
 
-   [!UICONTROL User Logins] report gives information about the users who logged in to Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
+   **[!UICONTROL User Logins]** report gives information about the users who logged in to Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
 
    ![](assets/user-logins.png)
 
-   [!UICONTROL Download] report lists and details about all the assets downloaded in a specific date and time range.
+   **[!UICONTROL Download]** report lists and details about all the assets downloaded in a specific date and time range.
 
    ![](assets/download-report.png)
 
    >[!NOTE]
    >
-   >The assets [!UICONTROL Download] report displays only the assets that were individually selected and downloaded from Brand Portal. If a user has downloaded a folder containing assets, the report does not display the folder or the assets inside the folder.
+   >The assets **[!UICONTROL Download]** report displays only the assets that were individually selected and downloaded from Brand Portal. If a user has downloaded a folder containing assets, the report does not display the folder or the assets inside the folder.
 
-   [!UICONTROL Expiration] report lists and details all the assets that expired in a specific time frame.
+   **[!UICONTROL Expiration]** report lists and details all the assets that expired in a specific time frame.
 
    ![](assets/expiration-report.png)
 
-   [!UICONTROL Publish] report lists and gives information about all the assets that are published from AEM to Brand Portal in a specified time frame.
+   **[!UICONTROL Publish]** report lists and gives information about all the assets that are published from AEM to Brand Portal in a specified time frame.
 
    ![](assets/publish-report.png)
 
@@ -64,7 +64,7 @@ To view a report, follow these steps:
    >
    >Publish Report does not display information about content fragments, as the content fragments cannot be published to the Brand Portal.
 
-   [!UICONTROL Link Share report] lists all the assets shared through links from Brand Portal interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
+   **[!UICONTROL Link Share report]** lists all the assets shared through links from Brand Portal interface in a specific time frame. The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
 
    ![](assets/link-share-report.png)
 
@@ -100,11 +100,11 @@ The columns in the Download, Expiration, and Publish report can be customized fo
 
    ![](assets/crete-report.png)
 
-1. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for [!UICONTROL Download], [!UICONTROL Expiration], and [!UICONTROL Publish] reports.
+1. Configure report details. Specify title, description, folder structure (where report needs to run and generate statistics), and date range for **[!UICONTROL Download]**, **[!UICONTROL Expiration]**, and **[!UICONTROL Publish]** reports.
 
    ![](assets/create-report-page.png)
 
-   Whereas, [!UICONTROL Link Share Report] only needs the title, description, and date range parameters.
+   Whereas, **[!UICONTROL Link Share Report]** only needs the title, description, and date range parameters.
 
    ![](assets/create-link-share-report.png)
 
@@ -113,7 +113,7 @@ The columns in the Download, Expiration, and Publish report can be customized fo
    >Special characters # and % in report title are replaced by a hyphen (-) on the report generation.
 
 1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-1. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. The following image illustrates selecting default columns in Download report.
+1. Select or deselect the appropriate checkboxes as required. For example, to view names of users (who downloaded assets) in **[!UICONTROL Download]** report, select **[!UICONTROL Downloaded By]**. The following image illustrates selecting default columns in Download report.
 
    ![](assets/createdownloadreport.png)
 
@@ -152,4 +152,4 @@ To delete an existing report, select the report from **[!UICONTROL Asset Reports
 
 >[!NOTE]
 >
->[!UICONTROL Usage] report cannot be deleted.
+>**[!UICONTROL Usage]** report cannot be deleted.

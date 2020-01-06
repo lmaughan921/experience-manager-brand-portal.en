@@ -27,7 +27,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
    ![](assets/admin-tools-panel-10.png)
 
-1. On the left rail of the [!UICONTROL Configure Branding] page, [!UICONTROL Wallpaper] is selected by default. The default background image that appears on the login page is displayed.
+1. On the left rail of the **[!UICONTROL Configure Branding]** page, **[!UICONTROL Wallpaper]** is selected by default. The default background image that appears on the login page is displayed.
 
    ![](assets/default_wallpaper.png)
 
@@ -74,7 +74,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/admin-tools-panel-11.png)
 
-1. To customize the page header for the Brand Portal interface, on the [!UICONTROL Configure Branding] page, select **[!UICONTROL Header Image]** from the left rail. The default header image is displayed.
+1. To customize the page header for the Brand Portal interface, on the **[!UICONTROL Configure Branding]** page, select **[!UICONTROL Header Image]** from the left rail. The default header image is displayed.
 
    ![](assets/default-header.png)
 
@@ -88,7 +88,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/asset-picker-header.png)
 
-1. To include a URL in the header image, specify it in the [!UICONTROL Image URL] box. You can specify external or internal URLs. Internal links can also be relative links, for example,
+1. To include a URL in the header image, specify it in the **[!UICONTROL Image URL]** box. You can specify external or internal URLs. Internal links can also be relative links, for example,
  [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
  This link directs users to the tags folder.
  To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
@@ -124,13 +124,13 @@ When assets are shared as a link, users receive an email containing the link. Ad
 
    ![](assets/admin-tools-panel-12.png)
 
-1. When assets are shared as links or downloaded through emails, and when  [!UICONTROL collections] are shared, email notifications are sent to users. To customize the email message, on the [!UICONTROL Configure Branding] page, select **[!UICONTROL Email Message]** from the left rail.
+1. When assets are shared as links or downloaded through emails, and when  **[!UICONTROL collections]** are shared, email notifications are sent to users. To customize the email message, on the **[!UICONTROL Configure Branding]** page, select **[!UICONTROL Email Message]** from the left rail.
 
    ![](assets/configure-branding-page-email.png)
 
 1. To add a logo to outgoing emails, click **[!UICONTROL Upload]** from the toolbar at the top.
 
-1. In the [!UICONTROL Description] section, specify the email header and footer text. To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
+1. In the **[!UICONTROL Description]** section, specify the email header and footer text. To save the changes, click **[!UICONTROL Save]** from the toolbar at the top.
 
    >[!NOTE]
    >

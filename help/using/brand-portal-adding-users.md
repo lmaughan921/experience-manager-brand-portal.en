@@ -252,11 +252,11 @@ In addition to the Administrator role, Brand Portal supports the following roles
 
    >[!NOTE]
    >
-   >Changes in user permissions are reflected in the [!UICONTROL User Roles] page only after the users re-login to Brand Portal.
+   >Changes in user permissions are reflected in the **[!UICONTROL User Roles]** page only after the users re-login to Brand Portal.
 
 ## Manage group roles and privileges {#manage-group-roles-and-privileges}
 
-An Administrator can associate specific privileges with a [group](../using/brand-portal-adding-users.md#main-pars-title-278567577) of users on Brand Portal. The [!UICONTROL Groups] tab on the [!UICONTROL User Roles] page allows administrators to:
+An Administrator can associate specific privileges with a [group](../using/brand-portal-adding-users.md#main-pars-title-278567577) of users on Brand Portal. The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows administrators to:
 
 * Assign roles to user groups
 * Restrict user groups to download original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) from Brand Portal.
@@ -267,11 +267,11 @@ An Administrator can associate specific privileges with a [group](../using/brand
 
 To modify the role and right to access original renditions for specific group members, follow these steps:
 
-1. On the [!UICONTROL User Roles] page, navigate to the **[!UICONTROL Groups]** tab.
+1. On the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab.
 1. Select the groups for which you want to change roles.
-1. Select the appropriate role from the [!UICONTROL Role] drop-down list.
+1. Select the appropriate role from the **[!UICONTROL Role]** drop-down list.
 
-   To allow the members of a group to have access to original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) which they download from the portal or shared link, keep the [!UICONTROL Access to  Original] option selected for that group. By default, [!UICONTROL Access to Original] option is selected for all the users. To prevent a user group from accessing original renditions, deselect the option corresponding to that group.
+   To allow the members of a group to have access to original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) which they download from the portal or shared link, keep the **[!UICONTROL Access to  Original]** option selected for that group. By default, **[!UICONTROL Access to Original]** option is selected for all the users. To prevent a user group from accessing original renditions, deselect the option corresponding to that group.
 
    ![User group roles](assets/access-original-rend.png)
 

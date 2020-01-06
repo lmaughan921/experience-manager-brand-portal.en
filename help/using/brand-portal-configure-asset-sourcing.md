@@ -19,7 +19,7 @@ AEM administrators can configure **Asset Sourcing** from within the AEM author i
 >Before you begin with the configuration, ensure that your AEM Assets instance is integrated with Brand Portal. See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html). 
 
 
-The following video demostrates on how to Configure Asset Sourcing on your AEM author instance:
+The following video demonstrates, how to Configure Asset Sourcing on your AEM author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
 
@@ -40,6 +40,10 @@ Default URL: http:// localhost:4502/system/console/configMgr
 ## Upload Brand Portal users list {#upload-bp-user-list}
 
 AEM administrators can upload the Brand Portal user configuration (.csv) file containing active Brand Portal user list in AEM Assets. A contribution folder can only be shared with the active Brand Portal users defined in the user list. Administrator can also add new users in the configuration file and upload the modified user list.
+
+>[!NOTE]
+>
+>The format of the CSV file is same as what is supported by Admin Console for bulk user import. Email, first name, and last name are mandatory. 
 
 Administrator can add new users in AEM Admin Console, see [Manage Users](brand-portal-adding-users.md) for detailed information. After adding users in Admin Console, these users can be added to the Brand Portal user configuration file and then assigned permission to access the contribution folder.
 

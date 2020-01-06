@@ -73,19 +73,19 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 
 | Component Name      | Description                                                                                                                                                                                                                                                                                |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Section Header]      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
-| [!UICONTROL Single Line Text]    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
-| [!UICONTROL Multi ValueText]     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
-| [!UICONTROL Number]              |  Add a number component.                                                                                                                                                                                                                                                                   |
-| [!UICONTROL Date]                |  Add a date component.                                                                                                                                                                                                                                                                     |
-| [!UICONTROL Dropdown]            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| [!UICONTROL Standard Tags]       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
-| [!UICONTROL Smart Tags]          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
-| [!UICONTROL Hidden Field]        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
-| [!UICONTROL Asset Referenced By] |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
-| [!UICONTROL Asset Referencing]   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
-| [!UICONTROL Asset Rating]        |  Average rating of an asset added from AEM Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
-| [!UICONTROL Contextual Metadata] |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
+| **[!UICONTROL Section Header]**      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
+| **[!UICONTROL Single Line Text]**    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
+| **[!UICONTROL Multi ValueText]**     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
+| **[!UICONTROL Number]**              |  Add a number component.                                                                                                                                                                                                                                                                   |
+| **[!UICONTROL Date]**                |  Add a date component.                                                                                                                                                                                                                                                                     |
+| **[!UICONTROL Dropdown]**            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
+| **[!UICONTROL Standard Tags]**       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]**          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
+| **[!UICONTROL Hidden Field]**        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
+| **[!UICONTROL Asset Referenced By]** |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
+| **[!UICONTROL Asset Referencing]**   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
+| **[!UICONTROL Asset Rating]**        |  Average rating of an asset added from AEM Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
+| **[!UICONTROL Contextual Metadata]** |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
 
 >[!NOTE]
 >
@@ -101,9 +101,9 @@ To edit the properties of a metadata component on the form, click the component 
 
 The following are the valid values for this property:
 
--- [!UICONTROL `./jcr:content/metadata/dc:title`]: Stores the value at the asset's metadata node as the property [!UICONTROL `dc:title`].
+-- `./jcr:content/metadata/dc:title`: Stores the value at the asset's metadata node as the property [!UICONTROL `dc:title`].
 
--- [!UICONTROL `./jcr:created`]: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
+-- `./jcr:created`: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
 
 * **[!UICONTROL Placeholder]**: Use this property to provide the user any relevant information regarding the metadata property.
 * **[!UICONTROL Required]**: Use this property to mark a metadata property as mandatory on the Properties page.
@@ -132,7 +132,7 @@ The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Ad
 
 ## Apply a metadata schema to a folder {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal allows you to customize and control the metadata schema so that the [!UICONTROL Properties] page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the [!UICONTROL Properties] page, remove the required metadata from the metadata schema form and apply it to the specific folder.
+Brand Portal allows you to customize and control the metadata schema so that the **[!UICONTROL Properties]** page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the **[!UICONTROL Properties]** page, remove the required metadata from the metadata schema form and apply it to the specific folder.
 
 To apply a metadata schema form to a folder, do the following:
 
@@ -142,7 +142,7 @@ To apply a metadata schema form to a folder, do the following:
 
 1. From the administrative tools panel, click **[!UICONTROL Metadata Schemas]**.
 
-1. From the **[!UICONTROL Metadata Schema Forms]** page, select the schema form that you want to apply to an asset, for example, [!UICONTROL clothing].
+1. From the **[!UICONTROL Metadata Schema Forms]** page, select the schema form that you want to apply to an asset, for example, **[!UICONTROL clothing]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 

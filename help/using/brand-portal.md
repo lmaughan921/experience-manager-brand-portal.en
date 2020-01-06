@@ -31,6 +31,7 @@ Brand Portal supports the following user roles:
 * Viewer
 * Editor
 * Administrator
+
 The following table lists the tasks that users in these roles can perform:
 
 |  | **Browse** | **Search** | **Download** | **Share folders** | **Share a collection** | **Share assets as a link** | **Access to Admin Tools** |

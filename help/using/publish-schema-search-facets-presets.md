@@ -25,7 +25,7 @@ Once the preset is created, it is listed as dynamic rendition on asset detail re
 
 >[!NOTE]
 >
->If AEM Author instance is not running in [!UICONTROL Dynamic Media Mode] (customer has not purchased Dynamic Media), then the [!UICONTROL Pyramid TIFF]  rendition of the assets are not created at the time of upload. Image presets or dynamic renditions work on [!UICONTROL Pyramid TIFF] of an asset, so if [!UICONTROL Pyramid TIFF] is not available on AEM Author instance then it is not available on Brand Portal as well. As a result of this, no dynamic renditions are present in renditions rail of asset details page and download dialogue.
+>If AEM Author instance is not running in **[!UICONTROL Dynamic Media Mode]** (customer has not purchased Dynamic Media), then the **[!UICONTROL Pyramid TIFF]**  rendition of the assets are not created at the time of upload. Image presets or dynamic renditions work on **[!UICONTROL Pyramid TIFF]** of an asset, so if **[!UICONTROL Pyramid TIFF]** is not available on AEM Author instance then it is not available on Brand Portal as well. As a result of this, no dynamic renditions are present in renditions rail of asset details page and download dialogue.
 
 To publish image presets to Brand Portal:
 

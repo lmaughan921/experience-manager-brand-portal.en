@@ -12,7 +12,8 @@ discoiquuid:
 
 # Create contribution folder {#create-contribution-folder}
 
-AEM users (administrators/non-admin users) can create new folders in AEM Assets with an additional **Asset Contribution** property, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
+AEM administrators and non-admin users having permission to create a new folder, can create a **Contribution** folder in AEM Assets. 
+To create a **Contribution** folder, create a new folder of type **Asset Contribution**, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
 
 **To create a new contribution folder:**
 1. Login to your AEM author instance
@@ -28,4 +29,8 @@ It is recommended to use small alphabets without space to name the folder.
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** are automatically created within the contribution folder.  
 ![](assets/contribution-folder.png)
 
-Now, you can configure the properties of the newly created Contribution folder. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
+You can now configure the Contribution folder properties. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
+
+>[!NOTE]
+>
+>Ensure that you provide an appropriate name to the Contribution folder as you cannot modify the folder name after creation. 

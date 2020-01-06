@@ -13,7 +13,7 @@ discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 
 # Search assets on Brand Portal {#search-assets-on-brand-portal}
 
-Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. You can also save your searches as smart collections for the future.
+Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can also save your searches as smart collections for the future.
 
 ## Search assets using Omnisearch {#search-assets-using-omnisearch}
 
@@ -47,7 +47,7 @@ For example, if you are looking for an image, you can choose whether you want a 
 
 ![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
-The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the [!UICONTROL Filters] panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+The **[!UICONTROL Filters]** panel includes a few standard facets, such as- **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]**, and **[!UICONTROL Orientation]**. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the **[!UICONTROL Filters]** panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
 
@@ -83,18 +83,19 @@ To apply filters to your search, using the available [search facets](../using/br
       To allow the asset search using partial phrases in property predicate, enable the **[!UICONTROL Partial Search]** checkbox in Search Form.  
       This allows you to search for the desired assets even if you do not specify the exact words/ phrases used in the asset metadata.  
       You can:
-          * Specify a word occurring in your searched phrase in the facet in Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to [!UICONTROL `dc:title`] property), then all the assets with the word **climb** in their title phrase are returned.
-          * Specify a part of the word, occurring in your searched phrase, along with wildcard character (&#42;) to fill the gaps.
+        * Specify a word occurring in your searched phrase in the facet in Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to [!UICONTROL `dc:title`] property), then all the assets with the word **climb** in their title phrase are returned.
+        * Specify a part of the word, occurring in your searched phrase, along with wildcard character (&#42;) to fill the gaps.
           For example, searching for:
-          **climb&#42;** returns all the assets having words beginning with the characters "climb" in their title phrase.
-          **&#42;climb** returns all the assets having words ending with characters "climb" in their title phrase.
-          **&#42;climb&#42;** returns all the assets having words comprising the characters "climb" in their title phrase.  
+          * **climb&#42;** returns all the assets having words beginning with the characters "climb" in their title phrase.
+          * **&#42;climb** returns all the assets having words ending with characters "climb" in their title phrase.
+          * **&#42;climb&#42;** returns all the assets having words comprising the characters "climb" in their title phrase.  
+      
       **Non-case sensitive text**
       To allow non-case sensitive search in property predicate,enable the **[!UICONTROL Ignore Case]** checkbox in Search Form. By default, the text search on property predicate is case-sensitive.
 
    >[!NOTE]
    >
-   >On selecting **[!UICONTROL Partial Search]** checkbox, [!UICONTROL Ignore Case] is selected by default.
+   >On selecting **[!UICONTROL Partial Search]** checkbox, **[!UICONTROL Ignore Case]** is selected by default.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -102,7 +103,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
    ![](assets/omnisearch-with-filters.png)
 
-   Asset search result with search result count
+   Asset search result with search result count.
 
 1. You can easily navigate to an item from the search result, and return to the same search result using the back button in your browser without having to re-run the search query.
 
