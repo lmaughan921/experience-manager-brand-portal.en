@@ -12,21 +12,21 @@ discoiquuid:
 
 # Configure AEM Assets integration with Brand Portal {#configure-integration}
 
-If you are an Adobe Experience Manager (AEM) Assets Brand Portal customer, you can integrate AEM Assets with Brand Portal to enable asset publishing, asset distribution and asset contribution.
+If you are an Adobe Experience Manager (AEM) Assets Brand Portal user, you can integrate AEM Assets with Brand Portal to enable asset publishing, asset distribution and asset contribution.
 
-This help describes the following two use-case: 
+This help describes the following two use-cases: 
 * If you do not have Brand Portal integrated with your AEM Asssets author instance. 
-* If you are an existing Brand Portal user having your AEM Assets author instance integrted with Brand Portal. 
+* If you are an existing Brand Portal user having your AEM Assets author instance integrated with Brand Portal. 
 
 >[!NOTE]
    >
-   >Integration via Adobe I/O Console Gateway is supported in AEM 6.2 and above .
+   >Integration via Adobe I/O Console Gateway is supported in AEM 6.2 and above.
 
 The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
 
-* Installing, configuring, and administering Adobe Experience Manager and AEM packages,
+* Installing, configuring, and administering Adobe Experience Manager and AEM packages
 
-* Using Linux and Microsoft Windows operating systems,
+* Using Linux and Microsoft Windows operating systems
 
 ## How integration works? {#how-integration-works}
 
@@ -39,7 +39,7 @@ AEM Assets is integrated with Brand Portal through Adobe I/O Console Gateway whi
    >This approach is no longer supported from April, 2020. And shifted to Adobe I/O Console Gateway for integration. 
 
 
-The steps to configure integration are different depending on your AEM version and whether you are an configuring integration for the first-time, or modifying the existing integration:
+The steps to configure integration are different depending on your AEM version, and whether you are an configuring integration for the first-time, or modifying the existing integration:
 * **Configure new integration**
   
   If you are not an existing Brand Portal user and using AEM 6.5 or above, and want to configure integration to enable asset publishing, asset distribution, and asset contribution features. 
@@ -79,13 +79,14 @@ After you download AEM, for instructions to set up an AEM author instance, see [
 
 Download and install latest AEM Service Pack. For detailed instructions see, [AEM 6.5 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) or [AEM 6.4 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html).
 
-## Configure New Integration {#steps-to-configure-integration}
+## Configure new integration {#steps-to-configure-integration}
 
-Perform the following steps in the listed sequence to configure integration for the first-time users: 
-1. Obtain public certificate for authentication on Adobe I/O
-1. Create Adobe I/O integration 
-1. Create IMS configuration account
-1. Configure Brand Portal cloud service
+Perform the following steps in the listed sequence to configure integration for the first-time: 
+1. [Obtain public certificate](#public-certificate)
+1. [Create integration in Adobe Console](#createnewintegration) 
+1. [Create IMS configuration account](#create-ims-account-configuration)
+1. [Configure Brand Portal cloud service](#configure-the-cloud-service)
+1. [Test integration](#test-integration)
 
 ### Create IMS Configuration {#create-ims-configuration}
 
@@ -122,7 +123,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
    ![Create Certificate](assets/ims-config2.png)
 
-1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create integration on Adobe I/O Console](#createnewintegration).  
+1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create integration](#createnewintegration).  
 
    ![Download Certificate](assets/ims-config3.png)
 
@@ -132,7 +133,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
     Open a new tab and [Create new integration in Adobe Console](#createnewintegration) to get the integration details for IMS Account configurations. 
 
-### Create Adobe I/O integration {#createnewintegration}
+### Create integration {#createnewintegration}
 
 Create new integration in Adobe I/O. The integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Technical Account configurations.
 
@@ -156,7 +157,7 @@ Create new integration in Adobe I/O. The integration generates API Key, Client S
 
    ![Create Integration](assets/create-new-integration2.png)
 
-1. Specify a name and description for the integration. Click **[!UICONTROL Select a File from your computer]** and upload the `AEM-Adobe-IMS.crt` file downloaded in the [Obtain Public Certificates](#obtainpubliccertificates) section.
+1. Specify a name and description for the integration. Click **[!UICONTROL Select a File from your computer]** and upload the `AEM-Adobe-IMS.crt` file downloaded in the [obtain public certificates](#obtainpubliccertificates) section.
 
 1. Select the profile of your organization. 
 
@@ -175,10 +176,11 @@ Create new integration in Adobe I/O. The integration generates API Key, Client S
 ### Create IMS Technical Account Configuration {#create-ims-account-configuration}
 
 Ensure that you have the performed the following steps:
-* Obtain public certificate
-* Create new integration
 
-**Steps to create IMS account configuration**
+* [Obtain public certificate](#public-certificate)
+* [Create new integration](#createnewintegration)
+
+**Steps to create IMS account configuration:**
 
 1. Open the IMS Configuration page, **[!UICONTROL Accounts]** tab. You kept the page open at the end of section, [Obtain public certificate](#obtainpubliccertificates).
 
@@ -206,7 +208,7 @@ Ensure that you have the performed the following steps:
 
    <br/> <br/>
 
-### Configure the cloud service {#configure-the-cloud-service}
+### Configure cloud service {#configure-the-cloud-service}
 
 Create a cloud service configuration to connect your AEM Assets author instance to Brand Portal. Perform the following steps to create a cloud service configuration:
 
@@ -229,15 +231,58 @@ Create a cloud service configuration to connect your AEM Assets author instance 
 
 1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets author instance is now integrted with the Brand Portal tenant. 
 
-### Verify the Replication Agents {#verify-replication-agents}
+### Test integration {#test-integration}
 
-TBD
-TBD
-TBD
-TBD
-TBD
-TBD
-TBD
+1. Login to your AEM Assets author instance
+
+   Default URL: http:// localhost:4502/aem/start.html
+
+1. From **Tools** ![Tools](assets/tools.png) panel, navigate to **[!UICONTROL Deployment >> Replication]**.
+
+    ![](assets/test-integration1.png)
+
+1. Replication page opens. 
+
+   Click **[!UICONTROL Agents on author]**.
+
+   ![](assets/test-integration2.png)
+
+1. Four replication agents are created for each tenant. 
+
+   Locate the replication agents of your Brand Portal tenant. 
+   
+   Click the replication agent URL. 
+
+   ![](assets/test-integration3.png)
+
+
+   >[!NOTE]
+   >
+   >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
+
+   >[!NOTE]
+   >
+   >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
+
+
+1. To verify the connection between AEM Assets author and Brand Portal, click **[!UICONTROL Test Connection]**.
+
+   ![](assets/test-integration4.png)
+
+1. Look at the bottom of the test results to verify that the replication succeeded.
+
+   ![](assets/test-integration5.png)
+
+1. Verify the test results on all four replication agents one-by-one.
+
+Brand Portal is successfully integrated with your AEM Assets author instance. You can now:
+
+* Publish assets and folders from AEM Assets to Brand Portal
+* Publish collections from AEM Assets to Brand Portal. 
+* Configure Asset Sourcing enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
+
+
+
 <!--
    Comment Type: draft
 
