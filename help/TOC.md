@@ -12,7 +12,6 @@ user-guide-title: AEM Brand Portal
 + [Brand Portal User Guide](using/home.md)
 + Introduction {#introduction}
   + [Overview](using/brand-portal.md)
-  + [Configure Integration](using/brand-portal-configure-integration.md)
   + [What's new in AEM Assets Brand Portal](using/whats-new.md)
   + [Release Notes](using/brand-portal-release-notes.md)
   + [Frequently Asked Questions](using/brand-portal-faqs.md)
@@ -57,6 +56,7 @@ user-guide-title: AEM Brand Portal
 + Use administrative tools {#admin-tools}
   + [Administer user access on Brand Portal](using/access-configurations-brand-portal.md)
   + [Administer general tenant configurations](using/brand-portal-general-configuration.md)
+  + [Configure Integration](using/brand-portal-configure-integration.md)
   + [First-time login experience](using/brand-portal-onboarding.md)
   + [Manage users, groups, and user roles](using/brand-portal-adding-users.md)
   + [Customize wallpaper, header, and email message](using/brand-portal-branding.md)

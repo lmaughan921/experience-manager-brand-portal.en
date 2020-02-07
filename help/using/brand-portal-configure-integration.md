@@ -97,6 +97,7 @@ IMS configuration includes two steps:
 * [Create IMS Technical Account configuration](#create-ims-account-configuration)
 
 ### Obtain public certificate {#public-certificate}
+
 Public certificate allows you to authenticate your profile on Adobe I/O.
 
 1. Login to your AEM Assets author instance
@@ -229,6 +230,7 @@ Create a cloud service configuration to connect your AEM Assets author instance 
 1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets author instance is now integrted with the Brand Portal tenant. 
 
 ### Verify the Replication Agents {#verify-replication-agents}
+
 TBD
 TBD
 TBD
