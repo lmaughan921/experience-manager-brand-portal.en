@@ -122,7 +122,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
    ![Create Certificate](assets/ims-config2.png)
 
-1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create integration on Adobe I/O Console](#createintegration).  
+1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create integration on Adobe I/O Console](#createnewintegration).  
 
    ![Download Certificate](assets/ims-config3.png)
 
@@ -130,7 +130,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
     **Account** tab opens. Here, you create the Adobe IMS Technical Account but for that you will need the integration details. Keep this page open for now.
 
-    Open a new tab and [Create new integration in Adobe Console](createintegration) to get the integration details for IMS Account configurations. 
+    Open a new tab and [Create new integration in Adobe Console](#createnewintegration) to get the integration details for IMS Account configurations. 
 
 ### Create Adobe I/O integration {#createnewintegration}
 
