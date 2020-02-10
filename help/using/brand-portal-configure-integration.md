@@ -15,7 +15,7 @@ discoiquuid:
 If you are an Adobe Experience Manager (AEM) Assets Brand Portal user, you can integrate AEM Assets with Brand Portal to enable asset publishing, asset distribution and asset contribution.
 
 This help describes the following two use-cases: 
-* If you do not have Brand Portal integrated with your AEM Asssets author instance. 
+* If you are a new Brand Portal user and want to integrate your AEM Asssets author instance with Brand Portal. 
 * If you are an existing Brand Portal user having your AEM Assets author instance integrated with Brand Portal. 
 
 >[!NOTE]
