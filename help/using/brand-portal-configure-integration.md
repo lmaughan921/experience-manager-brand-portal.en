@@ -223,7 +223,7 @@ Ensure that you have the performed the following steps:
 
    Click **[!UICONTROL Check]**. On successful connection, the *Token retrieved successfully* message appears.
 
-   ![On successful connection, the token retrieved successfully message appears. ](assets/create-new-integration5.png)
+   ![](assets/create-new-integration5.png)
 
    <br/> <br/>
 
@@ -246,7 +246,7 @@ Create a cloud service configuration to connect your AEM Assets author instance 
    
    In **[!UICONTROL Service URL]**, enter your Brand Portal tenant URL.   
    
-   Click **[!UICONTROL Save and Close]**.
+    ![](assets/create-cloud-service.png)
 
 1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets author instance is now integrted with the Brand Portal tenant. 
 
