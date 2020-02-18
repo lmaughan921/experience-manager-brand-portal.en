@@ -58,6 +58,7 @@ user-guide-title: AEM Brand Portal
   + [Administer general tenant configurations](using/brand-portal-general-configuration.md)
   + [Configure Integration](using/brand-portal-configure-integration.md)
   + [Configure Integration on AEM 6.4 and above](using/brand-portal-configure-integration-65.md)
+  + [Configure Integration on AEM 6.3](using/brand-portal-configure-integration-63.md)
   + [First-time login experience](using/brand-portal-onboarding.md)
   + [Manage users, groups, and user roles](using/brand-portal-adding-users.md)
   + [Customize wallpaper, header, and email message](using/brand-portal-branding.md)
