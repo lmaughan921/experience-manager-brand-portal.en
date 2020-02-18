@@ -40,7 +40,7 @@ AEM Assets is integrated with Brand Portal through Adobe I/O Console which procu
    >
    >But, the existing configuration will continue to work if you do not modify the integration. You will be able to  publish assets from AEM Assets to Brand Portal without modifying the integration.
    >
-   >Follow this HELP to upgrade your integration settings on Adobe I/O, or create new integration.  
+   >Follow this HELP to upgrade your integration settings to Adobe I/O Console, or create new integration.  
 
 
 ## Prerequisites {#prerequisites}

@@ -26,7 +26,7 @@ This help describes the following two use-cases:
 
 Perform the following steps in the listed sequence to configure integration for the first-time: 
 1. [Obtain public certificate](#public-certificate)
-1. [Create integration in Adobe Console](#createnewintegration) 
+1. [Create integration in Adobe I/O Console](#createnewintegration) 
 1. [Create IMS configuration account](#create-ims-account-configuration)
 1. [Configure Brand Portal cloud service](#configure-the-cloud-service)
 1. [Test integration](#test-integration)
