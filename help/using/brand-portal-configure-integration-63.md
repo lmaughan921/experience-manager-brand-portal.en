@@ -12,7 +12,7 @@ discoiquuid:
 
 # Configure AEM Assets integration with Brand Portal on AEM 6.3 {#configure-integration-63}
 
-Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
+Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features   .
 
 Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway which uses JWT token exchange exchange to obtain an IMS Access token for authorization. 
 
