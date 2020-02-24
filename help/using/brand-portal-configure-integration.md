@@ -83,7 +83,7 @@ The steps to configure integration are different depending on your AEM version, 
 | **AEM Version** |**Configure New Integration** |**Upgrade Integration** |
 |---|---|---|
 | **AEM 6.5 or AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65-64) | 
-| **AEM 6.3** |[Create new integration](#configure-new-integration-65-64) |[Upgrade existing integration](#upgrade-existing-integration-65-64) | 
+| **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
  
 

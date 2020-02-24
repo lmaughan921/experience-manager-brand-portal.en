@@ -12,7 +12,7 @@ discoiquuid:
 
 # Configure AEM Assets integration with Brand Portal on AEM 6.3 {#configure-integration-63}
 
-Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features   .
+Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
 
 Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway which uses JWT token exchange exchange to obtain an IMS Access token for authorization. 
 
@@ -31,24 +31,43 @@ This help describes the following two use-cases:
 ## Configure new integration on AEM 6.3 {#configure-new-integration-63}
 
 Perform the following steps in the listed sequence to configure integration for the first-time: 
-1. [Create JWT application](#create-jwt-application)
+1. [Create Brand Portal cloud service](#create-cloud-service)
 1. [Create integration in Adobe I/O Console](#createnewintegration) 
-1. [Configure Brand Portal cloud service](#configure-the-cloud-service)
+1. [Configure Brand Portal cloud service](#configure-cloud-service)
 1. [Test integration](#test-integration)
 
-### Create JWT application {#create-jwt-application}
+### Create cloud service {#create-cloud-service}
 
-1. Login to [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) with your Adobe ID. **JWT  Applications** page opens.
+Create a cloud service configuration to connect your AEM Assets author instance to Brand Portal. Perform the following steps to create a cloud service configuration:
 
-   >[!NOTE]
-   >
-   >You can create an application ID only if you are the system administrator of your organization. Tenant is the registered technical name for your organization.
+1. Login to your AEM Assets author instance
 
-1. Select **[!UICONTROL Add Application]** to create an application.
-1. Specify a name for the application and an optional description.
-1. From the **[!UICONTROL Organization]** list, select the organization for which you want to synchronize assets.
-1. From the **[!UICONTROL Scope]** list, select **[!UICONTROL dam-read]**, **[!UICONTROL dam-sync]**, **[!UICONTROL dam-write]**, and **[!UICONTROL cc-share]**.
-1. Click **[!UICONTROL Add]**. A JWT Service application is created. Save and close the application.
+   Default URL: http:// localhost:4502/aem/start.html
+1. From **Tools** ![Tools](assets/tools.png) panel, navigate to **[!UICONTROL Deployment >> Cloud Services]**.
+
+1. Find **[!UICONTROL Assets Brand Portal]** configuration section and click **[!UICONTROL Configure now]**.
+
+1. Specify **[!UICONTROL Title]** and **[!UICONTROL Name]** for the new configuration, and click **[!UICONTROL Create]**. 
+   
+   ![](assets/63-cloud-service1.png)
+
+1. AEM Assets Brand Portal Replication window opens. 
+
+   In **[!UICONTROL Tenant URL]**, enter the tenant URL of your organization.
+
+   In **[!UICONTROL Authorization Server]**, enter the URL: [https://ims-na1.adobelogin.com/](https://ims-na1.adobelogin.com/)  
+
+   Click **[!UICONTROL OK]**.
+
+   ![](assets/63-cloud-service2.png)
+
+1. Cloud configuration is created and a public key is generated for your configuration.
+
+   Download **[!UICONTROL Public key]**. This Public key is required for token authorization. 
+
+   ![](assets/63-cloud-service3.png)
+
+The next step is to [Create integration in Adobe I/O Console](#createnewintegration) and then you can continue to configure the cloud service.
 
 ### Create integration {#createnewintegration}
 
@@ -84,52 +103,29 @@ Create new integration in Adobe I/O. The integration generates API Key, Technica
 
    Copy **[!UICONTROL API Key]**, **[!UICONTROL Technical Account Id]**, **[!UICONTROL Org Id]**, and **[!UICONTROL Client Secret]** key.
 
-   ![API Key, Client Secret, and payload information of an integration](assets/create-new-integration-63-1.png)
+   ![API Key, Client Secret, and payload information of an integration](assets/63-create-integration1.png)
 
    The API Key, Technical Account Id, Organization Id, and Client Secret key information will be used to create Brand Portal cloud service.
 
-### Configure cloud service {#configure-the-cloud-service}
+### Configure cloud service {#configure-cloud-service}
 
-Create a cloud service configuration to connect your AEM Assets author instance to Brand Portal. Perform the following steps to create a cloud service configuration:
+You can configure the cloud service to update the configuration. Continue with the last step where you left in [Create Cloud Service](#create-cloud-service).
 
 1. Login to your AEM Assets author instance
 
    Default URL: http:// localhost:4502/aem/start.html
+
 1. From **Tools** ![Tools](assets/tools.png) panel, navigate to **[!UICONTROL Deployment >> Cloud Services]**.
 
-1. Find **[!UICONTROL Assets Brand Portal]** configuration section and click **[!UICONTROL Configure now]**.
+1. Find **[!UICONTROL Assets Brand Portal]** configuration section and click **[!UICONTROL Show Configurations]**.
 
-1. Specify **[!UICONTROL Title]** and **[!UICONTROL Name]** for the new configuration, and click **[!UICONTROL Create]**. 
-   
-   ![](assets/create-cloud-service63-1.png)
+1. Click on the newly created cloud service and click **[!UICONTROL Edit]** to update the configurations.
 
-1. AEM Assets Brand Portal Replication window opens. 
+1. Paste the **[!UICONTROL API Key]**, **[!UICONTROL Technical Account Id]**, **[!UICONTROL Org Id]**, and **[!UICONTROL Client Secret]** key that you have copied in the end of [Create integration in Adobe I/O Console](#createnewintegration).
 
-   In **[!UICONTROL Tenant URL]**, enter the tenant URL of your organization.
+   ![](assets/63-create-integration2.png)
 
-   In **[!UICONTROL Authorization Server]**, enter the URL: [https://ims-na1.adobelogin.com/](https://ims-na1.adobelogin.com/)  
-
-   Paste the API Key, Technical Account Id, Organization Id, and Client Secret key that you have copied in the end of [Create Adobe I/O integration](#createnewintegration).
-
-   Click **[!UICONTROL OK]**.
-
-   ![](assets/create-cloud-service63-2.png)
-
-1. Cloud configuration is created. 
-
-   Download **[!UICONTROL Public key]**. This Public key is required to be parsed in JWT OAuth for authorization. 
-
-   ![](assets/create-cloud-service63-3.png)
-
-1. Login to [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) with your Adobe ID. 
-
-1. Select your Organization and click **[UIControl Get JWTClients]**.
-
-1. Search for the JWT application you have created in [Create JWT application](#create-jwt-application) and click to open the configuration. 
-
-1. In **[UIControl Public key]**, paste the public key you have downloaded in step 6. 
-
-1. **[UIControl Save]** and close the JWT application.
+1. Click **[!UICONTROL OK]** to update the configurations.
 
 ### Test integration {#test-integration}
 
