@@ -28,6 +28,9 @@ This help describes the following two use-cases:
 * [Configure new integration](#configure-new-integration-63) 
 * [Upgrade existing integration](#upgrade-integration-63) 
 
+>[!NOTE]
+   >If you are an existing Brand Portal user, it is recommended to delete the existing configurations and create new configuration on Adobe I/O Console.
+
 ## Configure new integration on AEM 6.3 {#configure-new-integration-63}
 
 Perform the following steps in the listed sequence to configure integration for the first-time: 
@@ -109,7 +112,7 @@ Create new integration in Adobe I/O. The integration generates API Key, Technica
 
 ### Configure cloud service {#configure-cloud-service}
 
-You can configure the cloud service to update the configuration. Continue with the last step where you left in [Create Cloud Service](#create-cloud-service).
+You can configure the Brand Portal cloud service to update the configuration. Continue with the last step where you left in [Create Cloud Service](#create-cloud-service).
 
 1. Login to your AEM Assets author instance
 

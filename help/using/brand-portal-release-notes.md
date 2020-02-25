@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 topic-tags: brand-portal
@@ -12,34 +12,46 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.5 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.5|
-| Date | September 2019 |
+| Version | 6.4.6|
+| Date | March 2020 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 6.4.5 {#what-s-new-in-645}
+## What's New in 6.4.6 {#what-s-new-in-646}
 
-### New Features {#new-features-645}
+### Enhancements {#enhancements-646}
 
-Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called **[Asset Sourcing in Brand Portal](brand-portal-overiew-using-asset-sourcing.md)**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
+This release of Brand Portal includes the following enhancements:
 
-**Asset Sourcing in Brand Portal**
+* AEM Assets is now integrated with Brand Portal through Adobe I/O Console which procures IMS token for authentication of your Brand Portal tenant.
 
-Asset Sourcing allows AEM users (administrators/non-admin users) to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by Brand Portal users. This automatically triggers a workflow which creates two additional sub folders, called NEW and SHARED, within the newly created **Contribution** folder.
+  >[!NOTE]
+   >
+   >Integration via Adobe I/O Console is supported on AEM 6.3 and above.
+   >
+   >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
 
-The AEM user then defines the asset requirements by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure BP users have the reference information they need. The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created **Contribution** folder to Brand Portal.
+For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
 
-Once the user is finished adding content in the **NEW** folder, they can publish the contribution folder back to the AEM author environment.
+### Critical Issues Fixed {#critical-issues-fixed}
 
-For more information, see [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
+This release includes fixes to the following critical issues:
+
+* Publish assets to Brand Portal fails on existing cloud configurations after upgrade to AEM 6.5.4.
+
+* User is unable to publish or unpublish assets containing single quote in the name.
+
+* Unpublish metadata schema in AEM Assets populates an error message although the schema is removed at backend.
+
+* On large content, it takes a lot of time to generate the publication status on a replication agent which degrades the overall performance.
 
 ## Languages {#languages}
 

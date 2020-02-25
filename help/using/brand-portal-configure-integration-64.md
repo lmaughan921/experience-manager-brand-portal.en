@@ -1,8 +1,8 @@
 ---
-title: Configure AEM Assets integration with Brand Portal on AEM 6.5.
-seo-title: Configure AEM Assets integration with Brand Portal on AEM 6.5.
-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.5.
-seo-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.5.
+title: Configure AEM Assets integration with Brand Portal on AEM 6.4.
+seo-title: Configure AEM Assets integration with Brand Portal on AEM 6.4.
+description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.4.
+seo-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.4.
 uuid: 
 content-type: reference
 topic-tags: brand-portal
@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Configure AEM Assets integration with Brand Portal on AEM 6.5 {#configure-integration-65}
+# Configure AEM Assets integration with Brand Portal on AEM 6.4 {#configure-integration-64}
 
 Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
 
 This help describes the following two use-cases: 
-* [Configure new integration](#configure-new-integration-65) 
-* [Upgrade existing integration](#upgrade-integration-65) 
+* [Configure new integration](#configure-new-integration-64) 
+* [Upgrade existing integration](#upgrade-integration-64) 
 
 >[!NOTE]
    >
@@ -24,7 +24,7 @@ This help describes the following two use-cases:
    >
    >If you are an existing Brand Portal user, it is recommended to delete the existing configurations and create new configuration on Adobe I/O Console.
 
-## Configure new integration on AEM 6.5 {#configure-new-integration-65}
+## Configure new integration on AEM 6.4 {#configure-new-integration-64}
 
 Perform the following steps in the listed sequence to configure integration for the first-time: 
 1. [Obtain public certificate](#public-certificate)
@@ -228,12 +228,12 @@ Brand Portal is successfully integrated with your AEM Assets author instance. Yo
 * Publish collections from AEM Assets to Brand Portal. 
 * Configure Asset Sourcing enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
 
-## Upgrade existing integration on AEM 6.5 {#upgrade-integration-65}
+## Upgrade existing integration on AEM 6.4 {#upgrade-integration-64}
 
 Perform the following steps in the listed sequence to upgrade existing integration: 
 1. [Verify running jobs](#verify-jobs)
 1. [Delete existing configuration](#delete-existing-configuration)
-1. [Create new integration](#configure-new-integration-65-64)
+1. [Create new integration](#configure-new-integration-64)
 
 ### Verify running jobs {#verify-jobs}
 
@@ -283,7 +283,7 @@ Perform the following steps to delete the existing configuration:
    ![](assets/delete-mac-user.png)
 
 
-You can now [configure new integration](#configure-new-integration-65) on your AEM 6.5 author instance. 
+You can now [configure new integration](#configure-new-integration-64) on your AEM 6.4 author instance. 
 
 
 

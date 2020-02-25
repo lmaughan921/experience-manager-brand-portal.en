@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 6.4.5.
-seo-description: Take a look at the new features and enhancements for 6.4.5.
+description: Take a look at the new features and enhancements for 6.4.6.
+seo-description: Take a look at the new features and enhancements for 6.4.6.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -14,6 +14,39 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 # What's new in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
+
+## What changed in 6.4.6 {#what-changed-in-646}
+
+
+Brand Portal 6.4.6 is an enhancement release that focuses on providing an integrated environment to the Brand Portal users (external agencies/teams). 
+
+AEM Assets is now integrated with Brand Portal through Adobe I/O Console which procures IMS token for authentication of your Brand Portal tenant. 
+
+Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway which uses the JWT token exchange to obtain an IMS Access token for authorization.
+
+>[!NOTE]
+   >
+   >Integration via Adobe I/O Console is supported on AEM 6.3 and above.
+   >
+   >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
+
+The steps to configure integration are different depending on your AEM version, and whether you are configuring integration for the first-time, or upgrading the existing integration:
+
+| **AEM Version** |**Configure New Integration** |**Upgrade Integration** |
+|---|---|---|
+| **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+ 
+
+>[!NOTE]
+   >
+   >The existing configurations will continue work if you do not modify the integration.
+
+See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+See [Brand Portal FAQs](brand-portal-faqs.md)
 
 ## What changed in 6.4.5 {#what-changed-in-645}
 
@@ -30,10 +63,6 @@ The AEM user then defines the requirement by [uploading a brief](brand-portal-co
 Once the user is finished adding content in the **NEW** folder, they can publish the contribution folder back to the AEM author environment. Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.
 
 Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. 
-
-See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
-
-See [Brand Portal FAQs](brand-portal-faqs.md)
 
 >[!NOTE]
 >

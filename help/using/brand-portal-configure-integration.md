@@ -15,8 +15,8 @@ discoiquuid:
 Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
 
 This help describes the following two use-cases: 
-* If you are a new Brand Portal user and want to integrate your AEM Assets author instance with Brand Portal. 
-* If you are an existing Brand Portal user having your AEM Assets author instance integrated with Brand Portal. 
+* If you are a new Brand Portal user and want to integrate your AEM Assets author instance with Brand Portal. In this case, you can create new configuration to integrate your Brand Portal instance with AEM Assets author instance. 
+* If you are an existing Brand Portal user having your AEM Assets author instance integrated with Brand Portal. In this case, it is recommended to delete the existing configuration and create new configuration on Adobe I/O Console.
 
 >[!NOTE]
    >
@@ -76,13 +76,16 @@ For detailed instructions see,
 * [AEM 6.4 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 * [AEM 6.3 Cumulative Fix Pack](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
 
+Contact Support if you are unable to find the latest download package or service pack.
+
 ## Configure integration {#configure-integration-bp}
 
 The steps to configure integration are different depending on your AEM version, and whether you are configuring integration for the first-time, or upgrading the existing integration:
 
 | **AEM Version** |**Configure New Integration** |**Upgrade Integration** |
 |---|---|---|
-| **AEM 6.5 or AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65-64) | 
+| **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
  
