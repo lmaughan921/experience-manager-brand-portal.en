@@ -15,8 +15,8 @@ discoiquuid:
 Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
 
 This help describes the following two use-cases: 
-* If you are a new Brand Portal user and want to integrate your AEM Assets author instance with Brand Portal. In this case, you can create new configuration to integrate your Brand Portal instance with AEM Assets author instance. 
-* If you are an existing Brand Portal user having your AEM Assets author instance integrated with Brand Portal. In this case, it is recommended to delete the existing configuration and create new configuration on Adobe I/O Console.
+* If you are a new Brand Portal user and want to integrate your AEM Assets author instance with Brand Portal, you can create new configuration to integrate your Brand Portal instance with AEM Assets author instance. 
+* If you are an existing Brand Portal user with your AEM Assets author instance integrated with Brand Portal, it is recommended to delete the existing configuration and create new configuration on Adobe I/O Console.
 
 >[!NOTE]
    >
@@ -34,11 +34,11 @@ AEM Assets is integrated with Brand Portal through Adobe I/O Console which procu
 
 >[!NOTE]
    >
-   >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway which uses the JWT token exchange to obtain an IMS Access token for authorization.
+   >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization.
    >
    >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
    >
-   >But, the existing configuration will continue to work if you do not modify the integration. You will be able to  publish assets from AEM Assets to Brand Portal without modifying the integration.
+   >However, the existing configuration will continue to work if you do not modify the integration. You will be able to  publish assets from AEM Assets to Brand Portal without modifying the integration.
    >
    >Follow this HELP to upgrade your integration settings to Adobe I/O Console, or create new integration.  
 
@@ -76,11 +76,11 @@ For detailed instructions see,
 * [AEM 6.4 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 * [AEM 6.3 Cumulative Fix Pack](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
 
-Contact Support if you are unable to find the latest download package or service pack.
+Contact Support if you are unable to find the latest AEM package or Service Pack.
 
 ## Configure integration {#configure-integration-bp}
 
-The steps to configure integration are different depending on your AEM version, and whether you are configuring integration for the first-time, or upgrading the existing integration:
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 
 | **AEM Version** |**Configure New Integration** |**Upgrade Integration** |
 |---|---|---|
@@ -92,7 +92,7 @@ The steps to configure integration are different depending on your AEM version, 
 
 >[!NOTE]
    >
-   >The existing configurations will continue work if you do not modify the integration.
+   >The existing configurations will continue to work if you do not modify the integration.
 
 <!--
    Comment Type: draft

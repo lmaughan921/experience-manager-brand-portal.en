@@ -14,9 +14,9 @@ discoiquuid:
 
 Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
 
-Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway which uses JWT token exchange exchange to obtain an IMS Access token for authorization. 
+Brand Portal is now integrated via Adobe Console I/O for authorization.
 
-Now, Brand Portal is integrated via Adobe Console I/O for authorization.
+Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses JWT token exchange exchange to obtain an IMS Access token for authorization. 
 
 >[!NOTE]
    >
@@ -40,7 +40,7 @@ Perform the following steps in the listed sequence to configure integration for 
 1. [Configure Brand Portal cloud service](#configure-cloud-service)
 1. [Test integration](#test-integration)
 
-### Create cloud service {#create-cloud-service}
+### Create Brand Portal cloud service {#create-cloud-service}
 
 Create a cloud service configuration to connect your AEM Assets author instance to Brand Portal. Perform the following steps to create a cloud service configuration:
 
@@ -71,13 +71,13 @@ Create a cloud service configuration to connect your AEM Assets author instance 
 
    ![](assets/63-cloud-service3.png)
 
-The next step is to [Create integration in Adobe I/O Console](#createnewintegration) and then you can continue to configure the cloud service.
+The next step is to [Create integration in Adobe I/O Console](#createnewintegration) and then you can continue to configure the Brand Portal cloud service.
 
-### Create integration {#createnewintegration}
+### Create integration in Adobe I/O Console {#createnewintegration}
 
-Create new integration in Adobe I/O. The integration generates API Key, Technical Account Id, Organization Id, and Client Secret key which is required in configuring Brand Portal cloud service.
+The integration generates API Key, Technical Account Id, Organization Id, and Client Secret key which is required in configuring Brand Portal cloud service.
 
-1. Login to Adobe Console with account having system administrator privileges on the IMS organization of the Brand Portal tenant.
+1. Login to Adobe Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
 
    Default URL: [https://console.adobe.io/](https://console.adobe.io/) 
 
@@ -91,7 +91,7 @@ Create new integration in Adobe I/O. The integration generates API Key, Technica
    
    Select your organization from the drop-down list.
 
-   In **[!UICONTROL Experience Cloud]**, Select **[!UICONTROL AEM Brand Portal]** and click **[!UICONTROL Continue]**. 
+   In **[!UICONTROL Experience Cloud]**, select **[!UICONTROL AEM Brand Portal]** and click **[!UICONTROL Continue]**. 
 
    If the Brand Portal option is disabled for you, ensure that you have selected correct organization from the drop-down box above the **[!UICONTROL Adobe Services]** option. If you do not know your organization, contact your administrator.
 
@@ -109,9 +109,9 @@ Create new integration in Adobe I/O. The integration generates API Key, Technica
 
    ![API Key, Client Secret, and payload information of an integration](assets/63-create-integration1.png)
 
-   The API Key, Technical Account Id, Organization Id, and Client Secret key information will be used to create Brand Portal cloud service.
+   The API Key, Technical Account Id, Organization Id, and Client Secret key information will be used to configure the Brand Portal cloud service.
 
-### Configure cloud service {#configure-cloud-service}
+### Configure Brand Portal cloud service {#configure-cloud-service}
 
 You can configure the Brand Portal cloud service to update the configuration. Continue with the last step where you left in [Create Cloud Service](#create-cloud-service).
 
@@ -125,7 +125,7 @@ You can configure the Brand Portal cloud service to update the configuration. Co
 
 1. Click on the newly created cloud service and click **[!UICONTROL Edit]** to update the configurations.
 
-1. Paste the **[!UICONTROL API Key]**, **[!UICONTROL Technical Account Id]**, **[!UICONTROL Org Id]**, and **[!UICONTROL Client Secret]** key that you have copied in the end of [Create integration in Adobe I/O Console](#createnewintegration).
+1. Paste the **[!UICONTROL API Key]**, **[!UICONTROL Technical Account Id]**, **[!UICONTROL Org Id]**, and **[!UICONTROL Client Secret]** key that you have copied at the end of [Create integration in Adobe I/O Console](#createnewintegration).
 
    ![](assets/63-create-integration2.png)
 

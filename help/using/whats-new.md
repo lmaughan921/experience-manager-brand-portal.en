@@ -18,11 +18,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 ## What changed in 6.4.6 {#what-changed-in-646}
 
 
-Brand Portal 6.4.6 is an enhancement release that focuses on providing an integrated environment to the Brand Portal users (external agencies/teams). 
+Brand Portal 6.4.6 is an enhancement release that focuses on providing an integrated environment to the Brand Portal users (external agencies or teams). AEM Assets is now integrated with Brand Portal through Adobe I/O Console which procures IMS token for authentication of your Brand Portal tenant. 
 
-AEM Assets is now integrated with Brand Portal through Adobe I/O Console which procures IMS token for authentication of your Brand Portal tenant. 
-
-Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway which uses the JWT token exchange to obtain an IMS Access token for authorization.
+Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization.
 
 >[!NOTE]
    >
@@ -30,9 +28,9 @@ Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway whic
    >
    >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
 
-The steps to configure integration are different depending on your AEM version, and whether you are configuring integration for the first-time, or upgrading the existing integration:
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 
-| **AEM Version** |**Configure New Integration** |**Upgrade Integration** |
+| **AEM Version** |**New Integration** |**Upgrade Integration** |
 |---|---|---|
 | **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
@@ -42,11 +40,11 @@ The steps to configure integration are different depending on your AEM version, 
 
 >[!NOTE]
    >
-   >The existing configurations will continue work if you do not modify the integration.
+   >The existing configurations will continue to work if you do not modify the integration.
 
 See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
-See [Brand Portal FAQs](brand-portal-faqs.md)
+See [Brand Portal FAQs](brand-portal-faqs.md).
 
 ## What changed in 6.4.5 {#what-changed-in-645}
 

@@ -45,13 +45,13 @@ For more information, see [Configure integration with Brand Portal](brand-portal
 
 This release includes fixes to the following critical issues:
 
-* Publish assets to Brand Portal fails on existing cloud configurations after upgrade to AEM 6.5.4.
+* Publishing assets to Brand Portal fails on existing cloud configurations after upgrade to AEM 6.5.4.
 
 * User is unable to publish or unpublish assets containing single quote in the name.
 
 * Unpublish metadata schema in AEM Assets populates an error message although the schema is removed at backend.
 
-* On large content, it takes a lot of time to generate the publication status on a replication agent which degrades the overall performance.
+* It takes a lot of time to generate the publication status of a replication agent on large content, which degrades the overall performance.
 
 ## Languages {#languages}
 

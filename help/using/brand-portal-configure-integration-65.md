@@ -74,15 +74,15 @@ Default URL: http:// localhost:4502/aem/start.html
 
 1.  Click **[!UICONTROL Next]**. 
 
-    **Account** tab opens. Here, you create the Adobe IMS Technical Account but for that you will need the integration details. Keep this page open for now.
+    In the **Account** tab, you create the Adobe IMS Technical Account but for that you will need the integration details. Keep this page open for now.
 
-    Open a new tab and [Create new integration in Adobe Console](#createnewintegration) to get the integration details for IMS Account configurations. 
+    Open a new tab and [Create new integration in Adobe I/O Console](#createnewintegration) to get the integration details for IMS Account configurations. 
 
-### Create integration {#createnewintegration}
+### Create integration in Adobe I/O Console {#createnewintegration}
 
-Create new integration in Adobe I/O. The integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Technical Account configurations.
+The integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Technical Account configurations.
 
-1. Login to Adobe Console with account having system administrator privileges on the IMS organization of the Brand Portal tenant.
+1. Login to Adobe Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
 
    Default URL: [https://console.adobe.io/](https://console.adobe.io/) 
 
@@ -102,7 +102,7 @@ Create new integration in Adobe I/O. The integration generates API Key, Client S
 
    ![Create Integration](assets/create-new-integration2.png)
 
-1. Specify a name and description for the integration. Click **[!UICONTROL Select a File from your computer]** and upload the `AEM-Adobe-IMS.crt` file downloaded in the [obtain public certificates](#obtainpubliccertificates) section.
+1. Specify a name and description for the integration. Click **[!UICONTROL Select a File from your computer]** and upload the `AEM-Adobe-IMS.crt` file downloaded in the [obtain public certificates](#public-certificate) section.
 
 1. Select the profile of your organization. 
 
@@ -118,18 +118,18 @@ Create new integration in Adobe I/O. The integration generates API Key, Client S
 
 1. Navigate to **[!UICONTROL JWT]** tab, and copy the **[!UICONTROL JWT payload]**.
 
-   The API Key, Client Secret key, and JWT payload information will be used to create IMS configuration on your local machine.
+   The API Key, Client Secret key, and JWT payload information will be used to create IMS account configuration.
 
 ### Create IMS Technical Account Configuration {#create-ims-account-configuration}
 
-Ensure that you have the performed the following steps:
+Ensure that you have performed the following steps:
 
 * [Obtain public certificate](#public-certificate)
 * [Create new integration](#createnewintegration)
 
 **Steps to create IMS account configuration:**
 
-1. Open the IMS Configuration page, **[!UICONTROL Accounts]** tab. You kept the page open at the end of section, [Obtain public certificate](#obtainpubliccertificates).
+1. Open the IMS Configuration page, **[!UICONTROL Accounts]** tab. You kept the page open at the end of section, [Obtain public certificate](#public-certificate).
 
 1. Specify a **[!UICONTROL Title]** for the IMS account.
 
@@ -145,7 +145,7 @@ Ensure that you have the performed the following steps:
 
    >[!CAUTION]
    >
-   >Create only one IMS configuration. Do not create multiple IMS configuration.
+   >Create only one IMS configuration. Do not create multiple IMS configurations.
 
 1. Select the IMS configuration and click **[!UICONTROL Check Health]**. A dialog box appears. 
 
@@ -233,7 +233,7 @@ Brand Portal is successfully integrated with your AEM Assets author instance. Yo
 Perform the following steps in the listed sequence to upgrade existing integration: 
 1. [Verify running jobs](#verify-jobs)
 1. [Delete existing configuration](#delete-existing-configuration)
-1. [Create new integration](#configure-new-integration-65-64)
+1. [Create new integration](#configure-new-integration-65)
 
 ### Verify running jobs {#verify-jobs}
 
