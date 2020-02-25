@@ -29,6 +29,7 @@ This help describes the following two use-cases:
 * [Upgrade existing integration](#upgrade-integration-63) 
 
 >[!NOTE]
+   >
    >If you are an existing Brand Portal user, it is recommended to delete the existing configurations and create new configuration on Adobe I/O Console.
 
 ## Configure new integration on AEM 6.3 {#configure-new-integration-63}
