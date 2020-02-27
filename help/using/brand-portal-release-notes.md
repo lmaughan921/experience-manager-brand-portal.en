@@ -61,6 +61,8 @@ This release includes fixes to the following critical issues:
 
 * Terms and conditions do not display while downloading multiple assets. 
 
+* Minor security vulnerabilities addressed.
+
 
 ## Languages {#languages}
 
