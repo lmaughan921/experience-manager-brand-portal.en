@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release of Brand Portal includes the following enhancements:
 
-* AEM Assets is now integrated with Brand Portal through Adobe I/O Console which procures IMS token for authentication of your Brand Portal tenant.
+* AEM Assets is now integrated with Brand Portal through Adobe I/O Console, which procures IMS token for authentication of your Brand Portal tenant.
 
   >[!NOTE]
    >
@@ -39,19 +39,28 @@ This release of Brand Portal includes the following enhancements:
    >
    >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
 
-For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
+<!--
+   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
+   -->
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issues:
 
-* Publishing assets to Brand Portal fails on existing cloud configurations after upgrade to AEM 6.5.4.
+* An empty zip folder downloads with no Dynamic Renditions even when connection is established to Dynamic Media.
+
+* Metadata schema drop-down values are not visible in asset properties.   
+
+* Metadata subschema do not display tabs based on mimetype in asset properties. 
+
+* Unpublish metadata schema populates an error message although the schema is removed at backend.
+
+* Preview image do not display for a published asset. 
 
 * User is unable to publish or unpublish assets containing single quote in the name.
 
-* Unpublish metadata schema in AEM Assets populates an error message although the schema is removed at backend.
+* Terms and conditions do not display while downloading multiple assets. 
 
-* It takes a lot of time to generate the publication status of a replication agent on large content, which degrades the overall performance.
 
 ## Languages {#languages}
 

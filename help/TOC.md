@@ -56,10 +56,6 @@ user-guide-title: AEM Brand Portal
 + Use administrative tools {#admin-tools}
   + [Administer user access on Brand Portal](using/access-configurations-brand-portal.md)
   + [Administer general tenant configurations](using/brand-portal-general-configuration.md)
-  + [Configure integration with Brand Portal](using/brand-portal-configure-integration.md)
-  + [Configure integration with Brand Portal on AEM 6.5](using/brand-portal-configure-integration-65.md)
-  + [Configure integration with Brand Portal on AEM 6.4](using/brand-portal-configure-integration-64.md)
-  + [Configure integration with Brand Portal on AEM 6.3](using/brand-portal-configure-integration-63.md)
   + [First-time login experience](using/brand-portal-onboarding.md)
   + [Manage users, groups, and user roles](using/brand-portal-adding-users.md)
   + [Customize wallpaper, header, and email message](using/brand-portal-branding.md)

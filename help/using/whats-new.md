@@ -18,24 +18,32 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 ## What changed in 6.4.6 {#what-changed-in-646}
 
 
-Brand Portal 6.4.6 is an enhancement release that focuses on providing an integrated environment to the Brand Portal users (external agencies or teams). AEM Assets is now integrated with Brand Portal through Adobe I/O Console which procures IMS token for authentication of your Brand Portal tenant. 
+Brand Portal 6.4.6 is an enhancement release that focuses on providing an integrated environment to the Brand Portal users (external agencies or teams). AEM Assets is now integrated with Brand Portal through Adobe I/O Console, which procures IMS token for authentication of your Brand Portal tenant. 
 
 Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization.
 
 >[!NOTE]
    >
-   >Integration via Adobe I/O Console is supported on AEM 6.3 and above.
-   >
    >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
 
-The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+-->
 
-| **AEM Version** |**New Integration** |**Upgrade Integration** |
+<!--
+  
+   | **AEM Version** |**New Integration** |**Upgrade Integration** |
 |---|---|---|
 | **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
+
+   -->
+
+AEM Assets integration with Brand Portal on Adobe I/O Console is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above
  
 
 >[!NOTE]
