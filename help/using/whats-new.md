@@ -17,14 +17,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.6 {#what-changed-in-646}
 
-
-Brand Portal 6.4.6 is an enhancement release that focuses on providing an integrated environment to the Brand Portal users (external agencies or teams). AEM Assets is now integrated with Brand Portal through Adobe I/O Console, which procures IMS token for authentication of your Brand Portal tenant. 
+Brand Portal 6.4.6 is an enhancement release wherein the authorization channel between AEM Assets and Brand Portal is changed. AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
 Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization.
-
->[!NOTE]
-   >
-   >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -40,7 +35,7 @@ Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, whi
 
    -->
 
-AEM Assets integration with Brand Portal on Adobe I/O Console is supported on:
+AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 * AEM 6.5.4.0 and above
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above
@@ -48,7 +43,9 @@ AEM Assets integration with Brand Portal on Adobe I/O Console is supported on:
 
 >[!NOTE]
    >
-   >The existing configurations will continue to work if you do not modify the integration.
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O.
+   >
+   >The existing configurations will continue to work if you do not delete or modify the configuration settings.
 
 See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 

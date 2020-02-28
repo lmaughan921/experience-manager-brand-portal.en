@@ -27,17 +27,21 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What's New in 6.4.6 {#what-s-new-in-646}
 
+### New Features {#new-feature}
+
+This release includes the following new features:
+
+* Captcha for guest login to Brand Portal.   
+
 ### Enhancements {#enhancements-646}
 
 This release of Brand Portal includes the following enhancements:
 
-* AEM Assets is now integrated with Brand Portal through Adobe I/O Console, which procures IMS token for authentication of your Brand Portal tenant.
+* AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
   >[!NOTE]
    >
-   >Integration via Adobe I/O Console is supported on AEM 6.3 and above.
-   >
-   >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O.
 
 <!--
    For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
@@ -46,8 +50,6 @@ This release of Brand Portal includes the following enhancements:
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issues:
-
-* An empty zip folder downloads with no Dynamic Renditions even when connection is established to Dynamic Media.
 
 * Metadata schema drop-down values are not visible in asset properties.   
 
@@ -63,6 +65,11 @@ This release includes fixes to the following critical issues:
 
 * Minor security vulnerabilities addressed.
 
+### Known Issues {#known-issues}
+
+This release includes the following known issues:
+
+* Exlude System Renditions option is not working properly while downloading an asset.
 
 ## Languages {#languages}
 
