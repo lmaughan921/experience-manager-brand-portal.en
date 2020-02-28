@@ -69,7 +69,7 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* Exlude System Generated Renditions option is not working while downloading an asset.
+* Exlude System Renditions option is not working properly while downloading an asset.
 
 ## Languages {#languages}
 
