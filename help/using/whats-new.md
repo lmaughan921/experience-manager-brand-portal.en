@@ -45,7 +45,7 @@ AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
    >
    >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O.
    >
-   >The existing configurations will continue to work if you do not modify the integration.
+   >The existing configurations will continue to work if you do not delete or modify the configuration settings.
 
 See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
