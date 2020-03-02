@@ -12,25 +12,7 @@ discoiquuid:
 
 # Configure AEM Assets with Brand Portal {#configure-integration}
 
-Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O which enables asset publishing, asset distribution, and asset contribution features.
-
-This help describes the following two use-cases: 
-* If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration to setup an authorization channel for communication between your AEM Assets author instance and Brand Portal tenant. 
-* If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal, it is recommended to delete the existing configuration and create new configuration on Adobe I/O.
-
->[!NOTE]
-   >
-   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.3 and above.
-
-The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
-
-* Installing, configuring, and administering Adobe Experience Manager and AEM packages
-
-* Using Linux and Microsoft Windows operating systems
-
-## How configuration works? {#how-integration-works}
-
-AEM Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant. 
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant. 
 
 >[!NOTE]
    >
@@ -38,7 +20,11 @@ AEM Assets is configured with Brand Portal through Adobe I/O which procures an I
    >
    >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O.
    >
-   >However, the existing configuration will continue to work if you do not modify the configurations. You will be able to publish assets from AEM Assets to Brand Portal without modifying the configurations.
+   >However, the existing configuration will continue to work if you do not modify the configurations.
+
+This help describes the following two use-cases: 
+* If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
+* If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configuration and create new configuration on Adobe I/O.
 
 The steps to configure AEM Assets with Brand Portal are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing configurations:
 
@@ -48,6 +34,12 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 | **AEM 6.4 (6.4.8.0 and above)** |[Create new configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing configurations](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create new configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing configurations](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
+
+The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
+
+* Installing, configuring, and administering Adobe Experience Manager and AEM packages
+
+* Using Linux and Microsoft Windows operating systems
 
 ## Prerequisites {#prerequisites}
 

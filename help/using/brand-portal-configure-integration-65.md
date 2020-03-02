@@ -1,8 +1,8 @@
 ---
-title: Configure AEM Assets integration with Brand Portal on AEM 6.5.
-seo-title: Configure AEM Assets integration with Brand Portal on AEM 6.5.
-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.5.
-seo-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.5.
+title: Configure AEM Assets with Brand Portal on AEM 6.5.
+seo-title: Configure AEM Assets with Brand Portal on AEM 6.5.
+description: Get an insight into configuring AEM Assets with Brand Portal on AEM 6.5.
+seo-description: Get an insight into configuring AEM Assets with Brand Portal on AEM 6.5.
 uuid: 
 content-type: reference
 topic-tags: brand-portal
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Configure AEM Assets with Brand Portal on AEM 6.5 {#configure-integration-65}
+# Configure AEM Assets with Brand Portal {#configure-integration-65}
 
 AEM Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant.
 
@@ -24,7 +24,7 @@ This help describes the following two use-cases:
    >
    >If you are an existing Brand Portal user, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
 
-## Create new configuration {#configure-new-integration-65}
+## Create configuration {#configure-new-integration-65}
 
 Perform the following steps in the listed sequence if you are configuring AEM Assets with Brand Portal for the first-time: 
 1. [Obtain public certificate](#public-certificate)
@@ -157,7 +157,7 @@ Ensure that you have performed the following steps:
 
 ### Configure cloud service {#configure-the-cloud-service}
 
-Create a cloud service configuration to connect your AEM Assets author instance to Brand Portal. Perform the following steps to create a cloud service configuration:
+Perform the following steps to create Brand Portal cloud service configuration:
 
 1. Login to your AEM Assets author instance
 
@@ -228,12 +228,12 @@ Brand Portal is successfully integrated with your AEM Assets author instance. Yo
 * Publish collections from AEM Assets to Brand Portal. 
 * Configure Asset Sourcing enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
 
-## Upgrade configuration on AEM 6.5 {#upgrade-integration-65}
+## Upgrade configuration {#upgrade-integration-65}
 
 Perform the following steps in the listed sequence to upgrade existing configurations: 
 1. [Verify running jobs](#verify-jobs)
 1. [Delete existing configurations](#delete-existing-configuration)
-1. [Create new configuration](#configure-new-integration-65)
+1. [Create configuration](#configure-new-integration-65)
 
 ### Verify running jobs {#verify-jobs}
 
@@ -283,7 +283,7 @@ Perform the following steps to delete the existing configuration:
    ![](assets/delete-mac-user.png)
 
 
-You can now [create new configuration](#configure-new-integration-65) on your AEM 6.5 author instance on Adobe I/O. 
+You can now [create configuration](#configure-new-integration-65) on your AEM 6.5 author instance on Adobe I/O. 
 
 
 
