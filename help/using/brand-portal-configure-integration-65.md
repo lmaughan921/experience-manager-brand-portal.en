@@ -29,7 +29,7 @@ This help describes the following two use-cases:
 Perform the following steps in the listed sequence if you are configuring AEM Assets with Brand Portal for the first-time: 
 1. [Obtain public certificate](#public-certificate)
 1. [Create Adobe I/O integration](#createnewintegration) 
-1. [Create IMS configuration account](#create-ims-account-configuration)
+1. [Create IMS Account configuration](#create-ims-account-configuration)
 1. [Configure Brand Portal cloud service](#configure-the-cloud-service)
 1. [Test configuration](#test-integration)
 
@@ -40,7 +40,7 @@ IMS configuration authenticates your Brand Portal tenant with AEM Assets author 
 IMS configuration includes two steps:
 
 * [Obtain public certificate](#public-certificate) 
-* [Create IMS Technical Account configuration](#create-ims-account-configuration)
+* [Create IMS Account configuration](#create-ims-account-configuration)
 
 ### Obtain public certificate {#public-certificate}
 
@@ -50,7 +50,7 @@ Public certificate allows you to authenticate your profile on Adobe I/O.
 Default URL: http:// localhost:4502/aem/start.html
 1. From **Tools** ![Tools](assets/tools.png) panel, navigate to **[!UICONTROL Security]** >> **[!UICONTROL Adobe IMS Configurations]**.
 
-   ![Adobe IMS Technical Account Configuration UI](assets/ims-config1.png)
+   ![Adobe IMS Account Configuration UI](assets/ims-config1.png)
 
 1. Adobe IMS Configurations page opens.
    
@@ -74,13 +74,13 @@ Default URL: http:// localhost:4502/aem/start.html
 
 1.  Click **[!UICONTROL Next]**. 
 
-    In the **Account** tab, you create the Adobe IMS Technical Account but for that you will need the integration details. Keep this page open for now.
+    In the **Account** tab, you create the Adobe IMS Account but for that you will need the integration details. Keep this page open for now.
 
     Open a new tab and [Create Adobe I/O integration](#createnewintegration) to get the integration details for IMS Account configurations. 
 
 ### Create Adobe I/O integration {#createnewintegration}
 
-Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Technical Account configurations.
+Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Account configurations.
 
 1. Login to Adobe I/O Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
 
@@ -120,7 +120,7 @@ Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which 
 
    The API Key, Client Secret key, and JWT payload information will be used to create IMS account configuration.
 
-### Create IMS Technical Account Configuration {#create-ims-account-configuration}
+### Create IMS Account configuration {#create-ims-account-configuration}
 
 Ensure that you have performed the following steps:
 
@@ -170,7 +170,7 @@ Create a cloud service configuration to connect your AEM Assets author instance 
 
 1. Specify a **[!UICONTROL Title]** for the configuration. 
 
-   Select the IMS Configuration that you have created in [Create IMS Technical Account Configuration](#create-ims-account-configuration)
+   Select the IMS Configuration that you have created in [Create IMS Account Configuration](#create-ims-account-configuration)
    
    In **[!UICONTROL Service URL]**, enter your Brand Portal tenant URL.   
    
