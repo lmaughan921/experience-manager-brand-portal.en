@@ -17,9 +17,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.6 {#what-changed-in-646}
 
-Brand Portal 6.4.6 is an enhancement release wherein the authorization channel between AEM Assets and Brand Portal is changed. AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
-
-Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization.
+Brand Portal 6.4.6 is an enhancement release wherein the authorization channel between AEM Assets and Brand Portal is changed. Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -43,7 +41,7 @@ AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 
 >[!NOTE]
    >
-   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O.
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
    >
    >The existing configurations will continue to work if you do not delete or modify the configuration settings.
 
