@@ -68,7 +68,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
    ![Create Certificate](assets/ims-config2.png)
 
-1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create integration](#createnewintegration) in Adobe I/O Console.  
+1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create Adobe I/O integration](#createnewintegration).  
 
    ![Download Certificate](assets/ims-config3.png)
 
@@ -76,13 +76,13 @@ Default URL: http:// localhost:4502/aem/start.html
 
     In the **Account** tab, you create the Adobe IMS Technical Account but for that you will need the integration details. Keep this page open for now.
 
-    Open a new tab and [Create new integration in Adobe I/O Console](#createnewintegration) to get the integration details for IMS Account configurations. 
+    Open a new tab and [Create Adobe I/O integration](#createnewintegration) to get the integration details for IMS Account configurations. 
 
-### Create integration in Adobe I/O Console {#createnewintegration}
+### Create Adobe I/O integration {#createnewintegration}
 
-The integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Technical Account configurations.
+Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Technical Account configurations.
 
-1. Login to Adobe Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
+1. Login to Adobe I/O Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
 
    Default URL: [https://console.adobe.io/](https://console.adobe.io/) 
 
@@ -125,7 +125,7 @@ The integration generates API Key, Client Secret, and Payload (JWT) which is req
 Ensure that you have performed the following steps:
 
 * [Obtain public certificate](#public-certificate)
-* [Create new integration](#createnewintegration)
+* [Create Adobe I/O integration](#createnewintegration)
 
 **Steps to create IMS account configuration:**
 
@@ -178,7 +178,7 @@ Create a cloud service configuration to connect your AEM Assets author instance 
 
 1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets author instance is now integrted with the Brand Portal tenant. 
 
-### Test integration {#test-integration}
+### Test configuration {#test-integration}
 
 1. Login to your AEM Assets author instance
 
@@ -228,12 +228,12 @@ Brand Portal is successfully integrated with your AEM Assets author instance. Yo
 * Publish collections from AEM Assets to Brand Portal. 
 * Configure Asset Sourcing enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
 
-## Upgrade existing integration on AEM 6.5 {#upgrade-integration-65}
+## Upgrade configuration on AEM 6.5 {#upgrade-integration-65}
 
-Perform the following steps in the listed sequence to upgrade existing integration: 
+Perform the following steps in the listed sequence to upgrade existing configurations: 
 1. [Verify running jobs](#verify-jobs)
-1. [Delete existing configuration](#delete-existing-configuration)
-1. [Create new integration](#configure-new-integration-65)
+1. [Delete existing configurations](#delete-existing-configuration)
+1. [Create new configuration](#configure-new-integration-65)
 
 ### Verify running jobs {#verify-jobs}
 
@@ -257,7 +257,7 @@ Ensure that no publishing job is running on your AEM Assets author instance befo
 
    ![](assets/test-integration3.png)
 
-### Delete existing configuration {#delete-existing-configuration}
+### Delete existing configurations {#delete-existing-configuration}
 
 You must run the following check-list while deleting the existing configuration.
 * Delete all four replication agents
@@ -283,7 +283,7 @@ Perform the following steps to delete the existing configuration:
    ![](assets/delete-mac-user.png)
 
 
-You can now [configure new integration](#configure-new-integration-65) on your AEM 6.5 author instance. 
+You can now [create new configuration](#configure-new-integration-65) on your AEM 6.5 author instance on Adobe I/O. 
 
 
 
