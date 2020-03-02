@@ -12,7 +12,7 @@ discoiquuid:
 
 # Configure AEM Assets with Brand Portal {#configure-integration-63}
 
-Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant.
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
    >
