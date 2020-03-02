@@ -12,17 +12,64 @@ discoiquuid:
 
 # Configure AEM Assets with Brand Portal {#configure-integration-65}
 
-AEM Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant.
-
-This help describes the following two use-cases: 
-* [New Configuration](#configure-new-integration-65) 
-* [Upgrade Configuration](#upgrade-integration-65) 
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
    >
    >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.5.4.0 and above.
    >
-   >If you are an existing Brand Portal user, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
+   >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
+   >
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+   >
+   >If you are an existing Brand Portal user with configuration on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
+   >
+   >However, the existing configuration will continue to work if you do not modify the configurations.
+
+This help describes the following two use-cases: 
+* [New configuration](#configure-new-integration-65): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
+* [Upgrade configuration](#upgrade-integration-65): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configuration and create new configuration on Adobe I/O.
+
+The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
+
+* Installing, configuring, and administering Adobe Experience Manager and AEM packages
+
+* Using Linux and Microsoft Windows operating systems
+
+## Prerequisites {#prerequisites}
+
+You require the following to configure AEM Assets with Brand Portal:
+
+* An up and running AEM Assets author instance with latest Service Pack.
+* Brand Portal tenant URL.
+* A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
+
+
+[Download and install AEM 6.5](#aemquickstart)
+
+[Download and install latest AEM Service Pack](#servicepack)
+
+### Download and install AEM 6.5 {#aemquickstart}
+
+Brand Portal is integrated with AEM Assets. It is recommended to have AEM 6.5 to set up an AEM author instance. If you do not have AEM up and running, download it from the following locations:
+
+* If you are an existing AEM customer, download AEM 6.5 from [Adobe Licensing website](http://licensing.adobe.com).
+
+* If you are an Adobe partner, use [Adobe Partner Training Program](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=82357Q) to request AEM 6.5.
+
+After you download AEM, for instructions to set up an AEM author instance, see [deploying and maintaining](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#defaultlocalinstall).
+
+### Download and install AEM latest Service Pack {#servicepack}
+
+Download and install latest AEM Service Pack. 
+
+For detailed instructions see, 
+
+* [AEM 6.5 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) 
+* [AEM 6.4 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+* [AEM 6.3 Cumulative Fix Pack](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
+
+**Contact Support** if you are unable to find the latest AEM package or Service Pack.
 
 ## Create configuration {#configure-new-integration-65}
 
@@ -30,7 +77,7 @@ Perform the following steps in the listed sequence if you are configuring AEM As
 1. [Obtain public certificate](#public-certificate)
 1. [Create Adobe I/O integration](#createnewintegration) 
 1. [Create IMS Account configuration](#create-ims-account-configuration)
-1. [Configure Brand Portal cloud service](#configure-the-cloud-service)
+1. [Configure cloud service](#configure-the-cloud-service)
 1. [Test configuration](#test-integration)
 
 ### Create IMS configuration {#create-ims-configuration}

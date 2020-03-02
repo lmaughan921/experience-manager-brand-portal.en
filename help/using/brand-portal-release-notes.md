@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* Captcha for guest login to Brand Portal.   
+* Captcha for guest login to Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.   
 
 ### Enhancements {#enhancements-646}
 
