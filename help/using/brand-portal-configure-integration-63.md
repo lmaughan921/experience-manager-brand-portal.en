@@ -61,8 +61,6 @@ After you download AEM, for instructions to set up an AEM author instance, see [
 
 ### Download and install AEM latest Service Pack {#servicepack}
 
-Download and install latest AEM Service Pack. 
-
 For detailed instructions see, 
 
 * [AEM 6.3 Cumulative Fix Pack](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)

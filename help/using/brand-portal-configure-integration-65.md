@@ -28,7 +28,7 @@ Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Ad
 
 This help describes the following two use-cases: 
 * [New configuration](#configure-new-integration-65): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
-* [Upgrade configuration](#upgrade-integration-65): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configuration and create new configuration on Adobe I/O.
+* [Upgrade configuration](#upgrade-integration-65): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
 
 The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
 
@@ -60,8 +60,6 @@ Brand Portal is integrated with AEM Assets. It is recommended to have AEM 6.5 to
 After you download AEM, for instructions to set up an AEM author instance, see [deploying and maintaining](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#defaultlocalinstall).
 
 ### Download and install AEM latest Service Pack {#servicepack}
-
-Download and install latest AEM Service Pack. 
 
 For detailed instructions see, 
 
@@ -121,7 +119,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
     In the **Account** tab, you create the Adobe IMS Account but for that you will need the integration details. Keep this page open for now.
 
-    Open a new tab and [Create Adobe I/O integration](#createnewintegration) to get the integration details for IMS Account configurations. 
+    Open a new tab and [create Adobe I/O integration](#createnewintegration) to get the integration details for IMS Account configurations. 
 
 ### Create Adobe I/O integration {#createnewintegration}
 
