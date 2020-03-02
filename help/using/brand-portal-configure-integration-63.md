@@ -1,8 +1,8 @@
 ---
-title: Configure AEM Assets integration with Brand Portal on AEM 6.3
-seo-title: Configure AEM Assets integration with Brand Portal on AEM 6.3.
-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.3.
-seo-description: Get an insight into configuring integration of AEM Assets with Brand Portal on AEM 6.3.
+title: Configure AEM Assets with Brand Portal on AEM 6.3.
+seo-title: Configure AEM Assets with Brand Portal on AEM 6.3.
+description: Get an insight into configuring AEM Assets with Brand Portal on AEM 6.3.
+seo-description: Get an insight into configuring AEM Assets with Brand Portal on AEM 6.3.
 uuid: 
 content-type: reference
 topic-tags: brand-portal
@@ -10,39 +10,76 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Configure AEM Assets integration with Brand Portal on AEM 6.3 {#configure-integration-63}
+# Configure AEM Assets with Brand Portal {#configure-integration-63}
 
-Adobe Experience Manager (AEM) Assets is integrated with Brand Portal which enables asset publishing, asset distribution and asset contribution features.
-
-Brand Portal is now integrated via Adobe Console I/O for authorization.
-
-Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses JWT token exchange exchange to obtain an IMS Access token for authorization. 
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
    >
-   >Integration with Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O Console.
+   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.3.3.8 and above.
    >
-   >Integration via Adobe I/O Console is supported on AEM 6.3 and above.
+   >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
+   >
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+   >
+   >If you are an existing Brand Portal user with configuration on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
+   >
+   >However, the existing configuration will continue to work if you do not modify the configurations.
 
 This help describes the following two use-cases: 
-* [Configure new integration](#configure-new-integration-63) 
-* [Upgrade existing integration](#upgrade-integration-63) 
+* [New configuration](#configure-new-integration-63): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
+* [Upgrade configuration](#upgrade-integration-63): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configuration and create new configuration on Adobe I/O.
 
->[!NOTE]
-   >
-   >If you are an existing Brand Portal user, it is recommended to delete the existing configurations and create new configuration on Adobe I/O Console.
+The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
 
-## Configure new integration on AEM 6.3 {#configure-new-integration-63}
+* Installing, configuring, and administering Adobe Experience Manager and AEM packages
 
-Perform the following steps in the listed sequence to configure integration for the first-time: 
-1. [Create Brand Portal cloud service](#create-cloud-service)
-1. [Create integration in Adobe I/O Console](#createnewintegration) 
-1. [Configure Brand Portal cloud service](#configure-cloud-service)
-1. [Test integration](#test-integration)
+* Using Linux and Microsoft Windows operating systems
 
-### Create Brand Portal cloud service {#create-cloud-service}
+## Prerequisites {#prerequisites}
 
-Create a cloud service configuration to connect your AEM Assets author instance to Brand Portal. Perform the following steps to create a cloud service configuration:
+You require the following to configure AEM Assets with Brand Portal:
+
+* An up and running AEM Assets author instance with latest Service Pack.
+* Brand Portal tenant URL.
+* A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
+
+
+[Download and install AEM 6.3](#aemquickstart)
+
+[Download and install latest AEM Service Pack](#servicepack)
+
+### Download and install AEM 6.3 {#aemquickstart}
+
+Brand Portal is integrated with AEM Assets. It is recommended to have AEM 6.3 to set up an AEM author instance. If you do not have AEM up and running, download it from the following locations:
+
+* If you are an existing AEM customer, download AEM 6.3 from [Adobe Licensing website](http://licensing.adobe.com).
+
+* If you are an Adobe partner, use [Adobe Partner Training Program](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=82357Q) to request AEM 6.3.
+
+After you download AEM, for instructions to set up an AEM author instance, see [deploying and maintaining](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/deploy.html#defaultlocalinstall).
+
+### Download and install AEM latest Service Pack {#servicepack}
+
+Download and install latest AEM Service Pack. 
+
+For detailed instructions see, 
+
+* [AEM 6.3 Cumulative Fix Pack](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
+
+**Contact Support** if you are unable to find the latest AEM package or Service Pack.
+
+## Create configuration {#configure-new-integration-63}
+
+Perform the following steps in the listed sequence if you are configuring AEM Assets with Brand Portal for the first-time: 
+1. [Create cloud service](#create-cloud-service)
+1. [Create Adobe I/O integration](#createnewintegration) 
+1. [Configure cloud service](#configure-cloud-service)
+1. [Test configuration](#test-integration)
+
+### Create cloud service {#create-cloud-service}
+
+Perform the following steps to create Brand Portal cloud service configuration:
 
 1. Login to your AEM Assets author instance
 
@@ -71,9 +108,9 @@ Create a cloud service configuration to connect your AEM Assets author instance 
 
    ![](assets/63-cloud-service3.png)
 
-The next step is to [Create integration in Adobe I/O Console](#createnewintegration) and then you can continue to configure the Brand Portal cloud service.
+The next step is to [Create Adobe I/O integration](#createnewintegration) and then you can continue to configure the Brand Portal cloud service.
 
-### Create integration in Adobe I/O Console {#createnewintegration}
+### Create Adobe I/O integration {#createnewintegration}
 
 The integration generates API Key, Technical Account Id, Organization Id, and Client Secret key which is required in configuring Brand Portal cloud service.
 
@@ -111,9 +148,9 @@ The integration generates API Key, Technical Account Id, Organization Id, and Cl
 
    The API Key, Technical Account Id, Organization Id, and Client Secret key information will be used to configure the Brand Portal cloud service.
 
-### Configure Brand Portal cloud service {#configure-cloud-service}
+### Configure cloud service {#configure-cloud-service}
 
-You can configure the Brand Portal cloud service to update the configuration. Continue with the last step where you left in [Create Cloud Service](#create-cloud-service).
+You can configure the Brand Portal cloud service to update the configuration. Continue with the last step where you left in [create cloud service](#create-cloud-service).
 
 1. Login to your AEM Assets author instance
 
@@ -125,13 +162,13 @@ You can configure the Brand Portal cloud service to update the configuration. Co
 
 1. Click on the newly created cloud service and click **[!UICONTROL Edit]** to update the configurations.
 
-1. Paste the **[!UICONTROL API Key]**, **[!UICONTROL Technical Account Id]**, **[!UICONTROL Org Id]**, and **[!UICONTROL Client Secret]** key that you have copied at the end of [Create integration in Adobe I/O Console](#createnewintegration).
+1. Paste the **[!UICONTROL API Key]**, **[!UICONTROL Technical Account Id]**, **[!UICONTROL Org Id]**, and **[!UICONTROL Client Secret]** key that you have copied at the end of [Create Adobe I/O integration](#createnewintegration).
 
    ![](assets/63-create-integration2.png)
 
 1. Click **[!UICONTROL OK]** to update the configurations.
 
-### Test integration {#test-integration}
+### Test configuration {#test-integration}
 
 1. Login to your AEM Assets author instance
 
@@ -175,18 +212,18 @@ You can configure the Brand Portal cloud service to update the configuration. Co
 
 1. Verify the test results on all four replication agents one-by-one.
 
-Brand Portal is successfully integrated with your AEM Assets author instance. You can now:
+Brand Portal is successfully configured with your AEM Assets author instance. You can now:
 
 * Publish assets and folders from AEM Assets to Brand Portal
 * Publish collections from AEM Assets to Brand Portal. 
 * Configure Asset Sourcing enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
 
-## Upgrade existing integration on AEM 6.3 {#upgrade-integration-63}
+## Upgrade configuration {#upgrade-integration-63}
 
-Perform the following steps in the listed sequence to upgrade existing integration: 
+Perform the following steps in the listed sequence to upgrade existing configuration: 
 1. [Verify running jobs](#verify-jobs)
-1. [Delete existing configuration](#delete-existing-configuration)
-1. [Create new integration](#configure-new-integration-63)
+1. [Delete existing configurations](#delete-existing-configuration)
+1. [Create configuration](#configure-new-integration-63)
 
 ### Verify running jobs {#verify-jobs}
 
@@ -210,7 +247,7 @@ Ensure that no publishing job is running on your AEM Assets author instance befo
 
    ![](assets/test-integration3.png)
 
-### Delete existing configuration {#delete-existing-configuration}
+### Delete existing configurations {#delete-existing-configuration}
 
 You must run the following check-list while deleting the existing configuration.
 * Delete all four replication agents
@@ -236,7 +273,7 @@ Perform the following steps to delete the existing configuration:
    ![](assets/delete-mac-user.png)
 
 
-You can now [configure new integration](#configure-new-integration-63) on your AEM 6.3 author instance. 
+You can now [create configuration](#configure-new-integration-63) on your AEM 6.3 author instance on Adobe I/O.
 
 
 
