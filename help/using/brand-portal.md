@@ -23,6 +23,23 @@ See, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
 
+## Configure AEM Assets with Brand Portal {#configure-brand-portal}
+
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+
+>[!NOTE]
+   >
+   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.3 and above.
+   
+### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+
+You require the following to configure AEM Assets with Brand Portal:
+
+* An up and running AEM Assets author instance with latest Service Pack.
+* Brand Portal tenant URL.
+* A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
+
+For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
 ## User personas in Brand Portal {#Personas}
 
 Brand Portal supports the following user roles:

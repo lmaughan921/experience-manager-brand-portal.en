@@ -43,9 +43,9 @@ This release of Brand Portal includes the following enhancements:
    >
    >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
+
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
