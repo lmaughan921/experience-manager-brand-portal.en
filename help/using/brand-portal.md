@@ -117,7 +117,7 @@ An administrator can perform all tasks that an Editor can perform the following 
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
-[Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
 [Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -128,7 +128,7 @@ In addition to the above tasks, an Author in AEM Assets can perform the followin
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **[!UICONTROL geomettrix.brand-portal.adobe.com]** can get **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** created on request.
 
-However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 >[!NOTE]
 >

@@ -51,7 +51,7 @@ You require the following to configure AEM Assets with Brand Portal:
 
 ### Download and install AEM 6.5 {#aemquickstart}
 
-Brand Portal is integrated with AEM Assets. It is recommended to have AEM 6.5 to set up an AEM author instance. If you do not have AEM up and running, download it from the following locations:
+It is recommended to have AEM 6.5 to set up an AEM author instance. If you do not have AEM up and running, download it from the following locations:
 
 * If you are an existing AEM customer, download AEM 6.5 from [Adobe Licensing website](http://licensing.adobe.com).
 
@@ -265,7 +265,7 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 1. Verify the test results on all four replication agents one-by-one.
 
-Brand Portal is successfully integrated with your AEM Assets author instance. You can now:
+Brand Portal is successfully configured with your AEM Assets author instance. You can now:
 
 * Publish assets and folders from AEM Assets to Brand Portal
 * Publish collections from AEM Assets to Brand Portal. 

@@ -51,7 +51,7 @@ You require the following to configure AEM Assets with Brand Portal:
 
 ### Download and install AEM 6.3 {#aemquickstart}
 
-Brand Portal is integrated with AEM Assets. It is recommended to have AEM 6.3 to set up an AEM author instance. If you do not have AEM up and running, download it from the following locations:
+It is recommended to have AEM 6.3 to set up an AEM author instance. If you do not have AEM up and running, download it from the following locations:
 
 * If you are an existing AEM customer, download AEM 6.3 from [Adobe Licensing website](http://licensing.adobe.com).
 
