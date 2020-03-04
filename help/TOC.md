@@ -20,7 +20,7 @@ user-guide-title: AEM Brand Portal
   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
   + [Browsing assets on Brand Portal](using/browse-assets-brand-portal.md)
 + Publish from AEM Assets to Brand Portal {#publish}
-  + [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+  + [Configure AEM Assets with Brand Portal](using/brand-portal-configure-integration.md)
   + [Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
   + [Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
   + [Troubleshoot issues in parallel publishing to Brand Portal](using/troubleshoot-parallel-publishing.md)
@@ -57,7 +57,6 @@ user-guide-title: AEM Brand Portal
   + [Administer user access on Brand Portal](using/access-configurations-brand-portal.md)
   + [Administer general tenant configurations](using/brand-portal-general-configuration.md)
   + [First-time login experience](using/brand-portal-onboarding.md)
-  + [Configure AEM Assets with Brand Portal](using/brand-portal-configure-integration.md)
   + [Configure AEM Assets with Brand Portal on AEM 6.5](using/brand-portal-configure-integration-65.md)
   + [Configure AEM Assets with Brand Portal on AEM 6.4](using/brand-portal-configure-integration-64.md)
   + [Configure AEM Assets with Brand Portal on AEM 6.3](using/brand-portal-configure-integration-63.md)
