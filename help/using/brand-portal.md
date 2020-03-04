@@ -40,6 +40,7 @@ You require the following to configure AEM Assets with Brand Portal:
 * A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
 
 For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+
 ## User personas in Brand Portal {#Personas}
 
 Brand Portal supports the following user roles:
