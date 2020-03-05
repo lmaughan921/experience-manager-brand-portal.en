@@ -23,6 +23,24 @@ See, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
 
+## Configure AEM Assets with Brand Portal {#configure-brand-portal}
+
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+
+>[!NOTE]
+   >
+   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.3 and above.
+   
+### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+
+You require the following to configure AEM Assets with Brand Portal:
+
+* An up and running AEM Assets author instance with latest Service Pack.
+* Brand Portal tenant URL.
+* A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
+
+For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+
 ## User personas in Brand Portal {#Personas}
 
 Brand Portal supports the following user roles:
@@ -99,7 +117,7 @@ An administrator can perform all tasks that an Editor can perform the following 
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
-[Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
 [Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -110,7 +128,7 @@ In addition to the above tasks, an Author in AEM Assets can perform the followin
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **[!UICONTROL geomettrix.brand-portal.adobe.com]** can get **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** created on request.
 
-However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 >[!NOTE]
 >

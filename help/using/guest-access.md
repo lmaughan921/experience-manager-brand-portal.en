@@ -29,7 +29,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Begin guest session {#begin-guest-session}
 
-To enter Brand Portal anonymously, select **[!UICONTROL Click here]** corresponding to **[!UICONTROL Guest Access?]** on Brand Portal welcome screen. Users need not seek access and wait for the administrator to authenticate them to grant access to use the Brand Portal.
+To enter Brand Portal anonymously, select **[!UICONTROL Click here]** corresponding to **[!UICONTROL Guest Access?]** on Brand Portal welcome screen. Enter the catcha security check to grant access to use the Brand Portal.
 
 ![](assets/bp-login-screen.png) 
 

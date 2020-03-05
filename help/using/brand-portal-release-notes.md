@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* Captcha for guest login to Brand Portal.   
+* Captcha for guest login to Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.   
 
 ### Enhancements {#enhancements-646}
 
@@ -41,11 +41,11 @@ This release of Brand Portal includes the following enhancements:
 
   >[!NOTE]
    >
-   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is shifted to Adobe I/O.
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
+
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
