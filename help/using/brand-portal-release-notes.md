@@ -42,6 +42,14 @@ This release of Brand Portal includes the following enhancements:
   >[!NOTE]
    >
    >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+   >
+   
+  >[!TIP]
+   >
+   >***For existing customers only*** 
+   >
+   >It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
+   >
 
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
@@ -69,7 +77,10 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
+* Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe I/O.
+
 * Exlude System Renditions option is not working properly while downloading an asset.
+
 
 ## Languages {#languages}
 

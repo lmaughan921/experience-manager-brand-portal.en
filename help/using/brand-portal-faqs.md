@@ -15,6 +15,19 @@ discoiquuid:
 The Brand Portal FAQs focuses on the end-users queries and issues they might encounter while working with the latest AEM Assets Brand Portal 6.4.5 release or earlier versions.
 
 
+## Brand Portal 6.4.6 FAQs  {#faqs-bp646}
+
+**Ques. The existing legacy OAuth endpoint (`https://legacy-oauth.cloud.adobe.io/login`) is not working. What could be the possible reason?**
+
+**Ans.** Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O. 
+
+It is recommended to upgrade your AEM instance to the latest service pack.
+
+If you are not able to upgrade and looking for an immediate fix, change the legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
+
+
+
+## Brand Portal 6.4.5 FAQs  {#faqs-bp645}
 
 **Ques. What is the major change in Brand Portal 6.4.5 release?**
 

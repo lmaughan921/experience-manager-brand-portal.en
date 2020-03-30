@@ -56,6 +56,11 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) |[Upgrade configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
 
+>[!NOTE]
+   >
+   >It is recommended to update your AEM instance to latest service pack.
+   >
+
 See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 See [Brand Portal FAQs](brand-portal-faqs.md).
