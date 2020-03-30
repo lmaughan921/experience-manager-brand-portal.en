@@ -43,7 +43,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 >
 >But, Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe I/O on AEM 6.5.4. 
 >
->This issue will be fixed in the next service pack 6.5.5. 
+>This issue will be fixed in the next service pack AEM 6.5.5. 
 >
 >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 >
