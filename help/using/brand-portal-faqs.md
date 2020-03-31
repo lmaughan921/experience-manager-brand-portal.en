@@ -15,6 +15,20 @@ discoiquuid:
 The Brand Portal FAQs focuses on the end-users queries and issues they might encounter while working with the latest AEM Assets Brand Portal 6.4.5 release or earlier versions.
 
 
+## Brand Portal 6.4.6 FAQs  {#faqs-bp646}
+
+**Ques. The existing legacy OAuth endpoint (`https://legacy-oauth.cloud.adobe.io/login`) is not working. What could be the possible reason?**
+
+**Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it using Adobe IO. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
+
+**Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe I/O. My author instance is on AEM 6.5.4. What could be the possible reason?**
+
+**Ans.** Yes, there is a known issue while publishing contirbution folder's assets to AEM Assets on AEM 6.5.4 with Adobe I/O. This issue will be fixed in the next service pack AEM 6.5.5. 
+
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+
+
+## Brand Portal 6.4.5 FAQs  {#faqs-bp645}
 
 **Ques. What is the major change in Brand Portal 6.4.5 release?**
 
