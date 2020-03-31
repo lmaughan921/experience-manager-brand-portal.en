@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* Captcha for guest login to Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.   
+* Captcha for guest login to Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
 ### Enhancements {#enhancements-646}
 
@@ -39,17 +39,15 @@ This release of Brand Portal includes the following enhancements:
 
 * AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
-  >[!NOTE]
-   >
-   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
-   >
-   
-  >[!TIP]
-   >
-   >***For existing customers only*** 
-   >
-   >It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
-   >
+>[!NOTE]
+>
+>Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+
+>[!TIP]
+>
+>***For existing customers only***
+>
+>It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
 
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
@@ -59,17 +57,17 @@ For more information, see [Configure AEM Assets with Brand Portal](configure-aem
 
 This release includes fixes to the following critical issues:
 
-* Metadata schema drop-down values are not visible in asset properties.   
+* Metadata schema drop-down values are not visible in asset properties.
 
-* Metadata subschema do not display tabs based on mimetype in asset properties. 
+* Metadata subschema do not display tabs based on mimetype in asset properties.
 
 * Unpublish metadata schema populates an error message although the schema is removed at backend.
 
-* Preview image do not display for a published asset. 
+* Preview image do not display for a published asset.
 
 * User is unable to publish or unpublish assets containing single quote in the name.
 
-* Terms and conditions do not display while downloading multiple assets. 
+* Terms and conditions do not display while downloading multiple assets.
 
 * Minor security vulnerabilities addressed.
 
@@ -77,10 +75,10 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe I/O on AEM 6.5.4. 
+* Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe I/O on AEM 6.5.4.
 
-  This issue will be fixed in the next service pack 6.5.5. 
-  
+  This issue will be fixed in the next service pack 6.5.5.
+
   For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 
 * Exlude System Renditions option is not working properly while downloading an asset.
