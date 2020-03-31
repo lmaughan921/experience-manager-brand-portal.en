@@ -37,6 +37,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 ![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
 
+
 >[!NOTE]
 >
 >If you are an AEM 6.5.4 user, Asset Sourcing feature will continue to work on the "legacy OAuth integration". 

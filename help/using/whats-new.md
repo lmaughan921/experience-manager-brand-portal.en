@@ -61,6 +61,7 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
    >It is recommended to update your AEM instance to latest service pack.
    >
 
+
 See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 See [Brand Portal FAQs](brand-portal-faqs.md).

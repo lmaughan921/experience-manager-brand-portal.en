@@ -39,15 +39,18 @@ This release of Brand Portal includes the following enhancements:
 
 * AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
->[!NOTE]
->
->Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+  >[!NOTE]
+   >
+   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
+   >
+
 
 >[!TIP]
 >
 >***For existing customers only***
 >
->It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
+>It is recommended to continue using existing legacy OAuth Gateway configuration. In case you encounter problems with legacy OAuth Gateway configuration, delete the existing configuration and create a new configuration via Adobe I/O.
+>
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
