@@ -47,8 +47,7 @@ This release of Brand Portal includes the following enhancements:
 >
 >***For existing customers only***
 >
->It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
-
+>It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration, delete the existing configuration and create new configuration via Adobe I/O.
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
@@ -81,7 +80,7 @@ This release includes the following known issues:
 
   For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 
-* Exlude System Renditions option is not working properly while downloading an asset.
+* Exclude System Renditions option is not working properly while downloading an asset.
 
 
 ## Languages {#languages}
