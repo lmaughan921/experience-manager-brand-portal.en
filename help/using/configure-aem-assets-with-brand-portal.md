@@ -21,7 +21,6 @@ Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Ad
    >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
    >
 
-
 >[!TIP]
    >
    >***For existing customers only*** 
