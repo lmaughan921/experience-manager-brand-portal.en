@@ -38,7 +38,7 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 | **AEM 6.2** |Contact Support |Contact Support | 
 
 Resources:
-[Configure AEM Assets cloud service with Brand Portal](brand-portal-general-configuration.md)
+[Configure AEM Assets cloud service with Brand Portal](configure-brand-portal-with-aem-assets-cloud-service.md)
 <!--
    Comment Type: draft
 
