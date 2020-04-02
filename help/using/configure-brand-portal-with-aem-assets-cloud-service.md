@@ -1,6 +1,6 @@
 ---
-title: Configure AEM Assets with Brand Portal
-seo-title: Configure AEM Assets with Brand Portal
+title: Configure AEM Assets with Brand Portal on Skyline
+seo-title: Configure AEM Assets with Brand Portal on Skyline
 description: Get an insight into configuring AEM Assets with Brand Portal.
 seo-description: Get an insight into configuring AEM Assets with Brand Portal.
 uuid: 
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 ---
 
-# Configure AEM Assets with Brand Portal {#configure-aem-assets-with-brand-portal}
+# Configure AEM Assets with Brand Portal {#configure-aem-assets-with-brand-portal-skyline}
 
 Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
