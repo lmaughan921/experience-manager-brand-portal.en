@@ -211,9 +211,9 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 Brand Portal is successfully configured with your AEM Assets cloud instance. You can now:
 
-* [Publish assets from AEM Assets to Brand Portal](../assets/brand-portal-publish-assets.md)
-* [Publish folders from AEM Assets to Brand Portal](../assets/brand-portal-publish-folder.md)
-* [Publish collections from AEM Assets to Brand Portal](../assets/brand-portal-publish-collection.md) 
+* Publish assets from AEM Assets to Brand Portal
+* Publish folders from AEM Assets to Brand Portal
+* Publish collections from AEM Assets to Brand Portal
 
 
 <!--
