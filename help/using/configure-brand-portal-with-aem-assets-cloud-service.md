@@ -187,7 +187,7 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 1. From **Tools** ![Tools](assets/tools.png) panel, navigate to **[!UICONTROL Deployment >> Distribution]**.
 
-    ![](assets/test-configuration1.png)
+    ![](assets/skyline-test1.png)
 
 1. Distribution page opens. 
 
@@ -195,13 +195,13 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
    Click **[!UICONTROL bpdistributionagent0]**.
 
-   ![](assets/test-configuration2.png)
+   ![](assets/skyline-test2.png)
 
 1. The distribution agent contains two queues, a processing queue for distribution of assets to Brand Portal and the other queue is for errors.
 
    To verify the connection between AEM Assets and Brand Portal, click **[!UICONTROL Test Connection]**.
 
-   ![](assets/test-configuration3.png)
+   ![](assets/skyline-test3.png)
 
 1. A success message appears at the bottom of page that your connection is established.
 
