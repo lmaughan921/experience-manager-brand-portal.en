@@ -179,7 +179,7 @@ Perform the following steps to create Brand Portal cloud service configuration:
    
     ![](assets/create-cloud-service.png)
 
-1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets author instance is now integrted with the Brand Portal tenant. 
+1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets cloud instance is now configured with the Brand Portal tenant. 
 
 ### Test configuration {#test-integration}
 
@@ -191,29 +191,46 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 1. Distribution page opens. 
 
-   Click **[!UICONTROL publish]**.
+   A Brand Portal distribution agent `bpdistributionagent0` is created for your cloud configuration.
+
+   Click **[!UICONTROL bpdistributionagent0]**.
 
    ![](assets/test-configuration2.png)
 
-1. A distribution agent is created for each tenant that shares two job distribution queues, one for publishing assets and another for errors.
+1. The distribution agent contains two queues, a processing queue for distribution of assets to Brand Portal and the other queue is for errors.
+
+   To verify the connection between AEM Assets and Brand Portal, click **[!UICONTROL Test Connection]**.
 
    ![](assets/test-configuration3.png)
 
+1. A success message appears at the bottom of page that your connection is established.
 
-1. To verify the connection between AEM Assets and Brand Portal, click **[!UICONTROL Test Connection]**.
-
-1. A success message appears at the bottom of page that verifies the connection.
-
- >[!NOTE]
-   >
-   >Avoid disabling the distribution agent, as it can cause the distribution of some of the assets to fail.
-
+   >[!NOTE]
+    >
+    >You can test the status of both the queues and check error logs for more details.
+    >
+    >Avoid disabling the distribution agent, as it can cause the distribution of some of the assets to fail.
+    >
 
 Brand Portal is successfully configured with your AEM Assets cloud instance. You can now:
 
 * Publish assets from AEM Assets to Brand Portal
 * Publish folders from AEM Assets to Brand Portal
 * Publish collections from AEM Assets to Brand Portal
+
+### Additional information {#additional-information}
+
+Go to `/system/console/slingmetrics` for statistics related to the distributed content:
+
+1. **Counter metrics**
+   * sling: `mac_sync_request_failure`
+   * sling: `mac_sync_request_received`
+   * sling: `mac_sync_request_success`
+
+1. **Time metrics**
+   * sling: `mac_sync_distribution_duration`
+   * sling: `mac_sync_enqueue_package_duration`
+   * sling: `mac_sync_setup_request_duration`
 
 
 <!--
