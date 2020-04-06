@@ -202,7 +202,7 @@ Perform the following steps to create Brand Portal cloud service configuration:
     >By default, one distribution agent is created for a Brand Portal tenant.
     >
 
-1. The distribution agent page opens. By default, the **[UIControl Status]** tab opens which populates the distribution queues. 
+1. The distribution agent page opens. By default, the **[!UICONTROL Status]** tab opens which populates the distribution queues. 
    
    A distribution agent contains two queues: 
    * A processing queue for distribution of assets to Brand Portal. 
@@ -237,7 +237,7 @@ Following are the distribution logs:
 
 1. Follow the steps (Step 1 to 4) as shown in **[UIControl Test Connection]** and navigate to the distribution agent page.
 
-1. Select the distribution queue **[UIControl queue-bpdistributionagent0]** and click **[UIControl Logs]** to view the distribution logs.
+1. Select the distribution queue **[!UICONTROL queue-bpdistributionagent0]** and click **[UIControl Logs]** to view the distribution logs.
 
    ![](assets/skyline-test5.png)
 
@@ -260,9 +260,9 @@ In the above example, an additional request and response is triggered. The syste
 If the parent folder already exist (a.k.a. Add Path) on Brand Portal, additional request will not be triggered. 
 
 >[!NOTE]
-    >
-    >To view the error logs, select the distribution queue **[UIControl error-queue-bpdistributionagent0]** and click **[UIControl Logs]**.
-    >
+   >
+   >To view the error logs, select the distribution queue **[!UICONTROL error-queue-bpdistributionagent0]** and click **[!UICONTROL Logs]**.
+   >
 
 ## Additional information {#additional-information}
 
