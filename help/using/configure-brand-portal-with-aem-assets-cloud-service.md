@@ -33,7 +33,7 @@ Perform the following steps in the listed sequence:
 1. [Create Adobe I/O integration](#createnewintegration) 
 1. [Create IMS Account configuration](#create-ims-account-configuration)
 1. [Configure cloud service](#configure-the-cloud-service)
-1. [Test configuration](#test-integration)
+1. [Test configuration](#test-configuration)
 
 ### Create IMS configuration {#create-ims-configuration}
 
@@ -181,7 +181,7 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 1. Click **[!UICONTROL Save and Close]**. The cloud configuration is created. Your AEM Assets cloud instance is now configured with the Brand Portal tenant. 
 
-### Test configuration {#test-integration}
+### Test configuration {#test-configuration}
 
 1. Login to your AEM Assets cloud instance
 
@@ -191,25 +191,36 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 1. Distribution page opens. 
 
-   A Brand Portal distribution agent `bpdistributionagent0` is created for your cloud configuration.
+   A Brand Portal distribution agent `bpdistributionagent0` is created under **[!UICONTROL Publish to Brand Portal]**.
 
-   Click **[!UICONTROL bpdistributionagent0]**.
+   Click **[!UICONTROL Publish to Brand Portal]**.
 
    ![](assets/skyline-test2.png)
 
-1. The distribution agent contains two queues, a processing queue for distribution of assets to Brand Portal and the other queue is for errors.
+   >[!NOTE]
+    >
+    >By default, one distribution agent is created for a Brand Portal tenant.
+    >
 
-   To verify the connection between AEM Assets and Brand Portal, click **[!UICONTROL Test Connection]**.
+1. The distribution agent page opens. By default, the **[UIControl Status]** tab opens which populates the distribution queues. 
+   
+   A distribution agent contains two queues: 
+   * A processing queue for distribution of assets to Brand Portal. 
+   * An error queue for the assets which fails distribution. 
+
+   You can test individual queues or the overall configuration.  
 
    ![](assets/skyline-test3.png)
 
-1. A success message appears at the bottom of page that your connection is established.
+1. To verify the connection between AEM Assets and Brand Portal, click **[!UICONTROL Test Connection]**.
+
+   ![](assets/skyline-test4.png)
+
+   A success message appears at the bottom of page that your connection is established.
 
    >[!NOTE]
     >
-    >You can test the status of both the queues and check error logs for more details.
-    >
-    >Avoid disabling the distribution agent, as it can cause the distribution of some of the assets to fail.
+    >Avoid disabling the distribution agent, as it can cause the distribution of the assets (running-in-queue) to fail.
     >
 
 Brand Portal is successfully configured with your AEM Assets cloud instance. You can now:
@@ -218,7 +229,42 @@ Brand Portal is successfully configured with your AEM Assets cloud instance. You
 * Publish folders from AEM Assets to Brand Portal
 * Publish collections from AEM Assets to Brand Portal
 
-### Additional information {#additional-information}
+## Distribution logs {#distribution-logs}
+
+You can check the logs for detailed information on the actions performed on the distribution agent. To verify the configuration, we have published an asset from AEM Assets to Brand Portal. 
+
+Following are the distribution logs:
+
+1. Follow the steps (Step 1 to 4) as shown in **[UIControl Test Connection]** and navigate to the distribution agent page.
+
+1. Select the distribution queue **[UIControl queue-bpdistributionagent0]** and click **[UIControl Logs]** to view the distribution logs.
+
+   ![](assets/skyline-test5.png)
+
+Here is how the distribution log works:
+* INFO: This is a system generated log trigged on successful configuration that enables the distribution agent. 
+* DSTRQ1 (Request 1): Trigged on test connection.
+   
+On publishing the asset, logs are generated for both, request and response:
+
+**Distribution agent request**:
+* DSTRQ2 (Request 2): The asset publishing request is triggered.
+* DSTRQ3 (Request 3): System triggers another request to publish the folder in which the asset exist and replicates the folder in Brand Portal.
+
+**Distribution agent response**:
+* queue-bpdistributionagent0 (DSTRQ2): The asset is published on Brand Portal.
+* queue-bpdistributionagent0 (DSTRQ3): System replicates the folder containing the asset in Brand Portal.
+
+In the above example, an additional request and response is triggered. The system could not find the parent folder (a.k.a Add Path) on Brand Portal, therefore, triggers an addtional request to create a parent folder with the same name on Brand Portal where the asset is published. 
+
+If the parent folder already exist (a.k.a. Add Path) on Brand Portal, additional request will not be triggered. 
+
+>[!NOTE]
+    >
+    >To view the error logs, select the distribution queue **[UIControl error-queue-bpdistributionagent0]** and click **[UIControl Logs]**.
+    >
+
+## Additional information {#additional-information}
 
 Go to `/system/console/slingmetrics` for statistics related to the distributed content:
 
