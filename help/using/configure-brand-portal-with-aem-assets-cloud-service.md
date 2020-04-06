@@ -216,7 +216,7 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
    ![](assets/skyline-test4.png)
 
-   A success message appears at the bottom of page that your connection is established.
+   A message appears at the bottom of page that your test package is successfully delivered.
 
    >[!NOTE]
     >
@@ -252,12 +252,12 @@ On publishing the asset, logs are generated for both, request and response:
 * DSTRQ3 (Request 3): System triggers another request to publish the folder in which the asset exist and replicates the folder in Brand Portal.
 
 **Distribution agent response**:
-* queue-bpdistributionagent0 (DSTRQ2): The asset is published on Brand Portal.
+* queue-bpdistributionagent0 (DSTRQ2): The asset is published to Brand Portal.
 * queue-bpdistributionagent0 (DSTRQ3): System replicates the folder containing the asset in Brand Portal.
 
-In the above example, an additional request and response is triggered. The system could not find the parent folder (a.k.a Add Path) on Brand Portal, therefore, triggers an addtional request to create a parent folder with the same name on Brand Portal where the asset is published. 
+In the above example, an additional request and response is triggered. The system could not find the parent folder (a.k.a Add Path) in Brand Portal because the asset was published for the first-time, therefore, triggers an addtional request to create a parent folder with the same name in Brand Portal where the asset is published. 
 
-If the parent folder already exist (a.k.a. Add Path) on Brand Portal, additional request will not be triggered. 
+If the parent folder of same name exist (a.k.a. Add Path) in Brand Portal, additional request is not triggered. 
 
 >[!NOTE]
    >
