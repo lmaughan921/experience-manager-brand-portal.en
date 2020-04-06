@@ -235,9 +235,9 @@ You can check the logs for detailed information on the actions performed on the 
 
 Following are the distribution logs:
 
-1. Follow the steps (Step 1 to 4) as shown in **[UIControl Test Connection]** and navigate to the distribution agent page.
+1. Follow the steps (Step 1 to 4) as shown in **[!UICONTROL Test Connection]** and navigate to the distribution agent page.
 
-1. Select the distribution queue **[!UICONTROL queue-bpdistributionagent0]** and click **[UIControl Logs]** to view the distribution logs.
+1. Select the distribution queue **[!UICONTROL queue-bpdistributionagent0]** and click **[!UICONTROL Logs]** to view the distribution logs.
 
    ![](assets/skyline-test5.png)
 
