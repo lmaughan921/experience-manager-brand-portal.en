@@ -35,7 +35,7 @@ Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Ad
 
 You require the following to configure AEM Assets with Brand Portal:
 
-* An up and running AEM Assets author instance with latest Service Pack.
+* An up and running AEM Assets instance.
 * Brand Portal tenant URL.
 * A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
 

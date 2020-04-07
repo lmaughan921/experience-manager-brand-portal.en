@@ -24,7 +24,7 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 
 **Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe I/O. My author instance is on AEM 6.5.4. What could be the possible reason?**
 
-**Ans.** Yes, there is a known issue while publishing contirbution folder's assets to AEM Assets on AEM 6.5.4 with Adobe I/O. This issue will be fixed in the next service pack AEM 6.5.5. 
+**Ans.** Yes, there is a known issue while publishing contirbution folder's assets to AEM Assets on AEM 6.5.4 with Adobe I/O. This issue will be fixed in the next service pack. 
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 

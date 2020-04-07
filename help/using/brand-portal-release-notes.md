@@ -34,14 +34,14 @@ This release includes the following new features:
 
 * Captcha for guest login to Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
-* Brand Portal is now supported with AEM Assets cloud service. You can configure AEM Assets could service with Brand Portal to share and distribute assets .
+* Brand Portal is now supported with AEM Assets cloud service. You can configure AEM Assets could service with Brand Portal to share and distribute assets with the Brand Portal users.
   For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ### Enhancements {#enhancements-646}
 
 This release of Brand Portal includes the following enhancements:
 
-* AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+* In AEM 6.3 and above, the authorization channel between AEM Assets and Brand Portal is changed. AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
   >[!NOTE]
    >
