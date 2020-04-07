@@ -5,6 +5,7 @@ description: Get an insight into how to use Asset Sourcing feature, upload asset
 seo-description: Get an insight into how to use Asset Sourcing feature, upload assets to the contribution folder, and publish the contribution folder to AEM Assets in Brand Portal.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

@@ -5,6 +5,7 @@ description: Get an insight into uploading reference content (baseline assets) t
 seo-description: Get an insight into uploading reference content (baseline assets) to a contribution folder in Brand Portal.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

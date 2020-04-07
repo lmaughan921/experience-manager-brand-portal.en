@@ -56,7 +56,6 @@ user-guide-title: AEM Brand Portal
   + [Guide to Accelerate Downloads from Brand Portal](using/accelerated-download.md)
 + Use administrative tools {#admin-tools}
   + [Administer user access on Brand Portal](using/access-configurations-brand-portal.md)
-  + [Configure AEM Assets cloud service with Brand Portal](using/configure-brand-portal-with-aem-assets-cloud-service.md) 
   + [Administer general tenant configurations](using/brand-portal-general-configuration.md)
   + [First-time login experience](using/brand-portal-onboarding.md)
   + [Manage users, groups, and user roles](using/brand-portal-adding-users.md)

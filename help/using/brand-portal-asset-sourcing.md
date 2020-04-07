@@ -5,6 +5,7 @@ description: Get an insight into the asset sourcing feature released in the Adob
 seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

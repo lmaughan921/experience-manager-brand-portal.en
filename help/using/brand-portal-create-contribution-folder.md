@@ -5,6 +5,7 @@ description: Get an insight on how to create a contribution folder in AEM Assets
 seo-description: Get an insight on how to create a contribution folder in AEM Assets.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

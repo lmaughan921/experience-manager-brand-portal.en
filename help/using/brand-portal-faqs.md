@@ -5,6 +5,7 @@ description: Get an insight into the frequently asked questions in the Adobe Exp
 seo-description: 
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

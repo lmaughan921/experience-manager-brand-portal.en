@@ -5,6 +5,7 @@ description: Get an insight into uploading new assets to the contribution folder
 seo-description: Get an insight into uploading new assets to the contribution folder in Brand Portal.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
