@@ -5,6 +5,7 @@ description: Get an insight into configuring asset sourcing feature in AEM Asset
 seo-description: Get an insight into configuring asset sourcing feature in AEM Assets.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

@@ -5,6 +5,7 @@ description: Get an insight into publishing the contribution folder to AEM Asset
 seo-description: Get an insight into publishing the contribution folder to AEM Assets in Brand Portal.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

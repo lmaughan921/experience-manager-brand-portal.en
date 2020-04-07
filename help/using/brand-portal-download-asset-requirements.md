@@ -5,6 +5,7 @@ description: Get an insight into how to download asset requirements and baseline
 seo-description: Get an insight into how to download asset requirements and baseline assets in Brand Portal.
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 

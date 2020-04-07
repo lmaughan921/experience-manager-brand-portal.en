@@ -29,13 +29,13 @@ Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Ad
 
 >[!NOTE]
    >
-   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.3 and above.
+   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM Assets cloud service, AEM Assets 6.3 and above.
    
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
 You require the following to configure AEM Assets with Brand Portal:
 
-* An up and running AEM Assets author instance with latest Service Pack.
+* An up and running AEM Assets instance.
 * Brand Portal tenant URL.
 * A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
 

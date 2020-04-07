@@ -5,6 +5,7 @@ description: Get an insight on how to configure the properties of a contribution
 seo-description: Get an insight on how to configure the properties of a contribution folder in AEM Assets. 
 uuid: 
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
