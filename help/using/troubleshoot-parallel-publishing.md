@@ -12,7 +12,7 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 
 # Troubleshoot issues in parallel publishing to Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is configured with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
+Brand Portal is configured with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
 
 >[!NOTE]
 >
