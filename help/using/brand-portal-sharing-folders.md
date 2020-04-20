@@ -41,6 +41,7 @@ If the **[!UICONTROL Public Folder Publish]** option is disabled, administrators
 >[!NOTE]
 >
 >The option to enable **[!UICONTROL Public Folder Publish]** is available in AEM 6.3.2.1 onwards.
+>
 
 ## Access to shared folders {#access-to-shared-folders}
 
@@ -53,7 +54,10 @@ The following matrix discusses the access rights and rights to share/ unshare as
 | Viewer | No* | Yes, only if shared with them or with the group to which they belong | No |
 | Guest User | No* | Yes, only if shared with them or with the group to which they belong | No |
 
-*&#42;By default, the **[!UICONTROL Public Folder Publish]** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
+>[!NOTE]
+>
+>By default, the **[!UICONTROL Public Folder Publish]** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.
+>
 
 ### Non-admin user access to shared folders {#non-admin-user-access-to-shared-folders}
 
