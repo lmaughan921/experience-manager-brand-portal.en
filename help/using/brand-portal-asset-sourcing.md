@@ -29,26 +29,27 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
->
->Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
->
->The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
->
->Contact Adobe support to upgrade your AEM instance to the latest supported AEM version.
+ >
+ >Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
+ >
+ >The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
+ >
+ >Contact Adobe support to upgrade your AEM instance to the latest supported AEM version.
+ >
 
 ![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
 
 
 >[!NOTE]
->
->If you are an AEM 6.5.4 user, Asset Sourcing feature will continue to work on the "legacy OAuth integration". 
->
->But, Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe I/O on AEM 6.5.4. 
->
->This issue will be fixed in the next service pack AEM 6.5.5. 
->
->For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
->
+ >
+ >If you are an AEM 6.5.4 user, Asset Sourcing feature will continue to work on the "legacy OAuth integration". 
+ >
+ >But, Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe Developer Console on AEM 6.5.4. 
+ >
+ >This issue will be fixed in the next service pack AEM 6.5.5. 
+ >
+ >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
+ >
 
 ## Prerequisites {#prerequisites}
 

@@ -18,7 +18,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Portal is changed. Brand Portal is now supported on AEM Assets cloud service, AEM Assets 6.3 and above. In AEM Assets 6.3 and above, Brand Portal was earlier configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Portal is changed. Brand Portal is now supported on AEM Assets cloud service, AEM Assets 6.3 and above. In AEM Assets 6.3 and above, Brand Portal was earlier configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. AEM Assets is now configured with Brand Portal through Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -336,9 +336,9 @@ The above configurations are available under Access and General settings in admi
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe.io hosts UI to configure oAuth integrations
+### Adobe I/O UI to configure oAuth integrations
 
-Brand Portal 6.4.2 onwards uses Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+Brand Portal 6.4.2 onwards uses Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Search Enhancements
 

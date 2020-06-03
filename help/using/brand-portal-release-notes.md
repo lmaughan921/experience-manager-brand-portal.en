@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6.2 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6.2 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -13,18 +13,38 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.6.2 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.6|
-| Date | March 2020 |
+| Version | 6.4.6.2|
+| Date | June 2020 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
+
+## What's New in 6.4.6.2 {#what-s-new-in-6462}
+
+### Critical Issues Fixed {#critical-issues-fixed-6462}
+
+This release includes fixes to the following critical issues:
+
+* Removing a published metadata schema from Brand Portal results in an error.
+
+* If the administrator configures Experience Manager Assets 6.5.4 with Brand Portal via Adobe Developer Console, the Brand Portal user is not able to publish contribution folder's assets from Brand Portal to Experience Manager.
+
+* Duplicate replication of the parent folders causing conflicts.
+
+
+### Known Issues {#known-issues-6462}
+
+This release includes the following known issues:
+
+* If a folder in the hierarchy is renamed from AEM Assets and the nested folder containing an asset is published to Brand Portal, the title of the folder is not updated in Brand Portal until the root folder is published again.
+
 
 ## What's New in 6.4.6 {#what-s-new-in-646}
 
@@ -41,19 +61,22 @@ This release includes the following new features:
 
 This release of Brand Portal includes the following enhancements:
 
-* In AEM 6.3 and above, the authorization channel between AEM Assets and Brand Portal is changed. AEM Assets is now configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+* In AEM 6.3 and above, the authorization channel between AEM Assets and Brand Portal is changed. AEM Assets is now configured with Brand Portal via Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
 
-  >[!NOTE]
-   >
-   >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe I/O.
-   >
+>[!NOTE]
+ >
+ >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe Developer Console.
+ >
 
 
 >[!TIP]
->
->***For existing customers only***
->
->It is recommended to continue using existing legacy OAuth Gateway configuration. In case you encounter problems with legacy OAuth Gateway configuration, delete the existing configuration and create a new configuration via Adobe I/O.
+ >
+ >***For existing customers only***
+ >
+ >Legacy OAuth Gateway configuration will continue working for existing customers. 
+ >
+ >In case you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe Developer Console.
+ >
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
@@ -79,7 +102,7 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe I/O on AEM 6.5.4.
+* Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe Developer Console on AEM 6.5.4.
 
   This issue will be fixed in the next service pack 6.5.5.
 
