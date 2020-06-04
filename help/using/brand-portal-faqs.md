@@ -13,18 +13,20 @@ discoiquuid:
 
 # Frequently Asked Questions {#frequently-asked-questions}
 
-The Brand Portal FAQs focuses on the end-users queries and issues they might encounter while working with the latest AEM Assets Brand Portal 6.4.5 release or earlier versions.
+The Brand Portal FAQs focuses on the end-users queries and issues they might encounter while working with the latest AEM Assets Brand Portal 6.4.6 release or earlier versions.
 
 
 ## Brand Portal 6.4.6 FAQs  {#faqs-bp646}
 
 **Ques. The existing legacy OAuth endpoint (`https://legacy-oauth.cloud.adobe.io/login`) is not working. What could be the possible reason?**
 
-**Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it using Adobe IO. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
+**Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it via Adobe Developer Console. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
 
-**Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe I/O. My author instance is on AEM 6.5.4. What could be the possible reason?**
+**Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe Developer Console. My author instance is on AEM 6.5.4. What could be the possible reason?**
 
-**Ans.** Yes, there is a known issue while publishing contirbution folder's assets to AEM Assets on AEM 6.5.4 with Adobe I/O. This issue will be fixed in the next service pack. 
+**Ans.** Yes, there is a known issue while publishing contribution folder's assets to AEM Assets on AEM 6.5.4 via Adobe Developer Console. 
+
+This issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console. 
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
@@ -100,8 +102,9 @@ The Brand Portal users access the **Contribution** folder and upload content in 
 **Ans.** You can access a **Contribution** folder only if it has been shared with you. You will get an email/pulse notification whenever a Contribution folder is shared with you. You can either access the Contribution folder via the link shared in the email, or login to your Brand Portal instance and navigate to the bell icon for notfication to access the Contribution folder.  
 
 >[!NOTE]
->
->If you are not an existing Brand Portal user, request the AEM administrator to create your user in the AEM admin console and add your profile to the user configuration file in Brand Portal users list. Refer, [Adding Brand Portal user](brand-portal-configure-asset-sourcing.md). 
+ >
+ >If you are not an existing Brand Portal user, request the AEM administrator to create your user in the AEM admin console and add your profile to the user configuration file in Brand Portal users list. Refer, [Adding Brand Portal user](brand-portal-configure-asset-sourcing.md).
+ > 
 
 
 
