@@ -17,7 +17,7 @@ AEM administrators and non-admin users having permission to create a new folder,
 To create a **Contribution** folder, create a new folder of type **Asset Contribution**, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
 
 **To create a new contribution folder:**
-1. Login to your AEM author instance
+1. Log in to your AEM author instance
 Default URL: http:// localhost:4502/aem/start.html
 1. Navigate to **[!UICONTROL Assets > Files]**
 It lists all the existing folders in the AEM Assets repository.

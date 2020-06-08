@@ -32,7 +32,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
  >
  >Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
  >
- >The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
+ >The feature is not supported on AEM Assets cloud service and earlier versions - AEM 6.3 and AEM 6.4.
  >
  >Contact Adobe support to upgrade your AEM instance to the latest supported AEM version.
  >

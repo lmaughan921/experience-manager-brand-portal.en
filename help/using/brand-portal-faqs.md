@@ -30,6 +30,25 @@ This issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to th
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
+**Ques. I want to enable the Asset Sourcing feature on my AEM Assets cloud instance. How can I configure it?**
+
+**Ans.** No, the Asset Sourcing feature is currently not supported on AEM Assets cloud service. 
+
+Stay connected and watch the release notes for notifications on the feature availability in the upcoming releases.
+
+**Ques. I am unable to publish assets from AEM Assets to Brand Portal and the replication agent log is throwing exception `java.net.SocketException: Connection timed out`. Is there a quick fix?**
+
+**Ans.** If there are number of requests pending in the replication queue, there is a possibility that the replication agent does not process the request to publish an asset and throws an exception: `java.net.SocketException: Connection timed out`. 
+
+Perform the following steps to fix the issue:
+
+1. Open the replication agent and click **[!UICONTROL Edit]** to modify the replication agent settings.
+1. In Agent Settings, click on the tab **[!UICONTROL Extended]**.
+1. Enable the checkbox **[!UICONTROL Close Connection]**.
+1. Restart the replication bundle (server).
+
+Enable the settings on all the four replication agents to avoid issues with any of the replication agent.
+
 
 ## Brand Portal 6.4.5 FAQs  {#faqs-bp645}
 

@@ -17,7 +17,7 @@ Once the [contribution folder is configured](brand-portal-configure-contribution
 
 **To publish contribution folder:**
 
-1. Login to your AEM author instance.
+1. Log in to your AEM author instance.
 Default URL: http:// localhost:4502/aem/start.html
 1. Navigate to **[!UICONTROL Assets > Files]** and locate the contribution folder in which you want to publish to Brand Portal.
 1. Select contribution folder and click **[!UICONTROL Quick Publish > Publish to Brand Portal]**.
