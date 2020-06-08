@@ -29,7 +29,7 @@ The following video demonstrates, how to Configure Asset Sourcing on your AEM au
 AEM administrators can enable Asset Sourcing from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 **To enable Asset Sourcing:**
-1. Login to your AEM author instance and open Configuration Manager
+1. Log in to your AEM author instance and open Configuration Manager
 Default URL: http:// localhost:4502/system/console/configMgr
 1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**
 1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window
@@ -49,7 +49,7 @@ AEM administrators can upload the Brand Portal user configuration (.csv) file co
 Administrator can add new users in AEM Admin Console, see [Manage Users](brand-portal-adding-users.md) for detailed information. After adding users in Admin Console, these users can be added to the Brand Portal user configuration file and then assigned permission to access the contribution folder.
 
 **To upload Brand Portal users list:**
-1. Login to your AEM author instance
+1. Log in to your AEM author instance
 Default URL: http:// localhost:4502/aem/start.html
 1. From **Tools** ![](assets/tools.png) panel, navigate to **[!UICONTROL Assets > Brand Portal Users]**
 ![](assets/upload-user-list1.png)

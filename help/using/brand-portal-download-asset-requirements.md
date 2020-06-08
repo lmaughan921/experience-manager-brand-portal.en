@@ -24,7 +24,7 @@ Brand Portal dashboard reflects all the existing folders permitted to the Brand 
 
 **To download asset requirements:**
 
-1. Login to your Brand Portal instance.
+1. Log in to your Brand Portal instance.
 1. Select contribution folder from the Brand Portal dashboard.
 1. Click **[!UICONTROL Properties]** ![](assets/properties.png). Property window opens, displaying the Asset Contribution folder details.
 ![](assets/download-asset-requirement1.png)

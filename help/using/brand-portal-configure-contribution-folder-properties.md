@@ -25,7 +25,7 @@ Asset requirement refers to the details provided by administrators to help contr
 Administrator can then grant Brand Portal users/groups access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.
 
 **To configure contribution folder properties:**
-1. Login to your AEM author instance
+1. Log in to your AEM author instance
 Default URL: http:// localhost:4502/aem/start.html
 1. Navigate to **[!UICONTROL Assets > Files]** and locate the contribution folder.
 1. Select contribution folder and click **[!UICONTROL Properties]** ![](assets/properties.png). Folder properties window opens.

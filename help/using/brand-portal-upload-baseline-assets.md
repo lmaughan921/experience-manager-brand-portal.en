@@ -17,7 +17,7 @@ AEM administrator uploads baseline assets in the **SHARED** folder to help Brand
 
 **To upload baseline assets:**
 
-1. Login to your AEM author instance.
+1. Log in to your AEM author instance.
 Default URL: http:// localhost:4502/aem/start.html
 1. Navigate to **[!UICONTROL Assets > Files]** and locate the contribution folder in which you want to upload baseline assets.
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder.

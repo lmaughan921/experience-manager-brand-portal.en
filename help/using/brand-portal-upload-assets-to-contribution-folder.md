@@ -25,7 +25,7 @@ Brand Portal users can then create new assets for contribution and upload them t
 
 **To upload new assets:**
 
-1. Login to your Brand Portal instance.
+1. Log in to your Brand Portal instance.
 Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder.
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder.
 1. Click **[!UICONTROL NEW]** folder.
