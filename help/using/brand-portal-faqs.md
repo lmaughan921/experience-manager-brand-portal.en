@@ -18,8 +18,6 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 
 ## Brand Portal 6.4.6 FAQs  {#faqs-bp646}
 
-
-
 **Ques. The existing legacy OAuth endpoint (`https://legacy-oauth.cloud.adobe.io/login`) is not working. What could be the possible reason?**
 
 **Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it via Adobe Developer Console. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
@@ -32,7 +30,6 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 This issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console. 
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
-
 
 **Ques. I do not see the contribution folder's content published from Brand Portal in AEM Assets. What could be the possible reason?**
 
@@ -54,7 +51,7 @@ Perform the following steps to configure the replication agent:
 1. In Agent Settings, click the **[!UICONTROL Extended]** tab. 
 1. Enable the **[!UICONTROL Close Connection]** checkbox.
 1. Repeat steps 4 through 7 to configure all the four replication agents. 
-1. Restart the server.
+1. Restart the server and verify the connection.
 
 
 ## Brand Portal 6.4.5 FAQs  {#faqs-bp645}
