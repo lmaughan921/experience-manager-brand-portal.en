@@ -38,6 +38,12 @@ This release includes fixes to the following critical issues:
 
 * Duplicate replication of the parent folders causing conflicts.
 
+* User is not able to generate Link Share report.
+
+* User can copy MAC secrets for a Brand Portal endpoint using copyPage command. 
+
+* cqTags causing reindexing on VA5 clone.
+
 
 ### Known Issues {#known-issues-6462}
 
