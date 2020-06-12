@@ -26,16 +26,18 @@ kt: 3838
 
 Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Prerequisites {#prerequisites}
+
+* AEM 6.5.2 or above.
+* Ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
 
 >[!NOTE]
  >
- >Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
+ >Asset Sourcing is not supported on AEM Assets cloud service.
  >
- >The feature is not supported on AEM Assets cloud service and earlier versions - AEM 6.3 and AEM 6.4.
- >
- >Contact Adobe support to upgrade your AEM instance to the latest supported AEM version.
- >
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
 
@@ -48,11 +50,6 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
  >
  >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
  >
-
-## Prerequisites {#prerequisites}
-
-* AEM 6.5.0.2 or above.
-* Ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## See also {#reference-articles}
 

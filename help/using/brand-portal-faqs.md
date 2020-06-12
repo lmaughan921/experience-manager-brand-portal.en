@@ -34,13 +34,6 @@ This issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to th
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
 
-**Ques. I want to enable the Asset Sourcing feature on my AEM Assets cloud instance. How can I configure it?**
-
-**Ans.** No, the Asset Sourcing feature is currently not supported on AEM Assets cloud service. 
-
-Stay connected and watch the release notes for notifications on the feature availability in the upcoming releases.
-
-
 **Ques. I do not see the contribution folder's content published from Brand Portal in AEM Assets. What could be the possible reason?**
 
 **Ans.** Contact your AEM Assets administrator to verify the configurations and ensure that your Brand Portal tenant is configured with only one AEM Assets author instance.   
