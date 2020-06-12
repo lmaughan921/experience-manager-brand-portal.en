@@ -18,9 +18,13 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 
 ## Brand Portal 6.4.6 FAQs  {#faqs-bp646}
 
+### 
+
 **Ques. The existing legacy OAuth endpoint (`https://legacy-oauth.cloud.adobe.io/login`) is not working. What could be the possible reason?**
 
 **Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it via Adobe Developer Console. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
+
+### 
 
 **Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe Developer Console. My author instance is on AEM 6.5.4. What could be the possible reason?**
 
@@ -30,11 +34,15 @@ This issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to th
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
+### 
+
 **Ques. I want to enable the Asset Sourcing feature on my AEM Assets cloud instance. How can I configure it?**
 
 **Ans.** No, the Asset Sourcing feature is currently not supported on AEM Assets cloud service. 
 
 Stay connected and watch the release notes for notifications on the feature availability in the upcoming releases.
+
+### 
 
 **Ques. I am unable to publish assets from AEM Assets to Brand Portal and the replication agent log is throwing exception `java.net.SocketException: Connection timed out`. Is there a quick fix?**
 
@@ -49,6 +57,13 @@ Perform the following steps to fix the issue:
 
 Enable the settings on all the four replication agents to avoid issues with any of the replication agent.
 
+### 
+
+**Ques. I do not see the contribution folder's content published from Brand Portal in AEM Assets. What could be the possible reason?**
+
+**Ans.** Contact your AEM Assets administrator to verify the configurations and ensure that your Brand Portal tenant is configured with only one AEM Assets author instance.   
+
+This issue possibly occurs when you have configured a Brand Portal tenant on multiple AEM Assets author instances. For example, the administrator configures the same Brand Portal tenant on the AEM Assets author instance of staging and production environment. In this case, the asset publishing triggers in Brand Portal but the AEM Assets author instance could not import the asset coz the replication agent does not receive the requesting token.   
 
 ## Brand Portal 6.4.5 FAQs  {#faqs-bp645}
 
