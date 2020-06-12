@@ -43,8 +43,9 @@ Default URL: http:// localhost:4502/system/console/configMgr
 AEM administrators can upload the Brand Portal user configuration (.csv) file containing active Brand Portal user list in AEM Assets. A contribution folder can only be shared with the active Brand Portal users defined in the user list. Administrator can also add new users in the configuration file and upload the modified user list.
 
 >[!NOTE]
->
->The format of the CSV file is same as what is supported by Admin Console for bulk user import. Email, first name, and last name are mandatory. 
+ >
+ >The format of the CSV file is same as what is supported by Admin Console for bulk user import. Email, first name, and last name are mandatory. 
+ >
 
 Administrator can add new users in AEM Admin Console, see [Manage Users](brand-portal-adding-users.md) for detailed information. After adding users in Admin Console, these users can be added to the Brand Portal user configuration file and then assigned permission to access the contribution folder.
 
