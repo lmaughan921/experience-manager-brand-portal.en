@@ -16,13 +16,8 @@ discoiquuid:
 AEM administrators can configure **Asset Sourcing** from within the AEM author instance. The administrator enables the Asset Sourcing feature flag configuration from **AEM Web Console Configuration** and uploads the active Brand Portal users list in **AEM Assets**.
 
 >[!NOTE]
- >
- >Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
- >
- >A Brand Portal tenant shall only be configured with one AEM Assets author instance.
- >
- >Do not configure a Brand Portal tenant with multiple AEM Assets author instances. 
- >
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
 
 
 The following video demonstrates, how to Configure Asset Sourcing on your AEM author instance:
