@@ -17,7 +17,7 @@ user-guide-title: AEM Brand Portal
   + [Frequently Asked Questions](using/brand-portal-faqs.md)
   + [Supported file formats](using/brand-portal-supported-formats.md)
   + [Guest Access to Brand Portal](using/guest-access.md)
-  + [Understanding Brand Portal with AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
+  + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
   + [Browsing assets on Brand Portal](using/browse-assets-brand-portal.md)
 + Publish from AEM Assets to Brand Portal {#publish}
   + [Configure AEM Assets with Brand Portal](using/configure-aem-assets-with-brand-portal.md)

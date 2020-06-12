@@ -22,7 +22,6 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 
 **Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it via Adobe Developer Console. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
 
-
 **Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe Developer Console. My author instance is on AEM 6.5.4. What could be the possible reason?**
 
 **Ans.** Yes, there is a known issue while publishing contribution folder's assets to AEM Assets on AEM 6.5.4 via Adobe Developer Console. 
