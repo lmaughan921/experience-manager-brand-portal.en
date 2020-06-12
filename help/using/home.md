@@ -43,4 +43,4 @@ This user guide documents insights in to Brand Portal offerings and key workflow
 
 ### Helpful resources
 
-* [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Understanding Brand Portal with AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
