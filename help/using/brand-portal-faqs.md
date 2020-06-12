@@ -41,25 +41,28 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 Stay connected and watch the release notes for notifications on the feature availability in the upcoming releases.
 
 
-**Ques. I am unable to publish assets from AEM Assets to Brand Portal and the replication agent log is throwing exception `java.net.SocketException: Connection timed out`. Is there a quick fix?**
-
-**Ans.** If there are number of requests pending in the replication queue, there is a possibility that the replication agent does not process the request to publish an asset and throws an exception: `java.net.SocketException: Connection timed out`. 
-
-Perform the following steps to fix the issue:
-
-1. Open the replication agent and click **[!UICONTROL Edit]** to modify the replication agent settings.
-1. In Agent Settings, click on the tab **[!UICONTROL Extended]**.
-1. Enable the checkbox **[!UICONTROL Close Connection]**.
-1. Restart the replication bundle (server).
-
-Enable the settings on all the four replication agents to avoid issues with any of the replication agent.
-
-
 **Ques. I do not see the contribution folder's content published from Brand Portal in AEM Assets. What could be the possible reason?**
 
 **Ans.** Contact your AEM Assets administrator to verify the configurations and ensure that your Brand Portal tenant is configured with only one AEM Assets author instance.   
 
-This issue possibly occurs when you have configured a Brand Portal tenant on multiple AEM Assets author instances. For example, the administrator configures the same Brand Portal tenant on the AEM Assets author instance of staging and production environment. In this case, the asset publishing triggers in Brand Portal but the AEM Assets author instance could not import the asset coz the replication agent does not receive the requesting token.   
+This issue possibly occurs when you have configured a Brand Portal tenant on multiple AEM Assets author instances. For example, the administrator configures the same Brand Portal tenant on the AEM Assets author instance of staging and production environment. In this case, the asset publishing triggers in Brand Portal but the AEM Assets author instance could not import the asset coz the replication agent does not receive the requesting token.  
+
+
+**Ques. I am unable to publish assets from AEM Assets to Brand Portal. The replication log states that the connection timed out. Is there a quick fix?**
+
+**Ans.** Usually the publishing fails with a time out error if there are multiple pending requests in the replication queue. To resolve the issue, ensure that the replication agents are configured to avoid timeout. 
+
+Perform the following steps to configure the replication agent:
+1. Log in to your AEM Assets author instance.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. In the Replication page, click **[!UICONTROL Agents on author]**. You can see the four replication agents for your Brand Portal tenant. 
+1. Click the replication agent URL to open the agent details.
+1. Click **[!UICONTROL Edit]** to modify the replication agent settings.
+1. In Agent Settings, click the **[!UICONTROL Extended]** tab. 
+1. Enable the **[!UICONTROL Close Connection]** checkbox.
+1. Repeat steps 4 through 7 to configure all the four replication agents. 
+1. Restart the server.
+
 
 ## Brand Portal 6.4.5 FAQs  {#faqs-bp645}
 
