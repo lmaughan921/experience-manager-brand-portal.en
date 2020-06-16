@@ -32,7 +32,7 @@ Configuring AEM Assets could service with Brand Portal allows you to publish and
  >
  >Legacy OAuth Gateway configuration will continue working for existing customers. 
  >
- >In case you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe Developer Console.
+ >In case you encounter problems with legacy OAuth Gateway configuration, delete the existing configuration and create new configuration via Adobe Developer Console.
  >
 
 The steps to configure AEM Assets with Brand Portal are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing configurations:
@@ -46,14 +46,3 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 | **AEM 6.2** |Contact Support |Contact Support | 
 
 
-<!--
-   Comment Type: draft
-
-   <li> </li>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <li>Step text</li>
-   -->

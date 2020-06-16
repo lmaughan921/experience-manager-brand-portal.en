@@ -62,8 +62,8 @@ Based on the Dynamic Media cloud configurations on AEM Author, configure [Dynami
 Make sure that [separate Brand Portal tenants](#separate-tenants) are used for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media **[!UICONTROL Scene7]** modes, if you are using functionalities of Dynamic Media Hybrid and Dynamic Media **[!UICONTROL S7]**.
 * **Publish folders with video encodes applied to Brand Portal**
 Apply [video encodings](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) and publish the folder containing rich media assets from AEM Author instance to Brand Portal.
-* **Whitelist Egress IPs in SPS if secure preview enabled**
-If using Dynamic Media-**[!DNL Scene 7]** (with [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) for a company), then it is advised that **[!DNL Scene 7]** company administrator [whitelists the public egress IPs](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) for respective regions using  SPS (**[!UICONTROL Scene 7]** Publishing System) flash UI.
+* **Allowlist Egress IPs in SPS if secure preview enabled**
+If using Dynamic Media-**[!DNL Scene 7]** (with [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) for a company), then it is advised that **[!DNL Scene 7]** company administrator [allowlist the public egress IPs](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) for respective regions using  SPS (**[!UICONTROL Scene 7]** Publishing System) flash UI.
 The Egress IPs are as follows:
 
 | **Region**  | **Egress IP** |
@@ -72,7 +72,7 @@ The Egress IPs are as follows:
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
-To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
 ## Best Practices
 
@@ -88,11 +88,11 @@ If you are using both Dynamic Media **[!DNL Scene 7]** and Dynamic Media Hybrid 
 
 Ensure that the configuration details–such as **[!UICONTROL Title]**, **[!UICONTROL Registration ID]**, **[!UICONTROL Video Service URL]** (in **[!UICONTROL Dynamic Media Hybrid]**) and **[!UICONTROL Title]**, credentials (**[!UICONTROL Email]** and Password), **[!UICONTROL Region]**, **[!UICONTROL Company]** (in Dynamic Media **[!DNL Scene 7]**)–are the same in Brand Portal and **[!UICONTROL AEM cloud configuration]**.
 
-### Whitelist public egress IPs for Dynamic Media Scene 7 mode
+### Allowlist public egress IPs for Dynamic Media Scene 7 mode
 
 If Dynamic Media **[!UICONTROL Scene 7]**–having [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)–is used to serve video assets to Brand Portal, then **[!UICONTROL Scene 7]** establishes a dedicated image server for staging environments or internal applications. Any request to this server checks the origin IP address. If the incoming request is not within the approved list of IP addresses, a failure response is returned.
 The **[!UICONTROL Scene-7]** Company Administrator, therefore, configures an approved list of IP addresses for their company’s **[!UICONTROL Secure Testing]** environment, through **[!UICONTROL SPS]** (Scene-7 Publishing System) flash UI. Make sure that the egress IP for your respective region (from the following) is added to that approved list.
-To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 The egress IPs are as follows:
 
 | **Region**  | **Egress IP** |
