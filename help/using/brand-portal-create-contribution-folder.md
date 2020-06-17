@@ -33,5 +33,8 @@ It is recommended to use small alphabets without space to name the folder.
 You can now configure the Contribution folder properties. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
 
 >[!NOTE]
->
->Ensure that you provide an appropriate name to the Contribution folder as you cannot modify the folder name after creation. 
+ >
+ >Ensure that you provide an appropriate name to the Contribution folder as you cannot modify the folder name after creation. 
+ >
+ >Nesting of Contribution folder is not supported. Do not create a Contribution folder inside another Contribution folder.
+ >

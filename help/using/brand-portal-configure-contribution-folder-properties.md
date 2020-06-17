@@ -39,5 +39,6 @@ These Brand Portal users/groups will have permission to access the contribution 
 ![](assets/contribution-folder-property2.png)
 
 >[!NOTE] 
->
->The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. See, [Upload Brand Portal user list](brand-portal-configure-asset-sourcing.md).
+ >
+ >The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. See, [Upload Brand Portal user list](brand-portal-configure-asset-sourcing.md).
+ >
