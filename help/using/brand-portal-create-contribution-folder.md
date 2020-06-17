@@ -36,5 +36,5 @@ You can now configure the Contribution folder properties. See, [Configure Contri
  >
  >Ensure that you provide an appropriate name to the Contribution folder as you cannot modify the folder name after creation. 
  >
- >Nesting of Contribution folder is not supported. Do not create a Contribution folder inside another Contribution folder.
+ >Nesting of Contribution folder is not supported. You can create multiple Contribution folders within a folder but do not create a Contribution folder inside another Contribution folder.
  >
