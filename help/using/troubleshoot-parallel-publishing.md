@@ -15,8 +15,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 Brand Portal is configured with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
 
 >[!NOTE]
->
->Adobe recommends upgrading to AEM 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully configured with AEM Assets. A limitation in AEM 6.4 gives an error while configuring AEM Assets with Brand Portal and replication fails.
+ >
+ >Adobe recommends upgrading to AEM 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully configured with AEM Assets. A limitation in AEM 6.4 gives an error while configuring AEM Assets with Brand Portal and replication fails.
+ >
 
 On configuring cloud service for brand portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
 
