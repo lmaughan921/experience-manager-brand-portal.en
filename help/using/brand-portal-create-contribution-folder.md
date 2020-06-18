@@ -34,7 +34,7 @@ You can now configure the Contribution folder properties. See, [Configure Contri
 
 >[!NOTE]
  >
- >Ensure that you provide an appropriate name to the Contribution folder as you cannot modify the folder name after creation. 
+ >A non admin user can only create and share a Contribution folder. Ensure that you provide an appropriate name to the Contribution folder as a non admin user can cannot modify or delete a Contribution folder after creation.  
  >
  >Nesting of Contribution folder is not supported. You can create multiple Contribution folders within a folder but do not create a Contribution folder inside another Contribution folder.
  >
