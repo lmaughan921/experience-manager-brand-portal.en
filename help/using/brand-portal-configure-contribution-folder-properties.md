@@ -33,8 +33,9 @@ Default URL: http:// localhost:4502/aem/start.html
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Enter high-level **[!UICONTROL Description]** of the contribution folder.
 1. Click **[!UICONTROL Upload Brief]** ![](assets/upload.png) to browse from your local machine and upload an **Asset Requirement Document**.
-1. In **[!UICONTROL Add User or Group]**, search and **[!UICONTROL Add]** Brand Portal users or groups with whom you want to share the contribution folder.
-These Brand Portal users/groups will have permission to access the contribution folder and upload content from their Brand Portal interface without needing access to the AEM author instance.
+1. In **[!UICONTROL Add User or Group]**, search and **[!UICONTROL Add]** Brand Portal users with whom you want to share the contribution folder. A Contirbution folder cannot be assigned to groups.
+These Brand Portal users will have permission to access the contribution folder and upload content from their Brand Portal interface without needing access to the AEM author instance.  
+
 1. Click **[!UICONTROL Save]**.
 ![](assets/contribution-folder-property2.png)
 
