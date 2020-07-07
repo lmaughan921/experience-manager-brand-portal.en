@@ -28,9 +28,8 @@ The browser-based portal environment enables you to easily upload, browse, searc
 Adobe Experience Manager (AEM) Assets is configured with Brand Portal via Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
- >
- >Configuring AEM Assets with Brand Portal via Adobe Developer Console is supported on AEM Assets cloud service, AEM Assets 6.3 and above.
- >
+>
+>Configuring AEM Assets with Brand Portal via Adobe Developer Console is supported on AEM Assets cloud service, AEM Assets 6.3 and above.
    
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
@@ -132,11 +131,10 @@ Note that only the prefix of the Brand Portal URL can be customized and not the 
 However, AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 >[!NOTE]
- >
- >To get an alias for tenant name in existing portal URL, organizations need to contact Adobe support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
- >
- >To replace the old or delete the old alias, the same process needs to be followed.
- >
+>
+>To get an alias for tenant name in existing portal URL, organizations need to contact Adobe support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
+>
+>To replace the old or delete the old alias, the same process needs to be followed.
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
