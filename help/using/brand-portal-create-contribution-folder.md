@@ -33,8 +33,7 @@ It is recommended to use small alphabets without space to name the folder.
 You can now configure the Contribution folder properties. See, [Configure Contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
 
 >[!NOTE]
- >
- >A non admin user can only create and share an asset contribution folder. Once the contribution folder is created, a non admin user cannot modify or delete it.  
- >
- >Nesting of asset contribution folder is not supported. You can create multiple contribution folders within a folder but you must not not create a contribution folder inside another contribution folder.
- >
+>
+>A non admin user can only create and share an asset contribution folder. Once the contribution folder is created, a non admin user cannot modify or delete it.  
+>
+>Nesting of asset contribution folder is not supported. You can create multiple contribution folders within a folder but you must not not create a contribution folder inside another contribution folder.

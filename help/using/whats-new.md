@@ -59,10 +59,8 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 | **AEM 6.2** |Contact Support |Contact Support | 
 
 >[!NOTE]
- >
- >It is recommended to update your AEM instance to latest service pack.
- >
-
+>
+>It is recommended to update your AEM instance to latest service pack.
 
 See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
@@ -85,12 +83,10 @@ Once the user is finished adding content in the **NEW** folder, they can publish
 Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. 
 
 >[!NOTE]
- >
- >Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
- >
- >The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
- >
-
+>
+>Asset Sourcing in Brand Portal is supported on AEM 6.5.2.0 and above.
+>
+>The feature is not supported in the earlier versions - AEM 6.3 and AEM 6.4.
 
 ### Upload assets to contribution folder {#upload-assets-in-bp} 
 
@@ -147,9 +143,8 @@ Similarly, specifying:
 * **&#42;climb&#42;** returns all the assets having words comprising the characters **climb** in their title phrase.
 
 >[!NOTE]
- >
- >On selecting **Partial Search** checkbox, **Ignore Case** is selected by default.
- >
+>
+>On selecting **Partial Search** checkbox, **Ignore Case** is selected by default.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
