@@ -34,7 +34,7 @@ You can now configure the Contribution folder properties. See, [Configure Contri
 
 >[!NOTE]
  >
- >A non admin user can only create and share a Contribution folder. Ensure that you provide an appropriate name to the Contribution folder as a non admin user can cannot modify or delete a Contribution folder after creation.  
+ >A non admin user can only create and share an asset contribution folder. Once the contribution folder is created, a non admin user cannot modify or delete it.  
  >
- >Nesting of Contribution folder is not supported. You can create multiple Contribution folders within a folder but do not create a Contribution folder inside another Contribution folder.
+ >Nesting of asset contribution folder is not supported. You can create multiple contribution folders within a folder but you must not not create a contribution folder inside another contribution folder.
  >
