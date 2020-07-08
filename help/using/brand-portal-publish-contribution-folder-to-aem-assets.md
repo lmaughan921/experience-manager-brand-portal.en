@@ -25,8 +25,8 @@ Ensure that you have gone through the [asset requirements](brand-portal-download
 ![](assets/publish-contribution-folder-to-aem.png)
 
 An email/pulse notification is sent to the Brand Portal user and AEM administrator at different stages of the publishing workflow:
-1. **Queued** - When the publishing workflow triggers in Brand Portal, a contribution folder is published from Brand Portal to AEM Assets.
+1. **Queued** - A notification is sent to the Brand Portal user when a publishing workflow triggers in Brand Portal.
 
-1. **Complete** - When the publishing workflow is complete, the contribution folder is successfully imported to AEM Assets.
+1. **Complete** - A notification is sent to the Brand Portal user and AEM administrator when the publishing workflow is complete i.e. the contribution folder is successfully published to AEM Assets.
 
 
