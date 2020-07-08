@@ -24,4 +24,4 @@ Default URL: http:// localhost:4502/aem/start.html
 ![](assets/publish-contribution-folder-to-bp.png)
 You will receive a success message once the contribution folder is published to Brand Portal.
 
-An email/pulse notification is sent to the Brand Portal users/groups assigned to the contribution folder. The Brand Portal users can access the contribution folder and begin contribution. See, [Upload assets to Contribution folder](brand-portal-upload-assets-to-contribution-folder.md).
+An email/pulse notification is sent to the Brand Portal users assigned to the contribution folder. The Brand Portal users can access the contribution folder and begin contribution. See, [Upload assets to Contribution folder](brand-portal-upload-assets-to-contribution-folder.md).
