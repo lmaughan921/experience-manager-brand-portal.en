@@ -57,9 +57,8 @@ These parent folders are the virtual folders and no actions can be performed on 
 No action tasks are visible on hovering or selecting them in **[!UICONTROL Card View]**, unlike the shared folders. **[!UICONTROL Overview]** button is shown on selecting a virtual folder in **[!UICONTROL Column View]** and **[!UICONTROL List View]**.
 
 >[!NOTE]
- >
- >The default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
- >
+>
+>The default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 

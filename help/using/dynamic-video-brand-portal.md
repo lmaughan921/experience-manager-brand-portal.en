@@ -104,21 +104,24 @@ The egress IPs are as follows:
 ## Configure Dynamic Media (Hybrid) settings {#configure-dm-hybrid-settings}
 
 If AEM Author instance is running on dynamic media hybrid mode, then use **[!UICONTROL Video]** tile from administrative tools panel to configure Dynamic Media gateway settings.
+
 >[!NOTE]
 >
 >The [video encoding profiles](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) are not published to Brand Portal, instead are fetched from the **[!UICONTROL Scene 7]** server. Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [[!UICONTROL Scene7 cloud configuration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in your AEM Author instance.
+
 To set up Dynamic Media configurations on Brand Portal tenants:
 
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
+1. From the administrative tools panel, select the **[!UICONTROL Video]** tile.
 
-2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.<br />
-![Dynamic Media Hybrid Config on Brand Portal](assets/DMHybrid-Video.png)
-**[!UICONTROL Edit Dynamic Media Configuration]** page opens.<br />
-![Dynamic Media Hybrid Configuration on Brand Portal](assets/edit-dynamic-media-config.png)
+   ![Dynamic Media Hybrid Config on Brand Portal](assets/DMHybrid-Video.png)
 
-3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Make sure these details are the same as those in **[!UICONTROL Tools > Cloud Services]** in your AEM Author instance.
+   **[!UICONTROL Edit Dynamic Media Configuration]** page opens.
 
-4. Select **Save** to save the configuration.
+   ![Dynamic Media Hybrid Configuration on Brand Portal](assets/edit-dynamic-media-config.png)
+
+1. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Make sure these details are the same as those in **[!UICONTROL Tools > Cloud Services]** in your AEM Author instance.
+1. Select **Save** to save the configuration.
 
 ## Configure Dynamic Media Scene7 settings {#configure-dm-scene7-settings}
 
