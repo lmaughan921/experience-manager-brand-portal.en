@@ -22,6 +22,12 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 
 **Ans.** Legacy OAuth configuration is deprecated. You must upgrade AEM Assets author instances to the latest service pack and configure it via Adobe Developer Console. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
 
+
+**Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
+
+**Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
+
+
 **Ques. I am not able to publish the contribution folder's assets from Brand Portal to AEM Assets after upgrading to Adobe Developer Console. My author instance is on AEM 6.5.4. What could be the possible reason?**
 
 **Ans.** Yes, there is a known issue while publishing contribution folder's assets to AEM Assets on AEM 6.5.4 via Adobe Developer Console. 
