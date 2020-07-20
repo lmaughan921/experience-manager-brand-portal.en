@@ -62,7 +62,7 @@ The following table lists the tasks that users in these roles can perform:
 
 &#42; Guest users can browse, access, and search assets in public folders and collections only.
 
-&#42; Viewer users can view and download the public assets shared with them, and can add these assets to create their own collections.
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
  >
