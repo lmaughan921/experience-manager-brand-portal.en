@@ -29,23 +29,20 @@ Comment Type: draft
 These product profiles are synced with the Brand Portal user interface every 8 hours and visible as groups in Brand Portal. Once you add users and create product profiles, and add users to those product profiles, you can assign roles to users and groups in Brand Portal.
 
 >[!NOTE]
- >
- >To create groups in Brand Portal, from Adobe [!UICONTROL Admin Console], use **[!UICONTROL Products > Product Profiles]**, instead of **[!UICONTROL User page > User Groups]**. Product profiles in Adobe [!UICONTROL Admin Console] are used to create groups in Brand Portal.
- >
+>
+>To create groups in Brand Portal, from Adobe [!UICONTROL Admin Console], use **[!UICONTROL Products > Product Profiles]**, instead of **[!UICONTROL User page > User Groups]**. Product profiles in Adobe [!UICONTROL Admin Console] are used to create groups in Brand Portal.
 
 ## Add a user {#add-a-user}
 
 If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (*formerly known as product configurations*), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
 
 >[!NOTE]
- >
- >New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **[!UICONTROL Grant Access]**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
- >
+>
+>New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **[!UICONTROL Grant Access]**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
 
 >[!NOTE]
- >
- >You can login to [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
- >
+>
+>You can login to [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -88,9 +85,8 @@ If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http:
 Product profiles (formerly known as product configurations) in [!UICONTROL Admin Console] are used to create groups in Brand Portal so that you can perform bulk operations such as role management and asset sharing in Brand Portal. **Brand Portal** is the default product profile available; you can create more product profiles and add users to the new product profiles.
 
 >[!NOTE]
- >
- >You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-7 in the procedure below to add a product profile.
- >
+>
+>You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-7 in the procedure below to add a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -122,9 +118,8 @@ Product profiles (formerly known as product configurations) in [!UICONTROL Admin
 To add users to a Brand Portal group, add them to the corresponding product profile (formerly known as product configurations) in [!UICONTROL Admin Console]. You can add users individually or in bulk.
 
 >[!NOTE]
- >
- >You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
- >
+>
+>You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -176,9 +171,8 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 You can provide the system administrator or the product administrator privilege to a Brand Portal user. Do not provide other administrative rights available in [!UICONTROL Admin Console], such as product profile administrator, user group administrator, and support administrator. To know more about these roles, see [Administrative roles](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!NOTE]
- >
- >You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
- >
+>
+>You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-8 in the procedure below to add a user to a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -274,9 +268,8 @@ An Administrator can associate specific privileges with a [group](../using/brand
 * Restrict user groups to download original renditions of image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) from Brand Portal.
 
 >[!NOTE]
- >
- >For the assets shared as the link, the permission to access original renditions of image files will apply based on the permissions of the user who is sharing the assets.
- >
+>
+>For the assets shared as the link, the permission to access original renditions of image files will apply based on the permissions of the user who is sharing the assets.
 
 To modify the role and right to access original renditions for specific group members, follow these steps:
 

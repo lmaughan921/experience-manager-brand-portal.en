@@ -28,9 +28,8 @@ In Brand Portal, Administrators can view, download, and add expired assets to co
 Administrators can publish expired assets from AEM Assets to Brand Portal. However, expired assets cannot be shared via ink from Brand Portal. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
 
 >[!NOTE]
- >
- >A folder can still be shared as a link, even if it contains expired assets. In this case, the link  does not list expired assets and only the non-expired assets are shared.
- >
+>
+>A folder can still be shared as a link, even if it contains expired assets. In this case, the link  does not list expired assets and only the non-expired assets are shared.
 
 The following table displays the usage permissions of expired assets:
 
@@ -42,9 +41,8 @@ The following table displays the usage permissions of expired assets:
 | **[!UICONTROL Guest user]** |Unavailable |Unavailable |Available |Available |Unavailable |
 
 >[!NOTE]
- >
- >If Viewers and Editors download a folder containing expired and non-expired assets, only the non-expired assets are downloaded. If a folder contains only expired assets, an empty folder is downloaded.
- >
+>
+>If Viewers and Editors download a folder containing expired and non-expired assets, only the non-expired assets are downloaded. If a folder contains only expired assets, an empty folder is downloaded.
 
 ### Expiration status of assets {#expiration-status-of-assets}
 
@@ -53,9 +51,8 @@ You can view the expiration status of assets in their **[!UICONTROL Card View]**
 ![](assets/expired_assets_cardview.png)
 
 >[!NOTE]
- >
- >List and Column views do not display the expiration status of assets.
- >
+>
+>List and Column views do not display the expiration status of assets.
 
 ## Asset Link Expiration {#asset-link-expiration}
 

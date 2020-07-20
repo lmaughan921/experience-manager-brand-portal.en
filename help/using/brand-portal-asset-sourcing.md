@@ -33,9 +33,8 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
 
 >[!NOTE]
- >
- >Asset Sourcing is not supported on AEM Assets cloud service.
- >
+>
+>Asset Sourcing is not supported on AEM Assets cloud service.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -43,13 +42,12 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 
 >[!NOTE]
- >
- >There is a known issue in AEM 6.5.4. Brand Portal users are not be able to publish contribution folder's assets to AEM Assets on upgrading to Adobe Developer Console. 
- >
- >The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console.
- >
- >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
- >
+>
+>There is a known issue in AEM 6.5.4. Brand Portal users are not be able to publish contribution folder's assets to AEM Assets on upgrading to Adobe Developer Console. 
+>
+>The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console.
+>
+>For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 
 ## See also {#reference-articles}
 
