@@ -55,18 +55,21 @@ The following table lists the tasks that users in these roles can perform:
 |  | **Browse** | **Search** | **Download** | **Share folders** | **Share a collection** | **Share assets as a link** | **Access to Admin Tools** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Guest user** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Viewer** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Viewer** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 &#42; Guest users can browse, access, and search assets in public folders and collections only.
 
+<!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
  >
  >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
  >
+ 
+-->
 
 ### Guest user {#guest-user}
 

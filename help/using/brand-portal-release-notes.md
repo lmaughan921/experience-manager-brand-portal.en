@@ -49,7 +49,7 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* The share link for collections is currently visible to the viewer users.   
+* The Viewer users are not permitted to share link for collections but the option to share is visible to them in the product interface.   
 
 * If a folder in the hierarchy is renamed from AEM Assets and the nested folder containing an asset is published to Brand Portal, the title of the folder is not updated in Brand Portal until the root folder is published again.
 
