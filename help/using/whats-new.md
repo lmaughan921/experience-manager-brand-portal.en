@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 6.4.6.
-seo-description: Take a look at the new features and enhancements for 6.4.6.
+description: Take a look at the new features and enhancements for 6.4.7.
+seo-description: Take a look at the new features and enhancements for 6.4.7.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -15,6 +15,35 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 # What's new in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
+
+## What changed in 6.4.7 {#what-changed-in-647}
+
+Brand Portal 6.4.7 release focuses on improving the document viewer experience, configuration to download assets from Brand Portal, and top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+### Document Viewer {#doc-viewer}
+
+The *Document Viewer* enhances the PDF viewers experience. It provides a similar experience as that of the Adobe Document Cloud on viewing the PDF files in Brand Portal. 
+
+Earlier, renditions were available only for the first page of the PDF file and the options available in the default PDF viewer were also limited. 
+
+With *Document Viewer* implementation, the Brand Portal users can view the PDF metadata and experience new options to play with the PDF files such as page view, index view, in-line search, zoom-in, zoom-out, previous-page, next-page, switch-to-page, fit-to-window, fit-to-screen, hide or unhide the tool bar. 
+
+Where the Brand Portal users are now provided with improved PDF viewers experience, the experience with other formats remain unchanged.
+
+![](assets/doc-viewer.png)
+
+### Download Settings {#download-configurations}
+
+Download Settings is a new configuration that enables the Brand Portal administrators to configure asset download from Brand Portal. 
+
+The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a pop-up window with multiple download options to choose from. 
+
+In Brand Portal 6.4.7, downloading the assets can be configured from the Brand Portal user interface. Fast download, custom renditions, and system renditions are the three configurations available. The Brand Portal administrator can select any combination to configure asset download. The  administrator can also enable or disable these configurations. 
+
+The fast download configuration skips the appearance of the pop-up window during asset download. In case of custom renditions or system renditions, or multiple configurations, the pop-up window appears and the original asset along with the asset renditions are downloaded.
+
+![](assets/download-configuration.png)
+
 
 ## What changed in 6.4.6 {#what-changed-in-646}
 
