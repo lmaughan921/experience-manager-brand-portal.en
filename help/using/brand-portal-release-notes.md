@@ -34,7 +34,7 @@ This release includes the following new features:
 
 * Document Viewer has been introduced to enhance the PDF viewers experience.
 
-* Download Settings to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
+* Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 
 ### Critical Issues Fixed {#critical-issues-fixed-647}
 
