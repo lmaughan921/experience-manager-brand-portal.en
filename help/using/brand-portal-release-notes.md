@@ -32,7 +32,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes fixes to the following critical issues:
 
-* The Viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
 * Download button on the options bar does not list all the assets of the selected folder.
 
