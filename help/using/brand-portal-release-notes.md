@@ -32,7 +32,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* Document Viewer has been introduced to enhance the PDF viewers experience.
+* Document Viewer has been introduced to enhance the PDF viewing experience.
 
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 
@@ -59,7 +59,7 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* No license text appears on clicking Terms and Conditions on the license agreement page while downloading multiple assets using share link in incognito mode.   
+* If multiple assets are selected, no license text appears on clicking Terms and Conditions on the license agreement page during download using share link.   
 
 
 
