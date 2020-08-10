@@ -36,6 +36,8 @@ This release includes the following new features:
 
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
+
 ### Critical Issues Fixed {#critical-issues-fixed-647}
 
 This release includes fixes to the following critical issues:
