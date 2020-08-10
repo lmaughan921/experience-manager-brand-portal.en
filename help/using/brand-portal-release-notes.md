@@ -26,7 +26,15 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 6.4.7 {#what-s-new-in-647}
+## What's New in 6.4.7 {#whats-new-in-647}
+
+### New Features {#new-features}
+
+This release includes the following new features:
+
+* Document Viewer has been introduced to enhance the PDF viewers experience.
+
+* Download Settings to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 
 ### Critical Issues Fixed {#critical-issues-fixed-647}
 
@@ -51,95 +59,6 @@ This release includes the following known issues:
 
 * No license text appears on clicking Terms and Conditions on the license agreement page while downloading multiple assets using share link in incognito mode.   
 
-
-## What's New in 6.4.6.2 {#what-s-new-in-6462}
-
-### Critical Issues Fixed {#critical-issues-fixed-6462}
-
-This release includes fixes to the following critical issues:
-
-* Removing a published metadata schema from Brand Portal results in an error.
-
-* If the administrator configures Experience Manager Assets 6.5.4 with Brand Portal via Adobe Developer Console, the Brand Portal user is not able to publish contribution folder's assets from Brand Portal to Experience Manager.
-
-* Duplicate replication of the parent folders causing conflicts.
-
-* User is not able to generate Link Share report.
-
-* User can copy MAC secrets for a Brand Portal endpoint using copyPage command. 
-
-* cqTags causing reindexing on VA5 clone.
-
-
-### Known Issues {#known-issues-6462}
-
-This release includes the following known issues:
-
-* The Viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.   
-
-* If a folder in the hierarchy is renamed from AEM Assets and the nested folder containing an asset is published to Brand Portal, the title of the folder is not updated in Brand Portal until the root folder is published again.
-
-
-## What's New in 6.4.6 {#what-s-new-in-646}
-
-### New Features {#new-feature}
-
-This release includes the following new features:
-
-* Captcha for guest login to Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
-
-* Brand Portal is now supported with AEM Assets cloud service. You can configure AEM Assets could service with Brand Portal to share and distribute assets with the Brand Portal users.
-  For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
-
-### Enhancements {#enhancements-646}
-
-This release of Brand Portal includes the following enhancements:
-
-* In AEM 6.3 and above, the authorization channel between AEM Assets and Brand Portal is changed. AEM Assets is now configured with Brand Portal via Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
-
->[!NOTE]
->
->Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe Developer Console.
-
->[!TIP]
->
->***For existing customers only***
->
->Legacy OAuth Gateway configuration will continue working for existing customers. 
->
->In case you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe Developer Console.
-
-For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
-
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issues:
-
-* Metadata schema drop-down values are not visible in asset properties.
-
-* Metadata subschema do not display tabs based on mimetype in asset properties.
-
-* Unpublish metadata schema populates an error message although the schema is removed at backend.
-
-* Preview image do not display for a published asset.
-
-* User is unable to publish or unpublish assets containing single quote in the name.
-
-* Terms and conditions do not display while downloading multiple assets.
-
-* Minor security vulnerabilities addressed.
-
-### Known Issues {#known-issues}
-
-This release includes the following known issues:
-
-* Brand Portal users are not able to publish contribution folder assets to AEM Assets on upgrading to Adobe Developer Console on AEM 6.5.4.
-
-  This issue will be fixed in the next service pack 6.5.5.
-
-  For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
-
-* Exclude System Renditions option is not working properly while downloading an asset.
 
 
 ## Languages {#languages}
