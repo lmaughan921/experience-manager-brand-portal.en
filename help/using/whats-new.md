@@ -18,15 +18,15 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.7 {#what-changed-in-647}
 
-Brand Portal 6.4.7 release focuses on improving the document viewer experience, configuration to download assets from Brand Portal, and top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ### Document Viewer {#doc-viewer}
 
-The *Document Viewer* enhances the PDF viewers experience. It provides a similar experience as that of the Adobe Document Cloud on viewing the PDF files in Brand Portal. 
+The Document Viewer enhances the PDF viewers experience. It provides a similar experience as that of the Adobe Document Cloud on viewing the PDF files in Brand Portal. 
 
 Earlier, renditions were available only for the first page of the PDF file and the options available in the default PDF viewer were also limited. 
 
-With *Document Viewer* implementation, the Brand Portal users can view the PDF metadata and experience new options to play with the PDF files such as page view, index view, in-line search, zoom-in, zoom-out, previous-page, next-page, switch-to-page, fit-to-window, fit-to-screen, hide or unhide the tool bar. 
+With Document Viewer implementation, the Brand Portal users can view the PDF metadata and experience new options to play with the PDF files such as page view, index view, in-line search, zoom-in, zoom-out, previous-page, next-page, switch-to-page, fit-to-window, fit-to-screen, hide or unhide the tool bar. 
 
 Where the Brand Portal users are now provided with improved PDF viewers experience, the experience with other formats remain unchanged.
 

@@ -26,6 +26,32 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
+## What's New in 6.4.7 {#what-s-new-in-647}
+
+### Critical Issues Fixed {#critical-issues-fixed-647}
+
+This release includes fixes to the following critical issues:
+
+* The Viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
+
+* Download button on the options bar does not list all the assets of the selected folder.
+
+* The search takes longer to show the results for certain keywords.
+
+* Agree/Disagree button does not appear on bulk selection of licensed and unlicensed assets during download.
+
+* Filter-based search shows processing on the product interface with no search result. 
+
+* The assets do not download from share link if the shared folder contains numerous and large assets.
+
+
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* No license text appears on clicking Terms and Conditions on the license agreement page while downloading multiple assets using share link in incognito mode.   
+
+
 ## What's New in 6.4.6.2 {#what-s-new-in-6462}
 
 ### Critical Issues Fixed {#critical-issues-fixed-6462}
@@ -49,7 +75,7 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* The Viewer users are not permitted to share link for collections but the option to share is visible to them in the product interface.   
+* The Viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.   
 
 * If a folder in the hierarchy is renamed from AEM Assets and the nested folder containing an asset is published to Brand Portal, the title of the folder is not updated in Brand Portal until the root folder is published again.
 
