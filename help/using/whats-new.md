@@ -42,21 +42,22 @@ With Document Viewer, the Brand Portal users now have the options to view pages,
 
 ### Download Experience {#download-configurations}
 
-The asset download process is revamped, providing a better user experience while downloading assets from Brand Portal. Brand Portal administrators can configure the Download Settings from the product interface. 
+The asset download process is revamped, providing a simplified user experience while downloading assets from Brand Portal. 
 
-The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a Download dialog with multiple download options to choose from. 
+The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a  **[!UICONTROL Download]** dialog with multiple download options to choose from. 
 
-The available asset download configurations are:
-* Fast Download
-* Custom Renditions
-* System Renditions
+In Brand Portal 6.4.7, the Brand Portal administrators can configure the asset  **[!UICONTROL Download]** settings. The available configurations are:
+*  **[!UICONTROL Fast Download]**
+*  **[!UICONTROL Custom Renditions]**
+*  **[!UICONTROL System Renditions]**
 
 The Brand Portal administrator can enable any combination to configure asset download.  
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
+* If all three configurations are turned-off, the asset gets downloaded without any additional dialog which simplifies the download experience for the Brand Portal users. Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folder containing assets, licensed or unlicensed assets, and also when the assets are being downloaded using share link. 
 
-The fast download configuration speeds-up the download process and skips the appearance of the Download dialog during asset download. In case of custom renditions or system renditions, or multiple configurations, the pop-up window appears and the original asset along with the asset renditions are downloaded.
+* If any combination of configuration is enabled, the **[!UICONTROL Download]** dialog appears and the original asset along with the asset renditions are downloaded. Enabling  **[!UICONTROL Fast Download]** configuration speeds-up the download process.
 
 ![](assets/download-configuration.png)
 
