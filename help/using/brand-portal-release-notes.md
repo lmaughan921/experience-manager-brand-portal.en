@@ -48,7 +48,7 @@ This release includes fixes to the following critical issues:
 
 * The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* The Download button on the options bar does not list all the licensed assets of the selected folder.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
 * The search takes longer to show the results for certain keywords.
 
