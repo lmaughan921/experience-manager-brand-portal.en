@@ -18,7 +18,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.7 {#what-changed-in-647}
 
-Brand Portal 6.4.7 release brings in the Document Viewer, advances the Brand Portal user experience for downloading assets, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 6.4.7 release brings in the Document Viewer, enhances the experience for downloading assets, and includes critical fixes. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -26,25 +26,37 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### Document Viewer {#doc-viewer}
 
-The Document Viewer enhances the PDF viewing experience. It provides a similar experience as that of the Adobe Document Cloud on viewing the PDF files in Brand Portal. 
+The Document Viewer enhances the PDF viewing experience. It provides a similar experience as that of the Adobe Document Cloud while viewing the PDF files in Brand Portal. 
 
 Earlier, the options available in the default PDF viewer were limited. 
 
-With Document Viewer implementation, the Brand Portal users can experience new options to play with the PDF files such as page view, index view, in-line search, zoom-in, zoom-out, previous-page, next-page, switch-to-page, fit-to-window, fit-to-screen, hide or unhide the tool bar. 
+With Document Viewer, the Brand Portal users now have the options to view pages, view bookmarks, search on-page text, zoom in, zoom out, navigate to previous and next pages, switch to page, fit to window, fit to screen, and hide or unhide the tool bar. 
 
-*Where the Brand Portal users are now provided with improved PDF viewers experience, the experience with other formats remain unchanged*.
+>[!NOTE]
+ >
+ >The viewing experience for other documents formats remain unchanged.
+ >
+
 
 ![](assets/doc-viewer.png)
 
 ### Download Experience {#download-configurations}
 
-The asset download process is revamped, providing a better user experience while downloading assets from Brand Portal. Brand Portal administrators can configure the download settings from the product interface. 
+The asset download process is revamped, providing a better user experience while downloading assets from Brand Portal. Brand Portal administrators can configure the Download Settings from the product interface. 
 
-The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a pop-up window with multiple download options to choose from. 
+The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a Download dialog with multiple download options to choose from. 
 
-In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available. The Brand Portal administrator can select any combination to configure asset download. The  administrator can also enable or disable these configurations. 
+The available asset download configurations are:
+* Fast Download
+* Custom Renditions
+* System Renditions
 
-The fast download configuration speeds-up the download process and skips the appearance of the pop-up window during asset download. In case of custom renditions or system renditions, or multiple configurations, the pop-up window appears and the original asset along with the asset renditions are downloaded.
+The Brand Portal administrator can enable any combination to configure asset download.  
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+
+The fast download configuration speeds-up the download process and skips the appearance of the Download dialog during asset download. In case of custom renditions or system renditions, or multiple configurations, the pop-up window appears and the original asset along with the asset renditions are downloaded.
 
 ![](assets/download-configuration.png)
 

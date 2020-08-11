@@ -63,7 +63,7 @@ This release includes fixes to the following critical issues:
 
 This release includes the following known issues:
 
-* If multiple assets are selected, no license text appears on clicking Terms and Conditions on the license agreement page during download using share link.   
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
 
 
 
