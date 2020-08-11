@@ -18,7 +18,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 6.4.7 {#what-changed-in-647}
 
+Brand Portal 6.4.7 release brings in the Document Viewer, advances the Brand Portal user experience for downloading assets, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+<!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Document Viewer {#doc-viewer}
 
@@ -32,15 +36,15 @@ With Document Viewer implementation, the Brand Portal users can experience new o
 
 ![](assets/doc-viewer.png)
 
-### Download Settings {#download-configurations}
+### Download Experience {#download-configurations}
 
-Download Settings is a new configuration that enables the Brand Portal administrators to configure asset download from Brand Portal. 
+The asset download process is revamped, which provides better user experience while downloading assets from Brand Portal. Brand Portal administrators can configure the download settings from the product interface. 
 
 The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a pop-up window with multiple download options to choose from. 
 
-In Brand Portal 6.4.7, downloading the assets can be configured from the Brand Portal user interface. Fast download, custom renditions, and system renditions are the three configurations available. The Brand Portal administrator can select any combination to configure asset download. The  administrator can also enable or disable these configurations. 
+In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available. The Brand Portal administrator can select any combination to configure asset download. The  administrator can also enable or disable these configurations. 
 
-The fast download configuration skips the appearance of the pop-up window during asset download. In case of custom renditions or system renditions, or multiple configurations, the pop-up window appears and the original asset along with the asset renditions are downloaded.
+The fast download configuration speeds-up the download process and skips the appearance of the pop-up window during asset download. In case of custom renditions or system renditions, or multiple configurations, the pop-up window appears and the original asset along with the asset renditions are downloaded.
 
 ![](assets/download-configuration.png)
 

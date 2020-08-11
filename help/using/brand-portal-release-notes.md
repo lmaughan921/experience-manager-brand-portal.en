@@ -34,7 +34,11 @@ This release includes the following new features:
 
 * Document Viewer has been introduced to enhance the PDF viewing experience.
 
+<!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
+-->
+
+* Advances in the asset download process which improves the Brand Portal user experience while downloading assets from Brand Portal. Brand Portal administrators can configure fast download, custom renditions, and system renditions from the Download Settings. 
 
 For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
