@@ -28,7 +28,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 The Document Viewer enhances the PDF viewing experience. It provides a similar experience as that of the Adobe Document Cloud while viewing the PDF files in Brand Portal. 
 
-Earlier, the options available in the default PDF viewer were limited. 
+Earlier, limited options were available to view the PDF files. 
 
 With Document Viewer, the Brand Portal users now have the options to view pages, view bookmarks, search on-page text, zoom in, zoom out, navigate to previous and next pages, switch to page, fit to window, fit to screen, and hide or unhide the tool bar. 
 
