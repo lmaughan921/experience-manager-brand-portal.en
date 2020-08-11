@@ -38,7 +38,7 @@ With Document Viewer implementation, the Brand Portal users can experience new o
 
 ### Download Experience {#download-configurations}
 
-The asset download process is revamped, which provides better user experience while downloading assets from Brand Portal. Brand Portal administrators can configure the download settings from the product interface. 
+The asset download process is revamped, providing a better user experience while downloading assets from Brand Portal. Brand Portal administrators can configure the download settings from the product interface. 
 
 The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a pop-up window with multiple download options to choose from. 
 
