@@ -38,7 +38,7 @@ This release includes the following new features:
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Advances in the asset download process which improves the Brand Portal user experience while downloading assets from Brand Portal. Brand Portal administrators can configure fast download, custom renditions, and system renditions from the Download Settings. 
+* Advances in the asset download process which improves the Brand Portal user experience while downloading assets from Brand Portal. Brand Portal administrators can configure Fast Download, Custom Renditions, and System Renditions from the Download settings. 
 
 For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
