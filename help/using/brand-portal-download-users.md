@@ -12,89 +12,127 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 
 # Download assets {#download-assets}
 
-All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
+<!-- Before update in Download experience - 26th Aug 2020 by Vishabh.
+ All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
+-->
+
+Adobe Experience Manager Assets Brand Portal provides a simplified download experience to all the users to simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
+
+## Prerequisites {#prerequisites}
+
+* Install IBM Aspera Connect 3.9.9 in your browser’s extension.
+
+## Configure asset download {#configure-download}
+
+The Brand Portal administrators can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. The available configurations are:
+
+* **[!UICONTROL Fast Download]** 
+
+  Fast download configuration uses IBM Aspera Connect to speed up the asset download process.
+
+* **[!UICONTROL Custom Renditions]** 
+  
+  Custom renditions consists of static and dynamic renditions. It allows you to apply custom image preset properties such as size, format, color space, image resolution, and image modifier to the custom images while downloading the original assets and its renditions.
+
+* **[!UICONTROL System Renditions]** 
+
+  System rendition allows you to download the auto-generated renditions in Brand Portal along with the original assets.
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. The administrators can enable any combination to configure the asset download process.
+
+![](assets/download-configuration.png)
+
+Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled, the original asset along with the specified renditions are downloaded.
 
 >[!NOTE]
->
->Only Administrators can download expired assets. For more information about expired assets, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
+ >
+ >Only administrators can download expired assets. For more information about expired assets, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
+ >
 
 ## Steps to download assets {#steps-to-download-assets}
 
-To download assets or folders containing assets for Brand Portal, follow these steps:
+Following are the steps to download assets or folders containing assets for Brand Portal:
 
 1. From the Brand Portal interface, do one of the following:
 
-    * Select the folders or assets you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+   * Select the folders or assets you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
 
-   ![](assets/downloadassets-1.png)
+     ![](assets/downloadassets-1.png)
 
-    * To download a single folder or an asset, hover the pointer over the folder or the asset. From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
+   * To download a specific asset or folder, hover the pointer over the asset or folder and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
 
-   ![](assets/downloadsingleasset-1.png)
+     ![](assets/downloadsingleasset-1.png)
 
-   >[!NOTE]
-    >
-    >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded.  
-    >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
-    >
 
-   ![](assets/licensed-asset-download-1.png)
+     >[!NOTE]
+      >
+      >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to install the Aspera download accelerator. 
+      > 
 
-   The **[!UICONTROL Download]** dialog box appears with the **[!UICONTROL Asset(s)]** option selected by default.
+     >[!NOTE]
+      >
+      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
+      > 
+      >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+      >
 
-   ![](assets/donload-assets-dialog-1.png)
+     ![](assets/licensed-asset-download-1.png)
 
-   >[!NOTE]
-    >
-    >If the assets you are downloading are image files, and you select only the **[!UICONTROL Asset(s)]** option in Download dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.
-    >
+     If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download Settings]**, the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** option selected by default.
 
-   ![](assets/restrictaccess-note.png)
+     ![](assets/download-dialog.png)
 
-1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
+     >[!NOTE]
+      >
+      >If the assets you are downloading are image files, and you select only the **[!UICONTROL Asset(s)]** option in Download dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.
+      >
 
-   ![](assets/exclude-auto-renditions.png)
+     ![](assets/restrictaccess-note.png)
 
-    To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
+1. To download the renditions of assets in addition to the original assets, select **[!UICONTROL Rendition(s)]**. However, if you want to download the system generated renditions along with the custom renditions, deselect **[!UICONTROL Exclude System Renditions]**, which is selected by default.
 
-   >[!NOTE]
-    >
-    >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
-    >
+   ![](assets/download-system-rendition.png)
 
-    * To speed up the download of asset files from Brand Portal, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+   * To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
+
+     >[!NOTE]
+      >
+      >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
+      >
+
+   * To speed up the download of assets from Brand Portal, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). To know more about high-speed download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
     * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Specify custom image preset properties (size, format, color space, resolution, and image modifier) to apply the custom image preset while downloading the asset and its renditions. To download only the dynamic renditions, delesect **[!UICONTROL Asset(s)]**.
 
-   ![](assets/dynamic-renditions.png)
+      ![](assets/dynamic-renditions.png)
 
-   >[!NOTE]
-    >
-    >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
-    >
+      >[!NOTE]
+       >
+       >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
+       >
 
+    * To share the assets with other users through a link, select **[!UICONTROL Email]**. An email notification is sent to the users with the download link.  
+
+      ![](assets/download-link.png)
+
+      >[!NOTE]
+       >
+       >The download link on email notification expires after 45 days.
+       >
+       >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
+       >
+    
     * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. By default, Brand Portal folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
-
-    * To send an email notification to users with a link for downloading the assets, select **[!UICONTROL Email]**.
-
-   ![](assets/download-link.png)
-
-   >[!NOTE]
-    >
-    >Download link on email notification expires after 45 days.
-    >
-    >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
-    >
 
 1. Click **[!UICONTROL Download]**.
 
-   The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
+   The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring fast download.
 
    Original renditions of the selected assets are not downloaded if you are not [authorized by administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
    >[!NOTE]
     >
-    >Assets that are selected individually and downloaded are visible in the assets downloaded report. However, if a folder containing assets is downloaded, neither the folder nor the assets are displayed in the assets downloaded report.
+    >Assets that are selected individually and downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, neither the folder nor the assets are displayed in the assets download report.
     >
 
    To know how to download assets from shared links, refer [downloading assets from shared links](../using/brand-portal-link-share.md#main-pars-header-1703469193).
@@ -114,4 +152,7 @@ File download experience may vary for users at different client locations, depen
 | London                  | 179 milliseconds                  | 0.32 MB/s               | 106 minutes                        |
 | Singapore               | 196 milliseconds                  | 0.5 MB/s                | 68 minutes                         |
 
-**Note**: Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
+ >[!NOTE]
+  >
+  >Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
+  >
