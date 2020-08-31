@@ -29,7 +29,7 @@ Adobe Experience Manager (AEM) Assets is configured with Brand Portal via Adobe 
 
 >[!NOTE]
 >
->Configuring AEM Assets with Brand Portal via Adobe Developer Console is supported on AEM Assets cloud service, AEM Assets 6.3 and above.
+>Configuring AEM Assets with Brand Portal via Adobe Developer Console is supported on AEM Assets as a Cloud Service, AEM Assets 6.3 and above.
    
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 

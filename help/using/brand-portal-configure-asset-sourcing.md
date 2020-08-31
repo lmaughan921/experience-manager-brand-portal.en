@@ -32,7 +32,7 @@ AEM administrators can enable Asset Sourcing from within the AEM Web Console Con
 Default URL: http:// localhost:4502/system/console/configMgr
 1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**
 1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window
-1. Enable checkbox **[!UICONTROL feature.flag.active.status]**
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
 1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
