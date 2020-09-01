@@ -23,6 +23,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
  >Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
  > 
 
+<!--
 **Types of renditions in Brand Portal:**
 
 * Original asset rendition
@@ -37,7 +38,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 * Custom renditions
 
   These are the additional renditions that an asset might have and its dynamic renditions. Any user can create additional custom renditions, whereas, only the AEM administrator can create dynamic renditions of an image in AEM Assets. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).     
-
+-->
 
 ## Configure asset download {#configure-download}
 
