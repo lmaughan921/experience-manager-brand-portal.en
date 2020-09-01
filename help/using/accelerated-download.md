@@ -66,8 +66,8 @@ The following table shows download performance for 2 GB file using Aspera Connec
 To download assets faster from Brand Portal:
 
 1. Log in to Brand Portal using a supported browser.
-1. Browse and select the desired asset file, folder, or collection to download. Tap/ click download option.
-Download dialog appears with [Enable download acceleration] option selected.
+1. Browse and Select the folders or assets you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon. the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** check boxes selected by default. 
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -77,21 +77,25 @@ Download dialog appears with [Enable download acceleration] option selected.
 
    ![](assets/fast-download-emailchk.png)
 
-1. Tap/click the **[!UICONTROL Download]** option.
-To speed up the download experience on your Brand Portal tenant account, you need to have Aspera Connect client application installed on your system.
+1. Click **[!UICONTROL Download]**.
+
+   To speed up the download experience on your Brand Portal tenant account, you need to have Aspera Connect client application installed in your browser's extension.
 
 1. **Download Aspera Connect Client**
-If Aspera Connect client is not installed on your system or the existing installed Aspera Connect client is out of date, a prompt is displayed on browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
+
+   If Aspera Connect client is not installed on your system or the existing Aspera Connect client is out of date, a prompt is displayed on the browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
 
    ![](assets/aspera-not-launched.png)
 
    To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
 
 1. **Install Aspera Connect Client**
-To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
 
-1. Once the client is successfully installed, either refresh the browser page and initiate the download steps again or select **[!UICONTROL Restart]** in asset **[!UICONTROL Download]** dialog box (Step #2).
-When using Aspera Connect for the first time, the browser prompts to open the link using **[!UICONTROL IBM Aspera Connect]**. To skip this dialog in future, enable **[!UICONTROL Remember my choice for FASP links]**.
+   To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
+
+1. Once the client is successfully installed, refresh the browser page and initiate the download steps again.
+
+   When using Aspera Connect for the first time, the browser prompts to open the link using **[!UICONTROL IBM Aspera Connect]**. To skip this dialog in future, enable **[!UICONTROL Remember my choice for FASP links]**.
 
    >[!NOTE]
     >
@@ -109,7 +113,7 @@ On successful completion of the download, a dialog box shows the location where 
 
    >[!NOTE]
    >
-   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab [!UICONTROL Transfers] within [!UICONTROL Preferences]. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
+   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 
 ## Using file accelerator on Microsoft Edge browser {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -119,8 +123,8 @@ Microsoft Edge runs in Enhanced Protected Mode (EPM) preventing communication wi
 
 To use accelerated download functionality on Microsoft Edge, remove the Brand Portal site from the trusted site list.
 
-1. Open the Control Panel (press **[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
-1. Go to **[!UICONTROL Network and Internet > Internet Options]**. Click the **[!UICONTROL Security]** tab.
+1. Open the Control Panel (**[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
+1. Go to **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Click the **[!UICONTROL Security]** tab.
 1. Click the **[!UICONTROL Trusted sites zone]**, then click **[!UICONTROL Sites]**.
 1. Remove Brand Portal site from the list.
 

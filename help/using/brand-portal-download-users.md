@@ -146,7 +146,7 @@ Following are the steps to download assets or folders containing assets from Bra
        >
        >Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
        >
-       >(*If your AEM author is running on Dynamic Media Hybrid mode*)
+       >(*If AEM (Author) instance is running on **Dynamic Media Hybrid mode***)
        >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
        >
   
