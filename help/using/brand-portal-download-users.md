@@ -42,7 +42,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 
 ## Configure asset download {#configure-download}
 
-The Brand Portal administrators can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface.
+The Brand Portal administrators can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 
 The available configurations are:
 
@@ -106,7 +106,7 @@ Following are the steps to download assets or folders containing assets from Bra
 
      ![](assets/licensed-asset-download-1.png)
 
-     If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled in the **[!UICONTROL Download Settings]**, the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** check boxes selected by default.
+     If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled in the **[!UICONTROL Download Settings]**, the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** check boxes are selected by default.
 
      ![](assets/download-dialog.png)
 
