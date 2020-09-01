@@ -67,7 +67,7 @@ The administrators can enable any combination to configure the asset download pr
 Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
 
 
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the assets are directly downloaded on your local machine with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the assets are directly downloaded on your local system with no additional step required. 
 
 If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, an additional **[!UICONTROL Download]** dialog box appears wherein you can specify the renditions that you want to download. 
 
@@ -146,7 +146,8 @@ Following are the steps to download assets or folders containing assets from Bra
        >
        >Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
        >
-       >(*Only for Dynamic Media - Hybrid mode*) To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
+       >(*If your AEM author is running on Dynamic Media Hybrid mode*)
+       >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
        >
   
     * To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in one folder in your local system.
