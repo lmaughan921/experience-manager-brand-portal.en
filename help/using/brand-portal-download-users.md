@@ -23,29 +23,53 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
  >Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
  > 
 
+**Types of renditions in Brand Portal:**
+
+* Original asset rendition
+
+  It is the original binary of the asset uploaded in AEM Assets. 
+  
+  
+* System renditions
+
+  These are the thumbnail renditions which are automatically generated in AEM Assets based on the "DAM update asset" workflow. 
+  
+* Custom renditions
+
+  These are the additional renditions that an asset might have and its dynamic renditions. Any user can create additional custom renditions, whereas, only the AEM administrator can create dynamic renditions of an image in AEM Assets. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).     
+
+
 ## Configure asset download {#configure-download}
 
-The Brand Portal administrators can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
+The Brand Portal administrators can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface.
 
 The available configurations are:
 
 * **[!UICONTROL Fast Download]** 
 
-  The **[!UICONTROL Fast Download]** configuration uses IBM Aspera Connect to speed up the asset download process. To know more about high-speed download of assets, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+  Enables high-speed download of the assets. To know more, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
 * **[!UICONTROL Custom Renditions]** 
   
-  Custom rendition consists of static and dynamic renditions. It allows you to apply custom image preset properties (such as size, format, color space, image resolution, and image modifier) to the custom images while downloading the original assets and its renditions.
+  Download custom and (or) dynamic renditions of the assets.
 
 * **[!UICONTROL System Renditions]** 
 
-  System rendition allows you to download the auto-generated renditions in Brand Portal along with the original assets.
+  Download system-generated renditions (thumbnails) of the assets.
 
-Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. The administrators can enable any combination to configure the asset download process.
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. 
+
+The administrators can enable any combination to configure the asset download process.
 
 ![](assets/download-configuration.png)
 
-Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, the original asset along with the specified renditions are downloaded.
+
+Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
+
+
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the assets are directly downloaded on your local machine with no additional step required. 
+
+If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, an additional **[!UICONTROL Download]** dialog box appears wherein you can specify the renditions that you want to download. 
 
 >[!NOTE]
  >
@@ -120,7 +144,9 @@ Following are the steps to download assets or folders containing assets from Bra
 
       >[!NOTE]
        >
-       >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
+       >Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
+       >
+       >(*Only for Dynamic Media - Hybrid mode*) To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
        >
   
     * To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in one folder in your local system.
