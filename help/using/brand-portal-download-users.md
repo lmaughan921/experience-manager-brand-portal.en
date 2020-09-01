@@ -73,7 +73,7 @@ If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditi
 
 >[!NOTE]
  >
- >Only the administrators can download the expired assets. For more information about expired assets, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
+ >Only the administrators can download the expired assets. For more information about expired assets, see [manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
  >
 
 ## Steps to download assets {#steps-to-download-assets}
