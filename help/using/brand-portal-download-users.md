@@ -67,9 +67,9 @@ The administrators can enable any combination to configure the asset download pr
 Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
 
 
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
 
-If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, an additional **[!UICONTROL Download]** dialog box appears wherein you can specify the renditions that you want to download. 
+If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, an additional **[!UICONTROL Download]** dialog box appears wherein you can choose whether you want to download the original asset along with its renditions, or you want to download only specific renditions. 
 
 >[!NOTE]
  >
