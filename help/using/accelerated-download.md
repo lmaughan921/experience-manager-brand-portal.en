@@ -16,18 +16,19 @@ discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
 
 >[!NOTE]
->
->Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
+ >
+ >Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
+ >
 
-If enabled, Brand Portal users can significantly reduce the time taken to download the desired asset files from Brand Portal or through Shared link by installing the Aspera Connect client.
+The **[!UICONTROL Fast Download]** configuration is by default enabled, which significantly reduces the time taken to download the desired asset files from Brand Portal.
 
-![](assets/enable-fast-file-download.png) 
+![](assets/download-configuration.png) 
 
 ## Prerequisites to accelerate file download {#prerequisites-to-accelerate-file-download}
 
 To download the files faster, ensure the following:
 
-* **[!UICONTROL Enable Download Acceleration]** (which is disabled by default) from [!UICONTROL General Settings] in the administrative tools panel.
+* Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]** and verify that the **[!UICONTROL Fast Download]** configuration is enabled in **[!UICONTROL Download Settings]**.
 * Port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
 * Install Aspera Connect using Administrator privileges.
 * For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
