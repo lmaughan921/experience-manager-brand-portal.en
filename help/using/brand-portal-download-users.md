@@ -51,11 +51,11 @@ The available configurations are:
 
 * **[!UICONTROL Custom Renditions]** 
   
-  Download custom and (or) dynamic renditions of the assets.
+  Download custom and (or) dynamic renditions of the assets. A custom rendition is a static rendition that any user can create in AEM Assets, whereas, only the AEM administrator can create dynamic renditions. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md)
 
 * **[!UICONTROL System Renditions]** 
 
-  Download system-generated renditions (thumbnails) of the assets.
+  Download system-generated renditions of the assets. These are the thumbnails which are automatically generated in AEM Assets based on the "DAM update asset" workflow. 
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. 
 
