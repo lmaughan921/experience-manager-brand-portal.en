@@ -52,7 +52,7 @@ This release includes fixes to the following critical issues:
 
 * The search takes longer to show the results for certain keywords.
 
-* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** checkboxes does not appear on bulk selection of licensed and unlicensed assets during download.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
 * Filter-based search shows processing on the product interface with no search result. 
 

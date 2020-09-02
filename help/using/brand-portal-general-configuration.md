@@ -18,12 +18,11 @@ AEM Assets Brand Portal allows organizations to configure the following capabili
 * Asset deletion by administrators
 * Public collection creation by non-admin users
 * Public smart collection creation by non-admin users
-* Download acceleration
 * Parent hierarchy of shared folders visible to non-admin users
 
 These configurations have been provided as **[!UICONTROL General Settings]** configurations on the administrative tools panel.
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **A**   Configuration to allow administrators to delete assets from Brand Portal. (Default is enabled)
 
@@ -31,9 +30,7 @@ These configurations have been provided as **[!UICONTROL General Settings]** con
 
 **C**   Configuration to allow the non-admin users to create public smart collections. (Default is enabled)
 
-**D**   Configuration to allow download acceleration of assets downloaded from the portal and from the shared links. (Default is disabled)
-
-**E** Configuration to display folder hierarchy (from the root) of shared folders to non-admin users (Editors, Viewers, Guest Users). (Default is disabled)
+**D**  Configuration to display folder hierarchy (from the root) of shared folders to non-admin users (Editors, Viewers, Guest Users). (Default is disabled)
 
 ## Enable/ disable General configurations {#enable-disable-general-configurations}
 
@@ -58,9 +55,11 @@ To enable/disable each of these configurations:
 
 [[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) configuration controls whether non-administrators can save their searches as smart collections and make them public for that tenant. The configuration is enabled by default. By disabling the configuration organizations can prevent having a huge number of public smart collections created by non-admin users on organization's Brand Portal.
 
+<!-- 
 ## Allow download acceleration {#allow-download-acceleration}
 
 [[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## Enable Folder Hierarchy {#enable-folder-hierarchy}
 

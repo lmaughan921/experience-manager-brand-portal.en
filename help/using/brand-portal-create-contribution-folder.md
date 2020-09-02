@@ -30,7 +30,7 @@ To create a contribution folder:
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL Create Folder]** dialog opens.
 
-1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and enable the **[!UICONTROL Asset Contribution]** checkbox.
+1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and select the **[!UICONTROL Asset Contribution]** check box.
 It is recommended to use lowercase letters without any space to name the folder.
 
 1. Click **[!UICONTROL Create]**. You can see the contribution folder listed in the AEM Assets repository.

@@ -54,7 +54,7 @@ Perform the following steps to configure the replication agent:
 1. Click the replication agent URL to open the agent details.
 1. Click **[!UICONTROL Edit]** to modify the replication agent settings.
 1. In Agent Settings, click the **[!UICONTROL Extended]** tab. 
-1. Enable the **[!UICONTROL Close Connection]** checkbox.
+1. Select the **[!UICONTROL Close Connection]** check box.
 1. Repeat steps 4 through 7 to configure all the four replication agents. 
 1. Restart the server and verify the connection.
 

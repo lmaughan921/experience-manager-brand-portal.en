@@ -55,16 +55,18 @@ The Brand Portal administrator can enable any combination to configure asset dow
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* If all three configurations are turned-off, the assets are downloaded without any additional dialog which simplifies the download experience for the Brand Portal users. Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folder containing assets, licensed or unlicensed assets, and also when the assets are being downloaded using share link. 
+* If both **[!UICONTROL Custom Renditions]** and **[!UICONTROL System Renditions]** configurations are turned-off, the original renditions of the assets are downloaded without any additional dialog which simplifies the download experience for the Brand Portal users.
 
 * If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled, the **[!UICONTROL Download]** dialog appears and the original asset along with the asset renditions are downloaded. Enabling  **[!UICONTROL Fast Download]** configuration speeds-up the download process.
+
+Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
 
 ![](assets/download-configuration.png)
 
 
 ## What changed in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Portal is changed. Brand Portal is now supported on AEM Assets cloud service, AEM Assets 6.3 and above. In AEM Assets 6.3 and above, Brand Portal was earlier configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. AEM Assets is now configured with Brand Portal through Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
+In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Portal is changed. Brand Portal is now supported on AEM Assets as a Cloud Service, AEM Assets 6.3 and above. In AEM Assets 6.3 and above, Brand Portal was earlier configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. AEM Assets is now configured with Brand Portal through Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
