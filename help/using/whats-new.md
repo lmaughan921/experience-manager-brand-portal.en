@@ -55,9 +55,11 @@ The Brand Portal administrator can enable any combination to configure asset dow
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* If all three configurations are turned-off, the assets are downloaded without any additional dialog which simplifies the download experience for the Brand Portal users. Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
+* If both **[!UICONTROL Custom Renditions]** and **[!UICONTROL System Renditions]** configurations are turned-off, the original renditions of the assets are downloaded without any additional dialog which simplifies the download experience for the Brand Portal users.
 
 * If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled, the **[!UICONTROL Download]** dialog appears and the original asset along with the asset renditions are downloaded. Enabling  **[!UICONTROL Fast Download]** configuration speeds-up the download process.
+
+Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
 
 ![](assets/download-configuration.png)
 
