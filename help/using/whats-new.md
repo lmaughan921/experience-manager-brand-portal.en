@@ -42,7 +42,7 @@ With Document Viewer, the Brand Portal users now have the options to view pages,
 
 ### Download Experience {#download-configurations}
 
-The asset download process is revamped, providing a simplified user experience while downloading assets from Brand Portal. 
+The asset download process is revamped, providing a simplified user experience while [downloading assets from Brand Portal](brand-portal-download-users.md). 
 
 The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a  **[!UICONTROL Download]** dialog with multiple download options to choose from. 
 

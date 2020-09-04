@@ -18,7 +18,7 @@ Brand Portal users can then create new assets for contribution and upload them t
 
 >[!NOTE]
  >
- >Brand Portal users can upload content/assets only to the **NEW** folder. They do not have permission to delete an uploaded asset.
+ >Brand Portal users can upload content/assets only to the **NEW** folder.
  >
  >Maximum upload limit for any Brand Portal account/tenant is **10** GB.
  >
