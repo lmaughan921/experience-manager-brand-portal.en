@@ -49,7 +49,7 @@ user-guide-title: AEM Brand Portal
   + [Search assets on Brand Portal](using/brand-portal-searching.md)
   + [Use custom search facets](using/brand-portal-search-facets.md)
 + Use download capabilities {#download}
-  + [Download assets](using/brand-portal-download-users.md)
+  + [Download assets](using/brand-portal-download-assets.md)
   + [Dynamic video support on Brand Portal](using/dynamic-video-brand-portal.md)
   + [Manage the lightbox collection](using/brand-portal-light-box.md)
   + [Manage digital rights of assets](using/manage-digital-rights-of-assets.md)
