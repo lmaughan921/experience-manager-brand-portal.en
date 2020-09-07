@@ -16,7 +16,7 @@ Like a macro, an image preset is a predefined collection of sizing and formattin
 
 An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. When previewing images and their renditions, you can choose a preset to reformat images to the specifications set by your Administrator.
 
-(*If AEM (Author) instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal.
+(*If AEM author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal.
 
 >[!NOTE]
  >
@@ -34,9 +34,9 @@ The AEM administrators can create image presets that appear as dynamic rendition
  >
  >Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand portal.
  >
- >If AEM (Author) instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. 
+ >If AEM author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. 
  >
- >Whereas, if AEM (Author) instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
+ >Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
  >When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
  >
 

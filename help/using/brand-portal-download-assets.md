@@ -13,10 +13,10 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 # Download assets {#download-assets}
 
 <!-- Before update in Download experience - 26th Aug 2020 by Vishabh.
- All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
+ All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-users.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#expected-download-performance).
 
 >[!NOTE]
  >
@@ -155,7 +155,7 @@ Following are the steps to download assets or folders containing assets from Bra
        >
        >Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
        >
-       >(*If AEM (Author) instance is running on **Dynamic Media Hybrid mode***)
+       >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
        >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
        >
   
