@@ -13,26 +13,38 @@ discoiquuid:
 
 # Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
-Brand Portal users [download the asset requirements](brand-portal-download-asset-requirements.md) – brief document attached to the contribution folder and download baseline assets from the **SHARED** folder to understand the need of contribution. 
-Brand Portal users can then create new assets for contribution and upload them to the **NEW** folder within the contribution folder.
+The Brand Portal users can [download the asset requirements](brand-portal-download-asset-requirements.md) to understand the need of contribution. 
+They can then create new assets for contribution and upload them to the NEW folder within the contribution folder.
 
 >[!NOTE]
  >
- >Brand Portal users can upload content/assets only to the **NEW** folder.
+ >The Brand Portal users can upload assets only to the NEW folder.
  >
- >Maximum upload limit for any Brand Portal account/tenant is **10** GB.
+ >The maximum upload limit for any Brand Portal tenant is **10**-GB which is cumulatively applied to all the contribution folders. 
  >
+
+After publishing the newly created assets to AEM Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both, NEW and SHARED folder. 
+
+Once the objective of creating the contribution folder is achieved, the Brand Portal administrator can delete the contribution folder to release the upload space for other users. 
+
 
 **To upload new assets:**
 
 1. Log in to your Brand Portal instance.
-Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder.
-1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder.
-1. Click **[!UICONTROL NEW]** folder.
-![](assets/upload-new-assets1.png)
-1. Click **[!UICONTROL Create > Files]** ![](assets/upload.png) to upload individual files or folder (.zip) containing multiple assets.
-![](assets/upload-new-assets2.png)
-1. Browse and upload new assets (files/folders) in the **[!UICONTROL NEW]** folder.
-![](assets/upload-new-assets3.png)
+The Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder.
 
-Once upload is finished, Brand Portal user can publish the contribution folder back to AEM Assets. See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+1. Select the contribution folder and click to open it. The contribution folder contains two sub folders – **[!UICONTROL SHARED]** and **[!UICONTROL NEW]**.
+
+1. Click on the **[!UICONTROL NEW]** folder.
+
+   ![](assets/upload-new-assets1.png)
+
+1. Click **[!UICONTROL Create]** > **[!UICONTROL Files]** to upload individual files or folder (.zip) containing multiple assets.
+
+   ![](assets/upload-new-assets2.png)
+
+1. Browse and upload assets (files or folders) to the **[!UICONTROL NEW]** folder.
+
+   ![](assets/upload-new-assets3.png)
+
+After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
