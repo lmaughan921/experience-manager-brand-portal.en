@@ -20,7 +20,7 @@ They can then create new assets for contribution and upload them to the NEW fold
  >
  >The Brand Portal users can upload assets only to the NEW folder.
  >
- >The maximum upload limit for any Brand Portal tenant is **10**-GB which is cumulatively applied to all the contribution folders. 
+ >The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders. 
  >
 
 After publishing the newly created assets to AEM Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both, NEW and SHARED folder. 
