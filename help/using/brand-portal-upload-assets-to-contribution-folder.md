@@ -27,6 +27,12 @@ After publishing the newly created assets to AEM Assets, the Brand Portal users 
 
 Once the objective of creating the contribution folder is achieved, the Brand Portal administrator can delete the contribution folder to release the upload space for other users. 
 
+>[!NOTE]
+ >
+ >It is recommended to release the upload space after publishing the contribution folder to AEM Assets so that it is available to the other Brand Portal users for contribution. 
+ >
+ >If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Adobe Support specifying the requirement.
+ >
 
 **To upload new assets:**
 
