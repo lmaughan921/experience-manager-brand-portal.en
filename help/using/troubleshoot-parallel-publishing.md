@@ -112,17 +112,15 @@ Based on the errors, you are advised to log a support ticket, so that Brand Port
 
 ## Configure replication agents to avoid connection timeout error {#connection-timeout}
 
-**Issue**: I am unable to publish assets from AEM Assets to Brand Portal. The replication log states that the connection timed out.
-
-**Resolution**: Usually the publishing fails with a time out error if there are multiple pending requests in the replication queue. To resolve the issue, ensure that the replication agents are configured to avoid timeout. 
+Usually the publishing job fails with a timeout error if there are multiple pending requests in the replication queue. To resolve this issue, ensure that the replication agents are configured to avoid timeout. 
 
 Perform the following steps to configure the replication agent:
 1. Log in to your AEM Assets author instance.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. In the Replication page, click **[!UICONTROL Agents on author]**. You can see the four replication agents for your Brand Portal tenant. 
+1. In the Replication page, click **[!UICONTROL Agents on author]**. You can see the four replication agents of your Brand Portal tenant. 
 1. Click the replication agent URL to open the agent details.
 1. Click **[!UICONTROL Edit]** to modify the replication agent settings.
-1. In Agent Settings, click the **[!UICONTROL Extended]** tab. 
-1. Enable the **[!UICONTROL Close Connection]** checkbox.
+1. In Agent Settings , click the **[!UICONTROL Extended]** tab. 
+1. Select the **[!UICONTROL Close Connection]** check box.
 1. Repeat steps 4 through 7 to configure all the four replication agents. 
 1. Restart the server.
