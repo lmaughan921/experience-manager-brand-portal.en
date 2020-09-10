@@ -45,7 +45,7 @@ This issue possibly occurs when you have configured a Brand Portal tenant on mul
 
 **Ques. I am unable to publish assets from AEM Assets to Brand Portal. The replication log states that the connection timed out. Is there a quick fix?**
 
-**Ans.** Usually the publishing fails with a time out error if there are multiple pending requests in the replication queue. To resolve the issue, ensure that the replication agents are configured to avoid timeout. 
+**Ans.** Usually the publishing fails with a timeout error if there are multiple pending requests in the replication queue. To resolve this issue, ensure that the replication agents are configured to avoid timeout. 
 
 Perform the following steps to configure the replication agent:
 1. Log in to your AEM Assets author instance.
