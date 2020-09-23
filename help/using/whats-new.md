@@ -4,7 +4,6 @@ seo-title: What's new in AEM Assets Brand Portal
 description: Take a look at the new features and enhancements for 6.4.7.
 seo-description: Take a look at the new features and enhancements for 6.4.7.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
-contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 contentOwner: Vishabh Gupta

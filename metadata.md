@@ -8,6 +8,7 @@ getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-b
 tutorials-title: Tutorials
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+solution: Experience Manager
 index: y
 ---
 
