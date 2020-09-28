@@ -6,11 +6,12 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal Guide
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
+
 ---
 
-# Table of Contents {#using}
+# AEM Assets Brand Portal Documentation {#using}
 
-+ [Brand Portal User Guide](using/home.md)
++ [Brand Portal Guide](using/home.md)
 + Introduction {#introduction}
   + [Overview](using/brand-portal.md)
   + [What's new in AEM Assets Brand Portal](using/whats-new.md)

@@ -5,9 +5,9 @@ description: AEM Brand Portal user guide
 seo-description: Describes how to use Brand Portal
 ---
 
-# Introduction
+# Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** aids organizations to meet their marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
+**Adobe Experience Manager Assets Brand Portal** aids organizations to meet their marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 
 The lack of a secure asset sharing solution can result in:
 
