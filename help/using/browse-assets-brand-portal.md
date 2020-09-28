@@ -208,7 +208,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
