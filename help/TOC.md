@@ -4,12 +4,12 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-
+breadcrumb-title: Brand Portal Guide
 ---
 
-# Table of Contents {#using}
+# AEM Assets Brand Portal Documentation {#using}
 
-+ [Brand Portal User Guide](using/home.md)
++ [Brand Portal Guide](using/home.md)
 + Introduction {#introduction}
   + [Overview](using/brand-portal.md)
   + [What's new in AEM Assets Brand Portal](using/whats-new.md)
