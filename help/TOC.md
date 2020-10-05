@@ -9,7 +9,7 @@ user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by s
 
 ---
 
-# AEM Assets Brand Portal Documentation {#using}
+# Adobe Experience Manager Assets Brand Portal Guide {#using}
 
 + [Brand Portal Guide](using/home.md)
 + Introduction {#introduction}
