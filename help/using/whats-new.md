@@ -207,10 +207,12 @@ Administrators can now configure how the folders are shown to non-admin users (E
 * **disabled**, only the shared folders are displayed on the landing page.
 
  ![](assets/enable-folder-hierarchy.png)
-**The use case**
 
 The [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md) functionality (when enabled) helps you differentiate the folders with the same names shared from different hierarchies. On logging in, non-admin users now see the virtual parent (and ancestor) folders of the shared folders.
- ![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+ 
+ ![](assets/disabled-folder-hierarchy1-2.png) 
+ 
+ ![](assets/enabled-hierarchy1-2.png)
 
 The shared folders are organized within the respective directories in virtual folders. You can recognize these virtual folders with a lock icon.
 
@@ -226,7 +228,8 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 
 * Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
 * Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.
-For example, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` is shared with a non-admin user. The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
+
+  For example, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` is shared with a non-admin user. The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
 
 ![](assets/edit-search-form.png)
 
