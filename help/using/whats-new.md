@@ -26,12 +26,12 @@ Brand Portal administrators can configure permissions for a group of users to vi
 
 Earlier, the settings were available only to restrict the group users from downloading the original asset.
 
-The Groups tab on the User Roles page allows administrators to configure the view and download settings:
+The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows administrators to configure the view and download settings:
 
-* If both Download Original and Download Renditions settings are turned-on, the users of the selected group can view and download the original assets and their renditions.
+* If both **[!UICONTROL Download Original]** and **[!UICONTROL Download Renditions]** settings are turned-on, the users of the selected group can view and download the original assets and their renditions.
 * If both the settings are turned-off, the users can only view the original assets. The asset renditions are not visible to the users on the asset details page.
-* If only Download Original setting is turned-on, the users can view and download only the original assets from the asset details page.
-* If only Download Renditions setting is turned-on, the users can only view the original asset but not able to download it. Whereas the user can view and download the asset renditions.
+* If only **[!UICONTROL Download Original]** setting is turned-on, the users can view and download only the original assets from the asset details page.
+* If only **[!UICONTROL Download Renditions]** setting is turned-on, the users can only view the original asset but not able to download it. Whereas the user can view and download the asset renditions.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -47,21 +47,21 @@ The Groups tab on the User Roles page allows administrators to configure the vie
 
 ### Enhanced rendition panel {#rendition-panel}
 
-Earlier, if any of the custom or system renditions were enabled in the Download settings, an additional Download dialog appears on clicking the Download button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+Earlier, if any of the custom or system renditions were enabled in the Download settings, an additional **[!UICONTROL Download]** dialog appears on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 
-In Brand Portal 2020.10.0, quick download and exclude renditions features are introduced in the rendition panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. The user can clear the check boxes to exclude the renditions which are not required for download and click on the Download button in the rendition panel to directly download the selected set of renditions in a zip folder without having to open the Download dialog.
+In Brand Portal 2020.10.0, quick download and exclude renditions features are introduced in the rendition panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. The user can clear the check boxes to exclude the renditions which are not required for download and click on the **[!UICONTROL Download]** button in the rendition panel to directly download the selected set of renditions in a zip folder without having to open the Download dialog.
 
 ![renditions-panel](assets/rendition-panel.png)
 
 
 ### Simplified download dialog {#download-dialog}
 
-Earlier, the Download dialog appears with multiple options such as create separate folder for each asset, email asset, select original asset, custom renditions, and dynamic renditions, exclude system renditions, and enable download acceleration which are ambiguous to non-technical or new users specially when multiple assets or folders are selected for download. Also, the user could not see the list of asset renditions or exclude a specific custom or dynamic rendition.
+Earlier, the **[!UICONTROL Download]** dialog appears with multiple options such as create separate folder for each asset, email asset, select original asset, custom renditions, and dynamic renditions, exclude system renditions, and enable download acceleration which are ambiguous to non-technical or new users specially when multiple assets or folders are selected for download. Also, the user could not see the list of asset renditions or exclude a specific custom or dynamic rendition.
 
-The new Download dialog generalizes the asset selection and filtration process which makes it easier for the Brand Portal users to take effective decisions while downloading the asset renditions. All the renditions of the selected assets or folders containing assets are now available in a list view under the Download dialog. If any of the Custom Rendition or System Rendition is enabled in the Download configuration and Download settings are enabled for the group users, the new Download dialog appears and the original asset along with the asset renditions are downloaded depending on the selection. 
+The new **[!UICONTROL Download]** dialog generalizes the asset selection and filtration process which makes it easier for the Brand Portal users to take effective decisions while downloading the asset renditions. All the renditions of the selected assets or folders containing assets are now available in a list view under the **[!UICONTROL Download]** dialog. If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears and the original asset along with the asset renditions are downloaded depending on the selection. 
 
-From the Download dialog, you can:
+From the **[!UICONTROL Download]** dialog, you can:
 
 * View all the available renditions for any asset in the download list.
 * Exclude renditions of the assets which are not required for download.
