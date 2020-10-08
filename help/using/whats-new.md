@@ -33,7 +33,7 @@ The Groups tab on the User Roles page allows administrators to configure the vie
 * If only Download Original setting is turned-on, the users can view and download only the original assets from the asset details page.
 * If only Download Renditions setting is turned-on, the users can only view the original asset but not able to download it. Whereas the user can view and download the asset renditions.
 
-![view-download-permission](assets/view-download-permission.png)
+![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
  >
@@ -52,7 +52,7 @@ There was no filter to exclude specific custom or dynamic renditions which were 
 
 In Brand Portal 2020.10.0, quick download and exclude renditions features are introduced in the rendition panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. The user can clear the check boxes to exclude the renditions which are not required for download and click on the Download button in the rendition panel to directly download the selected set of renditions in a zip folder without having to open the Download dialog.
 
-![renditions-panel](assets/renditions-panel.png)
+![renditions-panel](assets/rendition-panel.png)
 
 
 ### Simplified download dialog {#download-dialog}
@@ -71,7 +71,7 @@ From the Download dialog, you can:
 
 Once you have defined the set of rules for different types of renditions and excluded the ones which are not required, click on the Download button to download the assets and their renditions. The download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link.
 
-![download-dialog1](assets/download-dialog1.png)
+![download-dialog](assets/download-dialog-box.png)
 
 
 ## What changed in 6.4.7 {#what-changed-in-647}
