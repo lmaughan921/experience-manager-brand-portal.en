@@ -17,22 +17,20 @@ The Brand Portal users can [download the asset requirements](brand-portal-downlo
 They can then create new assets for contribution and upload them to the NEW folder within the contribution folder.
 
 >[!NOTE]
- >
- >The Brand Portal users can upload assets only to the NEW folder.
- >
- >The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders. 
- >
+>
+>The Brand Portal users can upload assets only to the NEW folder.
+>
+>The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders. 
 
 After publishing the newly created assets to AEM Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both NEW and SHARED folder. 
 
 Once the objective of creating the contribution folder is achieved, the Brand Portal administrator can delete the contribution folder to release the upload space for other users. 
 
 >[!NOTE]
- >
- >It is recommended to release the upload space after publishing the contribution folder to AEM Assets so that it is available to the other Brand Portal users for contribution. 
- >
- >If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Adobe Support specifying the requirement.
- >
+>
+>It is recommended to release the upload space after publishing the contribution folder to AEM Assets so that it is available to the other Brand Portal users for contribution. 
+>
+>If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Adobe Support specifying the requirement.
 
 **To upload new assets:**
 

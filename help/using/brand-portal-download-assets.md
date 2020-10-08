@@ -19,9 +19,8 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#expected-download-performance).
 
 >[!NOTE]
- >
- >Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
- > 
+>
+>Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -79,9 +78,8 @@ Test..
 * If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, an additional **[!UICONTROL Download]** dialog box appears wherein you can choose whether to download the original asset along with its renditions, or download only specific renditions. 
 
 >[!NOTE]
- >
- >Only the administrators can download the expired assets. For more information about expired assets, see [manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
- >
+>
+>Only the administrators can download the expired assets. For more information about expired assets, see [manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
 
 ## Steps to download assets {#steps-to-download-assets}
 
@@ -99,16 +97,14 @@ Following are the steps to download assets or folders containing assets from Bra
 
 
      >[!NOTE]
-      >
-      >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to install the Aspera download accelerator. 
-      > 
+     >
+     >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to install the Aspera download accelerator. 
 
      >[!NOTE]
-      >
-      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
-      > 
-      >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
-      >
+     >
+     >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
+     > 
+     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
 
      ![](assets/licensed-asset-download-1.png)
 
@@ -126,9 +122,8 @@ Following are the steps to download assets or folders containing assets from Bra
      ![](assets/download-dialog.png)
 
      >[!NOTE]
-      >
-      >If the downloading assets are image files, and you select only the **[!UICONTROL Asset(s)]** check box in the **[!UICONTROL Download]** dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a notification appears, stating that you have been restricted by the administrator to access original renditions.
-      >
+     >
+     >If the downloading assets are image files, and you select only the **[!UICONTROL Asset(s)]** check box in the **[!UICONTROL Download]** dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a notification appears, stating that you have been restricted by the administrator to access original renditions.
 
      ![](assets/restrictaccess-note.png)
 
@@ -139,34 +134,32 @@ Following are the steps to download assets or folders containing assets from Bra
    * To download only the renditions, clear the **[!UICONTROL Asset(s)]** check box.
 
      >[!NOTE]
-      >
-      >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
-      >
-   
+     >
+     >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
+
     * To share the selected assets with other users through a link, select the **[!UICONTROL Email]** check box. An email notification is sent to the users with the download link. To know how to download assets from shared links, see [downloading assets from shared links](../using/brand-portal-link-share.md#main-pars-header-1703469193).  
 
       ![](assets/download-link.png)
 
       >[!NOTE]
-       >
-       >The download link on email notification expires after 45 days.
-       >
-       >The administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
-       >
+      >
+      >The download link on email notification expires after 45 days.
+      >
+      >The administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
 
     * You can select a predefined image preset or create a custom dynamic rendition from the **[!UICONTROL Download]** dialog box. 
-    
+
       To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select the **[!UICONTROL Dynamic Rendition(s)]** check box. Specify the image preset properties (such as size, format, color space, resolution, and image modifier) to apply the custom image preset while downloading the asset and its renditions. To download only the dynamic renditions, clear the **[!UICONTROL Asset(s)]** check box.
 
       ![](assets/dynamic-rendition.png)
 
       >[!NOTE]
-       >
-       >Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
-       >
-       >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
-       >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
-       >
+      >
+      >Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
+      >
+      >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
+      >
+      >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
   
     * To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in one folder in your local system.
 
@@ -177,10 +170,8 @@ Following are the steps to download assets or folders containing assets from Bra
    If you are not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), the original renditions of the selected assets are not downloaded. 
 
    >[!NOTE]
-    >
-    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
-    >
-
+   >
+   >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 
 ## Expected download performance {#expected-download-performance}
 
@@ -197,7 +188,6 @@ File download experience may vary for users at different client locations, depen
 | London                  | 179 milliseconds                  | 0.32 MB/s               | 106 minutes                        |
 | Singapore               | 196 milliseconds                  | 0.5 MB/s                | 68 minutes                         |
 
- >[!NOTE]
-  >
-  >Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
-  >
+>[!NOTE]
+>
+>Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.

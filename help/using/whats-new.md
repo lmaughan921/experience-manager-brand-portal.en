@@ -32,10 +32,8 @@ Earlier, limited options were available to view the PDF files.
 With Document Viewer, the Brand Portal users now have the options to view pages, view bookmarks, search on-page text, zoom in, zoom out, navigate to previous and next pages, switch to page, fit to window, fit to screen, and hide or unhide the tool bar. 
 
 >[!NOTE]
- >
- >The viewing experience for other documents formats remain unchanged.
- >
-
+>
+>The viewing experience for other documents formats remain unchanged.
 
 ![](assets/doc-viewer.png)
 

@@ -180,20 +180,13 @@ The Brand Portal users access the **Contribution** folder and upload content in 
 **Ans.** In AEM, logs are maintained for each time a folder is published to Brand Portal. At the time of publishing, all the assets which are not published to Brand Portal are put in a replication queue. Any asset added to the folder after the publishing job is triggered are not published to Brand Portal. When the AEM user publishes the folder again, only the assets which were not published earlier (existing in replication queue) are published to Brand Portal. 
 This holds true for any folder published from AEM Assets to Brand Portal, and SHARED folder within a Contribution folder.
 
-
-
 **Ques. Who do I contact with questions?**
 
 **Ans.** Contact your Adobe Account Manager or Customer Support.
 
-
 >[!NOTE]
- >
- >Release schedule is tentative and subject to change. Contact your Adobe Account Manager or Customer Support to get the updated release schedule.
- >
-
-
-
+>
+>Release schedule is tentative and subject to change. Contact your Adobe Account Manager or Customer Support to get the updated release schedule.
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
