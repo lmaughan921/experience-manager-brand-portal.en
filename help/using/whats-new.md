@@ -20,6 +20,59 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 Brand Portal 2020.10.0 is an enhancement release which focuses on simplifying the asset download experience and includes critical fixes. See latest [Brand Portal Release Notes](brand-portal-release-notes.md)
 
 
+### Configure download permissions {#download-permissions}
+
+Brand Portal administrators can configure permissions for a group of users to view and (or) download the original asset and its renditions from the asset details page.
+
+Earlier, the settings were available only to restrict the group users from downloading the original asset.
+
+The Groups tab on the User Roles page allows administrators to configure the view and download settings:
+
+* If both Download Original and Download Renditions settings are turned-on, the users of the selected group can view and download the original assets and their renditions.
+* If both the settings are turned-off, the users can only view the original assets. The asset renditions are not visible to the users on the asset details page.
+* If only Download Original setting is turned-on, the users can view and download only the original assets from the asset details page.
+* If only Download Renditions setting is turned-on, the users can only view the original asset but not able to download it. Whereas the user can view and download the asset renditions.
+
+![view-download-permission](assets/view-download-permission.png)
+
+>[!NOTE]
+ >
+ >If a user is added to multiple groups and if one of these groups has restrictions, the restrictions will apply to that user.
+ >
+ >Also, restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a curl request even if the download configurations are turned-off.
+ >
+
+
+### Enhanced rendition panel {#rendition-panel}
+
+Earlier, if any of the custom or system renditions were enabled in the Download settings, an additional Download dialog appears on clicking the Download button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+
+In Brand Portal 2020.10.0, quick download and exclude renditions features are introduced in the rendition panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. The user can clear the check boxes to exclude the renditions which are not required for download and click on the Download button in the rendition panel to directly download the selected set of renditions in a zip folder without having to open the Download dialog.
+
+![renditions-panel](assets/renditions-panel.png)
+
+
+### Simplified download dialog {#download-dialog}
+
+Earlier, the Download dialog appears with multiple options such as create separate folder for each asset, email asset, select original asset, custom renditions, and dynamic renditions, exclude system renditions, and enable download acceleration which are ambiguous to non-technical or new users specially when multiple assets or folders are selected for download. Also, the user could not see the list of asset renditions or exclude a specific custom or dynamic rendition.
+
+The new Download dialog generalizes the asset selection and filtration process which makes it easier for the Brand Portal users to take effective decisions while downloading the asset renditions. All the renditions of the selected assets or folders containing assets are now available in a list view under the Download dialog. If any of the Custom Rendition or System Rendition is enabled in the Download configuration and Download settings are enabled for the group users, the new Download dialog appears and the original asset along with the asset renditions are downloaded depending on the selection. 
+
+From the Download dialog, you can:
+
+* View all the available renditions for any asset in the download list.
+* Exclude renditions of the assets which are not required for download.
+* Apply same set of renditions to all the similar asset types in one click.
+* Apply different set of renditions for different asset types.
+* Create separate folder for each asset.
+
+Once you have defined the set of rules for different types of renditions and excluded the ones which are not required, click on the Download button to download the assets and their renditions. The download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link.
+
+![download-dialog1](assets/download-dialog1.png)
+
 
 ## What changed in 6.4.7 {#what-changed-in-647}
 
