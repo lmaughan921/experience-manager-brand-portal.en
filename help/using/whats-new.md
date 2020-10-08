@@ -15,6 +15,12 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
+## What changed in 2020.10.0 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0 is an enhancement release which focuses on simplifying the asset download experience and includes critical fixes. See latest [Brand Portal Release Notes](brand-portal-release-notes.md)
+
+
+
 ## What changed in 6.4.7 {#what-changed-in-647}
 
 Brand Portal 6.4.7 release brings in the Document Viewer, enhances the experience for downloading assets, and includes critical fixes. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
