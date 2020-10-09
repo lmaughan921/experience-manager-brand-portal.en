@@ -13,7 +13,7 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.7 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2020.10.0 release.
 
 ## Release Information {#release-information}
 
@@ -39,14 +39,14 @@ This release includes the following new features:
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions.  
 
 
-### Critical Issues Fixed {#critical-issues-fixed-647}
+### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issue:
 
 * The users are not able to view the PDF pages if the PDF contains sub assets.
 
 
-### Known Issues {#known-issues-647}
+### Known Issues {#known-issues}
 
 This release includes the following known issue:
 
