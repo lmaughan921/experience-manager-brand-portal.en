@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.7 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 6.4.7 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2020.10.0 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2020.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -19,24 +19,47 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.7|
-| Date | August 2020 |
+| Version | 2020.10.0|
+| Date | October 2020 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 6.4.7 {#whats-new-in-647}
+## What's New in 2020.10.0 {#whats-new-in-2020.10.0}
 
 ### New Features {#new-features}
 
 This release includes the following new features:
 
-* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
+* Brand Portal administrators can configure permissions for a group of users to view and (or) download the original asset and its renditions from the asset details page.
+
+* Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the rendition panel on the asset details page.
+
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions.  
+
+
+### Critical Issues Fixed {#critical-issues-fixed-647}
+
+This release includes fixes to the following critical issues:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+
+
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If the user is downloading the asset using share link, the orginal asset is downloaded even when the option to **[!UICONTROL Allow download of original file]** is disabled.
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
+
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
 * Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
@@ -65,7 +88,7 @@ This release includes the following known issues:
 
 * If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
 
-
+-->
 
 ## Languages {#languages}
 
