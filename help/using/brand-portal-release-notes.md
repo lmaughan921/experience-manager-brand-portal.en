@@ -32,23 +32,23 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* Brand Portal administrators can configure permissions for a group of users to view and (or) download the original asset and its renditions from the asset details page.
+* Brand Portal administrators can configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page.
 
-* Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the rendition panel on the asset details page.
+* Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page.
 
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions.  
 
 
 ### Critical Issues Fixed {#critical-issues-fixed-647}
 
-This release includes fixes to the following critical issues:
+This release includes fixes to the following critical issue:
 
 * The users are not able to view the PDF pages if the PDF contains sub assets.
 
 
 ### Known Issues {#known-issues-647}
 
-This release includes the following known issues:
+This release includes the following known issue:
 
 * If the user is downloading the asset using share link, the orginal asset is downloaded even when the option to **[!UICONTROL Allow download of original file]** is disabled.
 

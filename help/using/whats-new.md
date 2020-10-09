@@ -22,7 +22,7 @@ Brand Portal 2020.10.0 is an enhancement release which focuses on simplifying th
 
 ### Configure download permissions {#download-permissions}
 
-Brand Portal administrators can configure permissions for a group of users to view and (or) download the original asset and its renditions from the asset details page.
+Brand Portal administrators can configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page.
 
 Earlier, the settings were available only to restrict the group users from downloading the original asset.
 
@@ -50,9 +50,9 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
 Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 
-In Brand Portal 2020.10.0, quick download and exclude renditions features are introduced in the rendition panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+In Brand Portal 2020.10.0, quick download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
 
-The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the rendition panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 
 ![renditions-panel](assets/rendition-panel.png)
 
