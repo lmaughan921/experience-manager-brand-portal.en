@@ -17,7 +17,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 2020.10.0 {#what-changed-in-oct-2020}
 
-Brand Portal 2020.10.0 is an enhancement release which focuses on simplifying the asset download experience and includes critical fixes. The enhancement includes new and improved workflow for asset download, additional options to exclude renditions and direct download from **[!UICONTROL Renditions]** panel, configuration to allow access and download rights for specific group of users, and easy navigation to the files, collections, and shared links from anywhere and anytime. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2020.10.0 is an enhancement release which focuses on simplifying the asset download experience and includes critical fixes. The enhancement includes new and improved workflow for asset download, additional options to exclude renditions, direct download from **[!UICONTROL Renditions]** panel, configuration to allow access and download rights for specific group of users, and easy navigation to the files, collections, and shared links from all the Brand Portal pages. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 
 ### Simplified download experience {#download-dialog}
