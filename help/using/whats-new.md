@@ -92,9 +92,8 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
 ![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
- >
- >If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
- >
+>
+>If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
  
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
