@@ -41,10 +41,13 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
  >
  >If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
  >
- >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ 
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
  >
  >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
  >
+-->
 
 
 ### Enhanced rendition panel {#rendition-panel}
