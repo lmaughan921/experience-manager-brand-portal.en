@@ -43,7 +43,7 @@ The download workflow remains constant for stand-alone assets, multiple assets, 
 
 ![download-dialog](assets/download-dialog-box.png)
 
-### Quick access to collections  {#collection-navigation}
+### Quick navigation  {#quick-navigation}
 
 Earlier, the option to view **[!UICONTROL Files]**, **[!UICONTROL Collections]**, and **[!UICONTROL Shared Links]** were hidden and required multiple clicks every time the user wanted to switch to another view. 
 
