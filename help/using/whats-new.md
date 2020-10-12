@@ -26,6 +26,8 @@ Brand Portal administrators can configure permissions for different group of use
 
 Earlier, the settings were available only to restrict the group users from downloading the original asset.
 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+
 The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows administrators to configure the view and download settings:
 
 * If both **[!UICONTROL Download Original]** and **[!UICONTROL Download Renditions]** settings are turned-on, the users of the selected group can view and download the original assets and their renditions.
