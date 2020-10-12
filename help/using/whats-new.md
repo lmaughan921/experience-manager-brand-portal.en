@@ -296,7 +296,6 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 
 ![](assets/edit-search-form.png)
 
-**The use case**
 
 You can now restrict asset search within a specific folder you have browsed to, instead of beginning at the root folder.
 
@@ -312,7 +311,7 @@ Users whose AEM Author instance is on Dynamic Media hybrid mode can preview and 
 
 To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify **Dynamic Media Configuration** (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in **Video** configuration from admin tools panel.
 
-**The use case**
+
 Dynamic Media videos can be previewed on:
 
 * Asset details page
@@ -335,6 +334,7 @@ Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.c
 Similarly, published assets can be removed from the portal at a later date (time), by scheduling the Unpublish from Brand Portal workflow.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
  [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -348,7 +348,6 @@ For example, an organization with existing domain **geomettrix.brand-portal.adob
 
 However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
-**The use case**
 Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -357,8 +356,8 @@ Organizations can meet their branding needs by getting the portal URL customized
 
 The release offers simplified download experience with a reduced number of clicks and warnings, on:
 
-* opting to download only the renditions (and not the original assets).
-* downloading the assets when access to the original renditions is restricted.
+* Opting to download only the renditions (and not the original assets).
+* Downloading the assets when access to the original renditions is restricted.
 
 ## What changed in 6.4.2 {#what-changed-in-1}
 
