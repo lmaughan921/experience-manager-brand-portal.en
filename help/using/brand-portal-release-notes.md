@@ -46,7 +46,7 @@ This release includes the following new features:
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. Together these configurations will define who can access and (or) download the asset renditions.
+* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 
 
 ### Critical Issues Fixed {#critical-issues-fixed}
