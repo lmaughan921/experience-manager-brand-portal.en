@@ -18,13 +18,13 @@ Configuring Adobe Experience Manager Assets as a Cloud Service with Adobe Experi
 Adobe Experience Manager Assets is configured with Brand Portal via Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of your Brand Portal tenant. 
 
 >[!NOTE]
- >
- >***For AEM Assets 6.3 and above***
- >
- >Earlier, Brand Portal was configured in classic interface via Legacy OAuth Gateway, which uses the JSON Web token (JWT) exchange to obtain an IMS token for authorization. 
- >
- >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe Developer Console.
- >
+>
+>***For AEM Assets 6.3 and above***
+>
+>Earlier, Brand Portal was configured in classic interface via Legacy OAuth Gateway, which uses the JSON Web token (JWT) exchange to obtain an IMS token for authorization. 
+>
+>Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe Developer Console.
+
 
 >[!TIP]
  >

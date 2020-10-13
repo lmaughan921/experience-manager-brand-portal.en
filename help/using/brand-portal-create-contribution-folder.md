@@ -36,9 +36,9 @@ It is recommended to use lowercase letters without any space to name the folder.
 1. Click **[!UICONTROL Create]**. You can see the contribution folder listed in the AEM Assets repository.
 
    >[!NOTE]
-    >
-    >A non-admin user can create and share an asset contribution folder but cannot modify or delete it.  
-    >
+   >
+   >A non-admin user can create and share an asset contribution folder but cannot modify or delete it.  
+   
 
    ![](assets/create-contribution-folder.png)
 

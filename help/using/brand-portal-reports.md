@@ -72,7 +72,6 @@ To view a report, follow these steps:
    >
    >The Link Share Report does not display users who have access to the asset shared via the link or have downloaded the asset through the link.
    >
-   >
    >For tracking downloads through the shared link, you need to generate download report after selecting **[!UICONTROL Only Link Share Downloads]** option on **[!UICONTROL Create Report]** page. However, user (Downloaded by) is anonymous in this case.
 
 ## Generate reports {#generate-reports}

@@ -92,9 +92,9 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
 ![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
- >
- >If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
- >
+>
+>If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
+
  
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
@@ -120,9 +120,9 @@ Earlier, limited options were available to view the PDF files.
 With Document Viewer, the Brand Portal users now have the options to view pages, view bookmarks, search on-page text, zoom in, zoom out, navigate to previous and next pages, switch to page, fit to window, fit to screen, and hide or unhide the tool bar. 
 
 >[!NOTE]
- >
- >The viewing experience for other documents formats remain unchanged.
- >
+>
+>The viewing experience for other documents formats remain unchanged.
+
 
 
 ![](assets/doc-viewer.png)

@@ -188,9 +188,9 @@ This holds true for any folder published from AEM Assets to Brand Portal, and SH
 
 
 >[!NOTE]
- >
- >Release schedule is tentative and subject to change. Contact your Adobe Account Manager or Customer Support to get the updated release schedule.
- >
+>
+>Release schedule is tentative and subject to change. Contact your Adobe Account Manager or Customer Support to get the updated release schedule.
+
 
 
 

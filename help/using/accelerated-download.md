@@ -16,9 +16,8 @@ discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
 
 >[!NOTE]
- >
- >Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
- >
+>
+>Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
 
 The **[!UICONTROL Fast Download]** configuration is by default enabled, which significantly reduces the time taken to download the desired asset files from Brand Portal.
 
@@ -71,9 +70,9 @@ To download assets faster from Brand Portal:
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
-    >
-    >The functionality to send email notification with the link to download assets is presently not supported while faster downloads are enabled.
-    >
+   >
+   >The functionality to send email notification with the link to download assets is presently not supported while faster downloads are enabled.
+   
 
    ![](assets/fast-download-emailchk.png)
 
@@ -98,9 +97,9 @@ To download assets faster from Brand Portal:
    When using Aspera Connect for the first time, the browser prompts to open the link using **[!UICONTROL IBM Aspera Connect]**. To skip this dialog in future, enable **[!UICONTROL Remember my choice for FASP links]**.
 
    >[!NOTE]
-    >
-    >This message is different on the different browsers.
-    >
+   >
+   >This message is different on the different browsers.
+   
 
 1. A dialog box confirms whether to proceed the transfer or not. Select **[!UICONTROL Allow]** to begin.
 To skip this dialog in future, enable **[!UICONTROL Use my choice for all connections with this host]**.
