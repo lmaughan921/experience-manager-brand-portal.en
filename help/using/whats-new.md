@@ -124,7 +124,6 @@ With Document Viewer, the Brand Portal users now have the options to view pages,
 >The viewing experience for other documents formats remain unchanged.
 
 
-
 ![](assets/doc-viewer.png)
 
 ### Download Experience {#download-configurations}

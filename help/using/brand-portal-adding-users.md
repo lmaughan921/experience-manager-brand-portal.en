@@ -76,7 +76,6 @@ If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http:
    >[!NOTE]
    >
    >If a user is unable to log on to Brand Portal, the Administrator of the organization should visit Adobe [!UICONTROL Admin Console] and check whether the user is present and has been added to at least one product profile.
-   
 
    For information about granting administrative privileges to the user, see [Provide administrator privileges to users](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
@@ -205,19 +204,17 @@ You can provide the system administrator or the product administrator privilege 
    >Adobe recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure AEM Assets so that assets can be published from AEM Assets to Brand Portal. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >In contrast, the Product Administrator role grants administrator privileges for a specific product only. If you want to enforce a more granular access control within Brand Portal, use the Product Administrator role and select the product as Brand Portal.
-   
 
    >[!NOTE]
    >
    >Brand Portal does not support product profile administrator (formerly known as configuration administrator) privileges. Avoid assigning product profile administrator rights to a user.
-   
 
 1. Review the admin type selection and click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
    >To revoke administrator privileges for a user, make the appropriate changes in the **[!UICONTROL Edit Admin]** page, and then click **[!UICONTROL Save]**.
-   
+
 
 ## Manage user roles {#manage-user-roles}
 
@@ -245,19 +242,18 @@ In addition to the Administrator role, Brand Portal supports the following roles
    >[!NOTE]
    >
    >The [!UICONTROL Role] list for Administrator users is disabled. You cannot select these users to modify their roles.
-   
+
 
    >[!NOTE]
    >
    >The user role is also disabled if the user is a member of the Editor group. To revoke editing privileges from the user, either remove the user from the Editor group or change the role of the entire group to Viewer.
-   
+
 
 1. Click **[!UICONTROL Save]**. The role is modified for the corresponding user. If you selected multiple users, the roles for all the users are modified simultaneously.
 
    >[!NOTE]
    >
    >Changes in user permissions are reflected in the **[!UICONTROL User Roles]** page only after the users re-login to Brand Portal.
-   
 
 ## Manage group roles and privileges {#manage-group-roles-and-privileges}
 
@@ -285,11 +281,11 @@ To modify the role and right to access original renditions for specific group me
    >If a user is added to multiple groups and if one of these groups has restrictions, the restrictions will apply to that user.
    >
    >Also, restrictions to access original renditions of image files do not apply to administrators even though they are members of restricted groups.
-   
+
 
 1. Click **[!UICONTROL Save]**. The role is modified for the corresponding groups.
 
    >[!NOTE]
    >
    >The user-to-group association, or the group membership of a user, is synced to  Brand Portal every 8 hours. Changes to user or group roles are effective after the next sync job runs.
-   
+

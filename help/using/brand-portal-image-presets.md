@@ -29,7 +29,6 @@ For more information about the parameters required while creating image presets,
 
 The AEM administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
 
-
 >[!NOTE]
 >
 >Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand portal.
@@ -37,6 +36,7 @@ The AEM administrators can create image presets that appear as dynamic rendition
 >If AEM author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. 
 >
 >Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
+>
 >When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
 
 

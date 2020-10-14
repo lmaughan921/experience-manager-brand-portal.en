@@ -72,7 +72,6 @@ To download assets faster from Brand Portal:
    >[!NOTE]
    >
    >The functionality to send email notification with the link to download assets is presently not supported while faster downloads are enabled.
-   
 
    ![](assets/fast-download-emailchk.png)
 
@@ -99,7 +98,6 @@ To download assets faster from Brand Portal:
    >[!NOTE]
    >
    >This message is different on the different browsers.
-   
 
 1. A dialog box confirms whether to proceed the transfer or not. Select **[!UICONTROL Allow]** to begin.
 To skip this dialog in future, enable **[!UICONTROL Use my choice for all connections with this host]**.

@@ -27,13 +27,12 @@ Adobe Experience Manager Assets is configured with Brand Portal via Adobe Develo
 
 
 >[!TIP]
- >
- >***For existing customers only*** 
- >
- >Legacy OAuth Gateway configuration will continue working for existing customers. 
- >
- >In case you encounter problems with legacy OAuth Gateway configuration, delete the existing configuration and create new configuration via Adobe Developer Console.
- >
+>
+>***For existing customers only*** 
+>
+>Legacy OAuth Gateway configuration will continue working for existing customers. 
+>
+>In case you encounter problems with legacy OAuth Gateway configuration, delete the existing configuration and create new configuration via Adobe Developer Console.
 
 The steps to configure AEM Assets with Brand Portal are different depending on your AEM version, and whether you are configuring for the first time, or upgrading the existing configurations:
 
@@ -44,5 +43,3 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) |[Upgrade configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) |[Upgrade configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
-
-
