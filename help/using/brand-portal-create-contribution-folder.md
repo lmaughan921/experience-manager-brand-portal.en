@@ -39,6 +39,7 @@ It is recommended to use lowercase letters without any space to name the folder.
    >
    >A non-admin user can create and share an asset contribution folder but cannot modify or delete it.  
 
+
    ![](assets/create-contribution-folder.png)
 
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** are automatically created within the contribution folder. 

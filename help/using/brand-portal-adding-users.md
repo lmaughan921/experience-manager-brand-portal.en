@@ -215,6 +215,7 @@ You can provide the system administrator or the product administrator privilege 
    >
    >To revoke administrator privileges for a user, make the appropriate changes in the **[!UICONTROL Edit Admin]** page, and then click **[!UICONTROL Save]**.
 
+
 ## Manage user roles {#manage-user-roles}
 
 An Administrator can modify roles for users in Brand Portal.
@@ -242,9 +243,11 @@ In addition to the Administrator role, Brand Portal supports the following roles
    >
    >The [!UICONTROL Role] list for Administrator users is disabled. You cannot select these users to modify their roles.
 
+
    >[!NOTE]
    >
    >The user role is also disabled if the user is a member of the Editor group. To revoke editing privileges from the user, either remove the user from the Editor group or change the role of the entire group to Viewer.
+
 
 1. Click **[!UICONTROL Save]**. The role is modified for the corresponding user. If you selected multiple users, the roles for all the users are modified simultaneously.
 
@@ -279,8 +282,10 @@ To modify the role and right to access original renditions for specific group me
    >
    >Also, restrictions to access original renditions of image files do not apply to administrators even though they are members of restricted groups.
 
+
 1. Click **[!UICONTROL Save]**. The role is modified for the corresponding groups.
 
    >[!NOTE]
    >
    >The user-to-group association, or the group membership of a user, is synced to  Brand Portal every 8 hours. Changes to user or group roles are effective after the next sync job runs.
+

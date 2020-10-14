@@ -25,6 +25,7 @@ For more information, see [Managing users, groups, and user roles](../using/bran
 >
 >Upto 5GB of zip download is allowed using link share feature on Brand Portal.
 
+
 Following are the steps to share assets as a link:
 
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.

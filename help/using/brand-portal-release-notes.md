@@ -48,19 +48,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 
+### Enhancements {#enhancements}
 
+This release includes the following enhancements:
+
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+
+
+<!--
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issue:
 
 * The users are not able to view the PDF pages if the PDF contains sub assets.
-
+-->
 
 ### Known Issues {#known-issues}
 
 This release includes the following known issue:
 
-* If the user is downloading the asset using share link, the orginal asset is downloaded even when the option to **[!UICONTROL Allow download of original file]** is disabled.
+* Search on the **[!UICONTROL Asset Reports]** shows processing on the product interface with no search result.
+* The video DM encodes are not visible to the non-admin users on the asset details page.
+* The alignment of the size of individual asset renditions and total download size is distorted in the Download dialog.
 
 
 

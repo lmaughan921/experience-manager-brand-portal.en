@@ -100,11 +100,13 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to install the Aspera download accelerator. 
 
+
      >[!NOTE]
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
      >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+
 
      ![](assets/licensed-asset-download-1.png)
 
@@ -145,6 +147,7 @@ Following are the steps to download assets or folders containing assets from Bra
       >
       >The administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
 
+
     * You can select a predefined image preset or create a custom dynamic rendition from the **[!UICONTROL Download]** dialog box. 
 
       To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select the **[!UICONTROL Dynamic Rendition(s)]** check box. Specify the image preset properties (such as size, format, color space, resolution, and image modifier) to apply the custom image preset while downloading the asset and its renditions. To download only the dynamic renditions, clear the **[!UICONTROL Asset(s)]** check box.
@@ -158,6 +161,7 @@ Following are the steps to download assets or folders containing assets from Bra
       >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
       >
       >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
+      
   
     * To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in one folder in your local system.
 
@@ -170,6 +174,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >[!NOTE]
    >
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
+
 
 ## Expected download performance {#expected-download-performance}
 
@@ -186,6 +191,8 @@ File download experience may vary for users at different client locations, depen
 | London                  | 179 milliseconds                  | 0.32 MB/s               | 106 minutes                        |
 | Singapore               | 196 milliseconds                  | 0.5 MB/s                | 68 minutes                         |
 
->[!NOTE]
->
->Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
+
+ >[!NOTE]
+ >
+ >Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
+ 

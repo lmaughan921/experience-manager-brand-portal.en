@@ -94,6 +94,7 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
 >[!NOTE]
 >
 >If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
+
  
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
@@ -121,6 +122,7 @@ With Document Viewer, the Brand Portal users now have the options to view pages,
 >[!NOTE]
 >
 >The viewing experience for other documents formats remain unchanged.
+
 
 ![](assets/doc-viewer.png)
 

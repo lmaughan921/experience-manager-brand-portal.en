@@ -25,6 +25,7 @@ Adobe Experience Manager Assets is configured with Brand Portal via Adobe Develo
 >
 >Configuration via Legacy OAuth is no longer supported from April 6, 2020, and is changed to configuring via Adobe Developer Console.
 
+
 >[!TIP]
 >
 >***For existing customers only*** 

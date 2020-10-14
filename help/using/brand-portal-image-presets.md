@@ -22,6 +22,7 @@ An image preset is used to generate dynamic renditions of images that can be pre
 >
 >When downloading images and their renditions, there is no option to choose from the existing presets. Instead, you can specify the properties of a custom image preset. For more information, see [Apply image presets when downloading images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 For more information about the parameters required while creating image presets, see [Managing Image Presets](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Create an image preset {#create-an-image-preset}
@@ -37,6 +38,7 @@ The AEM administrators can create image presets that appear as dynamic rendition
 >Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
 >
 >When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
+
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
