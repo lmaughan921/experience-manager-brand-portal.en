@@ -242,7 +242,7 @@ Once upload is complete to the **NEW** folder, Brand Portal users can then publi
 
 Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
-### Search enhancements {#search-enhancements}
+### Search enhancements
 
 Brand Portal 6.4.4 onwards supports partial text search on property predicate in filtering pane. To allow partial text search you need to enable **Partial Search** in Property Predicate in the search form.
 
