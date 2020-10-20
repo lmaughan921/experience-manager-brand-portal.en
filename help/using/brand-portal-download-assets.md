@@ -5,14 +5,15 @@ description: All users can simultaneously download multiple assets and folders a
 seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
+contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 ---
 
-# Download assets {#download-assets}
+# Download assets from Brand Portal {#download-assets-from-bp}
 
-<!-- Before update in Download experience - 26th Aug 2020 by Vishabh.
+<!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
@@ -22,23 +23,214 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 >
 >Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
 
-<!--
-**Types of renditions in Brand Portal:**
+## Configure asset download {#configure-download}
 
-* Original asset rendition
+Brand Portal administrators can configure the download settings and permissions for the Brand Portal users. 
 
-  It is the original binary of the asset uploaded in AEM Assets. 
+Accessing and downloading the renditions from Brand Portal is defined based on the following configurations:
+
+* Enable download settings
+* Configure download permissions 
+
+### Enable download settings {#enable-download-settings}
+
+The administrators can enable the asset **[!UICONTROL Download]** to define the set of renditions accessible to the Brand Portal users for download.  
+
+The available configurations are:
+
+* **[!UICONTROL Fast Download]** 
+
+  Enables high-speed download of the assets. 
   
-  
-* System renditions
+  To know more, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
-  These are the thumbnail renditions which are automatically generated in AEM Assets based on the "DAM update asset" workflow. 
+* **[!UICONTROL Custom Renditions]** 
   
-* Custom renditions
+  Enables downloading custom and (or) dynamic renditions of the assets. 
+  
+  All the asset renditions other than the original asset and system-generated renditions are called as custom renditions. It includes static as well as dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md)
 
-  These are the additional renditions that an asset might have and its dynamic renditions. Any user can create additional custom renditions, whereas, only the AEM administrator can create dynamic renditions of an image in AEM Assets. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).     
+* **[!UICONTROL System Renditions]** 
+
+  Enables downloading system-generated renditions of the assets. 
+  
+  These are the thumbnails which are automatically generated in AEM Assets based on the "DAM update asset" workflow. 
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. 
+
+The administrators can enable any combination of settings for the Brand Portal users to allow access and download renditions.
+
+![](assets/download-configuration.png)
+
+
+>[!NOTE]
+>
+>Only the administrators can download the expired assets. For more information about expired assets, see [manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
+
+### Configure download permissions {#configure-download-permissions}
+
+In addition to the **[!UICONTROL Download Settings]**, the Brand Portal administrators can further configure permissions for different group of users to view and (or) download the original assets and their renditions.
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**. In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download permissions for the user groups.
+
+![view-download-permission](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>If a user is added to multiple groups and if one of those groups has restrictions, the restrictions will apply to the user.
+
+Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link.
+
+The following matrix demonstrates the different use cases to identify if a user would have access to the renditions:
+
+| **Download Settings: Custom Renditions** |**Download Settings: System Renditions** |**User Group Permissions: Download Original** | **User Group Permissions: Download Renditions** | **Result**  |
+|---|---|---|---|---|
+|ON|ON|ON|ON|View and download all renditions|
+|ON|ON|OFF|OFF|View original asset|
+|OFF|OFF|ON|ON|View and download original asset|
+|ON|OFF|ON|ON|View and download original asset and custom renditions|
+|OFF|ON|ON|ON|View and download original asset and system renditions|
+|ON|OFF|OFF|OFF|View original asset|
+|OFF|ON|OFF|OFF|View original asset|
+|OFF|OFF|OFF|ON|View original asset|
+|OFF|OFF|ON|OFF|View and download original asset|
+|OFF|OFF|OFF|OFF|View original asset|
+
+
+
+## Download assets {#download-assets}
+
+Brand Portal users can view and download the accessible renditions based on the asset [download configurations](#configure-download). 
+
+>[!NOTE]
+>
+>Contact the Brand Portal administrator if you do not have permissions to access or download the renditions from your Brand Portal interface.   
+
+If the user has access to renditions, one is provided with the enhanced **[!UICONTROL Download]** dialog with the following capabilities:
+* View all the available renditions of any asset in the download list.
+* Exclude renditions of the assets which are not required for download.
+* Apply the same set of renditions to all the similar asset types in one click.
+* Apply a different set of renditions for different asset types. 
+* Create a separate folder for each asset rendition.
+* Download selected assets and their renditions. 
+
+![download-dialog](assets/download-dialog-box.png)
+
+>[!NOTE]
+>
+>The **[!UICONTROL Download]** dialog appears only when individual assets are selected for download, and **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** is enabled in the **[!UICONTROL Download Settings]**.
+
+
+### Steps to download assets {#bulk-download}
+
+The users can download multiple assets, folders containing assets, and collections from the Brand Portal interface.  
+
+Following are the steps to download multiple assets and their renditions from Brand Portal:
+
+1. Log in to your Brand Portal tenant. By default, the **[!UICONTROL Files]** view opens which contains all the published assets and folders.  
+
+   Do one of the following:
+
+   * Select the assets or folders you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+
+     ![](assets/select-assets.png)
+
+   * To download a specific asset renditions, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
+
+     ![](assets/downloadsingleasset-1.png)
+
+
+     >[!NOTE]
+     >
+     >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to install the Aspera download accelerator. 
+
+
+     >[!NOTE]
+     >
+     >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
+     > 
+     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+
+
+     ![](assets/licensed-asset-download-1.png)
+
+1. The **[!UICONTROL Download]** dialog listing all the selected assets opens. 
+
+   Click on any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
+
+   You can manually select or exlude the renditions for individual assets, or click on the **Apply** ![apply-all](assets/apply.png) icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
+
+   You can also remove an asset from the download list (if required) by clicking on the **Remove** ![remove](assets/remove.png) icon. 
+
+   To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in a zip folder.
+
+   The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. 
+
+   ![apply-rules](assets/apply-rules.png)
+
+1. If **[!UICONTROL Fast Download]** is enabled in the **[!UICONTROL Download Settings]**, a confirmation box appears. Click **[!UICONTROL Allow]**. 
+
+   All the selected renditions are downloaded in a zip folder using the IBM Aspera Connect plugin. 
+
+   If **[!UICONTROL Fast Download]** is turned-off, the selected renditions are directly downloaded in a zip folder. 
+
+
+>[!NOTE]
+>
+>If more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the renditions accessible to the user excluding the dynamic renditions are directly downloaded in a zip folder. 
+>
+>The same behaviour is followed while downloading folders containing assets and collections. The accessible renditions exluding the dynamic renditions are directly downloaded in a zip folder.   
+
+>[!NOTE]
+>
+>Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
+>
+>(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
+>
+>To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published.
+      
+If you are not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), the original renditions of the selected assets are not downloaded. 
+
+![no-access](assets/no-access.png)
+
+>[!NOTE]
+>
+>Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
+
+<!-- This issue has been resolved, check with engineering.
+>[!NOTE]
+>
+>Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
 -->
 
+### Download assets from asset details page {#download-assets-from-asset-details-page}
+
+In addition to the download workflow, there is another method of downloading the renditions for individual assets directly from the asset details page. 
+
+The users can preview the different renditions, select specific renditions, and directly download them from the **[!UICONTROL Renditions]** panel in the asset details page without having to open the **[!UICONTROL Download]** dialog.  
+
+
+Following are the steps to download asset renditions from the asset details page:
+
+1. Log in to your Brand Portal tenant and click on the asset to open the asset details page.
+1. Click the overlay icon on the left, and then click **[!UICONTROL Renditions]**.
+
+   ![rendition-navigation](assets/rendition-navigation.png) 
+   
+1. The **[!UICONTROL Renditions]** panel lists all the accessible asset renditions based on the asset [download configurations](#configure-download). 
+
+   Select specific renditions you want to download and click on the **[!UICONTROL Download]** button.
+
+   ![renditions-panel](assets/rendition-panel.png)
+
+1. If **[!UICONTROL Fast Download]** is enabled in the **[!UICONTROL Download Settings]**, a confirmation box appears. Click **[!UICONTROL Allow]**. 
+
+   All the selected renditions are downloaded in a zip folder using the IBM Aspera Connect plugin. 
+
+   If **[!UICONTROL Fast Download]** is turned-off, the selected renditions are directly downloaded in a zip folder. 
+
+
+<!-- Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
@@ -70,10 +262,6 @@ Based on the configuration, the download workflow remains constant for stand-alo
 
 * If both **[!UICONTROL Custom Renditions]** and **[!UICONTROL System Renditions]** configurations are turned-off, the original renditions of the assets are downloaded without any additional dialog being presented to the users.    
 
-<!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
-Test.. 
--->
 
 * If any of the **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** configuration is enabled, an additional **[!UICONTROL Download]** dialog box appears wherein you can choose whether to download the original asset along with its renditions, or download only specific renditions. 
 
@@ -174,7 +362,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >[!NOTE]
    >
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
-
+-->
 
 ## Expected download performance {#expected-download-performance}
 

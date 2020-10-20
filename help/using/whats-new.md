@@ -74,13 +74,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Configure download permissions {#download-permissions}
 
-In addition to the existing [**[!UICONTROL Download]**](brand-portal-download-assets.md) configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+In addition to the existing [**[!UICONTROL Download]**](brand-portal-download-assets.md) configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. 
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download permissions for the user groups
 
 Earlier, the settings were available only to restrict the group users from downloading the original asset.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows administrators to configure the view and download settings:
 
