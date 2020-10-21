@@ -156,9 +156,13 @@ Following are the steps to download assets or folders containing assets from the
 
    Click on any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
 
-   You can manually select or exclude the renditions for individual assets, or click on the **Apply** ![apply-all](assets/apply.png) icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
+   You can manually select or exclude the renditions for individual assets, or click on the **Apply** icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
 
-   You can also remove an asset from the download list (if required) by clicking on the **Remove** ![remove](assets/remove.png) icon. 
+   ![apply-all](assets/apply.png)
+
+   You can also remove an asset from the download list (if required) by clicking on the **Remove** icon. 
+
+   ![remove](assets/remove.png)
 
    To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in a zip folder.
 
