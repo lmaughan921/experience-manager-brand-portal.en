@@ -69,7 +69,7 @@ To unshare a previously shared collection, do the following:
 
    ![](assets/collection_settings.png)
 
-1. In the **[!UICONTROL Collection Settings]** dialog box, under the **[!UICONTROL Members]** section, click the **[!UICONTROL x]** symbol next to users to remove them from the list of users having access to the collection.
+1. In the **[!UICONTROL Collection Settings]** dialog box, under the **[!UICONTROL Members]** section, click on the **[!UICONTROL x]** symbol next to users to remove them from the list of users having access to the collection.
 
    ![](assets/unshare_collection.png)
 
