@@ -48,7 +48,7 @@ The available settings are:
   
   Enables downloading custom and (or) dynamic renditions of the assets. 
   
-  All the asset renditions other than the original asset and system-generated renditions are called as custom renditions. It includes static as well as dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md)
+  All the asset renditions other than the original asset and system-generated renditions are called custom renditions. It includes static as well as dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]** 
 
@@ -58,7 +58,7 @@ The available settings are:
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. 
 
-The administrators can enable any combination of settings for the Brand Portal users to allow access and download renditions.
+The administrators can enable any combination of settings for the Brand Portal users to access and download renditions.
 
 ![](assets/download-configuration.png)
 
@@ -106,7 +106,7 @@ Brand Portal users can download multiple assets, folders containing assets, and 
 >
 >Contact the Brand Portal administrator if you do not have permissions to access or download the renditions.   
 
-If the user has access to renditions, one is provided with the enhanced **[!UICONTROL Download]** dialog with the following capabilities:
+If the user has access to renditions, the user is provided with the enhanced **[!UICONTROL Download]** dialog with the following capabilities:
 * View all the available renditions of any asset in the download list.
 * Exclude renditions of the assets which are not required for download.
 * Apply the same set of renditions to all the similar asset types in one click.
@@ -133,7 +133,7 @@ Following are the steps to download assets or folders containing assets from the
 
      ![](assets/select-assets.png)
 
-   * To download a specific asset renditions, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
+   * To download specific asset renditions of an asset, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
 
      ![](assets/downloadsingleasset-1.png)
 
@@ -156,7 +156,7 @@ Following are the steps to download assets or folders containing assets from the
 
    Click on any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
 
-   You can manually select or exlude the renditions for individual assets, or click on the **Apply** ![apply-all](assets/apply.png) icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
+   You can manually select or exclude the renditions for individual assets, or click on the **Apply** ![apply-all](assets/apply.png) icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
 
    You can also remove an asset from the download list (if required) by clicking on the **Remove** ![remove](assets/remove.png) icon. 
 
@@ -181,7 +181,7 @@ Following are the steps to download assets or folders containing assets from the
 
 >[!NOTE]
 >
->Brand Portal supports configuring Dynamic Media in both - Hybird and Scene 7 mode. 
+>Brand Portal supports configuring Dynamic Media in both - Hybrid and Scene 7 mode. 
 >
 >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
 >

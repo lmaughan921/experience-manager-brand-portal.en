@@ -1,8 +1,8 @@
 ---
 title: Administer general tenant configurations
 seo-title: Administer general tenant configurations
-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
-seo-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
+description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
