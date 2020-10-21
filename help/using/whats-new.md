@@ -60,7 +60,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, the users can exclude specific renditions and directly download the selected renditions from the **[!UICONTROL Renditions]** panel in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
+In Brand Portal 2020.10.0, the users can exclude specific renditions and directly [download the selected renditions from the **[!UICONTROL Renditions]** panel](brand-portal-download-assets.md#download-assets-from-asset-details-page) in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
 
 
 <!-- 
