@@ -25,7 +25,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 
 ## Configure asset download {#configure-download}
 
-Brand Portal administrators can configure the asset download settings and permissions for the Brand Portal users allowing them to access and download the asset renditions from the Brand Portal interface. 
+Brand Portal administrators can configure the asset download settings and permissions for the Brand Portal users allowing them to access and download asset renditions from the Brand Portal interface. 
 
 Accessing and downloading the renditions from Brand Portal is defined by the following configurations:
 
@@ -177,7 +177,7 @@ Following are the steps to download assets or folders containing assets from the
 >
 >If more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the renditions accessible to the user excluding the dynamic renditions are directly downloaded in a zip folder. 
 >
->The same behaviour is followed while downloading the folders containing assets and collections. The accessible renditions exluding the dynamic renditions are directly downloaded in a zip folder.   
+>The same behavior is followed while downloading the folders containing assets and collections. The accessible renditions excluding the dynamic renditions are directly downloaded in a zip folder.   
 
 >[!NOTE]
 >
