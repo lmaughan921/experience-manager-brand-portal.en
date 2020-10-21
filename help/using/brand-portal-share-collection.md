@@ -13,13 +13,13 @@ discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 
 # Share collections {#share-collections}
 
-A collection represents a group of related assets stored together in Adobe Experience Manager Assets Brand Portal. The users can create smart collections by [applying omnisearch or facet search to filter out related assets](brand-portal-searching.md) and stored them together for easy access and further sharing it with other Brand Portal users. 
+A collection represents a group of related assets stored together in Adobe Experience Manager Assets Brand Portal. The users can create smart collections by [applying omnisearch or facet search to filter out related assets](brand-portal-searching.md) and store them together for easy access and further sharing it with other Brand Portal users. 
 
- The administrators can share and unshare a collection or a smart collection with the authorized Brand Portal users. Editors and viewers can view and share only the collections created by them, shared with them, and public collections. 
+ The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections. 
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and, therefore, do not have the **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+>Editors cannot change a public collection to a non-public collection and therefore do not have the **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
 
 ## Share a collection {#share-collection}
 
@@ -49,7 +49,7 @@ Following are the steps to share a collection with the authorized Brand Portal u
 
    ![](assets/collection_sharingadduser.png)
 
-   The editors cannot change a public collection to a non-public collection and, therefore, do not have **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+   The editors cannot change a public collection to a non-public collection and therefore do not have **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
 
    ![](assets/collection-setting-editor.png)
 
