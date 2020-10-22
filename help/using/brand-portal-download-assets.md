@@ -40,7 +40,7 @@ The available settings are:
 
 * **[!UICONTROL Fast Download]** 
 
-  Enables high-speed download of the assets. 
+  It provides high-speed download of the assets using IBM Aspera Connect. The setting is enabled by default.
   
   To know more, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
@@ -170,11 +170,17 @@ Following are the steps to download assets or folders containing assets from the
 
    ![apply-rules](assets/apply-rules.png)
 
-1. If **[!UICONTROL Fast Download]** is enabled in the **[!UICONTROL Download Settings]**, a confirmation box appears. Click **[!UICONTROL Allow]**. 
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow fast download using IBM Aspera Connect. 
 
-   All the selected renditions are downloaded in a zip folder using the IBM Aspera Connect plugin. 
+   Click **[!UICONTROL Allow]**. 
 
-   If **[!UICONTROL Fast Download]** is turned-off, the selected renditions are directly downloaded in a zip folder. 
+   All the selected renditions are downloaded in a zip folder. 
+
+>[!NOTE]
+>
+>If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+>
+>If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
 
 
 >[!NOTE]
@@ -190,7 +196,11 @@ Following are the steps to download assets or folders containing assets from the
 >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
 >
 >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published from AEM to Brand Portal, its Pyramid tiff rendition is also published.
-      
+
+
+By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]** which
+
+
 If you are not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), the original renditions of the selected assets are not downloaded. 
 
 ![no-access](assets/no-access.png)
@@ -222,11 +232,18 @@ Following are the steps to download asset renditions from the asset details page
 
    ![renditions-panel](assets/rendition-panel.png)
 
-1. If **[!UICONTROL Fast Download]** is enabled in the **[!UICONTROL Download Settings]**, a confirmation box appears. Click **[!UICONTROL Allow]**. 
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow fast download using IBM Aspera Connect. 
 
-   All the selected renditions are downloaded in a zip folder using the IBM Aspera Connect plugin. 
+   Click **[!UICONTROL Allow]**. 
 
-   If **[!UICONTROL Fast Download]** is turned-off, the selected renditions are directly downloaded in a zip folder. 
+   All the selected renditions are downloaded in a zip folder. 
+
+>[!NOTE]
+>
+>If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+>
+>If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
+
 
 >[!NOTE]
 >
