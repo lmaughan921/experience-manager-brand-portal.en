@@ -196,8 +196,6 @@ Following are the steps to download assets or folders containing assets from the
 >To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published from AEM to Brand Portal, its Pyramid tiff rendition is also published.
 
 
-By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]** which
-
 
 If you are not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), the original renditions of the selected assets are not downloaded. 
 
