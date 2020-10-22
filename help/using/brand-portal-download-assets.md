@@ -22,7 +22,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 and above, the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for high-speed download of the assets. Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
+>In Brand Portal 2020.10.0 (and above), the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for accelerated download of the assets. Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
 >
 >If you do not want to use IBM Aspera Connect and continue with the normal download process, contact the Brand Portal administrator to turn-off the **[!UICONTROL Fast Download]** setting. 
 
@@ -43,7 +43,7 @@ The available settings are:
 
 * **[!UICONTROL Fast Download]** 
 
-  It provides high-speed download of the assets using IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
+  It provides accelerated download of the assets using IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
   
   To know more, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
@@ -173,7 +173,7 @@ Following are the steps to download assets or folders containing assets from the
 
    ![apply-rules](assets/apply-rules.png)
 
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow fast download using IBM Aspera Connect. 
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
@@ -231,7 +231,7 @@ Following are the steps to download asset renditions from the asset details page
 
    ![renditions-panel](assets/rendition-panel.png)
 
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow fast download using IBM Aspera Connect. 
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
