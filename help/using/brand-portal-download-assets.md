@@ -154,9 +154,9 @@ Following are the steps to download assets or folders containing assets from the
 
 1. The **[!UICONTROL Download]** dialog listing all the selected assets opens. 
 
-   Click on any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
+   Click any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
 
-   You can manually select or exclude the renditions for individual assets, or click on the **Apply** icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
+   You can manually select or exclude the renditions for individual assets, or click the **Apply** icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
 
    ![apply-all](assets/apply.png)
 
@@ -174,7 +174,7 @@ Following are the steps to download assets or folders containing assets from the
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ The users can preview different renditions, select specific renditions, and dire
 
 Following are the steps to download asset renditions from the asset details page:
 
-1. Log in to your Brand Portal tenant and click on the asset to open the asset details page.
+1. Log in to your Brand Portal tenant and click the asset to open the asset details page.
 1. Click the overlay icon on the left, and then click **[!UICONTROL Renditions]**.
 
    ![rendition-navigation](assets/rendition-navigation.png) 
@@ -232,7 +232,7 @@ Following are the steps to download asset renditions from the asset details page
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
 
 >[!NOTE]
 >
