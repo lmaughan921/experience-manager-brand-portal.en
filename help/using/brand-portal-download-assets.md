@@ -19,9 +19,12 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 
 Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#expected-download-performance).
 
+
 >[!NOTE]
 >
->Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
+>In Brand Portal 2020.10.0 and above, the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for high-speed download of the assets. Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
+>
+>If you do not want to use IBM Aspera Connect and continue with the normal download process, contact the Brand Portal administrator to turn-off the **[!UICONTROL Fast Download]** setting. 
 
 ## Configure asset download {#configure-download}
 
@@ -40,7 +43,7 @@ The available settings are:
 
 * **[!UICONTROL Fast Download]** 
 
-  It provides high-speed download of the assets using IBM Aspera Connect. The setting is enabled by default.
+  It provides high-speed download of the assets using IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
   
   To know more, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
@@ -56,7 +59,7 @@ The available settings are:
   
   These are the thumbnails which are automatically generated in AEM Assets based on the "DAM update asset" workflow. 
 
-Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. By default, the **[!UICONTROL Fast Download]** configuration is enabled in the **[!UICONTROL Download Settings]**. 
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**.  
 
 The administrators can enable any combination of settings for the Brand Portal users to access and download renditions.
 
@@ -118,7 +121,7 @@ If the user has access to renditions, the user is provided with the enhanced **[
 
 >[!NOTE]
 >
->The **[!UICONTROL Download]** dialog appears only if the assets are selected for download, and **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** is enabled in the **[!UICONTROL Download Settings]**.
+>The **[!UICONTROL Download]** dialog appears only if the assets are selected for download, and **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** is enabled in the **[!UICONTROL Download Settings]**. 
 
 
 ### Steps to download assets {#bulk-download}
