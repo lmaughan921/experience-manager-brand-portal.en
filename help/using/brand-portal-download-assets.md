@@ -172,13 +172,11 @@ Following are the steps to download assets or folders containing assets from the
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow fast download using IBM Aspera Connect. 
 
-   Click **[!UICONTROL Allow]**. 
+   To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   All the selected renditions are downloaded in a zip folder. 
+   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
 
 >[!NOTE]
->
->If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
 >
 >If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
 
@@ -234,15 +232,13 @@ Following are the steps to download asset renditions from the asset details page
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow fast download using IBM Aspera Connect. 
 
-   Click **[!UICONTROL Allow]**. 
+   To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   All the selected renditions are downloaded in a zip folder. 
+   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
 
 >[!NOTE]
 >
->If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click on the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
->
->If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
+>If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect.
 
 
 >[!NOTE]
