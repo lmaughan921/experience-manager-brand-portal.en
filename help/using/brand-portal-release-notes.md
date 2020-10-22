@@ -32,7 +32,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exlude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions.
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions.
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
