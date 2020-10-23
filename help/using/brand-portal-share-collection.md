@@ -31,7 +31,7 @@ Following are the steps to share a collection with the authorized Brand Portal u
 
 1. From the **[!UICONTROL Collections]** console, do one of the following:
 
-   * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click on the **[!UICONTROL Settings]** icon.
+   * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
 
      ![](assets/settings-icon.png)
 
@@ -53,7 +53,7 @@ Following are the steps to share a collection with the authorized Brand Portal u
 
    ![](assets/collection-setting-editor.png)
 
-1. Click on the **[!UICONTROL Add]** button to add the user, and then click **[!UICONTROL Save]**. The collection is shared with the users.
+1. Click the **[!UICONTROL Add]** button to add the user, and then click **[!UICONTROL Save]**. The collection is shared with the users.
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ To unshare a previously shared collection, do the following:
 
    ![](assets/collection_settings.png)
 
-1. In the **[!UICONTROL Collection Settings]** dialog box, under the **[!UICONTROL Members]** section, click on the **[!UICONTROL x]** symbol next to users to remove them from the list of users having access to the collection.
+1. In the **[!UICONTROL Collection Settings]** dialog box, under the **[!UICONTROL Members]** section, click the **[!UICONTROL x]** symbol next to users to remove them from the list of users having access to the collection.
 
    ![](assets/unshare_collection.png)
 
