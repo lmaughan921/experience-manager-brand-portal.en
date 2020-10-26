@@ -134,11 +134,11 @@ Following are the steps to download assets or folders containing assets from the
 
    * Select the assets or folders you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
 
-     ![](assets/select-assets-new.png)
+     ![select-multiple-assets](assets/select-assets-new.png)
 
    * To download specific asset renditions of an asset, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
 
-     ![](assets/select-asset.png)
+     ![select-asset](assets/select-asset.png)
 
 
      >[!NOTE]
@@ -153,7 +153,7 @@ Following are the steps to download assets or folders containing assets from the
      >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
 
 
-     ![](assets/licensed-asset-new.png)
+     ![licensed-asset](assets/licensed-asset-new.png)
 
 1. The **[!UICONTROL Download]** dialog listing all the selected assets opens. 
 
@@ -171,7 +171,7 @@ Following are the steps to download assets or folders containing assets from the
 
    The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. 
 
-   ![](assets/download-dialog-new.png)
+   ![download-dialog](assets/download-dialog-new.png)
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
@@ -202,8 +202,7 @@ Following are the steps to download assets or folders containing assets from the
 
 If you are not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), the original renditions of the selected assets are not downloaded. 
 
-![no-access](assets/no-access-message.png)
-
+![no-access-message](assets/no-access-message.png)
 
 <!-- This issue has been resolved, check with engineering.
 >[!NOTE]
