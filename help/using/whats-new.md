@@ -26,6 +26,10 @@ Earlier, the **[!UICONTROL Download]** dialog appeared with multiple options suc
 
 The new **[!UICONTROL Download]** dialog generalizes the asset selection and filtration process which makes it easier for the Brand Portal users to take effective decisions while downloading the asset renditions. It lists all the selected assets and their renditions depending on the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings. 
 
+>[!NOTE]
+>
+>All the users will now have **[!UICONTROL Fast Download]** enabled by default and requires IBM Aspera Connect 3.9.9 installed in their browser's extension before downloading the assets from Brand Portal.
+
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
@@ -60,7 +64,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, the users can exclude specific renditions and directly download the selected renditions from the **[!UICONTROL Renditions]** panel in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
+In Brand Portal 2020.10.0, the users can exclude specific renditions and directly [download the selected renditions from the **[!UICONTROL Renditions]** panel](brand-portal-download-assets.md#download-assets-from-asset-details-page) in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
 
 
 <!-- 
@@ -69,18 +73,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![renditions-panel](assets/rendition-panel.png)
+![renditions-panel](assets/renditions-panel.png)
 
 
 ### Configure download permissions {#download-permissions}
 
-In addition to the existing [**[!UICONTROL Download]**](brand-portal-download-assets.md) configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+In addition to the existing [**[!UICONTROL Download]**](brand-portal-download-assets.md) configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. 
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download permissions for the user groups
 
 Earlier, the settings were available only to restrict the group users from downloading the original asset.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows administrators to configure the view and download settings:
 

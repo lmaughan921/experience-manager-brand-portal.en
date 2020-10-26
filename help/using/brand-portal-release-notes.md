@@ -137,7 +137,9 @@ To ascertain which platforms are certified to run with this release of Brand Por
 
 These sites are only available to customers. If you are a customer and require access, contact your Adobe account manager.
 
+<!--
 * [https://daycare.day.com](https://daycare.day.com) 
+-->
 
 * [Product Access](https://login.marketing.adobe.com)
 
