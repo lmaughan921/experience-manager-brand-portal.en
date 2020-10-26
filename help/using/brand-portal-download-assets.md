@@ -246,6 +246,11 @@ Following are the steps to download asset renditions from the asset details page
 >
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 
+<!--
+>[!NOTE]
+>
+>Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
+-->
 
 <!-- Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
