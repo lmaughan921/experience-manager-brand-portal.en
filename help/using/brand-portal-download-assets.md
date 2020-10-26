@@ -134,11 +134,11 @@ Following are the steps to download assets or folders containing assets from the
 
    * Select the assets or folders you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
 
-     ![](assets/select-assets.png)
+     ![](assets/select-assets-new.png)
 
    * To download specific asset renditions of an asset, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
 
-     ![](assets/downloadsingleasset-1.png)
+     ![](assets/select-asset.png)
 
 
      >[!NOTE]
@@ -153,13 +153,13 @@ Following are the steps to download assets or folders containing assets from the
      >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
 
 
-     ![](assets/licensed-asset.png)
+     ![](assets/licensed-asset-new.png)
 
 1. The **[!UICONTROL Download]** dialog listing all the selected assets opens. 
 
    Click any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
 
-   You can manually select or exclude the renditions for individual assets, or click the **Apply** icon to apply same set of renditions to all the similar asset types selected for download. Confirm to apply the rule to all the similar asset types. 
+   You can manually select or exclude the renditions for individual assets, or click the **Apply** icon to apply same set of renditions to all the similar asset types (all image files in this example) selected for download. Confirm to apply the rule to all the similar asset types. 
 
    ![apply-all](assets/apply.png)
 
@@ -171,13 +171,13 @@ Following are the steps to download assets or folders containing assets from the
 
    The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. 
 
-   ![apply-rules](assets/apply-rules.png)
+   ![](assets/download-dialog-new.png)
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+   If you do not want to use IBM Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Following are the steps to download assets or folders containing assets from the
 
 If you are not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), the original renditions of the selected assets are not downloaded. 
 
-![no-access](assets/no-access.png)
+![no-access](assets/no-access-message.png)
 
 
 <!-- This issue has been resolved, check with engineering.
@@ -229,7 +229,7 @@ Following are the steps to download asset renditions from the asset details page
 
    Select specific renditions you want to download and click **[!UICONTROL Download items]**.
 
-   ![renditions-panel](assets/rendition-panel.png)
+   ![renditions-panel](assets/renditions-panel.png)
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
