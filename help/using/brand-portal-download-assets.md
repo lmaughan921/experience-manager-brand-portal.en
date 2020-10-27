@@ -159,7 +159,7 @@ Following are the steps to download assets or folders containing assets from the
 
    Click any asset to view the available renditions and select the check boxes corresponding to the renditions you want to download. 
 
-   You can manually select or exclude the renditions for individual assets, or click the **Apply** icon to select same set of renditions to download for similar asset types (all image files in this example). Click **[!UICONTROL Done]** to confirm the applied rule. 
+   You can manually select or exclude the renditions for individual assets, or click the **Apply** icon to select same set of renditions to download for similar asset types (all image files in this example). In the **[!UICONTROL Apply All]** dialog, click **[!UICONTROL Done]** to apply the rule to all the similar assets. 
 
    ![apply-all](assets/apply.png)
 
