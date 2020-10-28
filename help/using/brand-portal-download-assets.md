@@ -22,7 +22,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (and above), the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for accelerated download of the assets. Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal.
+>In Brand Portal 2020.10.0 (and above), the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for accelerated download of the assets. Install IBM Aspera Connect 3.9.9 in your browser’s extension before downloading the assets from Brand Portal. For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md). 
 >
 >If you do not want to use IBM Aspera Connect and continue with the normal download process, contact the Brand Portal administrator to turn-off the **[!UICONTROL Fast Download]** setting. 
 
@@ -44,14 +44,12 @@ The available settings are:
 * **[!UICONTROL Fast Download]** 
 
   It provides accelerated download of the assets using IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
-  
-  To know more, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
 * **[!UICONTROL Custom Renditions]** 
   
   Enables downloading custom and (or) dynamic renditions of the assets. 
   
-  All the asset renditions other than the original asset and system-generated renditions are called custom renditions. It includes static as well as dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. To know more, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+  All the asset renditions other than the original asset and system-generated renditions are called custom renditions. It includes static as well as dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]** 
 

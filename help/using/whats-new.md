@@ -43,7 +43,7 @@ From the **[!UICONTROL Download]** dialog, the users can:
 * Create separate folder for each asset.
 * Download selected assets and their renditions.
 
-The download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link.
+The download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -64,7 +64,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, the users can exclude specific renditions and directly [download the selected renditions from the **[!UICONTROL Renditions]** panel](brand-portal-download-assets.md#download-assets-from-asset-details-page) in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
+In Brand Portal 2020.10.0, the users can exclude specific renditions and directly [download the selected renditions from the Renditions panel](brand-portal-download-assets.md#download-assets-from-asset-details-page) in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
 
 
 <!-- 
@@ -78,7 +78,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Configure download permissions {#download-permissions}
 
-In addition to the existing [**[!UICONTROL Download]**](brand-portal-download-assets.md) configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. 
+In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. 
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
@@ -92,6 +92,8 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
 * If both the settings are turned-off, the users can only view the original assets. The asset renditions are not visible to the users on the asset details page.
 * If only **[!UICONTROL Download Original]** setting is turned-on, the users can view and download only the original assets from the asset details page.
 * If only **[!UICONTROL Download Renditions]** setting is turned-on, the users can view the original asset but cannot download it. Though, the user can view and download the asset renditions.
+
+See [configure asset download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
