@@ -49,7 +49,7 @@ The available settings are:
   
   Enables downloading custom and (or) dynamic renditions of the assets. 
   
-  All the asset renditions other than the original asset and system-generated renditions are called custom renditions. It includes static as well as dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+  All the asset renditions other than the original asset and system-generated renditions are called custom renditions. It includes static and dynamic renditions available for the asset. Any user can create a custom static rendition in AEM Assets, whereas, only the AEM administrator can create custom dynamic renditions. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]** 
 
@@ -190,11 +190,11 @@ Following are the steps to download assets or folders containing assets from the
 
 >[!NOTE]
 >
->Brand Portal supports configuring Dynamic Media in both - Hybrid and Scene 7 mode. 
+>Brand Portal supports configuring Dynamic Media in both - Hybrid and Scene7 mode. 
 >
 >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)
 >
->To preview or download dynamic renditions of an asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published from AEM to Brand Portal, its Pyramid tiff rendition is also published.
+>To preview or download dynamic renditions of an asset, ensure the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM Assets author instance from where the assets have been published. When an asset is published from AEM to Brand Portal, its Pyramid tiff rendition is also published.
 
 
 
