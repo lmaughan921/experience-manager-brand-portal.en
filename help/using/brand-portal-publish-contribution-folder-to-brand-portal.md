@@ -13,7 +13,7 @@ discoiquuid:
 
 # Publish contribution folder to Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Once the [contribution folder is configured](brand-portal-configure-contribution-folder-properties.md), AEM user (administrator/non-admin user) can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users/groups having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
+Once the [contribution folder is configured](brand-portal-configure-contribution-folder-properties.md), AEM user (administrator/non-admin user) can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
 
 
 **To publish contribution folder:**
