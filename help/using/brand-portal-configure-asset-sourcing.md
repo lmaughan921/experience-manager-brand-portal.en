@@ -58,6 +58,6 @@ Browse from your local machine and upload **configuration (.csv) file** containi
 ![](assets/upload-user-list2.png)
 
 
-Administrators can provide access to specific users/groups from this user list while configuring the contribution folder.
+Administrators can provide access to specific users from this user list while configuring the contribution folder.
 
 For more information, see [Configure contribution folder](brand-portal-contribution-folder.md).

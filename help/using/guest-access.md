@@ -35,8 +35,15 @@ To enter Brand Portal anonymously, select **[!UICONTROL Click here]** correspond
 
 ## Guest session duration {#guest-session-duration}
 
+A guest user session remains active for 15 mins. 
+This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost. 
+
+For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. If the user does not download the **[!UICONTROL Lightbox]** collection (or its assets) before 15:15 hours (within 15 mins of login), the user will have to restart the session. The **[!UICONTROL Lightbox]** will be empty which means the uploaded assets are no longer available if the session was lost.
+
+<!--
 A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
 For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+-->
 
 ## Concurrent guest sessions allowed {#concurrent-guest-sessions-allowed}
 
