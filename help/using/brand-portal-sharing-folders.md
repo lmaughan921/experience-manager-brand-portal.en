@@ -117,6 +117,7 @@ To share the folder with guest users only, and no other users, select **[!UICONT
 
 1. If necessary, click **[!UICONTROL Change Thumbnail]** to modify the thumbnail image for the folder.
 1. Click **[!UICONTROL Save]**.
+
 1. To access the shared folder, log in to Brand Portal with the credentials of the user you shared the folder with. Review the shared folder in the interface.
 
 ## Unshare folders {#unshare-the-folders}
