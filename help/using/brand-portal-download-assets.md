@@ -184,9 +184,8 @@ Following are the steps to download assets or folders containing assets from the
 
 >[!NOTE]
 >
->If more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the renditions accessible to the user excluding the dynamic renditions are directly downloaded in a zip folder. 
->
->The same behavior is followed while downloading the folders containing assets and collections. The accessible renditions excluding the dynamic renditions are directly downloaded in a zip folder.   
+>If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder. The asset renditions are downloaded in a separate folder for each asset within the zip folder.
+>  
 
 >[!NOTE]
 >
