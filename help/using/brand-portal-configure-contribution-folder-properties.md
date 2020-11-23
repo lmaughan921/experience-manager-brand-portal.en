@@ -18,11 +18,11 @@ AEM administrator performs the following activities while configuring the proper
 
 * **Add description**: Provide a high-level description of the contribution folder.
 * **Upload brief**:  Upload Asset Requirement document containing asset related information.
-* **Add contributors**: Add Brand Portal users to grant them access to the contribution folder.
+* **Add contributors**: Add Brand Portal users or groups to grant them access to the contribution folder.
 
 Asset requirement refers to the details provided by administrators to help contributors (Brand Portal users) understand the need and requirements of the contribution folder. Administrator uploads an asset requirement document which contains a brief about the type of assets that should be added to the contribution folder and asset related information, for example, purpose, type of images, max size, etc.
 
-Administrator can then grant Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.
+Administrator can then grant Brand Portal users/groups access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.
 
 **To configure contribution folder properties:**
 
@@ -47,7 +47,5 @@ Default URL: http:// localhost:4502/aem/start.html
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
->
->Currently, you cannot add groups to a contribution folder.
 >
 >The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. See, [Upload Brand Portal user list](brand-portal-configure-asset-sourcing.md).
