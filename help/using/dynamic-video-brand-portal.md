@@ -97,8 +97,8 @@ The egress IPs are as follows:
 
 | **Region**  | **Egress IP** |
 |--- |--- |
-| NA | 192.243.237.86 |
-| EMEA | 185.34.189.4 |
+| NA | 130.248.160.66,  52.151.32.108  |
+| EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
 ## Configure Dynamic Media (Hybrid) settings {#configure-dm-hybrid-settings}
