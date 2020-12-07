@@ -226,4 +226,4 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 ## Related resources {#related-resources}
 
 * [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [AEM Forums](https://www.adobe.com/go/aod_forums_en)
+* [AEM Forums](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
