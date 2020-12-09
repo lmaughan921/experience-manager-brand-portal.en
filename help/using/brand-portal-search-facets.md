@@ -63,7 +63,13 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
 
 1. In the **[!UICONTROL Property Name]** field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter `  jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
 
-   ![](assets/title-prop.png)
+   >[!NOTE]
+   >
+   >Brand Portal supports all the search properties listed in the `metadata` of the asset's `jcrcontent` except the properties containing `xmp` as prefix. 
+   >
+   >To view the supported search properties, login to the AEM Assets author instance and open CRX repository: `localhost:4502/crx/de/`. Navigate to the asset and open `jcrcontent/metadata`. All the asset properties listed in the metadata except the ones containing `xmp` as prefix can be configured in a search predicate. 
+
+   ![](assets/title-prop.png)   
 
 1. Click **[!UICONTROL Done]** to save the settings.
 1. From the [!UICONTROL Assets] user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is added to the panel.
