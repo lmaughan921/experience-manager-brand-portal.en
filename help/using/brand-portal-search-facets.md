@@ -63,7 +63,13 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
 
 1. In the **[!UICONTROL Property Name]** field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter `  jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
 
-   ![](assets/title-prop.png)
+   >[!NOTE]
+   >
+   >In Brand Portal, all the properties (except the ones starting with `xmp`) in `jcrcontent/metadata` of `dam:asset` are indexed by default. 
+   >
+   >Any property which is indexed can be used while creating a property predicate. If any non-indexed property is configured, the search query on an un-indexed property may not give any search result. 
+
+   ![](assets/title-prop.png)   
 
 1. Click **[!UICONTROL Done]** to save the settings.
 1. From the [!UICONTROL Assets] user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is added to the panel.
