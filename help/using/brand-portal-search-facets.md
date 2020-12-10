@@ -65,9 +65,9 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
 
    >[!NOTE]
    >
-   >Brand Portal supports all the search properties listed in the `metadata` of the asset's `jcrcontent` except the properties containing `xmp` as prefix. 
+   >In Brand Portal, all the properties (except the ones starting with `xmp`) in `jcrcontent/metadata` of `dam:asset` are indexed by default. 
    >
-   >To view the supported search properties, login to the AEM Assets author instance and open CRX repository: `localhost:4502/crx/de/`. Navigate to the asset and open `jcrcontent/metadata`. All the asset properties listed in the metadata except the ones containing `xmp` as prefix can be configured in a search predicate. 
+   >Any property which is indexed can be used while creating a property predicate. If any non-indexed property is configured, the search query on an un-indexed property may not give any search result. 
 
    ![](assets/title-prop.png)   
 
