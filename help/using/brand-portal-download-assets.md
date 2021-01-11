@@ -28,12 +28,16 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 
 ## Configure asset download {#configure-download}
 
-Brand Portal administrators can configure the asset download settings and permissions for the Brand Portal users allowing them to access and download asset renditions from the Brand Portal interface. 
+Brand Portal administrators can configure the asset download and user group settings for the Brand Portal users allowing them to access and download asset renditions from the Brand Portal interface. 
 
-Accessing and downloading the renditions from Brand Portal is defined by the following configurations:
+>[!NOTE]
+>
+>The download settings applied on the user interface facilitates a self-service experience to the Brand Portal users to easily configure and download the asset renditions. It does not restricts the download of assets at the application layer, for example, the users can still access and download the asset renditions with the complete URL path.
+
+Accessing and downloading the asset renditions from the Brand Portal interface is defined by the following configurations:
 
 * Enable download settings
-* Configure download permissions 
+* Configure user group settings 
 
 ### Enable download settings {#enable-download-settings}
 
@@ -68,11 +72,11 @@ The administrators can enable any combination of settings for the Brand Portal u
 >
 >Only the administrators can download the expired assets. For more information about expired assets, see [manage digital rights of assets](../using/manage-digital-rights-of-assets.md).
 
-### Configure download permissions {#configure-download-permissions}
+### Configure user group settings {#configure-user-group-settings}
 
-In addition to the **[!UICONTROL Download Settings]**, the Brand Portal administrators can further configure permissions for different group of users to view and (or) download the original assets and their renditions.
+In addition to the **[!UICONTROL Download Settings]**, the Brand Portal administrators can further configure settings for different group of users to view and (or) download the original assets and their renditions.
 
-Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**. In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download permissions for the user groups.
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**. In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download settings for the user groups.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -84,7 +88,7 @@ Based on the configuration, the download workflow remains constant for stand-alo
 
 The following matrix defines if a user would have access to the renditions depending on the [download configurations](#configure-download):
 
-| **Download Settings: Custom Renditions** |**Download Settings: System Renditions** |**User Group Permissions: Download Original** | **User Group Permissions: Download Renditions** | **Result**  |
+| **Download Settings: Custom Renditions** |**Download Settings: System Renditions** |**User Group Settings: Download Original** | **User Group Settings: Download Renditions** | **Result**  |
 |---|---|---|---|---|
 |ON|ON|ON|ON|View and download all renditions|
 |ON|ON|OFF|OFF|View original asset|
@@ -105,7 +109,7 @@ Brand Portal users can download multiple assets, folders containing assets, and 
 
 >[!NOTE]
 >
->Contact the Brand Portal administrator if you do not have permissions to access or download the renditions.   
+>Contact the Brand Portal administrator if you do not have permission to access or download the asset renditions.   
 
 If the user has access to renditions, the user is provided with the enhanced **[!UICONTROL Download]** dialog with the following capabilities:
 * View all the available renditions of any asset in the download list.
