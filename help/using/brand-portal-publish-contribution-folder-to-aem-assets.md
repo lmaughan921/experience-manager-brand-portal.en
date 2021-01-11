@@ -38,9 +38,13 @@ An email/pulse notification is sent to the Brand Portal user and administrators 
 
 There are two reports which the administrators can utilize to view the status of the asset contribution folders published from Brand Portal to AEM Assets. 
 
-* In Brand Portal, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. This report reflects the status of all the publishing jobs including the different stages of the publishing workflow (Queued and Complete).  
+* In Brand Portal, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. This report reflects the status of all the publishing jobs at different stages of the publishing workflow.  
 
-* In AEM Assets author instance, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. This report reflects only the publishing jobs that are in pending state. 
+  ![](assets/contribution-folder-status.png)
+
+* In AEM Assets author instance, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. This report reflects the final state (Success or Error) of all the publishing jobs. 
+
+  ![](assets/publishing-status.png)
 
 
 
