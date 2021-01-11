@@ -32,7 +32,7 @@ Brand Portal administrators can configure the asset download and user group sett
 
 >[!NOTE]
 >
->The download settings applied on the user interface facilitates a self-service experience to the Brand Portal users to easily configure and download the asset renditions. It does not restricts the download of assets at the application layer, for example, the users can still access and download the asset renditions with the complete URL path.
+>The download settings applied on the user interface facilitates a self-service experience to the Brand Portal users to easily configure and download the asset renditions. It does not restrict the download of assets at the application layer, for example, the users can still access and download the asset renditions with the complete URL path.
 
 Accessing and downloading the asset renditions from the Brand Portal interface is defined by the following configurations:
 
