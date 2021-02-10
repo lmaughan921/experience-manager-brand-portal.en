@@ -21,7 +21,7 @@ Brand Portal allows enhancing the download performance of large asset files by i
 
 The **[!UICONTROL Fast Download]** configuration is by default enabled, which significantly reduces the time taken to download the desired asset files from Brand Portal.
 
-![](assets/download-configuration.png) 
+![](assets/download-configuration-old.png) 
 
 ## Prerequisites to accelerate file download {#prerequisites-to-accelerate-file-download}
 
