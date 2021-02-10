@@ -61,11 +61,16 @@ The available settings are:
   
   These are the thumbnails which are automatically generated in AEM Assets based on the "DAM update asset" workflow. 
 
+* **[!UICONTROL Asset Download]** 
+
+  Enables downloading the renditions in a separate folder for each asset. This setting is applicable for downloading folders, collections, and bulk download of assets (more than 20 assets).  
+
+
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**.  
 
 The administrators can enable any combination of settings for the Brand Portal users to access and download renditions.
 
-![](assets/download-configuration.png)
+![](assets/download-settings.png)
 
 
 >[!NOTE]
@@ -116,7 +121,7 @@ If the user has access to renditions, the user is provided with the enhanced **[
 * Exclude renditions of the assets which are not required for download.
 * Apply the same set of renditions to all the similar asset types in one click.
 * Apply a different set of renditions for different asset types. 
-* Create a separate folder for each asset rendition.
+* Create a separate folder for each asset.
 * Download selected assets and their renditions. 
 
 ![download-dialog](assets/download-dialog-box.png)
@@ -169,7 +174,7 @@ Following are the steps to download assets or folders containing assets from the
 
    ![remove](assets/remove.png)
 
-   To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. By default, the Brand Portal folder hierarchy is ignored and all the assets are downloaded in a zip folder.
+   To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. 
 
    The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. 
 
@@ -188,7 +193,9 @@ Following are the steps to download assets or folders containing assets from the
 
 >[!NOTE]
 >
->If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder. The asset renditions are downloaded in a separate folder for each asset within the zip folder.
+>If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder. 
+>
+>If the **[!UICONTROL Asset Download]** setting is enabled in the **[!UICONTROL Download Settings]**, the asset renditions are downloaded in a separate folder for each asset within the zip folder.
 >  
 
 >[!NOTE]

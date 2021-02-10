@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 2020.10.0.
-seo-description: Take a look at the new features and enhancements for 2020.10.0.
+description: Take a look at the new features and enhancements for 2021.02.0.
+seo-description: Take a look at the new features and enhancements for 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -14,6 +14,38 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 # What's new in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
+
+## What changed in 2021.02.0 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0 is an enhancement release that focuses on the improvement of asset download experience and includes critical fixes. It enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The workflow of downloading the assets using share link has been revamped. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+
+### Asset Download {#asset-download}
+
+In addition to the existing **[!UICONTROL Download Settings]**, the Brand Portal administrators can now configure the **[!UICONTROL Asset Download]** setting. This setting allows the administrators to govern the default download behavior of folders, collections, and bulk download of assets (more than 20 assets) at tenant level.  
+
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+
+To overcome the chaos, an additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]** which creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+
+If the **[!UICONTROL Asset Download]** setting is disabled, the folders or collections are downloaded in a zip folder containing all the asset renditions under the same folder, except for downloading the assets using share link.  
+
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. The administrators can enable the **[!UICONTROL Asset Download]** setting to create separate folder for each asset while downloading folders, collections, and bulk download of assets. 
+
+![](assets/download-settings.png)
+
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+
+### Usage report {#usage-report}
+
+The Brand Portal **[!UICONTROL Usage Report]** has been modified to reflect only the active brand portal users. The brand portal users who are not assigned to any product profile in the Admin Console are considered as inactive users and are not reflected in the **[!UICONTROL Usage Report]**.
+
+Earlier, both active and inactive users were shown in the Usage Report.
+
+![](assets/usage-report.png)
 
 ## What changed in 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -76,13 +108,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### Configure download permissions {#download-permissions}
+### Configure download settings {#download-permissions}
 
-In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also configure permissions for different group of users to view and (or) download the original asset and its renditions from the asset details page. 
+In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also configure settings for different group of users to view and (or) download the original asset and its renditions from the asset details page. 
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
-In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download permissions for the user groups
+In the **[!UICONTROL User Roles]** page, navigate to the **[!UICONTROL Groups]** tab to configure the view and (or) download settings for the user groups.
 
 Earlier, the settings were available only to restrict the group users from downloading the original asset.
 
@@ -152,8 +184,6 @@ The Brand Portal administrator can enable any combination to configure asset dow
 * If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled, the **[!UICONTROL Download]** dialog appears and the original asset along with the asset renditions are downloaded. Enabling  **[!UICONTROL Fast Download]** configuration speeds-up the download process.
 
 Based on the configuration, the download workflow remains constant for stand-alone assets, multiple assets, folders containing assets, licensed or unlicensed assets, and downloading assets using share link. 
-
-![](assets/download-configuration.png)
 
 
 ## What changed in 6.4.6 {#what-changed-in-646}
