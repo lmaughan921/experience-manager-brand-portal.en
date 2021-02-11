@@ -20,7 +20,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 Brand Portal 2021.02.0 is an enhancement release that focuses on the improvement of asset download experience and includes critical fixes. It enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The workflow of downloading the assets using share link has been revamped. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 
-### Asset Download {#asset-download}
+### Asset Download {#asset-download-setting}
 
 In addition to the existing **[!UICONTROL Download Settings]**, the Brand Portal administrators can now configure the **[!UICONTROL Asset Download]** setting. This setting allows the administrators to govern the default download behavior of folders, collections, and bulk download of assets (more than 20 assets) at tenant level.  
 
