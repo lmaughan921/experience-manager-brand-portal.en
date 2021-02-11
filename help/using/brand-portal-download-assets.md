@@ -70,7 +70,7 @@ Log in to your Brand Portal tenant as an administrator and navigate to **[!UICON
 
 The administrators can enable any combination of settings for the Brand Portal users to access and download renditions.
 
-![](assets/download-settings.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]

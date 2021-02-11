@@ -33,7 +33,7 @@ If the **[!UICONTROL Asset Download]** setting is disabled, the folders or colle
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**. The administrators can enable the **[!UICONTROL Asset Download]** setting to create separate folder for each asset while downloading folders, collections, and bulk download of assets. 
 
-![](assets/download-settings.png)
+![](assets/download-settings-new.png)
 
 ### Download using Share link {#download-using-share-link}
 
