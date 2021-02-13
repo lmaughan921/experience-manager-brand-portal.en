@@ -26,7 +26,7 @@ In addition to the existing **[!UICONTROL Download Settings]**, the Brand Portal
 
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 
-To overcome the chaos, an additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]** that creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+To overcome the chaos, an additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
 
 If the **[!UICONTROL Asset Download]** setting is disabled, the folders or collections are downloaded in a zip folder containing all the asset renditions under the same folder, except for downloading the assets using share link.  
 

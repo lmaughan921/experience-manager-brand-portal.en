@@ -32,7 +32,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following new features:
 
-* An additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]** that creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. See [download settings](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* An additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. See [download settings](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -71,17 +71,17 @@ This release includes the following enhancements:
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-This release includes fixes to the following critical issue:
+This release includes fixes to the following critical issues:
 
-* In case only the original assets are downloaded, the assets reflect its own extension and does not open until the extension is manually changed to zip. 
-* The user interface of the Collection folder does not responds on clicking the navigation arrow on the top-right corner. 
-* In the Column view, Create button is visible although the folders are empty.
-* Omni search is not working properly, reflects an 414 error message (Request-URI Too Long).
+* In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
+* The user interface of the collection folder does not respond on clicking the navigation arrow. 
+* In the **[!UICONTROL Column]** view, **[!UICONTROL Create]** button is visible even when the folders are empty.
+* **[!UICONTROL Omni search]** does not work properly. It reflects a 414 error message (Request-URI Too Long).
 * An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
-* The viewer users are getting the option to add users to the Collection they have created. 
-* Inconsistent behavior on downloading a rendition (thumbnail or web) using share link.
+* The viewer users get the option to add users to the collection they have created. 
+* Inconsistent behavior is experienced while downloading a rendition (thumbnail or web) using share link.
 
-
+See [what's new in Brand Portal 2021.02.0](whats-new.md)
 
 <!--
 ### Known Issues {#known-issues}
