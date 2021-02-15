@@ -60,7 +60,7 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 This release includes the following enhancements:
 
-* A separate folder is created for each asset while downloading the assets using share link. 
+* For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
 * The Brand Portal **[!UICONTROL Usage Report]** has been modified to reflect only the active Brand Portal users.
 
 <!--
@@ -75,8 +75,8 @@ This release includes fixes to the following critical issues:
 
 * In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
 * The user interface of the collection folder does not respond on clicking the navigation arrow. 
-* In the **[!UICONTROL Column]** view, **[!UICONTROL Create]** button is visible even when the folders are empty.
-* **[!UICONTROL Omni search]** does not work properly. It reflects a 414 error message (Request-URI Too Long).
+* **[!UICONTROL Create]** button is visible in the **[!UICONTROL Column]** view even when the folders are empty.
+* **[!UICONTROL Omni search]** fails with a 414 error message (Request-URI Too Long) if the dispatcher is bypassed while accessing the Brand Portal instance.
 * An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
 * The viewer users get the option to add users to the collection they have created. 
 * Inconsistent behavior is experienced while downloading a rendition (thumbnail or web) using share link.
