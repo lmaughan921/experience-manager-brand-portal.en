@@ -79,7 +79,7 @@ This release includes fixes to the following critical issues:
 * **[!UICONTROL Omni search]** fails with a 414 error message (Request-URI Too Long) if the dispatcher is bypassed while accessing the Brand Portal instance.
 * An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
 * The viewer users get the option to add users to the collection they have created. 
-* Inconsistent behavior is experienced while downloading a rendition (thumbnail or web) using share link.
+* Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
 See [what's new in Brand Portal 2021.02.0](whats-new.md)
 
