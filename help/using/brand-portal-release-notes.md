@@ -81,7 +81,7 @@ This release includes fixes to the following critical issues:
 * The viewer users get the option to add users to the collection they have created. 
 * Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
-See [what's new in Brand Portal 2021.02.0](whats-new.md)
+See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 <!--
 ### Known Issues {#known-issues}
