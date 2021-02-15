@@ -24,9 +24,13 @@ Brand Portal 2021.02.0 is an enhancement release that focuses on the improvement
 
 In addition to the existing **[!UICONTROL Download Settings]**, the Brand Portal administrators can now configure the **[!UICONTROL Asset Download]** setting. This setting allows the administrators to govern the default download behavior of folders, collections, and bulk download of assets (more than 20 assets) at tenant level.  
 
+<!--
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
 
-To overcome the chaos, an additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+Earlier, all the asset renditions were directly downloaded in a zip folder. The **[!UICONTROL Download]** dialog is skipped was skipped for folders and collections, and there was no method to control over the download behavior of the assets, making it difficut to search for a particular rendition from a large number of downloadeds. 
+
+**[!UICONTROL Asset Download]** setting now provide an option to create a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
 
 If the **[!UICONTROL Asset Download]** setting is disabled, the folders or collections are downloaded in a zip folder containing all the asset renditions under the same folder, except for downloading the assets using share link.  
 
