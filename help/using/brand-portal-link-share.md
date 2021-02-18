@@ -71,7 +71,7 @@ To download the shared assets:
 
 1. Click the assets or folders, and then click the **[!UICONTROL Download]** icon from the toolbar.
 
-   ![](assets/assets-shared-link.png)
+   ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
