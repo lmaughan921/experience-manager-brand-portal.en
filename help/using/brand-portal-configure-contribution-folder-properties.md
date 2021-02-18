@@ -39,10 +39,10 @@ Default URL: http:// localhost:4502/aem/start.html
 
    ![](assets/upload.png) 
 
-1. In the **[!UICONTROL Add User or Group]** field, add Brand Portal users with whom you want to share the contribution folder. These users can access and upload content to the contribution folder using the Brand Portal interface.
+1. In the **[!UICONTROL Add User]** field, add Brand Portal users with whom you want to share the contribution folder. These users can access and upload content to the contribution folder using the Brand Portal interface.
 1. Click **[!UICONTROL Save]**.
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
 >
