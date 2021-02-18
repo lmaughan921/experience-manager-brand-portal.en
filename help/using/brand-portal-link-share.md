@@ -200,18 +200,15 @@ The following legend explains the symbols used in the matrix:
 
 To unshare previously shared assets as a link, do the following:
 
-1. To view the assets you shared as links, click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
-
-   ![](assets/siderail.png)
-
-1. From the siderail, click **[!UICONTROL Shared Links]**.
-
-   ![](assets/navigationrail.png)
+1. When you login to Brand Portal, the **[!UICONTROL File]** view opens by default. To view the assets you shared as links, navigate to the **[!UICONTROL Shared Links]** view. 
 
 1. Review the links you shared from the list displayed.
-1. To unshare a link from the list, select it and click the bin icon next to the link entry, or the **[!UICONTROL Unshare]** icon from the toolbar at the top.
+   
+   ![](assets/shared-links.png)
 
-   ![](assets/unshare-links.jpg)
+1. To unshare a link from the list, select it and click the **[!UICONTROL Unshare]** icon from the toolbar at the top.
+
+   ![](assets/unshare-asset.png)
 
    >[!NOTE]
    >
