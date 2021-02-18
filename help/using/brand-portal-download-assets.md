@@ -63,7 +63,7 @@ The available settings are:
 
 * **[!UICONTROL Asset Download]** 
 
-  Enables downloading the renditions in a separate folder for each asset. This setting is applicable for downloading folders, collections, and bulk download of assets (more than 20 assets).  
+  Enables downloading the renditions in a separate folder for each asset. The setting is applicable on folders, collections, and bulk download of assets (more than 20 assets).  
 
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**.  
@@ -128,7 +128,7 @@ If the user has access to renditions, the user is provided with the enhanced **[
 
 >[!NOTE]
 >
->The **[!UICONTROL Download]** dialog appears only if the assets are selected for download, and **[!UICONTROL Custom Renditions]** or **[!UICONTROL System Renditions]** is enabled in the **[!UICONTROL Download Settings]**. 
+>The **[!UICONTROL Download]** dialog appears only if **[!UICONTROL Custom Renditions]** and (or) **[!UICONTROL System Renditions]** is enabled in the **[!UICONTROL Download Settings]**. 
 
 
 ### Steps to download assets {#bulk-download}
@@ -150,7 +150,7 @@ Following are the steps to download assets or folders containing assets from the
 
      >[!NOTE]
      >
-     >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to install the Aspera download accelerator. 
+     >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to [install the Aspera download accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
 
      >[!NOTE]
@@ -184,7 +184,7 @@ Following are the steps to download assets or folders containing assets from the
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   If you do not want to use IBM Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+   If you do not want to use IBM Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
 
 >[!NOTE]
 >
@@ -242,7 +242,7 @@ Following are the steps to download asset renditions from the asset details page
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
-   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue download. The selected renditions are downloaded in a zip folder without using IBM Aspera Connect.
+   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
 
 >[!NOTE]
 >

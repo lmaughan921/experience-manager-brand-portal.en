@@ -32,11 +32,12 @@ To view a report, follow these steps:
 
    >[!NOTE]
    >
-   >Usage report is present by default in Brand Portal. It can not be created or deleted. However, you can create, download and delete the Download, Expiration, Publish, Link Share, and User Logins reports.
+   >Usage report is a default report generated in Brand Portal. It can not be created or deleted. However, you can create, download and delete the Download, Expiration, Publish, Link Share, and User Logins reports.
 
-   To view a report, tap/click the report link. Alternatively, select the report, and tap/click the View icon from the toolbar.
+   To view a report, click the report link. Alternatively, select the report, and tap/click the View icon from the toolbar.
 
-   **[!UICONTROL Usage Report]** displays information about the number of current Brand Portal users, the storage space occupied by all the assets, and the total assets count in Brand Portal. The report also displays the permitted capacity for each of these information metrics.
+   **[!UICONTROL Usage Report]** displays information about the number of active Brand Portal users, the storage space occupied by all the assets, and the total assets count in Brand Portal. The brand portal users who are not assigned to any product profile in the Admin Console are considered as inactive users and are not reflected in the **[!UICONTROL Usage Report]**. 
+   The report also displays the permitted capacity for each of these information metrics.
 
    ![](assets/usage-report.png)
 
@@ -87,8 +88,6 @@ Administrators can generate and manage the following standard reports, once gene
 The columns in the Download, Expiration, and Publish report can be customized for viewing. To generate a report, follow these steps:
 
 1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
-
-   ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 

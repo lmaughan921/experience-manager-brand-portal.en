@@ -13,7 +13,7 @@ discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 
 # Speed up the Brand Portal downloads {#guide-to-accelerate-downloads-from-brand-portal}
 
-Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
+Adobe Experience Manager Assets Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ Brand Portal allows enhancing the download performance of large asset files by i
 
 The **[!UICONTROL Fast Download]** configuration is by default enabled, which significantly reduces the time taken to download the desired asset files from Brand Portal.
 
-![](assets/download-configuration-old.png) 
+![](assets/download-settings-new.png)
 
 ## Prerequisites to accelerate file download {#prerequisites-to-accelerate-file-download}
 
@@ -64,8 +64,62 @@ The following table shows download performance for 2 GB file using Aspera Connec
 
 To download assets faster from Brand Portal:
 
+1. Log in to your Brand Portal tenant. By default, the **[!UICONTROL Files]** view opens which contains all the published assets and folders.  
+
+   Do one of the following:
+
+   * Select the assets or folders you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+
+     ![select-multiple-assets](assets/select-assets-new.png)
+
+   * To download specific asset renditions of an asset, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
+
+     ![select-asset](assets/select-asset.png)
+
+1. The **[!UICONTROL Download]** dialog listing all the selected assets opens. 
+
+   To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. 
+
+   The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. To know more on how to apply rules, see [download assets](../using/brand-portal-download-assets.md#download-assets).
+
+   ![download-dialog](assets/download-dialog-new.png)
+
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to download assets using IBM Aspera Connect. 
+
+   If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser or the existing version is out-of-date,  it will prompt you to [install the Aspera download accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+
+   ![](assets/aspera-not-launched.png)
+
+1. **Install Aspera Connect Client**
+
+   To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
+
+   ![](assets/aspera-download-1.png)
+
+1. Once the client is successfully installed, refresh the browser page and initiate the download steps again.
+
+1. To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
+
+   On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system.
+
+   ![](assets/aspera-download-2.png)
+
+   If you do not want to use IBM Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
+
+>[!NOTE]
+>
+>If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
+
+<!-- 
+On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
+
+   >[!NOTE]
+   >
+   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
+
+
 1. Log in to Brand Portal using a supported browser.
-1. Browse and Select the folders or assets you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon. the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** check boxes selected by default. 
+1. Browse and select the folders or assets you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon. the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** check boxes selected by default. 
 
    ![](assets/download-assetsbp.png)
 
@@ -111,6 +165,7 @@ On successful completion of the download, a dialog box shows the location where 
    >[!NOTE]
    >
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
+-->
 
 ## Using file accelerator on Microsoft Edge browser {#using-file-accelerator-on-microsoft-edge-browser}
 
