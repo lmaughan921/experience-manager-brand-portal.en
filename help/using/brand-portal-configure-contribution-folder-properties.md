@@ -46,6 +46,4 @@ Default URL: http:// localhost:4502/aem/start.html
 
 >[!NOTE]
 >
->Currently, groups cannot be assigned to a contribution folder.
->
 >The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. See, [Upload Brand Portal user list](brand-portal-configure-asset-sourcing.md).
