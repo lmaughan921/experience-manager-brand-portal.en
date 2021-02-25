@@ -13,11 +13,12 @@ discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 
 # Share assets as a link {#share-assets-as-a-link} 
 
-AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
+Adobe Experience Manager Assets Brand Portal administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 
 Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
 
-Link sharing access is restricted to editors and administrators. 
+<!-- Link sharing access is restricted to editors and administrators. 
+-->
 
 For more information, see [Managing users, groups, and user roles](../using/brand-portal-adding-users.md#manage-user-roles).
 
@@ -28,17 +29,11 @@ For more information, see [Managing users, groups, and user roles](../using/bran
 
 Following are the steps to share assets as a link:
 
-1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
+1. Log in to your Brand Portal tenant. By default, the **[!UICONTROL Files]** view opens which contains all the published assets and folders.
 
-   ![](assets/siderail.png)
+1. Select the assets or folders that you want to share, or navigate to the **[!UICONTROL Collections]** view to share the collections that you have created. 
 
-1. From the siderail on the left, click **[!UICONTROL Files]** to share folders or images. To share collections, click **[!UICONTROL Collections]**.
-
-   ![](assets/navigationrail.png)
-
-1. Select the folders or collections you want to share as a link.
-
-   ![](assets/asset-link-share.png)
+   ![select-multiple-assets](assets/select-assets-new.png)
 
 1. From the toolbar at the top, click the **[!UICONTROL Share Link]** icon.
 
@@ -46,25 +41,24 @@ Following are the steps to share assets as a link:
 
    ![](assets/link-sharing.png)
 
-   >[!NOTE]
-   >
-   >The **[!UICONTROL Share Link]** field displays an automatically created asset link. The default expiry time for this link is 7 days. You can copy the link and share it separately with users or share it from the **[!UICONTROL Link Sharing]** dialog box.
+   * In the email address box, type the email ID of the user with whom you want to share the link. You can share the link with multiple users. If the user is a member of your organization, select their email ID from the suggestions that appear in the drop-down list. If the user is external, type the complete email ID and press **[!UICONTROL Enter]**; the email ID is added to the list of users.
 
-1. In the email address box, type the email ID of the user with whom you want to share the link. You can share the link with multiple users.
+     ![](assets/link-sharing-text.png)
 
-   If the user is a member of your organization, select their email ID from the suggestions that appear in the drop-down list. If the user is external, type the complete email ID and press **[!UICONTROL Enter]**; the email ID is added to the list of users.
-
-   ![](assets/link-sharing-text.png)
-
-1. In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
-1. In the **[!UICONTROL Message]** box, type a message if necessary.
-1. In the **[!UICONTROL Expiration]** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
+   * In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
+   * In the **[!UICONTROL Message]** box, type a message if necessary.
+   * In the **[!UICONTROL Expiration]** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
+   * Enable the **[!UICONTROL Allow downlod of original file]** check box to allow the recepients to download the original rendition. 
 
    The assets shared through the link expire after crossing the date and time specified in the **[!UICONTROL Expiration]** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
-1. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the users. Users receive an email containing the link.
+   >[!NOTE]
+   >
+   >The default expiry time for the link is 7 days. The link must be emailed to the users using the **[!UICONTROL Link Sharing]** dialog box, do not copy and share the link separately. 
 
-   ![](assets/link-sharing-email.png)
+1. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the users. Users receive an email containing the shared link.
+
+   ![](assets/link-share-email.png)
 
    >[!NOTE]
    >
@@ -72,26 +66,43 @@ Following are the steps to share assets as a link:
 
 ## Download assets from shared links {#download-assets-from-shared-links}
 
-Click the link in the email, to view the shared asset. The AEM Link Share page opens.
+Click the link in the email, to access the shared asset. The AEM Link Share page opens.
 
 To download the shared assets:
 
-1. Click the assets and then click **[!UICONTROL Download]** icon from the toolbar.
+1. Click the assets or folders, and then click the **[!UICONTROL Download]** icon from the toolbar.
 
-   ![](assets/assets-shared-link.png)
+   ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
    >Currently, you can generate a preview and thumbnail only for certain assets, depending on the file format. For more information about the supported file formats, see [Preview and thumbnail support for asset formats](#preview-thumbnail-support).
 
+1. The **[!UICONTROL Download]** dialog box appears.
+
+   ![download-dialog](assets/download-dialog-box-new.png)
+    
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to continue downloading using IBM Aspera Connect. 
+
+   To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. 
+   
+   All the selected renditions are downloaded in a zip folder containing a separate folder for each asset.
+
    >[!NOTE]
    >
-   >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the licensed assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, only the unlicensed assets are downloaded.  
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets].
+   >If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder. A separate folder is created for each asset inside the zip folder.
 
-   ![](assets/licensed-asset-download.png)
+   >[!NOTE]
+   >
+   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
-   The **[!UICONTROL Download]** dialog box appears.
+
+>[!NOTE]
+>
+>Brand Portal restricts downloading assets larger than 5GB per file size.
+
+<!--
+1. The **[!UICONTROL Download]** dialog box appears.
 
    ![](assets/download-linkshare.png)
 
@@ -107,11 +118,12 @@ To download the shared assets:
 
    ![](assets/download-linkshare-autoren.png)
 
-1. Tap/ click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
+1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
 >[!NOTE]
 >
->Brand Portal restricts downloading assets larger than 5 GB per file size.
+>Brand Portal restricts downloading assets larger than 5GB per file size.
+--> 
 
 ## Preview and thumbnail support for asset formats {#preview-thumbnail-support}
 
@@ -189,18 +201,15 @@ The following legend explains the symbols used in the matrix:
 
 To unshare previously shared assets as a link, do the following:
 
-1. To view the assets you shared as links, click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
-
-   ![](assets/siderail.png)
-
-1. From the siderail, click **[!UICONTROL Shared Links]**.
-
-   ![](assets/navigationrail.png)
+1. When you login to Brand Portal, the **[!UICONTROL File]** view opens by default. To view the assets you shared as links, navigate to the **[!UICONTROL Shared Links]** view. 
 
 1. Review the links you shared from the list displayed.
-1. To unshare a link from the list, select it and click the bin icon next to the link entry, or the **[!UICONTROL Unshare]** icon from the toolbar at the top.
+   
+   ![](assets/shared-links.png)
 
-   ![](assets/unshare-links.jpg)
+1. To unshare a link from the list, select it and click the **[!UICONTROL Unshare]** icon from the toolbar at the top.
+
+   ![](assets/unshare-asset.png)
 
    >[!NOTE]
    >
