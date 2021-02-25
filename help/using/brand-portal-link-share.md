@@ -41,10 +41,6 @@ Following are the steps to share assets as a link:
 
    ![](assets/link-sharing.png)
 
-   >[!NOTE]
-   >
-   >The **[!UICONTROL Share Link]** field displays an automatically created asset link. The default expiry time for this link is 7 days. You can copy the link and share it separately with users or share it from the **[!UICONTROL Link Sharing]** dialog box.
-
    * In the email address box, type the email ID of the user with whom you want to share the link. You can share the link with multiple users. If the user is a member of your organization, select their email ID from the suggestions that appear in the drop-down list. If the user is external, type the complete email ID and press **[!UICONTROL Enter]**; the email ID is added to the list of users.
 
      ![](assets/link-sharing-text.png)
@@ -52,12 +48,17 @@ Following are the steps to share assets as a link:
    * In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
    * In the **[!UICONTROL Message]** box, type a message if necessary.
    * In the **[!UICONTROL Expiration]** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
+   * Enable the **[!UICONTROL Allow downlod of original file]** check box to allow the recepients to download the original rendition. 
 
    The assets shared through the link expire after crossing the date and time specified in the **[!UICONTROL Expiration]** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
+   >[!NOTE]
+   >
+   >The default expiry time for the link is 7 days. The link must be emailed to the users using the **[!UICONTROL Link Sharing]** dialog box, do not copy and share the link separately. 
+
 1. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the users. Users receive an email containing the shared link.
 
-   ![](assets/link-sharing-email.png)
+   ![](assets/link-share-email.png)
 
    >[!NOTE]
    >
@@ -79,7 +80,7 @@ To download the shared assets:
 
 1. The **[!UICONTROL Download]** dialog box appears.
 
-   ![download-dialog](assets/download-dialog-new.png)
+   ![download-dialog](assets/download-dialog-box-new.png)
     
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to continue downloading using IBM Aspera Connect. 
 
