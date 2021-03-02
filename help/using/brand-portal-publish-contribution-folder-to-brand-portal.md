@@ -61,7 +61,7 @@ It is recommended to use lowercase letters without any space to name the folder.
   
    ![](assets/contribution-folder.png)
 
-You can now configure the contribution folder properties. 
+You can also configure the contribution folder properties while creating the contribution folder. 
 
 ## Configure contribution folder properties {#configure-contribution-folder-properties}
 

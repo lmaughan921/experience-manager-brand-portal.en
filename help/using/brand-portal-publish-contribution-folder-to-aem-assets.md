@@ -114,7 +114,7 @@ After publishing the newly created assets to AEM Assets, the Brand Portal users 
 
 Once the objective of creating the contribution folder is achieved, the Brand Portal administrator can delete the contribution folder to release the upload space for other users. 
 
-**Publishing job status**
+## Publishing job status {#publishing-job-status}
 
 There are two reports which the administrators can utilize to view the status of the asset contribution folders published from Brand Portal to AEM Assets. 
 
@@ -122,13 +122,27 @@ There are two reports which the administrators can utilize to view the status of
 
   ![](assets/contribution-folder-status.png)
 
-* In AEM Assets author instance, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. This report reflects the final state (Success or Error) of all the publishing jobs. 
+* In AEM Assets (on premise or managed service), navigate to **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. This report reflects the final state (Success or Error) of all the publishing jobs. 
 
   ![](assets/publishing-status.png)
 
+* In AEM Assets as a Cloud Service, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Reports]**. 
+  
+  Click on **[!UICONTROL Create]** button and select **[!UICONTROL Publish]** to create a publishing report. 
+
+  ![](assets/create-publish-report.png)
+
+  Enter the **[!UICONTROL Title]** and **[!UICONTROL Description]**, then select the **[!UICONTROL Folder Path]** of the contribution folder and schedule the report for **[!UICONTROL Now]**. Click **[!UICONTROL Next]**. 
+
+  ![](assets/create-publish-report1.png)
+
+  Select the field attributes that you want in the report and generate it. This report reflects the final state (Success or Error) of all the publishing jobs.
+
+<!--
 >[!NOTE]
 >
->The user interface of AEM Assets as a Cloud Service may have a slight difference but the workflow remains unchanged. 
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
