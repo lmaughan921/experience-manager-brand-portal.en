@@ -65,9 +65,11 @@ The following video demonstrates, how to configure Asset Sourcing on your AEM As
 
 AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
->>[!NOTE]
+
+>[!NOTE]
 >
 >This step is not applicable for AEM Assets as a Cloud Service.
+
 
 **To enable Asset Sourcing:**
 1. Log in to your AEM Assets author instance and open Configuration Manager. 
