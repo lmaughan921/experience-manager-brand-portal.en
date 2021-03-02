@@ -30,8 +30,8 @@ user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by s
   + [Publish tags to Brand Portal](using/brand-portal-publish-tags.md)
   + [Publish presets, schema, and facets to Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
-  + [Asset Sourcing](using/brand-portal-asset-sourcing.md)
-  + [Configure contribution folder](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+  + [Asset Sourcing overview](using/brand-portal-asset-sourcing.md)
+  + [Configure contribution folder in AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
   + [Publish contribution folder to AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Share assets with users {#share}
   + [Share a collection](using/brand-portal-share-collection.md)
