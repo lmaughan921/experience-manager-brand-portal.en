@@ -28,14 +28,9 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 ## Prerequisites {#prerequisites}
 
-* AEM 6.5.2 or above.
+* AEM Assets as a Cloud Service instance, AEM Assets 6.5.2 or above.
 * Ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
-
->[!NOTE]
->
->Asset Sourcing is not supported on AEM Assets as a Cloud Service.
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -44,25 +39,72 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 >[!NOTE]
 >
->There is a known issue in AEM 6.5.4. Brand Portal users are not be able to publish contribution folder's assets to AEM Assets on upgrading to Adobe Developer Console. 
+>There is a known issue in AEM Assets 6.5.4. Brand Portal users are not be able to publish contribution folder's assets to AEM Assets on upgrading to Adobe Developer Console. 
 >
 >The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console.
 >
 >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 
+## Configure Asset Sourcing {#configure-asset-sourcing}
+
+**Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
+
+>[!NOTE]
+>
+>Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
+
+>[!NOTE]
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
+
+The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
+
+### Enable Asset Sourcing {#enable-asset-sourcing}
+
+AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
+
+>[!NOTE]
+>
+>This step is not applicable for AEM Assets as a Cloud Service.
+
+
+**To enable Asset Sourcing:**
+1. Log in to your AEM Assets author instance and open Configuration Manager. 
+Default URL: http:// localhost:4502/system/console/configMgr.
+1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window.
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
+1. Click **[!UICONTROL Save]**.
+
+![](assets/enable-asset-sourcing.png)
+
+### Upload Brand Portal users list {#upload-bp-user-list}
+
+AEM administrators can upload the Brand Portal user configuration (.csv) file containing active Brand Portal user list in AEM Assets. A contribution folder can only be shared with the active Brand Portal users defined in the user list. The administrator can also add new users in the configuration file and upload the modified user list.
+
+>[!NOTE]
+>
+>The format of the CSV file is same as supported in Admin Console for bulk user import. Email, first name, and last name are mandatory. 
+
+The administrators can add new users in AEM Admin Console, see [Manage Users](brand-portal-adding-users.md) for detailed information. After adding users in Admin Console, these users can be added to the Brand Portal user configuration file and then assigned permission to access the contribution folder.
+
+**To upload Brand Portal users list:**
+1. Log in to your AEM Assets instance. 
+1. From the **Tools**  panel, navigate to **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+
+1. Brand Portal Upload Contributors window opens.
+Browse from your local machine and upload **configuration (.csv) file** containing the active Brand Portal users list.
+1. Click **[!UICONTROL Save]**.
+
+   ![](assets/upload-user-list2.png)
+
+
+Administrators can provide access to specific users from this user list while configuring a contribution folder. Only the users that are assigned to a contribution folder will have access to the contribution folder and publish assets from Brand Portal to AEM Assets.   
 
 ## See also {#reference-articles}
 
-**For administrators**
+* [Configure and publish contribution folder to Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Configure Asset Sourcing in AEM](brand-portal-configure-asset-sourcing.md)
-* [Upload Brand Portal users list](brand-portal-configure-asset-sourcing.md)
-* [Configure contribution folder](brand-portal-contribution-folder.md)
-* [Upload baseline assets to contribution folder](brand-portal-upload-baseline-assets.md)
-* [Publish contribution folder to Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
-
-**For Brand Portal users**
-
-* [Download asset requirements](brand-portal-download-asset-requirements.md)
-* [Upload new assets to contribution folder](brand-portal-upload-assets-to-contribution-folder.md)
 * [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)

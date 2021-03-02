@@ -89,7 +89,7 @@ For updates and version change, it is recommended to track the [Release Notes](b
 
 **Ques. Is there any action required on my part as a Brand Portal user?**
 
-**Ans.** Brand Portal 6.4.5 release comes with a new feature named Asset Sourcing. AEM administrator must configure Asset Sourcing feature in AEM Assets to enable the feature for the Brand Portal users. For more information, refer to [Enable Asset Sourcing](brand-portal-configure-asset-sourcing.md).
+**Ans.** Brand Portal 6.4.5 release comes with a new feature named Asset Sourcing. AEM administrator must configure Asset Sourcing feature in AEM Assets to enable the feature for the Brand Portal users. For more information, refer to [Enable Asset Sourcing](brand-portal-asset-sourcing.md).
 
 
 
@@ -131,7 +131,7 @@ The Brand Portal users access the **Contribution** folder and upload content in 
 
 >[!NOTE]
 >
->If you are not an existing Brand Portal user, request the AEM administrator to create your user in the AEM admin console and add your profile to the user configuration file in Brand Portal users list. Refer, [Adding Brand Portal user](brand-portal-configure-asset-sourcing.md).
+>If you are not an existing Brand Portal user, request the AEM administrator to create your user in the AEM admin console and add your profile to the user configuration file in Brand Portal users list. 
 
 **Ques. What is the Format of the CSV file for user import?**
 
@@ -165,7 +165,7 @@ The Brand Portal users access the **Contribution** folder and upload content in 
 
 **Ques. How to upload new assets in a Contribution folder?**
 
-**Ans.** Refer to the detailed documentation for [Uploading assets to Contribution folder](brand-portal-upload-assets-to-contribution-folder.md).
+**Ans.** Refer to the detailed documentation for [Uploading assets to Contribution folder](brand-portal-publish-contribution-folder-to-brand-portal.md).
 
 
 
