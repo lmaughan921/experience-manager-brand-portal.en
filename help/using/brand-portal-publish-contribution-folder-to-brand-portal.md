@@ -97,7 +97,7 @@ Asset requirement refers to the details provided by administrators to help contr
 
 >[!NOTE]
 >
->The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. See, [Upload Brand Portal user list](brand-portal-configure-asset-sourcing.md).
+>The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. 
 
 ## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
