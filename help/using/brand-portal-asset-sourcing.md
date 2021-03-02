@@ -49,7 +49,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 **Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
->>[!NOTE]
+>[!NOTE]
 >
 >Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
 
