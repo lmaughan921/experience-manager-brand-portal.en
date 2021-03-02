@@ -128,7 +128,7 @@ There are two reports which the administrators can utilize to view the status of
 
 >[!NOTE]
 >
->The user interface of AEM Assets as a Cloud Service is slightly different then the Managed Services or On-premises AEM Assets instance.
+>The user interface of AEM Assets as a Cloud Service may have a slight difference but the worlkflow remains unchanged. 
 
 
 
