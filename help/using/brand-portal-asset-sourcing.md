@@ -45,7 +45,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 >
 >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 
-# Configure Asset Sourcing {#configure-asset-sourcing}
+## Configure Asset Sourcing {#configure-asset-sourcing}
 
 **Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
@@ -61,7 +61,7 @@ The following video demonstrates, how to configure Asset Sourcing on your AEM As
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
 
-## Enable Asset Sourcing {#enable-asset-sourcing}
+### Enable Asset Sourcing {#enable-asset-sourcing}
 
 AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
@@ -79,7 +79,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ![](assets/enable-asset-sourcing.png)
 
-## Upload Brand Portal users list {#upload-bp-user-list}
+### Upload Brand Portal users list {#upload-bp-user-list}
 
 AEM administrators can upload the Brand Portal user configuration (.csv) file containing active Brand Portal user list in AEM Assets. A contribution folder can only be shared with the active Brand Portal users defined in the user list. The administrator can also add new users in the configuration file and upload the modified user list.
 
