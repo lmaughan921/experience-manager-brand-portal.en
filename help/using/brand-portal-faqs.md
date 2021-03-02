@@ -131,7 +131,7 @@ The Brand Portal users access the **Contribution** folder and upload content in 
 
 >[!NOTE]
 >
->If you are not an existing Brand Portal user, request the AEM administrator to create your user in the AEM admin console and add your profile to the user configuration file in Brand Portal users list. Refer, [Adding Brand Portal user](brand-portal-configure-asset-sourcing.md).
+>If you are not an existing Brand Portal user, request the AEM administrator to create your user in the AEM admin console and add your profile to the user configuration file in Brand Portal users list. 
 
 **Ques. What is the Format of the CSV file for user import?**
 
