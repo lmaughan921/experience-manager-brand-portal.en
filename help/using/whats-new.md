@@ -17,8 +17,14 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is an enhancement release that focuses on the improvement of asset download experience and includes critical fixes. It enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is an enhancement release that focuses on facilitating the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience and includes critical fixes. It enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
+
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
+
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The features is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to asset sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. The administrators can review and approve the contribution of the Brand Portal users to further distribute them to other Brand Portal users.      
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
 ### Asset Download {#asset-download-setting}
 
