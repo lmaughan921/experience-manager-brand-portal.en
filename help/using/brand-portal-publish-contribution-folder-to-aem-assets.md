@@ -46,7 +46,7 @@ Brand Portal dashboard reflects all the existing folders permitted to the Brand 
 Or, you can to open the **[!UICONTROL SHARED]** folder and click **Download** icon ![](assets/download.png) to download individual files/folders.
 ![](assets/download-asset-requirement3.png)
 
-Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder. See, [Upload assets to contribution folder](brand-portal-upload-assets-to-contribution-folder.md).
+Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder..
 
 
 ## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
@@ -85,14 +85,14 @@ The Brand Portal dashboard reflects all the existing folders permitted to the Br
 
    ![](assets/upload-new-assets3.png)
 
-After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. 
 
 
 ## Publish contribution folder to AEM Assets {#publish-contribution-folder-to-aem}
 
 Brand Portal users can publish the contribution folder to AEM Assets without needing access to the AEM author instance.
 
-Ensure that you have gone through the [asset requirements](brand-portal-download-asset-requirements.md) and upload the newly created assets in **NEW** folder within the contribution folder. See, [Upload assets to contribution folder](brand-portal-upload-assets-to-contribution-folder.md). 
+Ensure that you have gone through the asset requirements and upload the newly created assets in **NEW** folder within the contribution folder. 
 
 **To publish contribution folder:**
 

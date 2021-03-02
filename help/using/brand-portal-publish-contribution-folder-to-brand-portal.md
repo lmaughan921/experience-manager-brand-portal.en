@@ -61,7 +61,7 @@ It is recommended to use lowercase letters without any space to name the folder.
   
    ![](assets/contribution-folder.png)
 
-You can now [configure the contribution folder properties](brand-portal-configure-contribution-folder-properties.md). 
+You can now configure the contribution folder properties. 
 
 ## Configure contribution folder properties {#configure-contribution-folder-properties}
 
@@ -101,7 +101,7 @@ Asset requirement refers to the details provided by administrators to help contr
 
 ## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
-The Brand Portal users can [download the asset requirements](brand-portal-download-asset-requirements.md) to understand the need of contribution. 
+The Brand Portal users can download the asset requirements to understand the need of contribution. 
 They can then create new assets for contribution and upload them to the NEW folder within the contribution folder.
 
 >[!NOTE]
@@ -141,12 +141,12 @@ The Brand Portal dashboard reflects all the existing folders permitted to the Br
 
    ![](assets/upload-new-assets3.png)
 
-After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. See, [Publish contribution folder to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. 
 
 
 ## Publish contribution folder to Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Once the [contribution folder is configured](brand-portal-configure-contribution-folder-properties.md), AEM user (administrator/non-admin user) can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
+Once the contribution folder is configured, AEM user (administrator/non-admin user) can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
 
 
 **To publish contribution folder:**
