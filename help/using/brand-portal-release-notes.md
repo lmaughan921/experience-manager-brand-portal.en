@@ -85,6 +85,13 @@ This release includes fixes to the following critical issues:
 
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
+
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* The users are not receiving email notifications for the Asset Sourcing publishing workflows. 
+
 <!--
 ### Known Issues {#known-issues}
 
