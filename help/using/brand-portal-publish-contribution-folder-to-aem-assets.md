@@ -36,15 +36,24 @@ Brand Portal dashboard reflects all the existing folders permitted to the Brand 
 
 1. Log in to your Brand Portal instance.
 1. Select contribution folder from the Brand Portal dashboard.
-1. Click **[!UICONTROL Properties]** ![](assets/properties.png). Property window opens, displaying the Asset Contribution folder details.
-![](assets/download-asset-requirement1.png)
-1. Click **[!UICONTROL Download Brief]** ![](assets/download.png) to download the asset requirement document on your local machine.
-![](assets/download-asset-requirement2.png)
+1. Click **[!UICONTROL Properties]**. The Property window containing the contribution folder details opens.
+
+   ![](assets/properties.png)
+
+   ![](assets/download-asset-requirement2.png)
+
+1. Click on the **[!UICONTROL Download Brief]** option to download the asset requirement document on your local machine.
+
+   ![](assets/download.png)
+
 1. Go back to the Brand Portal dashboard.
 1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder. The SHARED folder contains all the baseline assets (reference content) shared by the administrators. 
 1. You can download the **[!UICONTROL SHARED]** folder containing all the baseline assets on your local machine. 
-Or, you can to open the **[!UICONTROL SHARED]** folder and click **Download** icon ![](assets/download.png) to download individual files/folders.
-![](assets/download-asset-requirement3.png)
+Or, you can to open the **[!UICONTROL SHARED]** folder and click the **Download** icon to download individual files/folders.
+
+   ![](assets/download.png)
+   
+   ![](assets/download-asset-requirement4.png)
 
 Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder..
 
@@ -75,15 +84,15 @@ The Brand Portal dashboard reflects all the existing folders permitted to the Br
 
 1. Click on the **[!UICONTROL NEW]** folder.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Files]** to upload individual files or folder (.zip) containing multiple assets.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Browse and upload assets (files or folders) to the **[!UICONTROL NEW]** folder.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. 
 
@@ -103,7 +112,7 @@ Ensure that you have gone through the asset requirements and upload the newly cr
 
    ![](assets/export.png)
    
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 An email/pulse notification is sent to the Brand Portal user and administrators at different stages of the publishing workflow:
 1. **Queued** - A notification is sent to the Brand Portal user and Brand Portal administrators when a publishing workflow triggers in Brand Portal.
@@ -122,21 +131,17 @@ There are two reports which the administrators can utilize to view the status of
 
   ![](assets/contribution-folder-status.png)
 
-* In AEM Assets (on premise or managed service), navigate to **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. This report reflects the final state (Success or Error) of all the publishing jobs. 
+* In AEM Assets (on premise or managed service), navigate to **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. This report reflects the final state (Success or Error) of all the publishing jobs. 
 
   ![](assets/publishing-status.png)
 
-* In AEM Assets as a Cloud Service, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Reports]**. 
-  
-  Click on **[!UICONTROL Create]** button and select **[!UICONTROL Publish]** to create a publishing report. 
+* In AEM Assets as a Cloud Service, navigate to **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. 
 
-  ![](assets/create-publish-report.png)
+  Or, you can directly navigate to **[!UICONTROL Jobs]** from the global navigation.
 
-  Enter the **[!UICONTROL Title]** and **[!UICONTROL Description]**, then select the **[!UICONTROL Folder Path]** of the contribution folder and schedule the report for **[!UICONTROL Now]**. Click **[!UICONTROL Next]**. 
+  This report reflects the final state (Success or Error) of all the publishing jobs including the import of assets from Brand Portal to AEM Assets as a Cloud Service.
 
-  ![](assets/create-publish-report1.png)
-
-  Select the field attributes that you want in the report and generate it. This report reflects the final state (Success or Error) of all the publishing jobs.
+  ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
