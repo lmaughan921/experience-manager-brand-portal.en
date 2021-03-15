@@ -35,7 +35,7 @@ AEM Assets as a Cloud Service is automatically configured with Brand Portal by a
 
 Whereas, AEM Assets (On-premises and Managed Services) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
 
-For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+For more information, see [configuring AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## User personas in Brand Portal {#Personas}
 
