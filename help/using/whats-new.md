@@ -29,7 +29,7 @@ See [activate Brand Portal on AEM Assets as a Cloud Service](https://experiencel
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The features is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to asset sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. The administrators can review and approve the contribution of the Brand Portal users to further distribute them to other Brand Portal users.      
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to asset sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. The administrators can review and approve the contribution of the Brand Portal users to further distribute them to other Brand Portal users.      
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
@@ -181,7 +181,7 @@ With Document Viewer, the Brand Portal users now have the options to view pages,
 
 >[!NOTE]
 >
->The viewing experience for other documents formats remain unchanged.
+>The viewing experience for other document formats remains unchanged.
 
 
 ![](assets/doc-viewer.png)
@@ -226,7 +226,7 @@ In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Po
 
    -->
 
-The steps to configure AEM Assets with Brand Portal are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing configurations:
+The steps to configure AEM Assets with Brand Portal are different depending on your AEM version, and whether you are configuring for the first time, or upgrading the existing configurations:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -342,7 +342,7 @@ Similarly, specifying:
 
 ## What changed in 6.4.3 {#what-changed-in}
 
- Brand Portal 6.4.3 release focuses on — providing organizations with an alternate alias in addition to their tenant ID in Brand Portal access URL, new folder hierarchy configuration, video support enhancements, scheduled publishing from AEM Author instance to Brand Portal, operational enhancements — and cateres to customer requests.
+ Brand Portal 6.4.3 release focuses on — providing organizations with an alternate alias in addition to their tenant ID in Brand Portal access URL, new folder hierarchy configuration, video support enhancements, scheduled publishing from AEM Author instance to Brand Portal, operational enhancements — and caters to customer requests.
 
 ### Folder hierarchy navigation for non-admins
 
