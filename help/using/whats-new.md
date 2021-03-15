@@ -21,9 +21,19 @@ Brand Portal 2021.02.0 is an enhancement release that brings in the Brand Portal
 
 ### Brand Portal automation on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. A Cloud Manager user triggers the activation workflow which creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance.
+AEM Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. 
 
 Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
+
+A Cloud Manager user triggers the activation workflow which creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
+
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
+
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list to view the environment details. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
+
+![View Status](assets/create-environment5.png)
 
 See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
