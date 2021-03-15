@@ -33,7 +33,7 @@ Configuring Adobe Experience Manager Assets with Brand Portal enables asset publ
 
 AEM Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance.  
 
-Whereas, AEM Assets (On-premises and Managed Services) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
+Whereas, AEM Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
 
 For more information, see [configuring AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 

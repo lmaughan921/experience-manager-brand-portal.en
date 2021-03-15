@@ -17,14 +17,23 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is an enhancement release that focuses on facilitating the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience and includes critical fixes. It enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is an enhancement release that brings in the Brand Portal automation workflow on AEM Assets as a Cloud Service, facilitates the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience, and includes critical fixes. It also enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
+### Brand Portal automation on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+
+AEM Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. A Cloud Manager user triggers the activation workflow which creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance.
+
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant.
+
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
 The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The features is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to asset sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. The administrators can review and approve the contribution of the Brand Portal users to further distribute them to other Brand Portal users.      
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
 
 ### Asset Download {#asset-download-setting}
 
@@ -45,6 +54,7 @@ Log in to your Brand Portal tenant as an administrator and navigate to **[!UICON
 
 ![](assets/download-settings-new.png)
 
+See [download assets from Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en).
 <!--
 ### Download using Share link {#download-using-share-link}
 
