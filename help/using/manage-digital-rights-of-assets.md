@@ -9,6 +9,7 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
+role: Administrator
 ---
 
 # Manage digital rights of assets {#manage-digital-rights-of-assets}

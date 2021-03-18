@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
+role: Administrator
 ---
 
 # Manage the lightbox collection {#manage-the-lightbox-collection}

@@ -9,6 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
+role: Administrator
 ---
 
 # Configure AEM Assets with Brand Portal {#configure-integration}
