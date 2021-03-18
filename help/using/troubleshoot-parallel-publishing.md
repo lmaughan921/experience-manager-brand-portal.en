@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
+role: Administrator
 ---
 
 # Troubleshoot issues in parallel publishing to Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}

@@ -11,7 +11,6 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 product: experience-manager
 sub-product: assets
-feature: brand-portal
 topics: collaboration, content-velocity, sharing 
 doc-type: feature-video
 activity: use

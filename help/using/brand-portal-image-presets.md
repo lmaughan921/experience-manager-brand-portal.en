@@ -8,6 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
+role: Administrator
 ---
 
 # Apply image presets or dynamic renditions {#apply-image-presets-or-dynamic-renditions}

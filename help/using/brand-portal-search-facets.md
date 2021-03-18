@@ -8,6 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
+role: Administrator
 ---
 
 # Use custom search facets {#use-custom-search-facets}

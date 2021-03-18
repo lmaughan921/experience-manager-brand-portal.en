@@ -8,6 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
+role: Administrator
 ---
 
 # Work with reports {#work-with-reports}
