@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 solution: Experience Manager
 feature-set: Experience Manager Assets
