@@ -10,8 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Administrator
+exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
 ---
-
 # Administer user access on Brand Portal {#administer-user-access-on-brand-portal}
 
 AEM Assets Brand Portal 6.4.2 onwards authorizes administrators to configure guest access and enable users to request access on Brand Portal of their organization. These configurations have been provided as **[!UICONTROL Access Settings]** configurations on the administrative panel. Both the settings are disabled by default.

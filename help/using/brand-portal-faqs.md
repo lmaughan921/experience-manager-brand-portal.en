@@ -8,9 +8,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 
+discoiquuid:
+exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 ---
-
 # Frequently Asked Questions {#frequently-asked-questions}
 
 The Brand Portal FAQs focuses on the end-users queries and issues they might encounter while working with the latest AEM Assets Brand Portal 6.4.6 release or earlier versions.

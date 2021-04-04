@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
+exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 ---
-
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
 AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.

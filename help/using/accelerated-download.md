@@ -9,8 +9,8 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
+exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 ---
-
 # Speed up the Brand Portal downloads {#guide-to-accelerate-downloads-from-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.

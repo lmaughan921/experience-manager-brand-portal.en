@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Administrator
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 ---
-
 # Customize wallpaper, header, and email message {#customize-wallpaper-header-and-email-message}
 
  Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.

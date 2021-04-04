@@ -8,9 +8,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 
+discoiquuid:
+exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 ---
-
 # Publish contribution folder to AEM Assets {#using-asset-souring-in-bp}
 
 Brand Portal users with appropriate permissions can upload multiple assets, or folders containing multiple assets, to the contribution folder. However, Brand Portal users are only able to upload assets to the **NEW** folder. The **SHARED** folder is meant for the distribution of baseline assets (reference content) which can be used by the Brand Portal users while creating new assets for contribution.
@@ -148,9 +148,3 @@ There are two reports which the administrators can utilize to view the status of
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
-
-
-
-
-
-

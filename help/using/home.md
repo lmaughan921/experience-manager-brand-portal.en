@@ -3,8 +3,8 @@ title: Adobe Experience Manager Assets Brand Portal Guide
 seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal Guide
 seo-description: Describes how to use Brand Portal
+exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 ---
-
 # Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
 
 **Adobe Experience Manager Assets Brand Portal** aids organizations to meet their marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.

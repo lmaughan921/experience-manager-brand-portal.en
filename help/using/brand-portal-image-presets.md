@@ -9,8 +9,8 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Administrator
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
 ---
-
 # Apply image presets or dynamic renditions {#apply-image-presets-or-dynamic-renditions}
 
 Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Administrator
+exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
 ---
-
 # Manage the lightbox collection {#manage-the-lightbox-collection}
 
 **[!UICONTROL Lightbox]** is a special type of collection that provides easy access to assets. Each user has an exclusive **[!UICONTROL Lightbox]** that is automatically created when they log in to Brand Portal for the first time. The **[!UICONTROL Lightbox]** collection cannot be deleted.

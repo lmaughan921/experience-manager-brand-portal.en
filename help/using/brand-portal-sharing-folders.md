@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
+exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 ---
-
 # Share folders on Brand Portal {#share-folders}
 
 Assets need to be published to Brand Portal from a pre-configured AEM Author instance, as Brand Portal does not support asset ingestion.

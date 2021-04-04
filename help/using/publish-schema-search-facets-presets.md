@@ -8,8 +8,8 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
+exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
 ---
-
 # Publish presets, schema, and facets to Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
 The article delves into publishing image presets, metadata schemas, and custom search facets from AEM Author instance to Brand Portal. Publishing capability enables organizations to reuse the image presets, metadata schemas, and search facets created/modified at AEM Author instance thereby reducing duplicate efforts.
