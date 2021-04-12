@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
+exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 ---
-
 # First-time login experience {#first-time-login-experience}
 
 The first-time login experience is same for all new AEM Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.

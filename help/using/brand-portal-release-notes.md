@@ -9,8 +9,8 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
-
 # Release Notes {#release-notes}
 
 Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.02.0 release.

@@ -8,8 +8,8 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
+exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 ---
-
 # Publish tags to Brand Portal {#publish-tags-to-brand-portal}
 
 Learn how to publish tags from AEM Assets to Brand Portal.

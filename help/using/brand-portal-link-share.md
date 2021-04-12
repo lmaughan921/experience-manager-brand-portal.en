@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
+exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 ---
-
 # Share assets as a link {#share-assets-as-a-link} 
 
 Adobe Experience Manager Assets Brand Portal administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.

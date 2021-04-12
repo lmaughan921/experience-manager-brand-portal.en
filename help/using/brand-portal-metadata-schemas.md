@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
+role: Administrator
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 ---
-
 # Use the metadata schema form {#use-the-metadata-schema-form}
 
 A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.

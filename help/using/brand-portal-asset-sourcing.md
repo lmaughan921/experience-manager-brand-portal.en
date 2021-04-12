@@ -11,15 +11,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
 product: experience-manager
 sub-product: assets
-feature: brand-portal
 topics: collaboration, content-velocity, sharing 
 doc-type: feature-video
 activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
+exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 ---
-
 # Asset Sourcing overview {#overview-asset-sourcing-in-bp}
 
 **Asset Sourcing** allows the AEM users (administrators/non-admin users) to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by the Brand Portal users. This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder. The AEM administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure BP users have the reference information they need. The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created **Contribution** folder to Brand Portal. Once the user is finished adding content in the **NEW** folder, they can publish the contribution folder back to the AEM author environment. Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.

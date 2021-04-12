@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
+exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 ---
-
 # Share collections {#share-collections}
 
 A collection represents a group of related assets stored together in Adobe Experience Manager Assets Brand Portal. The users can create smart collections by [applying omnisearch or facet search to filter out related assets](brand-portal-searching.md) and store them together for easy access and further sharing it with other Brand Portal users. 

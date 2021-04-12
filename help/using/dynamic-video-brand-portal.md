@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
+exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 ---
-
 # Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}
 
 Preview and play videos adaptively on Brand Portal with Dynamic Media support. Also download the dynamic renditions from the portal and shared links.

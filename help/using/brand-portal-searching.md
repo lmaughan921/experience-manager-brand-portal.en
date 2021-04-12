@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
+exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 ---
-
 # Search assets on Brand Portal {#search-assets-on-brand-portal}
 
 Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can also save your searches as smart collections for the future.

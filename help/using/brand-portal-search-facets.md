@@ -8,8 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
+role: Administrator
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141,cd0e6c36-aa23-4a50-aca6-81ca365ce447
 ---
-
 # Use custom search facets {#use-custom-search-facets}
 
 Administrators can add search predicates to the [!UICONTROL Filters] panel to customize search and make the search functionality versatile.
