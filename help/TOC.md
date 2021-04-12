@@ -53,7 +53,6 @@ role: Business Practitioner
   + [First-time login experience](using/brand-portal-onboarding.md)
   + [Manage users, groups, and user roles](using/brand-portal-adding-users.md)
   + [Customize wallpaper, header, and email message](using/brand-portal-branding.md)
-  + [Use custom search facets](using/brand-portal-search-facets.md)
   + [Use the metadata schema form](using/brand-portal-metadata-schemas.md)
   + [Apply image presets or dynamic renditions](using/brand-portal-image-presets.md)
   + [Work with reports](using/brand-portal-reports.md)
