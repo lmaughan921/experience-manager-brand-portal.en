@@ -9,7 +9,6 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 
-product: experience-manager
 sub-product: assets
 topics: collaboration, content-velocity, sharing 
 doc-type: feature-video
