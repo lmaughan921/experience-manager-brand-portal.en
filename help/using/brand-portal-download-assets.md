@@ -190,7 +190,6 @@ Following are the steps to download assets or folders containing assets from the
 >
 >If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
 
-
 >[!NOTE]
 >
 >If the **[!UICONTROL Asset Download]** setting is enabled in the **[!UICONTROL Download Settings]**, the asset renditions are downloaded in a separate folder for each asset within the zip folder.
