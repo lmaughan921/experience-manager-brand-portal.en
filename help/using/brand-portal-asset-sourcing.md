@@ -24,16 +24,24 @@ exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 
 Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections.
 
+![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
 ## Prerequisites {#prerequisites}
 
 * AEM Assets as a Cloud Service instance, AEM Assets 6.5.2 or above.
 * Ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
+<!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
+-->
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
-
-![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
-
+>[!NOTE]
+>
+>The Asset Sourcing feature is by default enabled on AEM Assets as a Cloud Service, AEM Assets 6.5.9 and above. 
+>
+>The existing configurations will continue to work on the earlier versions.
 
 >[!NOTE]
 >
@@ -43,6 +51,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 >
 >For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
 
+<!--
 ## Configure Asset Sourcing {#configure-asset-sourcing}
 
 **Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
@@ -58,7 +67,9 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
+-->
 
+<!--
 ### Enable Asset Sourcing {#enable-asset-sourcing}
 
 AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
@@ -77,10 +88,18 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+-->
+
 
 ### Upload Brand Portal users list {#upload-bp-user-list}
 
-AEM administrators can upload the Brand Portal user configuration (.csv) file containing active Brand Portal user list in AEM Assets. A contribution folder can only be shared with the active Brand Portal users defined in the user list. The administrator can also add new users in the configuration file and upload the modified user list.
+AEM administrators can upload the Brand Portal user configuration (.csv) file containing the active Brand Portal user list in AEM Assets to allow them access to the Asset Sourcing feature. 
+
+A contribution folder can only be shared with the active Brand Portal users defined in the user list. The administrator can also add new users in the configuration file and upload the modified user list.
+
+>[!NOTE]
+>
+>Ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
 
 >[!NOTE]
 >
