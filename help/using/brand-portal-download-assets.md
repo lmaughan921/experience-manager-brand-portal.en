@@ -193,11 +193,11 @@ Following are the steps to download assets or folders containing assets from the
 
 >[!NOTE]
 >
->If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder. 
->
 >If the **[!UICONTROL Asset Download]** setting is enabled in the **[!UICONTROL Download Settings]**, the asset renditions are downloaded in a separate folder for each asset within the zip folder.
 >  
 >If the assets are downloaded from a shared link, the asset renditions are downloaded in a separate folder for each asset within the zip folder.
+>
+>If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder.
 
 >[!NOTE]
 >
