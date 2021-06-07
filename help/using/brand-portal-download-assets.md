@@ -197,6 +197,7 @@ Following are the steps to download assets or folders containing assets from the
 >
 >If the **[!UICONTROL Asset Download]** setting is enabled in the **[!UICONTROL Download Settings]**, the asset renditions are downloaded in a separate folder for each asset within the zip folder.
 >  
+>If the assets are downloaded from a shared link, the asset renditions are downloaded in a separate folder for each asset within the zip folder.
 
 >[!NOTE]
 >

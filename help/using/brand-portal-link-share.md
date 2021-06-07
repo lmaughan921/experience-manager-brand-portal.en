@@ -90,7 +90,9 @@ To download the shared assets:
 
    >[!NOTE]
    >
-   >If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder. A separate folder is created for each asset inside the zip folder.
+   >A separate folder is created for each asset while downloading the assets from a shared link.
+   >
+   >If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder containing a separate folder for each asset.
 
    >[!NOTE]
    >
