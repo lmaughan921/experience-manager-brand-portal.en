@@ -34,14 +34,14 @@ To download the files faster, ensure the following:
 
 ## Download domains {#download-domains}
 
-  Following are the download domains for different geographies:
+Following are the download domains for different geographies:
 
-  | Region Code |Domain |
-  |---|---|
-  | NA OR1 |downloads-na1.brand-portal.adobe.com |
-  | NA VA5 |downloads-na2.brand-portal.adobe.com |
-  | EMEA LON5 |downloads-emea1.brand-portal.adobe.com |
-  | APAC SIN2 |downloads-apac1.brand-portal.adobe.com |
+| Region Code |Domain |
+|---|---|
+| NA OR1 |downloads-na1.brand-portal.adobe.com |
+| NA VA5 |downloads-na2.brand-portal.adobe.com |
+| EMEA LON5 |downloads-emea1.brand-portal.adobe.com |
+| APAC SIN2 |downloads-apac1.brand-portal.adobe.com |
 
 ## Sample download performance using file accelerator {#expected-download-performance-using-file-accelerator}
 
