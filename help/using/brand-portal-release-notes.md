@@ -67,7 +67,10 @@ Brand Portal 2021.06.0 is an internal release for T2E migration that introduces 
 
 This release includes the following enhancements:
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. A user can have multiple entitlements with the same email id for different T2E organizations.
+* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+<!--
+A user can have multiple entitlements with the same email id for different T2E organizations.
+-->
 
 * The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
 
@@ -94,8 +97,9 @@ This release includes fixes to the following critical issues:
 
 * Only 10 saved collections are visible in Smart Collections dropdown. 
 
+<!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
-
+-->
 
 <!--
 In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
@@ -109,6 +113,7 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
 ### Known Issues {#known-issues}
 
 This release includes the following known issue:
@@ -116,6 +121,7 @@ This release includes the following known issue:
 * The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
 
   However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
+-->
 
 <!--
 ### Known Issues {#known-issues}
