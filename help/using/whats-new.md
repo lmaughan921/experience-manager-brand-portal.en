@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 2021.02.0.
-seo-description: Take a look at the new features and enhancements for 2021.02.0.
+description: Take a look at the new features and enhancements for 2021.06.0.
+seo-description: Take a look at the new features and enhancements for 2021.06.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -15,9 +15,49 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
+## What changed in 2021.06.0 {#what-changed-in-june-2021}
+
+Brand Portal 2021.06.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+<!--
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+   
+### Add new users to T2E organization   {#add-users-to-T2E-org}
+
+On adding a new user in Admin Console for a new or migrated T2E organization, the user will have to perform an additional step **Join Team** to get entitled to the T2E organization. 
+
+The user is entitled only if the user chooses to **Join Team**, otherwise the user won't get access to the selected T2E organization in Brand Portal. 
+
+>[!NOTE]
+>
+>The workflow is not applicable to the existing Brand Portal users.
+
+![join team](assets/join-team.png)
+
+### Additional screen while navigating to Admin Console   {#navigate-to-admin-console}
+
+The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console. The workflow applies on the new and migrated T2E organizations.   
+
+Selecting the T2E organization is a one-time activity and is not required everytime the administrator navigates from Brand Portal to Admin Console.
+
+1. Log in to a T2E organization in Brand Portal as administrator.
+1. Go to **[!UICONTROL Tools]** > **[!UICONTROL Users]** > **[!UICONTROL Management]** and click on the link **[!UICONTROL Launch Admin Console]**. 
+
+   Or, go to **[!UICONTROL Unified Shell]** > **[!UICONTROL Administration]** and click on the link **[!UICONTROL Launch Admin Console]**. 
+1. Search the T2E organization to login to Admin Console.
+
+   ![org picker](assets/org-picker.png)
+
+-->
+
+<!--
+For a new or migrated T2E orgnization, the users will have an organization specific entitlement. A user can have multiple entitlements with the same email id for different T2E organizations. 
+-->
+
 ## What changed in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is an enhancement release that brings in the Brand Portal activation workflow on AEM Assets as a Cloud Service, facilitates the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience, and includes critical fixes. It also enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is an enhancement release that brings in the Brand Portal activation workflow on AEM Assets as a Cloud Service, facilitates the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience, and includes critical fixes. It also enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users.
 
 ### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
