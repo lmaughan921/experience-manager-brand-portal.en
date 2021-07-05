@@ -57,7 +57,7 @@ For a new or migrated T2E orgnization, the users will have an organization speci
 
 ## What changed in 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 is an enhancement release that brings in the Brand Portal activation workflow on AEM Assets as a Cloud Service, facilitates the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience, and includes critical fixes. It also enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 is an enhancement release that brings in the Brand Portal activation workflow on AEM Assets as a Cloud Service, facilitates the Asset Sourcing feature on AEM Assets as a Cloud Service, improvements in the asset download experience, and includes critical fixes. It also enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users.
 
 ### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
