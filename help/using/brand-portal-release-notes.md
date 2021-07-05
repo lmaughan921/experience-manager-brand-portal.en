@@ -61,6 +61,7 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
+<!--
 ### Enhancements {#enhancements}
 
 Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
@@ -68,13 +69,12 @@ Brand Portal 2021.06.0 is an internal release for T2E migration that introduces 
 This release includes the following enhancements:
 
 * For a new or migrated T2E organization, the users will have an organization specific entitlement. 
-<!--
-A user can have multiple entitlements with the same email id for different T2E organizations.
--->
+
 
 * The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
 
 * The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
+--> 
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -89,13 +89,13 @@ A user can have multiple entitlements with the same email id for different T2E o
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-This release includes fixes to the following critical issues:
+Brand Portal 2021.06.0 is an internal release that includes fixes to the following critical issues:
 
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
-* Video files with extension .mov are not getting played on Brand Portal. 
+* Video files with extension .mov are not running on Brand Portal. 
 
-* Only 10 saved collections are visible in Smart Collections dropdown. 
+* In Smart Collections dropdown, only 10 saved collections are visible. 
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
