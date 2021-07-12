@@ -9,7 +9,7 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-role: Administrator
+role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 ---
 # Administer general tenant configurations {#administer-general-tenant-configurations}

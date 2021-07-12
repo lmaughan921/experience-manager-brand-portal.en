@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
+role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 ---
 # Customize wallpaper, header, and email message {#customize-wallpaper-header-and-email-message}

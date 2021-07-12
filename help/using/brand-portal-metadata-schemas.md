@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
+role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 ---
 # Use the metadata schema form {#use-the-metadata-schema-form}

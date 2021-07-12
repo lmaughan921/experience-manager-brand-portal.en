@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-role: Administrator
+role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 ---
 # Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
