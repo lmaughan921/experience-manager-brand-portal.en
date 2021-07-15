@@ -72,7 +72,7 @@ If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http:
    ![Add user to Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. Assign the user to at least one product profile (formerly known as product configurations) so that the user can access Brand Portal. Select the appropriate product profile from the **[!UICONTROL Please select a profile for this product]** field.
-1. Click **[!UICONTROL Save]**. A welcome email is sent to the newly added user. The invited user can click on the link in the welcome email to access Brand Portal. The user can login using the email id ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Fedrated ID]) which is configured in Admin Console. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
+1. Click **[!UICONTROL Save]**. A welcome email is sent to the newly added user. The invited user can click on the link in the welcome email to access Brand Portal. The user can login using the email id ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Fedrated ID]) configured in Admin Console. For more information, see [First-time login experience](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
