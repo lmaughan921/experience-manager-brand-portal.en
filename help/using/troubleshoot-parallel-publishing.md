@@ -67,11 +67,11 @@ Most of the times when publishing is not working, the reason can be that the use
    i. search for user `mac-<tenantid>replication`
    ii. delete this user
 
-Now the system is all cleaned up. Now you can attempt creating a new  cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). There is no need to create a new application, rather just the public key needs to be updated from the newly created cloud config.
+Now the system is all cleaned up. Now you can attempt creating a new  cloudservice  config and still use the already existing JWT application in `https://legacy-oauth.cloud.adobe.io/`. There is no need to create a new application, rather just the public key needs to be updated from the newly created cloud config.
 
 ## Developer connection JWT application tenant visibility issue {#developer-connection-jwt-application-tenant-visibility-issue}
 
-If on [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. If you don't find the org name here or you can't create an application for a required tenant here, please check if you have sufficient (system administrator) rights to do this.
+If on `https://legacy-oauth.cloud.adobe.io/`, all the  orgs  (tenants) for which the current users hold system administrator are listed. If you don't find the org name here or you can't create an application for a required tenant here, please check if you have sufficient (system administrator) rights to do this.
 
 There is one known issue on this user interface that for any tenant only top 10 applications are visible. When you create the application, stay on that page and bookmark the URL. You don't need to go to the listing page of the application and find the application that you created. You can hit this bookmarked URL directly and update/delete the application whenever needed.
 
