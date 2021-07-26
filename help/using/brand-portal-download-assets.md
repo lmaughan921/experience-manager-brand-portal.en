@@ -22,7 +22,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (and above), the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for accelerated download of the assets. [Install IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in your browser’s extension before downloading the assets from Brand Portal. For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md). 
+>In Brand Portal 2020.10.0 (and above), the **[!UICONTROL Fast Download]** setting is enabled by default which uses IBM Aspera Connect for accelerated download of the assets. [Install IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) in your browser’s extension before downloading the assets from Brand Portal. For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md). 
 >
 >If you do not want to use IBM Aspera Connect and continue with the normal download process, contact the Brand Portal administrator to turn-off the **[!UICONTROL Fast Download]** setting. 
 
@@ -150,7 +150,7 @@ Following are the steps to download assets or folders containing assets from the
 
      >[!NOTE]
      >
-     >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to [install the Aspera download accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+     >If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser, it will prompt you to [install the Aspera download accelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
 
      >[!NOTE]
