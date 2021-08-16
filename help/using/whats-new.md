@@ -17,9 +17,41 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ## What changed in 2021.08.0 {#what-changed-in-august-2021}
 
-Brand Portal 2021.08.0 is an internal release that focuses on T2E migration which introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2021.08.0 is an internal release introducing Business profiles for enterprise and teams customers to give organizations better control over their assets. Existing Adobe ID accounts in your organization will be migrated over to Business IDs. It  will facilitate organization specific entitlement to the Brand Portal users. 
 
-   
+* Business IDs to all new and existing organizations once they're migrated. 
+* Until your organization is migrated, you'll continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.
+* Business IDs do not require any specific setup, such as claiming a domain or setting up SSO.
+* You can add users with any email address, including public email domains such as gmail.com or outlook.com.
+
+**How does it impacts Brand Portal users?**
+
+The migration does not impact on your existing data-set, assets, users, or any settings. The only internal change that will take place during the migration is the entitlement of your existing organization to Business profiles. 
+
+For all new or migrated organizations:
+
+* If the administrator is entitled to multiple organizations, the administrator may have to select the organization while navigating from Brand Portal to Admin Console.  
+* For a new or migrated organization, the new users that are added in Admin Console will receive an email notification to "Join Team" to get entitled to the organization. 
+
+
+### Reference articles {#reference-articles}
+
+* [Introducing Adobe Profiles](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+
+* [Manage Adobe Profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
+
+* [Update to Sign-in experience for users and admins](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+
+* [Login restriction during migration](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
+
+* [User management](https://helpx.adobe.com/enterprise/using/users.html)
+
+* [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
+
+* [Domain trust](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html#directory-trusting)
+
+
+<!--   
 ### Add new users to T2E organization   {#add-users-to-T2E-org}
 
 On adding a new user in Admin Console for a new or migrated T2E organization, the user will have to perform an additional step **Join Team** to get entitled to the T2E organization. 
@@ -54,7 +86,7 @@ When an organization is undergoing T2E migration, the users of that organization
 ![login restriction](assets/login-restriction.png)
 
 Once the migration is complete, the users can login to Brand Portal. The users will receive an email notification containing the entitlement changes. If the users are entitled to more than one organization, they will have to select the organization at the time of login. 
-
+-->
 
 
 <!--
