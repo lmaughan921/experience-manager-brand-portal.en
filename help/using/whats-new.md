@@ -1,8 +1,8 @@
 ---
 title: What's new in AEM Assets Brand Portal
 seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 2021.06.0.
-seo-description: Take a look at the new features and enhancements for 2021.06.0.
+description: Take a look at the new features and enhancements for 2021.08.0.
+seo-description: Take a look at the new features and enhancements for 2021.08.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -15,12 +15,9 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
-## What changed in 2021.06.0 {#what-changed-in-june-2021}
+## What changed in 2021.08.0 {#what-changed-in-august-2021}
 
-Brand Portal 2021.06.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
-
-<!--
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2021.08.0 is an internal release that focuses on T2E migration which introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
    
 ### Add new users to T2E organization   {#add-users-to-T2E-org}
@@ -37,9 +34,9 @@ The user is entitled only if the user chooses to **Join Team**, otherwise the us
 
 ### Additional screen while navigating to Admin Console   {#navigate-to-admin-console}
 
-The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console. The workflow applies on the new and migrated T2E organizations.   
+The administrators will have to perform an additional step of selecting the T2E organization while navigating from Brand Portal to Admin Console. The workflow applies on the new and migrated T2E organizations.   
 
-Selecting the T2E organization is a one-time activity and is not required everytime the administrator navigates from Brand Portal to Admin Console.
+Selection of the T2E organization is a one-time activity and is not required everytime the administrator navigates from Brand Portal to Admin Console.
 
 1. Log in to a T2E organization in Brand Portal as administrator.
 1. Go to **[!UICONTROL Tools]** > **[!UICONTROL Users]** > **[!UICONTROL Management]** and click on the link **[!UICONTROL Launch Admin Console]**. 
@@ -49,11 +46,25 @@ Selecting the T2E organization is a one-time activity and is not required everyt
 
    ![org picker](assets/org-picker.png)
 
--->
+
+### Restriction during migration of an organization   {#login-restriction}
+
+When an organization is undergoing T2E migration, the users of that organization will not be able to login to Brand Portal. The following error message appears on the screen. However, the migration won't impact the active user session until the token expires. 
+
+![login restriction](assets/login-restriction.png)
+
+Once the migration is complete, the users can login to Brand Portal. The users will receive an email notification containing the entitlement changes. If the users are entitled to more than one organization, they will have to select the organization at the time of login. 
+
+
 
 <!--
 For a new or migrated T2E orgnization, the users will have an organization specific entitlement. A user can have multiple entitlements with the same email id for different T2E organizations. 
 -->
+
+## What changed in 2021.06.0 {#what-changed-in-june-2021}
+
+Brand Portal 2021.06.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
 
 ## What changed in 2021.02.0 {#what-changed-in-feb-2021}
 
