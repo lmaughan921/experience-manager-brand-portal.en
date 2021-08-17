@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.06.0 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.06.0 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -19,8 +19,8 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.06.0|
-| Date | June 2021 |
+| Version | 2021.08.0|
+| Date | August 2021 |
 
 ## Overview {#overview}
 
@@ -61,20 +61,19 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-<!--
+
 ### Enhancements {#enhancements}
 
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
+Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
 This release includes the following enhancements:
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+* For a new or migrated organization, the users will have organization specific entitlement. If a user is entitled to multiple organizations, the user will have to select the organization at the time of login.
+
+* The new users that are added in Admin Console will have to **Join Team** to get entitled to the organization. 
 
 
-* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
 
-* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
---> 
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -89,7 +88,7 @@ This release includes the following enhancements:
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-Brand Portal 2021.06.0 is an internal release that includes fixes to the following critical issues:
+This release includes fixes to the following critical issues:
 
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -113,15 +112,17 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-<!--
+
 ### Known Issues {#known-issues}
 
 This release includes the following known issue:
 
-* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+* The users will not be able to login to Brand Portal during migration of their existing organization. 
 
-  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
--->
+  However, the active users who are logged in to Brand Portal can continue to work until their current session expires. 
+
+* When navigating from Brand Portal to Admin Console, the administrators may see an additional screen to select the organization. 
+
 
 <!--
 ### Known Issues {#known-issues}

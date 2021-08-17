@@ -44,7 +44,9 @@ For all new or migrated organizations:
 
 * [Login restriction during migration](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
 
-* [User management](https://helpx.adobe.com/enterprise/using/users.html)
+* [Admin Console Users](https://helpx.adobe.com/enterprise/using/users.html)
+
+* [Manage users in Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
 
 * [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
 
