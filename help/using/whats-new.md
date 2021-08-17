@@ -28,11 +28,6 @@ Brand Portal 2021.08.0 is an internal release introducing Business profiles for 
 
 The migration does not impact on your existing data-set, assets, users, or any settings. The only internal change that will take place during the migration is the entitlement of your existing organization to Business profiles. 
 
-For all new or migrated organizations:
-
-* If the administrator is entitled to multiple organizations, the administrator may have to select the organization while navigating from Brand Portal to Admin Console.  
-* For a new or migrated organization, the new users that are added in Admin Console will receive an email notification to "Join Team" to get entitled to the organization. 
-
 
 ### Reference articles {#reference-articles}
 
