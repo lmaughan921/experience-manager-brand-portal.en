@@ -123,6 +123,8 @@ This release includes the following known issue:
 
 * When navigating from Brand Portal to Admin Console, the administrators may see an additional screen to select the organization. 
 
+* The users are unable to remove the applied metadata schema profile from a folder. 
+
 
 <!--
 ### Known Issues {#known-issues}
