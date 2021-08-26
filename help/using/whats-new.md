@@ -669,7 +669,7 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 ### Download optimizations
 
 * A single large file is directly downloaded, without the creation of zip file, thereby improving the speed and throughput.
-* Zip download limit for link share feature has increased to 5GB, from 1GB.
+* The download limit per file size for link share feature is **1**GB.
 
 * Users can now choose to download only the custom and original files, and prevent out-of-the-box renditions, while downloading assets from Brand Portal or through the shared links feature.
 
