@@ -22,10 +22,6 @@ Sharing assets through a link is a convenient way of making them available to ex
 
 For more information, see [Managing users, groups, and user roles](../using/brand-portal-adding-users.md#manage-user-roles).
 
->[!NOTE]
->
->Upto 5GB of zip download is allowed using link share feature on Brand Portal.
-
 
 Following are the steps to share assets as a link:
 
@@ -101,7 +97,7 @@ To download the shared assets:
 
 >[!NOTE]
 >
->Brand Portal restricts downloading assets larger than 5GB per file size.
+>Brand Portal restricts download of assets larger than **1**GB per file size using link share.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -122,9 +118,6 @@ To download the shared assets:
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 --> 
 
 ## Preview and thumbnail support for asset formats {#preview-thumbnail-support}
