@@ -68,12 +68,15 @@ Brand Portal 2021.08.0 is an internal release that introduces Business profiles 
 
 This release includes the following enhancements:
 
-* For a new or migrated organization, the users will have organization specific entitlement. If a user is entitled to multiple organizations, the user will have to select the organization at the time of login.
+* The users now have organization-specific entitlement on the new and migrated organizations. If a user is entitled to multiple organizations, the user has to select the organization at the time of login.
 
-* The new users that are added in Admin Console will have to **Join Team** to get entitled to the organization. 
+* The new users that are added in Admin Console must **Join Team** to get entitled to the organization. 
 
-
-
+>[!NOTE]
+>
+>Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
+>
+>Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -92,9 +95,9 @@ This release includes fixes to the following critical issues:
 
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
-* Video files with extension .mov are not running on Brand Portal. 
+* Video files with extension `.mov` are not running on Brand Portal. 
 
-* In Smart Collections dropdown, only 10 saved collections are visible. 
+* In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -115,13 +118,13 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 ### Known Issues {#known-issues}
 
-This release includes the following known issue:
+This release includes the following known issues:
 
-* The users will not be able to login to Brand Portal during migration of their existing organization. 
+* The users cannot log in to Brand Portal during migration of their existing organization. 
 
   However, the active users who are logged in to Brand Portal can continue to work until their current session expires. 
 
-* When navigating from Brand Portal to Admin Console, the administrators may see an additional screen to select the organization. 
+* When navigating from Brand Portal to Admin Console, the administrators may see an extra screen to select the organization. 
 
 * The users are unable to remove the applied metadata schema profile from a folder. 
 
@@ -189,12 +192,12 @@ The Brand Portal user interface is available in following languages:
 
 ## Certified Platforms {#certified-platforms}
 
-To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Links {#links}
 
-* [Adobe Experience Manager Product Page on adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal Documentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager Product Page on adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal Documentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
@@ -206,4 +209,4 @@ These sites are only available to customers. If you are a customer and require a
 
 * [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+* [Customer Support](https://helpx.adobe.com/contact.html)
