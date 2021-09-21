@@ -116,6 +116,7 @@ Based on the errors, you are advised to log a support ticket, so that Brand Port
 Usually the publishing job fails with a timeout error if there are multiple pending requests in the replication queue. To resolve this issue, ensure that the replication agents are configured to avoid timeout. 
 
 Perform the following steps to configure the replication agents:
+
 1. Log in to your AEM Assets author instance.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. In the Replication page, click **[!UICONTROL Agents on author]**. You can see the four replication agents of your Brand Portal tenant. 
