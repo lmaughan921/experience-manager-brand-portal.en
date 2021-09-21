@@ -17,6 +17,7 @@ exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
 Configuring Adobe Experience Manager Assets with Brand Portal enables asset publishing, asset distribution, and asset contribution features for the Brand Portal users. It allows the AEM Assets users to publish and distribute assets with the Brand Portal users. The Brand Portal users can access the shared assets and contribute by uploading new assets to the asset contribution folders and publishing them back to AEM Assets. 
 
 Configuring AEM Assets with Brand Portal is supported on:
+
 * AEM Assets as a Cloud Service
 * AEM Assets (on premise and managed service) 6.3 and above
 
