@@ -32,6 +32,10 @@ To download the files faster, ensure the following:
 * **Install IBM Aspera Connect 3.9.9** in your browser's extension using administrator privileges (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
+>[!NOTE]
+>
+>There is a known issue with IBM Aspera Connect. Fast download does not work with IBM Aspera Connect version 3.10 and above.
+
 ## Download domains {#download-domains}
 
 Following are the download domains for different geographies:
@@ -86,7 +90,7 @@ To download assets faster from Brand Portal:
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to download assets using IBM Aspera Connect. 
 
-   If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser or the existing version is out-of-date,  it will prompt you to install the Aspera download accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser or the existing version is out-of-date,  it prompts you to install the Aspera download accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
@@ -202,7 +206,7 @@ If download acceleration is not working for you, follow these steps to troublesh
 
    If ports are not OK, then reach out to your network team and ensure that Ports 33001 (both TCP & UDP) are not blocked in the firewall.
 
-1. If the ports are OK then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
+1. If the ports are OK, then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
 
    If the bandwidth is a few (1-10 Mbps) or in Kbps, then use Aspera Preferences and try to limit the bandwidth equal to the available bandwidth.
 
