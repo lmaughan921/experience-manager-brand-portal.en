@@ -13,19 +13,19 @@ exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 ---
 # Troubleshoot issues in parallel publishing to Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is configured with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
+Brand Portal is configured with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
 
 >[!NOTE]
 >
->Adobe recommends upgrading to AEM 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully configured with AEM Assets. A limitation in AEM 6.4 gives an error while configuring AEM Assets with Brand Portal and replication fails.
+>Adobe recommends upgrading to Experience Manager 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully configured with AEM Assets. A limitation in Experience Manager 6.4 gives an error while configuring AEM Assets with Brand Portal and replication fails.
 
-On configuring cloud service for brand portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. This creates four replication agents. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
+On configuring cloud service for Brand Portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. It creates four replication agents. So when you publish numerous assets from Experience Manager to Brand Portal, the assets are queued and distributed among the replication agents through Round Robin.
 
-However, publishing can fail intermittently due to- large sling jobs, increased Network and **[!UICONTROL Disk I/O]** on AEM Author instance, or slowed performance of AEM Author instance. It is, therefore, advised to test the connection with the replication agent(s) prior to begin publishing.
+However, publishing can fail intermittently due to- large sling jobs, increased Network and **[!UICONTROL Disk I/O]** on Experience Manager Author instance, or slowed performance of Experience Manager Author instance. It is, therefore, advised to test the connection with the replication agent(s) before you begin publishing.
 
 ![](assets/test-connection.png) 
 
-## Troubleshoot failures in first time publishing: validating your publish configuration {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Troubleshoot failures in first-time publishing: validating your publish configuration {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 To validate your publish configurations:
 
@@ -57,7 +57,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: `mac-<tenantid>-replication` doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new configuration instead. For the new configuration to work properly, clean up the following from AEM author setup:
+Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: `mac-<tenantid>-replication` doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a configuration instead. For the new configuration to work properly, clean up the following from Experience Manager author setup:
 
 1. Go to `localhost:4502/crx/de/` (considering you are running author instance on localhost:4502:  
    i. delete `/etc/replication/agents.author/mp_replication` 
@@ -67,7 +67,7 @@ Most of the times when publishing is not working, the reason can be that the use
    i. search for user `mac-<tenantid>replication`
    ii. delete this user
 
-Now the system is all cleaned up. Now you can attempt creating a new cloudservice config and still use the already existing JWT application. There is no need to create a new application, rather just the public key needs to be updated from the newly created cloud config.
+Now the system is all cleaned up. Now you can attempt to create a cloud service config and still use the existing JWT application. There is no need to create an application, rather update the public key from the newly created cloud config.
 
 >[!NOTE]
 >
@@ -76,9 +76,9 @@ Now the system is all cleaned up. Now you can attempt creating a new cloudservic
 
 ## Developer connection JWT application tenant visibility issue {#developer-connection-jwt-application-tenant-visibility-issue}
 
-If on `https://legacy-oauth.cloud.adobe.io/`, all the  orgs  (tenants) for which the current users hold system administrator are listed. If you don't find the org name here or you can't create an application for a required tenant here, please check if you have sufficient (system administrator) rights to do this.
+If on `https://legacy-oauth.cloud.adobe.io/`, all the  orgs  (tenants) for which the current users hold system administrator are listed. If you don't find the org name here or you can't create an application for a required tenant here, please check if you have sufficient (system administrator) rights.
 
-There is one known issue on this user interface that for any tenant only top 10 applications are visible. When you create the application, stay on that page and bookmark the URL. You don't need to go to the listing page of the application and find the application that you created. You can hit this bookmarked URL directly and update/delete the application whenever needed.
+There is one known issue on this user interface that for any tenant only top ten applications are visible. When you create the application, stay on that page and bookmark the URL. You don't need to go to the listing page of the application and find the application that you created. You can hit this bookmarked URL directly and update/delete the application whenever needed.
 
 The JWT application might not be listed appropriately. It is, therefore, advised to note/bookmark the URL while creating JWT application.
 
@@ -109,7 +109,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-If a replication agent (which was publishing to brand portal just fine) stops processing publish jobs, check replication logs. AEM has auto-retry built-in, so if a particular asset publish fails, it is retried automatically. If there is some intermittent issue like network error, it might succeed during re-try.
+If a replication agent (which was publishing to Brand Portal just fine) stops processing publish jobs, check replication logs. Experience Manager has auto-retry built-in, so if a particular asset publish fails, it is retried automatically. If there is some intermittent issue like network error, it might succeed during retry.
 
 If there are continuous publish failures and queue is blocked, then you should check **[!UICONTROL test connection]** and try to solve the errors that are being reported.
 
@@ -120,13 +120,12 @@ Based on the errors, you are advised to log a support ticket, so that Brand Port
 
 Usually the publishing job fails with a timeout error if there are multiple pending requests in the replication queue. To resolve this issue, ensure that the replication agents are configured to avoid timeout. 
 
-Perform the following steps to configure the replication agents:
+To configure the replication agents:
 
 1. Log in to your AEM Assets author instance.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. In the Replication page, click **[!UICONTROL Agents on author]**. You can see the four replication agents of your Brand Portal tenant. 
-1. Click the replication agent URL to open the agent details.
-1. Click **[!UICONTROL Edit]** to modify the replication agent settings.
+1. Click the replication agent URL and click **[!UICONTROL Edit]**.
 1. In Agent Settings , click the **[!UICONTROL Extended]** tab. 
 1. Select the **[!UICONTROL Close Connection]** check box.
 1. Repeat steps 4 through 7 to configure all the four replication agents. 
