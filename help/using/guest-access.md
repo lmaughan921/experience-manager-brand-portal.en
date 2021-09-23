@@ -1,10 +1,10 @@
 ---
 title: Guest Access to Brand Portal
 seo-title: Guest Access to Brand Portal
-description: Allow guest access and save the effort to onboard numerous users who do not need to be authenticated.
-seo-description: Allow guest access and save the effort to onboard numerous users who do not need to be authenticated.
+description: Allow guest access and save the effort to onboard numerous users without authentication.
+seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
-contentOwner: mgulati
+contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -13,9 +13,9 @@ exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
 ---
 # Guest Access to Brand Portal {#guest-access-to-brand-portal}
 
-AEM Brand portal allows guest access to the portal. A guest user doesn't need credentials to enter the portal and has access to the public assets (and collections) of the portal. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
+Experience Manager Assets Brand Portal allows guest access to the portal. A guest user does not need credentials to enter the portal and has access to the public assets (and collections) of the portal. Users in the guest session can add assets to lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
 
-Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. Brand Portal 6.4.2 onwards is equipped to serve multiple concurrent guest users, which is 10% of the total user quota per organization. Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on Brand Portal.  
+Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. Brand Portal 6.4.2 onwards is equipped to serve multiple concurrent guest users, which is 10% of the total user quota per organization. Allowing guest access saves time to manage and on-board scores of users with limited functionalities on Brand Portal.  
 Organizations can enable (or disable) guest access on Brand Portal account of the organization using **[!UICONTROL Allow Guest Access]** option from **[!UICONTROL Access]** settings in the administrative tools panel.
 
 <!--
@@ -29,7 +29,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Begin guest session {#begin-guest-session}
 
-To enter Brand Portal anonymously, select **[!UICONTROL Click here]** corresponding to **[!UICONTROL Guest Access?]** on Brand Portal welcome screen. Enter the catcha security check to grant access to use the Brand Portal.
+To enter Brand Portal anonymously, select **[!UICONTROL Click here]** corresponding to **[!UICONTROL Guest Access?]** on Brand Portal welcome screen. Enter the captcha security check to grant access to use the Brand Portal.
 
 ![](assets/bp-login-screen.png) 
 
@@ -39,11 +39,11 @@ To enter Brand Portal anonymously, select **[!UICONTROL Click here]** correspond
 A guest user session remains active for 15 mins. 
 This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost. 
 
-For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. If the user does not download the **[!UICONTROL Lightbox]** collection (or its assets) before 15:15 hours (within 15 mins of login), the user will have to restart the session. The **[!UICONTROL Lightbox]** will be empty which means the uploaded assets are no longer available if the session was lost.
+For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. If the user does not download the **[!UICONTROL Lightbox]** collection (or its assets) before 15:15 hours (within 15 mins of login), the user has to restart the session. The **[!UICONTROL Lightbox]** is empty which means the uploaded assets are no longer available if the session was lost.
 
 ## Concurrent guest sessions allowed {#concurrent-guest-sessions-allowed}
 
-The number of concurrent guest sessions is limited to 10% of the total user quota per organization. This means for an organization having user quota of 200, maximum 20 guest users can work at the same time. The 21st user is denied access, and can access as a guest only if the session of any of the 20 active guest users ends.
+The number of concurrent guest sessions is limited to 10% of the total user quota per organization. It means for an organization having user quota of 200, maximum 20 guest users can work at the same time. The 21st user is denied access, and can access as a guest only if the session of any of the 20 active guest users ends.
 
 ## Guest user interaction with Brand Portal {#guest-user-interaction-with-brand-portal}
 
@@ -77,11 +77,12 @@ Brand Portal provides **[!UICONTROL Overview]** option to guest users to view **
 
 * In the toolbar at the top on selecting an asset/folder.
 * In the drop-down on selecting the Rail Selector.
-On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting **[!UICONTROL Overview]** option lets the users see metadata of the asset.
+
+On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas on asset detail page selecting **[!UICONTROL Overview]** option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)<br />
+![](assets/overview-rail-selector-1.png)
 
 **[!UICONTROL Navigation]** option in the left rail allows navigating from files to collections and back in the guest session so that users can browse through assets in files or collections.
 
