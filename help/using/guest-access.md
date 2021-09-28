@@ -45,6 +45,10 @@ For example, a guest user logs in to Brand Portal at 1500 hours and adds assets 
 
 The number of concurrent guest sessions is limited to 10% of the total user quota per organization. It means for an organization having user quota of 200, maximum 20 guest users can work at the same time. The 21st user is denied access, and can access as a guest only if the session of any of the 20 active guest users ends.
 
+>[!NOTE]
+>
+>Brand Portal does not send notification if the number of licensed users exceeds the contracted value (quota). Also, it does not restrict any activity of the licensed users. 
+
 ## Guest user interaction with Brand Portal {#guest-user-interaction-with-brand-portal}
 
 ### Guest UI Navigation
