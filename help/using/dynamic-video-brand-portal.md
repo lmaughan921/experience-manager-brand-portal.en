@@ -63,7 +63,7 @@ Make sure that [separate Brand Portal tenants](#separate-tenants) are used for A
 * **Publish folders with video encodes applied to Brand Portal**
 Apply [video encodings](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) and publish the folder containing rich media assets from AEM Author instance to Brand Portal.
 * **Allowlist Egress IPs in SPS if secure preview enabled**
-If using Dynamic Media-**[!DNL Scene 7]** (with [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) for a company), then it is advised that **[!DNL Scene 7]** company administrator [allowlist the public egress IPs](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) for respective regions using  SPS (**[!UICONTROL Scene 7]** Publishing System) flash UI.
+If using Dynamic Media-**[!DNL Scene 7]** (with [secure preview enabled](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) for a company), then it is advised that **[!DNL Scene 7]** company administrator [allowlist the public egress IPs](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) for respective regions using  SPS (**[!UICONTROL Scene 7]** Publishing System) flash UI.
 The Egress IPs are as follows:
 
 | **Region**  | **Egress IP** |
@@ -72,7 +72,7 @@ The Egress IPs are as follows:
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
-To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
 ## Best Practices
 
@@ -80,7 +80,8 @@ To ensure that your dynamic video assets are successfully previewed, played, and
 
 ### Separate tenants for Dynamic Media Hybrid and Dynamic Media Scene 7 modes {#separate-tenants}
 
-If you are using both Dynamic Media **[!DNL Scene 7]** and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media **[!DNL Scene 7]** modes.<br />
+If you are using both Dynamic Media **[!DNL Scene 7]** and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media **[!DNL Scene 7]** modes.
+
 
 ![Author and BP one to one mapping](assets/BPDynamicMedia.png)
 
@@ -90,9 +91,9 @@ Ensure that the configuration details–such as **[!UICONTROL Title]**, **[!UICO
 
 ### Allowlist public egress IPs for Dynamic Media Scene 7 mode
 
-If Dynamic Media **[!UICONTROL Scene 7]**–having [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)–is used to serve video assets to Brand Portal, then **[!UICONTROL Scene 7]** establishes a dedicated image server for staging environments or internal applications. Any request to this server checks the origin IP address. If the incoming request is not within the approved list of IP addresses, a failure response is returned.
+If Dynamic Media **[!UICONTROL Scene 7]**–having [secure preview enabled](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)–is used to serve video assets to Brand Portal, then **[!UICONTROL Scene 7]** establishes a dedicated image server for staging environments or internal applications. Any request to this server checks the origin IP address. If the incoming request is not within the approved list of IP addresses, a failure response is returned.
 The **[!UICONTROL Scene-7]** Company Administrator, therefore, configures an approved list of IP addresses for their company’s **[!UICONTROL Secure Testing]** environment, through **[!UICONTROL SPS]** (Scene-7 Publishing System) flash UI. Make sure that the egress IP for your respective region (from the following) is added to that approved list.
-To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 The egress IPs are as follows:
 
 | **Region**  | **Egress IP** |
@@ -131,16 +132,21 @@ To set up Dynamic Media **[!UICONTROL Scene 7]** configurations on Brand Portal 
 
 1. Select the AEM logo to access administrative tools from the toolbar at the top, in Brand Portal.
 
-2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.<br />
-![DM [!UICONTROL Scene 7] configuration on Brand Portal](assets/DMS7-Tile.png)
-**[!UICONTROL Edit Dynamic Media Configuration]** page opens.<br />
-![Scene 7 Configuration on Brand Portal](assets/S7Config.png)
+2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.
 
-3. Provide:  
-    * **[!UICONTROL Title]**
-    * Credentials (**[!UICONTROL Email ID]** and **[!UICONTROL Password]**) to access the Scene 7 server
-    * **[!UICONTROL Region]**
-Make sure these values are the same as those in your AEM Author instance.
+   ![DM [!UICONTROL Scene 7] configuration on Brand Portal](assets/DMS7-Tile.png)
+
+   **[!UICONTROL Edit Dynamic Media Configuration]** page opens.
+
+   ![Scene 7 Configuration on Brand Portal](assets/S7Config.png)
+
+3. Provide: 
+
+   * **[!UICONTROL Title]**
+   * Credentials (**[!UICONTROL Email ID]** and **[!UICONTROL Password]**) to access the Scene 7 server
+   * **[!UICONTROL Region]**
+    
+   Make sure these values are the same as those in your AEM Author instance.
 
 4. Select **[!UICONTROL Connect to Dynamic Media]**.
 

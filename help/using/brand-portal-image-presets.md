@@ -24,7 +24,7 @@ An image preset is used to generate dynamic renditions of images that can be pre
 >When downloading images and their renditions, there is no option to choose from the existing presets. Instead, you can specify the properties of a custom image preset. For more information, see [Apply image presets when downloading images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
-For more information about the parameters required while creating image presets, see [Managing Image Presets](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
+For more information about the parameters required while creating image presets, see [Managing Image Presets](../using/brand-portal-image-presets.md).
 
 ## Create an image preset {#create-an-image-preset}
 
@@ -51,7 +51,7 @@ The AEM administrators can create image presets that appear as dynamic rendition
 
    ![](assets/image_preset_homepage.png)
 
-1. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Presets appear in the left pane and can be used on-the-fly with other assets.
+1. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. Presets appear in the left pane and can be used on-the-fly with other assets.
 
    ![](assets/image_preset_create.png)
 

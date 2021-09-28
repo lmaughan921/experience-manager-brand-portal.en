@@ -47,7 +47,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 >
 >There is a known issue in AEM Assets 6.5.4. Brand Portal users are not be able to publish contribution folder's assets to AEM Assets on upgrading to Adobe Developer Console. 
 >
->The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console.
+>The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console.
 
 <!--
 
@@ -111,6 +111,7 @@ A contribution folder can only be shared with the active Brand Portal users defi
 The administrators can add new users in AEM Admin Console, see [Manage Users](brand-portal-adding-users.md) for detailed information. After adding users in Admin Console, these users can be added to the Brand Portal user configuration file and then assigned permission to access the contribution folder.
 
 **To upload Brand Portal users list:**
+
 1. Log in to your AEM Assets instance. 
 1. From the **Tools**  panel, navigate to **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 
