@@ -32,7 +32,7 @@ The Brand Portal FAQs focuses on the end-users queries and issues they might enc
 
 **Ans.** Yes, there is a known issue while publishing contribution folder's assets to AEM Assets on AEM 6.5.4 via Adobe Developer Console. 
 
-The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console. 
+The issue is fixed in AEM 6.5.5. You can upgrade your AEM Assets instance to the latest service pack AEM 6.5.5 and [upgrade your configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) on Adobe Developer Console. 
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -52,6 +52,7 @@ This issue possibly occurs when you have configured a Brand Portal tenant on mul
 **Ans.** Usually the publishing fails with a timeout error if there are multiple pending requests in the replication queue. To resolve this issue, ensure that the replication agents are configured to avoid timeout. 
 
 Perform the following steps to configure the replication agent:
+
 1. Log in to your AEM Assets author instance.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. In the Replication page, click **[!UICONTROL Agents on author]**. You can see the four replication agents for your Brand Portal tenant. 

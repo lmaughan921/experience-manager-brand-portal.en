@@ -239,7 +239,7 @@ The **[!UICONTROL Groups]** tab on the **[!UICONTROL User Roles]** page allows a
 * If only **[!UICONTROL Download Original]** setting is turned-on, the users can view and download only the original assets from the asset details page.
 * If only **[!UICONTROL Download Renditions]** setting is turned-on, the users can view the original asset but cannot download it. Though, the user can view and download the asset renditions.
 
-See [configure asset download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+See [configure asset download](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -285,6 +285,7 @@ The asset download process is revamped, providing a simplified user experience w
 The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a  **[!UICONTROL Download]** dialog with multiple download options to choose from. 
 
 In Brand Portal 6.4.7, the Brand Portal administrators can configure the asset  **[!UICONTROL Download]** settings. The available configurations are:
+
 *  **[!UICONTROL Fast Download]**
 *  **[!UICONTROL Custom Renditions]**
 *  **[!UICONTROL System Renditions]**
@@ -336,9 +337,9 @@ The steps to configure AEM Assets with Brand Portal are different depending on y
 
 | **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** |[Create configuration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) |- |
-| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) |[Upgrade configuration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) | 
-| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) |[Upgrade configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) | 
+| **AEM Assets as a Cloud Service** |[Create configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) |- |
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) |[Upgrade configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) |[Upgrade configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) |[Upgrade configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) | 
 | **AEM 6.2** |Contact Support |Contact Support | 
 
@@ -620,7 +621,7 @@ The above configurations are available under Access and General settings in admi
 
 ### Adobe I/O UI to configure oAuth integrations
 
-Brand Portal 6.4.2 onwards uses Legacy OAuth (`https://legacy-oauth.cloud.adobe.io/`)  interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in `https://marketing.adobe.com/developer/`. To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 onwards uses Legacy OAuth (`https://legacy-oauth.cloud.adobe.io/`)  interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in `https://marketing.adobe.com/developer/`. To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Search Enhancements
 
