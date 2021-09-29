@@ -198,6 +198,8 @@ This holds true for any folder published from AEM Assets to Brand Portal, and SH
 
 These sites are only available to customers. If you are a customer and require access, contact your Adobe account manager.
 
+<!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
 * [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+-->

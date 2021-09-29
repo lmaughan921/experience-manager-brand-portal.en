@@ -207,6 +207,6 @@ These sites are only available to customers. If you are a customer and require a
 * [https://daycare.day.com](https://daycare.day.com) 
 -->
 
-* [Product Access](https://login.marketing.adobe.com)
-
+<!--
 * [Customer Support](https://helpx.adobe.com/contact.html)
+-->
