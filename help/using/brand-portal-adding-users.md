@@ -15,7 +15,7 @@ exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 
 Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 
-In [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
+In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
 
 <!--
 Comment Type: draft
@@ -35,15 +35,15 @@ These product profiles are synced with the Brand Portal user interface every 8 h
 
 ## Add a user {#add-a-user}
 
-If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (*formerly known as product configurations*), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
+If you are a product administrator, use Adobe [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) to create users and assign them to product profiles (*formerly known as product configurations*), which show as groups in Brand Portal. You can use groups to perform bulk operations such as role management and asset sharing.
 
 >[!NOTE]
 >
->New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **[!UICONTROL Grant Access]**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
+>New users who do not have access to Brand Portal can request access from the login screen of Brand Portal. For more information, refer to [Request access to Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). After you receive access request notifications in your notification area, click the relevant notification and then click **[!UICONTROL Grant Access]**. Alternatively, follow the link in the access request email received. Next, to add a user through [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
 
 >[!NOTE]
 >
->You can login to [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
+>You can login to [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login directly, follow Steps 4-7 in the procedure below to add a user.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -86,7 +86,7 @@ Product profiles (formerly known as product configurations) in [!UICONTROL Admin
 
 >[!NOTE]
 >
->You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-7 in the procedure below to add a product profile.
+>You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to [!UICONTROL Admin Console] directly, follow Steps 4-7 in the procedure below to add a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
@@ -119,7 +119,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 
 >[!NOTE]
 >
->You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
+>You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
 
 1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
 
