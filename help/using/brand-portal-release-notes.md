@@ -94,7 +94,7 @@ This release includes the following enhancements:
 
 This release includes fixes to the following critical issues:
 
-* The assets of the contribution folder that are of the same size are not published from Brand Portal to Experience Manager Assets.
+* The assets of a contribution folder that are of the same size are not published from Brand Portal to Experience Manager Assets.
 * The size of an asset contribution folder is not reduced when the contribution folder is unpublished.
 * The users are unable to remove the applied metadata schema profile from a folder. 
 * The group count on the user permissions page is incorrect.
