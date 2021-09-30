@@ -94,8 +94,8 @@ This release includes the following enhancements:
 
 This release includes fixes to the following critical issues:
 
-* Assets published from Brand Portal fail to appear in Experience Manager Assets for a particular contribution folder. 
-* The **[!UICONTROL totalUploadSize]** for a Brand Portal tenant is not reduced when a contribution folder is unpublished.
+* The assets of the contribution folder that are of the same size are not published from Brand Portal to Experience Manager Assets.
+* The size of an asset contribution folder is not reduced when the contribution folder is unpublished.
 * The users are unable to remove the applied metadata schema profile from a folder. 
 * The group count on the user permissions page is incorrect.
 * The collections page takes too long when navigating through the list. 
