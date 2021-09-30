@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -13,20 +13,20 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.08.0|
-| Date | August 2021 |
+| Version | 2021.10.0|
+| Date | October 2021 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 2021.08.0 {#whats-new-in-2021.08.0}
+## What's New in 2021.10.0 {#whats-new-in-2021.10.0}
 
 <!--
 ### New Features {#new-features}
@@ -61,7 +61,7 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users]() to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-
+<!--
 ### Enhancements {#enhancements}
 
 Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
@@ -77,6 +77,7 @@ This release includes the following enhancements:
 >Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
 >
 >Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
+-->
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -93,12 +94,19 @@ This release includes the following enhancements:
 
 This release includes fixes to the following critical issues:
 
+* Assets published from Brand Portal fail to appear in Experience Manager Assets for a particular contribution folder. 
+* The **[!UICONTROL totalUploadSize]** for a Brand Portal tenant is not reduced when a contribution folder is unpublished.
+* The users are unable to remove the applied metadata schema profile from a folder. 
+* The group count on the user permissions page is incorrect.
+* The collections page takes too long when navigating through the list. 
+  
+<!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
 * Video files with extension `.mov` are not running on Brand Portal. 
 
 * In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
-
+-->
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
 -->
@@ -125,8 +133,6 @@ This release includes the following known issues:
   However, the active users who are logged in to Brand Portal can continue to work until their current session expires. 
 
 * When navigating from Brand Portal to Admin Console, the administrators may see an extra screen to select the organization. 
-
-* The users are unable to remove the applied metadata schema profile from a folder. 
 
 
 <!--
