@@ -21,13 +21,13 @@ You can use various search predicates to customize the **[!UICONTROL Filters]** 
 
 >[!NOTE]
 >
->AEM allows organizations to [publish the customized search forms from AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) to Brand Portal, instead of re-creating the same form on Brand Portal.
+>Experience Manager Assets allows organizations to [publish the customized search forms from AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) to Brand Portal, instead of re-creating the same form on Brand Portal.
 
 ## Add a search predicate {#add-a-search-predicate}
 
 To add a search predicate to the **[!UICONTROL Filters]** panel:
 
-1. To access administrative tools, click the AEM logo from the toolbar at the top.
+1. To access administrative tools, click the Experience Manager logo from the toolbar at the top.
 
    ![](assets/aemlogo.png)
 

@@ -19,7 +19,7 @@ exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 
 In the absence of a custom branded wallpaper image, a default wallpaper is displayed on the login page.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -67,7 +67,7 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
 
 The header appears on various Brand Portal pages after you log in to Brand Portal.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -117,7 +117,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 When assets are shared as a link, users receive an email containing the link. Administrators can customize the messaging, that is, logo, description, and footer, of these emails.
 
-1. From the  AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 

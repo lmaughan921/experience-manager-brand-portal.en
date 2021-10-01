@@ -1,8 +1,8 @@
 ---
 title: Supported file formats
 seo-title: Supported file formats
-description: Each AEM Assets Brand Portal supports specific file formats, as indicated in the matrix. 
-seo-description: Each AEM Assets Brand Portal supports specific file formats, as indicated in the matrix. 
+description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix. 
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix. 
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -12,7 +12,7 @@ exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 ---
 # Supported file formats {#supported-file-formats}
 
-Each AEM Assets Brand Portal supports specific file formats, as indicated in the matrix.
+Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 
 | File format | Assets published to Brand Portal | Renditions published to Brand Portal | Metadata published to Brand Portal | Thumbnails published to Brand Portal | Asset details pages published to Brand Portal | Link shares | Link share thumbnails | Link share previews |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|

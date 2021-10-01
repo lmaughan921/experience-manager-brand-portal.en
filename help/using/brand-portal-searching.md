@@ -1,6 +1,6 @@
 ---
 title: Search assets on Brand Portal
-seo-title: Asset searching and saved search on AEM Brand Portal
+seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
 description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f

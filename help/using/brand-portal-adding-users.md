@@ -1,8 +1,8 @@
 ---
 title: Manage users, groups, and user roles
 seo-title: Manage users, groups, and user roles
-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
-seo-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+seo-description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
@@ -13,9 +13,9 @@ exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 ---
 # Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
 
-Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+Administrators can use Adobe Admin Console to create Experience Manager Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 
-In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or AEM Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
+In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. A product could be any Experience Cloud solution, such as Adobe Analytics, Adobe Target, or Experience Manager Assets Brand Portal. You must choose the AEM Brand Portal product, and create Product Profiles.
 
 <!--
 Comment Type: draft
@@ -121,7 +121,7 @@ To add users to a Brand Portal group, add them to the corresponding product prof
 >
 >You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. If you login to Admin Console directly, follow Steps 4-7 in the procedure below to add users to a product profile.
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![AEM Logo](assets/aemlogo.png)
 
@@ -202,7 +202,7 @@ You can provide the system administrator or the product administrator privilege 
    >
    >Brand Portal supports only System Administrator and Product Administrator roles.
    >
-   >Adobe recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure AEM Assets so that assets can be published from AEM Assets to Brand Portal. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe recommends that you avoid using the System Administrator role because it grants organization-wide administrator privileges for all the products of an organization. For example, a system administrator of an organization that includes three marketing cloud products has the entire set of privileges for all three products. Only a System Administrator can configure Experience Manager Assets so that assets can be published from Experience Manager Assets to Brand Portal. For more information, see [Configure Experience Manager Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >In contrast, the Product Administrator role grants administrator privileges for a specific product only. If you want to enforce a more granular access control within Brand Portal, use the Product Administrator role and select the product as Brand Portal.
 

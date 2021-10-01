@@ -1,8 +1,8 @@
 ---
 title: Apply image presets or dynamic renditions
 seo-title: Apply image presets or dynamic renditions
-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
+description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -13,11 +13,11 @@ exl-id: 212a1b3a-686f-4250-be06-b679b6039887
 ---
 # Apply image presets or dynamic renditions {#apply-image-presets-or-dynamic-renditions}
 
-Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 
 An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. When previewing images and their renditions, you can choose a preset to reformat images to the specifications set by your Administrator.
 
-(*If AEM author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal.
+(*If Experience Manager Assets author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the Experience Manager Assets author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal.
 
 >[!NOTE]
 >
@@ -28,20 +28,20 @@ For more information about the parameters required while creating image presets,
 
 ## Create an image preset {#create-an-image-preset}
 
-The AEM administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
+The Experience Manager Assets administrators can create image presets that appear as dynamic renditions on the asset detail page. You can create an image preset from scratch or save an existing one with a new name. When creating an image preset, choose a size for image delivery and the formatting commands. When an image is delivered for viewing, its appearance is optimized according to the chosen commands.
 
 >[!NOTE]
 >
 >Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand portal.
 >
->If AEM author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository. 
+>If Experience Manager Assets author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in Experience Manager Assets repository. 
 >
->Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
+>Whereas, if Experience Manager Assets author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
 >
 >When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
 
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
 1. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 

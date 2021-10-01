@@ -35,8 +35,8 @@ This user guide documents insights in to Brand Portal offerings and key workflow
 |--- |---|
 | [What's new](whats-new.md) | What changed and latest offerings in Brand Portal through previous releases. |
 | [Release Notes](brand-portal-release-notes.md) | Enhancements, critical issues fixed, and known issues in the current release. |
-| [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | How to replicate Brand Portal with AEM Assets to publish assets. |
-| [Troubleshoot issues in parallel publishing](troubleshoot-parallel-publishing.md) | Troubleshoot replication between Brand Portal and AEM Assets. |
+| [Configure Experience Manager Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | How to replicate Brand Portal with Experience Manager Assets to publish assets. |
+| [Troubleshoot issues in parallel publishing](troubleshoot-parallel-publishing.md) | Troubleshoot replication between Brand Portal and Experience Manager Assets. |
 | [Supported file formats](brand-portal-supported-formats.md) | File formats supported in Brand Portal for preview and download. |
 | [Publish Assets to Brand Portal](brand-portal-sharing-folders.md) | How to publish folders, collections, links, presets, schema, facets, and tags to Brand Portal. |
 | [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md) | How to configure Asset Sourcing in AEM Assets, upload assets in Brand Portal and publish contribution folder back to AEM Assets. |

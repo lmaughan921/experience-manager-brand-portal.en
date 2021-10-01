@@ -1,8 +1,8 @@
 ---
 title: Share folders
 seo-title: Share folders
-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured AEM Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with AEM instance, and need to be shared with them.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured AEM Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with AEM instance, and need to be shared with them.
+description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
@@ -12,13 +12,13 @@ exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 ---
 # Share folders on Brand Portal {#share-folders}
 
-Assets need to be published to Brand Portal from a pre-configured AEM Author instance, as Brand Portal does not support asset ingestion.
+Assets need to be published to Brand Portal from a pre-configured Experience Manager Author instance, as Brand Portal does not support asset ingestion.
 
 ## Folder sharing workflow in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 The following describes the folder share workflow and user access:
 
-* By default, all the folders published from AEM Assets to Brand Portal are visible only to the Brand Portal Administrator, unless marked as public while configuring replication.
+* By default, all the folders published from Experience Manager Assets to Brand Portal are visible only to the Brand Portal Administrator, unless marked as public while configuring replication.
 * The Administrator uses the **[!UICONTROL Folder Properties]** console to share a folder with selective users or groups. Only those users or groups with whom the folder is shared can see the folder after they log in to Brand Portal. The folder is not visible to other users.
 * The Administrator can also choose to make a folder public through the **[!UICONTROL Public Folder]** check box in the **[!UICONTROL Folder Properties]** console. A public folder is visible to all the users.
 
