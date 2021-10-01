@@ -23,19 +23,19 @@ Brand Portal users can:
 
 >[!NOTE]
 >
->To work with videos and to publish them to Brand Portal, make sure that your AEM Author instance is set up either on Dynamic Media Hybrid mode or Dynamic Media **[!DNL Scene 7]** mode.
+>To work with videos and to publish them to Brand Portal, make sure that your Experience Manager Author instance is set up either on Dynamic Media Hybrid mode or Dynamic Media **[!DNL Scene 7]** mode.
 
 To preview, play, and download videos, Brand Portal exposes the following two configurations to administrators:
 
 * [Dynamic Media Hybrid configuration](#configure-dm-hybrid-settings)
-If AEM Author instance is running on dynamic media Hybrid mode.
+If Experience Manager Author instance is running on dynamic media Hybrid mode.
 * [Dynamic Media [!DNL Scene 7] configuration](#configure-dm-scene7-settings)
-If AEM Author instance is running on dynamic media-**[!DNL Scene 7]** mode.
-Set either of these configurations based on the configurations you set in your AEM Author instance with which Brand Portal tenant is replicated.
+If Experience Manager Author instance is running on dynamic media-**[!DNL Scene 7]** mode.
+Set either of these configurations based on the configurations you set in your Experience Manager Author instance with which Brand Portal tenant is replicated.
 
 >[!NOTE]
 >
->Dynamic videos are not supported on Brand Portal tenants configured with AEM Author running on **[!UICONTROL Scene7Connect]** runmode.
+>Dynamic videos are not supported on Brand Portal tenants configured with Experience Manager Author running on **[!UICONTROL Scene7Connect]** runmode.
 
 ## How are dynamic videos played? {#how-are-dynamic-videos-played}
 

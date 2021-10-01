@@ -14,7 +14,7 @@ exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 ---
 # Administer general tenant configurations {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal allows organizations to configure the following capabilities for specific tenants:
+Experience Manager Assets Brand Portal allows organizations to configure the following capabilities for specific tenants:
 
 * Asset deletion by administrators
 * Public collection creation by non-admin users
@@ -38,7 +38,7 @@ These configurations have been provided as **[!UICONTROL General Settings]** con
 To enable/disable each of these configurations:
 
 1. Log in with administrator privileges.
-1. Select the AEM logo to access administrative tools, from the toolbar at the top.
+1. Select the Experience Manager logo to access administrative tools, from the toolbar at the top.
 1. From the administrative tools panel, select **[!UICONTROL General]** to open the **[!UICONTROL General Settings]** page.
 1. Use the respective toggle switch to enable/ disable any of the General configurations.
 1. **[!UICONTROL Save]** the changes.

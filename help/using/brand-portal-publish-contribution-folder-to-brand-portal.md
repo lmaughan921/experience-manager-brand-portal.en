@@ -1,8 +1,8 @@
 ---
-title: Configure and publish contribution folder from AEM Assets to Brand Portal 
-seo-title: Configure and publish contribution folder from AEM Assets to Brand Portal
-description: Get an insight into configuring and publishing a contribution folder from AEM Assets to Brand Portal.
-seo-description: Get an insight into configuring and publishing a contribution folder from AEM Assets to Brand Portal.
+title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal 
+seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
+description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
+seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
 uuid: 
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,27 +11,27 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid:
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 ---
-# Configure contribution folder in AEM Assets {#configure-contribution-folder}
+# Configure contribution folder in Experience Manager Assets {#configure-contribution-folder}
 
-For collaborative asset sourcing, AEM users (administrators and non-admin users having permission) can create new folders of type **Asset Contribution**, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
+For collaborative asset sourcing, Experience Manager Assets users (administrators and non-admin users having permission) can create new folders of type **Asset Contribution**, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
 
-AEM user then defines the asset requirements by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure Brand Portal users have the information they need. The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.
+Experience Manager Assets user then defines the asset requirements by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure Brand Portal users have the information they need. The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.
 
-The following video demonstrates, how to configure a Contribution folder in AEM Assets:
+The following video demonstrates, how to configure a Contribution folder in Experience Manager Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-AEM user performs the following activities while configuring a contribution folder:
+Experience Manager Assets user performs the following activities while configuring a contribution folder:
 
 * [Create contribution folder](#create-contribution-folder)
 * [Upload asset requirements and assign contributors](#configure-contribution-folder-properties)
 * [Upload baseline assets](#uplad-new-assets-to-contribution-folder)
-* [Publish contribution folder from AEM Assets to Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Publish contribution folder from Experience Manager Assets to Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Create contribution folder {#create-contribution-folder}
 
 
-AEM administrators and non-admin users having permission to create a new folder, can create a contribution folder in AEM Assets. 
+Experience Manager Assets administrators and non-admin users having permission to create a new folder, can create a contribution folder in Experience Manager Assets. 
 To create a contribution folder, create a new folder of type Asset Contribution, ensuring the new folder created is open to asset submission by Brand Portal users.  This automatically triggers a workflow which creates two additional sub folders, called SHARED and NEW, within the contribution folder.
 
 
@@ -42,16 +42,17 @@ To create a contribution folder, create a new folder of type Asset Contribution,
 You can configure the contribution folder properties separately as well as while creating the contribution folder. In this example, we are configuring the properties separately.
 
 **To create a contribution folder:**
-1. Log in to your AEM Assets instance.
 
-1. Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**. It lists all the existing folders in the AEM Assets repository.
+1. Log in to your Experience Manager Assets instance.
+
+1. Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**. It lists all the existing folders in the Experience Manager Assets repository.
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL Create Folder]** dialog opens.
 
 1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and select the **[!UICONTROL Asset Contribution]** check box.
 It is recommended to use lowercase letters without any space to name the folder.
 
-1. Click **[!UICONTROL Create]**. You can see the contribution folder listed in the AEM Assets repository.
+1. Click **[!UICONTROL Create]**. You can see the contribution folder listed in the Experience Manager Assets repository.
 
    >[!NOTE]
    >
@@ -67,7 +68,7 @@ It is recommended to use lowercase letters without any space to name the folder.
 
 ## Configure contribution folder properties {#configure-contribution-folder-properties}
 
-AEM administrator performs the following activities while configuring the properties of a contribution folder.
+Experience Manager Assets administrator performs the following activities while configuring the properties of a contribution folder.
 
 * **Add description**: Provide a high-level description of the contribution folder.
 * **Upload brief**:  Upload Asset Requirement document containing asset related information.
@@ -77,7 +78,7 @@ Asset requirement refers to the details provided by administrators to help contr
 
 **To configure contribution folder properties:**
 
-1. Log in to your AEM Assets instance. 
+1. Log in to your Experience Manager Assets instance. 
 
 1. Navigate to **[!UICONTROL Assets > Files]** and locate the contribution folder.
 1. Select contribution folder and click **[!UICONTROL Properties]** to open the Folder properties window.
@@ -99,7 +100,7 @@ Asset requirement refers to the details provided by administrators to help contr
 
 >[!NOTE]
 >
->The search results are based on the Brand Portal user list configured in AEM Assets. Make sure you have the updated Brand Portal user list. 
+>The search results are based on the Brand Portal user list configured in Experience Manager Assets. Make sure you have the updated Brand Portal user list. 
 
 ## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
@@ -113,15 +114,15 @@ They can then create new assets for contribution and upload them to the NEW fold
 >The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders. 
 
 
-After publishing the newly created assets to AEM Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both NEW and SHARED folder. 
+After publishing the newly created assets to Experience Manager Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both NEW and SHARED folder. 
 
 Once the objective of creating the contribution folder is achieved, the Brand Portal administrator can delete the contribution folder to release the upload space for other users. 
 
 >[!NOTE]
 >
->It is recommended to release the upload space after publishing the contribution folder to AEM Assets so that it is available to the other Brand Portal users for contribution. 
+>It is recommended to release the upload space after publishing the contribution folder to Experience Manager Assets so that it is available to the other Brand Portal users for contribution. 
 >
->If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Adobe Support specifying the requirement.
+>If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Customer Support specifying the requirement.
 
 
 **To upload new assets:**
@@ -143,17 +144,17 @@ The Brand Portal dashboard reflects all the existing folders permitted to the Br
 
    ![](assets/upload-new-assets3.png)
 
-After uploading all the assets or folders to the NEW folder, publish the contribution folder to AEM Assets. 
+After uploading all the assets or folders to the NEW folder, publish the contribution folder to Experience Manager Assets. 
 
 
 ## Publish contribution folder to Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Once the contribution folder is configured, AEM user (administrator/non-admin user) can publish the contribution folder from AEM Assets to Brand Portal. Brand Portal users having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
+Once the contribution folder is configured, Experience Manager Assets user (administrator/non-admin user) can publish the contribution folder from Experience Manager Assets to Brand Portal. Brand Portal users having permission to access the contribution folder will receive an email/pulse notification at the completion of the publish action.
 
 
 **To publish contribution folder:**
 
-1. Log in to your AEM Assets instance. 
+1. Log in to your Experience Manager Assets instance. 
 
 1. Navigate to **[!UICONTROL Assets > Files]** and locate the contribution folder in which you want to publish to Brand Portal.
 1. Select contribution folder and click **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
@@ -162,4 +163,4 @@ Once the contribution folder is configured, AEM user (administrator/non-admin us
       
    You will receive a success message once the contribution folder is published to Brand Portal.
 
-An email/pulse notification is sent to the Brand Portal users assigned to the contribution folder. The Brand Portal users can access the contribution folder and begin contribution. See, [Upload assets to the contribution folder and publish to AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+An email/pulse notification is sent to the Brand Portal users assigned to the contribution folder. The Brand Portal users can access the contribution folder and begin contribution. See, [Upload assets to the contribution folder and publish to Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).

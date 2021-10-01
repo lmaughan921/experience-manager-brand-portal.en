@@ -11,7 +11,7 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 ---
-# What's new in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# What's new in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
@@ -519,7 +519,7 @@ Similarly, published assets can be removed from the portal later, by scheduling 
 
 ### Configurable tenant alias in URL
 
-Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations must contact Adobe support.
+Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations must contact Customer Support.
 
 Only the prefix of the Brand Portal URL can be customized and not the entire URL.  
 For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
@@ -662,7 +662,7 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 
 * New capability to preview audio files, uploaded from AEM, in asset's details page.
 * New Related Assets capability provided in Asset properties. Assets that are related with other source/derived assets on AEM and published on Brand Portal now have their relationship intact in Brand Portal, with links to the related assets on properties page.
-* New configuration to restrict non-admin users from creating public collections has been introduced. Organizations can work with Adobe Support team to configure this capability on specific accounts.
+* New configuration to restrict non-admin users from creating public collections has been introduced. Organizations can work with Customer Support team to configure this capability on specific accounts.
 
 ### Search enhancements
 

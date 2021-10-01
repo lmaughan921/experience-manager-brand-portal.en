@@ -13,11 +13,11 @@ exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 ---
 # Troubleshoot issues in parallel publishing to Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal is configured with AEM Assets to have approved brand assets seamlessly ingested (or published) from AEM Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
+Brand Portal is configured with Experience Manager Assets to have approved brand assets seamlessly ingested (or published) from Experience Manager Assets author instance. Once [configured](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
 
 >[!NOTE]
 >
->Adobe recommends upgrading to Experience Manager 6.4.1.0 to ensure that AEM Assets Brand Portal is successfully configured with AEM Assets. A limitation in Experience Manager 6.4 gives an error while configuring AEM Assets with Brand Portal and replication fails.
+>Adobe recommends upgrading to Experience Manager 6.4.1.0 to ensure that Experience Manager Assets Brand Portal is successfully configured with Experience Manager Assets. A limitation in Experience Manager 6.4 gives an error while configuring Experience Manager Assets with Brand Portal and replication fails.
 
 On configuring cloud service for Brand Portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. Cloud service configuration is created, service users required for replication and replication agents to replicate content are also created. It creates four replication agents. So when you publish numerous assets from Experience Manager to Brand Portal, the assets are queued and distributed among the replication agents through Round Robin.
 
@@ -43,7 +43,7 @@ If on repeatedly editing the cloud service it is not configured properly, report
 
 View log, if errors are found in replication log:
 
-1. Contact Adobe Support.
+1. Contact Customer Support.
 
 1. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
 

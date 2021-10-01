@@ -1,8 +1,8 @@
 ---
 title: Work with reports
 seo-title: Work with reports
-description: AEM Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
-seo-description: AEM Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
+description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -21,7 +21,7 @@ The report management interface is intuitive and includes fine-grained options a
 
 To view a report, follow these steps:
 
-1. From the toolbar at the top, tap/click the AEM logo to access administrative tools.
+1. From the toolbar at the top, tap/click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -58,7 +58,7 @@ To view a report, follow these steps:
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]** report lists and gives information about all the assets that are published from AEM to Brand Portal in a specified time frame.
+   **[!UICONTROL Publish]** report lists and gives information about all the assets that are published from Experience Manager Assets to Brand Portal in a specified time frame.
 
    ![](assets/publish-report.png)
 
@@ -88,7 +88,7 @@ Administrators can generate and manage the following standard reports, once gene
 
 The columns in the Download, Expiration, and Publish report can be customized for viewing. To generate a report, follow these steps:
 
-1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
+1. From toolbar at the top, tap/click the Experience Manager logo to access administrative tools.
 
 1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 

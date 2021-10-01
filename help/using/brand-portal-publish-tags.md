@@ -1,8 +1,8 @@
 ---
 title: Publish tags to Brand Portal
 seo-title: Publish tags to Brand Portal
-description: Learn how to publish tags from AEM Assets to Brand Portal.
-seo-description: Learn how to publish tags from AEM Assets to Brand Portal.
+description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
+seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -12,9 +12,9 @@ exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 ---
 # Publish tags to Brand Portal {#publish-tags-to-brand-portal}
 
-Learn how to publish tags from AEM Assets to Brand Portal.
+Learn how to publish tags from Experience Manager Assets to Brand Portal.
 
-Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in Experience Manager Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 Tags (associated with assets and collections in AEM) are auto-published to Brand Portal when the assets (and collections) with associated tags are published to Brand Portal. The published tags are helpful in enabling the searches to find the associated assets.
 

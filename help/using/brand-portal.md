@@ -1,8 +1,8 @@
 ---
-title: Overview of AEM Assets Brand Portal
-seo-title: Overview of AEM Assets Brand Portal
-description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-seo-description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
+title: Overview of Experience Manager Assets Brand Portal
+seo-title: Overview of Experience Manager Assets Brand Portal
+description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
+seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 ---
-# Overview of AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Overview of Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
 As a marketer, you sometimes need to collaborate with channel partners and internal business users to quickly create, manage, and deliver relevant digital content to customers. Timely delivery of relevant content across the entire customer journey is critical to driving greater demand, conversion, engagement, and customer loyalty.
 
@@ -18,24 +18,24 @@ However, it is a challenge to develop solutions that support efficient and secur
 
 **Adobe Experience Manager (AEM) Assets Brand Portal** focuses on the marketer’s need to effectively collaborate with the globally distributed Brand Portal users by providing asset distribution and asset contribution capabilities.
 
-Asset distribution allows you to easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. Whereas, Asset contribution enables the Brand Portal users with the ability to upload assets to Brand Portal and publish to AEM Assets, without needing access to the author environment. The contribution feature is called as **Assets Sourcing in Brand Portal**. And together, it improves the overall Brand Portal experience of asset distribution and contribution from the Brand Portal users (external agencies/teams), accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
+Asset distribution allows you to easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. Whereas, Asset contribution enables the Brand Portal users with the ability to upload assets to Brand Portal and publish to Experience Manager Assets, without needing access to the author environment. The contribution feature is called as **Assets Sourcing in Brand Portal**. And together, it improves the overall Brand Portal experience of asset distribution and contribution from the Brand Portal users (external agencies/teams), accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
 See, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
 
-## Configure AEM Assets with Brand Portal {#configure-brand-portal}
+## Configure Experience Manager Assets with Brand Portal {#configure-brand-portal}
 
 Configuring Adobe Experience Manager Assets with Brand Portal enables asset publishing, asset distribution, and asset contribution features for the Brand Portal users. 
 
 >[!NOTE]
 >
->Configuring AEM Assets with Brand Portal is supported on AEM Assets as a Cloud Service, AEM Assets 6.3 and above.
+>Configuring Experience Manager Assets with Brand Portal is supported on Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 and above.
 
-AEM Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance.  
+Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.  
 
-Whereas, AEM Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
+Whereas, Experience Manager Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
 
-For more information, see [configuring AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+For more information, see [configuring Experience Manager Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## User personas in Brand Portal {#Personas}
 
@@ -136,7 +136,7 @@ However, AEM Author instance can be [configured](../using/configure-aem-assets-w
 
 >[!NOTE]
 >
->To get an alias for tenant name in existing portal URL, organizations need to contact Adobe support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
+>To get an alias for tenant name in existing portal URL, organizations need to contact Customer support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
 >
 >To replace the old or delete the old alias, the same process needs to be followed.
 
@@ -221,5 +221,8 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Related resources {#related-resources}
 
-* [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+<!--
+* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+-->
+
 * [AEM Forums](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

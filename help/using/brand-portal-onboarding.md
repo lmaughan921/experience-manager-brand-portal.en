@@ -1,8 +1,8 @@
 ---
 title: First-time login experience
 seo-title: First-time login experience
-description: The first-time login experience is same for all new AEM Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
-seo-description: The first-time login experience is same for all new AEM Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
+description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
+seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -12,7 +12,7 @@ exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 ---
 # First-time login experience {#first-time-login-experience}
 
-The first-time login experience is same for all new AEM Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
+The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 
 Following are the steps to be performed for the users logging in to Brand Portal for the first time:
 
@@ -34,4 +34,4 @@ Following are the steps to be performed for the users logging in to Brand Portal
 
    >[!NOTE]
    >
-   >You cannot access Brand Portal if you are not associated with any product profile. To be able to log in to Brand Portal, you must be associated with at least one AEM product profile.
+   >To be able to log in to Brand Portal, you must be entitled to at least one Experience Manager Assets product profile.

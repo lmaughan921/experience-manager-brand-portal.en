@@ -15,13 +15,13 @@ exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 
 A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 
-The **[!UICONTROL Properties]** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. AEM Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
+The **[!UICONTROL Properties]** page for each asset includes default metadata properties depending upon the MIME type of the asset. Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. Experience Manager Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
 
 ## Add a metadata schema form {#add-a-metadata-schema-form}
 
 To create a new metadata schema form, do the following:
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -45,7 +45,7 @@ You can add new tabs or form items to the metadata schema form. The derived tabs
 
 To edit a metadata schema form, do the following:
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
@@ -80,12 +80,12 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 | **[!UICONTROL Number]**              |  Add a number component.                                                                                                                                                                                                                                                                   |
 | **[!UICONTROL Date]**                |  Add a date component.                                                                                                                                                                                                                                                                     |
 | **[!UICONTROL Dropdown]**            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| **[!UICONTROL Standard Tags]**       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart Tags]**          |  Auto-detected tags if you have purchased and configured the AEM smart tags add-on.                                                                                                                                                                                                        |
+| **[!UICONTROL Standard Tags]**       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]**          |  Auto-detected tags if you have purchased and configured the Experience Manager Assets smart tags add-on.                                                                                                                                                                                                        |
 | **[!UICONTROL Hidden Field]**        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
 | **[!UICONTROL Asset Referenced By]** |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
 | **[!UICONTROL Asset Referencing]**   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
-| **[!UICONTROL Asset Rating]**        |  Average rating of an asset added from AEM Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
+| **[!UICONTROL Asset Rating]**        |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
 | **[!UICONTROL Contextual Metadata]** |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
 
 >[!NOTE]
@@ -117,7 +117,7 @@ The following are the valid values for this property:
 
 >[!NOTE]
 >
->All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in AEM Assets before an asset is published to Brand Portal.
+>All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in Experience Manager Assets before an asset is published to Brand Portal.
 
 #### Add or delete a tab in the schema form {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -137,7 +137,7 @@ Brand Portal allows you to customize and control the metadata schema so that the
 
 To apply a metadata schema form to a folder, do the following:
 
-1. From the AEM toolbar at the top, click the Adobe logo to access administrative tools.
+1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 

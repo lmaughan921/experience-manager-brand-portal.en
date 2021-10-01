@@ -12,9 +12,9 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 ---
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
+Experience Manager Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
 
-AEM logo in the AEM toolbar at the top facilitates admin users to access administrative tools panel.
+Experience Manager logo in the toolbar at the top facilitates admin users to access administrative tools panel.
 
 ![](assets/aemlogo.png)
 
