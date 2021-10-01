@@ -519,7 +519,7 @@ Similarly, published assets can be removed from the portal later, by scheduling 
 
 ### Configurable tenant alias in URL
 
-Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations must contact Adobe support.
+Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations must contact Customer Support.
 
 Only the prefix of the Brand Portal URL can be customized and not the entire URL.  
 For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
@@ -662,7 +662,7 @@ Brand Portal 6.4.1 is a platform upgrade release which brings in several new fea
 
 * New capability to preview audio files, uploaded from AEM, in asset's details page.
 * New Related Assets capability provided in Asset properties. Assets that are related with other source/derived assets on AEM and published on Brand Portal now have their relationship intact in Brand Portal, with links to the related assets on properties page.
-* New configuration to restrict non-admin users from creating public collections has been introduced. Organizations can work with Adobe Support team to configure this capability on specific accounts.
+* New configuration to restrict non-admin users from creating public collections has been introduced. Organizations can work with Customer Support team to configure this capability on specific accounts.
 
 ### Search enhancements
 

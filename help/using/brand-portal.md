@@ -136,7 +136,7 @@ However, AEM Author instance can be [configured](../using/configure-aem-assets-w
 
 >[!NOTE]
 >
->To get an alias for tenant name in existing portal URL, organizations need to contact Adobe support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
+>To get an alias for tenant name in existing portal URL, organizations need to contact Customer support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
 >
 >To replace the old or delete the old alias, the same process needs to be followed.
 
@@ -221,5 +221,8 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 
 ## Related resources {#related-resources}
 
-* [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+<!--
+* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+-->
+
 * [AEM Forums](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

@@ -43,7 +43,7 @@ If on repeatedly editing the cloud service it is not configured properly, report
 
 View log, if errors are found in replication log:
 
-1. Contact Adobe Support.
+1. Contact Customer Support.
 
 1. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
 

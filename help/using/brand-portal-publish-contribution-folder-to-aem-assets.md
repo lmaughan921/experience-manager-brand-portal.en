@@ -72,7 +72,7 @@ After going through the asset requirements, the Brand Portal users can create ne
 >
 >It is recommended to release the upload space after publishing the contribution folder to Experience Manager Assets so that it is available to the other Brand Portal users for contribution. 
 >
->If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Adobe Support specifying the requirement.
+>If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Customer Support specifying the requirement.
 
 
 **To upload new assets:**

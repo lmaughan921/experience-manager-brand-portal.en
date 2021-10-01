@@ -32,7 +32,7 @@ Any ideas you may have to improve AEM documentation are welcome as contributions
 
 Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***AEM documentation contributions are not a replacement for Adobe Customer Care*** and any such contributions seeking answers to support-related questions will be rejected.
+***AEM documentation contributions are not a replacement for Adobe Customer Support*** and any such contributions seeking answers to support-related questions will be rejected.
 
 ### Contributions must clearly reference affected documentation pages.
 
