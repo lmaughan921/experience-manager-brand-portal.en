@@ -434,7 +434,7 @@ Similarly, specifying:
 >
 >On selecting **Partial Search** checkbox, **Ignore Case** is selected by default.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## What changed in 6.4.3 {#what-changed-in}
 
@@ -461,7 +461,7 @@ The default thumbnail of the virtual folders is the thumbnail image of the first
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Search in specific folder hierarchy or path
 
@@ -481,7 +481,7 @@ Searching under these folders returns results only from the assets that have bee
 
 ![](assets/filter-panel.png) 
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media video renditions support
 
@@ -503,11 +503,11 @@ Dynamic Media Video encodes can be downloaded from:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Scheduled publish to Brand Portal
 
-Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
+Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) Author instance to Brand Portal can be scheduled for a later date, time.
 
 Similarly, published assets can be removed from the portal later, by scheduling the Unpublish from Brand Portal workflow.
 
@@ -515,7 +515,7 @@ Similarly, published assets can be removed from the portal later, by scheduling 
 
 ![](assets/publishlater-workflow.png)
 
- [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+ [![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Configurable tenant alias in URL
 
@@ -524,11 +524,11 @@ Organizations can get their portal URL customized, by having an alternate prefix
 Only the prefix of the Brand Portal URL can be customized and not the entire URL.  
 For example, an organization with existing domain **geomettrix.brand-portal.adobe.com** can get **geomettrixinc.brand-portal.adobe.com** created on request.
 
-However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, AEM Author instance can be [configured](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Download experience enhancements
 
@@ -748,7 +748,7 @@ Brand Portal now displays a notification banner a few days before an upcoming ma
 
 ![](assets/bp_maintenance_notification-1.png)
 
-For more information, see [Brand Portal maintenance notification](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+For more information, see [Brand Portal maintenance notification](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
 
 ### Enhancement for licensed assets shared using the link share feature {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 

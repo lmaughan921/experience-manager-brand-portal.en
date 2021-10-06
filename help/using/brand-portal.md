@@ -123,9 +123,9 @@ In addition to the above tasks, an Author in AEM Assets can perform the followin
 
 [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publish folders to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publish collections to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
@@ -222,7 +222,7 @@ You can dismiss this notification and continue using Brand Portal. This notifica
 ## Related resources {#related-resources}
 
 <!--
-* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe Customer Support]()
 -->
 
 * [AEM Forums](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

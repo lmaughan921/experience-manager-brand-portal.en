@@ -37,7 +37,7 @@ To search for assets on Brand Portal:
 
    *Asset search using omnisearch*
 
-To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
 ## Search using facets in Filters panel {#search-using-facets-in-filters-panel}
 
