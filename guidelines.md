@@ -30,7 +30,7 @@ Exceptions to this rule apply to the release notes where known issues can be lis
 
 Any ideas you may have to improve AEM documentation are welcome as contributions. However comments, issues, and pull requests are intended for *contributions* only. They are not intended to be used to answer your questions about how to use AEM, implement your AEM project, or solve technical problems.
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://experienceleague.adobe.com/?support-solution=General#support) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***AEM documentation contributions are not a replacement for Adobe Customer Support*** and any such contributions seeking answers to support-related questions will be rejected.
 

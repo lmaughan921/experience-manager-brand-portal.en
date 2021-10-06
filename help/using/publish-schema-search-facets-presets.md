@@ -79,7 +79,7 @@ To unpublish a metadata schema from Brand Portal:
 
 ## Publish search facets to Brand Portal {#publish-search-facets-to-brand-portal}
 
-Search forms provide the capability of [faceted search](../using/brand-portal-search-facets.md) to users on Brand Portal. Search facets impart greater granularity to searches on Brand Portal. All the [predicates added](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) in the search form are available to users as search facets in search filters.
+Search forms provide the capability of [faceted search](../using/brand-portal-search-facets.md) to users on Brand Portal. Search facets impart greater granularity to searches on Brand Portal. All the [predicates added](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) in the search form are available to users as search facets in search filters.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

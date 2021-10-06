@@ -214,5 +214,5 @@ These sites are only available to customers. If you are a customer and require a
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

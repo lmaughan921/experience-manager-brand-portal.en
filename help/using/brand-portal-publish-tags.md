@@ -14,7 +14,7 @@ exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 
 Learn how to publish tags from Experience Manager Assets to Brand Portal.
 
-Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in Experience Manager Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Tags are useful in organizing assets and enhance the searchability of assets to which they are associated. Tags can be thought of as keywords or labels (metadata) that are attached with assets, and allow assets to be quickly found as the result of a search. To know how to assign tags to assets in Experience Manager Assets, refer [use tags to organize assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 Tags (associated with assets and collections in AEM) are auto-published to Brand Portal when the assets (and collections) with associated tags are published to Brand Portal. The published tags are helpful in enabling the searches to find the associated assets.
 
@@ -43,7 +43,7 @@ Sign in to AEM Author instance with administrative privileges, and access **[!UI
     * **[!UICONTROL Title]**
       *(required)* A display title for the tag.
     * **[!UICONTROL Name]**
-      *(required)* A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(required)* A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html).
     * **Description**
       *(optional)* A description of the tag.
     * **Tag Path**
@@ -59,7 +59,7 @@ Sign in to AEM Author instance with administrative privileges, and access **[!UI
 
 1. **Attach the tag to an asset (or collection)**.
 
-   Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Select an asset (or collection), and attach the desired tag using Properties section or Manage Tags section of that asset. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 1. **Publish assets (or collections) to Brand Portal**.  
    When you publish an asset (or collection) to Brand Portal, the attached tag is also available on Brand Portal.

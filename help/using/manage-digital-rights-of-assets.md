@@ -69,7 +69,7 @@ For more information about link sharing, refer to [Share assets as a link](../us
 
 Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+License-protected assets have [license agreement attached](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) to them, which is done by setting asset's [metadata property](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) in AEM Assets.
 
 If you choose to download license-protected asset(s), you are redirected to **[!UICONTROL Copyright Management]** page.
 
