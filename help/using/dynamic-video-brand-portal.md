@@ -68,8 +68,8 @@ The Egress IPs are as follows:
 
 | **Region**  | **Egress IP** |
 |--- |--- |
-| NA | 130.248.160.66,  52.151.32.108  |
-| EMEA | 185.34.189.1 |
+| NA | 130.248.160.68,  20.94.203.130  |
+| EMEA | 185.34.189.3,  51.132.146.75 |
 | APAC | 63.140.44.54 |
 
 To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
