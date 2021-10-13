@@ -55,7 +55,9 @@ The following table lists the tasks that users in these roles can perform:
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-&#42; Guest users can browse, access, and search assets in public folders and collections only.
+>[!NOTE]
+>
+>Guest users can browse, access, and search assets in public folders and collections only.
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -71,23 +73,23 @@ Any user having limited access to assets on Brand Portal without undergoing auth
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
-[Browse and access public assets](browse-assets-brand-portal.md)
+* [Browse and access public assets](browse-assets-brand-portal.md)
 
-[Search public assets](brand-portal-searching.md)
+* [Search public assets](brand-portal-searching.md)
 
-[Download public assets](brand-portal-download-assets.md)
+* [Download public assets](brand-portal-download-assets.md)
 
-[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+* [Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Viewer {#viewer}
 
 A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-[Browse assets](browse-assets-brand-portal.md)
+* [Browse assets](browse-assets-brand-portal.md)
 
-[Search for assets](brand-portal-searching.md)
+* [Search for assets](brand-portal-searching.md)
 
-[Download assets](brand-portal-download-assets.md)
+* [Download assets](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
@@ -95,11 +97,11 @@ A user with the role of Editor can perform all tasks that a Viewer can perform. 
 
 Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
-[Share folders](brand-portal-sharing-folders.md)
+* [Share folders](brand-portal-sharing-folders.md)
 
-[Share a collection](brand-portal-share-collection.md)
+* [Share a collection](brand-portal-share-collection.md)
 
-[Share assets as a link](brand-portal-link-share.md)
+* [Share assets as a link](brand-portal-link-share.md)
 
 ### Administrator {#administrator}
 
@@ -107,30 +109,30 @@ An administrator includes a user marked as system administrator or Brand Portal 
 
 An administrator can perform all tasks that an Editor can perform the following additional tasks:
 
-[Manage users, groups, and user roles](brand-portal-adding-users.md)
+* [Manage users, groups, and user roles](brand-portal-adding-users.md)
 
-[Customize wallpaper, page headers, and emails](brand-portal-branding.md)
+* [Customize wallpaper, page headers, and emails](brand-portal-branding.md)
 
-[Use custom search facets](brand-portal-search-facets.md)
+* [Use custom search facets](brand-portal-search-facets.md)
 
-[Use the metadata schema form](brand-portal-metadata-schemas.md)
+* [Use the metadata schema form](brand-portal-metadata-schemas.md)
 
-[Apply image presets or dynamic renditions](brand-portal-image-presets.md)
+* [Apply image presets or dynamic renditions](brand-portal-image-presets.md)
 
-[Work with reports](brand-portal-reports.md)
+* [Work with reports](brand-portal-reports.md)
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
-[Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
+* [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publish folders to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [Publish folders to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Publish collections to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Publish collections to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
-Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain **[!UICONTROL geomettrix.brand-portal.adobe.com]** can get **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** created on request.
+Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain `geomettrix.brand-portal.adobe.com` can get `geomettrixinc.brand-portal.adobe.com` created on request.
 
 However, AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with tenant alias (alternate) URL.
 
@@ -154,30 +156,35 @@ To request access, do the following:
 
 1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):<br />
+   In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
+
    ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
 
     **Scenario 1**
+
     1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
     The [!UICONTROL Sign in] page opens.
-    1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.<br />
 
-    ![Adobe sign in](assets/bplogin_request_access_3.png)
+    1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.
 
-   You are redirected to the [!UICONTROL Request Access] page.<br />
+       ![Adobe sign in](assets/bplogin_request_access_3.png)
+
+   You are redirected to the [!UICONTROL Request Access] page.
+
     **Scenario 2**
+
     1. If you do not have an [!UICONTROL Adobe ID], to create one, click **[!UICONTROL Get an Adobe ID]** from the [!UICONTROL Request Access] page.
     The [!UICONTROL Sign in] page opens.
     1. Click **[!UICONTROL Get an Adobe ID]**.
     The [!UICONTROL Sign up] page opens.
     1. Enter your first and last name, email ID, and password. 
-    1. Select **[!UICONTROL Sign up]**.<br />
+    1. Select **[!UICONTROL Sign up]**.
     
-   ![](assets/bplogin_request_access_5.png)
+       ![](assets/bplogin_request_access_5.png)
 
    You are redirected to the [!UICONTROL Request Access] page.
 
-1. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.<br />
+1. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -200,8 +207,9 @@ You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Set
 
 To change the language:
 
-1. Select [!UICONTROL User] > [!UICONTROL Edit Profile] from the top menu.<br />
-![Edit Profile](assets/EditBPProfile.png)
+1. Select [!UICONTROL User] > [!UICONTROL Edit Profile] from the top menu.
+
+   ![Edit Profile](assets/EditBPProfile.png)
 
 1. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
 
