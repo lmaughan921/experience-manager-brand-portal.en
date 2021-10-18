@@ -37,9 +37,9 @@ To create a contribution folder, create a new folder of type Asset Contribution,
 
 >[!NOTE]
 >
->You can create multiple contribution folders within a folder. 
+>The administrators can create multiple asset contribution folders within a folder. 
 >
->An asset contribution folder contains NEW and SHARED folders for the distribution and contribution of the assets. Do not create an asset, folder, or contribution folder within a asset contribution folder.   
+>An asset contribution folder contains NEW and SHARED folders for the distribution and contribution of the assets. Do not create an asset, folder, or contribution folder within a contribution folder.   
 
 
 You can configure the contribution folder properties separately as well as while creating the contribution folder. In this example, we are configuring the properties separately.
