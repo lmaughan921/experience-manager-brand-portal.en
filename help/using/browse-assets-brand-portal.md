@@ -20,7 +20,7 @@ Experience Manager logo in the toolbar at the top facilitates admin users to acc
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 
@@ -100,7 +100,7 @@ The list view displays information for each resource at the current level. List 
 * Dimension
 * Size
 * Rating
-* Folder path showing asset hierarchy<sup>*</sup>
+* Folder path showing asset hierarchy
 * Date of publishing the asset on Brand Portal
 
 Path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
