@@ -1,0 +1,3 @@
+﻿Identity Type,Username,Domain,Email,First Name,Last Name,Country Code,ID,Product Configurations,Admin Roles,Product Configurations Administered,User Groups,User Groups Administered,Products Administered,Developer Access,Auto Assigned Products
+Business ID,bob@adobe.com,ADOBE.COM,BOB@ADOBE.COM,Bob,Adams,IN,5F0611E461376A610A495FFB@5f0511e461376a61495ffb.e,Assets Brand Portal,System,,,,,,
+Federated ID,msmith@adobe.com,adobe.com,msmith@adobe.com,Mike,Smith,UD,E14F772A5A7AEE010A495C96@adobe.com,Assets Brand Portal,System,,,,,,
