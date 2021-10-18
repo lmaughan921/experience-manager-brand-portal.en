@@ -103,7 +103,11 @@ Asset requirement refers to the details provided by administrators to help contr
 
 >[!NOTE]
 >
->The search results are based on the Brand Portal user list configured in Experience Manager Assets. Make sure you have the updated Brand Portal user list. 
+>The search results are based on the Brand Portal user list configured in Experience Manager Assets. Ensure that you have the updated Brand Portal user list. 
+
+The administrators can download the `user.csv` file from [!DNL Admin Console] and use it as the base template for adding Brand Portal users. Go to [!UICONTROL Users] and click on the [!UICONTROL Export users list to csv] option to download the `users.csv` file. The following sample users list details the attributes required for adding the users. The only mandatory attribute for a user entry is the `Email` and all the other attributes are optional. 
+
+[Get File](assets/users.csv)
 
 ## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
@@ -114,7 +118,7 @@ They can then create new assets for contribution and upload them to the NEW fold
 >
 >The Brand Portal users can upload assets only to the NEW folder.
 >
->The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders. 
+>The maximum upload limit for any Brand Portal tenant is **10** GB which is cumulatively applied to all the contribution folders. 
 
 
 After publishing the newly created assets to Experience Manager Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both NEW and SHARED folder. 
