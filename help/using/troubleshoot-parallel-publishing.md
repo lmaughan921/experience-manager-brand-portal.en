@@ -55,7 +55,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
+## Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
 
 Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: `mac-<tenantid>-replication` doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a configuration instead. For the new configuration to work properly, clean up the following from Experience Manager author setup:
 
@@ -114,6 +114,14 @@ If a replication agent (which was publishing to Brand Portal just fine) stops pr
 If there are continuous publish failures and queue is blocked, then you should check **[!UICONTROL test connection]** and try to solve the errors that are being reported.
 
 Based on the errors, you are advised to log a support ticket, so that Brand Portal engineering team can help you resolve issues.
+
+## Brand Portal IMS configuration token expired {#token-expired}
+
+If your Brand Portal environment stops abruptly, there is a possibility that the IMS configurations are not working properly. The system shows an unhealthy IMS configuration and reflects an error message (similar to the following) that your access token is expired. 
+
+`com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
+
+To resolve this issue, it is recommended to manually save and close the IMS configuration and check health status again. If the configurations does not work, delete the existing configurations and create a new one.
 
 
 ## Configure replication agents to avoid connection timeout error {#connection-timeout}
