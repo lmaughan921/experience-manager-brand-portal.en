@@ -40,6 +40,7 @@ This user guide documents insights in to Brand Portal offerings and key workflow
 | [Supported file formats](brand-portal-supported-formats.md) | File formats supported in Brand Portal for preview and download. |
 | [Publish Assets to Brand Portal](brand-portal-sharing-folders.md) | How to publish folders, collections, links, presets, schema, facets, and tags to Brand Portal. |
 | [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md) | How to configure Asset Sourcing in AEM Assets, upload assets in Brand Portal and publish contribution folder back to AEM Assets. |
+| [Brand Portal feature videos](https://experienceleague.adobe.com/?lang=en&tag=Brand+Portal#recommended/solutions/experience-manager) | Learn how to use Experience Manager Assets Brand Portal with the help of video tutorials. |
 
 ### Helpful resources
 
