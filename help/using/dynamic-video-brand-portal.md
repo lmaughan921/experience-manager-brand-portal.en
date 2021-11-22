@@ -54,9 +54,9 @@ As video encodes are not stored in Brand Portal repository and are fetched from 
 To work with dynamic videos on Brand Portal, make sure to:
 
 * **Start up AEM Author on DM (Dynamic Media) mode**
-Start up the AEM Author instance (with which Brand Portal is configured) either on [Dynamic Media Hybrid mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) or [Dynamic Media [!DNL Scene 7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html).
-* **Configure Dynamic Media cloud services on AEM Author**
-Based on the Dynamic Media mode AEM Author is running on, set either of [Dynamic Media cloud services](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) or [[!DNL Scene 7] cloud services](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) on AEM Author from **Tools** | **Cloud Services** | **Dynamic Media**.  
+Start up the AEM Author instance (with which Brand Portal is configured) either in [Dynamic Media - [!DNL Scene 7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) or in [Dynamic Media - Hybrid mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) or 
+* **Configure Dynamic Media Cloud Services on AEM Author**
+Based on the Dynamic Media mode (Scene7 mode or Hybrid mode) AEM Author is running on, set either [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) or [Dynamic Media Cloud Services (Hybrid mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) on AEM Author from **Tools** | **Cloud Services** | **Dynamic Media**.  
 * **Configure Dynamic Media on Brand Portal**
 Based on the Dynamic Media cloud configurations on AEM Author, configure [Dynamic Media settings](#configure-dm-hybrid-settings) or [[!DNL Scene 7] settings](#configure-dm-scene7-settings)  from Brand Portal administrative tools.
 Make sure that [separate Brand Portal tenants](#separate-tenants) are used for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media **[!UICONTROL Scene7]** modes, if you are using functionalities of Dynamic Media Hybrid and Dynamic Media **[!UICONTROL S7]**.
@@ -108,7 +108,7 @@ If AEM Author instance is running on dynamic media hybrid mode, then use **[!UIC
 
 >[!NOTE]
 >
->The [video encoding profiles](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) are not published to Brand Portal, instead are fetched from the **[!UICONTROL Scene 7]** server. Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [Scene7 cloud configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) in your AEM Author instance.
+>The [video encoding profiles](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) are not published to Brand Portal, instead are fetched from the **[!UICONTROL Scene 7]** server. Therefore, for video encodes to be played successfully in Brand Portal, ensure that the configuration details are the same as the [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) in your AEM Author instance.
 
 To set up Dynamic Media configurations on Brand Portal tenants:
 
