@@ -53,7 +53,7 @@ Or, you can to open the **[!UICONTROL SHARED]** folder and click the **Download*
 
    ![](assets/download.png)
    
-   ![](assets/download-asset-requirement4.png)
+   ![](assets/download-asset-requirement5.png)
 
 Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder..
 
@@ -66,7 +66,9 @@ After going through the asset requirements, the Brand Portal users can create ne
 >
 >The Brand Portal users can upload assets only to the NEW folder.
 >
->The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders. 
+>The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders.
+>
+>The assets uploaded to Brand Portal are not processed for renditions and does not contain previews. 
 
 >[!NOTE]
 >
@@ -92,7 +94,7 @@ The Brand Portal dashboard reflects all the existing folders permitted to the Br
 
 1. Browse and upload assets (files or folders) to the **[!UICONTROL NEW]** folder.
 
-   ![](assets/upload-new-assets6.png)
+   ![](assets/upload-asset4.png)
 
 After uploading all the assets or folders to the NEW folder, publish the contribution folder to Experience Manager Assets. 
 
