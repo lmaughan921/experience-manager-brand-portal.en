@@ -246,9 +246,17 @@ To view the asset's metadata, or view its various renditions, use the rail selec
 
 ![](assets/asset-overview.png)
 
-You can view all the available renditions of the asset on asset details page, and select a rendition to preview it.
+You can view all the available renditions of the asset on asset details page, and select a rendition from the **[!UICONTROL Renditions]** panel to preview it.
 
 ![](assets/renditions.png)
+
+>[!CAUTION]
+>
+>(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+>
+>The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+>
+>The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 
 To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
 
