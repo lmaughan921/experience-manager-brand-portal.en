@@ -180,6 +180,12 @@ Following are the steps to download assets or folders containing assets from the
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
@@ -237,6 +243,14 @@ Following are the steps to download asset renditions from the asset details page
    Select specific renditions you want to download and click **[!UICONTROL Download items]**.
 
    ![renditions-panel](assets/renditions-panel.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
