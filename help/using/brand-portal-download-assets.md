@@ -182,7 +182,7 @@ Following are the steps to download assets or folders containing assets from the
 
    >[!CAUTION]
    >
-   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
    >
    >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
 
