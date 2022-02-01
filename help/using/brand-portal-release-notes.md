@@ -20,7 +20,7 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2022.02.0|
-| Date | October 2021 |
+| Date | February 2022 |
 
 ## Overview {#overview}
 
