@@ -117,6 +117,7 @@ Brand Portal users can download multiple assets, folders containing assets, and 
 >Contact the Brand Portal administrator if you do not have permission to access or download the asset renditions.   
 
 If the user has access to renditions, the user is provided with the enhanced **[!UICONTROL Download]** dialog with the following capabilities:
+
 * View all the available renditions of any asset in the download list.
 * Exclude renditions of the assets which are not required for download.
 * Apply the same set of renditions to all the similar asset types in one click.
