@@ -139,7 +139,7 @@ This release includes the following known issues:
 
 * When navigating from Brand Portal to Admin Console, the administrators may see an extra screen to select the organization.
 
-* If `Color Tags` are enabled and user downloads a folder or collection, an additional `xml` file is downloaded for each asset in the archived zip folder.
+* If `Color Tags` are enabled and user downloads a folder or collection, an additional `xml` file is downloaded for each asset of the folder (or collection) in the archived zip folder.
 
 
 <!--
