@@ -1,23 +1,23 @@
 ---
 title: Download assets
 seo-title: Download assets
-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
-seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
+description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
+seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: download-install
+topic-tags: download, download-install, download assets
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 ---
-# Download assets from Brand Portal {#download-assets-from-bp}
+# Download assets {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
- All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
+ All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download assets (approved assets) from Brand Portal, and what to expect from the [download performance](../using/download-assets.md#expected-download-performance).
 
 
 >[!NOTE]
@@ -32,7 +32,7 @@ Brand Portal administrators can configure the asset download and user group sett
 
 >[!NOTE]
 >
->The download settings applied on the user interface facilitates a self-service experience to the Brand Portal users to easily configure and download the asset renditions. It does not restrict the download of assets at the application layer, for example, the users can still access and download the asset renditions with the complete URL path.
+>The download settings applied on the user interface facilitates a self-service experience to the Brand Portal users to easily configure and download asset renditions. It does not restrict the download of assets at the application layer, for example, the users can still access and download asset renditions with the complete URL path.
 
 Accessing and downloading the asset renditions from the Brand Portal interface is defined by the following configurations:
 
@@ -68,7 +68,7 @@ The available settings are:
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]**.  
 
-The administrators can enable any combination of settings for the Brand Portal users to access and download renditions.
+The administrators can enable any combination of settings for the Brand Portal users to access and download asset renditions.
 
 ![](assets/download-settings-new.png)
 
@@ -231,7 +231,7 @@ If you are not [authorized by the administrator to have access to the original r
 
 In addition to the download workflow, there is another method of downloading the renditions for individual assets directly from the asset details page. 
 
-The users can preview different renditions, select specific renditions, and directly download them from the **[!UICONTROL Renditions]** panel in the asset details page without having to open the **[!UICONTROL Download]** dialog.  
+The users can preview different asset renditions, select specific renditions, and directly download asset renditions from the **[!UICONTROL Renditions]** panel in the asset details page without having to open the **[!UICONTROL Download]** dialog.  
 
 
 Following are the steps to download asset renditions from the asset details page:

@@ -178,14 +178,14 @@ Brand Portal 2020.10.0 is an enhancement release which focuses on simplifying th
 
 Earlier, the **[!UICONTROL Download]** dialog appeared with multiple options such as create separate folder for each asset, email asset, select original asset, custom renditions, dynamic renditions, exclude system renditions, and enable download acceleration, which were ambiguous to non-technical or new users specially when multiple assets or folders were selected for download. Also, the user could not see all the asset renditions or exclude a specific custom or dynamic rendition.
 
-The new **[!UICONTROL Download]** dialog generalizes the asset selection and filtration process which makes it easier for the Brand Portal users to take effective decisions while downloading the asset renditions. It lists all the selected assets and their renditions depending on the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings. 
+The new **[!UICONTROL Download]** dialog generalizes the asset selection and filtration process which makes it easier for the Brand Portal users to take effective decisions while downloading the asset renditions. It lists all the selected assets and their renditions depending on the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings. 
 
 >[!NOTE]
 >
 >All the users now have **[!UICONTROL Fast Download]** enabled by default and requires IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) installed in their browser's extension before downloading the assets from Brand Portal.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 From the **[!UICONTROL Download]** dialog, the users can:
@@ -218,7 +218,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, the users can exclude specific renditions and directly [download the selected renditions from the Renditions panel](brand-portal-download-assets.md#download-assets-from-asset-details-page) in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
+In Brand Portal 2020.10.0, the users can exclude specific renditions and directly [download the selected renditions from the Renditions panel](download-assets.md#download-assets-from-asset-details-page) in the asset details page without having to open the **[!UICONTROL Download]** dialog. 
 
 
 <!-- 
@@ -288,7 +288,7 @@ With Document Viewer, the Brand Portal users now have the options to view pages,
 
 ### Download Experience {#download-configurations}
 
-The asset download process is revamped, providing a simplified user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). 
+The asset download process is revamped, providing a simplified user experience while [downloading assets from Brand Portal](download-assets.md). 
 
 The existing workflow of downloading assets from Brand Portal is inevitably followed by the appearance of a  **[!UICONTROL Download]** dialog with multiple download options to choose from. 
 
