@@ -117,6 +117,7 @@ Brand Portal users can download multiple assets, folders containing assets, and 
 >Contact the Brand Portal administrator if you do not have permission to access or download the asset renditions.   
 
 If the user has access to renditions, the user is provided with the enhanced **[!UICONTROL Download]** dialog with the following capabilities:
+
 * View all the available renditions of any asset in the download list.
 * Exclude renditions of the assets which are not required for download.
 * Apply the same set of renditions to all the similar asset types in one click.
@@ -179,18 +180,20 @@ Following are the steps to download assets or folders containing assets from the
    The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. 
 
    ![download-dialog](assets/download-dialog-box-new.png)
-
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
-   >
-   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
-
+   
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
 
    If you do not want to use IBM Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -244,6 +247,14 @@ Following are the steps to download asset renditions from the asset details page
 
    ![renditions-panel](assets/renditions-panel.png)
 
+
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
+
+   To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
+
+   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -251,12 +262,7 @@ Following are the steps to download asset renditions from the asset details page
    >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
    >
    >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
-
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to allow accelerated download using IBM Aspera Connect. 
-
-   To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
-
-   If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
+-->
 
 >[!NOTE]
 >

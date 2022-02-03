@@ -250,6 +250,7 @@ You can view all the available renditions of the asset on asset details page, an
 
 ![](assets/renditions.png)
 
+<!-- removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -257,6 +258,7 @@ You can view all the available renditions of the asset on asset details page, an
 >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
 >
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
 
