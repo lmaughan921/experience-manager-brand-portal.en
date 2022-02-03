@@ -137,7 +137,9 @@ This release includes the following known issues:
 
   However, the active users who are logged in to Brand Portal can continue to work until their current session expires. 
 
-* When navigating from Brand Portal to Admin Console, the administrators may see an extra screen to select the organization. 
+* When navigating from Brand Portal to Admin Console, the administrators may see an extra screen to select the organization.
+
+* If `Color Tags` are enabled and user downloads a folder or collection, an additional `xml` file is downloaded for each asset in the archived zip folder.
 
 
 <!--
