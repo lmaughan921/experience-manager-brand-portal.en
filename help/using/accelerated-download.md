@@ -4,8 +4,8 @@ seo-title: Speed up the Brand Portal downloads
 description: Enhance download performance from Brand Portal and the shared links.
 seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
-contentOwner: mgulati
-topic-tags: download-install
+contentOwner: Vishabh Gupta
+topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
@@ -64,7 +64,7 @@ The following table shows download performance for 2 GB file using Aspera Connec
 | London                    | 179                   | 35                                      | 58                                                               |
 | Singapore                 | 196                  | 34                                      | 60                                                               |
 
-## Download workflow using file accelerator {#download-workflow-using-file-accelerator}
+## Download assets {#download-assets}
 
 To download assets faster from Brand Portal:
 
