@@ -84,7 +84,7 @@ To download assets faster from Brand Portal:
 
    To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. 
 
-   The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. To know more on how to apply rules, see [download assets](../using/download-assets.md#download-assets).
+   The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. To know more on how to apply rules, see [download assets](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 

@@ -14,10 +14,10 @@ exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 # Download assets {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
- All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/download-assets.md#main-pars-header).
+ All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download assets (approved assets) from Brand Portal, and what to expect from the [download performance](../using/download-assets.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal enhances the download experience by allowing the users to simultaneously download assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download assets (approved assets) from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#expected-download-performance).
 
 
 >[!NOTE]

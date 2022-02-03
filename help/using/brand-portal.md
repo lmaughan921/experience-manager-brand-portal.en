@@ -77,7 +77,7 @@ However, guest session restricts you from creating collections and saved searche
 
 * [Search public assets](brand-portal-searching.md)
 
-* [Download public assets](download-assets.md)
+* [Download public assets](brand-portal-download-assets.md)
 
 * [Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -89,7 +89,7 @@ A standard user in Brand Portal is typically a user with the role of Viewer. A u
 
 * [Search for assets](brand-portal-searching.md)
 
-* [Download assets](download-assets.md)
+* [Download assets](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
