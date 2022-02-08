@@ -13,7 +13,7 @@ exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 ---
 # Search assets on Brand Portal {#search-assets-on-brand-portal}
 
-Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can also save your searches as smart collections for the future.
+Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can search assets at files or folder level and save your search results as smart collections. However, you cannot search assets of a collection using omnisearch or facet search.   
 
 ## Search assets using Omnisearch {#search-assets-using-omnisearch}
 
@@ -109,7 +109,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
 ## Save your searches as smart collection {#save-your-searches-as-smart-collection}
 
-You can save the search settings as a smart collection to be able to quickly repeat the same search without having to redo the same settings later.
+You can save the search settings as a smart collection to be able to quickly repeat the same search without having to redo the same settings later. However, you cannot apply search filters in a collection.    
 
 To save the search settings as a smart collection:
 
