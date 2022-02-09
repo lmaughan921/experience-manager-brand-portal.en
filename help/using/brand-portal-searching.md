@@ -13,7 +13,13 @@ exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 ---
 # Search assets on Brand Portal {#search-assets-on-brand-portal}
 
-Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can search assets at files or folder level and save your search results as smart collections. However, you cannot search assets of a collection using omnisearch or facet search.   
+Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can search assets at files or folder level and save your search results as smart collections. 
+
+>[!NOTE]
+>
+>Brand Portal does not support Collection search using omnisearch.
+>
+>However, you can use [search filters to get the list of relevant collections](#search-collection). 
 
 ## Search assets using Omnisearch {#search-assets-using-omnisearch}
 
@@ -130,3 +136,12 @@ To save the search settings as a smart collection:
 1. On the **[!UICONTROL Edit Smart Collection]** dialog box, select **[!UICONTROL Save As]** and enter a name for the smart collection. Click **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Search collection {#search-collection}
+
+Omnisearch is not supported for collections. However, you can apply search filters to list the relevant collections from within the [!UICONTROL Collections] interface. 
+
+From the [!UICONTROL Collections] interface, click the overlay icon to open the filter panel in the left rail. Apply single or multiple search filters from the available filters (`modified date`, `access type`, and `tags`). It lists the most relevant set of collections based on the applied filters.    
+
+![](assets/collection-search.png)
