@@ -71,7 +71,7 @@ Licensed assets are subject to the acceptance of a license agreement prior to do
 
 License-protected assets have [license agreement attached](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) to them, which is done by setting the asset's metadata property in [!DNL Experience Manager Assets]. 
 
-An asset is considered protected if either of the following metadata properties (or both) are defined:
+An asset is considered protected if it contains one of the following (or both) metadata properties:
 
 * `xmpRights:WebStatement`: It points to the path of the page that contains the license agreement for the asset. `xmpRights:WebStatement` should be a valid path in the repository.  
 * `adobe_dam:restrictions`: The value of this property is a raw HTML that specifies the license agreement. 
