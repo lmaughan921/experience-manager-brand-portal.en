@@ -64,7 +64,7 @@ After going through the asset requirements, the Brand Portal users can create ne
 
 >[!NOTE]
 >
->The Brand Portal users can upload assets only to the NEW folder.
+>The Brand Portal users can upload assets (maximum of **2**GB per file size) to the NEW folder. 
 >
 >The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders.
 >
