@@ -73,7 +73,7 @@ License-protected assets have [license agreement attached](https://experiencelea
 
 An asset is considered protected if it contains one of the following (or both) metadata properties:
 
-* `xmpRights:WebStatement`: Ihis property refers to the path of the page that contains the license agreement for the asset. `xmpRights:WebStatement` should be a valid path in the repository.  
+* `xmpRights:WebStatement`: This property refers to the path of the page that contains the license agreement for the asset. `xmpRights:WebStatement` should be a valid path in the repository.  
 * `adobe_dam:restrictions`: The value of this property is a raw HTML that specifies the license agreement. 
 
 
