@@ -107,7 +107,11 @@ Apart from the tasks that a Viewer can perform, an Editor can perform the follow
 
 An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
 
-An administrator can perform all tasks that an Editor can perform the following additional tasks:
+>[!NOTE]
+>
+>In Brand Portal, a user marked with the role of support administrator in [!UICONTROL Admin Console] has the same privileges as of a system administrator.
+
+An administrator can perform all tasks that an Editor can perform. Following are the additional tasks that an administrator can perform:
 
 * [Manage users, groups, and user roles](brand-portal-adding-users.md)
 
