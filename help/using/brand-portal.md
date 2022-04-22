@@ -67,9 +67,9 @@ The following table lists the tasks that users in these roles can perform:
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Guest user {#guest-user}
+### Guest user (Light user) {#guest-user}
 
-Any user having limited access to assets on Brand Portal without undergoing authentication is a guest user. The guest session allows users access to public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collections. You can search, download, and add public assets to [!UICONTROL Lightbox] collection.
+Experience Manager Assets Brand Portal allows [guest access](#request-access-to-brand-portal) to Brand Portal. A guest user does not need credentials to enter the portal and has access to the public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collections. You can search, download, and add public assets to [!UICONTROL Lightbox] collection.
 
 However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
@@ -81,9 +81,11 @@ However, guest session restricts you from creating collections and saved searche
 
 * [Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-### Viewer {#viewer}
+For more information, see [guest access to Brand Portal](../using/guest-access.md). 
 
-A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
+### Viewer (Standard user) {#viewer}
+
+A standard user is a Brand Portal user defined in [!DNL Admin Console] who has access to Brand Portal with the role of Viewer. A user with this role can login to Brand Portal and access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
 * [Browse assets](browse-assets-brand-portal.md)
 
