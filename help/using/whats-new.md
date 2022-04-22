@@ -383,7 +383,10 @@ Also, all existing functionality remains unchanged. Brand Portal users can view,
 
 ### Upload assets to contribution folder {#upload-assets-in-bp} 
 
-Brand Portal users with appropriate permissions can download the asset requirements to understand the need of contribution and upload multiple assets or folders containing multiple assets to the contribution folder. However, please note that Brand Portal users are only able to upload assets to the **NEW** subfolder. The **SHARED** folder is meant for the distribution of requirements and baseline assets. 
+Brand Portal users with appropriate permissions can upload individual assets or folder (.zip file) containing multiple assets to the contribution folder. A user can upload multiple assets to an asset contribution folder. However, only one folder can be created at a time. 
+
+The Brand Portal users are only able to upload assets to the **NEW** subfolder. The **SHARED** folder is meant for the distribution of requirements and baseline assets. 
+
 
 ![](assets/upload-asset6.png)
 
