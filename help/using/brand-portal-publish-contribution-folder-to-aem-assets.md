@@ -60,7 +60,7 @@ Go through the brief (asset requirement document) and refer to the baseline asse
 
 ## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
-After going through the asset requirements, the Brand Portal users can create new assets for contribution and upload them to the NEW folder within the contribution folder.
+After going through the asset requirements, the Brand Portal users can create new assets for contribution and upload them to the NEW folder within the contribution folder. A user can upload multiple assets to an asset contribution folder. However, only one folder can be created at a time.
 
 >[!NOTE]
 >
