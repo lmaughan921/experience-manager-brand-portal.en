@@ -120,9 +120,7 @@ This release includes fixes to the following critical issues:
 
 * Sourcing published report displays an incorrect job start time.
 
-* Partial localisation in Asset sourcing report content.
-
-  
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -151,13 +149,9 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 This release includes the following known issues:
 
-* The users cannot log in to Brand Portal during migration of their existing organization. 
-
-  However, the active users who are logged in to Brand Portal can continue to work until their current session expires. 
-
-* When navigating from Brand Portal to Admin Console, the administrators may see an extra screen to select the organization.
-
 * If `Color Tags` are enabled and user downloads a folder or collection, an additional `xml` file is downloaded for each asset of the folder (or collection) in the archived zip folder.
+
+* Partial localisation in Asset sourcing report content.
 
 
 <!--
