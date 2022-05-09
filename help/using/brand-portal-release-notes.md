@@ -147,9 +147,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 ### Known Issues {#known-issues}
 
-This release includes the following known issues:
-
-* If `Color Tags` are enabled and user downloads a folder or collection, an additional `xml` file is downloaded for each asset of the folder (or collection) in the archived zip folder.
+This release includes the following known issue:
 
 * Partial localisation in Asset sourcing report content.
 
