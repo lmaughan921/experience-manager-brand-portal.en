@@ -1,8 +1,8 @@
 ---
 title: What's new in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: What are the new features and enhancements for 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: What are the new features and enhancements for 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
