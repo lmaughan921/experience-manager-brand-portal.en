@@ -101,7 +101,7 @@ This release includes the following enhancements:
 
 ### New features {#new-features}
 
-Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. See [What's new in Experience Manager Assets Brand Portal](whats-new.md)
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
 
 
 ### Critical Issues Fixed {#critical-issues-fixed}
