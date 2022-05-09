@@ -118,11 +118,9 @@ This release includes fixes to the following critical issues:
 
 * When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Sourcing published report does not display the results in reverse chronological order.
-
-* Sourcing published report has missing internationalization for date format and event time.
-
 * Sourcing published report displays an incorrect job start time.
+
+* Partial localisation in Asset sourcing report content.
 
   
 <!--
