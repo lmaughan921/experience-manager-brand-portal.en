@@ -1,11 +1,11 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Anuj Kapoor
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
@@ -13,20 +13,20 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.02.0|
-| Date | February 2022 |
+| Version | 2022.05.0|
+| Date | March 2022 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 2022.02.0 {#whats-new-in-2022.02.0}
+## What's New in 2022.05.0 {#whats-new-in-2022.05.0}
 
 <!--
 ### New Features {#new-features}
@@ -87,12 +87,6 @@ This release includes the following enhancements:
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
 * The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
--->
-
-
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issues:
 
 * The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
 * The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
@@ -102,7 +96,33 @@ This release includes fixes to the following critical issues:
 * When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
 * If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
 * The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
-* The system is not reflecting the correct value for the number of active concurrent users. 
+* The system is not reflecting the correct value for the number of active concurrent users.
+-->
+
+### New features {#new-features}
+
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. See [What's new in Experience Manager Assets Brand Portal](whats-new.md)
+
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
+
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
+
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded. ZIP file.
+
+* Issues while downloading video assets from certain folders available on Brand Portal.
+
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+
+* Sourcing published report does not display the results in reverse chronological order.
+
+* Sourcing published report has missing internationalization for date format and event time.
+
+* Sourcing published report displays an incorrect job start time.
 
   
 <!--
