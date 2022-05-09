@@ -24,7 +24,7 @@ Brand Portal now executes automatic jobs every twelve hours to delete all Brand 
 * Job status
 * Total assets included in a job
 * Total assets successfully deleted in a job.  
-  You can also drill-down further to view the details of each asset included in a delete job. You can view details such as asset title, size, author, delete status, and deletion time.
+  You can also drill-down further to view the details of each asset included in a delete job. Details such as asset title, size, author, delete status, and deletion time are included in the report.
 
   In addition, Brand Portal 2022.02.0 includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
