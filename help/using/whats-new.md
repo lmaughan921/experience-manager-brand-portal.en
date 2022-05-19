@@ -23,7 +23,8 @@ Brand Portal now executes automatic jobs every twelve hours to delete all Brand 
 * Job end time
 * Job status
 * Total assets included in a job
-* Total assets successfully deleted in a job.
+* Total assets successfully deleted in a job
+* Total storage made available as a result of the job run
 
 ![Deletion Report](assets/deletion-reports.png)
 

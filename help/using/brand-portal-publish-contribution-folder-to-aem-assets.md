@@ -151,3 +151,47 @@ There are two reports which the administrators can utilize to view the status of
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Automatic deletion of assets published to Experience Manager Assets from Contribution folder {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal now executes automatic jobs every twelve hours to scan all Contribution folders and delete all assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. You can also monitor the status of the automatically executed delete jobs during the last seven days in Brand Portal. The report for a job provides the following details:
+
+* Job start time
+* Job end time
+* Job status
+* Total assets included in a job
+* Total assets successfully deleted in a job
+* Total storage made available as a result of the job run
+
+   ![Deletion Report](assets/deletion-reports.png)
+
+You can also drill-down further to view the details of each asset included in a delete job. Details such as asset title, size, author, delete status, and deletion time are included in the report.
+
+![Deletion Report Detailed](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Customers can request Adobe Customer Support to disable and reenable the delete job or change the frequency of its execution.
+> * This feaure is available for Experience Manager 6.5.13.0 and later releases. 
+
+### View and download deletion reports {#view-delete-jobs}
+
+To view and download reports for a delete job:
+
+1. In Brand Portal, navigate to **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** option.
+
+1. Select a job and click **[!UICONTROL View]** to view the report.
+
+   View the details of each asset included in a delete job. Details such as asset title, size, author, delete status, and deletion time are included in the report. Click **[!UICONTROL Download]** to download the report for the job in CSV format.
+
+### Delete a report
+
+Brand Portal also allows you to select one or multiple reports and delete them manually.
+
+To delete a report:
+
+1. Navigate to **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** option.
+
+1. Select one or more reports and click **[!UICONTROL Delete]**.
+
+
