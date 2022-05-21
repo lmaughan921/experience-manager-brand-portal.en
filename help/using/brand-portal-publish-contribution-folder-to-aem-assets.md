@@ -58,7 +58,7 @@ Or, you can to open the **[!UICONTROL SHARED]** folder and click the **Download*
 Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder..
 
 
-## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
+## Upload assets to contribution folder {#upload-new-assets-to-contribution-folder}
 
 After going through the asset requirements, the Brand Portal users can create new assets for contribution and upload them to the NEW folder within the contribution folder. A user can upload multiple assets to an asset contribution folder. However, only one folder can be created at a time.
 
@@ -154,7 +154,7 @@ There are two reports which the administrators can utilize to view the status of
 
 ## Automatic deletion of assets published to Experience Manager Assets from Contribution folder {#automatically-delete-published-assets-from-contribution-folder}
 
-Brand Portal now executes automatic jobs every twelve hours to scan all Contribution folders and delete all assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. You can also monitor the status of the automatically executed delete jobs during the last seven days in Brand Portal. The report for a job provides the following details:
+Brand Portal now executes automatic jobs every twelve hours to scan all Contribution folders and delete all assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the [threshold limit](#upload-new-assets-to-contribution-folder). You can also monitor the status of the delete jobs automatically executed during the last seven days. The report for a job provides the following details:
 
 * Job start time
 * Job end time
@@ -171,8 +171,8 @@ You can also drill-down further to view the details of each asset included in a 
 
 >[!NOTE]
 >
-> * Customers can request Adobe Customer Support to disable and reenable the delete job or change the frequency of its execution.
-> * This feaure is available for Experience Manager 6.5.13.0 and later releases. 
+> * Customers can request Adobe Customer Support to disable and reenable the automatic delete job capability or to change the frequency of its execution.
+> * This feature is available with Experience Manager 6.5.13.0 and later releases. 
 
 ### View and download deletion reports {#view-delete-jobs}
 
@@ -183,6 +183,16 @@ To view and download reports for a delete job:
 1. Select a job and click **[!UICONTROL View]** to view the report.
 
    View the details of each asset included in a delete job. Details such as asset title, size, author, delete status, and deletion time are included in the report. Click **[!UICONTROL Download]** to download the report for the job in CSV format.
+
+   The delete status for an asset in the report can have the following possible values:
+
+   * **Deleted** - The asset is deleted from the Contribution folder successfully.
+
+   * **Not Found** - Brand Portal could not find the asset in the Contribution folder. The asset is already deleted from the folder manually.
+
+   * **Skipped** - Brand Portal skipped the asset deletion as there is a new version available for the asset in the Contribution folder, which is not yet published to Experience Manager.
+
+   * **Failed** - Brand Portal failed to delete the asset. There are three retry attempts to delete an asset with a `Failed` delete status. If the asset fails the third retry delete attempt, you need to delete the asset manually. 
 
 ### Delete a report
 
