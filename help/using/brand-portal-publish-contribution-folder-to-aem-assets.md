@@ -132,7 +132,7 @@ There are two reports which the administrators can utilize to view the status of
 
 * In Brand Portal, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. This report reflects the status of all the publishing jobs at different stages of the publishing workflow.  
 
-  ![](assets/contribution-folder-status.png)
+  ![](assets/contribution-folder-status-v2.png)
 
 * In Experience Manager Assets (on premise or managed service), navigate to **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. This report reflects the final state (Success or Error) of all the publishing jobs. 
 
