@@ -160,7 +160,7 @@ To request access, do the following:
 
    The [!UICONTROL Request Access] page opens.
 
-1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Business ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
    In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
 
@@ -168,7 +168,7 @@ To request access, do the following:
 
     **Scenario 1**
 
-    1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
+    1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Business ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
     The [!UICONTROL Sign in] page opens.
 
     1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.
